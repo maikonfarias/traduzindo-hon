@@ -1,0 +1,229 @@
+﻿kill0								{killer_color}{killer}^* pwned a cabeça do {victim_color}{victim}^* por ^y{gold}^* gold!!
+kill1								{killer_color}{killer}^* pwned a cabeça do {victim_color}{victim}^* por ^y{gold}^* gold!! Assist: {assist0_color}{assist0}
+kill2								{killer_color}{killer}^* pwned a cabeça do {victim_color}{victim}^* por ^y{gold}^* gold!! Assists: {assist0_color}{assist0}^*, {assist1_color}{assist1}
+kill3								{killer_color}{killer}^* pwned a cabeça do {victim_color}{victim}^* por ^y{gold}^* gold!! Assists: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}
+kill4								{killer_color}{killer}^* pwned a cabeça do {victim_color}{victim}^* por ^y{gold}^* gold!! Assists: {assist0_color}{assist0}^*, {assist1_color}{assist1}^*, {assist2_color}{assist2}^*, {assist3_color}{assist3}
+first_kill							{killer_color}{killer}^* está com ^rbloodlust^*! (^y+{gold}^* gold!)
+killstreak0							{killer_color}{killer}^* é um ^082serial killer^*!
+killstreak1							{killer_color}{killer}^* é um ^204ultimate warrior^*!
+killstreak2							{killer_color}{killer}^* é ^808legendary^*!
+killstreak3							{killer_color}{killer}^* está em uma ^840onslaught^*!
+killstreak4							{killer_color}{killer}^* é ^440savage sick^*!!
+killstreak5							{killer_color}{killer}^* é ^848dominating^*!!
+killstreak6							{killer_color}{killer}^* é um ^800CHAMPION OF NEWERTH^*!!!
+killstreak7							{killer_color}{killer}^* está fazendo um  ^840BLOODBATH^*!! Alguem MATE ELE!
+
+streakend0							{killer} encerrou {victim}'s ^082serial killer^* fase por ^y{gold}^* gold!!
+streakend1							{killer} encerrou {victim}'s ^204ultimate warrior^* fase por ^y{gold}^* gold!!
+streakend2							{killer} encerrou {victim}'s ^808legendary^* fase por ^y{gold}^* gold!!
+streakend3							{killer} encerrou {victim}'s ^840onslaught^* fase por ^y{gold}^* gold!!
+streakend4							{killer} encerrou {victim}'s ^440savage sick^* fase por ^y{gold}^* gold!!
+streakend5							{killer} encerrou {victim}'s ^848domination^* fase por ^y{gold}^* gold!!
+streakend6							{killer} encerrou {victim}'s ^800CHAMPION OF NEWERTH^* fase por ^y{gold}^* gold!!
+streakend7							{killer} encerrou {victim}'s ^840BLOODBATH^* fase por ^y{gold}^* gold!!
+
+multikill0							{killer} acabou de pegar uma ^008Double Tap^*!
+multikill1							{killer} acabou de pegar uma ^084Hat-trick^*!!!
+
+killtower							{killer} destruio uma torre. {reward} como recompensa ^y{gold}^* bonus gold!
+denytower							{player} foi ^444denied^* uma torre!
+killcourier							{victim}'s mensageiro foi detonado por {killer}!
+
+teamkillstreak0						Alguem está OWNING!!!
+teamkillstreak1						^rThe Legion^* estão ^rOWNING!!!^*
+teamkillstreak2						^170The Hellbourne^* está ^170OWNING!!!^*
+
+teamwipe							{team} foi totalmente detonado!!! 
+
+teamkill							{killer} pwned {victim}'s cabeça!! ^y{gold}^* gold foi dividido.
+
+neutralkill							{victim} foi assasinado por Neutral Creeps.
+kongorkill							{victim} foi assasinado por Kongor.
+
+suicide								{victim} cometeu suicídio!
+
+kill								{victim} morreu.
+
+teamkilltower						{killer} destruio uma torre. {killer} foi reconpensado ^y{gold}^* bonus gold!
+teamdenytower						{denier} foi ^444denied^* uma torre!
+
+killkongor							{killer} destruío Kongor. {reward} foi reconpensado ^y{gold}^* bonus gold!
+teamkillkongor						{killer} destruío Kongor. {killer} foi reconpensado ^y{gold}^* bonus gold!
+
+share0								{player} não está mais compartilhando o controle de suas unidades com você.
+share1								{player} está mais compartilhando o controle de suas unidades com você.
+share2								{player} está mais compartilhando o controle de seus mensageiros com você.
+share3								{player} está mais compartilhando o controle de suas unidades com você.
+
+powerup								{player} has picked up ^r{powerup}^*
+
+creepupgrade						Os creeps Ficaram mais fortes...
+megacreeps							{killer} has destroyed all of {victim}'s unit producing structures. {killer} now has Mega Creeps.
+
+smackdown							{victim} foi atropelado por {killer}!
+humiliation							{killer} humilhou {victim}!
+nemesis								{killer} está totalmente OWNING {victim}!
+retribution							{killer} acabpou de ganhar RETRIBUTION contra {victim}!
+
+client_connected					{player_color}{player}^* conectou.
+client_reconnected					{player_color}{player}^* reconectou. (Tempo restante desconectado: {time})
+client_disconnected					{player_color}{player}^* desconectou.
+client_terminated					{player_color}{player}^* saiu. O seu herou foi removido e os seus itens foi distribuido por entre o seu time.
+
+hero_pick							{player_color}{player}^* escolheu ^885{hero_name}^*.
+hero_random							{player_color}{player}^* randomizou ^885{hero_name}^*.
+hero_repick							{player_color}{player}^* este escolhendo denovo. ^885{hero_name}^* está novamente disponível.
+hero_swap							{player_color}{player}^* trocou de herois com  {player2_color}{player2}^*.
+hero_swap_request					{player_color}{player}^* pedio para trocar de herois com você.
+
+player_ready						{player_color}{player}^* é ^ganancioso^*.
+player_unready						{player_color}{player}^* é ^rnão está pronto^*.
+
+error_target_invulnerable			Alvo é invunerável.
+error_not_ready						{tool} não está pronto ainda.
+error_low_mana						Sem mana suficiente para usar o {tool}.
+error_no_proxy						Sem available proxy para {tool}.
+error_not_unit_ability				Deve escolher uma unidade para usar esta habilidade.
+error_not_unit_item					Deve escolher uma unidade para usar este item.
+error_not_unit						Deve escolher uma unidade.
+error_invalid_target				Este não é um alvo válido.
+
+chat_all							^269[ALL] {color}{player} ({hero}): ^*{message}
+chat_team							^y[TEAM] {color}{player} ({hero}): ^*{message}
+chat_all_lobby							^269[ALL] {color}{player}: ^*{message}
+chat_team_lobby							^y[TEAM] {color}{player}: ^*{message}
+server_message						^188[SERVER] ^yMensagem do servidor: {message}
+
+error_item_unavailable				{item} não está disponível neste local.
+error_low_gold_item					Não pode pagar por {item}.
+error_low_gold_recipe				Não pode pagar por {item}.
+
+str_bonus							{value} Força
+str_bonus_per_level					{value_per_level} Força por nível
+str_bonus_per_charge				{value_per_charge} Força por charge
+agi_bonus							{value} Agilidade
+agi_bonus_per_level					{value_per_level} Agilidade por nível
+agi_bonus_per_charge				{value_per_charge} Agilidade por charge
+int_bonus							{value} Inteligência
+int_bonus_per_level					{value_per_level} Inteligência por nível
+int_bonus_per_charge				{value_per_charge} Inteligência por charge
+max_health_bonus					{value} Máximo de vida
+max_health_mult_bonus				{value}%% Máximo de vida
+max_mana_bonus						{value} Máximo de mana
+max_mana_mult_bonus					{value}%% Máximo de mana
+base_damage_mult_bonus				{value}%% Dano Base
+damage_bonus						{value} Dano
+move_speed_bonus					{value} Velocidade de movimento
+move_speed_mult_bonus				{value}%% Velocidade de movimento
+move_speed_mult_bonus_per_charge	{value}%% Velocidade de movimento por charge
+move_speed_slow_bonus				{value}%% Atraso de movimento
+move_speed_slow_bonus_per_charge	{value}%% Atraso de movimento por charge
+attack_speed_bonus					{value} Velocidade de ataque
+attack_speed_bonus_per_charge		{value} Velocidade de ataque por charge
+cast_speed_bonus					{value} Casta velocidade
+armor_bonus							{value} Armadura
+armor_bonus_per_charge				{value} Armadura por charge
+magic_armor_bonus					{value} Armadura magica
+magic_armor_bonus_per_charge		{value} Armadura magica por charge
+health_regen_percent_bonus			{value}%% Vida por segundo
+health_regen_bonus					{value} Regeneração de vida
+health_regen_mult_bonus				{value}%% Regeneração de vida
+mana_regen_percent_bonus			{value}%% Mana por segundo
+mana_regen_bonus					{value} Regeneração de mana
+mana_regen_mult_bonus				{value}%% Regeneração de mana
+deflection_bonus					{value1}%% chance de bloquear {value2} dano de ataque
+evasion_bonus						{value}%% Evasão
+ranged_evasion_bonus				{value}%% Evasão de ranged
+melee_evasion_bonus					{value}%% Evasão de melee
+miss_chance_bonus					{value}%% Chance de erro
+lifesteal_bonus						{value}%% Roubo de vida
+critical_bonus						{value1}%% chance por {value2}x golpe crítico
+incoming_damage_mult_bonus			{value}%% Dano sofrido
+debuff_duration_mult_bonus			{value}%% Duração de debuff
+heal_mult_bonus						{value}%% Cura recebida
+silenced_bonus						Silenciado
+perplexed_bonus						Perplexo
+disarmed_bonus						Disarmado
+immobilized_bonus					Imobilizado
+revealed_bonus						Revelado
+reveal_bonus						{value} Alcance de visão
+stealth_bonus						Escondido com {value} tempo restante
+unitwalking_bonus					Unidade andando
+immunity_bonus						{type} Imunidade
+invulnerable_bonus					Invunerabilidade
+dispel_on_damage_bonus				Dispel no dano
+dispel_on_action_bonus				Dispel na ação
+
+script_on_attack					No Ataque
+script_on_attack_impact				No Impacto do ataque
+script_on_attacked_pre_impact		Atacado
+script_on_attacked_post_impact		Atacado
+script_on_activate_pre_impact		Na ativação
+script_on_activate_impact			Na ativação
+script_on_ability_impact			Na ativação da abilidade
+script_on_damage					No dano levado
+script_on_damaged					No dano
+script_on_kill						No assasinato
+script_on_killed					Na morte
+
+action_toggle						Toggle
+action_no_target					
+action_target_position				Posição do alvo
+action_target_unit					Unidade do alvo
+action_target_global				Global
+action_target_self					Mim
+action_facing						Encarando
+action_self_position				Minha posição
+action_attack						Ataque
+
+ability_levelup_max					^gNível Maximo^*
+ability_levelup_available			^yClick para subir o nivel desta abilidade^*
+ability_levelup_unavailable			^rPrerequisitos não atingidos^*
+
+aura_range_global					Global
+
+item_recipe							{name} Receita
+
+activate_ability					Click para ativar esta habilidade
+activate_item						Click para ativar este item
+activate_item_no_share				^rDisabled - Owned por {name}
+activate_item_borrowed				^gEmprestado de 
+activate_passive					^gEsta abilidade é passiva
+
+attribute_strength					Força
+attribute_agility					Agilidade
+attribute_intelligence				Inteligência
+
+attribute_damage_bonus				{value} Dano
+attribute_health_bonus				{value} Vida máxima
+attribute_health_regen_bonus		{value} Regeneração de vida
+attribute_attack_speed_bonus		{value} Velocidade de ataque
+attribute_armor_bonus				{value} Armadura
+attribute_mana_bonus				{value} Mana máxima
+attribute_mana_regen_bonus			{value} Regeneração de mana
+
+auto_assemble						Auto
+
+shop_action_view_recipe				^yClick para ver esta receita
+shop_action_view_item				^yClick para ver este item
+shop_action_auto_assemble			^yEste item encaixa automaticamente
+shop_action_already_purchased		^gEste item já é seu
+shop_action_cannot_shop				^rEsta unidade não pode carregar estes itens
+shop_action_cannot_afford_item		^rNão tenho dinheiro para este item
+shop_action_cannot_afford_recipe	^rNão tenho dinheiro para esta receita
+shop_action_purchase_item			^yClick para comprar este item
+shop_action_purchase_recipe			^yClick para comprar esta receita
+shop_action_unavailable				^rNão disponível neste local
+
+vote_called						{color}{player}^* Pediu um voto: {vote}
+vote_called_concede				{color}{player}^* Pediu um voto para o {team_color}{team}^* escolher.
+vote_called_remake				{color}{player}^* Pediu um voto para refazer a partida.
+vote_called_kick				{color}{player}^* Pediu um voto para retirar {target_color}{target}^*.
+vote_passed						Voto aprovado.
+vote_failed						Voto não aprovado.
+
+team_concede					{color}{team}^* entregou a partida. Status para o resto da partida não será gravado todos os jogadores estão livres para abandonar a partida sem penalidade.
+game_abandoned					Seus companheiros te abandonaram. A partida vai continuar, mas você está livre para abandonar a partida sem penalidade.
+afk_warning						Você esta correndo perigfo de ser desconectado por ficar parado, saia da base e vá para a batalha!
+
+// END
