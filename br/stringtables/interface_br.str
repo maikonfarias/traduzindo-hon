@@ -34,7 +34,7 @@ general_full_games							Full Games
 general_all									All
 general_none								None
 general_view								View
-general_wait								Please Wait...
+general_wait								Aguarde...
 general_date								Date
 general_decline								Decline
 general_approve								Approve
@@ -120,7 +120,7 @@ main_login_auto_auth_tip					When selected, your password will be saved and you 
 main_login_invis_mode						Invisible Mode
 main_login_invis_mode_tip					When selected, your friends and clan mates will not be notified when you sign on/off or join/leave games, but you will still receive their notifications.
 main_login_lost_pass						Lost Login Info?
-main_login_password_saved					<salvo>
+main_login_password_saved					<salva>
 
 
 main_reconnect_header						Reconectar?
