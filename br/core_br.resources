@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resourcelist>
 	<fontface file="/core/fonts/game.ttf">
 		<fontmap name="dyn_6" size="6" dynamic_fontsize="true" baseresolution="768" axis="y" />
