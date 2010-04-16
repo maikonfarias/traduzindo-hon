@@ -1,4 +1,4 @@
-#labels Phase-Implementation
+#labels Phase-Implementation,Featured
 = Guia de como editar os arquivos do repositório do google code usando svn =
 
 == Programas ==
