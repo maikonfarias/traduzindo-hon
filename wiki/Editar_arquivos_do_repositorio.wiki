@@ -1,0 +1,44 @@
+#labels Phase-Implementation
+= Guia de como editar os arquivos do repositório do google code usando svn =
+
+== Programas ==
+<a href="http://sourceforge.net/projects/notepad-plus/files/notepad%2B%2B%20releases%20binary">Notepad++</a>
+
+<a href="http://tortoisesvn.net/downloads">TortoiseSVN</a> 32bits
+
+
+== Procedimentos ==
+
+* Instalar o TortoiseSVN e reiniciar o PC
+
+* Criar uma pasta do projeto com o nome que achar melhor, clicar com o botão direito do mouse e clicar em SVN Checkout
+
+http://traduzindo-hon.googlecode.com/svn/img/guia_svn2.jpg
+
+* Nessa tela coloque o endereço do repositório do projeto do google code, em "URL of repository" coloque https://traduzindo-hon.googlecode.com/svn , observe que tem um S no https
+
+http://traduzindo-hon.googlecode.com/svn/img/guia_svn3.jpg
+
+* Com isso vc ja vai ter os todos os arquivos que estavam no repositório na pasta que você criou no seu computador
+
+* Agora você pode editar, salvar e criar novos arquivos se precisar
+
+* Para upar suas alterações pro repositório do google code você clica na pasta do projeto ou em alguma parte em branco dentro das pastas e clica em SVN Commit
+
+http://traduzindo-hon.googlecode.com/svn/img/guia_svn1.jpg
+
+* Selecione os arquivos alterados pra confirmar e escreva um comentário ou descrição sobre a alteração (ajuda a controlar melhor o projeto) e clique em ok
+
+http://traduzindo-hon.googlecode.com/svn/img/guia_svn5.jpg
+
+* Se estiver tudo correto ele vai pedir usuario e senha
+
+http://traduzindo-hon.googlecode.com/svn/img/guia_svn4.jpg
+
+* O usuario é o nome do email, o meu por exemplo é maikonfarias, sem @gmail.com, a senha não é a senha do email, a senha é a que o google code gera pro svn 
+
+* <a href="https://code.google.com/hosting/settings"> Pegar password do Google Code aqui</a>
+
+* Caso de tudo certo ele vai mandar pro servidor e é só clicar em ok, se der algo errado, entrar em contato com um dos donos do projeto ou no forum que alguem pode ajudar
+
+===Obrigado===
