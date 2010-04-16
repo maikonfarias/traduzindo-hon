@@ -8,12 +8,12 @@ EffectType_Physical												Físico
 EffectType_Magic												Magia
 EffectType_StatusBuff											Buff
 EffectType_StatusDebuff											Debuff
-EffectType_Dominate												Dominate
-EffectType_Transmute											Transmute
-EffectType_Disable												Disable
-EffectType_Astrolabe											Astrolabe
-EffectType_Transfigure											Transfigure
-EffectType_Push													Push
+EffectType_Dominate												Dominar
+EffectType_Transmute											Transmutar
+EffectType_Disable												Desabilitar
+EffectType_Astrolabe											Astrolábio
+EffectType_Transfigure											Transfigurar
+EffectType_Push													Empurra
 EffectType_Splash												Splash
 EffectType_SuperiorMagic										Magia Superior
 EffectType_SuperiorPhysical										Físico Superior
