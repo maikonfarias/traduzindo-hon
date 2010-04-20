@@ -1610,84 +1610,84 @@ mainlobby_gamelist_more_desc				The host has enabled at least one of several adv
 
 
 // replay_viewer.package
-replayv_header_replay_viewer				Local Replays
-replayv_button_local_replays				Local Replays
-replayv_button_online_replays				Online Replays
-replayv_header_replay_list					Replay List
-replayv_header_replay_details				Replay Details
-replayv_button_view_replay					View Replay
-replayv_button_download_compat				Compatize
-replayv_button_close_window					Close Window
-replayv_label_replay_detail_info			To view replay details, select a replay file from the list at the left.
-replay_viewer_game_options					^yGame Options:^* {options}
-replay_view_tip_online						Browse the online database of replays.
-replayv_label_match_id						Match ID: 
-replayv_label_version						Version: 
-replayv_label_date_played					Date played: 
-replayv_label_match_length					Match Length: 
-replayv_label_map							Map: 
-replayv_label_game_mode						Game Mode: 
-replayv_button_view_match_winner			View Winner
-replayv_tip_online_replays					You may download replays of matches by logging in and selecting "Play Online", and then clicking the "Match Stats" button.
-replayv_tip_replay_list						Replays allow you to watch past matches, from the perspective of any player, or that of a spectator. 
-replay_compat_calculating					Calculating Download
-replay_compat_downloading					Downloading
-replay_compat_writing						Writing Archive
-replay_compat_version						Version: ^w{version}
-replay_compat_files							Files Remaining: ^w{count} / {total}
-replay_compat_progress						Progress: ^w{count}MB / {total}MB
-replay_compat_speed							Download Speed: ^w{speed}KB/sec
-replay_compat_time							Time Left: ^w{time}
+replayv_header_replay_viewer				Replays Locais
+replayv_button_local_replays				Replays Locais
+replayv_button_online_replays				Replays Online
+replayv_header_replay_list					Lista de Replays
+replayv_header_replay_details				Detalhes do Replay
+replayv_button_view_replay					Ver Replay
+replayv_button_download_compat				Compatibilizar
+replayv_button_close_window					Fechar Janela
+replayv_label_replay_detail_info			Para ver os detalhes do replay, selecione um arquivo de replay na lista à esquerda.
+replay_viewer_game_options					^yOpções de jogo:^* {options}
+replay_view_tip_online						Navegar no banco de dados online de replays.
+replayv_label_match_id						ID da partida: 
+replayv_label_version						Versão: 
+replayv_label_date_played					Data do jogo: 
+replayv_label_match_length					Duração da partida: 
+replayv_label_map							Mapa: 
+replayv_label_game_mode						Modo do jogo: 
+replayv_button_view_match_winner			Ver ganhador
+replayv_tip_online_replays					Você pode baixar replays de partidas logando e selecionando "Play Online", e entao clicando o botão "Estatísticas da partida".
+replayv_tip_replay_list						Replays lhe permitem assistir partidas passadas, da perspectiva de qualquer jogador, ou de um espectador. 
+replay_compat_calculating					Calculando Download
+replay_compat_downloading					Baixando
+replay_compat_writing						Escrevendo arquivo
+replay_compat_version						Versão: ^w{version}
+replay_compat_files							Arquivos restantes: ^w{count} / {total}
+replay_compat_progress						Progresso: ^w{count}MB / {total}MB
+replay_compat_speed							Velocidade de Download: ^w{speed}KB/sec
+replay_compat_time							Tempo restante: ^w{time}
 
 // preorder_features.package
-pofeatures_header							Pre-Purchase Your HoN Account
-pofeatures_title1							PRE-PURCHASE TODAY
-pofeatures_title2							NO RECURRING FEES!
-pofeatures_ppbenefit1						RESERVE YOUR BETA NICKNAME
-pofeatures_ppbenefit2						BETA INVITES FOR YOUR FRIENDS
-pofeatures_ppbenefit3						ABILITY TO TAUNT IN-GAME
-pofeatures_ppbenefit4						SPECIAL IN-GAME ICON
-pofeatures_ppbenefit5						UNIQUE CHAT NAME COLOR
-pofeatures_ppbenefit6						As a pre-purchased account you will no longer see this ad!
-pofeatures_onetime							ONE TIME FEE!
-pofeatures_oneusd							USD
-pofeatures_feature_learnmore				Learn More
-pofeatures_feature_gameplay					GAMEPLAY IMPROVEMENTS
-pofeatures_feature_engine					ENGINE ADVANTAGES
-pofeatures_feature_matchmaking				Matchmaking System
-pofeatures_feature_matchmakingtxt			Get matched with similar players if you are playing yourself or with a team of friends.
-pofeatures_feature_stattracking				Stat Tracking
-pofeatures_feature_stattrackingtxt			Many statistics are tracked automatically by the game. Access an enormous amount of valuable data online or in-game.
-pofeatures_feature_heroes					Diverse Heroes
-pofeatures_feature_heroestxt				Play with heroes new to HoN as well as many of the best heroes your are already familiar with.
-pofeatures_feature_ladder					Ladder Rankings
-pofeatures_feature_laddertxt				Player and clan ladders are automatically updated by the game. See where you rank against the competition.
-pofeatures_feature_editor					Custom Map Editor
-pofeatures_feature_editortxt				Create new maps, or even new games with the included map editor.
-pofeatures_feature_reconnection				Game Reconnection
-pofeatures_feature_reconnectiontxt			Games are no longer ruined when a player is disconnected! Players that are disconnected, can rejoin the game.
-pofeatures_feature_noleaver					Leaver Protection
-pofeatures_feature_noleavertxt				Create and play in restricted games that can not be joined by players with a history of leaving games early.
-pofeatures_feature_netcode					Client-Server Netcode
-pofeatures_feature_netcodetxt				No lag for all players when one player has a connection issue!
-pofeatures_feature_hotkeys					Re-Bindable Hotkeys
-pofeatures_feature_hotkeystxt				Bind custom hotkeys for almost every command in the game, allowing you to maximize your effectiveness.
-pofeatures_feature_voip						Built in VOIP
-pofeatures_feature_voiptxt					No need for an external voice chat program. Voice chat is incorporated into the HoN engine.
-pofeatures_pptoday							To Pre-Purchase, Visit Our Website Today!
+pofeatures_header							Pré compre a sua conta no HoN
+pofeatures_title1							PRÉ COMPRE HOJE!
+pofeatures_title2							SEM TAXAS RECORRENTES!
+pofeatures_ppbenefit1						RESERVE SEU NICK DO BETA
+pofeatures_ppbenefit2						CONVITES BETA PARA SEUS AMIGOS
+pofeatures_ppbenefit3						HABILIDADE PARA TAUNTAR DENTRO DO JOGO
+pofeatures_ppbenefit4						ICONE ESPECIAL NO JOGO
+pofeatures_ppbenefit5						COR ÚNICA DE NOME NO CHAT
+pofeatures_ppbenefit6						Com uma conta pré-paga você nao vê mais essa propaganda!
+pofeatures_onetime							PAGA SOMENTE UMA VEZ!
+pofeatures_oneusd							USD (Dólar)
+pofeatures_feature_learnmore				Leia Mais
+pofeatures_feature_gameplay					MELHORIAS NA JOGABILIDADE
+pofeatures_feature_engine					VANTAGENS DA ENGINE
+pofeatures_feature_matchmaking				Sistema Matchmaking
+pofeatures_feature_matchmakingtxt			Entre numa partida com players no mesmo nível que você, estando sozinho ou com um time de amigos.
+pofeatures_feature_stattracking				Acompanhamento de Estatísticas
+pofeatures_feature_stattrackingtxt			Muitas estatísticas são gravadas automaticamente pelo jogo. Acesse uma quantidade enorme de dados online ou no jogo.
+pofeatures_feature_heroes					Heroes Diversos
+pofeatures_feature_heroestxt				Jogue com heros novos no HoN assim como os melhores heros que você já conhece.
+pofeatures_feature_ladder					Rankings Ladder
+pofeatures_feature_laddertxt				A Ladder de Players e Clans são atualizadas automaticamente pelo jogo. Veja a sua posição em relação à competição.
+pofeatures_feature_editor					Editor de Mapas
+pofeatures_feature_editortxt				Crie novos mapas, ou mesmo novos jogos com o editor de mapas embutido.
+pofeatures_feature_reconnection				Reconexão de Game
+pofeatures_feature_reconnectiontxt			Games não são mais arruinados quando um player é disconectado! Players disconectados podem voltar ao game.
+pofeatures_feature_noleaver					Proteção contra Leaver
+pofeatures_feature_noleavertxt				Crie e jogue em games que não podem ser acessados por players com um histórico de saída de jogo antes do fim.
+pofeatures_feature_netcode					Netcode Cliente-Servidor 
+pofeatures_feature_netcodetxt				Sem lag para todos os players quando só um tem problema de conexão!
+pofeatures_feature_hotkeys					Atalhos de Teclado Reassociàveis
+pofeatures_feature_hotkeystxt				Associe atalhos de teclado para quase todos os comandos de jogo, permitindo que voce maximize sua performance.
+pofeatures_feature_voip						Chat de Voz por IP Embutido
+pofeatures_feature_voiptxt					Sem necessidade de um VOIP externo. Chat por voz é incorporado na engine do HoN.
+pofeatures_pptoday							Para pré comprar uma conta, visite nosso website hoje!
 pofeatures_ulr								http://beta.heroesofnewerth.com/
-pofeatures_closemsg							To Pre-purchase your HoN account, log-in to the beta site and click the purchase button. Pre-purchasing your account is a one time fee, and your account will be ready to play as soon as the game is released.
+pofeatures_closemsg							Para pré comprar sua conta HoN, logue no site beta e clique no botão de compra (Purchase). Pré comprar a sua conta é um pagamento único, e sua conta estará pronta para jogar assim que o jogo for lançado.
 
 // game_replay_control.interface
-game_replay_control_speed					Speed 
-game_replay_control_viewing					^yViewing:^* 
-game_replay_control_view_as					View Replay As
-game_replay_control_view_as_tip				When a player name is selected, you will view the replay as if you were that player. Selecting spectator will allow you to view the replay using the spectator interface.
-game_replay_control_title					Replay Control
-game_replay_control_fog						Display Fog of War
-game_replay_control_fog_tip					When selected, the Fog of War will be displayed as seen by the selected player.
-game_replay_control_lockcam					Lock Camera
-game_replay_control_lockcam_tip				When selected, the camera will allways follow the selected player.
+game_replay_control_speed					Velocidade 
+game_replay_control_viewing					^Assistindo:^* 
+game_replay_control_view_as					Ver replay como
+game_replay_control_view_as_tip				Quando um nome de player é selecionado, voce assistirá o replay como se você fosse ele. Selecionar espectador vai permirtir-lhe visualizar o replay na interface de espectador.
+game_replay_control_title					Controle de Replay
+game_replay_control_fog						Mostrar Fog of War
+game_replay_control_fog_tip					Quando selecionado, a Fog of War vai ser demonstrada como vista pelo player selecionado.
+game_replay_control_lockcam					Travar Câmera
+game_replay_control_lockcam_tip				Quando selecionado, a câmera sempre irá seguir o player selecionado.
 
 // game_loading.interface
 game_loading_button_cancel					Cancel Loading
