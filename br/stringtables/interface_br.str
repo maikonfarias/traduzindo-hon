@@ -2233,50 +2233,50 @@ weekday_thursday_short				Thurs
 weekday_friday_short				Fri
 weekday_saturday_short				Sat
 
-loading_tiptitle				Game Hint
-loading_tip1					Holding ^gCONTROL^* while using the shop will display recipe scrolls instead of the item, allowing you to quickly purchase the recipe.
-loading_tip2					While using an ability, you can hold ^gSHIFT^* and select another ability to put it in your ability queue. As soon as the first ability has completed the next ability will fire immediately after.
-loading_tip3					You can attack your own creeps when they are low health. If you kill them it results in a "deny" and surrounding enemies get much less experience than they would normally.
-loading_tip4					If you attack your tower when it is low and destroy it, the enemy team gets much less gold than if they had destroyed it themselves.
-loading_tip5					Typing /matchup or /ma in game will print a list of all the players, heroes, levels, and player colors.
-loading_tip6					You can sell an item from your stash by holding ^gSHIFT^* and ^gCONTROL^* when ^gRIGHT ^gCLICKING^* an item.
-loading_tip7					You can quickly transfer an item between your stash and inventory by holding ^gCONTROL^* and ^gRIGHT ^gCLICKING^* the item.
-loading_tip8					Lost track of where your hero is? Tapping the ^gC^* key will center the screen on your hero.
-loading_tip9					Magic Armor reduces the damage you take from Magic damage, which includes many spells and abilities.
-loading_tip10					Try to always have at least one Homecoming Stone. You never know when you'll need to help defend the other side of the map or use it to avoid being ganked.
-loading_tip11					Holding ground (^gH^* by default) will stop your hero from attacking or moving, allowing you to time last hits with more precision.
-loading_tip12					You can quickly share control of a courier with other players by clicking the small arrows above their pictures on the left side of the screen.
-loading_tip13					Wards of Sight are an inexpensive way to gain a large advantage over opponents by watching where they go and who they are with.
-loading_tip14					In the beginning of the game, never leave the base without a way to heal yourself.
-loading_tip15					Kongor respawns 10 minutes after he is killed and reclaims the Token of Life if it has not been used.
-loading_tip16					Kongor drops the Token of Life when killed. The Token resurrects the holder instantly when they die, but is consumed in the process.
-loading_tip17					Fear the Chiprel!
-loading_tip18					A special powerup spawns every two minutes in the river and can grant you movement speed, invisibility, regeneration, double damage, or illusions.
-loading_tip19					Neutral creeps respawn every minute as long as nothing is nearby. 
-loading_tip20					You can sell back an item for a full refund as long as it is within 15 seconds of when you bought it.
-loading_tip21					Killing the entire enemy team is called a Genocide.
-loading_tip22					At the beginning of the game you cannot take many hits before dying, so make sure to stay behind your creeps and not take much damage.
-loading_tip23					When the opposing team has heroes with invisibility, use Dust of Revelation, Wards of Revelation, or a Bound Eye to reveal them.
-loading_tip24					Recipes are not useful on their own, you need all of the components before they will do anything for you.
-loading_tip25					In the early game, if an enemy hero in your lane goes missing suddenly, be sure to let your team know. It can prevent them from being unexpectedly killed.
-loading_tip26					Teamwork is essential to win. If you find yourself getting killed a lot while alone, stick with some allies. 
-loading_tip27					Watch the Minimap. It is a great tool for keeping an eye on your enemies position. Be careful for missing enemy heroes or allies coming to help you kill in your lane.
-loading_tip28					Communication is important. Talk to your team, call for help, and listen to other players when they call a hero missing. 
-loading_tip29					To ping the minimap and alert your team, hold ^gALT^* and click an area! 
-loading_tip30					There is more then one way to play a hero. Try picking different items you might not normally use.
-loading_tip31					Couriers can be used to fill up bottles from the fountain.
-loading_tip32					Attacking enemy heroes when they are focusing on your teammate (and therefore ignoring you) can often turn a bad situation around. Use the opponents distraction to your advantage.
-loading_tip33					There are lots of places you can enter the trees to hide or take shortcuts. Learning where these are will greatly increase your survival chances.
-loading_tip34					When you read "Superior Magic" in a skill description, it means the skill will affect the target, even if it is magic immune.
-loading_tip35					Look to see what skills are on cooldown from your team by highlighting their portraits top left.
-loading_tip36					Your team will appreciate you more if you use high damage nukes early in fights rather than as finishers.
-loading_tip37					You can see the gold, skills, health, and mana, of your allies at the top left of your screen. If you select their hero, you can see their items.
-loading_tip38					Do not be afraid to lose. Good judgment comes from experience, and experience comes from bad judgment. Everyone was new at one point.
-loading_tip39					Be nice! A player will often ignore advice if you are screaming at them. Try saying it in a polite tone as a suggestion more than an order.
-loading_tip40					Typing /gameinfo or /gi in game will print a list of the current game options.
-loading_tip41					Clicking on this hint box will display a new hint.
-loading_tip42					Selecting a ^!yRegion^* and enabling the "Filter Pre-Query" checkbox on game browser interface will allow you to browse and refresh games faster.
-loading_tip43					When a notification pops up in game, you can ^gRIGHT ^gCLICK^* anywhere on it to close it rather than clicking the 'X' button.
+loading_tiptitle				Dica do jogo
+loading_tip1					Segurar ^gCONTROL^* enquanto você usa o shop vai monstrar scrolls de recipes em vez dos itens, permitindo que você compre a recipe rapidamente.
+loading_tip2					Enquanto usa uma habilidade, você pode segurar ^gSHIFT^* e selecionar outra habilidade para colocar na sua lista de habilidades. No momento que a primeira habilidade sair a próxima sairá imediatamente depois.
+loading_tip3					Você pode atacar seus próprios creeps quando eles estiverem morrendo. Se você matá-los resulta em um "deny" e os Heroes inimigos por perto ganham muito menos EXP do que o normal.
+loading_tip4					Se você atacar a sua torre com pouca vida e destruí-la, o time inimigo ganhará muito menos gold do que se eles tivessem destruídos. Isso se chama "tower deny".
+loading_tip5					Escrever /matchup ou /ma no jogo mostra uma lista de players, heroes, levels, e cor dos jogadores.
+loading_tip6					Você pode vender um item do seu stash segurando ^gSHIFT^* e ^gCONTROL^* quando der ^gCLICK DIREITO^* no item.
+loading_tip7					Você pode rapidamente transferir um item entre o seu stash e inventorio segurando ^gCONTROL^* e ^gCLICK DIREITO^* no item.
+loading_tip8					Não sabe aonde está seu Hero? Apertar a tecla ^gC^* vai centralizar a tela no seu Hero.
+loading_tip9					Magic Armor reduz o dano Mágico que você toma, o que inclui muitas magias e habilidades.
+loading_tip10					Tente sempre ter uma Homecoming Stone. Você nunca sabe quando vai precisa ajudar a defender o outro lado do mapa ou usá-la para escapar de emboscadas.
+loading_tip11					Ficar Parado (^gH^* por padrão) vai fazer seu Hero parar de se mover ou atacar, permitindo que você acerte melhor o tempo de ataque para last hits.
+loading_tip12					Você pode rapidamente dividir o controle de um courier com outros players clicando nas pequenas setas acima dos retratos deles no lado esquerdo da tela.
+loading_tip13					Wards of Sight são um jeito barato de ganhar uma grande vantagem sobre os inimigos por observar aonde eles vão e com quem eles estão.
+loading_tip14					No início do jogo, nunca saia da base sem um meio de se curar.
+loading_tip15					Kongor reaparece 10 minutos depois de morto e pega de volta o Token of Life se ele não foi usado.
+loading_tip16					Kongor dropa o Token of Life quando morto. O Token ressucita o dono quando ele morre, mas é consumido no processo.
+loading_tip17					Tenha medo do Chiprel!
+loading_tip18					Um powerup especial aparece no rio e pode lhe conceder velocidade de movimento, invisibilidade, regeneração, dano dobrado, ou ilusões.
+loading_tip19					Creeps neutros reaparecem a cada minuto desde que nada esteja por perto. 
+loading_tip20					Você pode vender um item de volta pelo dinheiro total dentro de 15 segundos do momento da compra.
+loading_tip21					Matar o time adversário inteiro seguido é chamado de Genocide.
+loading_tip22					No início do jogo você não pode tomar muitos hits sem morrer, então tenha certeza de estar atrás de seus creeps e não tomando dano.
+loading_tip23					Quando o time inimigo tem Heroes com invisibilidade, use Dust of Revelation, Wards of Revelation, ou um Bound Eye para revelar eles.
+loading_tip24					Recipes não são úteis sozinhas, você precisa de todos os componentes antes delas fazerem algo por você.
+loading_tip26					Trabalho em equipe é essencial para vencer. Se você morrer muitas vezes sozinho, fique junto com alguns aliados.
+loading_tip25					No início do jogo, se um Hero inimigo sumiu do nada, tenha certeza de avisar o seu time. Isso pode impedir eles de serem mortos de surpresa.
+loading_tip27					Fique de olho no MiniMapa. É uma ótima ferramente para ficar de olho na posição dos inimigos. Preste atenção em Heroes inimigos que sumiram ou de aliados que vieram ajudar a matar em sua lane.
+loading_tip28					Comunicação é importante. Fale com seu time, peça ajuda, e ouça quando outros jogadores dizerem que um Hero inimigo sumiu ("miss"). 
+loading_tip29					Para pingar no minimapa e alertar seus aliados, segure ^gALT^* e clique em uma área! 
+loading_tip30					Existe mais de um jeito de jogar com um Hero. Tente pegar itens diferentes que você não utiliza normalmente.
+loading_tip31					Couriers podem ser usados para encher um bottle na fonte da base.
+loading_tip32					Atacar Heroes inimigos quando estão focando ataque em seu Hero aliado (portanto te ignorando) pode inverter uma má situação. Use a distração de seus oponentes em sua vantagem.
+loading_tip33					Há muitos lugares para entrar nas árvores para se esconder ou pegar um atalho. Aprender aonde eles estão aumenta muito suas chances de sobrevivência.
+loading_tip34					Quando voce ler "Magia Superior" na descrição de uma skill, significa que a skill vai afetar o alvo, mesmo que eles estejam imunes.
+loading_tip35					Olhe quais skills estão em cooldown do seu time selecionando os retratos deles no canto superior esquerdo.
+loading_tip36					Seu time apreciará mais você se você usar skills de dano alto antes em uma luta do que como finalizadores.
+loading_tip37					Você pode ver o gold, skills, vida, e mana, dos seus aliados no canto superior esquerdo da tela. Se você selecionar um, você pode ver seus itens.
+loading_tip38					Não tenha medo de perder! Bons julgamentos vêm com experiência, e experiência vem de maus julgamentos. Todos foram novos em algum ponto.
+loading_tip39					Seja legal! Um jogador vai ignorar conselhos se você gritar com ele. Tente dizê-los em um tom respeitoso como uma sugestão antes do que uma ordem.
+loading_tip40					Escrever /gameinfo ou /gi no jogo vai mostrar uma lista com as opções do jogo atual.
+loading_tip41					Clicar nessa caixa de dicas mostra outra dica.
+loading_tip42					Selecionar uma ^!yRegião^* e ativar a caixa de marcação do "Filtrar Pré-Query" na interface de procura de games vai permitir buscar games mais rápido.
+loading_tip43					Quando uma notificação aparece em um game, você pode dar um ^gCLICK DIREITO^* em qualquer lugar dele para fechá-lo ou apertar o "X" na parte de cima.
 // increment this to (n - 1) when new tips are added to dynamically update the interface
 loading_tip_total				42
 
