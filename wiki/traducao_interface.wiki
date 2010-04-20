@@ -13,7 +13,7 @@ GVT
 1005 até 1341
 
 cc_ircchat game_hero_select main_lobby
-Khain
+IIIlll
 1344 até 1609
 
 replay preorder_features
@@ -24,17 +24,9 @@ game_lobby game_menu
 Einherjarl
 1693 até 1810
 
-main_create_account
-?
-1830 até 1856
-
-player_stats game_setup	
-?
-1859 até 1968
-
-tooltips
-?
-1972 até 2113
+main_create_account player_stats game_setup tooltips	
+Khain
+1830 até 2113
 
 ui_items descriptions e outros detalhes (nomes de coisas especificas ex: clan, dias da semana, acoes)
 ?
