@@ -1,58 +1,16 @@
 #labels Featured
-{{{
-general game_options
-khain
-1 até 589
-
-create_account credit_card
-IIIlll
-594 até 1002
-
-game.interface
-GVT
-1005 até 1341
-
-cc_ircchat game_hero_select main_lobby
-IIIlll
-1344 até 1609
-
-replay preorder_features
-Einherjarl
-1612 até 1690
-
-game_lobby game_menu
-Einherjarl
-1693 até 1810
-
-main_create_account player_stats game_setup tooltips	
-Khain
-1830 até 2113
-
-ui_items descriptions e outros detalhes (nomes de coisas especificas ex: clan, dias da semana, acoes)
-?
-2115 até 2234
-
-loading_tip
-Einherjarl
-2236 até 2279
-
-matchmaking
-?
-2284 até 2339
-
-chat notifications
-?
-2342 até 2451
-
-compendium
-?
-2455 até 2501
-
-ladder tournament
-?
-2504 até 2675
-
-system_bar
-Khain
-2678 até 2692
-}}}
+|| *Trecho / Pacotes* || *Nome* || *Linhas* ||
+||general game_options||Khain||1 até 589||
+||create_account credit_card||IIIlll||594 até 1002||
+||game.interface||GVT||1005 até 1341||
+||cc_ircchat game_hero_select main_lobby||IIIlll||1344 até 1609||
+||replay preorder_features||Einherjarl||1612 até 1690||
+||game_lobby game_menu||Einherjarl||1693 até 1810||
+||main_create_account player_stats game_setup tooltips||Khain||1830 até 2113||
+||ui_items descriptions e outros detalhes (nomes de coisas especificas ex: clan, dias da semana, acoes)||?||2115 até 2234||
+||loading_tip||Einherjarl||2236 até 2279||
+||matchmaking||?||2284 até 2339||
+||chat notifications||?||2342 até 2451||
+||compendium||?||2455 até 2501||
+||ladder tournament||?||2504 até 2675||
+||system_bar||Khain||2678 até 2692||
