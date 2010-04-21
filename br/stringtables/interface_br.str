@@ -1690,133 +1690,133 @@ game_replay_control_lockcam					Travar Câmera
 game_replay_control_lockcam_tip				Quando selecionado, a câmera sempre irá seguir o player selecionado.
 
 // game_loading.interface
-game_loading_button_cancel					Cancel Loading
+game_loading_button_cancel					Cancelar Loading
 
 
 // game_lobby
-gamelobby_phase_choosing					Choosing
-gamelobby_add_as_friend_tip					Add to Friends List
-globby_lock_tip								Lock Slot
-globby_kick_spec_tip						Kick from this game.
-globby_make_ref_tip							Make this player a referee
-globby_spot_locked							Locked
+gamelobby_phase_choosing					Escolhendo
+gamelobby_add_as_friend_tip					Adicionar à lista de amigos
+globby_lock_tip								Travar slot
+globby_kick_spec_tip						Retirar deste jogo.
+globby_make_ref_tip							Fazer este jogador um juíz
+globby_spot_locked							Travado
 
-gamelobby_add_friend_tip					Add {name} to Friends List
-gamelobby_take_slot_button					Take This Player Slot
-game_lobby_take_slot_color					Take {color} slot
-gamelobby_player_level_tip					Player's Level
-gamelobby_referee_tip						Referees are appointed by the Game Host. They are most commonly used in competitive play to enforce the rules of the match.
-gamelobby_kick_tip							Kick {name}
-game_lobby_mute								Mute/Unmute {name}
-gamelobby_make_referee_tip					Make {name} a Referee
-game_lobby_demote_referee					Demote Referee {name}
-game_lobby_no_referee						No Referee
-gamelobby_spectators_header					Spectators
-gamelobby_spectate_button					Become a Spectator
-gamelobby_disconnect_button					Disconnect
-gamelobby_disband_game_button				Disband Game
-gamelobby_disband_button					Disband
-gamelobby_start_game_button					Start Game
-gamelobby_private_button					Private Game
-gamelobby_private_tip_header				Private Game
-gamelobby_private_tip_text					By selecting this feature, your game will not show up in the Game List and will not be used by Quick Match. Players who have not been invited will not be able to join.
-game_lobby_match_name						^yMatch Name:^* {name}
-game_lobby_server_name						^yServer:^* {name}
+gamelobby_add_friend_tip					Adicionar {name} à lista de amigos
+gamelobby_take_slot_button					Pegar esse slot de player
+game_lobby_take_slot_color					Pegar o slot {color}
+gamelobby_player_level_tip					Level do jogador
+gamelobby_referee_tip						Árbitros são apontados pelo host do game. Eles são normalmente usados em jogos de competição para manter as regras da partida.
+gamelobby_kick_tip							Retirar {name}
+game_lobby_mute								Mutar/Desmutar {name}
+gamelobby_make_referee_tip					Fazer {name} um Árbitro
+game_lobby_demote_referee					Rebaixar o Árbitro {name}
+game_lobby_no_referee						Sem Árbitros
+gamelobby_spectators_header					Espectadores
+gamelobby_spectate_button					Tornar-se um espectador
+gamelobby_disconnect_button					Desconectar
+gamelobby_disband_game_button				Desfazer partida
+gamelobby_disband_button					Fechar
+gamelobby_start_game_button					Iniciar jogo
+gamelobby_private_button					Jogo Privado
+gamelobby_private_tip_header				Jogo Privado
+gamelobby_private_tip_text					Selecionando esse recurso, seu jogo não vai aparecer na Lista de Jogos e não vai ser usado pelo Quick Match. Jogadores que não forem convidados não poderão entrar.
+game_lobby_match_name						^yNome da Partida:^* {name}
+game_lobby_server_name						^yServidor:^* {name}
 game_lobby_ping								^yPing:^* {value}ms
-game_lobby_map								^yMap:^* {name}
-game_lobby_match_id_none					^yMatch ID:^444 <none>
-game_lobby_match_id							^yMatch ID:^* {value}
+game_lobby_map								^yMapa:^* {name}
+game_lobby_match_id_none					^yID da partida:^444 <none>
+game_lobby_match_id							^yID da partida:^* {value}
 game_lobby_host								^yHost:^* {host}
 game_lobby_num_players						^yPlayers:^* {count}/{max}
-game_lobby_version							^yVersion:^* {version}
-game_lobby_mode								^yGame Mode:^* {mode}
-game_lobby_options							^yGame Options:^* {options}
-game_lobby_leave_team_tip					Leave this team
-game_lobby_prediction_tip					Predicted chance for this team to win, based on Pub Skill Rating (PSR).
-game_lobby_rank_tip							{name}'s current Pub Skill Rating (PSR)
-game_lobby_point_value_penalty_tip			This player's point values are reduced by ^922{percent}^* due to their high level.
-game_lobby_psr_value_tip					This players Public Skill Rating (PSR)
-game_lobby_rsr_value_tip					This players Ranked Skill Rating (RSR)
-game_lobby_point_value_tip					Number of rating points at stake for this player.
-game_lobby_locklabel						You may lock players to their current slot by selecting them in the list below. If a player is locked, they will not be moved when Balance Teams is used.
-game_lobby_locksave							Lock Player Slots
-game_lobby_balanceteams_btn					Balance Teams
-game_lobby_balance_btn						Balance
-game_lobby_lock_tip_label					Clicking on the colored icon next to a slot will lock the slot. Players will not be able to take this slot until it is unlocked. Locking a slot will also prevent Balance Teams from moving the player that occupies that slot.
-game_lobby_host_locked_slot_tip				This slot is locked. Click here to unlock it. Players can not take a locked slot and Balance Teams will not move players from locked slots.
-game_lobby_host_locks_disabled_tip			Locking slots is disabled when the game option "Auto Balanced" is selected.
-game_lobby_host_open_slot_tip				This slot is unlocked. Click here to lock it. Players can not take a locked slot and Balance Teams will not move players from locked slots.
-game_lobby_locked_slot_tip					The host has locked this slot. No player can take a locked slot and Balance Teams will not move players from locked slots.
+game_lobby_version							^yVersão:^* {version}
+game_lobby_mode								^yMode do Jogo:^* {mode}
+game_lobby_options							^yOpções do Jogo:^* {options}
+game_lobby_leave_team_tip					Sair desse time
+game_lobby_prediction_tip					Suposta chance deste time ganhar, baseada na Avaliação pública de habilidade (PSR).
+game_lobby_rank_tip							Avaliação pública de habilidade (PSR) de {name}
+game_lobby_point_value_penalty_tip			Os pontos deste jogador foram reduzidos em ^922{percent}^* por causa de seu level alto.
+game_lobby_psr_value_tip					A avaliação pública de habilidade (PSR) deste jogador
+game_lobby_rsr_value_tip					A avaliação classificada de habilidade (RSR) deste jogador
+game_lobby_point_value_tip					Número de pontos de avaliação em jogo para este jogador.
+game_lobby_locklabel						Você pode travar jogadores em seu slot atual selecionando eles na lista abaixo. Se um player for travado, ele não será movido quando Balancear Times for usado.
+game_lobby_locksave							Travar slots dos jogadores
+game_lobby_balanceteams_btn					Balancear Times
+game_lobby_balance_btn						Balancear
+game_lobby_lock_tip_label					Clicar no ícone colorido no lado de um slot trava ele. Jogadores não poderão pegar esse slot até que seja destravado. Travar um slot também impede que o Balancear Times mova o jogador que está ocupando o slot.
+game_lobby_host_locked_slot_tip				Este slot está travado. Clique aqui para destravá-lo. Jogadores não podem pegar um slot travado e o Balancear Times não vai mover jogadores de slots travados.
+game_lobby_host_locks_disabled_tip			Travar slots é desativado quando a opção de game "Auto Balancear" é selecionada.
+game_lobby_host_open_slot_tip				Este slot está destravado. Clique aqui para travá-lo. Jogadores não podem pegar um slot travado e o Balancear Times não vai mover jogadores de slots travados.
+game_lobby_locked_slot_tip					O Host travou este slot. Nenhum jogador pode pegar um slot travado e o Balancear Times não vai mover jogadores de slots travados.
 
-game_lobby_swap_tip							Assign player to this color
-game_lobby_assign_spectator_tip				Assign player as a spectator
-game_lobby_assign_referee_tip				Assign player as a referee
-game_lobby_assign_host_tip					Assign player as the host
-game_lobby_kick_tip							Kick this player
+game_lobby_swap_tip							Associar player com esta cor
+game_lobby_assign_spectator_tip				Tornar este player um espectador
+game_lobby_assign_referee_tip				Tornar este player um árbitro 
+game_lobby_assign_host_tip					Tornar este player o host
+game_lobby_kick_tip							Retirar este player
 
-game_lobby_phase_banning					Banning Phase
-game_lobby_phase_picking					Picking Phase
+game_lobby_phase_banning					Fase de Banimento
+game_lobby_phase_picking					Fase de Escolha
 
 // game_menu.interface
-game_menu_header							Game Menu
-game_menu_client_functions_header			Client Functions
-game_menu_share_control_header				Unit Control Sharing Options and Player Voting
-game_menu_share_full						Full
+game_menu_header							Menu do Jogo
+game_menu_client_functions_header			Funções do Cliente
+game_menu_share_control_header				Opções de dividir controle de unidade e Votações dos jogadores
+game_menu_share_full						Cheio
 game_menu_share_courier						Courier
-game_menu_add_friend_tip					Add {player}^* to Friends List
-game_menu_return_button						Return To Game
-game_menu_options_button					Options
-game_menu_disconnect_button					Disconnect
-game_menu_concede_button					Concede
+game_menu_add_friend_tip					Adicionar {player}^* à Lista de Amigos
+game_menu_return_button						Retornar ao Jogo
+game_menu_options_button					Opções
+game_menu_disconnect_button					Desconectar
+game_menu_concede_button					Conceder
 game_menu_remake_button						Remake
-game_menu_quit_button						Quit HoN
-game_menu_match_id							Match ID: {id}
-game_menu_share_control_text				You may share control of your units with your teammates. It can be useful to share control with teammates to allow them to use your pets.
-game_menu_disband_confirm					Are you sure you want to disband?
-game_menu_disconnect_header					Confirm Disconnect
-game_menu_disconnect_confirm				Are you sure you want to disconnect?
-game_menu_disconnect_hide_checkbox			Don't Show This Message Again
-game_menu_disconnect_noleaver				You may leave without penalty.
-game_menu_leave_percentage_text				Your Leave Percentage is the percentage of games that you have left before finishing.  Many players will create games that require a certain Leave Percentage.  By disconnecting too many games early (a high percentage), you may limit your ability to join those restricted games.
-game_menu_quit_header						Confirm Quit
-game_menu_quit_confirm						Are you sure you want to exit to desktop?
-game_menu_leave_rate_text					Leave Rate:
-game_menu_empty_slot						-Empty Player Slot-
-game_menu_leave_rate_label					Leave Rate:
-game_menu_dont_show_again					Don't Show This Message Again
-game_menu_kick_tooltip						Call a vote to kick {player}
-game_menu_kick_disabled_other_vote_tooltip	You can not call a new vote until the current vote is over.
-game_menu_kick_disabled_cooldown_tooltip	You need to wait {time} seconds before you can call another vote.
-game_menu_remake_tooltip					Pressing this button will initiate a vote to remake the match. All players must vote unanimously in favor for the vote to pass. Remaking will put all players back in the lobby, as if the game had never started.
-game_menu_concede_tooltip					Pressing this button will initiate a vote to concede the match. Your team must vote unanimously in favor for the vote to pass. Conceding counts as a loss, however once the match has been conceded everyone is free to leave without any penalty.
-game_menu_currentleavepercent				Current Leave Percentage:
-game_menu_newleavepercent					New Leave Percentage:
-game_menu_newleavethreshold					New Leave Threshold:
-game_menu_endmatch							End Match Options
-game_menu_endmatch_description				If the correct criteria is met, you may end the current game. A vote may be required to remake or concede.
-game_menu_flow								Pause Options
-game_menu_flow_description					You may pause at any time, but a team vote is required.
-game_menu_pause_button						Pause
-game_menu_pause_tooltip						Pressing this button will initiate a vote to pause the match. Your team must vote unanimously in favor for the vote to pass. Pausing will happen 5 seconds after the vote passes.
-game_menu_unpause_button					Unpause
-game_menu_unpause_tooltip					Pressing this button will unpause the game in 5 seconds. The team that paused the game may unpause anytime. The opposing team must wait 1 minute before unpausing.
+game_menu_quit_button						Sair do HoN
+game_menu_match_id							ID da partida: {id}
+game_menu_share_control_text				Você pode dividir o controle de suas unidades com seus aliados. Pode ser útil dividir o controle com pessoas do time para deixá-los usar seus pets.
+game_menu_disband_confirm					Tem certeza que quer sair?
+game_menu_disconnect_header					Confirmar desconexão
+game_menu_disconnect_confirm				Tem certeza que quer desconectar?
+game_menu_disconnect_hide_checkbox			Não Mostrar Esta Mensagem Denovo
+game_menu_disconnect_noleaver				Você pode sair sem penalidades.
+game_menu_leave_percentage_text				Seu Percentual de Desistência é a quantidade de vezes que você saiu antes do jogo terminar. Muitos jogadores vao criar jogos que requerem uma certa Percentagem de Leaves.  Desconectar várias vezes antes do fim (uma percentagem alta) pode limitar sua habilidade de entrar em tais jogos.
+game_menu_quit_header						Confirmar saída
+game_menu_quit_confirm						Tem certeza que quer sair para a Área de Trabalho?
+game_menu_leave_rate_text					Taxa de Leaves:
+game_menu_empty_slot						-Slot vazio-
+game_menu_leave_rate_label					Desistência:
+game_menu_dont_show_again					Não Mostrar Esta Mensagem Denovo
+game_menu_kick_tooltip						Chamar um voto para retirar {player}
+game_menu_kick_disabled_other_vote_tooltip	Você não pode chamar um voto novo antes do atual terminar.
+game_menu_kick_disabled_cooldown_tooltip	Você precisa esperar {time} segundos antes de chamar outro voto.
+game_menu_remake_tooltip					Apertar este botão vai chamar um voto para refazer esta partida. Todos os jogadores tem que votar unanimamente para o voto passar. O Remake vai por todos os players no lobby denovo, como se o jogo nunca tivesse começado.
+game_menu_concede_tooltip					Apertar este botão vai chamar um voto para conceder a partida. Seu time tem que votar unanimamente para o voto passar. Conceder conta como derrota, mas quando a partida é concedida todos estão livres para sair dela sem penalidades.
+game_menu_currentleavepercent				Porcentagem de leaves atual:
+game_menu_newleavepercent					Nova porcentagem de leaves:
+game_menu_newleavethreshold					Novo limite de leaves:
+game_menu_endmatch							Opções de fim de partida
+game_menu_endmatch_description				Se os critétios corretos forem atendidos, você pode terminar o game atual. Um voto pode ser requerido para dar remake ou conceder.
+game_menu_flow								Opções de Pause
+game_menu_flow_description					Você pode pausar quando quiser, mas um voto do time é requerido.
+game_menu_pause_button						Pausar
+game_menu_pause_tooltip						Apertar este botão chama um voto para pausar a partida. Seu time tem de votar unanimamente à favor para o voto passar. O pause acontece 5 segundos depois do voto passar.
+game_menu_unpause_button					Retomar
+game_menu_unpause_tooltip					Apertar este botão vai despausar a partida em 5 segundos. O time que pausou a partida pode despausar a qualquer momento. O time oposto tem de esperar 1 minuto para despausar.
 
 // game_vote.package
-vote_concede								Concede?
+vote_concede								Conceder?
 vote_remake									Remake?
-vote_kick									Kick {target}^*?
+vote_kick									Retirar {target}^*?
 
 // alt_info_hero.interface
 alt_info_hero_level							Level {level}
 
 // cc_panel.interface
-cc_panel_unread_im							You have 1 unread IM.
-cc_panel_unread_ims							You have {count} unread IMs.
-cc_panel_invited							You've been invited to the game ^y'{game}'^* by ^y{player}^*
-cc_panel_resize								Resize
-cc_panel_leaveclan							Confirm Clan Status Change
-cc_panel_leaveclantxt						Are you sure you want to leave this clan? Once you leave a clan, you will have to be re-invited by a clan officer.
-cc_panel_leave_button						Yes, Leave Clan
+cc_panel_unread_im							Você tem 1 Msg não lida.
+cc_panel_unread_ims							Você tem {count} Msgs não lidas.
+cc_panel_invited							Você foi convidado para o jogo ^y'{game}'^* por ^y{player}^*
+cc_panel_resize								Reajustar
+cc_panel_leaveclan							Confirmar mudança no Status do Clan
+cc_panel_leaveclantxt						Tem certeza que deseja deixar este clan? Se sair você vai precisar ser convidado novamente por um Oficial do clan.
+cc_panel_leave_button						Sim, deixar Clan
 
 // tos.package
 tos_header									Termos de Serviço
