@@ -64,17 +64,17 @@ general_mode_no_respawn_timer				Sem Tempo para Renascer
 general_mode_drop_items						Perder Items
 general_mode_no_runes						Sem Superpoderes
 general_mode_super_creeps					Super Creeps
-general_mode_alt_hero_pick					Seleção Alternada de Heroes
+general_mode_alt_hero_pick					Seleção Alternada
 general_mode_duplicate_heroes				Heroes Duplicados
-general_mode_reverse_hero_select			Seleção Invertida de Heroes
-general_mode_no_top_lane					Sem faixa superior
-general_mode_no_middle_lane					Sem faixa central
-general_mode_no_bottem_lane					Sem faixa inferior
+general_mode_reverse_hero_select			Seleção Invertida
+general_mode_no_top_lane					Sem Top lane
+general_mode_no_middle_lane					Sem Middle lane
+general_mode_no_bottem_lane					Sem Botton lane
 general_mode_allow_veto						Permitir Veto
 general_mode_shuffle						Embaralhar Times
 general_mode_autobalance					Equilibrar Times
 general_mode_no_leavers						Sem Desistentes
-general_mode_no_stats						Sem Status
+general_mode_no_stats						Sem Estatísticas
 general_mode_official						Oficial
 
 
@@ -103,7 +103,7 @@ main_button_local_game						Partida Local
 main_button_options							Opções
 main_button_view_replay						Ver Replay
 main_button_quit							Sair
-main_quit_confirm							Realmente Sair?
+main_quit_confirm							Deseja realmente Sair?
 main_quit_confirm2							Você tem certeza que quer sair do HoN?
 main_label_update_avail						Uma nova versão do HoN está disponível para download! Você gostaria de baixar esta versão agora?
 main_button_cancel_update					Cancelar Update
@@ -111,7 +111,7 @@ main_label_update_calculating				Calculando Update
 main_label_update_downloading				Baixando Update
 main_label_old_version						De: ^w{version}
 main_label_new_version						Para: ^w{version}
-main_label_update_files						Arquivos Restando: ^w{count} / {total}
+main_label_update_files						Arquivos Restantes: ^w{count} / {total}
 main_label_update_progress					Progresso: ^w{count}MB / {total}MB
 main_label_update_speed						Velocidade de Download: ^w{speed}KB/seg
 main_label_update_time						Tempo Restante: ^w{time}
@@ -123,7 +123,7 @@ main_login_auto_auth_tip					Quando selecionado, sua senha será salva e você i
 main_login_invis_mode						Modo Invisível
 main_login_invis_mode_tip					Quando selecionado, seus amigos e clã não serão notificados quando você se conecta/desconecta ou entra/sai da partida, porém, você receberá as notificações deles.
 main_login_lost_pass						Recuperar Login/Senha?
-main_login_password_saved					<salvo>
+main_login_password_saved					<salva>
 
 //confirmations.package
 confirm_disconnect_title					Desconectar Do Jogo?
@@ -156,7 +156,7 @@ main_menu_tutorial							Iniciar Tutorial
 main_reconnect_header						Reconectar?
 main_reconnect_ok							Reconectar
 main_reconnect_body							Você tem {time} segundos para reconectar!
-main_reconnect_text							Você desconectou de uma partida em progresso e você pode retornar à este jogo.
+main_reconnect_text							Você desconectou de uma partida em progresso e você pode retornar ao jogo.
 main_reconnect_playing_in					Você está jogando em uma partida em progresso:
 
 
@@ -184,8 +184,8 @@ options_high								Alto
 options_very_high							Muito Alto
 options_header_game_options					Opções do Jogo
 options_header_video_options				Opções de Video
-options_label_display						Display
-options_display_tip							O display para usar quando o jogo estiver em modo tela-cheia.
+options_label_display						Monitor
+options_display_tip							O Monitor para usar quando o jogo estiver em modo tela-cheia.
 options_label_resolution					Resolução
 options_resolution_tip						O número de pixels mostrado verticalmente e horizontalmente no seu display.
 options_label_color_depth					Profundidade de Cor
@@ -292,412 +292,412 @@ options_voice_chat_volume_tip_header		Volume do Chat de Voz
 options_voice_chat_volume_tip				Ajusta o volume da Voz dos outros jogadores.
 options_label_microphone_volume				Volume do Microfone: ^w
 options_mic_volume_tip_header				Volume do Microfone
-options_mic_volume_tip						Ajusta o volume de entrada do seu microfone. The higher it is, the louder you will sound to other players.
-options_label_microphone_gain				Microphone Gain: ^w
-options_mic_gain_tip_header					Microphone Gain
-options_mic_gain_tip						Adjusts the volume of the input recorded from your microphone. The higher it is, the louder you will sound to other players.
-options_label_auto_sound_dampen				Auto Sound Dampen: ^w
-options_auto_dampen_tip_header				Auto Sound Dampen
-options_auto_dampen_tip						When you are using VOIP you can automatically reduce the level of other game sounds. Select your level of dampening by dragging the slider.
-options_checkbox_mic_boost					Mic Boost
-options_mic_boost_tip						Boosts microphone volume at the cost of sound quality.
-options_checkbox_disable_voice_chat			Disable Voice Chat
-options_disable_voice_chat_tip				Turn voice chat off. You will not hear chat from other players.
-options_checkbox_push_to_talk				Push To Talk
-options_push_to_talk_enable_tip				When Push To Talk is enabled, your mic will be turned on as long as the hotkey is depressed. If you do not use Push To Talk, your mic will be turned on automatically when you speak.
+options_mic_volume_tip						Ajusta o volume de entrada do seu microfone. Quanto mais alto, mais alto será o volume que os outros jogadores irão te escutar.
+options_label_microphone_gain				Ganho do Microfone: ^w
+options_mic_gain_tip_header					Ganho do Microfone
+options_mic_gain_tip						Ajusta o volume de entrada do seu microfone. Quanto mais alto, mais alto será o volume que os outros jogadores irão te escutar.
+options_label_auto_sound_dampen				Abafar Som Ao Falar: ^w
+options_auto_dampen_tip_header				Abafar Som Ao Falar
+options_auto_dampen_tip						Quando usando o VOIP você pode reduzir automaticamente os outros sons do jogo. Selecione o nível de abafamento ao mover a bolinha.
+options_checkbox_mic_boost					Melhora de Mic
+options_mic_boost_tip						Melhora o volume do microfone ao custo de qualidade sonora.
+options_checkbox_disable_voice_chat			Desabilitar Chat de Voz
+options_disable_voice_chat_tip				Desligar o chat de voz. Você não escutará os outros jogadores falando no microfone.
+options_checkbox_push_to_talk				Apertar Para Falar
+options_push_to_talk_enable_tip				Quando Apertar Para Falar estiver ligado, seu microfone só irá funcionar enquanto você apertar o botão designado. Se você não usar o Apertar Para Falar, seu microfone  funcionará automaticamente quando você falar.
 
 options_header_voice_chat_talk_settings		Voice Chat Talk Settings
-options_label_push_to_talk_keybind			Push To Talk Button
-options_push_to_talk_tip					Holding down this key will turn on your mic if you have Voice Chat enabled.
-options_label_lane_talk_keybind				Push To Lane Talk Button
-options_push_to_lane_talk_tip				Holding down this key will turn on your mic if you have Voice Chat enabled, however, it will only talk to nearby allies, not everyone on your team.
-options_label_mic_off_time					Mic Off Time
-options_mic_off_time_tip					Your mic will turn off after this amount of time without you saying anything.
-options_label_mic_on_sensitivity			Mic On Sensitivity
-options_mic_on_sensitivity_tip				Set the voice strength at which you want your mic to automatically turn on. The red arrow indicates the peak level of a mic level test. It is suggested that your sensitivity level is slightly lower than your peak mic level.
+options_label_push_to_talk_keybind			Apertar Para Falar
+options_push_to_talk_tip					Apertar esse botão irá ligar seu microfone se tiver com o Chat por Voz ativado.
+options_label_lane_talk_keybind				Apertar Para Falar na Lane
+options_push_to_lane_talk_tip				Apertar esse botão irá ligar seu microfone se tiver com o Chat por Voz ativado, porém, só irá falar com os aliados próximos, não todos do time.
+options_label_mic_off_time					Tempo Para Desligar Mic
+options_mic_off_time_tip					Seu microfone será desligado depois de passar essa quantidade de tempo sem você falar nele.
+options_label_mic_on_sensitivity			Sensibilidade do Mic
+options_mic_on_sensitivity_tip				Determina a altura da voz que irá ligar o microfone automaticamente. A seta vermelha indica o nível limite do teste. É sugerido que a sensibilidade esteja um pouco abaixo do que o nível limite.
 
 options_header_input_options				Opções de Entrada
-options_label_scroll_speed					Velocidade do Scroll: ^w
-options_camera_scroll_speed_tip_header		Camera Scroll Speed
-options_camera_scroll_speed_tip				Rate in game units per second at which the camera will move.
-options_checkbox_screen_edge_scroll			Screen Edge Scroll
-options_screen_edge_scroll_tip				If enabled, the camera will move when the mouse cursor is placed at the edge of the screen.
+options_label_scroll_speed					Velocidade da Câmera: ^w
+options_camera_scroll_speed_tip_header		Velocidade de Deslocamento da Camera
+options_camera_scroll_speed_tip				Determina em unidades do game por segundo o quão rápido a câmera se move.
+options_checkbox_screen_edge_scroll			Controle da Tela
+options_screen_edge_scroll_tip				Se habilitado, a câmera irá se mover quando o cursor for colocado nos cantos da tela.
 
-options_checkbox_camera_lock				Lock Camera
-options_screen_camera_lock_tip				If enabled, the camera will move with the hero.
+options_checkbox_camera_lock				Travar Camera
+options_screen_camera_lock_tip				Se habilitado, a câmera se moverá junto com seu Heróis.
 
 
-options_checkbox_constrain_cursor			Constrain Cursor
-options_constrain_cursor_tip				If enabled, the mouse cursor will be restricted from moving outside of the game window while the game window has focus.
-options_checkbox_display_xp_rewards			Display XP Reward
-options_display_xp_rewards_tip				If enabled, the game will show when your hero gains experience in game by drawing purple numbers at the source of the reward.
+options_checkbox_constrain_cursor			Confinar Cursor
+options_constrain_cursor_tip				Se ligado, o cursor do mouse será restringido de se mover fora da tela do jogo enquanto o Windows estiver focando a tela.
+options_checkbox_display_xp_rewards			Mostrar Ganho de XP
+options_display_xp_rewards_tip				Se habilitado, o jogo irá mostrar quando seu Heróis ganha experiência ao mostrar os números acima da sua origem.
 
-options_header_control_options				Control Options
-options_yellow_label_action					Action
-options_yellow_label_primary				Primary
-options_yellow_label_secondary				Secondary
+options_header_control_options				Opções de Controle
+options_yellow_label_action					Ação
+options_yellow_label_primary				Primário
+options_yellow_label_secondary				Secundário
 
-options_bind_instructions_button			To choose a new bind ^ypress^* a key or mouse button.
-options_bind_instructions_impulse			To choose a new bind ^ypress^* a key combination.
-options_bind_button_default					Default
-options_bind_button_clear					Clear Bind
-options_bind_header							Choose a New Bind
+options_bind_instructions_button			Para escolher uma nova ligação ^ypressione^* uma tecla ou botão do mouse.
+options_bind_instructions_impulse			Para escolher uma nova ligação ^ypressione^* uma combinação de teclas.
+options_bind_button_default					Padrão
+options_bind_button_clear					Limpar Ligação
+options_bind_header							Escolher Nova Ligação
 
-options_label_game_controls					Game Controls
-options_label_primary_keybind				Primary Button
-options_label_primary_keybind_tooltip		The primary button is used to select units, use abilities, and interact with the game interface.
-options_label_secondary_keybind				Secondary Button
-options_label_secondary_keybind_tooltip		The secondary button is used to issue context sensitive commands, such as moving and attacking.
-options_label_shift_keybind					Shift Modifier
-options_label_shiftmod_keybind_tooltip		Shift Modifier allows the user to queue up commands.
-options_label_ctrl_keybind					Ctrl Modifier
-options_label_ctrlmod_keybind_tooltip		Ctrl Modifier can be used in conjunction with several other miscellaneous game commands.
-options_label_on-screen_info_keybind		On-screen Info
-options_label_on-screen_info_toggle_keybind	Toggle On-screen Info
-options_label_camera_drag_keybind			Camera Drag
-options_label_minimap_ping_keybind			Minimap Ping
-options_label_open_game_menu_keybind		Open Game Menu
-options_label_open_shop_keybind				Open Shop
-options_label_chat_team_keybind				Chat (Team)
-options_label_chat_all_keybind				Chat (All)
-options_label_show_chat_keybind				Show Chat
-options_label_center_screen_keybind			Center
-options_label_center_screen_keybind_tooltip	Centers camera on primary selection, which is generally the unit you're currently controlling.
-options_label_center_info_keybind			Center on Info
-options_label_center_info_keybind_tooltip	Centers camera on secondary selections, such as other heroes and units.
-options_label_focus_event_keybind			Center on Last Event
-options_label_move_forward_keybind			Move Forward
-options_label_move_left_keybind				Move Left
-options_label_move_back_keybind				Move Back
-options_label_move_right_keybind			Move Right
-options_label_select_hero_keybind			Select Hero
-options_label_attack_keybind				Order Attack
-options_label_stop_keybind					Order Stop
-options_label_hold_keybind					Order Hold
-options_label_move_keybind					Order Move
-options_label_patrol_keybind				Order Patrol
-options_label_next_unit_keybind				Next Unit
-options_label_previous_unit_keybind			Previous Unit
-options_label_next_centered_keybind			Next Unit (Centered)
-options_label_previous_centered_keybind		Previous Unit (Centered)
-options_label_next_shopper_keybind			Next Shopper
-options_label_previous_shopper_keybind		Previous Shopper
-options_label_nshopper_center_keybind		Next Shopper (Centered)
-options_label_pshopper_center_keybind		Previous Shopper (Centered)
-options_label_acti_ab_1_keybind				Activate Ability 1
-options_label_acti_ab_2_keybind				Activate Ability 2
-options_label_acti_ab_3_keybind				Activate Ability 3
-options_label_acti_ab_4_keybind				Activate Ability 4
-options_label_acti_extra_ab_1_keybind		Activate Extra Ability 1
-options_label_acti_extra_ab_2_keybind		Activate Extra Ability 2
-options_label_acti_extra_ab_3_keybind		Activate Extra Ability 3
-options_label_attribute_boost_keybind		Attribute Boost
-options_label_acti_shared_1_keybind			Activate Shared Ability 1
-options_label_acti_inven_1_keybind			Activate Inventory 1
-options_label_acti_inven_2_keybind			Activate Inventory 2
-options_label_acti_inven_3_keybind			Activate Inventory 3
-options_label_acti_inven_4_keybind			Activate Inventory 4
-options_label_acti_inven_5_keybind			Activate Inventory 5
-options_label_acti_inven_6_keybind			Activate Inventory 6
-options_label_taunt_keybind					Taunt
-options_label_prev_attack_mod_keybind		Prev Attack Modifier
-options_label_next_attack_mod_keybind		Next Attack Modifier
+options_label_game_controls					Controles do Game
+options_label_primary_keybind				Botão Primário
+options_label_primary_keybind_tooltip		O botão primário é utilizado para selecionar unidades, usar habilidades e interagir com a interface do jogo.
+options_label_secondary_keybind				Botão Secundário
+options_label_secondary_keybind_tooltip		O botão secundário é usado para enviar comandos de contexto sensitivo, como mover e atacar.
+options_label_shift_keybind					Shift Modificador
+options_label_shiftmod_keybind_tooltip		O Shift Modificador permite que o usuário encadeie comandos.
+options_label_ctrl_keybind					Ctrl Modificador
+options_label_ctrlmod_keybind_tooltip		O Ctrl Modificador pode ser usado em conjunto com diversos outros comandos na partida.
+options_label_on-screen_info_keybind		Info Na Tela
+options_label_on-screen_info_toggle_keybind	Ligar/Desligar Info Na Tela
+options_label_camera_drag_keybind			Mover Câmera
+options_label_minimap_ping_keybind			Marca No Minimap
+options_label_open_game_menu_keybind		Abrir Menu do Jogo
+options_label_open_shop_keybind				Abrir Shop
+options_label_chat_team_keybind				Chat (Time)
+options_label_chat_all_keybind				Chat (Todos)
+options_label_show_chat_keybind				Mostrar Chat
+options_label_center_screen_keybind			Centralizar
+options_label_center_screen_keybind_tooltip	Centraliza a câmera na seleção primária, que geralmente é a unidade em que você estiver controlando.
+options_label_center_info_keybind			Centralizar no Info
+options_label_center_info_keybind_tooltip	Centraliza a câmera na sua seleção secundária, sendo estes outros heros e unidades.
+options_label_focus_event_keybind			Centralizar Último Evento
+options_label_move_forward_keybind			Mover Frente
+options_label_move_left_keybind				Mover Esquerda
+options_label_move_back_keybind				Mover Trás
+options_label_move_right_keybind			Mover Direita
+options_label_select_hero_keybind			Selecionar Heróis
+options_label_attack_keybind				Ordenar Ataque
+options_label_stop_keybind					Ordenar Parar
+options_label_hold_keybind					Ordenar Ficar
+options_label_move_keybind					Ordenar Mover
+options_label_patrol_keybind				Ordenar Patrulhar
+options_label_next_unit_keybind				Próxima Unidade
+options_label_previous_unit_keybind			Unidade Anterior
+options_label_next_centered_keybind			Próxima Unidade (Centralizada)
+options_label_previous_centered_keybind		Unidade Anterior (Centralizada)
+options_label_next_shopper_keybind			Próximo Shopper
+options_label_previous_shopper_keybind		Shopper Anterior
+options_label_nshopper_center_keybind		Próximo Shopper (Centralizado)
+options_label_pshopper_center_keybind		Shopper Anterior (Centralizado)
+options_label_acti_ab_1_keybind				Ativar Habilidade 1
+options_label_acti_ab_2_keybind				Ativar Habilidade 2
+options_label_acti_ab_3_keybind				Ativar Habilidade 3
+options_label_acti_ab_4_keybind				Ativar Habilidade 4
+options_label_acti_extra_ab_1_keybind		Ativar Habilidade Extra 1
+options_label_acti_extra_ab_2_keybind		Ativar Habilidade Extra 2
+options_label_acti_extra_ab_3_keybind		Ativar Habilidade Extra 3
+options_label_attribute_boost_keybind		Bônus de Atributos
+options_label_acti_shared_1_keybind			Ativar Habilidade Compartilhada 1
+options_label_acti_inven_1_keybind			Ativar Inventário 1
+options_label_acti_inven_2_keybind			Ativar Inventário 2
+options_label_acti_inven_3_keybind			Ativar Inventário 3
+options_label_acti_inven_4_keybind			Ativar Inventário 4
+options_label_acti_inven_5_keybind			Ativar Inventário 5
+options_label_acti_inven_6_keybind			Ativar Inventário 6
+options_label_taunt_keybind					Provocar
+options_label_prev_attack_mod_keybind		Anterior Modificador de Ataque 
+options_label_next_attack_mod_keybind		Próximo Modificador de Ataque
 options_label_levelup_keybind				Levelup
 options_label_frontqueue_keybind			Front Queue Modifier
-options_label_alternate_keybind				Secondary Activation Modifier
-options_label_acti_ab_1_sec_keybind			Activate Ability 1 Secondary
-options_label_acti_ab_2_sec_keybind			Activate Ability 2 Secondary
-options_label_acti_ab_3_sec_keybind			Activate Ability 3 Secondary
-options_label_acti_ab_4_sec_keybind			Activate Ability 4 Secondary
-options_label_acti_extra_ab_1_sec_keybind	Activate Extra Ability 1 Secondary
-options_label_acti_extra_ab_2_sec_keybind	Activate Extra Ability 2 Secondary
-options_label_acti_extra_ab_3_sec_keybind	Activate Extra Ability 3 Secondary
+options_label_alternate_keybind				Modificador Secundário de Ativação
+options_label_acti_ab_1_sec_keybind			Ativar Habilidade 1 Secundária
+options_label_acti_ab_2_sec_keybind			Ativar Habilidade 2 Secundária
+options_label_acti_ab_3_sec_keybind			Ativar Habilidade 3 Secundária
+options_label_acti_ab_4_sec_keybind			Ativar Habilidade 4 Secundária
+options_label_acti_extra_ab_1_sec_keybind	Ativar Habilidade Extra 1 Secundária
+options_label_acti_extra_ab_2_sec_keybind	Ativar Habilidade Extra  2 Secundária
+options_label_acti_extra_ab_3_sec_keybind	Ativar Habilidade Extra  3 Secundária
 
-options_header_control_groups				Control Groups
-options_label_recall_1_keybind				Recall Selection 1
-options_label_recall_2_keybind				Recall Selection 2
-options_label_recall_3_keybind				Recall Selection 3
-options_label_recall_4_keybind				Recall Selection 4
-options_label_recall_5_keybind				Recall Selection 5
-options_label_recall_6_keybind				Recall Selection 6
-options_label_recall_7_keybind				Recall Selection 7
-options_label_recall_8_keybind				Recall Selection 8
-options_label_recall_9_keybind				Recall Selection 9
-options_label_recall_10_keybind				Recall Selection 10
-options_label_save_selection_1_keybind		Save Selection 1
-options_label_save_selection_2_keybind		Save Selection 2
-options_label_save_selection_3_keybind		Save Selection 3
-options_label_save_selection_4_keybind		Save Selection 4
-options_label_save_selection_5_keybind		Save Selection 5
-options_label_save_selection_6_keybind		Save Selection 6
-options_label_save_selection_7_keybind		Save Selection 7
-options_label_save_selection_8_keybind		Save Selection 8
-options_label_save_selection_9_keybind		Save Selection 9
-options_label_save_selection_10_keybind		Save Selection 10
-options_label_add_selection_1_keybind		Add to Selection 1
-options_label_add_selection_2_keybind		Add to Selection 2
-options_label_add_selection_3_keybind		Add to Selection 3
-options_label_add_selection_4_keybind		Add to Selection 4
-options_label_add_selection_5_keybind		Add to Selection 5
-options_label_add_selection_6_keybind		Add to Selection 6
-options_label_add_selection_7_keybind		Add to Selection 7
-options_label_add_selection_8_keybind		Add to Selection 8
-options_label_add_selection_9_keybind		Add to Selection 9
-options_label_add_selection_10_keybind		Add to Selection 10
-options_label_remove_select_1_keybind		Remove from Selection 1
-options_label_remove_select_2_keybind		Remove from Selection 2
-options_label_remove_select_3_keybind		Remove from Selection 3
-options_label_remove_select_4_keybind		Remove from Selection 4
-options_label_remove_select_5_keybind		Remove from Selection 5
-options_label_remove_select_6_keybind		Remove from Selection 6
-options_label_remove_select_7_keybind		Remove from Selection 7
-options_label_remove_select_8_keybind		Remove from Selection 8
-options_label_remove_select_9_keybind		Remove from Selection 9
-options_label_remove_select_10_keybind		Remove from Selection 10
+options_header_control_groups				Controle de Grupos
+options_label_recall_1_keybind				Retornar Seleção 1
+options_label_recall_2_keybind				Retornar Seleção 2
+options_label_recall_3_keybind				Retornar Seleção 3
+options_label_recall_4_keybind				Retornar Seleção 4
+options_label_recall_5_keybind				Retornar Seleção 5
+options_label_recall_6_keybind				Retornar Seleção 6
+options_label_recall_7_keybind				Retornar Seleção 7
+options_label_recall_8_keybind				Retornar Seleção 8
+options_label_recall_9_keybind				Retornar Seleção 9
+options_label_recall_10_keybind				Retornar Seleção 10
+options_label_save_selection_1_keybind		Salvar Seleção 1
+options_label_save_selection_2_keybind		Salvar Seleção 2
+options_label_save_selection_3_keybind		Salvar Seleção 3
+options_label_save_selection_4_keybind		Salvar Seleção 4
+options_label_save_selection_5_keybind		Salvar Seleção 5
+options_label_save_selection_6_keybind		Salvar Seleção 6
+options_label_save_selection_7_keybind		Salvar Seleção 7
+options_label_save_selection_8_keybind		Salvar Seleção 8
+options_label_save_selection_9_keybind		Salvar Seleção 9
+options_label_save_selection_10_keybind		Salvar Seleção 10
+options_label_add_selection_1_keybind		Adicionar à Seleção 1
+options_label_add_selection_2_keybind		Adicionar à Seleção 2
+options_label_add_selection_3_keybind		Adicionar à Seleção 3
+options_label_add_selection_4_keybind		Adicionar à Seleção 4
+options_label_add_selection_5_keybind		Adicionar à Seleção 5
+options_label_add_selection_6_keybind		Adicionar à Seleção 6
+options_label_add_selection_7_keybind		Adicionar à Seleção 7
+options_label_add_selection_8_keybind		Adicionar à Seleção 8
+options_label_add_selection_9_keybind		Adicionar à Seleção 9
+options_label_add_selection_10_keybind		Adicionar à Seleção 10
+options_label_remove_select_1_keybind		Remover da Seleção 1
+options_label_remove_select_2_keybind		Remover da Seleção 2
+options_label_remove_select_3_keybind		Remover da Seleção 3
+options_label_remove_select_4_keybind		Remover da Seleção 4
+options_label_remove_select_5_keybind		Remover da Seleção 5
+options_label_remove_select_6_keybind		Remover da Seleção 6
+options_label_remove_select_7_keybind		Remover da Seleção 7
+options_label_remove_select_8_keybind		Remover da Seleção 8
+options_label_remove_select_9_keybind		Remover da Seleção 9
+options_label_remove_select_10_keybind		Remover da Seleção 10
 
-options_header_camera_controls				Camera Controls
-options_label_zoom_out_keybind				Zoom Out
-options_label_zoom_in_keybind				Zoom In
-options_label_free_look_keybind				Free Look
-options_label_reset_camera_keybind			Reset Camera
-options_label_camera_up_keybind				Camera Up
-options_label_camera_down_keybind			Camera Down
+options_header_camera_controls				Controles da Câmera
+options_label_zoom_out_keybind				Distanciar Zoom
+options_label_zoom_in_keybind				Aproximar Zoom
+options_label_free_look_keybind				Visão Livre
+options_label_reset_camera_keybind			Resetar Câmera
+options_label_camera_up_keybind				Subir Câmera
+options_label_camera_down_keybind			Descer Câmera
 
-options_header_random_stuff					Muting Options
-options_label_mute_sound_keybind			Mute Sound
-options_label_mute_music_keybind			Mute Music
+options_header_random_stuff					Opções de Mute
+options_label_mute_sound_keybind			Mutar Som
+options_label_mute_music_keybind			Mutar Música
 
-options_header_misc_controls				Additional Controls
+options_header_misc_controls				Controles Adicionais
 
 options_header_shop							Shop
-options_label_slot_1_keybind				Shop - Buy Item 1
-options_label_slot_2_keybind				Shop - Buy Item 2
-options_label_slot_3_keybind				Shop - Buy Item 3
-options_label_slot_4_keybind				Shop - Buy Item 4
-options_label_slot_5_keybind				Shop - Buy Item 5
-options_label_slot_6_keybind				Shop - Buy Item 6
-options_label_slot_7_keybind				Shop - Buy Item 7
-options_label_slot_8_keybind				Shop - Buy Item 8
-options_label_slot_9_keybind				Shop - Buy Item 9
-options_label_slot_10_keybind				Shop - Buy Item 10
-options_label_slot_11_keybind				Shop - Buy Item 11
-options_label_slot_12_keybind				Shop - Buy Item 12
-options_label_slot_13_keybind				Shop - Buy Item 13
-options_label_slot_14_keybind				Shop - Buy Item 14
-options_label_slot_15_keybind				Shop - Buy Item 15
-options_label_slot_16_keybind				Shop - Buy Item 16
-options_label_slot_17_keybind				Shop - Buy Item 17
-options_label_slot_18_keybind				Shop - Buy Item 18
-options_label_slot_19_keybind				Shop - Buy Item 19
-options_label_slot_20_keybind				Shop - Buy Item 20
-options_label_close_shop_keybind			Shop - Close Panel
-options_label_recipe_history_back_keybind	Recipe History Back
-options_label_recipe_history_for_keybind	Recipe History Forward
-options_btn_reset_all_controls				Reset All Controls
-options_btn_clear_shopkeys					Clear Shop Hotkeys
+options_label_slot_1_keybind				Shop - Comprar Item 1
+options_label_slot_2_keybind				Shop - Comprar Item 2
+options_label_slot_3_keybind				Shop - Comprar Item 3
+options_label_slot_4_keybind				Shop - Comprar Item 4
+options_label_slot_5_keybind				Shop - Comprar Item 5
+options_label_slot_6_keybind				Shop - Comprar Item 6
+options_label_slot_7_keybind				Shop - Comprar Item 7
+options_label_slot_8_keybind				Shop - Comprar Item 8
+options_label_slot_9_keybind				Shop - Comprar Item 9
+options_label_slot_10_keybind				Shop - Comprar Item 10
+options_label_slot_11_keybind				Shop - Comprar Item 11
+options_label_slot_12_keybind				Shop - Comprar Item 12
+options_label_slot_13_keybind				Shop - Comprar Item 13
+options_label_slot_14_keybind				Shop - Comprar Item 14
+options_label_slot_15_keybind				Shop - Comprar Item 15
+options_label_slot_16_keybind				Shop - Comprar Item 16
+options_label_slot_17_keybind				Shop - Comprar Item 17
+options_label_slot_18_keybind				Shop - Comprar Item 18
+options_label_slot_19_keybind				Shop - Comprar Item 19
+options_label_slot_20_keybind				Shop - Comprar Item 20
+options_label_close_shop_keybind			Shop - Fechar Painel
+options_label_recipe_history_back_keybind	Voltar Histórico de Manuais
+options_label_recipe_history_for_keybind	Avançar Histórico de Manuais
+options_btn_reset_all_controls				Resetar Controles
+options_btn_clear_shopkeys					Limpar Atalhos do Shop
 
 
 
-options_checkbox_health_always_on			Always Show Health Bars
-options_screen_health_always_on_tip			If enabled, health bars will always be displayed.
+options_checkbox_health_always_on			Sempre Mostrar Barras de Vida
+options_screen_health_always_on_tip			Se habilitado, as barras de vida irão ser mostradas sempre.
 
-options_checkbox_hover_hero_info			Display Hover Info
-options_screen_hover_hero_info_tip			If enabled, hero info will be displayed when hovering.
+options_checkbox_hover_hero_info			Mostrar Informações Flutuante
+options_screen_hover_hero_info_tip			Se habilitado, as informações dos heróis serão mostradas quando você passar o mouse sobre ele.
 
-options_checkbox_ground_sprite				Show Groundsprites
-options_screen_ground_sprite_tip			If enabled, a sprite will be displayed under heroes to convey team color or player color.
+options_checkbox_ground_sprite				Mostrar Aura Terrestre
+options_screen_ground_sprite_tip			Se habilitado, uma aura será mostrada embaixo dos heroes para determinar a cor dele ou do time.
 
-options_checkbox_team_or_player_color		Use Player Specific Colors
-options_screen_team_or_player_color_tip		Uses Player Specific Colors rather than Team Colors
+options_checkbox_team_or_player_color		Usar Cores Específicas de Jogadores
+options_screen_team_or_player_color_tip		Usa as Cores Específicas do Jogador ao invés das Cores de Times.
 
-options_checkbox_show_timestamps			Show Timestamps
-options_checkbox_show_timestamps_tip		If enabled, displays timestamps for in game chat.
+options_checkbox_show_timestamps			Mostrar Timestamp
+options_checkbox_show_timestamps_tip		Se habilitado, mostrará a hora de cada fala dentro do chat da partida.
 
-options_checkbox_reverse_minimap			Swap Mini Map
-options_checkbox_reverse_minimap_tip		If enabled, the mini map on the game interface is moved from the lower left to the lower right of the screen.
+options_checkbox_reverse_minimap			Inverter Mini Mapa
+options_checkbox_reverse_minimap_tip		Se habilitado, o mini mapa na interface da partida irá ser movido do canto inferior esquerdo para o canto inferior direito.
 
-options_checkbox_disable_notifications		Disable All Notifications
-options_checkbox_disable_notifications_tip	If enabled, no popup notifications will be displayed, but they will still be recorded to your notification history.
+options_checkbox_disable_notifications		Desabilitar Todas as Notificações
+options_checkbox_disable_notifications_tip	Se habilitado, nenhum popup de notificação será mostrado mas elas ainda serão gravadas no seu histórico de notificações.
 
-options_checkbox_disable_notifications_ingame		Disable Notifications When In Game
-options_checkbox_disable_notifications_ingame_tip	If enabled, no popup notifications will be displayed while in a game, but they will still be recorded to your notification history and display when not in a game.
+options_checkbox_disable_notifications_ingame		Desabilitar Notificações Dentro da Partida
+options_checkbox_disable_notifications_ingame_tip	Se habilitado, nenhum popup de notificação será mostrado durante a partida mas elas ainda serão gravadas no seu histórico de notificações e será mostrado quando não estiver em uma partida.
 
-options_checkbox_selection_highlight		Selection Highlight
-options_checkbox_selection_highlight_tip	If enabled, units will be highlighted when hovered over.
+options_checkbox_selection_highlight		Destacar Seleção
+options_checkbox_selection_highlight_tip	Se habilitado, unidades serão destacadas se o mouse passar por cima delas.
 
 
-options_checkbox_show_exp					Show Exp Numbers
-options_screen_show_exp_tip					If enabled, experience numbers will be displayed.
+options_checkbox_show_exp					Mostrar Quantidade de Exp
+options_screen_show_exp_tip					Se habilitado, a sua experiência será mostrada.
 
-options_checkbox_show_gold					Show Gold Numbers
-options_screen_show_gold_tip				If enabled, gold numbers will be displayed.
+options_checkbox_show_gold					Mostrar Quantidade de Gold
+options_screen_show_gold_tip				Se habilitado, seu gold será mostrado.
 
-options_checkbox_show_crit					Show Criticals
-options_screen_show_crit_tip				If enabled, critical numbers will be displayed.
+options_checkbox_show_crit					Mostrar Críticos
+options_screen_show_crit_tip				Se habilitado, danos críticos serão mostrados.
 
-options_checkbox_show_magic					Show Magic Damage
-options_screen_show_magic_tip				If enabled, magic damage numbers will be displayed.
+options_checkbox_show_magic					Mostrar Dano Mágico
+options_screen_show_magic_tip				Se habilitado, os números do dano mágico serão mostrados.
 
-options_checkbox_show_deny      			Show Deny Effect
-options_screen_show_deny_tip				If enabled, show deny effect numbers will be displayed.
+options_checkbox_show_deny      			Mostrar Efeitos de Deny
+options_screen_show_deny_tip				Se habilitado, mostrará o efeito de deny.
 
-options_checkbox_show_cooldowns 			Show Cooldowns
-options_screen_show_cooldowns_tip		If enabled, shows the cooldown duration as a number over the icons.
+options_checkbox_show_cooldowns 			Mostrar Cooldowns
+options_screen_show_cooldowns_tip			Se habilitado, irá mostrar o cooldown como um número sobre os ícones.
 
 options_interface_title						Interface
-options_checkbox_healthbar_size 			Health / Mana Bar Scale
-options_checkbox_healthbar_size_tip			Changes the size of health and mana bars.
+options_checkbox_healthbar_size 			Escala da Barra de Vida / Mana
+options_checkbox_healthbar_size_tip			Muda o tamanho das barras de vida e mana.
 
-options_checkbox_show_menu_transitions 			Show Menu Transitions
-options_screen_show_menu_transitions_tip	If enabled, shows transitions such as the main menu animation.
+options_checkbox_show_menu_transitions 			Mostrar Transições do Menu
+options_screen_show_menu_transitions_tip		Se ativado, mostra as transições como as animações do menu principal.
 
-options_button_default_binds				Default Binds
+options_button_default_binds				Atalhos Padrões
 
-options_header_login_to_view_stats			Log in to view stats
-options_graphics_change_notnow				You may not change your video options at this time. To change these options, you must first log out of your account. If required, you may need to disconnect first.
+options_header_login_to_view_stats			Faça Log in para ver as estatísticas
+options_graphics_change_notnow				Você não poderá mudar as configurações de video nesse momento. Para modificar essas opções, você deverá primeiro sair da sua conta. Se necessário, você deverá se desconectar primeiro.
 
-options_notifications_title							Notifications
-options_notifications_friends						Friends
-options_notifications_friends_request				Request
-options_notifications_friends_removal				Removal
-options_notifications_friends_signon				Sign On
-options_notifications_friends_signoff				Sign Off
-options_notifications_friends_joingame				Join Game
-options_notifications_friends_leavegame				Leave Game
-options_notifications_friends_imreceived			IM Received
-options_notifications_friends_pmreceived			PM Received
+options_notifications_title							Notificações
+options_notifications_friends						Amigos
+options_notifications_friends_request				Pedidos
+options_notifications_friends_removal				Remoção
+options_notifications_friends_signon				Inscrever
+options_notifications_friends_signoff				Desinscrever
+options_notifications_friends_joingame				Entrar na Partida
+options_notifications_friends_leavegame				Sair da Partida
+options_notifications_friends_imreceived			Msg Recebida
+options_notifications_friends_pmreceived			MP Recebida
 options_notifications_friends_scored				Scored
 options_notifications_clans							Clans
-options_notifications_clans_promotion				Member Promotion
-options_notifications_clans_demotion				Member Demotion
-options_notifications_clans_removal					Member Removal
-options_notifications_clans_addition				Member Addition
-options_notifications_clans_event					Clan Event
-options_notifications_tournaments					Tournaments
-options_notifications_tournaments_new				New Tournament
-options_notifications_tournaments_upcomingmatch		Upcoming Tournament Match
-options_notifications_tournaments_registred			Registered to Tournament
-options_notifications_tournaments_matchresults		Tournament Match Results
-options_notifications_invitations					Invitations
-options_notifications_invitations_game				Game
-options_notifications_invitations_channel			Channel
+options_notifications_clans_promotion				Promover Membro
+options_notifications_clans_demotion				Rebaixar Membro
+options_notifications_clans_removal					Remover Membro
+options_notifications_clans_addition				Adicionar Membro
+options_notifications_clans_event					Evento do Clan
+options_notifications_tournaments					Torneios
+options_notifications_tournaments_new				Novo Torneio
+options_notifications_tournaments_upcomingmatch		Próximas Partidas de Torneio
+options_notifications_tournaments_registred			Registrado no Torneio
+options_notifications_tournaments_matchresults		Resultados das Partidas de Torneio
+options_notifications_invitations					Convites
+options_notifications_invitations_game				Partida
+options_notifications_invitations_channel			Canal
 options_notifications_invitations_clan				Clan
-options_notifications_invitations_team_matchmaking	Arranged Team Matchmaking
-options_notifications_miscellaneous					Miscellaneous
-options_notifications_miscellaneous_newpatch		New Patch
-notification_history								Notification History
-notification_history_remove_all_button				Remove All Notifications
+options_notifications_invitations_team_matchmaking	Matchmaking com Time Arranjado
+options_notifications_miscellaneous					Variado
+options_notifications_miscellaneous_newpatch		Novo Patch
+notification_history								Histórico de Notificação
+notification_history_remove_all_button				Remover Todas as Notificações
 
 
 
 // create_account.package
-create_acc_nickname							Nickname:
-create_acc_first_name						First Name:
-create_acc_last_name						Last Name:
-create_acc_email							Email Address:
-create_acc_confirm_email					Confirm Email:
-create_acc_password							Password:
-create_acc_confirm_password					Confirm Password:
-create_acc_label_outside_of_usa				Outside of USA
-create_acc_lobby_create_account				Create Account
-create_acc_label_select_payment_type		Select Payment Type and Make Payment On Following Page
-create_acc_label_terms_conditions			Terms & Conditions | Privacy Policy
-create_acc_label_finsh_create_account		Create Account
-create_account_please_wait					Please Wait...
-create_acc_label_nick_name_tip		 		*This is the name that you will be identified by while in game.
-create_acc_input_address					Address:
-create_acc_input_province					Province:
-create_acc_input_state						State:
-create_acc_input_country					Country:
-create_acc_input_city						City:
-create_acc_input_postal_code				Postal Code (Zip):
-create_acc_input_referrer					Referrer:
-create_acc_input_year						Year:
-create_acc_input_month						Month:
-create_acc_input_birth_day					Birth Day:
-create_acc_label_account_success			Account created successfully!
-create_acc_success_button_okay				Okay
-create_acc_agreement						By clicking the "Create Account" button, you are agreeing to the Terms of Service.
-create_acc_customer_service					If you need assistance, please mail ^ysupport@heroesofnewerth.com^*.
-create_acc_secure_transfer					Your account information is secured with high-grade encryption before being transmitted over the internet.
-create_acc_info_text						Use this form to instantly create a new Heroes of Newerth account.
-create_acc_wait								Creating account, please wait...
-create_acc_submitting						Submitting purchase, please wait...
-create_acc_success							Account creation successful.  Click 'Login' to log in using the new account.
-create_acc_already_loggedin					Already Logged In
-create_acc_mustlogout						You are already logged into a purchased Heroes of Newerth account.  Click Logout if you wish to create another account or log in and purchase Heroes of Newerth with a different account.
-create_acc_friends							Enter a friend's nickname to upgrade their account. ^y(Optional)
-create_acc_promocode						Have a coupon or promo code?  Enter it here:
-create_acc_nocc_xfer						The promotional code entered grants a free Heroes of Newerth account, and credit card information will not be submitted with this transaction.
-create_acc_successfull_purch				Purchase successful - your Heroes of Newerth account has been upgraded.  A reciept has been sent to your e-mail address.
-create_acc_friends							Upgrade a Friends Account
-create_acc_promocode						Enter a Promo Code
-create_acc_purchase_btn						Purchase Account
-create_already_logged_in_title				Account Upgraded
-create_already_upgraded						This account is already a full account, and can not be upgraded again.
-create_acc_total_price						Total Price
-create_acc_price_usd						Price in (USD)
-create_acc_havecode							Have you received a Promo Code?
-create_acc_entercode_btn					Enter a Code
+create_acc_nickname							Apelido:
+create_acc_first_name						Primeiro Nome:
+create_acc_last_name						Sobrenome:
+create_acc_email							E-mail:
+create_acc_confirm_email					Confirme o E-mail:
+create_acc_password							Senha:
+create_acc_confirm_password					Confirme a Senha:
+create_acc_label_outside_of_usa				Fora dos EUA
+create_acc_lobby_create_account				Criar Conta
+create_acc_label_select_payment_type		Escolha o método de pagamento na página seguinte
+create_acc_label_terms_conditions			Termos & Condições | Política de Privacidade
+create_acc_label_finsh_create_account		Criar Conta
+create_account_please_wait					Por favor aguarde...
+create_acc_label_nick_name_tip		 		*Você será identificado por este nome enquanto joga.
+create_acc_input_address					Endereço
+create_acc_input_province					Província:
+create_acc_input_state						Estado:
+create_acc_input_country					País:
+create_acc_input_city						Cidade:
+create_acc_input_postal_code				CEP:
+create_acc_input_referrer					Indicado por:
+create_acc_input_year						Ano:
+create_acc_input_month						Mês:
+create_acc_input_birth_day					Dia:
+create_acc_label_account_success			Conta criada com Sucesso!
+create_acc_success_button_okay				Ok
+create_acc_agreement						Clicando no botão "Criar Conta", você estará aceitando os Termos de Serviço.
+create_acc_customer_service					Se você precisar de assistência, envie  e-mail para: ^ysupport@heroesofnewerth.com^*.
+create_acc_secure_transfer					Suas informações da conta estão seguras com alto nível de encriptação antes de serem transmitidas pela Internet.
+create_acc_info_text						Use este formulário pata criar rapidamente uma nova conta de Heroes of Newerth.
+create_acc_wait								Criando sua conta, por favor aguarde...
+create_acc_submitting						Submeter compra, por favor aguarde...
+create_acc_success							Criação da Conta bem sucedida.  Clique 'Login' para entrar usando a nova Conta.
+create_acc_already_loggedin					Já está Logado
+create_acc_mustlogout						Você já está logado com uma conta paga de Heroes of Newerth.  Clique 'Logout' se desejar criar outra conta ou logar com uma conta paga de Heroes of Newerth.
+create_acc_friends							Insira o apelido de um amigo para comprar uma conta para ele. ^y(Opcional)
+create_acc_promocode						Tem um Cupom ou Código Promocional?  Digite aqui:
+create_acc_nocc_xfer						O Código Promocional inserido garante uma conta de Neroes of Newerth gratuita, e as informações do Cartão de Crédito não serão necessárias nesta transação.
+create_acc_successfull_purch				Compra feita com Sucesso - sua conta de Neroes of Newerth foi melhorada. Um comprovante foi enviado para seu e-mail.
+create_acc_friends							Faça Upgrade para a Conta de um Amigo
+create_acc_promocode						Insira um Código Promocional
+create_acc_purchase_btn						Comprar Conta
+create_already_logged_in_title				Upgrade com sucesso!
+create_already_upgraded						Esta já é uma conta melhorada, e não pode ser melhorada ainda mais.
+create_acc_total_price						Preço Total
+create_acc_price_usd						Preço em Dólar(USD)
+create_acc_havecode							Você recebeu um Código Promocional?
+create_acc_entercode_btn					Inserir o Código
 
 // Tooltips for various create/etc. account forms - shared stuff mostly
-web_form_create_acct_title					Create a New Account
-web_form_purchase_acct_title				Purchase New Account
-web_form_friend_nickname					Friend Nickname
-web_form_friend_nickname_tip				This is the nickname of the friend whose account you wish to upgrade.
-web_form_promo_code							Promo Code
-web_form_promo_code_tip						If you've received a promotional code or reseller key, enter it here and click Apply to earn a partial or full discount on the purchase price.
-web_form_secure_transfer_generic			Transaction information is secured with high-grade encryption before being transmitted over the Internet.
-web_form_gift_recipient_tos					The recipient of this account must agree to the ^yTerms of Service^*
-web_form_gift_your_name						Your Name (Optional)
-web_form_gift_your_name_tip					If you would like for the recipient of this gift account to know who purchased it for them, you can enter your name or nickname here.
-web_form_gift_friend_email					Friend E-Mail
-web_form_gift_friend_email_tip				Please enter the e-mail address of the friend for whom you'd like to purchase an account.  An e-mail will be sent to them upon purchase detailing how to create their account.
-web_form_acc_tos_generic					To create and use a Heroes of Newerth account, you must agree to the Terms of Service
-web_form_must_login							Must Be Logged In
-web_form_must_login_text					You need to log in in order to utilize this feature.
-web_form_subaccount_title					Create Sub-Account
-web_form_resetstats_title					Reset Stats
-web_form_upgradefriend_title				Upgrade Friend
-web_form_resetstats_pubstats				Public Statistics
-web_form_resetstats_pubstats_tip			Statistics gained from playing public games.
-web_form_resetstats_rankedstats				Ranked Statistics
-web_form_resetstats_rankedstats_tip			Statistics gained from playing ranked matches through the matchmaking feature in Heroes of Newerth.
-web_form_resetstats_psr						Public Skill Rating (PSR)
-web_form_resetstats_psr_tip					Public rank gained by playing public games.
-web_form_resetstats_disconnects				Disconnects
-web_form_resetstats_disconnects_tip			The number of times you have disconnected from a game before the game was conclude
-web_form_resetstats_smr						Solo Match Rank (SMR)
-web_form_resetstats_smr_tip					The rank gained by playing ranked games by yourself.
-web_form_resetstats_tmr						Team Match Rank (TMR)
-web_form_resetstats_tmr_tip					The rank gained by playing ranked games in a team.
-web_form_resetstats_blurb					Edit your account as much or as little as you like. You can clear certain statistics or wipe all of an account's statistics with one fee. You may edit all of the options below for a one time fee.
-web_form_resetstats_button					Reset Stats
-web_form_resetstats_notice					Click the "Reset Stats" button to permanently reset the chosen stats.  Please note that this process is permanent, and not reversable.
-web_form_create_subaccount_title			Create Sub-Account
-web_form_upgrade_account_title				Upgrade Account
-web_form_create_subaccount_button			Create Sub-Account
-web_form_create_account_error				Account Creation Error
-web_form_resetpass_error1					You have sent too many password change requests to this email address. Please contact support@heroesofnewerth.com
-web_form_resetpass_error2					No matching email or nickname found.
-web_form_resetpass_error3					Connection error. Please try again momentarily.
-web_form_resetpass_error4					Please submit an email or nickname.
-web_form_generic_error1						Unable to connect, please try again momentarily.
-web_form_generic_error2						An error has occurred.  Please try again momentarily.
-web_form_feature_unavailable				This feature is currently unavailable.
-web_form_feature_unavailable_title			Feature Unavailable
-web_form_feature_unavailable_inmatch		This feature is not available while in a match.
-web_form_promocode_processing				Processing promo code, please wait...
-web_form_promocode_error1					Promo Code Invalid or Not Found
-web_form_promocode_inuse					Valid promo code entered - you save ${price_reduction}.
-web_form_resetstats_error1					Authorization Failed, please try again.
-web_form_resetstats_error2					Unable to connect, please try again.
-web_form_resetstats_error3					Please select a stat to reset.
-web_form_resetstats_error4					Your credit card was declined
-web_form_resetstats_error5					Requested change would have no effect on stats.
-web_form_resetstats_error6					Invalid Promo Code Entered
-web_form_resetstats_error7					Invalid payment information - payment declined.
-web_form_resetstats_error8					This feature is currently down for maintenance.
+web_form_create_acct_title					Criar uma Nova Conta
+web_form_purchase_acct_title				Comprar Nova Conta
+web_form_friend_nickname					Apelido do Amigo
+web_form_friend_nickname_tip				Este é o apelido do amigo o qual você deseja melhorar a Conta.
+web_form_promo_code							Código Promocional
+web_form_promo_code_tip						Se você recebeu um código promocional, insira aqui e clique em Aplicar para ganhar um desconto parcial ou total do preço da compra.
+web_form_secure_transfer_generic			Suas informações da conta estão seguras com alto nível de encriptação antes de serem transmitidas pela Internet.
+web_form_gift_recipient_tos					O beneficiário dessa conta deve concordar com os ^yTermos de Serviço^*
+web_form_gift_your_name						Seu nome (opcional)
+web_form_gift_your_name_tip					Se você desejar que o beneficiário dessa conta saiba quem a comprou para ele, você pode digitar seu nome ou apelido aqui.
+web_form_gift_friend_email					E-mail do amigo
+web_form_gift_friend_email_tip				Digite o endereço de e-mail de um amigo para quem você gostaria de comprar uma conta. Um e-mail será enviado para ele no momento da aquisição, detalhando como criar sua conta.
+web_form_acc_tos_generic					Para criar e usar uma conta de Heroes Newerth, você deve concordar com os Termos de Serviço.
+web_form_must_login							Deve estar Logadp
+web_form_must_login_text					Você precisa Logar para poder utilizar esse recurso.
+web_form_subaccount_title					Criar Sub Conta
+web_form_resetstats_title					Resetar Estatísticas
+web_form_upgradefriend_title				Melhorar Conta de um Amigo
+web_form_resetstats_pubstats				Estatísticas Públicas
+web_form_resetstats_pubstats_tip			Estatísticas ganhas por jogar em Partidas Públicos.
+web_form_resetstats_rankedstats				Estatísticas Rankeadas
+web_form_resetstats_rankedstats_tip			Estatísticas ganhas por jogar Partidas Rankeadas através do MatchMaking do Heroes of Newerth.
+web_form_resetstats_psr						Avaliação Pública de Habilidade - Public Skill Rating (PSR)
+web_form_resetstats_psr_tip					PSR é ganho ao jogar Partidas Públicas.
+web_form_resetstats_disconnects				Desistências
+web_form_resetstats_disconnects_tip			Número de vezes que você desconectou de um jogo antes de acabar.
+web_form_resetstats_smr						Partida de Ranking Invividual - Solo Match Rank (SMR)
+web_form_resetstats_smr_tip					Classificação obtida por jogos classificados por si mesmo.
+web_form_resetstats_tmr						Partida de Ranking em Equipe - Team Match Rank (TMR)
+web_form_resetstats_tmr_tip					Classificação obtida pela Equipe.
+web_form_resetstats_blurb					Editar sua conta como você quiser. Você pode limpar certas estatísticas ou limpar todas as estatísticas de uma conta por uma taxa. Você pode editar todas as opções abaixo de uma só vez, por uma única taxa.
+web_form_resetstats_button					Resetar Estatísticas
+web_form_resetstats_notice					Clique no botão "Resetar Estatísticas" para redefinir permanentemente as estatísticas escolhidas. Preste atenção!!! Este processo é permanente, e irreversível.
+web_form_create_subaccount_title			Criar Sub Conta
+web_form_upgrade_account_title				Melhorar Conta
+web_form_create_subaccount_button			Criar Sub Conta
+web_form_create_account_error				Erro na Criação da Conta
+web_form_resetpass_error1					Você enviou muitos pedidos de alteração de senha para este endereço de e-mail. Por favor, entre em contato com support@heroesofnewerth.com.
+web_form_resetpass_error2					Nenhum e-mail ou apelido encontrado.
+web_form_resetpass_error3					Erro de conexão. Por favor tente novamente em instantes.
+web_form_resetpass_error4					Por favor envie um E-mail ou Apelido.
+web_form_generic_error1						Não foi possível conectar, por favor tente novamente em instantes.
+web_form_generic_error2						Ocorreu um Erro.  Por favor tente novamente em instantes.
+web_form_feature_unavailable				Este recurso não está disponível no momento.
+web_form_feature_unavailable_title			Recurso Indisponível.
+web_form_feature_unavailable_inmatch		Este recurso não está disponível enquanto está em uma partida.
+web_form_promocode_processing				Processando Código Promocional, por favor aguarde...
+web_form_promocode_error1					Código Promocional inválido ou Não encontrado.
+web_form_promocode_inuse					Código Promocional Inserido - você economizou ${price_reduction}.
+web_form_resetstats_error1					Autorização falhou, por favor, tente novamente.
+web_form_resetstats_error2					Não é possível conectar, por favor, tente novamente.
+web_form_resetstats_error3					Por favor escolha uma estatística para resetar.
+web_form_resetstats_error4					Seu cartão de crédito foi recusado.
+web_form_resetstats_error5					A alteração solicitada não teria nenhum efeito sobre as estatísticas.
+web_form_resetstats_error6					Código Promocional Inválido
+web_form_resetstats_error7					Informações de pagamento inválidas - pagamento recusado.
+web_form_resetstats_error8					Esse recurso está atualmente em manutenção.
 
 // states
 create_acc_state_alabama					Alabama
@@ -953,53 +953,53 @@ create_acc_country_western_sahara	Western Sahara
 create_acc_country_zaire			Zaire
 
 // credit_card.package
-creditcard_label_correct_error				Correct This Error
-creditcard_button_close_window				Close Window
-creditcard_label_promocode					Promo Code
-creditcard_label_first_name					First Name
-credit_card_first_name_tip					Enter the first name as it appears on the credit card.
-creditcard_label_last_name					Last Name
-credit_card_last_name_tip					Enter the last name as it appears on the credit card.
-creditcard_label_billing_zip				Billing Zip Code
-credit_card_billing_zip_tip					Enter the zip code associated with the credit card billing address.
-creditcard_label_cvv_number					Enter the CVV2 number found on the back of your credit card.
-creditcard_label_expiration_date			Enter the expiration date of your credit card.
-creditcard_label_upgrade_agreement			By clicking the "Upgrade Account" button, you are agreeing to the Terms of Service
-creditcard_label_purchase_agreement			By clicking the "Purchase Account" button, you are agreeing to the Terms of Service
-creditcard_label_subacct_agreement			By clicking the "Create Sub-Account" button, you are agreeing to the Terms of Service
-creditcard_label_upgrade_prime				Upgrade Account
-creditcard_label_secure_card				Your credit card information is secured with high-grade encryption before being transmitted over the Internet.
-creditcard_button_dont_upgrade				No Thanks, Don't Upgrade
-creditcard_label_processing_form			Processing Form...
-creditcard_header_upgrade_prime				Upgrade to a Prime Account - Billing Details
-creditcard_label_prime_up_successful		Upgrade Successful!
-creditcard_label_prime_up_ty				Thank you for upgrading to a Prime Account. Your support of independent gaming allows us to continue to create new, affordable games.
-creditcard_label_prime_benefits				You now have access to all of the Prime Account benefits! The following are the details of your transaction.
-creditcard_label_transaction_email			An email with these details has been sent to the email listed above. If you have questions, please contact support@s2games.com or visit http://www.heroesofnewerth.com.
-creditcard_label_match_content				The following fields must match the information on your credit card account exactly.
-creditcard_label_prime_card_number			Credit Card Number
-creditcard_label_prime_cvv_number			CVV2 Number
-creditcard_label_prime_expiration			Expiration Date
-creditcard_label_prime_month				Month:
-creditcard_label_prime_year					Year:
-credit_card_processing						Processing transaction...
-credit_card_error							An error occurred: {error}
-credit_card_upgrade_success					Purchase successful - your Heroes of Newerth account has been upgraded.
-credit_card_error_plain						An error occurred:
-credit_card_error_duplicate_subscription	A duplicate subscription exists.
-credit_card_error_invalid_number			The credit card number is invalid.
-credit_card_error_invalid_code				The Card Code (CVV2/CVC2/CID) is invalid.
-credit_card_error_address					The address provided does not match billing address of cardholder.
-credit_card_error_duplicate_transaction		A duplicate transaction has been submitted.
-credit_card_error_expiration_date			The credit card expiration date is invalid.
-credit_card_error_declined					This transaction has been declined.
-credit_card_result_charge					Today's Charge: ^w${charge}
-credit_card_result_first_name				First Name: ^w{name}
-credit_card_result_last_name				Last Name: ^w{name}
-credit_card_result_transaction_number		Transaction #: ^w{id}
-credit_card_result_subscription_number		Subscription #: ^w{id}
-credit_card_result_next_bill_date			Next Billing Date: ^w{date}
-credit_card_result_email					Email: ^w{email}
+creditcard_label_correct_error				Corrigir este erro.
+creditcard_button_close_window				Fechar janela
+creditcard_label_promocode					Código Promocional
+creditcard_label_first_name					Primeiro nome
+credit_card_first_name_tip					Informe o primeiro nome como exibido no cartão.
+creditcard_label_last_name					Sobrenome.
+credit_card_last_name_tip					Informe o sobrenome como exibido no cartão.
+creditcard_label_billing_zip				CEP de postagem da fatura.
+credit_card_billing_zip_tip					Informe o CEP associado à fatura do cartão de crédito.
+creditcard_label_cvv_number					Informe o código de segurança localizado no verso do seu cartão.
+creditcard_label_expiration_date			Informe a data de validade do seu cartão.
+creditcard_label_upgrade_agreement			Ao selecionar a opção "Upgrade para conta Prime", você estará concordando com os ^yTermos de Serviço^*
+creditcard_label_purchase_agreement			Clicando em "Comprar Conta", você está aceitando os Termos de Serviço
+creditcard_label_subacct_agreement			Clicando em "Criar Sub Conta", você está aceitando os Termos de Serviço
+creditcard_label_upgrade_prime				Upgrade para conta Prime
+creditcard_label_secure_card				As informações do seu cartão de crédito são garantidas com criptografia de alto grau antes de serem transmitidas pela internet.
+creditcard_button_dont_upgrade				Não, obrigado! Não faça o Upgrade.
+creditcard_label_processing_form			Processando Formulário...
+creditcard_header_upgrade_prime				Upgrade para conta Prime - Detalhes da fatura
+creditcard_label_prime_up_successful		Prime Upgrade bem sucedido!
+creditcard_label_prime_up_ty				Obrigado por fazer upgrade para conta Prime. O seu suporte a jogos independentes nos permite continuar criando novos jogos acessíveis a todos.
+creditcard_label_prime_benefits				Agora você tem acesso aos benefícios de uma conta Prime! A seguir, os detalhes da transação.
+creditcard_label_transaction_email			Um e-mail com esses detalhes foi enviado para o e-mail mencionado acima. Se vocês tiver dúvidas, por favor contate support@s2games.com ou visite http://www.heroesofnewerth.com.
+creditcard_label_match_content				As informações dos campos a seguir precisam estar exatamente de acordo com as informações do seu cartão de crédito.
+creditcard_label_prime_card_number			Número do Cartão de Crédito
+creditcard_label_prime_cvv_number			Código de Segurança
+creditcard_label_prime_expiration			Data de Validade:
+creditcard_label_prime_month				Mês:
+creditcard_label_prime_year					Ano:
+credit_card_processing						Processando transação...
+credit_card_error							Ocorreu um erro: {error}
+credit_card_upgrade_success					Compra efetuada com Sucesso - Sua conta de Heroes of Newerth foi melhorada.
+credit_card_error_plain						Ocorreu um erro:
+credit_card_error_duplicate_subscription	Subscrição duplicada.
+credit_card_error_invalid_number			Número de cartão de crédito inválido.
+credit_card_error_invalid_code				Código de Segurança (CVV2/CVC2/CID) inválido.
+credit_card_error_address					O endereço informado não corresponde ao endereço da administradora do cartão.
+credit_card_error_duplicate_transaction		Uma transação duplicada foi submetida.
+credit_card_error_expiration_date			A data de validade do cartão inválida.
+credit_card_error_declined					A transação foi negada.
+credit_card_result_charge					Preço de hoje: ^w${charge}
+credit_card_result_first_name				Primeiro Nome: ^w{name}
+credit_card_result_last_name				Sobrenome: ^w{name}
+credit_card_result_transaction_number		Transação #: ^w{id}
+credit_card_result_subscription_number		Subscrição #: ^w{id}
+credit_card_result_next_bill_date			Data do próximo faturamento: ^w{date}
+credit_card_result_email					E-mail: ^w{email}
 
 // game.interface
 game_scores_label_name						NAME
@@ -1341,84 +1341,84 @@ game_spectator_stats_bldgdmg				Bldg Dmg
 game_spectator_k/d/a						K/D/A
 
 // cc_ircchat.package
-ircchat_main_button_join_create_new			Join / Create New Channel
-ircchat_header_join_create_new				Join / Create New Channel
-ircchat_button_join_create					Join / Create
-ircchat_button_channel_join_create			Join / Create
-ircchat_button_chat_text_send_message		Send Message
-ircchat_button_chat_channel_create_new		Join / Create New Channel
+ircchat_main_button_join_create_new			Juntar-se / Criar Novo Canal
+ircchat_header_join_create_new				Juntar-se / Criar Novo Canal
+ircchat_button_join_create					Juntar-se / Criar
+ircchat_button_channel_join_create			Juntar-se / Criar
+ircchat_button_chat_text_send_message		Enviar Mensagem
+ircchat_button_chat_channel_create_new		Juntar-se / Criar Novo Canal
 ircchat_header_chat							Chat
-ccstats_button_show_ccchat					Show Chat
-ccstats_button_hide_ccchat					Hide Chat
+ccstats_button_show_ccchat					Mostrar Chat
+ccstats_button_hide_ccchat					Esconder Chat
 
 // game_hero_select.interface
-hselect_label_hd_strength					Strength:
-hselect_label_hd_agility					Agility:
-hselect_label_hd_intel						Intelligence:
-hselect_button_ready						Ready
-game_hero_select_ready_tip_me_ready			You are ready for battle!
-game_hero_select_ready_tip					Click this button when you are ready to begin the game. After you are ready, you will not be able to swap or repick. When all players are ready, the match will start.
-game_hero_select_ready_tip_no_hero			You must select a hero before you can ready yourself.
-game_hero_select_ready_tip_other_ready		This player is ready for battle!
-game_hero_select_ready_tip_not_ready		This player is not yet ready...
-game_hero_select_random						Pick A Random Hero
-game_hero_select_random_tip_already_picked	You have already picked a hero.
-game_hero_select_random_tip_free			Picking a random will not affect your starting gold.
-game_hero_select_random_tip					Picking a random hero will give you ^y{gold}^* bonus gold.
-hselect_header_hero_details					Hero Details
-hselect_label_hd_damage						Damage
-hselect_label_hd_armor						Armor
-hselect_label_hd_move_speed					Move Speed
-hselect_label_hd_attack_type				Attack Type
-hselect_label_hd_attack_range				Attack Range
-hselect_label_hd_attack_rate				Attack Rate
-hselect_label_hd_abilities					Abilities
-game_hero_select_mana_cost					Mana Cost: {value}
+hselect_label_hd_strength					Força:
+hselect_label_hd_agility					Agilidade:
+hselect_label_hd_intel						Inteligência:
+hselect_button_ready						Pronto
+game_hero_select_ready_tip_me_ready			Você está pronto para a batalha!
+game_hero_select_ready_tip					Clique nesse botão quando estiver pronto. Após estar pronto você não podera trocar ou mudar de Hero. Quando todos os jogadores estiverem prontos a partida irá começar.
+game_hero_select_ready_tip_no_hero			Você deverá selecionar um Herói antes de estar pronto.
+game_hero_select_ready_tip_other_ready		Este jogador está pronto para batalhar!
+game_hero_select_ready_tip_not_ready		Este jogador ainda não está pronto...
+game_hero_select_random						Escolher um Herói Aleatório
+game_hero_select_random_tip_already_picked	Você já escolheu um Herói.
+game_hero_select_random_tip_free			Ao sortear um Herói não afetará seu Gold Inicial.
+game_hero_select_random_tip					Ao sortear um Herói você iniciará com ^y{gold}^* Gold a mais.
+hselect_header_hero_details					Detalhes do Herói
+hselect_label_hd_damage						Dano
+hselect_label_hd_armor						Armadura
+hselect_label_hd_move_speed					Velocidade de Movimento
+hselect_label_hd_attack_type				Tipo de Ataque
+hselect_label_hd_attack_range				Distância do Ataque
+hselect_label_hd_attack_rate				Precisão do Ataque
+hselect_label_hd_abilities					Habilidades
+game_hero_select_mana_cost					Custo de Mana: {value}
 game_hero_select_cooldown					Cooldown: {time}s
-hselect_header_statistics					Statistics
-hselect_label_strength						Str
-hselect_label_agility						Agi
-hselect_label_intelligence					Int
-hselect_swap_request_tip_header				Swap Hero
-hselect_swap_request_tip_text				Request to swap heroes with this player. After swapping you cannot repick or swap again.
-hselect_swap_accept_tip_header				Swap Hero
-hselect_swap_accept_tip_text				This player has offered to swap heroes with you. Click on their portrait to complete the swap. After swapping you cannot repick or swap again.
-game_hero_select_repick						Repick Hero
-game_hero_select_repick_tip_disabled		Repicking is disabled in this match.
-game_hero_select_repick_tip_already_used	You have already used your repick.
-game_hero_select_repick_tip_already_swapped	You cannot repick because you have swapped.
-game_hero_select_repick_tip_no_hero			After you pick a hero, you can use this button to undo your selection. Repicking costs ^y{gold}^* gold. You may only repick once. You cannot swap after repicking.
-game_hero_select_repick_tip					Click this button to pick a new hero. Repicking costs ^y{gold}^* gold. You may only repick once. You cannot swap after repicking.
-game_hero_select_repick_tip_free			Click here to pick a new hero. You may only repick once. You cannot swap after repicking.
-game_hero_select_starting_gold				Starting Gold
-game_hero_select_starting_gold_tip_me		You will have ^y{gold}^* gold at the start of the match.
-game_hero_select_starting_gold_tip_other	This player will have ^y{gold}^* gold at the start of the match.
-game_hero_select_status_select_hero			Select Your Hero
-game_hero_select_status_waiting				Waiting for Other Players
-game_hero_select_status_ban_hero			Ban a hero
-hero_select_voip_tip_header					Voice Chat
-hero_select_voip_mute_tip					You have muted this player. Click here to un-mute them.
-hero_select_voip_tip						Click here to mute this player.
-game_hero_select_label_damage				^yDamage:^*      {damage}
-game_hero_select_label_attack_range			^yAtk Range:^*     {range}
-game_hero_select_label_attack_speed			^yAtk Speed:^*     {speed}
+hselect_header_statistics					Estatísticas
+hselect_label_strength						For-Str
+hselect_label_agility						Agi-Agi
+hselect_label_intelligence					Int-Int
+hselect_swap_request_tip_header				Trocar de Herói
+hselect_swap_request_tip_text				Pediu para trocar de Herói com este Jogador. ^rDepois de trocar, você não poderá escolher novo Herói nem Trocar.
+hselect_swap_accept_tip_header				Trocar de Herói
+hselect_swap_accept_tip_text				Este Jogador ofereceu para trocar de Herói com você. Clique na foto dele para completar a troca. ^rDepois de trocar, você não poderá escolher novo Herói nem trocar denovo.
+game_hero_select_repick						Escolher novo Herói
+game_hero_select_repick_tip_disabled		Escolher novo Herói está ^rdesabilitado^* nesta partida.
+game_hero_select_repick_tip_already_used	Você já usou seu direito de escolher novo Herói.
+game_hero_select_repick_tip_already_swapped	Você não pode Escolher novo Herói porque você fez uma troca.
+game_hero_select_repick_tip_no_hero			Depois de escolher seu Herói, você pode usar este botão para desfazer sua escolha. ^rPorém isso custa ^y{gold} gold^*. ^rVocê só pode fazer isso uma vez. Você não pode trocar com ninguém após isso.
+game_hero_select_repick_tip					Clique neste botão para escolher um novo Herói. ^rPorém isso custa ^y{gold} gold^*. ^rVocê só pode fazer isso uma vez. Você não pode trocar com ninguém após isso.
+game_hero_select_repick_tip_free			Clique aqui pata escolher um novo Herói. ^rVocê só pode fazer isso uma vez. Você não pode trocar com ninguém após isso.
+game_hero_select_starting_gold				Gold Incial
+game_hero_select_starting_gold_tip_me		Você começará a partida com ^y{gold} gold
+game_hero_select_starting_gold_tip_other	Este Jogador começará a partida com ^y{gold} gold
+game_hero_select_status_select_hero			Escolha seu Herói
+game_hero_select_status_waiting				Aguardando pelos outros Jogadores
+game_hero_select_status_ban_hero			Dê ^rBan^* em um Herói
+hero_select_voip_tip_header					Conversa de Voz
+hero_select_voip_mute_tip					Você mutou este Jopgador. Clique aqui para desmutar.
+hero_select_voip_tip						Clique aqui para mutar este Jogador.
+game_hero_select_label_damage				^yDano:^*      {damage}
+game_hero_select_label_attack_range			^yDist do Ataque:^*     {range}
+game_hero_select_label_attack_speed			^yVeloc do Ataque:^*     {speed}
 
 // main_lobby.interface
-mainlobby_button_main_menu					Main Menu
-main_lobby_replay_view						Match Stats
-main_lobby_replay_view_desc					Use the Match Stats viewer to review the match summary of past HoN games. With the Stats Viewer you can quickly find your recent games, lookup games by match ID, and download replay files.
-main_lobby_ranked_play						Ranked Play
-main_lobby_ranked_play_desc					Ranked Play allows you to create games with groups and even place different friends on opposing teams.  It will then take players looking for similar games based upon your preferences and attempt to create fair teams based upon statistics.  These matches are then used to rank players in our ladder.
-mainlobby_button_quick_play_config			Quick Play Configuration
-main_lobby_button_quick_play_config_desc	Here you can select Bar, Neutral, or Preferred for all Game Modes and Game Options. Your client will then look through all the available games and join one based upon the preferences you select. The more options you bar, the longer it may take to join a game.
-main_lobby_quick_play_desc					Use this to quickly and easily get into a Game Lobby based on your likes and dislikes. If you open the Quick Play Configuration just to the left you set all Modes and Options to help find a game you are looking for. Quick Play does NOT attempt to Matchmake based upon the skill of players looking for a game. Use iMatch for that feature.
-mainlobby_label_qp_config_note				To configure Quick Play, you can set each of the categories below to preferred, neutral, or barred by clicking buttons below. When you click "Quick Play" you will be placed in a match that closest matches your configuration options.
-main_lobby_qp_show_advanced_filters_label	For advanced game filters, click the Show Advanced button to display all additional options.
-main_lobby_qp_hide_advanced_filters_label	To hide advanced game filters, click the Hide Advanced button to display all additional options.
-mainlobby_button_save_qp_config				Save Quick Play Configuration
-mainlobby_label_join_size					Only Join Games With This Team Size
-mainlobby_header_team_size					Team Size
-mainlobby_header_game_type					Game Type
+mainlobby_button_main_menu					Menu Principal
+main_lobby_replay_view						Estatísticas da Partida
+main_lobby_replay_view_desc					Use o Visualizador de Estatísticas da Partida para rever a súmula das partidas anteriores. Com o Visualizador de Estatísticas você pode rapidamente encontrar suas partidas recentes, ver partidas pela ID e baixar arquivos de replay.
+main_lobby_ranked_play						Jogo Rankeado
+main_lobby_ranked_play_desc					Jogos Rankeados permitem criar Partidas com grupos e até mesmo colocar diferentes amigos em times opostos. Isso irá então selecionar jogadores que buscam por jogos similares, baseado em suas preferências e tentando criar uma partida Balanceada. Estas partidas sao então usadas para Rankear os jogadores em nosso Ranking/Ladder.
+mainlobby_button_quick_play_config			Configuração do Jogo Rápido
+main_lobby_button_quick_play_config_desc	Aqui você pode Negar / Permitir / Preferir Opções e Modos de todos os Jogos. Seu cliente irá então, ver através das suas escolhas, as partidas e juntar-se à uma.
+main_lobby_quick_play_desc					Use essa forma rápida e fácil para entrar em uma Partida, baseada no que você gosta e não gosta. Se você abrir a Configuração do Jogo Rápido, logo na esquerda você poderá definir todas as Opções e Modos para ajudar a encontrar uma Partida. Jogo Rápido ^rNÃO^* filtra outros Jogadores que procuram por um jogo.
+mainlobby_label_qp_config_note				Para configurar o Jogo Rápido, você pode definir cada uma das categorias abaixo para ^900Negado^* / ^059Permitido^* / ^090Preferido^*, clicando nos botões referentes.
+main_lobby_qp_show_advanced_filters_label	Para mostrar os filtros avançados, clique no botão Mostrar Avançados para exibir as opções adicionais.
+main_lobby_qp_hide_advanced_filters_label	Para ocultar os filtros avançados, clique no botão Ocultar Avançados para ocultar as opções adicionais.
+mainlobby_button_save_qp_config				Salvar configuração do Jogo Rápido
+mainlobby_label_join_size					Apenas juntar-se à Partidas com times deste tamanho
+mainlobby_header_team_size					Tamanho do Time
+mainlobby_header_game_type					Tipo de Jogo
 mainlobby_label_normal						Normal
 mainlobby_label_random_draft				Random Draft
 mainlobby_label_single_draft				Single Draft
@@ -1427,116 +1427,116 @@ mainlobby_label_banning_pick				Banning Pick
 mainlobby_label_captains_draft				Captains Draft
 mainlobby_label_captains_mode				Captains Mode
 mainlobby_label_deathmatch					Deathmatch
-mainlobby_header_game_options				Game Options
-mainlobby_label_tier						Tier
-mainlobby_label_tier_tip					Restrict servers based on specified tier.\n\n^yNoobs Only^* - Only accounts with low overall account experience may play.\n^yNoobs Allowed^* - Any player of any experience level may play.\n^yPro^* - Only accounts that have achieved a high overall experience level may play.
-mainlobby_header_game_tier1					Noobs Only
-mainlobby_header_game_tier2					Noobs Allowed
-mainlobby_header_game_tier3					Pro
-mainlobby_header_game_official				Official - Stats Recorded
-mainlobby_header_game_official2				Not Official
-main_lobby_public							Public
-main_lobby_private							Private
-main_lobby_leaver_restricted				Leaver Restricted
-main_lobby_leaver_restricted_desc			Restricted games are not available to players who have a low Karma score, or history of leaving games before it is over.
+mainlobby_header_game_options				Opções do Jogo
+mainlobby_label_tier						Patente
+mainlobby_label_tier_tip					Servidor restrito, baseado pela patente especificada.\n\n^yApenas Noobs^* - Apenas contas Noobs com baixa experiência podem jogar.\n^yPermitido Noobs^* - Qualquer Jogador de qualquer Nível pode jogar.\n^yPro^* - Apenas contas que tenham atingido um alto Nível de Experiência podem jogar.
+mainlobby_header_game_tier1					^090Apenas Noobs
+mainlobby_header_game_tier2					^059Permitido Noobs
+mainlobby_header_game_tier3					^900Profissionais
+mainlobby_header_game_official				Oficial - Estatísticas serão gravadas
+mainlobby_header_game_official2				Não oficial
+main_lobby_public							Público
+main_lobby_private							Privado
+main_lobby_leaver_restricted				Proibido Desistentes
+main_lobby_leaver_restricted_desc			Partidas restritas nao estão disponíveis para desistentes.
 
-mainlobby_game_types_label					Game Types
-mainlobby_label_more						Advanced Options
-mainlobby_button_show_advanced				Show Advanced
-mainlobby_button_hide_advanced				Hide Advanced
+mainlobby_game_types_label					Tipos de Jogo
+mainlobby_label_more						Opções Avançadas
+mainlobby_button_show_advanced				Mostrar Avançados
+mainlobby_button_hide_advanced				Ocultar Avançados
 
 mainlobby_button_ranked_play				Ranked Play
 
-mainlobby_button_custom_game				Game List
+mainlobby_button_custom_game				Lista de Jogos
 mainlobby_button_custom_game_desc			If you don't want to use Quick Play and would like to manually look through the available games to join use this button. In the Game List you can filter the results for Team Size, Modes, Options, and Pings. If you want to quickly get in the action at the push of a button we suggest using Quick Play.
-mainlobby_button_create_game				Create Game
+mainlobby_button_create_game				Criar Partida
 mainlobby_button_create_game_desc			Want to host a game that is set up exactly as you want it or make it easy for your friends to join? Use this feature! When creating a game you can set it to Private, wait for your friends to join, and then Announce it to fill the remaining spots.
-mainlobby_header_custom_join_a_game			Join a Game
-mainlobby_header_custom_filter_results		Filter Server Results
+mainlobby_header_custom_join_a_game			Juntar-se à uma Partida
+mainlobby_header_custom_filter_results		Filtrar Resultados do Server
 main_lobby_filter_description				
-mainlobby_label_custom_game_name			Game Name
+mainlobby_label_custom_game_name			Nome do Jogo
 main_lobby_game_name_desc					Filter the game browser by typing in a full or partial search phrase.\n\nUse '|' to separate the search phrases, use '-' at the beginning of the phrase to exclude a term, and use '\\|' or '\\-' to escape the '|' or '-'.                                                                                  
-mainlobby_label_custom_game_type			Game Mode
+mainlobby_label_custom_game_type			Modo do Jogo
 mainlobby_label_custom_game_type_desc		Game Modes generally alter how hero selection works.\n\n^yNormal^* - Standard hero selection.\n^yRandom Draft^* - Limits hero selection to 20 heroes then alternates picking between players.\n^ySingle Draft^* - Each player is given a hero selection of one agility, one intelligence, and one strength hero.\n^yBanning Draft^* - Identical to Random Draft, except Blue and Pink take turns banning 4 total heroes first.\n^yBanning Pick^* - Blue and Pink take turns banning 6 total heroes each, and then players alternate picking from the remaining hero pool.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
 // Removing this for now - JT               ^yDeathmatch^* - Normal hero selection, but after dying, players are forced to pick a new hero. Game ends when one team runs out of available heroes.\n
 mainlobby_label_custom_game_region			Region
 mainlobby_label_custom_game_region_desc		Where the server is located geographically.
-mainlobby_label_custom_game_US				USA - All
+mainlobby_label_custom_game_US				USA - Todos
 mainlobby_label_custom_game_USC				USA - Central
-mainlobby_label_custom_game_USE				USA - East
-mainlobby_label_custom_game_USS				USA - South
-mainlobby_label_custom_game_USW				USA - West
-mainlobby_label_custom_game_EU				Europe - All
-mainlobby_label_custom_game_DE				Germany
-mainlobby_label_custom_game_UK				United Kingdom
+mainlobby_label_custom_game_USE				USA - Leste
+mainlobby_label_custom_game_USS				USA - Sul
+mainlobby_label_custom_game_USW				USA - Oeste
+mainlobby_label_custom_game_EU				Europa - Todos
+mainlobby_label_custom_game_DE				Alemanha
+mainlobby_label_custom_game_UK				Reino Unido
 mainlobby_label_custom_game_NL				Netherlands
-mainlobby_label_custom_game_JPN				Japan
-mainlobby_label_custom_game_AU				Australia
-mainlobby_label_custom_game_ID				Indonesia
-mainlobby_label_custom_game_ZAF				South Africa
-mainlobby_label_custom_game_SEA				South East Asia
-mainlobby_label_custom_team_size			Team Size
-mainlobby_label_custom_team_size_desc		Restrict games to a particular team size.
-main_lobby_filter_team_size_none			Do Not Limit Team Size
-main_lobby_filter_any						Any
-main_lobby_filter_advanced					Advanced
-main_lobby_filter_team_size_one_v_one		One versus One
-main_lobby_filter_team_size_two_v_two		Two versus Two
-main_lobby_filter_team_size_three_v_three	Three versus Three
-main_lobby_filter_team_size_four_v_four		Four versus Four
-main_lobby_filter_team_size_five_v_five		Five versus Five
-mainlobby_label_custom_map					Map
-mainlobby_label_custom_map_desc				Restrict games to a particular map.
-mainlobby_label_custom_server_type			Server Type
+mainlobby_label_custom_game_JPN				Japão
+mainlobby_label_custom_game_AU				Austrália
+mainlobby_label_custom_game_ID				Indonésia
+mainlobby_label_custom_game_ZAF				África do Sul
+mainlobby_label_custom_game_SEA				Sudeste da Asia
+mainlobby_label_custom_team_size			Tamanho do Time
+mainlobby_label_custom_team_size_desc		Partidas Exclusivas para times com este tamanho.
+main_lobby_filter_team_size_none			Não limitar o tamanho do time
+main_lobby_filter_any						Qualquer
+main_lobby_filter_advanced					Avançado
+main_lobby_filter_team_size_one_v_one		1x1 - Um contra Um
+main_lobby_filter_team_size_two_v_two		2x2 - Dois contra Dois
+main_lobby_filter_team_size_three_v_three	3x3 - Três contra UTrêsm
+main_lobby_filter_team_size_four_v_four		4x4 - Quatro contra Quatro
+main_lobby_filter_team_size_five_v_five		5x5 - Cinco contra Cinco
+mainlobby_label_custom_map					Mapa
+mainlobby_label_custom_map_desc				Partidas Exclusivas para este Mapa.
+mainlobby_label_custom_server_type			Tipo do Servidor
 mainlobby_label_custom_server_type_desc		Restrict games based on server type. Official servers are S2 hosted servers that are guaranteed to run official, non-modified game settings and maps. Unofficial servers are community hosted servers that may or may not be using modified maps and game settings.
-main_lobby_server_official_stats			Official - Stats
-main_lobby_server_official_nostats			Official - No Stats
-main_lobby_server_unofficial				Unofficial
-msin_lobby_game_access						Game Access
-main_lobby_view_advanced_filters			Click ^yView Advanced^* below to display all additional options.
-mainlobby_show_advanced_filters_button		View Advanced
-mainlobby_hide_advanced_filters_button		Hide Advanced
+main_lobby_server_official_stats			Odicial - Com Estatísticas
+main_lobby_server_official_nostats			Oficial - Sem Estatísticas
+main_lobby_server_unofficial				Não Oficial
+msin_lobby_game_access						Acesso do Jogo
+main_lobby_view_advanced_filters			Clique em ^yVer Avançados^* para mostrar todas as opções adicionais.
+mainlobby_show_advanced_filters_button		Ver Avançados
+mainlobby_hide_advanced_filters_button		Ocultar Avançados
 
-mainlobby_header_custom_name				Name
-mainlobby_header_custom_map					Map
-mainlobby_header_custom_slots				Slots
+mainlobby_header_custom_name				Nome
+mainlobby_header_custom_map					Mapa
+mainlobby_header_custom_slots				Lugares
 mainlobby_header_custom_ping				Ping
-mainlobby_header_custom_size				Size
-mainlobby_header_custom_type				Type
-mainlobby_header_custom_options				Options
-mainlobby_button_custom_refresh				Refresh List
-mainlobby_button_custom_join_selected		Join Selected Game
-mainlobby_header_custom_karma				Leaver/Karma Restricted Games
+mainlobby_header_custom_size				Tamanho
+mainlobby_header_custom_type				Tipo
+mainlobby_header_custom_options				Opções
+mainlobby_button_custom_refresh				Atualizar Lista
+mainlobby_button_custom_join_selected		Entrar neste Jogo
+mainlobby_header_custom_karma				Partida proibida para Desistentes
 mainlobby_button_custom_instant_upgrade		Instantly Upgrade to a Prime Account Now
-mainlobby_button_custom_return				Return to the Game Browser...
+mainlobby_button_custom_return				Retornar ao Buscador de Partidas...
 mainlobby_header_custom_prime_req			Prime Account Required
-mainlobby_header_create_create_game			Create a Game
-mainlobby_header_create_public_game			Create a Public Game
-mainlobby_label_custom_searching			Searching...
-mainlobby_label_cc_friends					Friends
+mainlobby_header_create_create_game			Criar uma Partida
+mainlobby_header_create_public_game			Criar uma Partida pública
+mainlobby_label_custom_searching			Procurando...
+mainlobby_label_cc_friends					Amigos
 mainlobby_label_cc_clan						Clan
-mainlobby_cc_rtclick_friends_filter			Filter
-mainlobby_cc_rtclick_clan_filter			Filter
-mainlobby_label_custom_game_access			Game Access
+mainlobby_cc_rtclick_friends_filter			Filtro
+mainlobby_cc_rtclick_clan_filter			Filtro
+mainlobby_label_custom_game_access			Acesso do jogo
 mainlobby_tip_custom_game_access			Public matches are available to all players. Private matches require a password to join.
-mainlobby_label_custom_retrieving_list		Retrieving List...
-mainlobby_label_filter_server_name			Filter Server Name
+mainlobby_label_custom_retrieving_list		Solicitando Lista...
+mainlobby_label_filter_server_name			Filtrar nome do Servidor
 mainlobby_tip_filter_server_name			Enter a server name, or part of a server name to filter the results.
-mainlobby_create_game_remote				Remote game starting...
+mainlobby_create_game_remote				Partida sendo Iniciada...
 
 mainlobby_label_icon_key					View Icon Key
-mainlobby_filter_prequery					Filter Pre-Query
+mainlobby_filter_prequery					Filtrar Pre-Query
 mainlobby_icon_key_options_header			Game Setup and Options
-mainlobby_icon_key_maps_header				Maps
+mainlobby_icon_key_maps_header				Mapas
 mainlobby_icon_key_checkboxes				Option Checkboxes
 mainlobby_icon_key_chat_header				Chat Icons
 mainlobby_icon_key_chat_staff				S2 Games Staff
-mainlobby_icon_key_chat_gm					Game Manager
+mainlobby_icon_key_chat_gm					Administrador
 mainlobby_icon_key_chat_op					Channel Operator
-mainlobby_icon_key_chat_ingame				Player In-Game
-mainlobby_icon_key_opt_nopref				No Preference
-mainlobby_icon_key_opt_required				Required
-mainlobby_icon_key_opt_excluded				Excluded
+mainlobby_icon_key_chat_ingame				Jogando
+mainlobby_icon_key_opt_nopref				Sem Preferência
+mainlobby_icon_key_opt_required				Requerido
+mainlobby_icon_key_opt_excluded				Excluído
 
 
 mainlobby_new_channel_header				Join / Create Channel
@@ -1545,8 +1545,8 @@ mainlobby_friends_header					Your Friends List
 mainlobby_server_header						Server
 mainlobby_quick_play_options_header			Quick Play Options
 
-main_lobby_add_new_friend					Add New Friend
-main_lobby_join_create						Join / Create
+main_lobby_add_new_friend					Add Novo Amigo
+main_lobby_join_create						Juntar-se / Criar
 main_lobby_join_new_channel					Join New Channel 
 main_lobby_searching						Searching...
 main_lobby_no_games_found					No games found! Why not create one?
@@ -1819,24 +1819,24 @@ cc_panel_leaveclantxt						Are you sure you want to leave this clan? Once you le
 cc_panel_leave_button						Yes, Leave Clan
 
 // tos.package
-tos_header									Terms of Service
-tos_close_window							Close Window
+tos_header									Termos de Serviço
+tos_close_window							Fechar Janela
 
 // game_upgrade.interface
-game_upgrade_header							Upgrade to a Prime Account
-game_upgrade_benefits_header				Benefits of Upgrading
+game_upgrade_header							Faça Upgrade para uma Conta Completa
+game_upgrade_benefits_header				Benefícios do Upgrade
 
 // main_create_account.package
-main_create_account_header					Create Account
-main_create_account_details_header			Account Details
-main_create_account_referral_header			Referral Account
-main_create_account_tos_header				Terms of Account Creation
-main_create_account_nickname_check			Checking nickname...
-main_create_account_nickname_available		Nickname available
-main_create_account_processing_header		Processing Form...
-main_create_account_creating_account		Creating Account...
-main_create_account_upgrade_header			Upgrade to a Full Account
-main_create_account_success_header			Account Created
+main_create_account_header					Criar Conta
+main_create_account_details_header			Detalhes da Conta
+main_create_account_referral_header			Conta de quem Indicou
+main_create_account_tos_header				Termos para Criação de Conta
+main_create_account_nickname_check			Checando Apelido...
+main_create_account_nickname_available		Apelido Disponível
+main_create_account_processing_header		Processando Formulário...
+main_create_account_creating_account		Criando Conta...
+main_create_account_upgrade_header			Melhore para uma Conta Completa
+main_create_account_success_header			Conta Criada
 main_create_account_first_name				First Name
 main_create_account_first_name_tip			Enter your first name.
 main_create_account_last_name				Last Name
@@ -1926,31 +1926,31 @@ game_setup_spcectators_label				Spectators
 game_setup_spectators_tip					Sets number of spectator slots. Spectators are allowed to join a game and watch it without interacting with other players.
 game_setup_referees_label					Referees
 game_setup_referees_tip						Sets number of Referee slots. Referees can kick players, pause the game, and un-stick players.
-game_setup_team_size_label					Team Size
+game_setup_team_size_label					Tamanho do Time
 game_setup_team_size_tip					The number of players on each team.
 game_setup_tier_label						Tier
 game_setup_tier_tip							Restrict servers based on specified tier.\n\n^yNoobs Only^* - Only accounts with low overall account experience may play.\n^yNoobs Allowed^* - Any player of any experience level may play.\n^yPro^* - Only accounts that have achieved a high overall experience level may play.
-game_setup_map_label						Map
+game_setup_map_label						Mapa
 game_setup_map_tip							Select the map for the game.
-game_setup_type_label						Game Mode
+game_setup_type_label						Mogo do Jogo
 game_setup_type_tip							Game Modes generally alter how hero selection works.\n\n^yNormal^* - Standard hero selection.\n^yRandom Draft^* - Limits hero selection to 20 heroes then alternates picking between players.\n^ySingle Draft^* - Each player is given a hero selection of one agility, one intelligence, and one strength hero.\n^yBanning Draft^* - Identical to Random Draft, except Blue and Pink take turns banning 4 total heroes first.\n^yBanning Pick^* - Blue and Pink take turns banning 6 total heroes each, and then players alternate picking from the remaining hero pool.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
-game_setup_select_server_label				Select Server
+game_setup_select_server_label				Selecione o Servidor
 game_setup_select_server_tip				^!yAutomatic^* will choose a game server located in the region that was last chosen via the 'Browse...' selection (if any).\n\n^!yBrowse...^* will allow you to manually select a server from a specified region.\n\n^!yPractice^* will allow you to start a one player Practice Game locally on your machine.                                                                                                                                      
-game_setup_name_label						Game Name
-game_setup_private							Private Game
+game_setup_name_label						Nome da Partida
+game_setup_private							Partida Privada
 game_setup_private_tip						By selecting this feature, your game will not show up in the Game List and will not be used by Quick Match.  It is best used to create a game for you friends to join.  This option may be changed from the Game Lobby.
-game_setup_no_leavers						No Leavers
+game_setup_no_leavers						Sem Desistentes
 game_setup_no_leavers_tip					Players with a high leave percentage will not be allowed to join this game.
-game_setup_record_stats						Record Stats
+game_setup_record_stats						Grava Estatísticas
 game_setup_record_stats_tip					Record stats for this match.
 game_setup_local							Local
-game_setup_automatic						Automatic
-game_setup_browse							Browse...
-game_setup_one_v_one						One versus One
-game_setup_two_v_two						Two versus Two
-game_setup_three_v_three					Three versus Three
-game_setup_four_v_four						Four versus Four
-game_setup_five_v_five						Five versus Five
+game_setup_automatic						Automático
+game_setup_browse							Procurar...
+game_setup_one_v_one						1x1 - Um contra Um
+game_setup_two_v_two						2x2 - Dois contra Dois
+game_setup_three_v_three					3x3 - Três contra UTrêsm
+game_setup_four_v_four						4x4 - Quatro contra Quatro
+game_setup_five_v_five						5x5 - Cinco contra Cinco
 game_setup_normal							Normal
 game_setup_random_draft						Random Draft
 game_setup_single_draft						Single Draft
@@ -1959,13 +1959,13 @@ game_setup_banningpick						Banning Pick
 game_setup_captainsdraft					Captains Draft
 game_setup_captainsmode						Captains Mode
 game_setup_deathmatch						Deathmatch
-game_setup_advanced_options					Display Advanced Game Options
-game_setup_custom_post						Secondary Stats Submission
+game_setup_advanced_options					Mostrar Opções Avançadas da Partida
+game_setup_custom_post						Enviar Estatísticas Secundárias
 game_setup_custom_post_tip					The game will send game stats to an additional server. (Advanced Users)
-game_setup_custom_post_URL					URL to Script
+game_setup_custom_post_URL					URL para Script
 game_setup_custom_post_save_btn				Set Post URL
 game_setup_custom_post_description			You can submit the stats of this game to a URL of your choice.  This URL should be a script written to accept a Post submission that contains all the statistics for this match.  To learn more detailed information about the stats array and sample code please visit ^yhttp://www.heroesofnewerth.com/submitstats.php^*
-game_setup_practice							Practice
+game_setup_practice							Practicar
 
 
 // tooltips
@@ -2034,22 +2034,22 @@ tooltip_combattype							Combat Type:
 tooltip_movespeed							Move Speed
 tooltip_movespeed_msg						This is how quickly the hero moves in relation to other heroes.
 
-tooltip_viewstats							View Statistics
-tooltip_purchase							Purchase HoN
-tooltip_logout								Log Out
-tooltip_options								Options
-tooltip_offlinereplays						Local Replays
-tooltip_changelog							Change Log
-tooltip_lang								Language
-tooltip_players_online						Players Online
-tooltip_friends								Friends
+tooltip_viewstats							Ver Estatísticas
+tooltip_purchase							Comprar HoN
+tooltip_logout								Deslogar
+tooltip_options								Opções
+tooltip_offlinereplays						Replays
+tooltip_changelog							Últimas Alterações
+tooltip_lang								Idioma
+tooltip_players_online						Jogadores Online
+tooltip_friends								Amigos
 tooltip_clan								Clan
-tooltip_ims									IMs Received
-tooltip_notifications						Notifications Received
-tooltip_autoconnect_title					Auto-Connect
-tooltip_autoconnect							When selected, you will connect to this channel every time you log in.
-tooltip_recitems							Recommended Items
-tooltip_recitems_msg						These items are recommended for this hero...
+tooltip_ims									Msg Recebida
+tooltip_notifications						Notificação Recebida
+tooltip_autoconnect_title					Auto-Conectar
+tooltip_autoconnect							Quando selecionado, você irá conectar neste canal toda vez que Logar.
+tooltip_recitems							Itens Recomendados
+tooltip_recitems_msg						Estes itens são recomendados para este Herói...
 tooltip_prim_attrib							Primary Attribute
 tooltip_prim_attrib_msg						This is the primary something or other whatever.
 tooltip_dps									Damage Per Second
@@ -2114,51 +2114,51 @@ tooltip_sort_dmg_msg						Click here to sort the hero list by Attack Damage.
 
 // ui_items.package
 ui_items_friend_clan_label					Clan
-ui_items_friend_no_clan_label				None
-ui_items_friend_server_label				^yServer: ^*
-ui_items_friend_game_time_label				^yGame Time: ^*
-ui_items_friend_right_click_label			Right-click for options
-ui_items_slider_low							Low
-ui_items_slider_high						High
-ui_items_cc_right_click_send_message		Send Message
-ui_items_cc_right_click_joing_game			Join Game
+ui_items_friend_no_clan_label				Nenhum
+ui_items_friend_server_label				^yServidor: ^*
+ui_items_friend_game_time_label				^yTempo de Jogo: ^*
+ui_items_friend_right_click_label			Click Direito para mais Opções
+ui_items_slider_low							Baixo
+ui_items_slider_high						Alto
+ui_items_cc_right_click_send_message		Enviar Msg
+ui_items_cc_right_click_joing_game			Juntar-se
 ui_items_cc_right_click_message_clan		Message Entire Clan
-ui_items_cc_right_click_view_stats			View Stats
-ui_items_cc_right_click_add_buddy			Add Buddy
-ui_items_cc_right_click_remove_buddy		Remove Buddy
-ui_items_cc_right_click_remove_buddytxt		Are you sure you want to remove this buddy?
-ui_items_cc_right_click_invite_to_game		Invite to Game
-ui_items_cc_right_click_user_info			User Info
-ui_items_cc_right_click_channel_kick		Kick from Channel
-ui_items_cc_right_click_channel_ban			Ban from Channel
-ui_items_cc_right_click_channel_silence		Silence User
-ui_items_cc_right_click_ignore				Ignore
-ui_items_cc_right_click_ignoretxt			Are you sure you want to ignore this player?
-ui_items_cc_right_click_unignore			Unignore
-ui_items_cc_right_click_addban				Add to Banlist
-ui_items_cc_right_click_addbantxt			Are you sure you want to add this player to your banlist?
-ui_items_cc_right_click_remban				Remove from Banlist
+ui_items_cc_right_click_view_stats			Ver Estatísticas
+ui_items_cc_right_click_add_buddy			Add Amigo
+ui_items_cc_right_click_remove_buddy		Remover Amigo
+ui_items_cc_right_click_remove_buddytxt		Tem certeza que deseja remover este Amigo?
+ui_items_cc_right_click_invite_to_game		Convidar para o Jogo
+ui_items_cc_right_click_user_info			Informações
+ui_items_cc_right_click_channel_kick		Expulsar do Canal
+ui_items_cc_right_click_channel_ban			Banir do Canal
+ui_items_cc_right_click_channel_silence		Mutar Usuário
+ui_items_cc_right_click_ignore				Ignorar
+ui_items_cc_right_click_ignoretxt			Tem certeza que deseja ignorar este jogador?
+ui_items_cc_right_click_unignore			Remover Ignorar
+ui_items_cc_right_click_addban				Add na Lista de Banidos
+ui_items_cc_right_click_addbantxt			Tem certeza que deseja adicionar este jogador à sua Lista de Banidos?
+ui_items_cc_right_click_remban				Remover da Lista de Banidos
 ui_items_cc_right_click_channel_promote		Promote (Channel)
 ui_items_cc_right_click_channel_demote		Demote (Channel)
 ui_items_cc_right_click_clan_promote		Promote (Clan)
 ui_items_cc_right_click_clan_demote			Demote (Clan)
 ui_items_cc_right_click_clan_remove			Remove from Clan
-ui_items_cc_right_click_clan_removetxt		Are you sure you want to remove this clan member?
-ui_items_cc_right_click_clan_invite			Invite To Clan
-ui_items_cc_right_click_clan_leave			Leave Clan
-ui_items_cc_friends_online					Online Friends
-ui_items_cc_friends_in_game					Friends In Game
-ui_items_cc_friends_offline					Offline Friends
-ui_items_cc_clan_online						Online Members
-ui_items_cc_clan_in_game					Members In Game
-ui_items_cc_clan_offline					Offline Members
-ui_items_chat_leavechan						Leave this Channel
-ui_items_patchupdate						Update your client?
-ui_items_patchupdatetxt						Your client will be disconnected before updating to the new patch.  Do you want to continue?
+ui_items_cc_right_click_clan_removetxt		Tem certeza que deseja remover este Membro do Clan?
+ui_items_cc_right_click_clan_invite			Convidar para o Clan
+ui_items_cc_right_click_clan_leave			Sair do Clan
+ui_items_cc_friends_online					Amigos Online
+ui_items_cc_friends_in_game					Amigos Jogando
+ui_items_cc_friends_offline					Amigos Offline
+ui_items_cc_clan_online						Membros Online
+ui_items_cc_clan_in_game					Membros Jogando
+ui_items_cc_clan_offline					Membros Offline
+ui_items_chat_leavechan						Sair deste canal
+ui_items_patchupdate						Atualizar seu cliente?
+ui_items_patchupdatetxt						Seu client será desconectado. Gostaria de Continuar?
 
 // player_statistics.package
-player_statistics_name						Statistics: ^w{name}
-player_statistics_skill_factor				SF: ^w{value}
+player_statistics_name						Estatísticas: ^w{name}
+player_statistics_skill_factor				Skill Factor (SF): ^w{value}
 
 // private_chatpass.package
 private_chat_header							Private Chat Password
@@ -2215,23 +2215,23 @@ patchnotes_latest_button				Latest
 patchnotes_history_button				History
 
 // System dates
-weekday_unknown					Unknown
-weekday_sunday					Sunday
-weekday_monday					Monday
-weekday_tuesday					Tuesday
-weekday_wednesday				Wednesday
-weekday_thursday				Thursday
-weekday_friday					Friday
-weekday_saturday				Saturday
+weekday_unknown					Erro
+weekday_sunday					Domingo
+weekday_monday					Segunda
+weekday_tuesday					Terça
+weekday_wednesday				Quarta
+weekday_thursday				Quinta
+weekday_friday					Sexta
+weekday_saturday				Sábado
 
-weekday_unknown_short				Unk
-weekday_sunday_short				Sun
-weekday_monday_short				Mon
-weekday_tuesday_short				Tues
-weekday_wednesday_short				Wed
-weekday_thursday_short				Thurs
-weekday_friday_short				Fri
-weekday_saturday_short				Sat
+weekday_unknown_short				Err
+weekday_sunday_short				Dom
+weekday_monday_short				Seg
+weekday_tuesday_short				Ter
+weekday_wednesday_short				Qua
+weekday_thursday_short				Qui
+weekday_friday_short				Sex
+weekday_saturday_short				Sáb
 
 loading_tiptitle				Dica do jogo
 loading_tip1					Segurar ^gCONTROL^* enquanto você usa o shop vai monstrar scrolls de recipes em vez dos itens, permitindo que você compre a recipe rapidamente.
