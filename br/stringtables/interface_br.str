@@ -1482,7 +1482,7 @@ main_lobby_filter_any						Qualquer
 main_lobby_filter_advanced					Avançado
 main_lobby_filter_team_size_one_v_one		1x1 - Um contra Um
 main_lobby_filter_team_size_two_v_two		2x2 - Dois contra Dois
-main_lobby_filter_team_size_three_v_three	3x3 - Três contra UTrêsm
+main_lobby_filter_team_size_three_v_three	3x3 - Três contra Três
 main_lobby_filter_team_size_four_v_four		4x4 - Quatro contra Quatro
 main_lobby_filter_team_size_five_v_five		5x5 - Cinco contra Cinco
 mainlobby_label_custom_map					Mapa
