@@ -9,8 +9,8 @@
 ||main_create_account player_stats game_setup tooltips||Khain||1830 até 2113||
 ||ui_items descriptions e outros detalhes (nomes de coisas especificas ex: clan, dias da semana, acoes)||?||2115 até 2234||
 ||loading_tip||Einherjarl||2236 até 2279||
-||matchmaking||?||2284 até 2339||
-||chat notifications||?||2342 até 2451||
+||matchmaking||Einherjarl||2284 até 2339||
+||chat notifications||Einherjarl||2342 até 2451||
 ||compendium||?||2455 até 2501||
 ||ladder tournament||?||2504 até 2675||
 ||system_bar||Khain||2678 até 2692||
