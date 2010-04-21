@@ -30,8 +30,8 @@ multikill3							{killer} ^084ANIQUILOU^* seus oponentes!!!
 
 killtower							{killer} destruiu uma torre. {reward} recebeu ^y{gold}^* gold de bônus!
 denytower							{player} deu ^444deny^* em uma torre!
-killmeleerax						O quartel ^724Melee^* dos {victim} foi destruído, as unidades ^724melee^* dos {killer}, nesta faixa, irão nascer mais fortes.
-killrangedrax						O quartel ^724Ranged^* dos {victim} foi destruído, as unidades ^724ranged^* dos {killer}, nesta faixa, irão nascer mais fortes.
+killmeleerax						A ^724Melee^* Barracks dos {victim} foi destruído, as unidades ^724melee^* dos {killer}, nesta lane, irão nascer mais fortes.
+killrangedrax						O ^724Ranged^* Barracks dos {victim} foi destruído, as unidades ^724ranged^* dos {killer}, nesta lane, irão nascer mais fortes.
 killcourier							O courier de {victim} foi morto por {killer}!
 boughtwalkingcourier				{player_color}{player}^* comprou o courier terrestre.
 boughtflyingcourier					{player_color}{player}^* comprou o courier alado.
@@ -69,13 +69,13 @@ megacreeps							Os {killer} destruiram todas as estruturas produtoras do time {
 
 smackdown							{victim} levou um SMACKED DOWN por {killer}!
 humiliation							{killer} acabou de HUMILHAR o {victim}!
-nemesis								{killer} está OWNANDO completamente {victim}!
+nemesis								{killer} está DOMINANDO completamente {victim}!
 retribution							{killer} ganhou uma RETRIBUTION contra {victim}!
 
 client_connected					{player_color}{player}^* se conectou.
 client_reconnected					{player_color}{player}^* se reconectou. (Tempo de desconexão sobressalente: {time})
-client_disconnected					{player_color}{player}^* se desconectou.
-client_timedout						{player_color}{player}^* has timed out.
+client_disconnected					{player_color}{player}^* desconectou.
+client_timedout						{player_color}{player}^* perdeu conexão.
 client_terminated					{player_color}{player}^* foi terminado. seu hero foi removido e todo seu ganho foi distribuído pelo time.
 
 hero_pick							{player_color}{player}^* escolheu ^885{hero_name}^*.
@@ -94,12 +94,12 @@ game_turn_picking					Agora é o turno de {player_color}{player}^* para ^rescolh
 player_ready						{player_color}{player}^* está ^gpronto^*.
 player_unready						{player_color}{player}^* ^rnão está mais pronto^*.
 
-player_boughtback					{player_color}{player}^* comprou seu retorno e renasceu na well.
+player_boughtback					{player_color}{player}^* comprou seu retorno e renasceu na fonte.
 
 error_target_invulnerable			O alvo é invulnerável.
 error_not_ready						{tool} não está pronto ainda.
 error_low_mana						Pouca mana para usar {tool}.
-error_no_proxy						No available proxy for {tool}.
+error_no_proxy						Sem proxy disponivel para {tool}.
 error_not_unit_ability				Deverá escolher uma unidade para ser alvo desta habilidade.
 error_not_unit_item					Deverá escolher uma unidade para ser alvo deste item.
 error_not_unit						Deverá escolher uma unidade para ser o alvo.
