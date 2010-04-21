@@ -2281,71 +2281,71 @@ loading_tip43					Quando uma notificação aparece em um game, você pode dar um
 loading_tip_total				42
 
 // Matchmaking
-amm_title									Automatic Matchmaking
-amm_jumptier__tip_title						Join Immediately
-amm_jumptier_tip							Clicking this button will join a ranked match autmatically at this RSR difference tier.
+amm_title									Matchmaking automático
+amm_jumptier__tip_title						Unir-se Imediatamente
+amm_jumptier_tip							Clicar neste botão te coloca automaticamente em uma partida avaliada a partir da RSR de diferença.
 amm_stats_header							Matchmaking Statistics
 
 
-main_lobby_amm_header						Ranked Play
-main_lobby_amm_region_header				Regions Searched
-main_lobby_amm_region_test					Test
-main_lobby_amm_region_usw					USA West
-main_lobby_amm_region_usc					USA Central
-main_lobby_amm_region_uss					USA South
-main_lobby_amm_region_use					USA East
-main_lobby_amm_region_eu					Europe
-main_lobby_amm_region_uk					United Kingdom
-main_lobby_amm_region_nl					Netherlands
-main_lobby_amm_region_de					Germany
-main_lobby_amm_region_japan					Japan
-main_lobby_amm_region_south_africa			South Africa
-main_lobby_amm_region_sea					South East Asia
-main_lobby_amm_region_australia				Australia
-main_lobby_amm_region_indonesia				Indonesia
-main_lobby_amm_find_team					Find Team
-main_lobby_amm_join_team					Join Team Pool
-main_lobby_amm_join_solo					Join Solo Pool
-main_lobby_amm_join_solo_progress			Joining...
-main_lobby_amm_current_wait					Waited: {time}
-main_lobby_amm_status_not_in_pool			Not in pool!
-main_lobby_amm_status_requested_match		Joining match making pool...
-main_lobby_amm_status_in_pool				Looking for players...
-main_lobby_amm_looking_for_server			Match found! Looking for a server...
-main_lobby_amm_waiting_for_server			Match found! Waiting for server to start...
-main_lobby_amm_waiting_for_players			Waiting for other players...
-main_lobby_amm_stats_header					Stats
-main_lobby_amm_solo_matches					Matches: {count}
-main_lobby_amm_solo_rating					Rating: {value}
-main_lobby_amm_team_matches					Team Matches: {count}
-main_lobby_amm_team_rating					Team Rating: {value}
+main_lobby_amm_header						Partida Classificada
+main_lobby_amm_region_header				Regiões Procuradas
+main_lobby_amm_region_test					Teste
+main_lobby_amm_region_usw					EUA Oeste
+main_lobby_amm_region_usc					EUA Central
+main_lobby_amm_region_uss					EUA Sul
+main_lobby_amm_region_use					EUA Leste
+main_lobby_amm_region_eu					Europa
+main_lobby_amm_region_uk					Reino Unido
+main_lobby_amm_region_nl					Terras Baixas
+main_lobby_amm_region_de					Alemanha
+main_lobby_amm_region_japan					Japão
+main_lobby_amm_region_south_africa			Africa do Sul
+main_lobby_amm_region_sea					Sudoeste da Ásia
+main_lobby_amm_region_australia				Austrália
+main_lobby_amm_region_indonesia				Indonésia
+main_lobby_amm_find_team					Achar Time
+main_lobby_amm_join_team					Unir-se à pool com time
+main_lobby_amm_join_solo					Unir-se à pool solo
+main_lobby_amm_join_solo_progress			Unindo...
+main_lobby_amm_current_wait					Esperou: {time}
+main_lobby_amm_status_not_in_pool			Não está na pool!
+main_lobby_amm_status_requested_match		Unindo-se à pool de machmaking...
+main_lobby_amm_status_in_pool				Procurando por jogadores...
+main_lobby_amm_looking_for_server			Partida Encontrada! Procurando por um servidor...
+main_lobby_amm_waiting_for_server			Partida Encontrada! Esperando o servidor iniciar...
+main_lobby_amm_waiting_for_players			Esperando pelos outros jogadores...
+main_lobby_amm_stats_header					Estatísticas
+main_lobby_amm_solo_matches					Partidas: {count}
+main_lobby_amm_solo_rating					Classificação: {value}
+main_lobby_amm_team_matches					Partidas do Time: {count}
+main_lobby_amm_team_rating					Classificação do time: {value}
 
-matchmaker_message_header					MatchMaker Status
-matchmaker_alert_join_failed				Failed to join the matchmaking pool.
-matchmaker_alert_no_server_found			Failed to find a server for this match.
-matchmaker_alert_server_failed_to_start		The server failed to start.
-matchamaker_connected_content				You are connected and waiting for the other players to finish loading. Once all the clients have loaded, you will be taken to Hero Selection. Please be patient...
-matchmaker_alert_leaver_msg					Disconnecting from the queue at this point forward will result in a leave being added to your stats!
-matchmaker_alert_discoed_tip				This player has failed to successfully load. A new player will be found and placed in this slot.
-matchmaker_alert_key_loading				Loading
-matchmaker_alert_key_loaded					Loaded
-matchmaker_alert_key_failed					Failed
-matchmaker_reject_unknown					Rejected from matchmaking pool.
-matchmaker_reject_disabled					Matchmaking is currently disabled.
-matchmaker_reject_leaver					You have disconnected from too many games to use matchmaking.
-matchmaker_reject_no_region					You must select one or more regions from the map before joining. Regions you are willing to play in are green.
+matchmaker_message_header					Status do MatchMaker
+matchmaker_alert_join_failed				Falhou ao unir-se à pool de matchmaking.
+matchmaker_alert_no_server_found			Falhou ao procurar um servidor para esta partida.
+matchmaker_alert_server_failed_to_start		O servidor falhou ao iniciar.
+matchamaker_connected_content				Você está conectado e esperando os outros players terminarem de carregar. Quando todos os clientes tiverem carregado, você será levado à seleção de Hero. Por favor tenha paciência...
+matchmaker_alert_leaver_msg					Desconectar da fila a partir deste ponto vai resultar numa desistência adicionada nas suas estatísticas!
+matchmaker_alert_discoed_tip				Este jogador falhou em carregar com sucesso. Um novo player vai ser encontrado e substituído nesse slot.
+matchmaker_alert_key_loading				Carregando
+matchmaker_alert_key_loaded					Carregado
+matchmaker_alert_key_failed					Falhou
+matchmaker_reject_unknown					Rejeitado da pool de matchmaking.
+matchmaker_reject_disabled					Matchmaking está atualmente desativado.
+matchmaker_reject_leaver					Você desconectou de muitos games para usar o matchmaking.
+matchmaker_reject_no_region					Você tem de selecionar uma ou mais regiôes do mapa antes de se juntar. Regiôes que você quer jogar aparecerão em verde.
 
-matchmaker_status_msg						The Match Making system is currently looking for players for your game. Once ten suitable players are found, a server will be chosen and all the players will begin to connect.
-matchmaker_status_leaver_msg				Once all ten players have been found and you begin loading, you will not be able to disconnect without a leave being added to your stats!
+matchmaker_status_msg						O sistema de Matchmaking está procurando jogadores para o seu jogo. Quando dez jogadores forem encontrados, um servidor será escolhido e todos os jogadores começaram a conectar.
+matchmaker_status_leaver_msg				Quando todos os dez jogadores forem encontrados e você começar a carregar, você não poderá desconectar sem ganhar uma desistência em suas estatísticas!
 
 // communicator.package
-irc_join_create_tip_title					Join / Create Room
-irc_join_create_tip							Enter the name of a chat room to enter it. If it does not exist, it will be created.
-irc_status_chan								Status
+irc_join_create_tip_title					Unir-se / Criar Sala
+irc_join_create_tip							Coloque o nome da sala do chat para entrar. Se não existir, a sala será criada.
+irc_status_chan								Estado
 
-amm_chat_block_msg							You will be allowed to chat once all players have successfully connected.
-amm_chat_wait_msg							Players are currently connecting. Please be patient while all the players connect. Once all have connected, you will immediately be taken to Hero Selection.  At this point you may not leave the game without having a disconnect added to your stats.
-amm_chat_drops_msg							{X} player(s) did not join the match from the queue and will be replaced with other players who are currently in the queue.  Please be patient, this should take much time at all.
+amm_chat_block_msg							Você vai poder conversar assim que todos os jogadores forem conectados com sucesso.
+amm_chat_wait_msg							Jogadores estão conectando no momento.Por favor, seja paciente quando todos os jogadores se conectam. Assim que todos se conectarem, você vai imediatamente para a Seleção de Hero. A partir deste ponto você não podera sair do jogo sem ter uma Desistência adicionada nas suas estatísticas.
+amm_chat_drops_msg							{X} jogadore(s) não entraram na partida da lista e serão substituidos por outros jogadores que estão na fila. Por favor tenha paciência, isso não deve demorar muito.
 
 //notifications.package
 notify_join_game							Join This Game
