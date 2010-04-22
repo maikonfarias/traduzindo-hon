@@ -1948,7 +1948,7 @@ game_setup_automatic						Automático
 game_setup_browse							Procurar...
 game_setup_one_v_one						1x1 - Um contra Um
 game_setup_two_v_two						2x2 - Dois contra Dois
-game_setup_three_v_three					3x3 - Três contra UTrêsm
+game_setup_three_v_three					3x3 - Três contra Três
 game_setup_four_v_four						4x4 - Quatro contra Quatro
 game_setup_five_v_five						5x5 - Cinco contra Cinco
 game_setup_normal							Normal
@@ -2348,107 +2348,107 @@ amm_chat_wait_msg							Jogadores estão conectando no momento.Por favor, seja p
 amm_chat_drops_msg							{X} jogadore(s) não entraram na partida da lista e serão substituidos por outros jogadores que estão na fila. Por favor tenha paciência, isso não deve demorar muito.
 
 //notifications.package
-notify_join_game							Join This Game
-notify_view_tournaments						View Tournaments
-notify_join_chan							Join Channel
-notify_view_results							View Game Results
+notify_join_game							Entrar Nesse Jogo
+notify_view_tournaments						Ver Torneios
+notify_join_chan							Entrar no Canal
+notify_view_results							Ver Resultados do Jogo
 
 
 // New notification strings    situation = title, dependent = text line 1, info = text line 2
 // 0
-notify_unknown_title						Unknown
-notify_unknown_text							Missing notification type
+notify_unknown_title						Desconhecido
+notify_unknown_text							Tipo de Notificação faltando
 // 1 added you to their buddy list
-notify_buddy_adder_situation				Friend Add
+notify_buddy_adder_situation				Adicionar Amigo
 notify_buddy_adder_dependent						
-notify_buddy_adder_info						and you are now friends.
+notify_buddy_adder_info						e você são amigos agora.
 // 2 was added to your buddy list
-notify_buddy_added_situation				Friend Added
+notify_buddy_added_situation				Amigo Adicionado
 notify_buddy_added_dependent				
-notify_buddy_added_info						and you are now friends.
+notify_buddy_added_info						e você agora são amigos.
 // 3
-notify_buddy_remover_situation				Friend Remove
+notify_buddy_remover_situation				Remover Amigo
 notify_buddy_remover_dependent				
-notify_buddy_remover_info					removed you from their buddy list.
+notify_buddy_remover_info					removeu você de sua lista de amigos.
 // 4
-notify_buddy_removed_situation				Friend Removed
+notify_buddy_removed_situation				Amigo Removido
 notify_buddy_removed_dependent				{name}				
-notify_buddy_removed_info					was removed from your buddy list.
+notify_buddy_removed_info					foi removido da sua lista de amigos.
 // 5
-notify_clan_rank_situation					Clan Rank Change
+notify_clan_rank_situation					Mudança de Rank no Clan
 notify_clan_rank_dependent					
-notify_clan_rank_info						was changed to '{rank}'.
+notify_clan_rank_info						foi trocado para '{rank}'.
 // 6
-notify_clan_add_situation					Added To Clan
+notify_clan_add_situation					Adicionado ao Clan
 notify_clan_add_dependent					
-notify_clan_add_info						joined the clan.
+notify_clan_add_info						juntou-se ao Clan.
 // 7
-notify_clan_remove_situation				Removed From Clan
+notify_clan_remove_situation				Removido do Clan
 notify_clan_remove_dependent				
-notify_clan_remove_info						left the clan.
-notify_clan_remove_info_removed				was removed by {name}.
+notify_clan_remove_info						deixou o Clan.
+notify_clan_remove_info_removed				foi removido por {name}.
 // 8
-notify_buddy_online_situation				Friend Sign On
+notify_buddy_online_situation				Amigo entrou
 notify_buddy_online_dependent				
-notify_buddy_online_info					has logged in.
+notify_buddy_online_info					conectou.
 // 9
-notify_buddy_left_game_situation			Friend Left Game
+notify_buddy_left_game_situation			Amigo deixou o jogo
 notify_buddy_left_game_dependent			
-notify_buddy_left_game_info					left '{gamename}'.
+notify_buddy_left_game_info					saiu de '{gamename}'.
 // 10
-notify_buddy_offline_situation				Friend Sign Off
+notify_buddy_offline_situation				Amigo desconectou
 notify_buddy_offline_dependent						
-notify_buddy_offline_info					has logged off.
+notify_buddy_offline_info					desconectou.
 // 11
-notify_buddy_join_game_situation			Friend Joined Game
+notify_buddy_join_game_situation			Amigo Juntou-se ao Jogo
 notify_buddy_join_game_dependent			
-notify_buddy_join_game_info					has joined a game
+notify_buddy_join_game_info					juntou-se ao jogo
 // 12
-notify_clan_online_situation				Clan Member Sign On
+notify_clan_online_situation				Membro do Clan Conectou
 notify_clan_online_dependent				
-notify_clan_online_info						has logged in.
+notify_clan_online_info						conectou.
 // 13
-notify_clan_left_game_situation				Clan Member Left Game
+notify_clan_left_game_situation				Membro do Clan saiu do jogo
 notify_clan_left_game_dependent				
-notify_clan_left_game_info 					left '{gamename}'.
+notify_clan_left_game_info 					saiu de '{gamename}'.
 // 14
-notify_clan_offline_situation				Clan Member Sign Off
+notify_clan_offline_situation				Membro do Clan Desconectou
 notify_clan_offline_dependent				
-notify_clan_offline_info					has logged off.
+notify_clan_offline_info					desconectou.
 // 15
-notify_clan_join_game_situation				Clan Member Joined Game
+notify_clan_join_game_situation				Membro do Clan Juntou-se ao Jogo
 notify_clan_join_game_dependent				
-notify_clan_join_game_info					has joined a game.
+notify_clan_join_game_info					juntou-se ao jogo.
 // 16
-notify_clan_whisper_title					Clan Whisper
-notify_clan_whisper_text					has whispered the clan.
+notify_clan_whisper_title					Mensagem do Clan
+notify_clan_whisper_text					mandou uma mensagem para o clan.
 // 17
-notify_update_situation						Patch Available
-notify_update_dependent						Version {version} is live!
-notify_update_info							Re-log to download patch.
+notify_update_situation						Patch Disponível
+notify_update_dependent						Versão {version} lançada!
+notify_update_info							Reconecte para baixar o patch.
 // 18
-notify_generic_title						Information
+notify_generic_title						Informação
 notify_generic_text				
 // 19
-notify_im_situation							IM Received
+notify_im_situation							Msg Recebida
 notify_im_dependent							
-notify_im_info								sent you an IM.
+notify_im_info								mandou uma Msg.
 // 20
-notify_game_invite_situation				Game Invite
+notify_game_invite_situation				Convite de Jogo
 notify_game_invite_dependent				
-notify_game_invite_info						invited you to join a game.
+notify_game_invite_info						convidou você a entrar no jogo.
 // 21
-notify_self_join_game_situation				Self Join
-notify_self_join_game_dependent				You
-notify_self_join_game_info					joined '{gamename}'.
+notify_self_join_game_situation				Auto-entrada
+notify_self_join_game_dependent				Você
+notify_self_join_game_info					entrou em '{gamename}'.
 // 22
-notify_buddy_requested_adder_situation		Friend Request
-notify_buddy_requested_adder_dependent		You
-notify_buddy_requested_adder_info			requested {name} as a friend.
+notify_buddy_requested_adder_situation		Pedido de Amigo
+notify_buddy_requested_adder_dependent		Você
+notify_buddy_requested_adder_info			pediu {name} como amigo.
 // 23
-notify_buddy_requested_added_situation		Friend Request
+notify_buddy_requested_added_situation		Pedido de Amigo
 notify_buddy_requested_added_dependent		{name}
-notify_buddy_requested_added_info			requested you as a friend.
+notify_buddy_requested_added_info			pediu você como amigo.
 
 
 // compendium.package
