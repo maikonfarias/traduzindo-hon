@@ -629,6 +629,7 @@ create_acc_mustlogout						Você já está logado com uma conta paga de Heroes o
 create_acc_friends							Insira o apelido de um amigo para comprar uma conta para ele. ^y(Opcional)
 create_acc_promocode						Tem um Cupom ou Código Promocional?  Digite aqui:
 create_acc_nocc_xfer						O Código Promocional inserido garante uma conta de Neroes of Newerth gratuita, e as informações do Cartão de Crédito não serão necessárias nesta transação.
+create_acc_nocc_xfer_subaccount				O Código Promocional inserido garante uma sub-conta de Neroes of Newerth gratuita, e as informações do Cartão de Crédito não serão necessárias nesta transação.
 create_acc_successfull_purch				Compra feita com Sucesso - sua conta de Neroes of Newerth foi melhorada. Um comprovante foi enviado para seu e-mail.
 create_acc_friends							Faça Upgrade para a Conta de um Amigo
 create_acc_promocode						Insira um Código Promocional
@@ -698,6 +699,29 @@ web_form_resetstats_error5					A alteração solicitada não teria nenhum efeito
 web_form_resetstats_error6					Código Promocional Inválido
 web_form_resetstats_error7					Informações de pagamento inválidas - pagamento recusado.
 web_form_resetstats_error8					Esse recurso está atualmente em manutenção.
+web_form_resetstats_success					As estatísticas escolhidas foram resetadas com sucesso.
+web_form_resetstats_success_title			Stats Reset
+web_form_friendupgrade_auccess_title		Upgrade de Amigo com Sucesso
+web_form_friendupgrade_success				Você fez Upgrade na conta de seu amigo com sucesso!
+web_form_subaccount_success_title			Sub-Conta Criada
+web_form_subaccount_success					Você criaou uma Sub-Conta com sucesso!  Você vai precisar desconectar antes de conectar com a nova sub-conta.
+web_form_paypal_notice						Também aceitamos pagamentos por paypal em: www.heroesofnewerth.com
+
+prompt_tutorial_title						Ir para o Tutorial?
+prompt_tutorial_text						Bem vindo ao Heroes of Newerth.  Como um novo jogador, recomendamos que você primeiro jogue o tutorial antes de jogar uma partida online. Gostaria de visitar o tutorial agora?
+
+// Garena Stuff
+
+garena_error_GA002000						Membros do Garena têm que registrar uma nova conta.
+garena_error_GA001004						Login não está disponivel para sua conta.
+garena_error_GA001003						Conta suspensa. Para mais informações, visite a pagina de Atendimento ao Cliente.
+garena_error_GA001002						Nickname ou Password inválido.
+garena_error_GA001000						Não pode conectar. Tente novamente.
+garena_error_GA001001						Autenticação do Garena não está disponivel no momento.
+garena_error_GA001005						Registro no Garena falhou. Tente Novamente.
+garena_error_GA001006						Nickname já está em uso. Escolha outro.
+garena_create_account_title					Criar uma Conta do HoN
+garena_create_account_body					Antes de você poder conectar, você precisa primeiro criar uma conta do Heroes of Newerth que será ligada com a sua conta do Garena.
 
 // states
 create_acc_state_alabama					Alabama
@@ -1488,9 +1512,9 @@ main_lobby_filter_team_size_five_v_five		5x5 - Cinco contra Cinco
 mainlobby_label_custom_map					Mapa
 mainlobby_label_custom_map_desc				Partidas Exclusivas para este Mapa.
 mainlobby_label_custom_server_type			Tipo do Servidor
-mainlobby_label_custom_server_type_desc		Restrict games based on server type. Official servers are S2 hosted servers that are guaranteed to run official, non-modified game settings and maps. Unofficial servers are community hosted servers that may or may not be using modified maps and game settings.
-main_lobby_server_official_stats			Odicial - Com Estatísticas
-main_lobby_server_official_nostats			Oficial - Sem Estatísticas
+mainlobby_label_custom_server_type_desc		Restringir os jogos com base no tipo de servidor. servidores oficiais são servidores hospedados na S2 que são garantidos para funcionar oficialmente, as configurações do jogo não modificado e mapas. Servidores não-oficiais são servidores hospedados pela comunidade que podem ou não podem ser modificados usando os mapas e configurações de jogo.
+main_lobby_server_official_stats			Oficial - Com Estat.
+main_lobby_server_official_nostats			Oficial - Sem Estat.
 main_lobby_server_unofficial				Não Oficial
 msin_lobby_game_access						Acesso do Jogo
 main_lobby_view_advanced_filters			Clique em ^yVer Avançados^* para mostrar todas as opções adicionais.
@@ -1696,7 +1720,9 @@ game_loading_button_cancel					Cancelar Loading
 // game_lobby
 gamelobby_phase_choosing					Escolhendo
 gamelobby_add_as_friend_tip					Adicionar à lista de amigos
-globby_lock_tip								Travar slot
+globby_lock_tip								Travar Slot
+globby_unlock_tip							Destravar Slot
+globby_disabled_tip							Travamento de slots está desativado neste modo de jogo.
 globby_kick_spec_tip						Retirar deste jogo.
 globby_make_ref_tip							Fazer este jogador um juíz
 globby_spot_locked							Travado
@@ -2453,222 +2479,222 @@ notify_buddy_requested_added_info			pediu você como amigo.
 
 // compendium.package
 compendium_title							Hero Compendium
-compendium_ability1							Ability 1
-compendium_ability2							Ability 2
-compendium_ability3							Ability 3
-compendium_ability4							Ability 4
-compendium_hero_name						Hero Name
-compendium_type								Type:
+compendium_ability1							Habilidade 1
+compendium_ability2							Habilidade 2
+compendium_ability3							Habilidade 3
+compendium_ability4							Habilidade 4
+compendium_hero_name						Nome do Hero
+compendium_type								Tipo:
 compendium_range							Range:
-compendium_dmg								Dmg:
-compendium_speed							Speed:
-compendium_usage_soon						Usage Stats Coming Soon!
-compendium_health							Health
+compendium_dmg								Dano:
+compendium_speed							Velocidade:
+compendium_usage_soon						Estatísticas de usagem em breve!
+compendium_health							Vida
 compendium_mana								Mana
-compendium_lvl_inventory					Hero Level and Inventory
-compendium_rec_items						Recommended Items
-compendium_inventory						Inventory
-compendium_items							Items
-compendium_current_lvl						Current Level:
-compendium_totalcost						Total Cost:
-compendium_controls_soon					Hero Controls Coming Soon!
-compendium_primary_atrib					Primary Attribute:
+compendium_lvl_inventory					Level do Hero e Inventorio
+compendium_rec_items						Itens Recomendados
+compendium_inventory						Inventório
+compendium_items							Itens
+compendium_current_lvl						Level Atual:
+compendium_totalcost						Custo Total:
+compendium_controls_soon					Controles do Hero em breve!
+compendium_primary_atrib					Atributo primário:
 compendium_attrib_types						Str/Agi/Int
-compendium_attack_type						Attack Type:
+compendium_attack_type						Tipo de Ataque:
 compendium_melee_range						Melee/Range
 compendium_type_melee						Melee
 compendium_type_ranged						Ranged
 
-compendium_hero_name						Hero Name
-compendium_attribute						Attribute
-compendium_atk								Atk.
-compendium_strength							Strength
-compendium_agility							Agility
-compendium_intelligence						Intelligence
+compendium_hero_name						Nome do Hero
+compendium_attribute						Atributo
+compendium_atk								Ataque.
+compendium_strength							Força
+compendium_agility							Agilidade
+compendium_intelligence						Inteligência
 compendium_armor							Armor
-compendium_atk_dmg							Attack Dmg.
-compendium_speed							Speed
-compendium_abilities						Abilities
+compendium_atk_dmg							Dano de Ataque.
+compendium_speed							Velocidade
+compendium_abilities						Habilidades
 
-compendium_list_simple						Simple Hero List
-compendium_list_detailed					Detailed Hero List
+compendium_list_simple						Lista Simples
+compendium_list_detailed					Lista Detalhada
 
 // Used For stat/lvl stuff
 compendium_lvl								lvl
 
-tooltip_primary_attribute_strength			This hero's primary attribute is Strength.
-tooltip_primary_attribute_agility			This hero's primary attribute is Agility.
-tooltip_primary_attribute_intelligence		This hero's primary attribute is Intelligence.
+tooltip_primary_attribute_strength			O atributo primário deste hero é Força.
+tooltip_primary_attribute_agility			O atributo primário deste hero é Agilidade.
+tooltip_primary_attribute_intelligence		O atributo primário deste hero é Inteligência.
 
 //ladder.package
-ladder_title								Player Ladder
-ladder_field_acc_games_played				Games Played
-ladder_field_acc_wins						Wins
-ladder_field_acc_losses						Losses
-ladder_field_acc_concedes					Concedes
-ladder_field_acc_concedevotes				Concede Votes
-ladder_field_acc_buybacks					Buy Backs
+ladder_title								Ladder do Jogador
+ladder_field_acc_games_played				Partidas jogadas
+ladder_field_acc_wins						Vitórias
+ladder_field_acc_losses						Derrotas
+ladder_field_acc_concedes					Concedidas
+ladder_field_acc_concedevotes				Votos para Conceder
+ladder_field_acc_buybacks					Vezes que pagou pra renascer
 ladder_field_acc_discos						Leaves
-ladder_field_acc_kicked						Kicked
+ladder_field_acc_kicked						Retirado
 // Assuming the below is PSR anyways
 ladder_field_acc_pub_skill					PSR
-ladder_field_acc_pub_count					Public Games
-ladder_field_acc_avg_score					Average Score
-ladder_field_acc_herokills					Hero Kills
-ladder_field_acc_herodmg					Hero Dmg
-ladder_field_acc_heroexp					Hero Exp
-ladder_field_acc_herokillsgold				Hero Kills Gold
-ladder_field_acc_heroassists				Hero Assists
-ladder_field_acc_deaths						Hero Deaths
-ladder_field_acc_goldlost2death				Gold Lost
-ladder_field_acc_secs_dead					Seconds Dead
-ladder_field_acc_teamcreepkills				Enemy Creep Kills
-ladder_field_acc_teamcreepdmg				Dmg to Enemy Creeps
-ladder_field_acc_teamcreepexp				Exp from Enemy Creeps
-ladder_field_acc_teamcreepgold				Gold from Enemy Creeps
-ladder_field_acc_neutralcreepkills			Neutral Creep Kills
-ladder_field_acc_neutralcreepdmg			Neutral Creep Dmg
-ladder_field_acc_neutralcreepexp			Neutral Creep Exp
-ladder_field_acc_neutralcreepgold			Neutral Creep Gold
-ladder_field_acc_bdmg						Building Dmg
-ladder_field_acc_bdmgexp					XP from Building Damage
-ladder_field_acc_razed						Buildings Destroyed
-ladder_field_acc_bgold						Gold from Buildings
+ladder_field_acc_pub_count					Jogos Públicos
+ladder_field_acc_avg_score					Média de Pontos
+ladder_field_acc_herokills					Heroes Mortos
+ladder_field_acc_herodmg					Dano em Heroes
+ladder_field_acc_heroexp					Exp de Heroes
+ladder_field_acc_herokillsgold				Gold de Heroes mortos
+ladder_field_acc_heroassists				Assistências
+ladder_field_acc_deaths						Mortes do Hero
+ladder_field_acc_goldlost2death				Gold Perdido
+ladder_field_acc_secs_dead					Segundos Morto
+ladder_field_acc_teamcreepkills				Creeps Inimigos Mortos
+ladder_field_acc_teamcreepdmg				Dano em Creeps Inimigos
+ladder_field_acc_teamcreepexp				Exp de Creeps Inimigos
+ladder_field_acc_teamcreepgold				Gold de Creeps Inimigos
+ladder_field_acc_neutralcreepkills			Creeps Neutros Mortos
+ladder_field_acc_neutralcreepdmg			Dano em Creeps Neutros
+ladder_field_acc_neutralcreepexp			Exp de Creeps Neutros
+ladder_field_acc_neutralcreepgold			Gold de Creeps Neutros
+ladder_field_acc_bdmg						Dano em Construções
+ladder_field_acc_bdmgexp					XP de dano em construções
+ladder_field_acc_razed						Construções Destruídas
+ladder_field_acc_bgold						Gold de Construções
 ladder_field_acc_denies						Denies
-ladder_field_acc_exp_denied					Exp Denied
-ladder_field_acc_gold						Gold Earned
-ladder_field_acc_gold_spent					Gold Spent
-ladder_field_acc_exp						Total Exp
+ladder_field_acc_exp_denied					Exp Denyada
+ladder_field_acc_gold						Gold Ganho
+ladder_field_acc_gold_spent					Gold Gasto
+ladder_field_acc_exp						Exp Total
 // Not actions per minute? just a total count of all actions?
-ladder_field_acc_actions					Actions
-ladder_field_acc_secs						Seconds Played
-ladder_field_acc_consumables				Consumables
-ladder_field_acc_wards						Wards Placed
-ladder_field_acc_em_played					EM Games Percent
-ladder_field_acc_expPerMin					Exp Per Min
+ladder_field_acc_actions					Ações
+ladder_field_acc_secs						Segundos jogados
+ladder_field_acc_consumables				Consumíveis
+ladder_field_acc_wards						Wards Colocadas
+ladder_field_acc_em_played					Porcentual de Games EM
+ladder_field_acc_expPerMin					Exp por Minuto
 // I seriously, SERIOUSLY do not like using colons in here.  This should've been fixed on the web end already.  Grr!
-ladder_field_acc_k:d:a						K:D:A
-ladder_field_acc_k_d_a						K:D:A
-ladder_field_acc_wardsPerGame				Wards Per Game
-ladder_field_acc_consumablesPerGame			Consumables Per Game
-ladder_field_acc_avgGameLength				Avg Game Length
-ladder_field_acc_expPerGame					Exp Per Game
-ladder_field_acc_goldPerGame				Gold Per Game
-ladder_field_acc_goldPerMin					Gold Per Min
-ladder_field_acc_spentPerMin				Spent Per Min
-ladder_field_acc_deniesPerMin				Denies Per Min
-ladder_field_acc_deniesPerGame				Denies Per Game
-ladder_field_acc_buildingsPerGame			Buildings Per Game
-ladder_field_Player							Player Name
-ladder_field_PlayerSkillRating				Player Skill Rating
+ladder_field_acc_k:d:a						K/D/A
+ladder_field_acc_k_d_a						K/D/A
+ladder_field_acc_wardsPerGame				Wards por Game
+ladder_field_acc_consumablesPerGame			Comsumíveis Por Jogo
+ladder_field_acc_avgGameLength				Tempo Médio de Jogo
+ladder_field_acc_expPerGame					Exp Por Jogo
+ladder_field_acc_goldPerGame				Gold Por Jogo
+ladder_field_acc_goldPerMin					Gold Por Minuto
+ladder_field_acc_spentPerMin				Gasto Por Minuto
+ladder_field_acc_deniesPerMin				Denies Por Minuto
+ladder_field_acc_deniesPerGame				Denies Por Jogo
+ladder_field_acc_buildingsPerGame			Construções Por Jogo
+ladder_field_Player							Nome do Jogador
+ladder_field_PlayerSkillRating				Classificação de Habilidade do Player (PSR)
 ladder_field_Rank							Rank
 
-ladder_title								Player Ladder
-ladder_fieldshort_acc_games_played				G.P.
-ladder_fieldshort_acc_wins						Wins
-ladder_fieldshort_acc_losses					Losses
+ladder_title								Ladder do Jogador
+ladder_fieldshort_acc_games_played				Jogos
+ladder_fieldshort_acc_wins						Vitórias
+ladder_fieldshort_acc_losses					Derrotas
 ladder_fieldshort_acc_concedes					C
-ladder_fieldshort_acc_concedevotes				C.V.
-ladder_fieldshort_acc_buybacks					Buy Backs
-ladder_fieldshort_acc_discos					Leaves
-ladder_fieldshort_acc_kicked					Kicked
+ladder_fieldshort_acc_concedevotes				V.C.
+ladder_fieldshort_acc_buybacks					Compr.
+ladder_fieldshort_acc_discos					Desist.
+ladder_fieldshort_acc_kicked					Retirado
 // Assuming the below is PSR anyways
 ladder_fieldshort_acc_pub_skill					PSR
-ladder_fieldshort_acc_pub_count					P Games
-ladder_fieldshort_acc_avg_score					Avg Score
+ladder_fieldshort_acc_pub_count					Jogos Púb
+ladder_fieldshort_acc_avg_score					Média Pontos
 ladder_fieldshort_acc_herokills					HK
 ladder_fieldshort_acc_herodmg					H Dmg
 ladder_fieldshort_acc_heroexp					H Exp
-ladder_fieldshort_acc_herokillsgold				HKG
+ladder_fieldshort_acc_herokillsgold				HK Gold
 ladder_fieldshort_acc_heroassists				Assists
-ladder_fieldshort_acc_deaths					H Deaths
-ladder_fieldshort_acc_goldlost2death			G Lost
-ladder_fieldshort_acc_secs_dead					S Dead
-ladder_fieldshort_acc_teamcreepkills			ECK
-ladder_fieldshort_acc_teamcreepdmg				Dmg/EC
-ladder_fieldshort_acc_teamcreepexp				Exp/EC
-ladder_fieldshort_acc_teamcreepgold				Gold/EC
-ladder_fieldshort_acc_neutralcreepkills			NC Kills
-ladder_fieldshort_acc_neutralcreepdmg			NC Dmg
-ladder_fieldshort_acc_neutralcreepexp			NC Exp
-ladder_fieldshort_acc_neutralcreepgold			NC Gold
-ladder_fieldshort_acc_bdmg						B Dmg
-ladder_fieldshort_acc_bdmgexp					E/B Dmg
-ladder_fieldshort_acc_razed						B Dest.
-ladder_fieldshort_acc_bgold						B Gold
+ladder_fieldshort_acc_deaths					H Mortes
+ladder_fieldshort_acc_goldlost2death			$ Perdido
+ladder_fieldshort_acc_secs_dead					Segs Morto
+ladder_fieldshort_acc_teamcreepkills			CK
+ladder_fieldshort_acc_teamcreepdmg				Dano/CI
+ladder_fieldshort_acc_teamcreepexp				Exp/CI
+ladder_fieldshort_acc_teamcreepgold				Gold/CI
+ladder_fieldshort_acc_neutralcreepkills			CN Mortos
+ladder_fieldshort_acc_neutralcreepdmg			CN Dano
+ladder_fieldshort_acc_neutralcreepexp			CN Exp
+ladder_fieldshort_acc_neutralcreepgold			CN Gold
+ladder_fieldshort_acc_bdmg						Cons
+ladder_fieldshort_acc_bdmgexp					Cons Inim.
+ladder_fieldshort_acc_razed						Cons Dest
+ladder_fieldshort_acc_bgold						Gold Cons
 ladder_fieldshort_acc_denies					Denies
 ladder_fieldshort_acc_exp_denied				XP Denied
-ladder_fieldshort_acc_gold						G Earned
-ladder_fieldshort_acc_gold_spent				G Spent
-ladder_fieldshort_acc_exp						Total XP
+ladder_fieldshort_acc_gold						$ Ganho
+ladder_fieldshort_acc_gold_spent				$ Gasto
+ladder_fieldshort_acc_exp						XP Total
 // Not actions per minute? just a total count of all actions?
-ladder_fieldshort_acc_actions					Actions
-ladder_fieldshort_acc_secs						Secs Played
+ladder_fieldshort_acc_actions					Ações
+ladder_fieldshort_acc_secs						Segs
 ladder_fieldshort_acc_consumables				Cons.
 ladder_fieldshort_acc_wards						Wards
 ladder_fieldshort_acc_em_played					EM %%
 ladder_fieldshort_acc_expPerMin					XP/Min
 // I seriously, SERIOUSLY do not like using colons in here.  This should've been fixed on the web end already.  Grr!
-ladder_fieldshort_acc_k:d:a						K:D:A
-ladder_fieldshort_acc_k_d_a						K:D:A
-ladder_fieldshort_acc_wardsPerGame				W/G
-ladder_fieldshort_acc_consumablesPerGame		Cons./Game
-ladder_fieldshort_acc_avgGameLength				Avg GL
+ladder_fieldshort_acc_k:d:a						K/D/A
+ladder_fieldshort_acc_k_d_a						K/D/A
+ladder_fieldshort_acc_wardsPerGame				Wards/G
+ladder_fieldshort_acc_consumablesPerGame		Cons/G
+ladder_fieldshort_acc_avgGameLength				Dura.Méd
 ladder_fieldshort_acc_expPerGame				XP/Game
-ladder_fieldshort_acc_goldPerGame				Gold/Game
+ladder_fieldshort_acc_goldPerGame				Gold/Ga
 ladder_fieldshort_acc_goldPerMin				Gold/M
-ladder_fieldshort_acc_spentPerMin				Spent/M
+ladder_fieldshort_acc_spentPerMin				Gasto/M
 ladder_fieldshort_acc_deniesPerMin				Deny/M
 ladder_fieldshort_acc_deniesPerGame				Deny/G
-ladder_fieldshort_acc_buildingsPerGame			Bld/G
-ladder_fieldshort_Player						Player
+ladder_fieldshort_acc_buildingsPerGame			Cons/G
+ladder_fieldshort_Player						Jogador
 ladder_fieldshort_PlayerSkillRating				PSR
 ladder_fieldshort_Rank							Rank
 
-ladder_reset_fields							Reset Fields
-ladder_first_page							First Page
-ladder_previous_page						Previous Page
-ladder_next_page							Next Page
-ladder_fields								Ladder Fields
-ladder_currentpage							Current Page: {page} of {totalpages}
-ladder_loading_title						Loading Ladder
-ladder_loading_body							Loading ladder data, please wait...
-ladder_view_page							View Page:
-ladder_page_go								Go
-ladder_merow_nohistory						You have no match history!
+ladder_reset_fields							Resetar Campos
+ladder_first_page							Primeira Página
+ladder_previous_page						Página Anterior
+ladder_next_page							Próxima Página
+ladder_fields								Campos Ladder
+ladder_currentpage							Página Atual: {page} de {totalpages}
+ladder_loading_title						Carregando Ladder
+ladder_loading_body							Carregando dados da Ladder, espere por favor...
+ladder_view_page							Ver Página:
+ladder_page_go								Ir
+ladder_merow_nohistory						Você não tem histórico de partidas!
 
-ladder_error_message						An error was encountered while retrieving the player ladder.
+ladder_error_message						Um erro ocorreu ao carregar a Ladder.
 
 
 //social_groups.package
-social_groups_newIM							New IM
-social_groups_newIM_msg						Enter a nickname to start a conversation with a player.
+social_groups_newIM							Nova Msg
+social_groups_newIM_msg						Entre com um nickname para começar uma conversa com um jogador.
 
 //news.package
-news_title									News Updates
+news_title									Atualização das Notícias
 
 //tournaments.package
-tournament_name								Tournament Name
-tournament_teams							Teams:
-tournament_avg_lvl							Avg Lvl:
-tournament_details							Click For Details
-tournament_official							Official Tournament
-tournament_prizes							Prizes
-tournament_start_date						Start Date:
-tournament_end_date							End Date:
-tournament_signups							Signups Start:
-tournament_endsignups						Signups End:
-tournament_teamsize							Team Size:
-tournament_avg_games						Average Games:
-tournament_elim								Elimination:
-tournament_strict_lvl						Strict Level:
-tournament_strict_games						Strict Games:
-tournament_description						Tournament Description
-tournament_title							Tournaments
-tournament_full_list						For a list of all available tournaments, or create a tournament team, visit the tournament area of the website at:
+tournament_name								Nome do Torneio
+tournament_teams							Times:
+tournament_avg_lvl							Nível Médio:
+tournament_details							Clique para detalhes
+tournament_official							Torneio Oficial
+tournament_prizes							Prêmios
+tournament_start_date						Data Início:
+tournament_end_date							Data Fim:
+tournament_signups							Inscrições Início:
+tournament_endsignups						Inscrições Fim:
+tournament_teamsize							Tamanho de Time:
+tournament_avg_games						Games em Média:
+tournament_elim								Eliminação:
+tournament_strict_lvl						Nível Estrito:
+tournament_strict_games						Jogos Estritos:
+tournament_description						Descrição do Torneio
+tournament_title							Torneios
+tournament_full_list						Para ver uma lista de torneios disponíveis, ou para criar um time de torneio, visite a área de torneios no site:
 tournament_website							http://www.heroesofnewerth.com
-tournament_not_enrolled_msg					You are not currently enrolled in any upcoming tournaments. To learn more about the excitement of competing in HoN tournaments, visit the Heroes of Newerth website.
-tournament_not_played						You have not played in any tournament matches.
+tournament_not_enrolled_msg					Você não está envolvido em nenhum torneio. Para aprender mais sobre a agitação de competir em torneios de HoN, visite o site de Heroes of Newerth.
+tournament_not_played						Você não jogou nenhuma partida de torneio.
 
 
 //loading.interface
@@ -2682,7 +2708,7 @@ lang_br										Português
 lang_es										Espanhol
 lang_vn										Vietnamita
 lang_ru										Russo
-lang_notnow									Você não poderá trocar a lingua neste momento. Para trocar de lingua, primeiro você deverá sair da sua conta. Se necessário, você deverá desconectar da partida primeiro.
+lang_notnow									Você não poderá trocar a língua neste momento. Para trocar de língua, primeiro você deverá sair da sua conta. Se necessário, você deverá desconectar da partida primeiro.
 purch_subacct								Comprar Sub-Conta
 purch_resetstats							Resetar Estatísticas
 purch_giftacct								Comprar Conta de Presente
