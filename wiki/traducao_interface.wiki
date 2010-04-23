@@ -1,8 +1,10 @@
 #labels Featured
+numero das linhas pode não ser exato devido a atualizações recentes
+
 || *Trecho / Pacotes* || *Nome* || *Linhas* ||
 ||general game_options||Khain||1 até 589||
 ||create_account credit_card||IIIlll||594 até 1002||
-||game.interface||GVT||1005 até 1341||
+||game.interface||Einherjarl||1005 até 1341||
 ||cc_ircchat game_hero_select main_lobby||IIIlll||1344 até 1609||
 ||replay preorder_features||Einherjarl||1612 até 1690||
 ||game_lobby game_menu||Einherjarl||1693 até 1810||
