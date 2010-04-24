@@ -1087,7 +1087,7 @@ game_invulnerable							Invulnerável
 game_disconnect								Desconectar
 
 // game_chat.package
-gamechat_button_send_message				Mandar Mensagem
+gamechat_button_send_message				Enviar Mensagem
 gamechat_tip_hit_z_history					^y*Dica:^* Aperte "Z" para mostrar o histórico de chat
 gamechat_indicate_team						[TIME]
 gamechat_indicate_all						[TODOS]
@@ -2147,8 +2147,8 @@ ui_items_friend_right_click_label			Click Direito para mais Opções
 ui_items_slider_low							Baixo
 ui_items_slider_high						Alto
 ui_items_cc_right_click_send_message		Enviar Msg
-ui_items_cc_right_click_joing_game			Juntar-se
-ui_items_cc_right_click_message_clan		Message Entire Clan
+ui_items_cc_right_click_joing_game			Entrar no Jogo
+ui_items_cc_right_click_message_clan		Msg p/ todo o Clan
 ui_items_cc_right_click_view_stats			Ver Estatísticas
 ui_items_cc_right_click_add_buddy			Add Amigo
 ui_items_cc_right_click_remove_buddy		Remover Amigo
@@ -2161,14 +2161,14 @@ ui_items_cc_right_click_channel_silence		Mutar Usuário
 ui_items_cc_right_click_ignore				Ignorar
 ui_items_cc_right_click_ignoretxt			Tem certeza que deseja ignorar este jogador?
 ui_items_cc_right_click_unignore			Remover Ignorar
-ui_items_cc_right_click_addban				Add na Lista de Banidos
+ui_items_cc_right_click_addban				Adicionar na Lista de Banidos
 ui_items_cc_right_click_addbantxt			Tem certeza que deseja adicionar este jogador à sua Lista de Banidos?
 ui_items_cc_right_click_remban				Remover da Lista de Banidos
-ui_items_cc_right_click_channel_promote		Promote (Channel)
-ui_items_cc_right_click_channel_demote		Demote (Channel)
-ui_items_cc_right_click_clan_promote		Promote (Clan)
-ui_items_cc_right_click_clan_demote			Demote (Clan)
-ui_items_cc_right_click_clan_remove			Remove from Clan
+ui_items_cc_right_click_channel_promote		Promover (Channel)
+ui_items_cc_right_click_channel_demote		Rebaixar (Channel)
+ui_items_cc_right_click_clan_promote		Promover (Clan)
+ui_items_cc_right_click_clan_demote			Rebaixar (Clan)
+ui_items_cc_right_click_clan_remove			Remover do Clan
 ui_items_cc_right_click_clan_removetxt		Tem certeza que deseja remover este Membro do Clan?
 ui_items_cc_right_click_clan_invite			Convidar para o Clan
 ui_items_cc_right_click_clan_leave			Sair do Clan
@@ -2184,61 +2184,61 @@ ui_items_patchupdatetxt						Seu client será desconectado. Gostaria de Continua
 
 // player_statistics.package
 player_statistics_name						Estatísticas: ^w{name}
-player_statistics_skill_factor				Skill Factor (SF): ^w{value}
+player_statistics_skill_factor				Fator de Hab. (SF): ^w{value}
 
 // private_chatpass.package
-private_chat_header							Private Chat Password
-private_chat								You must enter a password to enter this private chat room.
-private_chat_btn							Join Channel
+private_chat_header							Senha Chat Privado
+private_chat								Você tem de digitar uma senha para entrar neste chat privado.
+private_chat_btn							Entrar no Channel
 
 // Clan invites
-clan_invite_body_label				You have been invited to join the clan {clan} by {inviter}.
-clan_invite_header_label			Clan Invite
-chat_success_clan_name_tip			Clan Name and Tag are Available.
+clan_invite_body_label				Você foi convidade para juntar-se ao Clan {clan} por {inviter}.
+clan_invite_header_label			Convite de Clan
+chat_success_clan_name_tip			Nome do Clan e Tag disponível.
 
 
-Shop_Accessories_description									The Accessories Shop contains a number of trinkets and treasures that primarily provide a boost to basic stats.
-Shop_Recipes1_description										Initiation recipes build mostly basic items for Heroes first starting their adventures.
-Shop_Recipes2_description										Supportive recipes build items that are useful for helping your team. 
-Shop_Recipes3_description										Protective recipes build items that generally increase survivability.
-Shop_Recipes4_description										Combative recipes build items that add to a Hero's combat prowess, improving damage output.
-Shop_Recipes5_description										Morph Attack recipes build items that modify or add various properties to a Hero's attack.
-Shop_Recommended_description									Recommended Items are always reliable and can be put to good use against the enemy.
-Shop_Relics_description											The Relics Shop contains various rare artifacts that have many different effects.
-Shop_Secret_description											Shady and mysterious, the Secret Shop contains many rare and powerful artifacts. One must venture into the woods to find the reclusive Secret Shop's location.
-Shop_Supplies_description										The Supplies Shop is home to many goods and potions that are generally consumed upon use.
-Shop_Weapons_description										The Weapons Shop contains various armor and weapons that generally increase damage or armor.
-Shop_Outpost_description										The Outpost contains various basic (non-recipe) items that are often useful if they are part of a recipe you plan on creating.
+Shop_Accessories_description									A Loja de acessórios contém um número de utilidades que primariamente provêm uma melhora nos stats base.
+Shop_Recipes1_description										Recipes de Iniciação contém mais itens básicos para os Heroes que recém começaram suas aventuras.
+Shop_Recipes2_description										Recipes de Suporte fazem itens que são úteis para ajudar seu time. 
+Shop_Recipes3_description										Recipes de Proteção fazem itens que geralmente aumentam a sobrevivência do Hero.
+Shop_Recipes4_description										Recipes de Combate fazem itens que aumentam a capacidade combativa do Hero, melhorando a potência do dano.
+Shop_Recipes5_description										Recipes de Morph Attack fazem itens que adicionam ou mudam várias propriedades ao ataque de um hero.
+Shop_Recommended_description									Itens Recomendados são sempre confiáveis e terão sempre um bom uso contra o inimigo.
+Shop_Relics_description											A loja de Relíquias contém vários artefatos raros que têm diversos efeitos.
+Shop_Secret_description											Suspeita e misteriosa, a Loja Secreta contém muitos artefatos raros e poderosos. Deve-se aventurar na floresta para achar a localização reclusa da Loja Secreta.
+Shop_Supplies_description										A Loja de Suprimentos é o lar de muitas mercadorias e poções que geralmente são consumidas ao usar.
+Shop_Weapons_description										A Loja de Armas contém várias armas e armaduras que em geral aumentam a Armor e o dano.
+Shop_Outpost_description										O Posto Avançado contém vários itens básicos (não-recipe) que frequentemente são úteis se parte de uma recipe que você planeja criar.
 
 
-game_command_tooltip_name_move			Move
-game_command_tooltip_name_attack		Attack
-game_command_tooltip_name_stop			Stop
-game_command_tooltip_name_hold			Hold
-game_command_tooltip_name_patrol		Patrol
+game_command_tooltip_name_move			Mover
+game_command_tooltip_name_attack		Atacar
+game_command_tooltip_name_stop			Parar
+game_command_tooltip_name_hold			Manter Posição
+game_command_tooltip_name_patrol		Patrulhar
 game_command_tooltip_name_taunt			Taunt
-game_command_tooltip_desc_move			Moves units to a target position.
-game_command_tooltip_desc_attack		Issues an attack command. Your units will move to the area or target unit and attack.
-game_command_tooltip_desc_stop			Stops your unit from completing any previously given order.
-game_command_tooltip_desc_hold			Holds position and will not attack any units.
-game_command_tooltip_desc_patrol		The unit will move back and forth between its current position and targeted position.
-game_command_tooltip_desc_taunt			Taunts target enemy hero. You will be revealed to your target's team while you taunt. Kill taunted target within 30 seconds to earn a smak down.
+game_command_tooltip_desc_move			Move as unidades à uma posição alvo.
+game_command_tooltip_desc_attack		Dá um comando de ataque. Suas unidades vão ir até a área ou unidade alvo e atacar.
+game_command_tooltip_desc_stop			Impede sua unidade de completar qualquer ordem anterior.
+game_command_tooltip_desc_hold			Mantém posição e não ataca outras unidades.
+game_command_tooltip_desc_patrol		A unidade vai ficar andando entre sua posição atual e a posição alvo.
+game_command_tooltip_desc_taunt			Taunt o hero inimigo. Você será revelado ao time de seu alvo enquanto você usa taunt. Mate o alvo dentro de 30 segundos para ganhar um smack down.
 
 // main_passchange.package
-main_passchange_title						Password Update Required
-main_passchange_expired						Your password is expired or is set to expire soon!
-main_passchange_expired_txt					Once your password has expired you will no longer be able to play Heroes of Newerth until you change it.  Please choose a new password now to avoid any gameplay interruptions.
-main_passchange_note						^yNote:^* You can not reuse your old password, and your new password must be at least six characters long.
-main_passchange_newpass						New Password
-main_passchange_newpass2					Confirm Password
-main_passchange_btn							Set New Password
-main_passchange_cancel						Cancel, Not Now
+main_passchange_title						Atualização de Senha Requirida
+main_passchange_expired						Sua senha expirou ou está marcada para expirar logo!
+main_passchange_expired_txt					Quando sua senha expirar você não poderá mais jogar Heroes of Newerth até que você troque-a.  Por favor escolha uma senha nova agora para não ter futuras interrupções no jogo.
+main_passchange_note						^yNota:^* Você não pode reusar sua senha velha, e sua nova senha tem de ter pelo menos 6 caracteres.
+main_passchange_newpass						Nova Senha
+main_passchange_newpass2					Confirmar Nova Senha
+main_passchange_btn							Definir Nova Senha
+main_passchange_cancel						Cancelar, Não Agora
 
 // patchnotes.package
-patchnotes_title						Patch Notes
-patchnotes_close_btn					Close
-patchnotes_latest_button				Latest
-patchnotes_history_button				History
+patchnotes_title						Notas do Patch
+patchnotes_close_btn					Fechar
+patchnotes_latest_button				Últimas
+patchnotes_history_button				Histórico
 
 // System dates
 weekday_unknown					Erro
@@ -2487,7 +2487,7 @@ compendium_hero_name						Nome do Hero
 compendium_type								Tipo:
 compendium_range							Range:
 compendium_dmg								Dano:
-compendium_speed							Velocidade:
+compendium_speed							Veloc.:
 compendium_usage_soon						Estatísticas de usagem em breve!
 compendium_health							Vida
 compendium_mana								Mana
@@ -2507,13 +2507,13 @@ compendium_type_ranged						Ranged
 
 compendium_hero_name						Nome do Hero
 compendium_attribute						Atributo
-compendium_atk								Ataque.
+compendium_atk								Ataque
 compendium_strength							Força
 compendium_agility							Agilidade
 compendium_intelligence						Inteligência
 compendium_armor							Armor
-compendium_atk_dmg							Dano de Ataque.
-compendium_speed							Velocidade
+compendium_atk_dmg							Dano Ataque
+compendium_speed							Vel.Mov.
 compendium_abilities						Habilidades
 
 compendium_list_simple						Lista Simples
@@ -2561,7 +2561,7 @@ ladder_field_acc_bdmgexp					XP de dano em construções
 ladder_field_acc_razed						Construções Destruídas
 ladder_field_acc_bgold						Gold de Construções
 ladder_field_acc_denies						Denies
-ladder_field_acc_exp_denied					Exp Denyada
+ladder_field_acc_exp_denied					Exp Denied
 ladder_field_acc_gold						Gold Ganho
 ladder_field_acc_gold_spent					Gold Gasto
 ladder_field_acc_exp						Exp Total
@@ -2590,40 +2590,40 @@ ladder_field_PlayerSkillRating				Classificação de Habilidade do Player (PSR)
 ladder_field_Rank							Rank
 
 ladder_title								Ladder do Jogador
-ladder_fieldshort_acc_games_played				Jogos
-ladder_fieldshort_acc_wins						Vitórias
-ladder_fieldshort_acc_losses					Derrotas
+ladder_fieldshort_acc_games_played				Partidas
+ladder_fieldshort_acc_wins						V
+ladder_fieldshort_acc_losses					D
 ladder_fieldshort_acc_concedes					C
 ladder_fieldshort_acc_concedevotes				V.C.
-ladder_fieldshort_acc_buybacks					Compr.
+ladder_fieldshort_acc_buybacks					Buybacks
 ladder_fieldshort_acc_discos					Desist.
-ladder_fieldshort_acc_kicked					Retirado
+ladder_fieldshort_acc_kicked					Ret.
 // Assuming the below is PSR anyways
 ladder_fieldshort_acc_pub_skill					PSR
-ladder_fieldshort_acc_pub_count					Jogos Púb
-ladder_fieldshort_acc_avg_score					Média Pontos
+ladder_fieldshort_acc_pub_count					Pubs
+ladder_fieldshort_acc_avg_score					Média
 ladder_fieldshort_acc_herokills					HK
 ladder_fieldshort_acc_herodmg					H Dmg
 ladder_fieldshort_acc_heroexp					H Exp
 ladder_fieldshort_acc_herokillsgold				HK Gold
 ladder_fieldshort_acc_heroassists				Assists
-ladder_fieldshort_acc_deaths					H Mortes
-ladder_fieldshort_acc_goldlost2death			$ Perdido
-ladder_fieldshort_acc_secs_dead					Segs Morto
+ladder_fieldshort_acc_deaths					H Mort.
+ladder_fieldshort_acc_goldlost2death			$ Perd.
+ladder_fieldshort_acc_secs_dead					S Mort.
 ladder_fieldshort_acc_teamcreepkills			CK
 ladder_fieldshort_acc_teamcreepdmg				Dano/CI
 ladder_fieldshort_acc_teamcreepexp				Exp/CI
 ladder_fieldshort_acc_teamcreepgold				Gold/CI
-ladder_fieldshort_acc_neutralcreepkills			CN Mortos
+ladder_fieldshort_acc_neutralcreepkills			CN Mort.
 ladder_fieldshort_acc_neutralcreepdmg			CN Dano
 ladder_fieldshort_acc_neutralcreepexp			CN Exp
 ladder_fieldshort_acc_neutralcreepgold			CN Gold
-ladder_fieldshort_acc_bdmg						Cons
-ladder_fieldshort_acc_bdmgexp					Cons Inim.
-ladder_fieldshort_acc_razed						Cons Dest
-ladder_fieldshort_acc_bgold						Gold Cons
+ladder_fieldshort_acc_bdmg						Cons.
+ladder_fieldshort_acc_bdmgexp					Cons. I.
+ladder_fieldshort_acc_razed						Dest.
+ladder_fieldshort_acc_bgold						Gold Cons.
 ladder_fieldshort_acc_denies					Denies
-ladder_fieldshort_acc_exp_denied				XP Denied
+ladder_fieldshort_acc_exp_denied				XP D
 ladder_fieldshort_acc_gold						$ Ganho
 ladder_fieldshort_acc_gold_spent				$ Gasto
 ladder_fieldshort_acc_exp						XP Total

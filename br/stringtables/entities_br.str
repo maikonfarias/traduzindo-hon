@@ -609,8 +609,11 @@ State_Chipper_Ability3_Buff_FRAME_effect						Reduz todo o dano recebido em {11,
 // Ability_Chipper4
 Ability_Chipper4_name											Sawblade Showdown
 Ability_Chipper4_description									O Chipper é capaz de se comunicar com os Chiprels abaixo da terra, chamando uma serra giratória para fora da terra onde ele direcionar. Qualquer um sem sorte o bastante de passar em cima do caminho das serras recebera um dano significativo.
+Ability_Chipper4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gRange increased to 1000.\n^gApplies 70% snare to anyone in the Saws.
 Ability_Chipper4_effect_header									Efeito da Sawblade
 Ability_Chipper4_IMPACT_effect									Invoca serras por 8 segundos. Aplica Sawblade a qualquer inimigo que andar dentro das serras. Serras destroem árvores, obviamente.
+Ability_Chipper4_name:ult_boost									Sawblade Destruction
+Ability_Chipper4_description2:ult_boost							This ability has been boosted by Staff of the Master.\n\n^gRange increased to 1000.\n^gApplies 70% snare to anyone in the Saws.
 
 Ability_Chipper4_tooltip_flavor									O truque é controlar o elemento X.
 
@@ -674,6 +677,8 @@ Ability_Chronos4_tooltip_flavor									Bem vindo ao Thunderdome!
 // State_Chronos_Ability4
 State_Chronos_Ability4_name										Chronofield
 State_Chronos_Ability4_description								Congelados no tempo. Incapazes de executar qualquer ação.
+
+State_Chronos_Ability4_Ally_name								Time Dilation
 
 // Hero_Chronos
 Hero_Chronos_name												Chronos
@@ -793,7 +798,8 @@ Ability_Defiler2_name											Grave Silence
 Ability_Defiler2_description									A Defiler força imagens de guerreiros mortos na mente de seus inimigos, comandando um momento de silêncio que previne que o inimigo use spells ou habilidades.
 Ability_Defiler2_effect_header									Grave Silence Effects
 Ability_Defiler2_IMPACT_effect									Aplica Grave Silence aos alvos no radius por {3,4,5,6} segundos.
-qw
+Ability_Defiler2_tooltip_flavor									I Wrote the book on madness.
+
 // State_Defiler_Ability2
 State_Defiler_Ability2_name										Silenced
 
@@ -802,6 +808,8 @@ Ability_Defiler3_name											Power in Death
 Ability_Defiler3_description									A Defiler invoca a morte, aumentando sua velocidade e poder de outras spells.
 Ability_Defiler3_description2									^yWave of Death:^*\nReduz cooldown em {1,2,3,4} segundo(s)\nReduz o custo de Mana em {5,10,15,20}\n\n^yGraveSilence:^*\nReduz o cooldown em {0,1,2,3} segundos\n\n^yUnholy Expulsion:^*\nAdiciona {1,2,3,4} espíritos para Unholy Expulsion Level 1\nAdds\nAdiciona {1,3,4,6} espíritos para Unholy Expulsion Level 2\nAdiciona {0,2,4,7} espíritos para Unholy Expulsion Level 3
 Ability_Defiler3_effect_header									Status Effect
+
+Ability_Defiler3_tooltip_flavor									Just waiting to die.
 
 // Ability_Defiler4
 Ability_Defiler4_name											Unholy Expulsion
@@ -813,6 +821,8 @@ Ability_Defiler4_description2:Defiler_Ability3_1				Spawn de {6,11,16} espírito
 Ability_Defiler4_description2:Defiler_Ability3_2				Spawn de {7,13,18} espíritos.
 Ability_Defiler4_description2:Defiler_Ability3_3				Spawn de {8,14,20} espíritos.
 Ability_Defiler4_description2:Defiler_Ability3_4				Spawn de {9,16,23} espíritos.
+
+Ability_Defiler4_tooltip_flavor									The haunting of HoN!
 
 // Pet_Defiler_Ability4
 Pet_Defiler_Ability4_name										Spirit
@@ -828,12 +838,14 @@ Ability_Devourer1_name											Guttling Hook
 Ability_Devourer1_description									O Devourer lança seu Guttling Hook na unidade alvo ou localização. A primeira unidade que encostar no Hook será puxada em direção do Devourer.
 Ability_Devourer1_effect_header									Status Effect
 Ability_Devourer1_IMPACT_effect									Causa {100,200,300,400} de dano físico ao alvo e interrompe o uso de habilidades. Puxa o alvo na direção do Devourer.
+Ability_Devourer1_tooltip_flavor								HoN chainsaw massacre!
 
 // Ability_Devourer2
 Ability_Devourer2_name											Decay
 Ability_Devourer2_description									O Devourer se oferece para sacrifício, drenando seu Health por um tempo e soltando gazes venenosos que danificam e deixam as unidades inimigas mais lentas.
 Ability_Devourer2_effect_header									Decay Effects
 Ability_Devourer2_IMPACT_effect									Aplica Decay nos alvos inimigos em radius e causa {25,50,75,100} de dano Mágico por segundo em si mesmo.
+Ability_Devourer2_tooltip_flavor								Whats that smell?
 
 // State_Devourer_Ability2_Other
 State_Devourer_Ability2_Other_name								Decay
@@ -846,16 +858,26 @@ State_Devourer_Ability2_Self_FRAME_effect						{25,50,75,100} de dano Mágico po
 // Ability_Devourer3
 Ability_Devourer3_name											Cadaver Armor
 Ability_Devourer3_description									Essa armadura grotesca aumenta a Magic Armor do Devourer e adiciona permanentemente {0.9,1.2,1.5,1.8} de strength por casa hero morto e {0.03,0.06,0.09,0.12} de strength por cada creep morto.
+Ability_Devourer3_KILL_effect									Permanently adds {0.9,1.2,1.5,1.8} Strength to self per hero kill, or {0.03,0.05,0.06,0.09} Strength per creep kill.
 Ability_Devourer3_effect_header									Status Effect
+Ability_Devourer3_tooltip_flavor								Evil never dies!
+
+State_Devourer_Ability3_FRAME_effect							On death, when not killed by the Devourer, adds {0.9,1.2,1.5,1.8} strength to the Devourer.
 
 // Ability_Devourer4
 Ability_Devourer4_name											Devour
 Ability_Devourer4_description									O Devourer pega o inimigo alvo e começa a devorá-lo, causando dano massivo a cada segundo.
+Ability_Devourer4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Heals self equal to the damage done. Deals additional 0.75 * Strength Magic damage per second.
 Ability_Devourer4_effect_header									Devour Effects
-Ability_Devourer4_CHANNEL_START_effect							Aplica Devour ao alvo inimigo por 3 segundos ou até ser cancelado.
+Ability_Devourer4_IMPACT_effect									Aplica Devour ao alvo inimigo por 3 segundos ou até ser cancelado.
+Ability_Devourer4_name:ult_boost								Om Nom Nom ^g(Boosted)^*
+Ability_Devourer4_description2:ult_boost						This ability has been boosted by Staff of the Master.
+Ability_Devourer4_IMPACT_effect:ult_boost						Applies Devour to target enemy for 3 seconds or until channel is canceled.\n^gHeals self equal to ^gthe ^gdamage ^gdone.^*
+Ability_Devourer4_tooltip_flavor								Dahmer Reincarnate!
 
 // State_Devourer_Ability4
 State_Devourer_Ability4_FRAME_effect							{75,125,175} de dano Mágico por segundo
+State_Devourer_Ability4_FRAME_effect:ult_boost					{75,125,175} ^g+ (0.75 x Strength)^* Magic damage per second
 
 // Hero_Devourer
 Hero_Devourer_name												Devourer
@@ -923,6 +945,7 @@ Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_3			Causa {75,125,175,275} d
 Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_1_Boosted	Causa {75,125,175,275} de dano Mágico e da stun no alvo por 1.5 segundos. Tem 30% de chance de acertar três veses.
 Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_2_Boosted	Causa {75,125,175,275} de dano Mágico e da stun no alvo por 1.5 segundos. Tem 30% de chance de acertar quatro veses.
 Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_3_Boosted	Causa {75,125,175,275} de dano Mágico e da stun no alvo por 1.5 segundos. Tem 30% de chance de acertar cinco veses.
+Ability_DwarfMagi1_tooltip_flavor								Look out for embers.
 
 // Ability_DwarfMagi2
 Ability_DwarfMagi2_name											Flaming Hammer
@@ -935,12 +958,7 @@ Ability_DwarfMagi2_description:DwarfMagi_Ability4_2				O Blacksmith joga uma mar
 Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_2			Aplica Flaming Hammer em alvos no radius por 7.5 segundos.
 Ability_DwarfMagi2_description:DwarfMagi_Ability4_3				O Blacksmith joga uma martelo flamejante em um inimigo alvo e explode no impacto, deixando a unidade alvo e as unidades próximas pegando fogo. Os inimigos afetados recebem dano por um tempo e tem redução em sua velocidade de movimentação.
 Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_3			Aplica Flaming Hammer em alvos no radius por 7.5 segundos.
-Ability_DwarfMagi2_description:DwarfMagi_Ability4_1_Boosted		O Blacksmith joga uma martelo flamejante em um inimigo alvo e explode no impacto, deixando a unidade alvo e as unidades próximas pegando fogo. Os inimigos afetados recebem dano por um tempo e tem redução em sua velocidade de movimentação.
-Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_1_Boosted	Aplica Flaming Hammer em alvos no radius por 7.5 segundos.
-Ability_DwarfMagi2_description:DwarfMagi_Ability4_2_Boosted		O Blacksmith joga uma martelo flamejante em um inimigo alvo e explode no impacto, deixando a unidade alvo e as unidades próximas pegando fogo. Os inimigos afetados recebem dano por um tempo e tem redução em sua velocidade de movimentação.
-Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_2_Boosted	Aplica Flaming Hammer em alvos no radius por 7.5 segundos.
-Ability_DwarfMagi2_description:DwarfMagi_Ability4_3_Boosted		O Blacksmith joga uma martelo flamejante em um inimigo alvo e explode no impacto, deixando a unidade alvo e as unidades próximas pegando fogo. Os inimigos afetados recebem dano por um tempo e tem redução em sua velocidade de movimentação.
-Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_3_Boosted	Aplica Flaming Hammer em alvos no radius por 7.5 segundos.
+Ability_DwarfMagi2_tooltip_flavor								Lets get hammered!
 
 // State_DwarfMagi_Ability2
 State_DwarfMagi_Ability2_name									Burning
@@ -951,6 +969,8 @@ Ability_DwarfMagi3_name											Frenzy
 Ability_DwarfMagi3_description									O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem feri-la e aumenta a velocidade de ataque e de movimentação.
 Ability_DwarfMagi3_effect_header								Frenzy Effects
 Ability_DwarfMagi3_IMPACT_effect								Aplica Frenzy no alvo por 30 segundos.
+Ability_DwarfMagi3_description:DwarfMagi_Ability4_1				The Blacksmith uses his control over fire to motivate an ally the best way he knows how: with heat! Starts a non-harmful blaze on a friendly unit that increases attack speed, movement speed, and cast speed. Has a chance to hit additional nearby allied units.
+Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_1			Applies Frenzy to target for 30 seconds. When cast, has a 25% chance to cast twice.
 Ability_DwarfMagi3_description:DwarfMagi_Ability4_2				O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem feri-la e aumenta a velocidade de ataque e de movimentação. Tem a chance de acertar um outro aliado próximo.
 Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_2			Aplica Frenzy em um alvo por 30 segundos, 20% de chance de acertar um alvo adicional.
 Ability_DwarfMagi3_description:DwarfMagi_Ability4_3				O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem feri-la e aumenta a velocidade de ataque e de movimentação. Tem a chance de acertar um outro aliado próximo.
@@ -961,6 +981,7 @@ Ability_DwarfMagi3_description:DwarfMagi_Ability4_2_Boosted		O Blacksmith usa o 
 Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_2_Boosted	Aplica Frenzy em um alvo por 30 segundos, 30% de chance de acertar três alvos adicionais.
 Ability_DwarfMagi3_description:DwarfMagi_Ability4_3_Boosted		O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem feri-la e aumenta a velocidade de ataque e de movimentação. Tem a chance de acertar um outro aliado próximo.
 Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_3_Boosted	Aplica Frenzy em um alvo por 30 segundos, 30% de chance de acertar quatro alvos adicionais.
+Ability_DwarfMagi3_tooltip_flavor								I'm burnin, I'm burnin for you!
 
 // State_DwarfMagi_Ability3
 State_DwarfMagi_Ability3_name									Frenzy
@@ -973,6 +994,7 @@ Ability_DwarfMagi4_effect_header								Status Effect
 Ability_DwarfMagi4_name:ult_boost								M-M-M-Multi Cast! (Boosted)
 Ability_DwarfMagi4_description:ult_boost						O Blacksmith tem muita experiência em brincar com fogo, aumentando o poder de suas outras spells. Quando estiver usando outra spell, ele tem a chance  de conseguir um resultado mais poderoso.
 Ability_DwarfMagi4_description2:ult_boost						^yFireball:^*\n30% de chance de impacto {3,4,5} veses por uso\nReduz Cooldown em {3,6,9} segundos.\n\n^yIgnite:^*\n Aumenta o radius em {150,300,450} por level.\n\n^yFrenzy:^*\nReduz cooldown em {5,10,15} segundos.\nDá 20% de chance de impacto em {1,2,3} alvos adicionais.
+Ability_DwarfMagi4_tooltip_flavor								And they said never play with fire.
 
 // Hero_DwarfMagi
 Hero_DwarfMagi_name												Blacksmith
@@ -983,6 +1005,7 @@ Ability_Ebulus1_name											Poison Spray
 Ability_Ebulus1_description										Slither usa um spray torrencial de toxinas para uma localização alvo, infectando qualquer inimifo que fique em contato com o spray. Os Inimigos infectados tomam um dano inicial seguido por danos durante certo tempo e perdem velocidade de movimentos.
 Ability_Ebulus1_effect_header									Efeitos de Poison Spray
 Ability_Ebulus1_IMPACT_effect									Causa {50,70,70,100} de dano Mágico e aplica Poison Spray no alvo por 15 segundos.
+Ability_Ebulus1_tooltip_flavor									Aaachoo!
 
 // State_Ebulus_Ability1
 State_Ebulus_Ability1_name										Poison Spray
@@ -995,6 +1018,7 @@ Ability_Ebulus2_description2									Esta habilidade contém um ^rAttack ^rModif
 Ability_Ebulus2_effect_header									Efeitos deToxicity
 Ability_Ebulus2_effect_header:attack							Status Effect
 Ability_Ebulus2_ATTACK_IMPACT_effect:attack						Aplica Toxicity no alvo por 7 segundos.
+Ability_Ebulus2_tooltip_flavor									Get down with the sickness!
 
 // State_Ebulus_Ability2
 State_Ebulus_Ability2_name										Toxicity
@@ -1005,6 +1029,7 @@ Ability_Ebulus3_name											Toxin Ward
 Ability_Ebulus3_description										Slither invoca uma ward no local alvo que irá atacar inimigos das proximidades dando pouco dano e deixando-os mais devagar. A ward é imune a Magias.
 Ability_Ebulus3_effect_header									Status Effect
 Ability_Ebulus3_IMPACT_effect									Spawn de uma Poison Ward no local desejado. Poison Wards têm {75,200,325,450} de Vida, 40 segundos de vida, e causam {9-11,17-21,26-32,34-42} de dano.
+Ability_Ebulus3_tooltip_flavor									Feed me Seymour.
 
 // Gadget_Ebulus_Ability3
 Gadget_Ebulus_Ability3_name										Toxin Ward
@@ -1015,9 +1040,14 @@ State_Ebulus_Ward_Attack_name									Poisoned
 // Ability_Ebulus4
 Ability_Ebulus4_name											Poison Burst
 Ability_Ebulus4_description										Slither expele veneno para todas as direções. Inimígos acertados pelo anel de veneno se tornam infectadoso recebendo dano por certo tempo. A infecção não é letal, e não drenará o vida do alvo até abaixo de 1.
+Ability_Ebulus4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases damage per second from {36,58,81} to {58,81,108}.
 Ability_Ebulus4_effect_header									Efeitos de Acidic Poison
+Ability_Ebulus4_effect_header:ult_boost							Acidic Poison Effects
 Ability_Ebulus4_IMPACT_effect									Aplica Acidic Poison aos alvos no radius por 12 segundos.
 Ability_Ebulus4_name:ult_boost									Super Poison Burst
+Ability_Ebulus4_description2:ult_boost							This ability has been boosted by Staff of the Master.
+
+Ability_Ebulus4_tooltip_flavor									I'm only a little diseased!
 
 // State_Ebulus_Ability4
 State_Ebulus_Ability4_name										Acidic Poison
@@ -1033,6 +1063,7 @@ Ability_Electrician1_name										Static Grip
 Ability_Electrician1_description								O Electrician prende o alvo em um grip de eletricidade estática, previnindo com que eles usem magias,se movam, ataquem ou usem itens por certo tempo. O Electrician é puxado em direção do alvo lentamente.
 Ability_Electrician1_effect_header								Efeitos de Static Grip
 Ability_Electrician1_IMPACT_effect								Aplica Static Grip no alvo por {2.5, 3.25, 4.0, 4.75} segundos ou até a spell ser cancelada. Causa {30,40,50,60} de dano Mágico por segundo para inimígos no radius enquanto estiver ativo no alvo.
+Ability_Electrician1_tooltip_flavor								Shut off the breaker!
 
 // Gadget_Electrician_Ability1
 
@@ -1047,21 +1078,27 @@ State_Electrician_Ability1_Self_name							Static Grip
 State_Electrician_Ability1_Self_FRAME_effect					{30,40,50,60} de dano Mágico por segundo
 
 // Ability_Electrician2
+Ability_Electrician2_ACTIVATE_COST_effect						^cRequires 20% Mana to activate^*
 Ability_Electrician2_name										Electric Shield
 Ability_Electrician2_description								O Electrician usa eletricidade para criar um escudo em volta de si mesmo. O escudo irá negar uma porção de dano sofrido pelo custo de Mana do Electrician.
 Ability_Electrician2_effect_header								Efeitos de Electric Shield
 Ability_Electrician2_IMPACT_effect								Enquanto estiver ativo, aplica um Electric Shield a si mesmo.
+Ability_Electrician2_tooltip_flavor								Don't stick a fork in me.
 
 // State_Electrician_Ability2
 State_Electrician_Ability2_name									Electric Shield
 State_Electrician_Ability2_description							Nega o dano recebido em troca de Mana.
 State_Electrician_Ability2_FRAME_effect							50% do dano recebido é negado em troca de {2,1.66,1.25,0.75} de Mana por ponto de dano.
 
+State_Electrician_Ability2_Areadamage							Electric Aura
+State_Electrician_Ability2_Areadamage_FRAME_effect				{12,24,36,48} Magic damage per second
+
 // Ability_Electrician3
 Ability_Electrician3_name										Energy Absorption
 Ability_Electrician3_description								O Electrician descarrega eletricidade a sua volta. Inimígos próximos a ele tomam dano e têm sua Mana drenada. Para cada inimígo com mana drenada, o Electrician absorve Mana, ganha um boost para sua Magic Armor e para sua Physical Armor.
 Ability_Electrician3_effect_header								Efeitos de Energy Absorption
 Ability_Electrician3_IMPACT_effect								Causa dano em inimígos no radius de {75,100,125,150} dano Mágico, drenando {3,6,9,12}% de sua Mana maxima. Aplica Energy Absorption a si mesmo por 10 segundos.\n\nSe o primeiro alvo for um creep, aplica 3 charges iniciais. Se o primeiro alvo for um Hero, aplica 5 charges.\n\nAplica 1 charge extra por creep adicional e 3 charges extras por cada Hero.\n\nRecupera {15,20,25,30} de Mana por charge.
+Ability_Electrician3_tooltip_flavor								I had a blackout!
 
 // State_Electrician_Ability3
 State_Electrician_Ability3_name									Energy Absorption
@@ -1069,9 +1106,15 @@ State_Electrician_Ability3_name									Energy Absorption
 // Ability_Electrician4
 Ability_Electrician4_name										Cleansing Shock
 Ability_Electrician4_description								Electrician da choque na unidade alvo, removendo debuffs e aumentando a velocidade d movimentação se o alvo for aliado, ou remove buffs e reduz a velocidade de movimentação se o alvo for inimigo. 
+Ability_Electrician4_description2								^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Causes the shock effect to chain to 2 nearby targets.
 Ability_Electrician4_effect_header								Efeitos de Cleansed
 Ability_Electrician4_effect_header2								Efeitos de Shocked
 Ability_Electrician4_IMPACT_effect								Remove debuffs do alvo aliado, ou remove buffs de um alvo inimigo. Aplica Cleansed em aliados ou Shocked em inimígos por 5 segundos.
+Ability_Electrician4_name:ult_boost								Cleansing Storm (^gBoosted^*)
+Ability_Electrician4_description2:ult_boost						This ability has been boosted by Staff of the Master.\n\n^gBounces to 2 additional targets.^*
+Ability_Electrician4_IMPACT_effect:ult_boost					Removes debuffs from target allied unit, or removes buffs from target enemy unit. Applies Cleansed to allies or Shocked to enemies for 5 seconds.\n\nBounces instantly to 2 nearby valid targets. If the target is a hero, it will bounce to other heroes only. If the target is a non-hero, it will bounce to the closest valid targets.\n\nDeals {600,800,1000} damage to summoned units.
+
+Ability_Electrician4_tooltip_flavor								Don't taze me bro'
 
 // State_Electrician_Ability4_Allies
 State_Electrician_Ability4_Allies_name							Cleansed
@@ -1192,6 +1235,7 @@ Ability_Fairy1_name												Volatile Pod
 Ability_Fairy1_description										Nymphora cria um Volatile Pod na localização alvo. O Pod queima depois de um tempo dando dano no inimigos e curando unidades aliadas na área selecionada.
 Ability_Fairy1_effect_header									Status Effect
 Ability_Fairy1_IMPACT_effect									Depois de 2.5 segundos , causa dano no inimigo e cura aliados que estiverem no radius em {90,180,270,360}.
+Ability_Fairy1_tooltip_flavor									We're all a couple peas in a pod!
 
 // Ability_Fairy2
 Ability_Fairy2_name												Grace of the Nymph
@@ -1208,6 +1252,7 @@ Ability_Fairy3_name												Nymphora's Zeal
 Ability_Fairy3_description										Atira um wisp e da stun nos inimigos. Para cada acerto inimigo, Nymphorah recebe um buff em velocidades de ataque e movimentação.
 Ability_Fairy3_effect_header									Efeitos de Nymphora's Zeal 
 Ability_Fairy3_IMPACT_effect									Lança um projétil que causa impacto nos alvos uma linha de {400,600,800,1000} units, deixando eles com stun por {0.75,1.0,1.25,1.5} segundo(s), depois o projétil retorna. Unidades podem ser acertadas duas veses. Uma quando o projétil é lançado e outra vez quando retorna. Aplica Nymphora's Zeal a si mesma por 8 segundos com 1 charge extra por cada impacto. Máximo de 10 charges.
+Ability_Fairy3_tooltip_flavor									
 
 // State_Fairy_Ability3
 State_Fairy_Ability3_name										Invigorated
@@ -1218,15 +1263,21 @@ Ability_Fairy4_description										Nymphora canaliza o poder da floresta, conec
 Ability_Fairy4_description2										Essa skill não pode ser usada com 2500 unidades da estrutura da base principal inimíga.
 Ability_Fairy4_effect_header									Status Effect
 Ability_Fairy4_IMPACT_effect									Depois do tempo de cast, teleporta ela e {0,1,2} aliados aleatórios perto dela para a localização escolhida.\n\nA Localização alvo é revelada a unidades inimigas durante a canalização.
+Ability_Fairy4_description2:ult_boost							This skill cannot be used within 2500 units of the enemy main base structure.\n\nThis ability has been boosted by Staff of the Master.
+Ability_Fairy4_tooltip_flavor									Everytime a creep dies a fairy gets it's wings!
 
 // Gadget_Fairy_Ability4
 Gadget_Fairy_Ability4_name										Teleport Target
 
-// Gadget_Fairy_Ability4_Aura
-
-// Gadget_Fairy_Ability4_Reveal
-
 // State_Fairy_Ability4
+State_Fairy_Ability4_name										Being Teleported!
+
+// Ability_Fairy4_TPIn
+Ability_Fairy4_TPIn_name										Nymph's Call
+Ability_Fairy4_TPIn_description									Nymphora channels her powers through the Staff of the Master, gaining the ability to summon an ally to her side.
+Ability_Fairy4_TPIn_description2								This ability shares a cooldown with Teleport.
+Ability_Fairy4_TPIn_effect_header								Nymph's Call Effects
+Ability_Fairy4_TPIn_IMPACT_effect								Teleports any friendly hero to Nymphora after channeling for {5.5,4.5,3.5} seconds
 
 // Hero_Fairy
 Hero_Fairy_name													Nymphora
@@ -1300,11 +1351,13 @@ State_ForsakenArcher_Ability4_IMPACT_effect
 Hero_ForsakenArcher_name										Forsaken Archer
 Hero_ForsakenArcher_description									Depois de ser uma caçadora das florestas que conquistou o coração de incontavéis homens, Forsaken Archer foi morta por um pretendente desprezado. Ao ver que estava morrendo ela forjou um terrível pacto com demônios que encontraram seu corpo destruido.  Agora, ela captura corações e almas, usando-os como armas. Montada em um esqueleto de uma besta que ela caçou, Forsaken Archer causa terror a qualquer um que fique em seu caminho.
 
+
 // Ability_Frosty1
 Ability_Frosty1_name											Tundra Blast
 Ability_Frosty1_description										Glacius ataca a unidade inimiga com uma explosão de gelo. O alvo primeiramente recebe dano do ataque inicial, depois recebe dano novamente quando a explosão danifica todos os inimígos que estão por perto. Todas as unidades atingidas pela explosão têm suas velocidades de movimentação e ataque reduzidas.
 Ability_Frosty1_effect_header									Efeitos de Tundra Blast 
 Ability_Frosty1_IMPACT_effect									Causa {50,100,125,175} de dano Mágico ao alvo. Causa um dano mágico adicional de {75,100,125,125} e aplica Tundra Blast por 4 segundos nos inimígos em um radius de 200 em volta do alvo.
+Ability_Frosty1_tooltip_flavor									Glacier, dead ahead.
 
 // State_Frosty_Ability1
 State_Frosty_Ability1_name										Frosted
@@ -1313,16 +1366,23 @@ State_Frosty_Ability1_name										Frosted
 Ability_Frosty2_name											Ice Imprisonment
 Ability_Frosty2_description										Glacius prende uma unidade inimíga em um bloco de gelo. O alvo está solidamente congelado, deixando-o incapaz de atacar ou se mover. A unidade alvo toma dano durante o tempo que estiver congelada.
 Ability_Frosty2_effect_header									Efeitos de Ice Imprisonment
+Ability_Frosty2_effect_header2									Frosted Effects
 Ability_Frosty2_IMPACT_effect									Performa um mini-stun no alvo e depois aplica Ice Imprisonment por {1.5,2,2.5,3} segundo(s).
+Ability_Frosty2_tooltip_flavor									You need to chill out!
 
 // State_Frosty_Ability2
 State_Frosty_Ability2_name										Frozen
 State_Frosty_Ability2_FRAME_effect								70 de dano Mágico por segundo
 
+// State_Frosty_Ability2
+State_Frosty_Ability2_Ally_name									Frosted
+State_Frosty_Ability2_Ally_FRAME_effect							{20,40,60,80}% Damage Reduction
+
 // Ability_Frosty3
 Ability_Frosty3_name											Chilling Presence
 Ability_Frosty3_description										Glacius ajuda seus aliados a ficarem calmos ao encarar o perigo, deixando eles com a mente calma e limpa. Aumenta a regeneração de Mana de todos os heróis aliados não importa onde estejam no mapa.
 Ability_Frosty3_effect_header									Status Effect
+Ability_Frosty3_tooltip_flavor									How about a cool glass of lemonade?
 
 // State_Frosty_Ability3
 State_Frosty_Ability3_name										Chilling Presence
@@ -1330,11 +1390,14 @@ State_Frosty_Ability3_name										Chilling Presence
 // Ability_Frosty4
 Ability_Frosty4_name											Glacial Downpour
 Ability_Frosty4_description										Glacius cria uma chuva de dardos de gelo em volta de si. Os dardos vão cair aleatóriamente  em volta de Glaucius, reduzindo as velocidades de ataque e de movimentaçãoe dando dano intenso a eles. Essa habilidade pode ser melhorada com o "Staff of the Master".
+Ability_Frosty4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases damage from {105,170,250} to {170,250,310}.
 Ability_Frosty4_effect_header									Efeitos de Glacial Freeze 
 Ability_Frosty4_IMPACT_effect									Spawn de Ice Shards cada 0.1 segundos em localizações aleatórias dentro do radius por 4 segundos ou até a habilidade ser cancelada. Aplica Glacial Freeze aos alvos em um local de 200 radius de onde um Ice Shard causar impacto dando {105,170,250} de dano Mágico.
 Ability_Frosty4_name:ult_boost									Freezing Field (Boosted)
 Ability_Frosty4_description:ult_boost							Glacius cria uma chuva de dardos de gelo em volta de si. Os dardos vão cair aleatóriamente  em volta de Glaucius, reduzindo as velocidades de ataque e de movimentaçãoe dando dano intenso a eles. Essa habilidade pode ser melhorada com o "Staff of the Master".
+Ability_Frosty4_description2:ult_boost							This ability has been boosted by Staff of the Master.
 Ability_Frosty4_IMPACT_effect:ult_boost							Spawn de Ice Shards cada 0.1 segundos em localizações aleatórias dentro do radius por 4 segundos ou até a habilidade ser cancelada. Aplica Glacial Freeze aos alvos em um local de 200 radius de onde um Ice Shard causar impacto dando {170,250,310} de dano Mágico.
+Ability_Frosty4_tooltip_flavor									You're as cold as ice, you're willing to sacrifice.
 
 // State_Frosty_Ability4
 
@@ -1347,23 +1410,28 @@ Ability_Hammerstorm1_name										Hammer Throw
 Ability_Hammerstorm1_description								Hammerstorm joga seu martelo místico em um inimígo alvo, dando dano e stun nele.
 Ability_Hammerstorm1_effect_header								Status Effect
 Ability_Hammerstorm1_IMPACT_effect								Causa {100,150,200,250} de dano Mágico e deixa o alvo stun por 2 segundos.
+Ability_Hammerstorm1_tooltip_flavor								Here I come Olympics!
 
 // Ability_Hammerstorm2
 Ability_Hammerstorm2_name										Mighty Swing
 Ability_Hammerstorm2_description								Hammerstorm ataca com muita força, fazendo com que seus ataques deêm dano nos inimígos próximos em adição do seu alvo principal.
 Ability_Hammerstorm2_effect_header								Status Effect
 Ability_Hammerstorm2_ATTACK_IMPACT_effect						Aplica {12.5,25.5,37.5,50}% de dano de splash em um radius de 350.
+Ability_Hammerstorm2_tooltip_flavor								I'll take you all on.
 
 // Ability_Hammerstorm3
 Ability_Hammerstorm3_name										Galvanize
 Ability_Hammerstorm3_description								Qualquer um é perdedor comparado com o Hammerstorm.  Por sorte a camaradagem do Hammerstorm é tão boa que influência os aliados mais próximos dando buff em suas armaduras.
 Ability_Hammerstorm3_effect_header								Status Effect
+Ability_Hammerstorm3_IMPACT_effect								Applies Galvanize to targets in radius for 6 seconds.
+Ability_Hammerstorm3_tooltip_flavor								Why am I so amazing?
 
 // Ability_Hammerstorm4
 Ability_Hammerstorm4_name										Brute Strength
 Ability_Hammerstorm4_description								Hammerstorm libera uma fúria destruidora, majoritáriamente aumentando seu dano de ataque por um tempo.
 Ability_Hammerstorm4_effect_header								Efeitos de Brute Strength
 Ability_Hammerstorm4_IMPACT_effect								Aplica Brute Strength a si mesmo por 25 segundos.
+Ability_Hammerstorm4_tooltip_flavor								I have two tickets to the gun show!
 
 // Hero_Hammerstorm
 Hero_Hammerstorm_name											Hammerstorm
@@ -1383,6 +1451,7 @@ Ability_Hantumon1_IMPACT_effect									Cria uma nuvem de fumaça com {250,275,3
 
 Ability_Hantumon1_tooltip_flavor		                        Proibido fumar por aqui!
 
+ 
 
 // Gadget_Hantumon_Ability1
 
@@ -1395,7 +1464,9 @@ Ability_Hantumon2_description									Tomando total vantagem sobre o elemento su
 Ability_Hantumon2_effect_header									Status Effect
 Ability_Hantumon2_IMPACT_effect									Teleporta a si mesmo para o alvo e ataca com {30,60,90,120} de dano bônus.
 
-Ability_Hantumon2_tooltip_flavor								Psst! Bem atrás de você.
+Ability_Hantumon2_tooltip_flavor								Psst! Right behind you.
+
+
 
 // Ability_Hantumon3
 Ability_Hantumon3_name											Backstab
@@ -1405,6 +1476,8 @@ Ability_Hantumon3_ATTACK_effect									Quando estiver nas costas do alvo, adici
 
 Ability_Hantumon3_tooltip_flavor								Eu não sou confiável.
 
+
+
 // Ability_Hantumon4
 Ability_Hantumon4_name											Invisibility
 Ability_Hantumon4_description									Night Hound aprende a se esconder melhor, deixando-o invisível a olho nú quando não está atacando.
@@ -1412,6 +1485,11 @@ Ability_Hantumon4_description2									Stealth com {3,2.25,1.5} segundos de fade
 Ability_Hantumon4_effect_header									Status Effect
 
 Ability_Hantumon4_tooltip_flavor								Que tal brincar de esconde-esconde?
+
+
+
+// State_Hantumon_Ability4
+State_Hantumon_Ability4_name									Invisibility
 
 // Hero_Hantumon
 Hero_Hantumon_name												Night Hound
@@ -1421,6 +1499,7 @@ Hero_Hantumon_description										Rumores de parentesco não natural deixaram e
 Ability_Hellbringer1_name										Unholy Shackles
 Ability_Hellbringer1_description								Hellbringer acerta o alvo inimígo com Unholy Shackles, reduzindo sua velocidade de movimentação e ataque.
 Ability_Hellbringer1_effect_header								Efeitos de Unholy Shackles
+Ability_Hellbringer1_tooltip_flavor								Hey slow down!
 Ability_Hellbringer1_IMPACT_effect								Aplica Unholy Shackles ao alvo por 5 segundos.
 
 // State_Hellbringer_Ability1
@@ -1431,6 +1510,7 @@ Ability_Hellbringer2_name										Death Boil
 Ability_Hellbringer2_description								Hellbringer inflinge o inimígo alvo com uma doença que faz com que as entranhas dele comecem a arder causando dano e aumentando durante certo tempo.
 Ability_Hellbringer2_effect_header								Efeitos de Death Boil 
 Ability_Hellbringer2_IMPACT_effect								Aplica Death Boil ao alvo por {5,6,7,8} segundos.
+Ability_Hellbringer2_tooltip_flavor								The 11th plague!
 
 // State_Hellbringer_Ability2
 State_Hellbringer_Ability2_name									Death Boil
@@ -1441,6 +1521,7 @@ Ability_Hellbringer3_name										Life Void
 Ability_Hellbringer3_description								Hellbringer usa Life Void em um inimígo alvo, fazendo com que tenha redução de Magic Armor. Adicionalmente, o dano que o alvo receber irá curar o Hellbringer.
 Ability_Hellbringer3_effect_header								Efeitos de Life Void
 Ability_Hellbringer3_IMPACT_effect								Aplica Life Void ao alvo por {5.5,7,8.5,10} segundos.
+Ability_Hellbringer3_tooltip_flavor								Get your head out of the clouds.
 
 // State_Hellbringer_Ability3
 State_Hellbringer_Ability3_name									Life Void
@@ -1451,6 +1532,7 @@ Ability_Hellbringer4_name										Summon Malphas
 Ability_Hellbringer4_description								Invoca um enorme demônio e deixa todos os inimigos da área paralizados.
 Ability_Hellbringer4_effect_header								Status Effect
 Ability_Hellbringer4_IMPACT_effect								Invoca Malphas. Malphas tem {900,1200,1500} de Health, {15,20,25} de regeneração de Health, e ataca com {50,100,150} de dano com cooldown de 1.35 segundos.
+Ability_Hellbringer4_tooltip_flavor								I summon thee dark ruler.
 
 // Hero_Hellbringer
 Hero_Hellbringer_name											Hellbringer
@@ -1522,6 +1604,7 @@ Ability_HellDemon4_tooltip_flavor								A morte esta chegando para você.
 // Hero_HellDemon
 Hero_HellDemon_name												Soul Reaper
 Hero_HellDemon_description										Soul Reaper é nascido das profundezas do Inferno e subiu para a superfície em uma missão, capturar as almas de Newerth. Com a autoridade para julgar aqueles que entram em contato com ele, até os mais fortes da Legion se intimidam ao se aproximar dele.
+
 // Ability_Hiro1
 Ability_Hiro1_name												Blade Frenzy
 Ability_Hiro1_description										Swiftblade faz ele mesmo ficar em Blade Frenzy. Quando está neste estado, ele ganha Magic Immunity e dá dano por segundo a qualquer unidade inimiga próxima a ele. Swiftblade é livre para se mover até mesmo quando a skill estiver ativada.
@@ -1529,6 +1612,8 @@ Ability_Hiro1_effect_header										Efeitos de Blade Frenzy
 Ability_Hiro1_IMPACT_effect										Causa {80,100,120,140} Magic damage por segundo aos alvos dentro do radius.  Aplica Blade Frenzy a si mesmo pela duração da ativação. Dura 5 segundos.\n\nSwiftblade não fica disarmed no level 4 dessa abilidade mas seu atackspeed é reduzido em 55.\n\nRemove todos os debuffs e buffs ao usar.
 
 Ability_Hiro1_tooltip_flavor									Você me faz girar!
+
+
 
 // Ability_Hiro2
 Ability_Hiro2_name												Counter Attack
@@ -1538,6 +1623,8 @@ Ability_Hiro2_ATTACKED_PRE_IMPACT_effect						{15,20,25,30}% de chance de contra
 
 Ability_Hiro2_tooltip_flavor									De volta para você!
 
+
+
 // Ability_Hiro3
 Ability_Hiro3_name												Way of the Sword
 Ability_Hiro3_description										A habilidade inigualável do Swiftblade com espadas fez com que ele seja mestre em acertar onde realmente dói, dando a ele a chance de atacar os oponentes criticamente com cada ataque.
@@ -1545,9 +1632,12 @@ Ability_Hiro3_effect_header										Efeito
 
 Ability_Hiro3_tooltip_flavor									Um ataque com precisão.
 
+
+
 // Ability_Hiro4
 Ability_Hiro4_name												Swift Slashes
 Ability_Hiro4_description										Swiftblade ataca aleatóriamente alvos próximos com tal velocidade que parece que teleporta-se para atacá-los. Os alvos são escolhidos aleatoriamente, ainda sendo possível que ele ataque o mesmo alvo várias vezes.
+Ability_Hiro4_description2										^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases teleport count from {3,5,8} to {5,7,10}.
 Ability_Hiro4_effect_header										Efeitos de Swift Slashes
 Ability_Hiro4_IMPACT_effect										Teleporta-se para alvos aleatórios {3,5,8} veses, dando de 150 até 250 de Physical damage a cada alvo.  Aplica Swift Slashes a si mesmo durante o tempo de ativação.
 Ability_Hiro4_name:ult_boost									Swifter Slashes ^g(Boosted)^*
@@ -1555,6 +1645,8 @@ Ability_Hiro4_description2:ult_boost							Esta habilidade pode ser melhorada pe
 Ability_Hiro4_IMPACT_effect:ult_boost							Teleporta-se para alvos aleatórios ^g{5,7,10}^* veses, dando de 150 até 250 de Physical damage a cada alvo.  Aplica Swift Slashes a si mesmo durante o tempo de ativação.
 
 Ability_Hiro4_tooltip_flavor									Eu estava aqui, eu estava ali!
+
+
 
 // Hero_Hiro
 Hero_Hiro_name													Swiftblade
@@ -1571,6 +1663,7 @@ Ability_Hunter1_name											Blood Crazy
 Ability_Hunter1_description										O Blood Hunter deixa a unidade alvo insana por sangue, fazendo com que ela tenha o dano base aumentado. Durante esse estado a unidade alvo tomará dano por certo tempo e não poderá usar nenhuma spell.
 Ability_Hunter1_effect_header									Efeitos de Blood Crazy
 Ability_Hunter1_IMPACT_effect									Aplica Blood Crazy ao alvo por {6,9,12,15} segundos.
+Ability_Hunter1_tooltip_flavor									Stay out of sunlight.
 
 // State_Hunter_Ability1
 State_Hunter_Ability1_name										RAGE!!!
@@ -1581,12 +1674,14 @@ Ability_Hunter2_name											Feast
 Ability_Hunter2_description										O Blood Hunter se aproveita de todas as mortes que ele cria e se cura baseado no Health máximo da vítima.
 Ability_Hunter2_description2									Cura {10,20,30,40}% do Health Máximo de um Hero, ou {10,15,20,25}% de vítimas que não sejam Hero.
 Ability_Hunter2_effect_header									Status Effect
+Ability_Hunter2_tooltip_flavor									You're not using the health.
 
 // Ability_Hunter3
 Ability_Hunter3_name											Blood Sense
 Ability_Hunter3_description										Quando o inimígo próximo tem menos de 40% de health, o Blood Hunter pode sentir seu cheiro. Garante a visão da unidade inimíga e aumenta a velocidade de movimentação do Blood Hunter.
 Ability_Hunter3_effect_header									Status Effect
 
+Ability_Hunter3_tooltip_flavor									Go find him boy, go find him.
 // Gadget_Hunter_Ability3
 
 // State_Hunter_Ability3_Self
@@ -1597,6 +1692,7 @@ Ability_Hunter4_name											Hemorrhage
 Ability_Hunter4_description										O Blood Hunter atira um espinho afiado de seu corpo na artéria principal, causando dano inicial seguido de mais dano quando se movimentam.
 Ability_Hunter4_effect_header									Efeitos de Hemorrhage 
 Ability_Hunter4_IMPACT_effect									Causa {150,250,350} de dano Mágico ao alvo e aplica Hemorrhage por {5,7,9} segundos.
+Ability_Hunter4_tooltip_flavor									We need you Van Helsing
 
 // State_Hunter_Ability4
 State_Hunter_Ability4_name										Hemorrhage
@@ -1612,23 +1708,44 @@ Ability_Javaras1_description									Em cada ataque, Magebane drena um pouco da 
 Ability_Javaras1_description2									Esta habilidade contém um modificador exclusivo do tipo ^cMana Combustion^*. Modificadores exclusivos não se agrupam. Você irá usar automaticamente o seu modificador exclusivo mais poderoso desse tipo.
 Ability_Javaras1_effect_header									Status Effect
 Ability_Javaras1_ATTACK_IMPACT_effect:manacombustion			Tira {13,28,46,60} da Mana do alvo e dá dano físico igual a 75% de Mana roubada.
+Ability_Javaras1_ATTACK_IMPACT_effect							Takes {16,32,48,64} of the targets Mana and deals Physical damage equal to 60% of the Mana taken. 
+
+Ability_Javaras1_tooltip_flavor									Chemisty for dummies.
 
 // Ability_Javaras2
 Ability_Javaras2_name											Flash
 Ability_Javaras2_description									Em um flash de luz, Magebane é capaz de se teleportar uma curta distância até a localização alvo.
 Ability_Javaras2_effect_header									Status Effect
+Ability_Javaras2_effect_header2									Flash Armor
 Ability_Javaras2_IMPACT_effect									Teleporta a si mesmo para a posição alvo. 
 
+Ability_Javaras2_tooltip_flavor									In the blink of an eye.
+
+// State_Javaras_Ability2
+State_Javaras_Ability2_name										Flash Armor (Allies)
+
+State_Javaras_Ability2_Self_name								Flash Armor (Self)
+
 // Ability_Javaras3
-Ability_Javaras3_name											Spell Resistance
-Ability_Javaras3_description									Magebane se torna mais resistente a spells, aumentando seu Magic Armor.
-Ability_Javaras3_effect_header									Status Effect
+Ability_Javaras3_name											Master of the Mantra
+Ability_Javaras3_description									Magebane proves he is the master of the flow of Magic around him, limiting the speed enemies can control it while damaging them if they cast.
+Ability_Javaras3_IMPACT_effect									On use, turns off the aura
+Ability_Javaras3_name:magebaneburnaura_off						Master of the Mantra (Off)
+Ability_Javaras3_IMPACT_effect:magebaneburnaura_off				On use, turns on the aura
+
+Ability_Javaras3_tooltip_flavor									Non magic zone.
+
+// States_Javaras3
+State_Javaras_Ability3_name										Mystic Stagnation
+State_Javaras_Ability3_FRAME_effect								Damaged for {35,50,65,80}% of abilities and items manacost when cast.
 
 // Ability_Javaras4
 Ability_Javaras4_name											Mana Rift
 Ability_Javaras4_description									Magebane coloca um Rift na mente da unidade, deixando ela paralizada e causando um dano baseado na quantidade de Mana que o alvo tem sobrando. Quanto mais Mana o alvo tiver, mais dano irá receber.
 Ability_Javaras4_effect_header									Status Effect
 Ability_Javaras4_IMPACT_effect									Causa {0.6,0.85,1.10} de dano Mágico por ponto de Mana restante do alvo e deixa stun por {0.1/0.2/0.3} segundos.
+
+Ability_Javaras4_tooltip_flavor									Tripping in the rift.
 
 // Hero_Javaras
 Hero_Javaras_name												Magebane
@@ -1639,12 +1756,14 @@ Ability_Jereziah1_name											Inner Light
 Ability_Jereziah1_description									Jereziah libera a Inner Light de alguma unidade aliada próxima, curando-a. Inimígos próximos são queimados pela força da Luz, fazendo-os tomar dano.
 Ability_Jereziah1_effect_header									Status Effect
 Ability_Jereziah1_IMPACT_effect									Cura o alvo com {90,180,270,360} de Health, danificando os inimígos, no radius, com {90,180,270,360} de dano verdadeiro.
+Ability_Jereziah1_tooltip_flavor								This is a quarantine zone!
 
 // Ability_Jereziah2
 Ability_Jereziah2_name											Protective Charm
 Ability_Jereziah2_description									Jereziah abençoa uma unidade aliada com um amuleto de proteção que garante imunidade a magias, remove todos so debuffs, e garante um leve aumento na velocidade de movimentação.
 Ability_Jereziah2_effect_header									Efeitos de Protective Charm 
 Ability_Jereziah2_IMPACT_effect									Aplica Protective Charm em um alvo por {5,8,11,14} segundos.
+Ability_Jereziah2_tooltip_flavor								I laugh at your feeble attempts!	
 
 // State_Jereziah_Ability2
 State_Jereziah_Ability2_name									Protective Charm
@@ -1654,6 +1773,7 @@ Ability_Jereziah3_name											Righteous Strike
 Ability_Jereziah3_description									Uma enorme força se forma em Jereziah, deixando ele usar um Righteous Strike quando atacar, causando dano maior e acerta outros inimígos próximos reduzindo a velocidade de movimentação deles por um tempo. Só pode ocorrer uma vez depois de alguns segundos.
 Ability_Jereziah3_effect_header									Efeitos de Righteous Strike 
 Ability_Jereziah3_FRAME_effect									Aplica {12,24,36,50} de dano físico bônus ao próximo ataque, e faz com que o ataque cause 100% de dano de Splash em um radius de 350, aplicando Righteous Strike nos inimígos por 3 segundos.
+Ability_Jereziah3_tooltip_flavor								Releasing the demons.
 
 // State_Jereziah_Ability3
 State_Jereziah_Ability3_name									Righteous Strike
@@ -1664,6 +1784,7 @@ Ability_Jereziah4_name											Sol's Blessing
 Ability_Jereziah4_description									Jereziah clama pela força do Sol para protejer ele e seus aliados. Sol abnçoa Jereziah e seus aliados próximos, fazendo com que eles tomem quase nenhum dano físico e tenham alta regeneração de health por certo tempo.
 Ability_Jereziah4_effect_header									Efeito de Sol's Blessing 
 Ability_Jereziah4_IMPACT_effect									Aplica Sol's Blessing nos alvos no radius por {5,6,7} segundos.
+Ability_Jereziah4_tooltip_flavor								My grandmother hits harder than you!
 
 // State_Jereziah_Ability4
 State_Jereziah_Ability4_name									Battle Cry
@@ -1678,15 +1799,14 @@ Ability_Kraken1_name											Drench
 Ability_Kraken1_description										Kraken Drenches a target in water, damaging them and reducing their armor and movement speed for a short duration.
 Ability_Kraken1_effect_header									Drench Effects
 Ability_Kraken1_IMPACT_effect									Deals {110,160,210,260} Magic damage and applies Drench to target for 4 seconds.
-
-// State_Kraken_Ability1
-State_Kraken_Ability1_name										Gushed
+Ability_Kraken1_tooltip_flavor									Poseidon is weak in my eyes!
 
 // Ability_Kraken2
 Ability_Kraken2_name											Tsunami Charge
 Ability_Kraken2_description										Kraken vai a carga até um local alvo com grande força e velocidade, dando dano e isolando os inimígos no seu caminho.
 Ability_Kraken2_effect_header									Status Effect
 Ability_Kraken2_IMPACT_effect									Vai a carga até o alvo, empurrando para o longe e causando dano Mágico de {75,125,175,225} a inimigos em um alcance de 200 radius de si mesmo.
+Ability_Kraken2_tooltip_flavor									Hang ten dude'
 
 // State_Kraken_Ability2_Self
 State_Kraken_Ability2_Self_name									Charge
@@ -1696,13 +1816,19 @@ Ability_Kraken3_name											Splash
 Ability_Kraken3_description										Quando estiver atacando, Kraken tem a chace de liberar um grande ataque que causa dano a inimígos próximos.
 Ability_Kraken3_ATTACK_IMPACT_effect							20% de chance de dar {30,50,70,90} de dano bônus em alvos em 325 radius, e dá um dano mágico adicional de {30,50,70,90} para alvos em 200 radius.
 
+Ability_Kraken3_IMPACT_effect:krakenslowaura_off				On use, turns on the aura
 
+Ability_Kraken3_tooltip_flavor									Don't swim in the low tide.
 
 // Ability_Kraken4
 Ability_Kraken4_name											Whirlpool
 Ability_Kraken4_description										Kraken forma dois Whirlpools conectados, um no local alvo e outro em volta de si mesmo. Depois de um curto tempo o Whirlpool perto do Kraken, suga todos e teleporta até a loalização do outro Whirlpool. Inimígos recebem dano durante o processo.
 Ability_Kraken4_effect_header									Status Effect
 Ability_Kraken4_IMPACT_effect									Cria um Whirlpool no local alvo. Teleporta todas as unidades em volta do Kraken {6,5,4} segundos depois da ativação para a outra localização escolhida e causa {150,225,300} de dano Mágico às unidades inimígas.
+Ability_Kraken4_name:kraken_ult_teleport						Teleport to Whirlpool
+Ability_Kraken4_description:kraken_ult_teleport					Kraken triggers the whirlpool, teleporting to it instantly
+Ability_Kraken4_IMPACT_effect:kraken_ult_teleport				Triggers the whirlpool's teleportation
+Ability_Kraken4_tooltip_flavor									I've got to break through, I'm going under!
 
 // Gadget_Kraken_Ability4
 Gadget_Kraken_Ability4_name										Whirlpool
@@ -1727,30 +1853,37 @@ Ability_Krixi1_description										A Moon Queen clama pelo poder da Lua para at
 Ability_Krixi1_effect_header									Status Effect
 Ability_Krixi1_IMPACT_effect									Causa {75,150,225,300} de dano Mágico ao alvo e o deixa stun por {0.05,0.1,0.3,0.6} segundos.
 
+Ability_Krixi1_tooltip_flavor									Feel the lunar laser.
+
 // Ability_Krixi2
 Ability_Krixi2_name												Multi-strike
 Ability_Krixi2_description										A skill da Moon Queen com sua Luna Shuriken faz com que ela possa utilizar seu alvo primário para acertar alvos adicionais.
 Ability_Krixi2_effect_header									Status Effect
+Ability_Krixi2_IMPACT_effect									When toggled on, attacks on Hero targets will only bounce to other visible enemy heroes.
 Ability_Krixi2_ATTACK_IMPACT_effect								Ataque acerta {1,2,3,4} veses unidades e construções inimígas. Dá 35% de dano por acerto.
+Ability_Krixi2_ATTACK_IMPACT_effect:Ability_Krixi2_active		Attack bounces up to {1,2,3,4} times to enemy heroes. Deals 35% less damage per bounce.
+Ability_Krixi2_tooltip_flavor									Take 1 pass it on.
 
 // Ability_Krixi3
 Ability_Krixi3_name												Lunar Glow
 Ability_Krixi3_description										A Moon Queen radia o poder da Lua para os aliados próximos a ela, aumentando o dano que eles causam com ataques ranged.
 Ability_Krixi3_effect_header									Status Effect
+Ability_Krixi3_IMPACT_effect									On use, the aura will only affect heroes.
+Ability_Krixi3_name:krixiauratoggle_heroes						Lunar Glow (Heroes)
+Ability_Krixi3_IMPACT_effect:krixiauratoggle_heroes				On use, the aura will affect all units.
+
+Ability_Krixi3_tooltip_flavor									May the force be with you!
 
 // Ability_Krixi4
 Ability_Krixi4_name												Moon Finale
 Ability_Krixi4_description										A Moon Queen usa sua spell Moon Beam repetidamente por uma curta duração em inimígos próximos aleatórios. Essa habilidade pode ser melhorada com o "Staff of the Master". Essa habilidade não pode ser ativada até que Moon Beam seja melhorado.
+Ability_Krixi4_description2										^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases number of Beams from {4,7,10} to {4,8,12}. Increases maximum number of hits per target from 4 to 5.
 Ability_Krixi4_effect_header									Status Effect
 Ability_Krixi4_IMPACT_effect									Lança {4,7,10} Moon Beams em alvos aleatórios no radius.  Maximo de 4 acertos por alvo. Olhe "Moon Beam spell" para mais informações.
 Ability_Krixi4_name:ult_boost									Moon Finale (Boosted)
 Ability_Krixi4_description:ult_boost							A Moon Queen usa sua spell Moon Beam repetidamente por uma curta duração em inimígos próximos aleatórios. Essa habilidade pode ser melhorada com o "Staff of the Master". Essa habilidade não pode ser ativada até que Moon Beam seja melhorado.
 Ability_Krixi4_IMPACT_effect:ult_boost							Lança {4,8,12} Moon Beams em alvos aleatórios no radius.  Maximo de 5 acertos por alvo. Olhe "Moon Beam spell" para mais informações.
-Ability_Krixi4_description:Krixi_Ability1_1						Moon beams para todos! Essa habilidade pode ser melhorada pelo "Staff of the Master".
-Ability_Krixi4_description:Krixi_Ability1_2						Moon beams para todos! Essa habilidade pode ser melhorada pelo "Staff of the Master".
-Ability_Krixi4_description:Krixi_Ability1_3						Moon beams para todos! Essa habilidade pode ser melhorada pelo "Staff of the Master".
-Ability_Krixi4_description:Krixi_Ability1_4						Moon beams para todos! Essa habilidade pode ser melhorada pelo "Staff of the Master".
-
+Ability_Krixi4_tooltip_flavor									If the first doesn't kill you...
 // State_Krixi_Ability3
 State_Krixi_Ability3_name										Lunar Glow
 
@@ -1759,26 +1892,32 @@ Ability_Kunas1_name												Chain Lightning
 Ability_Kunas1_description										O Thunderbringer acerta a unidade inimiga com um raio volátil. O raio entao se espalha entre unidade inimigas adicionais que estejam próximas.
 Ability_Kunas1_effect_header									Status Effect
 Ability_Kunas1_IMPACT_effect									Liga sucessivamente os {5,7,9,15} alvos mais próximos, dando {85,100,115,130} de dano Mágico em cada alvo.
+Ability_Kunas1_tooltip_flavor									Creeps are great conductors.
 
 // Ability_Kunas2
 Ability_Kunas2_name												Blast of Lightning
 Ability_Kunas2_description										Thunderbringer acerta o inimigo alvo com um raio, dando um dano moderado e stun bem curto. A área em volta do alvo é mostrada rapidamente, dando visão e revelando unidades escondidas nas proximidades.
 Ability_Kunas2_effect_header									Status Effect
 Ability_Kunas2_IMPACT_effect									Causa {100,175,275,350} de dano Mágico ao alvo e o deixa stun por 0.1 segundos.  Dá visão e revela inimígos escondidos em volta do alvo por 3 segundos.
+Ability_Kunas2_tooltip_flavor									A billion volts of electricity.
 
 // Ability_Kunas3
 Ability_Kunas3_name												Lightning Rod
 Ability_Kunas3_description										Inimígos próximos ao Thunderbringer agem como varinhas de eletricidade, tomando dano sempre que usar uma spell. O dano é proporcional ao atual estado de vida.
 Ability_Kunas3_effect_header									Status Effect
 Ability_Kunas3_ABILITY_IMPACT_effect							Causa {5,7,9,11}% do health de cada Hero inimígo como dano mágico em 800 radius em volta de si.
+Ability_Kunas3_tooltip_flavor									Some would say I am shocking!
 
 // Ability_Kunas4
 Ability_Kunas4_name												Lightning Storm
 Ability_Kunas4_description										Thunderbringer acerta todos os Hero inimígos no mapa com raios, causando dano e revelando a área em volta deles por um tempo rápido. Essa habilidade pode ser melhorada com "Staff of the Master".
+Ability_Kunas4_description2										^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases damage from {210,335,460} to {335,460,570}.
 Ability_Kunas4_effect_header									Status Effect
 Ability_Kunas4_IMPACT_effect									Causa {210,335,460} de dano Mágico em cada alvo. Dá visão e revela inimigos escondidos ao redor dos alvos por 3 segundos.
 Ability_Kunas4_name:ult_boost									Super Lightning Storm
+Ability_Kunas4_description2:ult_boost							This ability has been boosted by Staff of the Master.
 Ability_Kunas4_IMPACT_effect:ult_boost							Causa {335,460,570} de dano Mágico ao alvo. Dá visão e revela inimígos escondidos ao redor dos alvos por 3 segundos.
+Ability_Kunas4_tooltip_flavor									Always be prepared, wear rubber soles!
 
 // Gadget_KunasDummyReveal
 
@@ -1791,6 +1930,7 @@ Ability_Legionnaire1_name										Taunt
 Ability_Legionnaire1_description								O Legionnaire empurra os inimígos mais próximos, forçando-os a atacal-lo por alguns segundos. O Legionnaire se prepara para seu ataque, aumentando seu armor significativamente pela duração da spell.
 Ability_Legionnaire1_effect_header								Efeitos de Taunting
 Ability_Legionnaire1_IMPACT_effect								Força os inimígos no radius a atacarem você por {1.5,2,2.5,3} segundos. Aplica Taunting em si mesmo por {1.5,2,2.5,3} segundos.
+Ability_Legionnaire1_tooltip_flavor								HaHa, you all suck!
 
 // State_Legionnaire_Ability1
 State_Legionnaire_Ability1_name									Taunting
@@ -1805,6 +1945,7 @@ Ability_Legionnaire2_name										Terrify
 Ability_Legionnaire2_description								O Legionnaire aterroriza um alvo inimígo mostrando a maior das fúrias. Enquanto estiver aterrorizado, o alvo toma dano durante um tempo ou até ele matar uma unidade, aliada ou inimíga, para trazer mais terror. Se nenhuma unidade for morta, o terror expirará naturalmente. 
 Ability_Legionnaire2_effect_header								Efeitos de Terrified 
 Ability_Legionnaire2_IMPACT_effect								Aplica Terrified no alvo por {10,15,20,25} segundos.
+Ability_Legionnaire2_tooltip_flavor								I'll give you a head start... RUN!
 
 // State_Legionnaire_Ability2
 State_Legionnaire_Ability2_name									Terrified
@@ -1815,6 +1956,7 @@ Ability_Legionnaire3_name										Whirling Blade
 Ability_Legionnaire3_description								A skill do Legionnaire com um Battle Axe é imbatível. Cada vez que ele é atacado, ele tem uma pequena chance de criar um Whirling Blade Maneuver, que causa dano a todos os inimígos próximos.
 Ability_Legionnaire3_effect_header								Status Effect
 Ability_Legionnaire3_ATTACKED_PRE_IMPACT_effect					17% de chance de dar dano nos inimígos em 300 de radius de {100,125,150,175} quando atacado
+Ability_Legionnaire3_tooltip_flavor								Me and my axe will bring the devil to his knees!
 
 // Ability_Legionnaire4
 Ability_Legionnaire4_name										Decapitate
@@ -1822,6 +1964,7 @@ Ability_Legionnaire4_description								O Legionnaire faz um ataque forte com se
 Ability_Legionnaire4_effect_header								Status Effect
 Ability_Legionnaire4_IMPACT_effect								Mata instantâneamente o alvo se estiver com menos de {300,450,625} de Health. Se não, causa {150,250,300} de dano físico à unidade alvo.
 
+	
 // Hero_Legionnaire
 Hero_Legionnaire_name											Legionnaire
 Hero_Legionnaire_description									Legionnaires, os nomeados da Legion, trazem enorme poder para o campo de batalha.  Com seus batle-axes, esses guerreiros espalham carnificina pelos seus inimígos e abre caminhos sangrentos pelos altos níveis de adversários. Até mesmo aqueles demônios nascidos do medo podem ser aterrorizados por esses heróis da Legion.
@@ -2026,12 +2169,14 @@ Ability_Mumra1_name												Hellfire
 Ability_Mumra1_description										Pharaoh conjura plumas de fogo ao seu redor por curta duração, acertando alvos inimígos aleatóriamente, danificando cada um e deixando stun por pouco tempo.
 Ability_Mumra1_effect_header									Status Effect
 Ability_Mumra1_IMPACT_effect									Por 10 segundos, impacta um alvo aleatório em radius a cada 0.75 segundos, causando {20,40,60,80} de dano Mágico e deixando-os stun por 0.1 segundos.
+Ability_Mumra1_tooltip_flavor									I caused Sodom and Gomorrah!
 
 // Ability_Mumra2
 Ability_Mumra2_name												Wall of Mummies
 Ability_Mumra2_description										Pharaoh invoca uma Wall of Mummies ao seu redor e a qualquer um perto dele. Inimígos que se aproximam serão empurrados para longe, causando dano e drenando um pouco de Mana. 
 Ability_Mumra2_effect_header									Status Effect
 Ability_Mumra2_IMPACT_effect									Spawn de 8 Mummias em volta de si mesmo por {3,4,5,6} segundos. Empurra para longe qualquer unidade inimíga que se aproximar do Circle of Mummies, causando {55,70,85,100} de dano verdadeiro e drenando {55,70,85,100} de Mana. Cada Mummy pode dar 1 empurrão. Cada Mummy leva 3 ataques dos inimígos para ser destruída, e um ataque para se auto destruir.
+Ability_Mumra2_tooltip_flavor									Keepers of the tomb.
 
 // Gadget_Mumra_Ability2
 Gadget_Mumra_Ability2_name										Mummy
@@ -2045,6 +2190,7 @@ Ability_Mumra3_name												Tormented Soul
 Ability_Mumra3_description										Pharaoh libera uma alma atormentada em uma localização alvo em qualquer lugar do mapa. A alma se auto destrói quando chega em seu destino, liberando sua energia maligna e dar dano nos inimígos próximos. damage nearby enemies.
 Ability_Mumra3_effect_header									Status Effect
 Ability_Mumra3_IMPACT_effect									Lança projétil para a localização alvo. Quando o projétil alcançar o alvo desejado ele explode liberando uma carga de energia negra em um radius que danifica as unidades inimigas dando {80,120,160,200} de dano Mágico. A área alvo será revelada por {5,10,15,20} segundos.
+Ability_Mumra3_tooltip_flavor									You can't run from the curse.
 
 // Gadget_Mumra_Ability3_LocationReveal
 
@@ -2053,8 +2199,13 @@ Ability_Mumra3_IMPACT_effect									Lança projétil para a localização alvo.
 // Ability_Mumra4
 Ability_Mumra4_name												Wrath of the Pharaoh
 Ability_Mumra4_description										Pharaoh direciona todo o seu foco em uma direção alvo. Seu foco é tão intenso que leva formas físicas enquanto viaja na direção desejada. Se ele bater em alguma unidade inimíga, ele vai danificar e dar stun por um tempo e Pharaoh continuará até alcançar o alvo.
+Ability_Mumra4_description2										^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Can hit ally heroes. Decrease cooldown to 20 seconds.
 Ability_Mumra4_effect_header									Status Effect
 Ability_Mumra4_IMPACT_effect									Dispara im projétil em uma direção alvo, levando 0.5 segundos para alcançar seu range máximo de {2000,2500,3000}. Se encostar em alguma unidade inimíga não neutra, stun de 0.5 segundos e puxa a si mesmo na direção do alvo por 0.5 segundos. Durante o puxão, qualquer unidade que passar em um radius de 200 receberá stun por {1,1.5,2} segundo(s) e receberá {100,200,300} de dano Mágico.
+Ability_Mumra4_name:ult_boost									Return of the Pharaoh ^g(Boosted)^*
+Ability_Mumra4_description2:ult_boost							This ability has been boosted by Staff of the Master.\n\n^g20 second cooldown.
+Ability_Mumra4_IMPACT_effect:ult_boost							Fires a projectile in target direction, taking 0.5 seconds to reach its maximum range of {2000,2500,3000}. Upon impacting a non-neutral enemy unit ^gor ally hero^*, stuns nearby enemies for 0.5 seconds and drags self over 0.5 seconds toward the impacted unit's location. During the drag, any enemies that pass within a 200 radius of self will be stunned for {1,1.5,2} second(s) and receive {100,200,300} Magic damage.
+Ability_Mumra4_tooltip_flavor									Like taking a magnifying glass to an ant!
 
 // Gadget_Mumra_Ability4_Draglocation
 
@@ -2129,16 +2280,17 @@ Ability_Ophelia1_name											Nature's Wrath
 Ability_Ophelia1_description									Ophelia libera os poderes da natureza em uma unidade alvo, deixando-o mais devagar. Quando os efeitos expirarem, o alvo receberá dano adicional igual ao percentual de dano recebido enquanto o efeito estava ativo.
 Ability_Ophelia1_effect_header									Efeitos de Nature's Wrath
 Ability_Ophelia1_IMPACT_effect									Aplica Nature's Wrath ao alvo por 7 segundos.
+Ability_Ophelia1_tooltip_flavor									When nature calls.
 
 // State_Ophelia_Ability1_Enemy
 State_Ophelia_Ability1_Enemy_name								Nature's Wrath
 State_Ophelia_Ability1_Enemy_description						Velocidade de movimentação reduzida e dano extra recebido.
-State_Ophelia_Ability1_Enemy_FRAME_effect						Quando os efeitos expirarem, causa dano Físico igual a {7,14,21,28}% do dano total recebido quando o efeito estava ativo. 
 
 // Ability_Ophelia2
 Ability_Ophelia2_name											Ophelia's Judgement
 Ability_Ophelia2_description									Ophelia julga a unidade alvo, causando dano variável se for inimígo, ou teleportando o alvo para um lugar a salvo se for um aliado. Teleporta instantâneamente as unidades controladas por Ophelia.
 Ability_Ophelia2_IMPACT_effect									Se o alvo for uma unidade inimíga controlada por outro jogador, causa {50-100,100-200,150-300,300-400} de dano.\n\nSe o alvo for uma unidade aliada sob o seu controle, ela será teleportada ao seu ponto de spawn instantâneamente.\n\nCaso o alvo seja uma unidade aliada que você não controla, ela será teleportada depois do channeling.\n\nUnidades aliadas podem evitar serem teleportadas movendo mais de 200 unidades para outro lugar no tempo do cast.
+Ability_Ophelia2_tooltip_flavor									I can make you disappear, taadaa it's magic
 
 // State_Ophelia_Ability2
 State_Ophelia_Ability2_name										
@@ -2149,6 +2301,7 @@ Ability_Ophelia3_name											Command
 Ability_Ophelia3_description									Ophelia toma controle da mente de um NPC que não seja boss, ganhando controle dele. Unidades controladas por Ophelia, ganham aumento em Health, regeneração de Health, e regeneração de Mana.
 Ability_Ophelia3_effect_header									Status Effect
 Ability_Ophelia3_IMPACT_effect									Domina o alvo, tomando controle dele permanentemente. Apenas {1,2,3,3} unidades podem ser controladas. Aplica áureas a todos os mínions sob controle.
+Ability_Ophelia3_tooltip_flavor									Aid me, creature.. for the good of Newerth
 
 // State_Ophelia_Ability3
 State_Ophelia_Ability3_name										Ophelia's Command
@@ -2157,8 +2310,12 @@ State_Ophelia_Ability3_description								Os comandados por Ophelia, recebem aum
 // Ability_Ophelia4
 Ability_Ophelia4_name											Ophelia's Touch
 Ability_Ophelia4_description									O amor de Ophelia pelas criaturas vivas faz com que ela possa conjurar uma poderosa magia de cura, curando todos os heroes aliados no mapa e regenerando totalmente as unidades sob o controle dela.
+Ability_Ophelia4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Decreases cooldown time from 120 to 30 seconds.
 Ability_Ophelia4_effect_header									Status Effect
 Ability_Ophelia4_IMPACT_effect									Cura todos os heroes aliados no mapa em {200,300,400} de Health.\n\nCura totalmente todos os minions que estiverem sob seu controle.
+Ability_Ophelia4_name:ult_boost									Ophelia's Gift ^g(Boosted)^*
+Ability_Ophelia4_description2:ult_boost							This ability has been boosted by Staff of the Master.\n\n^g30 second cooldown.
+Ability_Ophelia4_tooltip_flavor									Take two of these, and you"ll be fine in the morninng.
 
 // Hero_Ophelia
 Hero_Ophelia_name												Ophelia
@@ -2218,6 +2375,7 @@ Ability_Pestilence1_name										Flight
 Ability_Pestilence1_description									Pestilence voa limitadamente, aumentando sua velocidade de movimentação a custo de receber danos mais altos.
 Ability_Pestilence1_effect_header								Efeitos de Flight
 Ability_Pestilence1_IMPACT_effect								Aplica Flight a si mesmo por 25 segundos.
+Ability_Pestilence1_tooltip_flavor								Up, up, and away!		
 
 // State_Pestilence_Ability1
 State_Pestilence_Ability1_name									Sprinting
@@ -2227,6 +2385,7 @@ Ability_Pestilence2_name										Impale
 Ability_Pestilence2_description									Pestilence chama um inseto subterrâneo para ajudá-lo a acertar inimigos por baixo da terra. Os inimígos ficam machucados, causando stun e recebendo dano, seguido de redução na velocidade de movimentação.
 Ability_Pestilence2_effect_header								Status Effect
 Ability_Pestilence2_IMPACT_effect								Causa stun em alvos no radius por {1,1.5,2,2.5} segundo(s),  dá dano equivalente a {50,100,150,200} de dano Mágico e reduz a velocidade de movimentação do alvo em 20% por 2 segundos depois do stun.
+Ability_Pestilence2_tooltip_flavor								There's more below the surface than you know!
 
 // State_Pestilence_Ability2
 State_Pestilence_Ability2_name									Slowed
@@ -2237,12 +2396,14 @@ Ability_Pestilence3_description									Pestilence tem a chance de gains a chanc
 Ability_Pestilence3_description2								Esta habilidade contém propriedades de ^yBashing^*. Itens e habilidades com propriedades de  ^yBashing^* têm tempo de cooldown compartilhados.
 Ability_Pestilence3_effect_header								Status Effect
 Ability_Pestilence3_ATTACK_IMPACT_effect						{10,15,20,25}% de chance de causar 25 de dano Mágico ao alvo e deixar stun por 1 segundo.
+Ability_Pestilence3_tooltip_flavor								Bring raid if you want to live!
 
 // Ability_Pestilence4
 Ability_Pestilence4_name										Swarm
 Ability_Pestilence4_description									Pestilence lança um grupo de crustáceos em um alvo, reduzindo seu armor temporáriamente.
 Ability_Pestilence4_effect_header								Efeitos de Swarm
 Ability_Pestilence4_IMPACT_effect								Aplica Swarm no alvo por 30 segundos
+Ability_Pestilence4_tooltip_flavor								They won't bite!
 
 // Gadget_Pestilence_Ability4
 
@@ -2258,27 +2419,36 @@ Ability_PollywogPriest1_name									Electric Jolt
 Ability_PollywogPriest1_description								Pollywog Priest eletrifica uma unidade alvo e algumas unidades próximas, causando dano a todas elas.
 Ability_PollywogPriest1_effect_header							Status Effect
 Ability_PollywogPriest1_IMPACT_effect							Causa {75,150,225,300} de dano Mágico em {3,4,6,7} alvos.
+Ability_PollywogPriest1_tooltip_flavor							
 
 // Ability_PollywogPriest2
 Ability_PollywogPriest2_name									Morph
 Ability_PollywogPriest2_description								Pollywog Priest transforma rapidamente um inimígo em um animal doméstico, deixando-os impossibilitados de atacar ou usar spells por certo tempo. Se o cast for feito em alguma ilusão, a ilusão será intantâneamente morta.
 Ability_PollywogPriest2_effect_header							Efeitos de Morphed
 Ability_PollywogPriest2_IMPACT_effect							Aplica Morphed ao alvo por {1,2,3,4} segundos. Mata instantâneamente caso o alvo seja uma ilusão.
+Ability_PollywogPriest2_tooltip_flavor							I wish you were a fly.
+
+State_PollywogPriest_Ability2_name								Morph
 
 // Ability_PollywogPriest3
-Ability_PollywogPriest3_name									Magical Bindings
+Ability_PollywogPriest3_name									Tongue Tied
 Ability_PollywogPriest3_description								Pollywog Priest segura uma unidade inimíga com Magical Bindings, deixando-os incapázes de se movimentar, atacar ou usar qualquer spell ou item. O Magical Bindings causa dano Mágico durante um tempo ao alvo inimígo.
 Ability_PollywogPriest3_effect_header							Efeitos de Magic Bindings
 Ability_PollywogPriest3_IMPACT_effect							Aplica Magic Bindings ao alvo por {2.5, 3.25, 4.0, 4.75} segundos ou até a spell ser cancelada.
+Ability_PollywogPriest3_tooltip_flavor							I'm quite good with my tongue.
+
+State_PollywogPriest_Ability3_name								Tongue Tied
 
 // Ability_PollywogPriest4
 Ability_PollywogPriest4_name									Voodoo Wards
 Ability_PollywogPriest4_description								Pollywog Priest invoca vários Voodoo Wards controláveis em uma localização alvo. Os Wards atacarão inimígos nas proximidades.
+Ability_PollywogPriest4_description2							^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases the number of Voodoo Wards summoned from 8 to 11.
 Ability_PollywogPriest4_effect_header							Status Effect
 Ability_PollywogPriest4_IMPACT_effect							Invoca 8 Voodoo Wards no alvo que causa de {39,54,69} a {43,58,73} de dano Físico por ataque.\n\nOs Wards dão 100% de dano Splash em um radius de {50,75,150}, 40% de dano Splash em um radius de {75,100,110}, e 20% de dano Splash em um radius de {85,110,220}.\n\nOs Wards tem tempo de vida de 30 segundos.
 Ability_PollywogPriest4_name:ult_boost							Voodoo Wards (Boosted)
-Ability_PollywogPriest4_description:ult_boost					Cria mais Wards para atacar.
+Ability_PollywogPriest4_description2:ult_boost					This ability has been boosted by Staff of the Master.
 Ability_PollywogPriest4_IMPACT_effect:ult_boost					Invoca 12 Voodoo Wards na posição alvo que causa de {39,54,69} a {43,58,73} de dano Físico por ataque.\n\nOs Wards dão 100% de dano Splash em um radius de {50,75,150}, 40% de dano Splash em um radius de {75,100,110}, e 20% de dano Splash em um radius de {85,110,220}.\n\nOs Wards tem tempo de vida de 30 segundos.
+Ability_PollywogPriest4_tooltip_flavor							
 
 // Gadget_PollywogPriestWard
 Gadget_PollywogPriestWard_name									Voodoo Ward
@@ -2298,6 +2468,7 @@ Ability_Predator1_name											Venomous Leap
 Ability_Predator1_description									O Predator se volta a um inimígo, depois acerta-o com garras venenosas. O inimígo recebe certo dano e fica mais lento por algum tempo.
 Ability_Predator1_effect_header									Efeitos Venomous
 Ability_Predator1_IMPACT_effect									Vai de encontro a um alvo, causando {75,125,175,225} de dano Mágico e aplicando Venomous por {2.25,3,3.75,4.5} segundos.
+Ability_Predator1_tooltip_flavor								No one can escape their fate!
 
 // State_Predator_Ability1
 State_Predator_Ability1_name									Venomous Strike
@@ -2309,6 +2480,7 @@ Ability_Predator2_name											Stone Hide
 Ability_Predator2_effect_header									Efeitos Stone Hide
 Ability_Predator2_description									O Predator faz seu couro ficar duro como pedra. garantindo a ele imunidade Mágica, tirando debuffs, e aumentando seu armor por certo tempo.
 Ability_Predator2_IMPACT_effect									Retira debuffs e aplica Stone Hide a si mesmo por {3,3.75,4.5,5.25} segundos.
+Ability_Predator2_tooltip_flavor								Keep your silver bullets away.
 
 // Ability_Predator3
 Ability_Predator3_name											Carnivorous
@@ -2316,17 +2488,29 @@ Ability_Predator3_description									O Predator atinge ferozmente o corpo de se
 Ability_Predator3_description2									Não funciona com unidades Boss.
 Ability_Predator3_effect_header									Status Effect
 Ability_Predator3_ATTACK_IMPACT_effect							Causa dano Físico aos alvos de {3.75,4.5,5.25,6}% do Health atual e cura o Predator com a mesma quantidade de Health.
+Ability_Predator3_tooltip_flavor								It's a full moon tonight!
 
 // Ability_Predator4
 Ability_Predator4_name											Primal Instincts
 Ability_Predator4_description									O Predator se deixa perder seus instintos primários por uma unidade aliada alvo. Quando atacada, dá rage para a unidade, aumentando sua velocidade de ataque.
+Ability_Predator4_description2									
 Ability_Predator4_effect_header									Efeitos de Primal Instincts
+Ability_Predator4_effect_header2								
+Ability_Predator4_tooltip_flavor								
 Ability_Predator4_IMPACT_effect									Aplica Primal Instincts no alvo por 20 segundos.\n\nQuando o alvo for atacado por um Hero ou um Boss, 2 charges são adicionados à Primal Instincts. Quando atacado por um creep, adiciona 1 charge.\n\nMáximo de 16 charges. A duração de Primal Instincts não pode ser alterada.
+Ability_Predator4_tooltip_flavor								
 
 // State_Predator_Ability4
 State_Predator_Ability4_name									Primal Instincts
 State_Predator_Ability4_description								Aumenta velocidade de ataque.
+State_Predator_Ability4_description2							
+State_Predator_Ability4_FRAME_effect							When attacked, buffs attacker's attack speed by {20,40,60} and movement speed by 15% for 4.5 seconds
+State_Predator_Ability4_ATTACKED_PRE_IMPACT_effect				
 
+// State_Predator_Ability4_Buff
+State_Predator_Ability4_Buff_name								Enraged
+State_Predator_Ability4_Buff_description						
+State_Predator_Ability4_Buff_description2						
 
 // Hero_Predator
 Hero_Predator_name												Predator
@@ -2337,6 +2521,8 @@ Ability_PuppetMaster1_name										Puppeteer's Hold
 Ability_PuppetMaster1_description								O Puppet Master amarra um alvo inimígo com cordas de marionete. As cordas reduzem a velocidade de ataque do inimígo e seguram seus movimentos.
 Ability_PuppetMaster1_effect_header								Status Effect
 Ability_PuppetMaster1_IMPACT_effect								Aplica Puppeteer's Hold ao alvo por {3,3.75,4.5,5.25} segundos. O alvo é constantemente empurrado para sua posição de quando Puppeteer's Hold foi aplicado. Se o alvo se mover para muito longe da localização, ele será forçado a retornar a sua posição de origem.
+
+Ability_PuppetMaster1_tooltip_flavor							Dance like the Marionettes!
 
 // Gadget_PuppetMaster_Ability1_DummyPush
 
@@ -2353,6 +2539,8 @@ Ability_PuppetMaster2_description								O Puppet Master toma domínio da unidad
 Ability_PuppetMaster2_effect_header								Efeitos de Craze Puppet
 Ability_PuppetMaster2_IMPACT_effect								Aplica Craze Puppet ao alvo por {2.5,3,3.5,4} segundos. Se o alvo estiver em um radius de {250,300,350,400} de qualquer unidade enquanto Craze Puppet estiver ativo, ele será forçado a atacar aquele alvo até que acabe o efeito de Crazy Puppet.
 
+Ability_PuppetMaster2_tooltip_flavor							Fight for my amusement!
+
 // State_PuppetMaster_Ability2
 State_PuppetMaster_Ability2_FRAME_effect						Força o alvo a atacar unidades próximas em um radius de {250,300,350,400} \nNenhum ataque é letal.
 
@@ -2365,11 +2553,15 @@ Ability_PuppetMaster3_name										Whiplash
 Ability_PuppetMaster3_description								Melhorando seus ataques com Puppet Strings, o Puppet Master é capaz de aumentar seu dano base e liberar ataques devastantes que causa dano em vários inimígos.
 Ability_PuppetMaster3_ATTACK_IMPACT_effect						A cada quinto ataque, os ataques causam {125,150,175,200}% de dano e dá {25,50,70,100}% de dano splash em 200 radius.
 
+Ability_PuppetMaster3_tooltip_flavor							I'm feeling a bit stung out.
+
 // Ability_PuppetMaster4
 Ability_PuppetMaster4_name										Voodoo Puppet
 Ability_PuppetMaster4_description								O Puppet Master prende a essência de um inimígo alvo em seu Puppet. O Puppet pode então ser atacado pelo Puppet Master ou qualquer um de seus aliados. O Puppet recebe dano maior, e transfere o dano recebido para o alvo como dano Mágico.
 Ability_PuppetMaster4_effect_header								Status Effect
 Ability_PuppetMaster4_IMPACT_effect								Invoca um Puppet perto de si que é ligado a um alvo.\n\nQualquer dano recebido pelo Puppet é transferido ao alvo como dano Mágico.\n\nO Puppet tem um Health máximo de {450,700,950}, 5.5 Magic Armor, e recebe {160,180,210}% de dano.\n\nDura até o alvo se distanciar 1000 unidades ou até o Puppet morrer.
+
+Ability_PuppetMaster4_tooltip_flavor							My pain is your pain.
 
 // Gadget_PuppetMaster_Ability4
 Gadget_PuppetMaster_Ability4_name								Puppet
@@ -2387,25 +2579,38 @@ Ability_Pyromancer1_name										Phoenix Wave
 Ability_Pyromancer1_description									Pyromancer envia uma phoenix que causa dano a inimígos em uma linha.
 Ability_Pyromancer1_effect_header								Status Effect
 Ability_Pyromancer1_IMPACT_effect								Causa {100,170,230,280} de dano Mágico em cada alvo na linha.
+Ability_Pyromancer1_tooltip_flavor								Contents may be hot!
 
 // Ability_Pyromancer2
 Ability_Pyromancer2_name										Dragonfire
 Ability_Pyromancer2_description									Pyromancer conjura um dragão elemental de fogo no local alvo, causando dano e deixando os inimigos stun na área.
 Ability_Pyromancer2_effect_header								Status Effect
 Ability_Pyromancer2_IMPACT_effect								Dá {90,150,210,280} de dano Mágico e deixa stun todos os inimígos no radius por 1.6 segundos.
+Ability_Pyromancer2_tooltip_flavor								Mana Cost? Check.\nCooldown? Check\nThe ability to summon a dragon?\n\nPriceless.
 
 // Ability_Pyromancer3
 Ability_Pyromancer3_name										Fervor
 Ability_Pyromancer3_description									Pyromancer se torna ainda mais ligado ao Fogo, aumentando suas velocidades de cast e ataque.
 Ability_Pyromancer3_effect_header								Status Effect
+Ability_Pyromancer3_effect_header2								Burning! Effects
+Ability_Pyromancer3_IMPACT_effect								On any spell damage or attack damage done, applies Burning! to the target for 3 seconds.
+Ability_Pyromancer3_ABILITY_IMPACT_effect						Applies Fervor to self for 6 seconds and adds one charge.
+Ability_Pyromancer3_tooltip_flavor								Burn, baby, burn!
+
+State_Pyromancer_Ability3_name									Fervor
+State_Pyromancer_Ability3_Burning_name							Burning!
+State_Pyromancer_Ability3_Burning_FRAME_effect					{1,2,3,4} damage per second per charge
 
 // Ability_Pyromancer4
 Ability_Pyromancer4_name										Blazing Strike
 Ability_Pyromancer4_description									Usando o poder garantido do Sol, Pyromancer lança uma bola de fogo flamejante em um alvo inimígo, dando dano massivo. Essa habilidade pode ser melhorada com o "Staff of the Master".
+Ability_Pyromancer4_description2								^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases damage from {450,675,950} to {550,775,1150}.
 Ability_Pyromancer4_effect_header								Status Effect
 Ability_Pyromancer4_IMPACT_effect								Causa {450,675,950} de dano Mágico ao alvo.
 Ability_Pyromancer4_name:ult_boost								Blazing Strike (Boosted)
 Ability_Pyromancer4_IMPACT_effect:ult_boost						Dá {650,875,1250} de dano Mágico ao alvo.
+Ability_Pyromancer4_IMPACT_effect:ult_boost						Deals ^g{650,875,1150}^* Magic damage to target.
+Ability_Pyromancer4_tooltip_flavor								It's kinda like pitching a baseball. Of fire.
 
 // Hero_Pyromancer
 Hero_Pyromancer_name											Pyromancer
@@ -2460,6 +2665,7 @@ Ability_Rocky1_name												Stalagmites
 Ability_Rocky1_description										Pebbles invoca uma erupção de estalactites em uma localização alvo, dando stun e dano a todos os inimígos na área.
 Ability_Rocky1_effect_header									Status Effect
 Ability_Rocky1_IMPACT_effect									Causa {100,180,260,300} de dano Mágico e deixa o alvo stun por 2 segundos
+Ability_Rocky1_tooltip_flavor									What no Stalactites?
 
 // Ability_Rocky2
 Ability_Rocky2_name												Chuck
@@ -2469,6 +2675,7 @@ Ability_Rocky2_IMPACT_effect									Dá {75,150,225,300} de dano Mágico para u
 Ability_Rocky2_IMPACT_effect:Rocky_Grow1						Dá {75,150,225,300} de dano Mágico para unidade inimígas no radius. Construções recebem 33% de dano. Dá {26,53,79,105} de dano Mágico a unidade inimíga jogada, {15,30,45,60} de dano Mágico a unidades aliadas jogadas.
 Ability_Rocky2_IMPACT_effect:Rocky_Grow2						Dá {75,150,225,300} de dano Mágico para unidade inimígas no radius. Construções recebem 33% de dano. Dá {38,75,113,150} de dano Mágico a unidade inimíga jogada, {15,30,45,60} de dano Mágico a unidades aliadas jogadas.
 Ability_Rocky2_IMPACT_effect:Rocky_Grow3						Dá {75,150,225,300} de dano Mágico para unidade inimígas no radius. Construções recebem 33% de dano. Dá {49,98,146,195} de dano Mágico a unidade inimíga jogada, {15,30,45,60} de dano Mágico a unidades aliadas jogadas.
+Ability_Rocky2_tooltip_flavor									Who's for rock jumping?
 
 // Gadget_Rocky_Ability2
 
@@ -2476,6 +2683,7 @@ Ability_Rocky2_IMPACT_effect:Rocky_Grow3						Dá {75,150,225,300} de dano Mági
 Ability_Rocky3_name												Slab Skin
 Ability_Rocky3_description										Garante armor bônus e reduz a duração de debuffs.
 Ability_Rocky3_effect_header									Status Effect
+Ability_Rocky3_tooltip_flavor									Hard as well.. a rock!
 
 // Ability_Rocky4
 Ability_Rocky4_name												Enlarge
@@ -2483,6 +2691,7 @@ Ability_Rocky4_description										Faz com que Pebbles fique maior, aumentando 
 Ability_Rocky4_description2										^yStalagmites^*\nAumenta o Range em {50,100,150}.\n\n^yChuck^*\n Aumenta dano causado nas unidades em {35,50,65}%.
 Ability_Rocky4_effect_header									Status Effect
 Ability_Rocky4_FRAME_effect										{40,80,120} de ataque bônus.\n{20,35,50}% de velocidade de ataque reduzida.
+Ability_Rocky4_tooltip_flavor									Is that a roll of quarters in your pocket?
 
 // Hero_Rocky
 Hero_Rocky_name													Pebbles
@@ -2535,25 +2744,36 @@ Ability_Scar1_description										O Madman se esconde por um tempo curto, garan
 Ability_Scar1_effect_header										Stalk Effects
 Ability_Scar1_IMPACT_effect										Aplica Stalk a si mesmo por {4} segundos. Causa {90,100,110,120} de dano Mágico aos inimígos que passem dentro de seu radius.
 
+Ability_Scar1_tooltip_flavor									Ouch, what hit me?
+
 // State_Scar_Ability1
 State_Scar_Ability1_name										Stalk
 State_Scar_Ability1_description									Invisível, unidade andarilha, com velocidade melhorada.
+
+// State_Scar_Ability1_Slow
+State_Scar_Ability1_Slow_name									De-Stalked
 
 // Ability_Scar2
 Ability_Scar2_name												Barrel Roll
 Ability_Scar2_description										O Madman faz um Barrel Roll, batendo em todos os oponentes em seu caminho, depois rola novamente para sua posição original. Unidades que estiverem no seu caminho receberão dano e ficarão stun.
 Ability_Scar2_IMPACT_effect										Teleporta rapidamente a si para o alvo depois volta para a posição original. Inimígos que passem no radius de si mesmo recebem dano de {100,150,200,250} de dano Mágico e ficam stun por {1,1.25,1.5,1.75} segundos.
 
+Ability_Scar2_tooltip_flavor									I think I'm gonna be sick.
+
 // Ability_Scar3
 Ability_Scar3_name												Gash
 Ability_Scar3_description										O Madman se torna proficiente em acertar pontos fracos dos inimígos, dando a ele a chance maior de causar danos críticos.
 Ability_Scar3_effect_header										Status Effect
+
+Ability_Scar3_tooltip_flavor									Lets see whats on the inside.
 
 // Ability_Scar4
 Ability_Scar4_name												Berserk
 Ability_Scar4_description										O Madman se vira, ficando totalmente assassino, aumentando a velocidade de ataque e de movimentação.
 Ability_Scar4_effect_header										Efeitos de Berserk 
 Ability_Scar4_IMPACT_effect										Aplica Berserk a si mesmo por {30} segundos.
+
+Ability_Scar4_tooltip_flavor									Quick grab a straight jacket!
 
 // State_Scar_Ability4
 State_Scar_Ability4_name										Berserk
@@ -2567,7 +2787,12 @@ Hero_Scar_description											Ninguém sabe ao certo a identidade desse assass
 Ability_Scout1_name												Vanish
 Ability_Scout1_description										O Scout fica em modo stealth por certo tempo.  Ele se torna capaz de atacar inimígos pelas costas quando estiver em modo stealth, causando dano bônus.
 Ability_Scout1_effect_header									Efeitos de Vanish 
+Ability_Scout1_effect_header2									Flurry
 Ability_Scout1_IMPACT_effect									Aplica Vanish a si mesmo por {15,20,25,30} segundos. Dá {30,60,90,120} de dano físico bônus ao primeiro alvo que você atacar enquanto Vanish estiver ativo.
+
+Ability_Scout1_tooltip_flavor									Where's Waldo?
+
+
 
 // State_Scout_Ability1
 State_Scout_Ability1_name										Stealth
@@ -2605,17 +2830,21 @@ Ability_Gadget_Scout2_2_description								Detonates closest Electric Eye, silen
 Ability_Gadget_Scout2_2_IMPACT_effect							Detonates this Electric Eye, silencing enemies in a 450 radius around the Eye for {3,4,5,6} seconds. Detonate is on a shared cool down with all Electric Eyes.
 
 // Ability_Scout3
-Ability_Scout3_name												Improve Dexterity
-Ability_Scout3_description										O Scout melhora sua destreza aumentando sua chance de evitar ataques e aumentando sua chance de causar dano crítico ao oponente.
-Ability_Scout3_description2										Essa habilidade contém propriedades de ^yEvasion^*. Propriedades de Evasion não se agrupam. Mesmo assim, você irá usar automáticamente o item ou habilidade que garantir mais chance de Evasão.
-Ability_Scout3_effect_header									Status Effect
-Ability_Scout3_IMPACT_effect									Dá {5,10,15,20}% de chance de dar dodge em ataques e 15% de chance de causar dano crítico em um oponente {1.25,1.5,1.75,2.0} veses.
+Ability_Scout3_name												Disarm
+Ability_Scout3_description										The Scout's mastery of close range combat allows him to occasionally disarm an opponent, then take advantage of the opening with a devastating attack.
+Ability_Scout3_ATTACK_IMPACT_effect								{10,15,20,25}% chance to disarm opponent for 1 seconds and deal a {1.25,1.5,1.75,2.0}x critical strike.\n\nOnce disarmed, opponents cannot be disarmed again by the scout for 2 seconds.
+
+Ability_Scout3_tooltip_flavor									Lay down your weapon!
+
+
 
 // Ability_Scout4
 Ability_Scout4_name												Marksman Shot
 Ability_Scout4_description										O Scout usa seu crossbow e faz um ataque devastador em uma unidade alvo dando dano e deixando-o mais devagar.
 Ability_Scout4_effect_header									Wounded Effects
 Ability_Scout4_IMPACT_effect									Depois de {3.0,2.25,1.5} segundos do tempo de cast, causa {355,505,655} de dano Mágico e aplica Wounded no alvo por 4 segundos.
+
+Ability_Scout4_tooltip_flavor									Steal from the rich, give to the poor.
 
 // Self_State_Scout_Ability4
 Self_State_Scout_Ability4_name									channeling
@@ -2637,6 +2866,8 @@ Ability_Shaman1_description										O Shaman embaraça a unidade inimíga em tr
 Ability_Shaman1_effect_header									Efeitos de Entangled
 Ability_Shaman1_IMPACT_effect									Dá um pequeno stun no alvo e reduz sua velocidade de movimentação em {33,66,66,66}%. Depois de {1,2,3,3} segundos, aplica Entangled ao alvo por 7 segundos e dá stun no alvo por {0,0,1,1} segundos.
 
+Ability_Shaman1_tooltip_flavor									Say No to weeds!
+
 // State_Shaman_Ability1_Damage
 State_Shaman_Ability1_Damage_name								Entangled
 State_Shaman_Ability1_Damage_FRAME_effect						{7,14,21,28} de dano Físico por segundo
@@ -2650,6 +2881,8 @@ Ability_Shaman2_description										O Shaman encanta um aliado alvo com Arcane 
 Ability_Shaman2_effect_header									Arcane Hide Effects
 Ability_Shaman2_IMPACT_effect									Aplica Arcane Hide ao alvo por 20 segundos com {3,4,5,6} charges. Cada vez que o alvo for atacado, 1 charge é removido. Arcane Hide expira quando os charges acabam.
 
+Ability_Shaman2_tooltip_flavor									No pain no gain.
+
 // State_Shaman_Ability2
 State_Shaman_Ability2_name										Arcane Hide
 State_Shaman_Ability2_FRAME_effect								Reduz dano recebido de ataques em 50%
@@ -2660,12 +2893,19 @@ Ability_Shaman3_description										O Shaman cria uma onda de cura que pode se 
 Ability_Shaman3_effect_header									Status Effect
 Ability_Shaman3_IMPACT_effect									Liga os {3,3,4,5} alvos, curando cada um com {80,100,120,140} de health. Unidades inimígas em um radius de 180 da uma unidade curada, receberá {80,100,120,140} de dano Físico por alvo.
 
+Ability_Shaman3_tooltip_flavor									Don't cry it's just a flesh wound.
+
 // Ability_Shaman4
 Ability_Shaman4_name											Storm Cloud
 Ability_Shaman4_description										O Shaman conjura uma tempestade no local. Todos os heroes no radius da tempestade receberão dano. Heroes aliados receberão armor por um tempo, enquanto heroes inimígos perdem armor por um tempo.
+Ability_Shaman4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases duration of buff/debuff from {12,18,24} seconds to {18,24,30} seconds. Increases the radius of the cloud from 600 to 800.
 Ability_Shaman4_effect_header									Efeitos de Storm Shield
 Ability_Shaman4_effect_header2									Efeitos de Storm Strike
 Ability_Shaman4_IMPACT_effect									Aplica Storm Shield a aliados e Storm Strike em inimígos no radius por {12,18,24} segundos. 
+Ability_Shaman4_name:ult_boost									Thunderstorm Cloud ^g(Boosted)^*
+Ability_Shaman4_description2:ult_boost							This ability has been boosted by Staff of the Master.
+Ability_Shaman4_IMPACT_effect:ult_boost							Applies Storm Shield to allies and Storm Strike to enemies in an ^g800^* radius for ^g{18,24,30}^* seconds. 
+Ability_Shaman4_tooltip_flavor									I feel a storm coming!
 
 // State_Shaman_Ability4
 State_Shaman_Ability4_name										Storm Shield
@@ -2684,6 +2924,8 @@ Ability_Soulstealer1_name										Demon Hand
 Ability_Soulstealer1_description								Soulstealer invoca os melhores demônios de Hellbourne para espalhar lixo nos inimígos antes dele.
 Ability_Soulstealer1_effect_header								Status Effect
 Ability_Soulstealer1_IMPACT_effect								Dá {75,100,225,300} de dano Mágico para cada alvo no radius.
+
+Ability_Soulstealer1_tooltip_flavor								Don't grab me there!
 
 // Ability_Soulstealer1a
 Ability_Soulstealer1a_name										Demon Hand
@@ -2711,10 +2953,14 @@ Ability_Soulstealer2_effect_header								Status Effect
 Ability_Soulstealer2_FRAME_effect								Adiciona 2 de dano por charge aos ataques. Morrer fará você perder metade dos seus charges.
 Ability_Soulstealer2_KILL_effect								Adiciona 1 charge
 
+Ability_Soulstealer2_tooltip_flavor								They call me Wishmaster!
+
 // Ability_Soulstealer3
 Ability_Soulstealer3_name										Dread
 Ability_Soulstealer3_description								A aparência do Soulstealer aflinge medo. Enfraqeucendo a moral de seus inimígos, sua mera presença reduz o armor dos inimígos.
 Ability_Soulstealer3_effect_header								Status Effect
+
+Ability_Soulstealer3_tooltip_flavor								Whats the matter, are you scared?
 
 // State_Soulstealer_Ability3
 State_Soulstealer_Ability3_name									Presença do Dark Lord
@@ -2724,6 +2970,8 @@ Ability_Soulstealer4_name										Soul Burst
 Ability_Soulstealer4_description								Soulstealer solta correntes de energia negativa baseado no número de almas que ele colecionou. Cada corrente causa dano aos inimígos próximos. Quanto mais perto o inimígo estiver, mais corrente ele vai absorver.
 Ability_Soulstealer4_effect_header								Efeitos de Soul Burst
 Ability_Soulstealer4_IMPACT_effect								Solta uma corrente a cada 2 almas que a habilidade do Soulsteal tiver.\n\nCada corrente causa {80,120,160} de dano Mágico. Aplica Soul Burst aos inimígos no radius.
+
+Ability_Soulstealer4_tooltip_flavor								You want your soul back?
 
 // State_Soulstealer_Ability4
 State_Soulstealer_Ability4_name									Soul Burst
@@ -2816,12 +3064,14 @@ Ability_Tempest1_name											Glacial Blasts
 Ability_Tempest1_description									O Tempest explode o inimígo alvo com ventos congelantes, assustando-os a cada 2 segundos. Sendo assim recebem dano e ficam stun por certo tempo.
 Ability_Tempest1_effect_header									Status Effect
 Ability_Tempest1_IMPACT_effect									A cada impacto, causa {30,40,65,80} de dano Mágico e dá stun por 0.6 segundos. Acerta um máximo de {1,2,2,3} veses. Impactos são causados a cada intervalo de 2 segundos.\n\nOs impactos não ocorrerão se você não tiver linha de visão do inimígo.
+Ability_Tempest1_tooltip_flavor									Take a chill pill!
 
 // Ability_Tempest2
 Ability_Tempest2_name											Elemental
 Ability_Tempest2_description									O Tempest sacrifica uma unidade alvo e extrai deles cada elemento de sua composição natural. Com esses elementos, a Tempest cria três Elementais sob o seu controle.
 Ability_Tempest2_effect_header									Status Effect
 Ability_Tempest2_IMPACT_effect									Mata a unidade alvo e cria 3 Elementais. Elementais tem tempo de vidade de 35 segundos, {200,225,225,275} de Health, {2,3,4,5} de Armor, 17 de Magic Armor, e causam de {16,24,34,43} até {24,32,42,51} de dano Físico com cada ataque. Depois de 6 ataques, Elementais se replicam, aparecendo um novo Elemental com o mesmo tempo de vida.
+Ability_Tempest2_tooltip_flavor									Now we're three from one.
 
 // Ability_Elemental1
 Ability_Elemental1_name											Replicate
@@ -2836,12 +3086,14 @@ Ability_Tempest3_name											Meteor
 Ability_Tempest3_description									Ligado a todas as coisas naturais e cósmicas, o Tempest invoca um meteoro que incendeia a área alvo, causando dano às unidades durante um tempo.
 Ability_Tempest3_effect_header									Status Effect
 Ability_Tempest3_IMPACT_effect									Causa dano em alvos no radius de {3,4,5,6}% de sua Health Máxima convertido em dano Mágico por segundo.
+Ability_Tempest3_tooltip_flavor									By the power of Zeus!
 
 // Ability_Tempest4
 Ability_Tempest4_name											Elemental Void
 Ability_Tempest4_description									O Tempest usa seu poder sob os elementais para criar um sistema de pressão muito baixa no local alvo, causando ventos violentos para carregar todas as unidades inimígas até a localização alvo, causando dano por algum tempo.
 Ability_Tempest4_effect_header									Efeitos de Elemental Void
 Ability_Tempest4_IMPACT_effect									Dá {30,50,70} de dano Mágico por segundo em 500 radius. Aplica Elemental Void aos alvos em 400 radius e empurra eles para o centro do radius. Alvos em 150 radius recebem total de {60,100,140} de dano Mágico por segundo. 
+Ability_Tempest4_tooltip_flavor									Listening to the wind of change.
 
 // Gadget_TempestDummyReveal4
 
@@ -2856,6 +3108,7 @@ Hero_Tempest_description										Espíritos nascidos dos elementos, o Tempests 
 Ability_Treant1_name											Camouflage
 Ability_Treant1_description										O Keeper usa sua influência com a floresta para esconder seus aliados da visão inimíga. Garante invisibilidade ao alvo enquanto estiver perto de árvores.
 Ability_Treant1_effect_header									Efeitos de Camouflage
+Ability_Treant1_tooltip_flavor									Strike from the shadows.
 Ability_Treant1_IMPACT_effect									Aplica Camouflage ao alvo por {15,30,45,60} segundos.
 
 // State_Treant_Ability1
@@ -2867,6 +3120,7 @@ Ability_Treant2_name											Tree Sight
 Ability_Treant2_description										O Keeper liga sua mente com uma árvore alvo dividindo sua visão.
 Ability_Treant2_effect_header									Status Effect
 Ability_Treant2_IMPACT_effect									Coloca um gadget na árvore alvo que dá visão. O gadget tem tempo de vida ilimitado e um range de visão de {600,630,660,690}. A visão garantida pelo gadget não é obstruída por obstáculos. O gadget será destruido se a árvore na qual estiver for destruida.
+Ability_Treant2_IMPACT_effect									Places a gadget on target tree.\n\nThe gadget has an unlimited life time and a vision range of {600,630,660,690}. The gadget also has true sight.\n\nThe vision granted by the gadget is not obstructed by obstacles. The gadget is destroyed if the tree it was placed on is destroyed.\n\nUpgrading this skill will cause all of the placed gadgets to be upgraded.
 
 // Gadget_Treant_Ability2
 Gadget_Treant_Ability2_name										Enchanted Tree
@@ -2879,6 +3133,7 @@ Ability_Treant3_name											Nature's Vengeance
 Ability_Treant3_description										O Keeper arranca uma árvore do chão e usa-a como arma, aumentando o dano de seus ataques.
 Ability_Treant3_effect_header									Status Effect
 Ability_Treant3_IMPACT_effect									Garante {15,30,45,60} de dano bônus por {5,6,7,8} ataques.
+Ability_Treant3_IMPACT_effect									Applies Nature's Protection to the target ally or building for 40 seconds.
 
 // State_Treant_Ability3
 State_Treant_Ability3_name										I Has A Tree!
@@ -2888,6 +3143,7 @@ Ability_Treant4_name											Root
 Ability_Treant4_description										O Keeper invoca as raizes do subsolo para desarmar e imobilizar seus inimígos, assim como causa dano durante um tempo.
 Ability_Treant4_effect_header									Efeitos de Root
 Ability_Treant4_IMPACT_effect									Aplica Root em inimígos no radius em volta de si por {3,4,5} segundos. Interrompe o channeling de spells.
+Ability_Treant4_IMPACT_effect									Applies Root to enemies in radius around self for {3,4,5} seconds. Interrupts channeling spells.
 
 // State_Treant_Ability4
 State_Treant_Ability4_name										Root
@@ -2973,6 +3229,8 @@ Ability_Vanya1_description										A Dark Lady ativa uma energia maliciosa em s
 Ability_Vanya1_effect_header									Efeitos de Dark Blades
 Ability_Vanya1_IMPACT_effect									Aplica Dark Blades ao alvo por {3,4,5,6} segundos.
 
+Ability_Vanya1_tooltip_flavor									These blades control your fate!
+
 // State_Vanya_Ability1
 State_Vanya_Ability1_name										Silencing Strikes
 State_Vanya_Ability1_FRAME_effect								Ataques silênciam o alvo por 2.5 segundos
@@ -2987,6 +3245,8 @@ Ability_Vanya2_description										A Dark Lady força sua influência com a alm
 Ability_Vanya2_effect_header									Efeitos de Tainted Soul
 Ability_Vanya2_IMPACT_effect									Dá {75,125,175,225} de dano Mágico e aplica Tainted Soul ao alvo por {2,3,4,5} segundos.
 
+Ability_Vanya2_tooltip_flavor									I want to consume your soul.
+
 // State_Vanya_Ability2
 State_Vanya_Ability2_name										Tainted Soul
 State_Vanya_Ability2_FRAME_effect								Reduz a velocidade de movimentação inicialmente movement em 60%, recuperando para toda a velocidade depois de {2,3,4,5} segundos
@@ -2997,6 +3257,8 @@ Ability_Vanya3_description										A Dark Lady se lança para uma localização
 Ability_Vanya3_effect_header									Status Effect
 Ability_Vanya3_IMPACT_effect									Dispara até a localização alvo, dando um ataque em cada inimígo que passa no radius de si mesmo. Cada ataque consecutivo durante a disparada  causará 35% a menos de dano do que o ataque anterior.
 
+Ability_Vanya3_tooltip_flavor									May I cut in line?
+
 // State_Vanya_Ability3
 State_Vanya_Ability3_name										Charging Strikes
 
@@ -3005,6 +3267,8 @@ Ability_Vanya4_name												Cover of Darkness
 Ability_Vanya4_description										Usando o mais profundo de seu Dark Power, a Dark Lady envenena a mente de todos os Heroes inimígos no mapa por certo tempo. Durante isso os Heroes têm sua velocidade de movimentação reduzida, perde toda a visão dos aliados e têm um range de visão reduzido.
 Ability_Vanya4_effect_header									Darkness Effects
 Ability_Vanya4_IMPACT_effect									Aplica Darkness aos alvos por {7,10.5,14} segundos.
+
+Ability_Vanya4_tooltip_flavor									You're all alone, no one here beside you!
 
 // State_Vanya_Ability4
 State_Vanya_Ability4_name										Cover of Darkness
@@ -3062,6 +3326,7 @@ Ability_Voodoo1_name											Acid Cocktail
 Ability_Voodoo1_description										Voodoo Jester joga uma mistura de componentes químicos em um inimígo e deixa o alvo e as unidades próximas uma a uma.
 Ability_Voodoo1_effect_header									Status Effect
 Ability_Voodoo1_IMPACT_effect									Dá {75,100,125,150} de dano Mágico e deixa o alvo stun por 1.5 segundos se forem heroes e 5 segundos se forem creeps. Acerta {2,4,6,8} veses.  Acertos não causam dano á heroes e deixa eles stun por 1 segundo.
+Ability_Voodoo1_tooltip_flavor									What was in that bottle?
 
 // Ability_Voodoo2
 Ability_Voodoo2_name											Mojo
@@ -3069,20 +3334,26 @@ Ability_Voodoo2_description										Voodoo Jester reage com o Mojo do alvo, cur
 Ability_Voodoo2_effect_header									Efeitos de Good Mojo 
 Ability_Voodoo2_effect_header2									Efeitos de Bad Mojo 
 Ability_Voodoo2_IMPACT_effect									Aplica Good Mojo a um aliado ou Bad Mojo se for um inimígo por 8 segundos.
+Ability_Voodoo2_tooltip_flavor									Oh no, I lost my mojo!
 
 // State_Voodoo_Ability2_Buff
 State_Voodoo_Ability2_Buff_name									Good Mojo
 State_Voodoo_Ability2_Buff_FRAME_effect							Cura {10,20,30,40} de Health por segundo
+State_Voodoo_Ability2_Buff_Aura_name							Good Mojo
+State_Voodoo_Ability2_Buff_Aura_FRAME_effect					Heals {10,20,30,40} Health per second.
 
 // State_Voodoo_Ability2_Debuff
 State_Voodoo_Ability2_Debuff_name								Bad Mojo
 State_Voodoo_Ability2_Debuff_FRAME_effect						Dá {10,20,30,40} de dano Mágico por segundo
+State_Voodoo_Ability2_Debuff_Aura_name							Bad Mojo
+State_Voodoo_Ability2_Debuff_Aura_FRAME_effect					Deals {10,20,30,40} Magic damage per second.
 
 // Ability_Voodoo3
 Ability_Voodoo3_name											Cursed Ground
 Ability_Voodoo3_description										Voodoo Jester amaldiçoa a terra em que os inimígos andam, causando dano neles baseado na quantidade de health perdido durante alguns segundos.
 Ability_Voodoo3_effect_header									Cursed Effects
 Ability_Voodoo3_IMPACT_effect									Aplica Cursed aos alvos no radius por 12 segundos.
+Ability_Voodoo3_tooltip_flavor									Watch where you step.
 
 // State_Voodoo_Ability3
 State_Voodoo_Ability3_name										Cursed
@@ -3091,10 +3362,13 @@ State_Voodoo_Ability3_FRAME_effect								Causa {5,10,15,20} de dano Mágico por
 // Ability_Voodoo4
 Ability_Voodoo4_name											Spirit Ward
 Ability_Voodoo4_description										Voodoo Jester cria uma Spirit Ward mortal para atacar heroes inimígos. Essa habilidade pode ser melhorada pelo "Staff of the Master".
+Ability_Voodoo4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases Spirit Ward damage from {60,90,120} to {90,120,150}. Increases Spirit Ward attack bounces from {0,0,1} to {0,1,0} additional target(s) and splits it's attack to {1,1,3} targets.
 Ability_Voodoo4_effect_header									Status Effect
 Ability_Voodoo4_IMPACT_effect									Invoca uma Spirit Ward invelnerável para atacar heroes inimígos próximos.\n\nThe Spirit Ward dá {60,90,120} de dano Físico com um cooldown de 0.3 segundos. O ataque do Spirit Ward acerta {0,0,1} alvo(s) adicionais.\n\nO Spirit Ward é convocado e será destruido se o channel da spell for cancelado.
 Ability_Voodoo4_name:ult_boost									Spirit Ward (Boosted)
+Ability_Voodoo4_description2:ult_boost							This ability has been boosted by Staff of the Master.
 Ability_Voodoo4_IMPACT_effect:ult_boost							Invoca uma Spirit Ward invelnerável para atacar heroes inimígos próximos.\n\nO Spirit Ward dá {90,120,150} de dano Físico com um cooldown de 0.3 segundos. O Spirit Ward acerta {0,1,0} alvo(s) adicionais e se divide para atacar um total de {1,1,3} alvo(s).\n\nO Spirit Ward é convocado e será destruido se o channel da spell for cancelado.
+Ability_Voodoo4_tooltip_flavor									Bow down before me!
 
 // Gadget_Voodoo_Ability4
 Gadget_Voodoo_Ability4_name										Spirit Ward
@@ -3153,6 +3427,8 @@ Ability_WolfMan1_description									War Beast invoca Hellhounds do submundo par
 Ability_WolfMan1_effect_header									Status Effect
 Ability_WolfMan1_IMPACT_effect									Invoca 2 Hellhounds por 55 segundos.\n\nHellhounds têm {400,475,550,625} de Health, causam de {17,27,34,43} a {18,30,40,49} de dano físico por ataque, e seus ataques têm cooldown de 1.25 segundos. Os ataques têm {0,30,30,30}% de chance de dar 1.5x a mais de dano.\n\nHellhounds level 4 ganham invisibilidade quando não estão atacando.
 
+Ability_WolfMan1_tooltip_flavor									Who let the dogs out?
+
 // Ability_WolfMan_Ability1_Pet_Ability1
 Ability_WolfMan_Ability1_Pet_Ability1_name						Critical Bite
 Ability_WolfMan_Ability1_Pet_Ability1_description				Chance de dar golpes críticos em cada ataque.
@@ -3172,6 +3448,7 @@ Ability_WolfMan2_description									War Beast solta um temido grito de guerra, 
 Ability_WolfMan2_effect_header									Efeitos de Battle Cry
 Ability_WolfMan2_effect_header2									Rallied Effects
 Ability_WolfMan2_IMPACT_effect									Aplica Battle Cry a si mesmo e em todos os heroes aliados por 16 segundos.\n\nAplica Rallied a todas as unidades controladas por jogador aliado por 16 segundos.
+Ability_WolfMan2_tooltip_flavor									Fear is motivation!
 
 // State_WolfMan_Ability2
 State_WolfMan_Ability2_name										Battle Cry
@@ -3180,6 +3457,7 @@ State_WolfMan_Ability2_name										Battle Cry
 Ability_WolfMan3_name											Primal Rage
 Ability_WolfMan3_description									O War Beast constitúi sua Primal Rage, aumentando sua velocidade de ataque e dano dele e de outras unidade sob controle.
 Ability_WolfMan3_effect_header									Status Effect
+Ability_WolfMan3_tooltip_flavor									Evil to the core!
 
 // State_WolfMan_Ability3
 State_WolfMan_Ability3_name										Primal Rage
@@ -3189,6 +3467,7 @@ Ability_WolfMan4_name											Metamorphosis
 Ability_WolfMan4_description									War Beast se transforma em um Hellhound Lieutenant, ganhando uma fonte maior de health, um ataque crítico e um boost na velocidade.
 Ability_WolfMan4_effect_header									Efeitos de Metamorphosis
 Ability_WolfMan4_IMPACT_effect									Aplica Metamorphosis a si mesmo por {14,15,16} segundos.
+Ability_WolfMan4_tooltip_flavor									I'm a real beast!
 
 // State_WolfMan_Ability4
 State_WolfMan_Ability4_name										Shapeshift
@@ -3207,6 +3486,7 @@ Ability_Xalynx1_name											Chain Reaction
 Ability_Xalynx1_description										O Torturer invoca correntes poderosas em uma localização alvo que balança perto dos inimígos, causando dano e deixando o oponente stun.
 Ability_Xalynx1_effect_header									Status Effect
 Ability_Xalynx1_IMPACT_effect									Dá {70,140,210,280} de dano Mágico e deixa cada alvo na radius stun por {1.25,1.5,1.75,2} segundos.
+Ability_Xalynx1_tooltip_flavor									The cenobites are coming!
 
 // Ability_Xalynx2
 // Ability_Xalynx2
@@ -3214,12 +3494,14 @@ Ability_Xalynx2_name											Impalement
 Ability_Xalynx2_description										O Torturer invoca constantemente várias espadas em volta de si por algum tempo, acertando inimígos e estruturas aleatórios.
 Ability_Xalynx2_effect_header									Status Effect
 Ability_Xalynx2_IMPACT_effect									Dá {9.375,18.75,28.125,37.5} de dano Físico Physical a um alvo aleatório no radius a cada 0.25 segundos por 8 segundos, em um total de {300,600,900,1200} de dano Físico.\n\nOs efeitos desta skill continuam mesmo quando o Torturer é desabilitado ou morto.
+Ability_Xalynx2_tooltip_flavor									Is it raining blades?
 
 // Ability_Xalynx3
 Ability_Xalynx3_name											Agonizing Bonds
 Ability_Xalynx3_description										O Torturer aprisiona um inimígo com correntes, causando dano ao alvo e aos inimígos próximos.
 Ability_Xalynx3_effect_header									Status Effect
 Ability_Xalynx3_IMPACT_effect									Dá dano ao alvo e a {3,5,6,7} inimígos próximos em radius de {80,145,205,265} de dano Mágico.
+Ability_Xalynx3_tooltip_flavor									They'll tear you to pieces.
 
 // State_Xalynx_Ability3
 State_Xalynx_Ability3_name										Unholy Pull
@@ -3227,10 +3509,13 @@ State_Xalynx_Ability3_name										Unholy Pull
 // Ability_Xalynx4
 Ability_Xalynx4_name											Torment
 Ability_Xalynx4_description										O Torturer força seu tormento em inimígos próximos a cada segundo, causando dano a eles. Essa habilidade pode ser melhorada com "Staff of the Master"
+Ability_Xalynx4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases damage from {66,100,144} to {88,133,177}.
 Ability_Xalynx4_effect_header									Status Effect
 Ability_Xalynx4_IMPACT_effect									Causa dano em inimígos no radius de {66,100,144} de dano Mágico a cada 1 segundo.
 Ability_Xalynx4_name:ult_boost									Torment (Boosted)
 Ability_Xalynx4_IMPACT_effect:ult_boost							A cada segundo, causa dano nos inimígos dentro do radius de {88,133,177} de dano Mágico.
+Ability_Xalynx4_IMPACT_effect:ult_boost							Damages enemies in radius for ^g{88,133,177}^* Magic damage every 1 second.
+Ability_Xalynx4_tooltip_flavor									My precious!
 
 // Hero_Xalynx
 Hero_Xalynx_name												Torturer
@@ -3265,6 +3550,10 @@ Ability_Yogi1_name												Summon Booboo
 Ability_Yogi1_description										Wildsoul invoca seu urso, Booboo
 Ability_Yogi1_effect_header										Status Effect
 Ability_Yogi1_IMPACT_effect										Invoca Booboo na localização alvo. Booboo não pode ser invocado se já estiver ativo.\n\nNo level 4, Booboo ganha a habilidade de carregar itens.
+
+Ability_Yogi1_tooltip_flavor									Go get me a bear!
+
+
 
 // Ability_Yogi2
 Ability_Yogi2_name												Wild
@@ -3306,12 +3595,6 @@ Ability_Yogi5_description										Wildsoul dá um temido grito de guerra, adici
 Ability_Yogi5_effect_header										Efeitos de Battle Cry
 Ability_Yogi5_IMPACT_effect										Aplica Battle Cry aos alvos no radius.
 
-// Ability_Yogi6
-Ability_Yogi6_name												Soul Link
-Ability_Yogi6_description										Wildsoul liha sua alma com o pet alvo, dividindo dano recebido por qualquer um dos dois.
-Ability_Yogi6_effect_header										Efeitos de Soul Link 
-Ability_Yogi6_IMPACT_effect										Aplica Soul Link a si mesmo e no alvo por 35 segundos.
-
 // Pet_Yogi_Ability1
 Pet_Yogi_Ability1_name											Booboo
 
@@ -3323,10 +3606,6 @@ State_Yogi_Ability4_name										Bear Form
 
 // State_Yogi_Ability5
 State_Yogi_Ability5_name										Battle Cry
-
-// State_Yogi_Ability6
-State_Yogi_Ability6_name										Soul Link
-State_Yogi_Ability6_FRAME_effect								Divide o dano entre unidades que têm Soul Link
 
 // State_Yogi_Pet_Ability2
 State_Yogi_Pet_Ability2_name									Bear Root
@@ -3386,10 +3665,12 @@ Ability_Zephyr4_IMPACT_effect:Zephyr_Ability2_4					Grants Zephyr 1 Cyclone per 
 Ability_Zephyr4_tooltip_flavor									Did I break wind?
 
 
+
 // Gadget_Zephyr_Ability4
 
 // State_Zephyr_Ability4_Debuff
 State_Zephyr_Ability4_Debuff_name								Harsh Winds
+State_Zephyr_Ability4_Debuff_FRAME_effect						Deals up to {60,80,100} Magic damage per second
 
 // Hero_Zephyr
 Hero_Zephyr_name												Zephyr
@@ -3663,7 +3944,9 @@ Item_MajorTotem_effect_header									Status Effect
 
 // Item_ManaBattery
 Item_ManaBattery_name											Mana Battery
-Item_ManaBattery_effect_header									Status Effect
+Item_ManaBattery_description									A charge is gained every time a nearby enemy casts a spell. When activated, all charges are removed, restoring 15 health and mana per charge.
+Item_ManaBattery_IMPACT_effect									Restores 12 health and mana per charge. Maximum of 10 charges.
+State_ManaBattery_FRAME_effect									+1 charge every time an enemy hero in range casts a spell.
 
 // Gadget_Item_ManaEye
 Gadget_Item_ManaEye_name										Ward of Revelation
@@ -4123,12 +4406,10 @@ State_FrostfieldPlate_name										Frostfield Plate
 
 // Item_ManaBurn2
 Item_ManaBurn2_name												Geometer's Bane
-Item_ManaBurn2_description										On attack, drains 50 Mana from target.\nWhen activated creates two images of self. 
-Item_ManaBurn2_description2										This item contains an exclusive modifier of type ^cMana Combustion^*. Exclusive modifiers do not stack. You will automatically use your most powerful exclusive modifier of this type.
+Item_ManaBurn2_description										When activated, creates two images of self.\n\nThis item can be disassembled.
 Item_ManaBurn2_effect_header									Status Effect
-Item_ManaBurn2_shop_flavor										An impossible shape with more sides than corners and more corners than edges, the Geometer's Bane bends reality around it, giving its possessor speed, Health, and the power to project illusions. Moreover, the Bane can be twisted to suck the magic out of foes and leave them helpless before its wielder.
-Item_ManaBurn2_IMPACT_effect									Spawn 2 Illusions of self. The illusions take 3 times normal damage, deal 40% of your attack damage, and inherit Mana Combustion and Critical Strike properties from you. The Illusions have a 20 second life time.\n\nDispels all Buffs and Debuffs on use.
-Item_ManaBurn2_ATTACK_IMPACT_effect:manacombustion				Takes up to 50 of the targets Mana and deals Physical damage equal to 75% of the Mana taken.
+Item_ManaBurn2_IMPACT_effect									Spawn 2 Illusions of self. The illusions take 3.5 times normal damage, deal 33% of your attack damage, and inherit properties from you. The Illusions have a 20 second life time.\n\nDispels all Buffs and Debuffs on use.
+Item_ManaBurn2_tooltip_flavor									Looking into it, I see only fire.
 
 // Item_Weapon1
 Item_Weapon1_name												Great Arcana
@@ -4544,11 +4825,13 @@ Item_FenrirFang_shop_flavor
 Item_FenrirFang_description:attack								On attack, applies Fenrir's Bite to target, slowing them.
 Item_FenrirFang_effect_header:attack							Fenrir's Bite Effects
 Item_FenrirFang_ATTACK_IMPACT_effect:attack						Applies Fenrir's Bite to target for 3 seconds.
+
 // Item_Freeze
 Item_Freeze_name												Frostwolf's Skull
 Item_Freeze_description											On attack, applies Chilled to target.
 Item_Freeze_description2										This item contains an ^rAttack ^rModifier^*. Attack modifiers are exclusive and do not stack with other attack modifiers.
 Item_Freeze_effect_header										Status Effect
+Item_Freeze_tooltip_flavor										My blood freezes when I hold it...
 Item_Freeze_shop_flavor											One of the New Gods worshipped by the beasts is the Frostwolf, a fabled creature personifying cold vengeance. In his honor, the frozen heads of white wolves are fashioned into totems known as Frostwolf's Skulls. These holy skulls grant a freezing attack, enormous growth in all abilities, and greater Health and magical potential.
 Item_Freeze_description:attack									A powerful totem to the Beast God of Vengeance, the holy skull named for the Wolf of the Wild massively boosts all attributes, bestows a significant increase to Health and Mana, and causes the wielder's attacks to slow opponents.
 Item_Freeze_effect_header:attack								Efeitos de Freeze
