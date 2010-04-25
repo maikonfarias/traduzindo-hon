@@ -99,7 +99,7 @@ player_boughtback					{player_color}{player}^* comprou seu retorno e renasceu na
 error_target_invulnerable			O alvo é invulnerável.
 error_not_ready						{tool} não está pronto ainda.
 error_low_mana						Pouca mana para usar {tool}.
-error_no_proxy						Sem proxy disponivel para {tool}.
+error_no_proxy						Sem proxy disponível para {tool}.
 error_not_unit_ability				Deverá escolher uma unidade para ser alvo desta habilidade.
 error_not_unit_item					Deverá escolher uma unidade para ser alvo deste item.
 error_not_unit						Deverá escolher uma unidade para ser o alvo.
@@ -232,9 +232,9 @@ activate_item_no_share				^rDesabilitado - Propriedade de {name}
 activate_item_borrowed				^gEmprestado por {name}
 activate_passive					^gEsta habilidade é passiva
 
-attribute_strength					Força
-attribute_agility					Agilidade
-attribute_intelligence				Inteligência
+attribute_strength					Strength
+attribute_agility					Agility
+attribute_intelligence				Intelligence
 
 attribute_damage_bonus				{value} Dano
 attribute_health_bonus				{value} Vida Máxima
