@@ -1026,60 +1026,60 @@ credit_card_result_next_bill_date			Data do próximo faturamento: ^w{date}
 credit_card_result_email					E-mail: ^w{email}
 
 // game.interface
-game_scores_label_name						NAME
+game_scores_label_name						NOME
 game_scores_label_hero						HERO
 game_scores_label_lvl						Lvl
-game_scores_label_player_name				Player Name
+game_scores_label_player_name				Jogador
 game_scores_label_k							K
 game_scores_label_d							D
 game_scores_label_a							A
 game_scores_label_tab_lvl					Lvl
-game_scores_label_tab_player_name			Player Name
+game_scores_label_tab_player_name			Jogador
 game_scores_label_tab_k						K
 game_scores_label_tab_d						D
 game_scores_label_tab_a						A
 game_shop_label_recipe						Recipe
-game_shop_label_combine						Combine
+game_shop_label_combine						Combinar
 
-game_scores_header_scores					Scores
-game_button_scores							Scores
-game_halfscores_tooltip						Click to show only the player avatar and level portion of the scoreboard. To fully expand or hide scores, use the button above.
+game_scores_header_scores					Pontos
+game_button_scores							Pontos
+game_halfscores_tooltip						Clique para mostrar apenas o avatar do jogador e a parte level do painel. Para expandir ou esconder totalmente os pontos, use o botão acima.
 game_button_menu							Menu
-game_button_open_close_shop					Open/Close Shop
-game_shop_label_shopname					Shop
-game_shop_label_accessories					Accessories
-game_shop_label_weapons						Weapons
-game_shop_label_relics						Relics
-game_shop_label_supplies					Supplies
-game_shop_label_secret						Secret Shop
-game_shop_label_recipe_outpost				Outpost
-game_shop_label_recipe_one					Initiation
-game_shop_label_recipe_two					Supportive
-game_shop_label_recipe_three				Protective
-game_shop_label_recipe_four					Combative
+game_button_open_close_shop					Abrir/Fechar Loja
+game_shop_label_shopname					Loja
+game_shop_label_accessories					Acessórios
+game_shop_label_weapons						Armas
+game_shop_label_relics						Relíquias
+game_shop_label_supplies					Suprimentos
+game_shop_label_secret						Loja Secreta
+game_shop_label_recipe_outpost				Posto Avançado
+game_shop_label_recipe_one					Iniciação
+game_shop_label_recipe_two					Suporte
+game_shop_label_recipe_three				Proteção
+game_shop_label_recipe_four					Combate
 game_shop_label_recipe_five					Morph Attack
-game_shop_label_recommended					Recommended
+game_shop_label_recommended					Recomendado
 game_label_stash							Stash
-game_label_stash_tool_tip					The Stash is used to store items when your inventory is full. Items purchased from the shop when you are away from base will automatically be placed in your stash.\n\nLeft-clicking on an auto-forming item in your stash will disassemble it.
-game_label_stash_deconstruct_tool_tip		Deconstruction tooltip
-game_shop_label_requires					Requires:
-game_shop_label_used_in						Used in:
-game_shop_label_total_cost					Total Cost
-game_shop_label_buyall						Buy All Components
+game_label_stash_tool_tip					O Stash é usado para guardar seus itens quando o inventório está cheio. Itens comprados do Shop quando longe da base serão automaticamente colocados em seu stash stash. Um \n\nClique-Esquerdo num item auto-formado em seu stash vai desmontá-lo.
+game_label_stash_deconstruct_tool_tip		Dica de Desconstrução
+game_shop_label_requires					Requer:
+game_shop_label_used_in						Usado Em:
+game_shop_label_total_cost					Custo Total
+game_shop_label_buyall						Comprar todos os Componentes
 
-game_shop_label_total_cost_tip				The total cost of a recipe includes both the recipe cost and the cost of the items required to complete the recipe. If all items are available at your current location, you are able to purchase all the items with this button.
-game_shop_label_shoptip_header				Shop Information
-game_shop_label_shoptip_summary				The Shop has two main categories, items and recipes. Items are the individual components that are used to create recipes. Some recipes require you to purchase an actual recipe item after buying its components in order to complete the recipe, while others will form automatically once you have the required components.\n\nIf you accidentally purchase an item, you have a 15 second grace period in which you can sell it back for a full refund.
-game_shop_label_shoptip_featuresheader		Shop Features and Hotkeys:
-game_shop_label_shoptip_features			To view what recipes an item is used in, hold ^gSHIFT^* and ^gLEFT CLICK^* on that item.\n\nTo move an item from your inventory to your stash or from your stash to your inventory, hold ^gCTRL^* and ^gRIGHT CLICK^* on it.\n\nTo sell an item, either pick it up with ^gRIGHT CLICK^* then drop it on the shop interface with ^gLEFT CLICK^*, or hold ^gCTRL^* and ^gSHIFT^* then ^gRIGHT CLICK^* on it.
+game_shop_label_total_cost_tip				O custo total de uma recipe inclui o custo da recipe e o custo dos itens requeridos para completá-la. Se todos os itens estão disponíveis na sua localização atual, você poderá comprar todos os itens com este botão.
+game_shop_label_shoptip_header				Informação Loja
+game_shop_label_shoptip_summary				A Loja tem duas categorias principais, Itens e recipes. Itens são os componentes individuais que são usados para formar as recipes. Algumas recipes requerem que você compre um item de recipe depois de comprar seus componentes para terminar a recipe em si, em quanto outros vão se formar automaticamente quando você tiver os componentes necessários.\n\nSe você acidentalmente comprou um item, você tem um período de 15 segundos no qual pode-se vender o item pelo preço original.
+game_shop_label_shoptip_featuresheader		Recursos da Loja e Atalhos:
+game_shop_label_shoptip_features			Para ver em que receitas um item é usado, segure ^gSHIFT^* e dê um ^gCLIQUE ESQUERDO^* neste item.\n\nPara mover um item de seu inventory para o stash ou vice versa, segure ^gCTRL^* e dê um ^gCLIQUE DIREITO^* nele.\n\nPara vender um item, ou pegue-o com um ^gCLIQUE DIREITO^* e então largue ele na interface da Loja com um ^gCLIQUE ESQUERDO^*, ou segure ^gCTRL^* e ^gSHIFT^* então dê um ^gCLIQUE DIREITO^* nele.
 
 game_ui_label_gold							Gold
-game_attributes_label_atk_spd				Atk Spd
-game_attributes_label_magic_armor			Magic Arm
-game_header_scores_team_one					Team 1
-game_header_scores_team_two					Team 2
+game_attributes_label_atk_spd				Vel Atq
+game_attributes_label_magic_armor			Armad Mág
+game_header_scores_team_one					Time 1
+game_header_scores_team_two					Time 2
 game_label_ally_level						L
-game_label_buy_back							Buy Back
+game_label_buy_back							Pgr Ren.
 game_label_hero_kd_hero						Hero:
 game_label_creep_kills_creep				Creep:
 
@@ -1097,271 +1097,271 @@ game_chat_button_all						Todos
 game_chat_for								^yChat Para: ^* {target}
 
 // main_local_browser.package
-local_header_local_game						Local Game
-local_header_join_local_game				Join a Local Game
-local_label_your_name						Your Name
-local_button_refresh_list					Refresh List
-local_button_connect_ip						Connect to IP
-local_button_join_selected					Join Selected Game
-local_create_game_header					Create a Local Game
-local_select_server_header					Select a Server
-local_select_server_button					Select Server
-main_local_browser_filter_header			Filter Game List
-main_local_browser_filter_desc				Enter a game name, or part of a game name to filter the results.
-local_need_password_header					Password Required
-main_local_browser_password_tip				This game requires a password to join. Enter the password provided by the game creator.
-local_server_header							Server
+local_header_local_game						Jogo Local
+local_header_join_local_game				Entrar em um jogo local
+local_label_your_name						Seu Nome
+local_button_refresh_list					Renovar Lista
+local_button_connect_ip						Conectar no IP
+local_button_join_selected					Entrar no Jogo selecionado
+local_create_game_header					Criar um Jogo Local
+local_select_server_header					Selecione um Servidor
+local_select_server_button					Selecionar Servidor
+main_local_browser_filter_header			Filtrar lista de Jogos
+main_local_browser_filter_desc				Entre com um nome de jogo, ou parte de um para filtrar os resultados.
+local_need_password_header					Senha Requerida
+main_local_browser_password_tip				Este Jogo requer uma senha para entrar. Entre com a senha provida pelo criador da partida.
+local_server_header							Servidor
 main_local_browser_ip						IP
-main_local_browser_ip_tip					Enter an Internet Protocol (IP) address to connect to a remote game.
-main_local_browser_connect_to_ip			Connect to an IP
-main_local_broswer_password					Password
-main_local_browser_password_tip				Enter the password for this game.
-main_local_browser_starting					Remote game starting...
-main_local_browser_header					Game Browser - ^r{players}^* Players on ^r{servers}^* Servers
+main_local_browser_ip_tip					Entre com um endereço de IP para conectar-se à um jogo remoto.
+main_local_browser_connect_to_ip			Conectar à um IP
+main_local_broswer_password					Senha
+main_local_browser_password_tip				Entre com a senha para este jogo.
+main_local_browser_starting					Iniciando jogo remoto...
+main_local_browser_header					Navegador de Jogos - ^r{players}^* Jogadores em ^r{servers}^* Servidores
 
 // main_popup.interface
-popup_header								Message
+popup_header								Mensagem
 
 // cc_community.package
-cc_com_header_your_friends_list				Your Friends List
-cc_com_header_add_friends					Add New Friends
-cc_com_label_enter_nickname					Add as Friend:
-cc_com_button_add							Add
+cc_com_header_your_friends_list				Sua Lista de Amigos
+cc_com_header_add_friends					Adicionar Novos Amigos
+cc_com_label_enter_nickname					Adicionar como Amigo:
+cc_com_button_add							Adicionar
 
-cc_com_button_find_in_game					Find In Current Game
-cc_com_aside_header_in_current_game			In Current Game
-cc_com_aside_current_button_add				Add
+cc_com_button_find_in_game					Achar no Jogo Atual
+cc_com_aside_header_in_current_game			No Jogo Atual
+cc_com_aside_current_button_add				Adicionar
 
-cc_com_button_recently_with					Recently Played With
-cc_com_aside_header_recently_with			Recently Played With
-cc_com_aside_recent_button_add				Add
+cc_com_button_recently_with					Recentemente Jogado Com
+cc_com_aside_header_recently_with			Recentemente Jogado Com
+cc_com_aside_recent_button_add				Adicionar
 
-cc_com_header_clan_management				Clan Management
-cc_com_create_button						Create New Clan
-cc_com_label_not_in_clan					You are not currently in a clan.
-cc_com_label_start_clan						Start your own clan instantly! You simply need 5 charter members (including yourself). All charter members must be currently logged into HoN and not already a member of a clan.
-cc_com_label_if_interested					If you are interested in joining a clan, change your status below. Your status will be viewable by clan leaders.
-cc_com_dropbox_not_interested				Not Interested
-cc_com_dropbox_looking_for_clan				Looking For Clan
-cc_com_header_clan_inv_recent				Recently Played With
-cc_com_button_clan_inv_recent_add			Add
-cc_com_header_clan_inv_current				In Current Game
-cc_com_button_clan_inv_current_add			Add
+cc_com_header_clan_management				Gestão do Clan
+cc_com_create_button						Criar Novo Clan
+cc_com_label_not_in_clan					Atualmente você não está em um clan.
+cc_com_label_start_clan						Comece seu próprio clan imediatamente! Você simplesmente precisa de 5 membros (incluindo você). Todos os membros devem estar conectados no HoN e não serem membros de um clan.
+cc_com_label_if_interested					Se você está interessado em juntar-se à um clan, troque o seu estado abaixo. Seu estado será visível para líderes de Clan.
+cc_com_dropbox_not_interested				Não estou interessado
+cc_com_dropbox_looking_for_clan				Procurando por Clan
+cc_com_header_clan_inv_recent				Recentemente jogou com
+cc_com_button_clan_inv_recent_add			Adicionar
+cc_com_header_clan_inv_current				No Jogo Atual
+cc_com_button_clan_inv_current_add			Adicionar
 
-cc_com_rtclick_clan_invite_member			Invite New Member
-cc_com_label_find_nickname_below			Enter Nickname Below:
-cc_com_button_findoptions_invite			Invite
-cc_com_button_findoptions_current			Find In Current Game
-cc_com_button_findoptions_recent			Recently Played With
+cc_com_rtclick_clan_invite_member			Convidar novo Membro
+cc_com_label_find_nickname_below			Entre com o nick abaixo:
+cc_com_button_findoptions_invite			Convidar
+cc_com_button_findoptions_current			Achar no Jogo Atual
+cc_com_button_findoptions_recent			Recentemente jogou com
 
-cc_com_newclan_button						Create Clan
-cc_com_newclan_header						Create a New Clan
-cc_com_newclan_tip_header					Create Clan Tip
-cc_com_newclan_invite_button				Send Invites
-cc_com_newclan_check_name					Check Clan Name and Tag
-cc_com_newclan_clanname						Clan Name
-cc_com_newclan_clantag						Clan Tag (1-3 Chars)
-cc_com_newclan_leader						Clan Leader
-cc_com_newclan_memberinfo					Enter the Nickname of the four charter members in your clan. All charter members must be logged in and not a member of a different clan. 
-cc_com_newclan_founding1					Member 1
-cc_com_newclan_founding2					Member 2
-cc_com_newclan_founding3					Member 3
-cc_com_newclan_founding4					Member 4
-cc_com_newclan_waitinginfo					Waiting for your charter members to respond to the clan invitation. If all four charter members accept the invitation before the time limit is reached, your new clan will be created.
-cc_com_newclan_waitingtime					Time Remaining: 
-cc_com_newclan_results_button				Continue
-cc_com_newclan_success						Clan has been created success message
-cc_com_newclan_failure						Clan has been created failure message
-cc_com_newclan_finished_button				Close Window
+cc_com_newclan_button						Criar Clan
+cc_com_newclan_header						Criar um novo Clan
+cc_com_newclan_tip_header					Dica de criação de clan
+cc_com_newclan_invite_button				Mandar convites
+cc_com_newclan_check_name					Checar nome e tag do clan
+cc_com_newclan_clanname						Nome do Clan
+cc_com_newclan_clantag						Tag do Clan (1-3 Chars)
+cc_com_newclan_leader						Líder do Clan
+cc_com_newclan_memberinfo					Entre com o nick dos quatro membros de seu clan. Todos os membros devem estar conectados e não ser membros de outro clan. 
+cc_com_newclan_founding1					Membro 1
+cc_com_newclan_founding2					Membro 2
+cc_com_newclan_founding3					Membro 3
+cc_com_newclan_founding4					Membro 4
+cc_com_newclan_waitinginfo					Esperando os membros da licença aceitar o convite ao clan. Se todos os 4 membros aceitarem o convite antes do limite de tempo, seu novo clan será criado.
+cc_com_newclan_waitingtime					Tempo Restante: 
+cc_com_newclan_results_button				Continuar
+cc_com_newclan_success						O Clan foi criado com sucesso
+cc_com_newclan_failure						O Clan não foi criado
+cc_com_newclan_finished_button				Fechar Janela
 
-ccpanel_header_options						Options
-ccpanel_button_config_cc					Configure C&C Panel
-ccpanel_label_panel_explanation				The C&C Panel notifies you when your friends and clan members perform an action. Select which notifications you would like to view.
-ccpanel_checkbox_connection_note			Connection Notices
-ccpanel_checkbox_disconnect_note			Disconnect Notices
-ccpanel_checkbox_join_note					Join Game Notices
-ccpanel_checkbox_leave_note					Leave Game Notices
-ccpanel_checkbox_friend_adds_note			Friends List Additions
-ccpanel_checkbox_friends_remove_note		Friends List Removals
-ccpanel_checkbox_clan_message_note			Clan Messages
-ccpanel_checkbox_rank_change_note			Clan Rank Changes
-ccpanel_checkbox_new_member_note			New Clan Departures
-ccpanel_checkbox_depature_note				Clan Departures
-ccpanel_checkbox_clan_invite_note			Clan Invites
-ccpanel_checkbox_match_note					Clan Match Notices
-ccpanel_checkbox_invite_note				Game Invites
-ccpanel_button_save_settings				Save Settings
-ccpanel_game_invite							Game Invitation
-ccpanel_label_clan_and_community			Clan & Community Panel
+ccpanel_header_options						Opções
+ccpanel_button_config_cc					Configurar Painel C&C
+ccpanel_label_panel_explanation				O Painel C&C te notifica quando seus amigos e membros do clan realizam uma ação. Selecione quais notificações gostaria de ver.
+ccpanel_checkbox_connection_note			Avisos de Conexão
+ccpanel_checkbox_disconnect_note			Avisos de Disconexão
+ccpanel_checkbox_join_note					Avisos de Entrada de Games
+ccpanel_checkbox_leave_note					Avisos de Saída de Games
+ccpanel_checkbox_friend_adds_note			Adições à lista de amigos
+ccpanel_checkbox_friends_remove_note		Remoções da lista de amigos
+ccpanel_checkbox_clan_message_note			Mensagens do Clan
+ccpanel_checkbox_rank_change_note			Mudanças de Rank no Clan
+ccpanel_checkbox_new_member_note			Saídas de Clans novos
+ccpanel_checkbox_depature_note				Saídas de Clans
+ccpanel_checkbox_clan_invite_note			Convites à Clans
+ccpanel_checkbox_match_note					Avisos de Partidas do Clan
+ccpanel_checkbox_invite_note				Avisos de convites de Games
+ccpanel_button_save_settings				Salvar Configurações
+ccpanel_game_invite							Convites de Games
+ccpanel_label_clan_and_community			Painel Clan & Comunidade
 
 // cc_serverlist.package
-ccserverlist_checkbox_show_full				Show Full:
-ccserverlist_checkbox_show_empty			Show Empty:
-ccserverlist_checkbox_show_sandbox			Show Sandboxes:
-ccserverlist_checkbox_max_ping				Max Ping:
-ccserverlist_editbox_map					Map:
-ccserverlist_checkbox_different				Different Version:
-ccserverlist_checkbox_all_level				All Level Ranges:
-ccserverlist_checkbox_unresponsive			Unresponsive:
-ccserverlist_button_save					Save
-ccserverlist_combobox_races					Races:
-ccserverlist_button_filters					Filters
-ccserverlist_button_refresh					Refresh
-ccserverlist_button_connect_ip				Connect to IP
+ccserverlist_checkbox_show_full				Mostrar Cheios:
+ccserverlist_checkbox_show_empty			Mostrar Vazios:
+ccserverlist_checkbox_show_sandbox			Mostrar Sandboxes:
+ccserverlist_checkbox_max_ping				Ping Máx:
+ccserverlist_editbox_map					Mapa:
+ccserverlist_checkbox_different				Versão Diferente:
+ccserverlist_checkbox_all_level				Todos os Levels:
+ccserverlist_checkbox_unresponsive			Não Responde:
+ccserverlist_button_save					Salvar
+ccserverlist_combobox_races					Raças:
+ccserverlist_button_filters					Filtros
+ccserverlist_button_refresh					Renovar
+ccserverlist_button_connect_ip				Conectar ao IP
 ccserverlist_editbox_ip						IP:
-ccserverlist_editbox_pass					Pass:
+ccserverlist_editbox_pass					Passe:
 
 // cc_statistics.package
-ccstats_button_fetch						Fetch
-ccstats_button_show_stats					Show Stats
-ccstats_button_hide_stats					Hide Stats
+ccstats_button_fetch						Buscar
+ccstats_button_show_stats					Mostrar Estat.
+ccstats_button_hide_stats					Esconder Estat.
 
 // cc_message.package
-cc_message_label_enter_name_message			Enter nickname to Message
-cc_message_label_message					Message
+cc_message_label_enter_name_message			Entre com o nick para enviar Msg.
+cc_message_label_message					Mensagem
 
 // cc_whisper.package
-ccwhisper_label_send_clan_message			Send Message to Clan.
-ccwhisper_button_send_whisper				Send
-ccwhisper_button_send_message				Send Message
-ccwhisper_header_send_a_message				Send a Message
+ccwhisper_label_send_clan_message			Enviar Mensagen ao Clan.
+ccwhisper_button_send_whisper				Enviar
+ccwhisper_button_send_message				Enviar Mensagem
+ccwhisper_header_send_a_message				Enviar uma Mensagem
 
 // cc_tournamentlist.package
-cctournament_upcoming_header				Your Upcoming Tournaments
-cctournament_upcoming_tournament			Tournament:
+cctournament_upcoming_header				Seus próximos Torneios
+cctournament_upcoming_tournament			Torneio:
 cctournament_upcoming_tournamentadmin		Admin:
-cctournament_upcoming_date					Date:
-cctournament_upcoming_time					Time:
-cctournament_upcoming_bracket				Bracket:
+cctournament_upcoming_date					Data:
+cctournament_upcoming_time					Hora:
+cctournament_upcoming_bracket				Chave:
 cctournament_upcoming_pool					Pool:
-cctournament_upcoming_pooltip				The pool of teams you're playing against determined by the elimination type of the tournament and your number of losses.
-cctournament_upcoming_starttime				Match Start Time:
-cctournament_upcoming_joingame				Join This Game Now
-cctournament_upcoming_adminonline			User is online, click their name to send an IM
+cctournament_upcoming_pooltip				O conjunto de times que você estará jogando contra, determinado pelo tipo de eliminação do torneio e seus número de derrotas.
+cctournament_upcoming_starttime				Hora de Começo da Partida:
+cctournament_upcoming_joingame				Entrar no Jogo Agora
+cctournament_upcoming_adminonline			Usuário está Online, clique em seu nome para mandar uma MI
 
 // social_groups.package
-no_ims										You have no IM conversations. Enter a nickname below to send a message to another player.
-im_user_not_found							Username not found!
-im_user_offline								User is offline!
+no_ims										Você não tem conversas MI. Entre com um nick abaixo para enviar uma mensagem para outro jogador.
+im_user_not_found							Nome de Usuário não encontrado!
+im_user_offline								Usuário está offline!
 
 // game_end_stats.interface
-endstats_label_match_id						Match ID
-endstats_label_date							Date
-endstats_label_time							Time
-endstats_label_match_length					Length
-endstats_label_match_ver					Version
-endstats_label_server						Server
-endstats_label_match_comments				Match Comments
-endstats_button_submit_comment				Submit Comment
-endstats_header_legion_players				Legion Players
-endstats_header_player_name					Player Name
+endstats_label_match_id						ID Partida
+endstats_label_date							Data
+endstats_label_time							Hora
+endstats_label_match_length					Duração
+endstats_label_match_ver					Versão
+endstats_label_server						Servidor
+endstats_label_match_comments				Comentários
+endstats_button_submit_comment				Enviar Comentário
+endstats_header_legion_players				Jogadores da Legion
+endstats_header_player_name					Nome do Jogador
 endstats_label_lvl							Lvl
 endstats_label_hk							HK
 endstats_label_d							D
 endstats_label_ck							CK
 endstats_label_cd							CD
 endstats_label_xp_min						XP/Min
-endstats_label_rate							Rate
-endstats_header_player_statistics			Player Statistics
-endstats_label_xp_earned					XP Earned
-endstats_label_deaths						Deaths
-endstats_label_gold_earned					Gold Earned
-endstats_label_gold_spent					Spent
-endstats_label_action_per_min				Actions Per Minute
-endstats_label_buy_backs					Hero Buy Backs
-endstats_label_xp/minute					XP/Minute
-endstats_label_gold_lost					Gold Lost
+endstats_label_rate							Taxa
+endstats_header_player_statistics			Estatísticas do Jogador
+endstats_label_xp_earned					XP Ganha
+endstats_label_deaths						Mortes
+endstats_label_gold_earned					Gold Ganho
+endstats_label_gold_spent					Gastou
+endstats_label_action_per_min				Ações Por Minuto
+endstats_label_buy_backs					Pgou p/ Ren. Hero
+endstats_label_xp/minute					XP/Minuto
+endstats_label_gold_lost					Gold Perdido
 endstats_label_gold/minute					Gold/Min
-endstats_label_time_played					Time Played
-endstats_header_enemy_heroes				Enemy Heroes
-endstats_label_hero_damage					Damage
+endstats_label_time_played					Tempo que Jogou
+endstats_header_enemy_heroes				Heroes Inimigos
+endstats_label_hero_damage					Dano
 endstats_label_hero_kills					Kills
-endstats_label_hero_assists					Assists
+endstats_label_hero_assists					Asistências
 endstats_label_hero_gold					Gold
-endstats_header_enemy_building				Enemy Buildings
-endstats_label_building_damage				Damage
-endstats_label_building_razes				Razes
+endstats_header_enemy_building				Const. Inimigas
+endstats_label_building_damage				Dano
+endstats_label_building_razes				Arrasadas
 endstats_label_building_gold				Gold
-endstats_header_team_creeps					Team Creeps
-endstats_label_creep_damage					Damage
+endstats_header_team_creeps					Creeps Time
+endstats_label_creep_damage					Dano
 endstats_label_creep_kills					Kills
 endstats_label_creep_gold					Gold
 endstats_header_neutrals					Neutral Creeps
 endstats_label_neutral_damage				Damage
 endstats_label_neutral_kills				Kills
 endstats_label_neutral_gold					Gold
-endstats_header_creep_denies				Creep Denies
-endstats_label_creep_deny_count				Deny Count
+endstats_header_creep_denies				Deny Creeps
+endstats_label_creep_deny_count				Contador Denies
 endstats_label_creep_xp_denied				XP Denied
-endstats_header_hellbourne_players			Hellbourne Players
-endstats_header_legion_statistics			Legion Statistics
-endstats_header_hellbourne_statistics		Hellbourne Statistics
-endstats_label_attributes_player			Player Attributes
-endstats_label_hero_played					Hero Played
+endstats_header_hellbourne_players			Jogadores da Hellbourne
+endstats_header_legion_statistics			Estatísticas Legion
+endstats_header_hellbourne_statistics		Estatísticas Hellbourne
+endstats_label_attributes_player			Atributos do Jogador
+endstats_label_hero_played					Hero Jogado
 endstats_label_hero_level					Level
-endstats_label_hero_info_health				Health
+endstats_label_hero_info_health				Vida
 endstats_label_hero_info_mana				Mana
-endstats_label_hero_info_damage				Damage
-endstats_label_hero_info_speed				Speed
-endstats_label_hero_info_atk_spd			Attack Speed
-endstats_label_hero_info_int				Intelligence
-enstasts_label_hero_info_agi				Agility
-endstats_label_hero_info_str				Strength
+endstats_label_hero_info_damage				Dano
+endstats_label_hero_info_speed				Veloc.
+endstats_label_hero_info_atk_spd			Vel. Ataque
+endstats_label_hero_info_int				Inteligência
+enstasts_label_hero_info_agi				Agilidade
+endstats_label_hero_info_str				Força
 endstats_label_hero_info_armor				Armor
 endstats_label_hero_info_inventory			Inventory
 endstats_label_kda							K / D / A
 endstats_label_apm							APM
-endstats_label_match_name					^yMatch:^*
-game_end_stats_victory_legion				Victory for The Legion!
-game_end_stats_victory_hellbourne			Victory for The Hellbourne!
-game_end_stats_detailed						Detailed Stats - {name}
-game_end_stats_show_winner					Show Winner
-game_end_stats_concede						Team Conceded!
-game_end_stats_awards_soon					Match Awards Coming Soon!
-game_end_stats_no_matches					You have not participated in any recorded matches yet. You may fetch a match by entering its ID below.
+endstats_label_match_name					^yPartida:^*
+game_end_stats_victory_legion				Vitória para Legion!
+game_end_stats_victory_hellbourne			Vitória para Hellbourne!
+game_end_stats_detailed						Estatísticas Detalhadas - {name}
+game_end_stats_show_winner					Mostrar Vencedor
+game_end_stats_concede						Time Concedeu!
+game_end_stats_awards_soon					Prêmios de Partida em Breve!
+game_end_stats_no_matches					Você não participou em nenhuma partida registrada ainda. Você pode buscar por uma partida entrando com sua ID abaixo.
 game_end_stats_kda							^g{kills}^*/^r{deaths}^*/^y{assists}^*
-game_end_stats_progress_bar					Please wait...
-game_end_stats_download_in_progress			Please wait for the download to finish.
-game_end_stats_download_retry_btn			Failed - Retry
-game_end_stats_watch_replay_btn				Watch Replay
-game_end_stats_compat_btn					Compatize
-game_end_stats_refresh_btn					Check for File
+game_end_stats_progress_bar					Aguarde...
+game_end_stats_download_in_progress			Por favor aguarde para o download terminar.
+game_end_stats_download_retry_btn			Falhou - Tente Denovo
+game_end_stats_watch_replay_btn				Assistir Replay
+game_end_stats_compat_btn					Compatizar
+game_end_stats_refresh_btn					Checar por Arquivo
 
 
-main_stats_retrieving_match					Retrieving match information...
-main_stats_retrieving_matches				Retrieving matches...
-main_stats_failed_retrieval					Failed to retrieve match information.
-main_stats_cancel							Cancel
-main_stats_retry							Retry
-main_stats_does_not_exist					Match has not been submitted yet.
-main_stats_downloading_replay				Downloading match replay...
-main_stats_error_downloading_replay			An error was encountered while downloading the replay.
-main_stats_download_replay_progress			Progress: ^w{count}MB / {total}MB
-main_stats_download_replay_speed			Download Speed: ^w{speed}KB/sec
-main_stats_download_replay_remaining		Time Left: ^w{time}
-main_stats_retrieving_stats					Retrieving stats...
-main_stats_error_message					An error was encountered while retrieving player statistics. Please try again.
+main_stats_retrieving_match					Recebendo informação da partida...
+main_stats_retrieving_matches				Recebendo Partidas...
+main_stats_failed_retrieval					Falhou em receber informação das partidas.
+main_stats_cancel							Cancelar
+main_stats_retry							Tentar de novo
+main_stats_does_not_exist					Partida ainda não enviada.
+main_stats_downloading_replay				Baixando Replay da partida...
+main_stats_error_downloading_replay			Um erro foi encontrado ao baixar o replay.
+main_stats_download_replay_progress			Progresso: ^w{count}MB / {total}MB
+main_stats_download_replay_speed			Vel. Download: ^w{speed}KB/sec
+main_stats_download_replay_remaining		Tempo Restante: ^w{time}
+main_stats_retrieving_stats					Recebendo Estatísticas...
+main_stats_error_message					Um erro foi encontrado ao receber as estatísticas do jogador. Por favor tente de novo.
 
-game_end_stats_recentgames					View Recent Game Stats
-game_end_stats_matchdetails					Match Details
-game_end_stats_download_btn					Download Replay
-game_end_stats_download_tootlip				Download the replay for this match.
-game_end_stats_comment_btn					Comment
-game_end_stats_comment_tooltip				Match comments will be viewable on the HoN replays website.
-game_end_stats_awards						Match Awards
-game_end_stats_close_button					Close Stats
-game_end_stats_download_waiting_btn			Checking...
-game_end_stats_download_waiting_tootlip		Checking for replay file.
-game_end_stats_download_retry_tooltip		The replay download has failed, the file may not yet be uploaded, click here to try again.
-game_end_stats_download_unav_btn			Replay Unavailable
-game_end_stats_download_unav_tooltip		This replay is not available for download.
-game_end_stats_download_compat_tooltip		This replay is of an older version of Heroes of Newerth.  Compatability files will need to be downloaded in order to view this replay.
-game_end_stats_fetch_btn					Fetch Match ID
-game_end_stats_fetch_tooltip				Enter the match ID of a completed game. Past match IDs may be searched on the replays website. After fetching match details, you may view the details of the match, and download a replay, if available.
+game_end_stats_recentgames					Ver Estatísticas Recentes de Jogo
+game_end_stats_matchdetails					Detalhes Partida
+game_end_stats_download_btn					Baixar Replay
+game_end_stats_download_tootlip				Baixe o replay para esta partida.
+game_end_stats_comment_btn					Comente
+game_end_stats_comment_tooltip				Comentários da partida estarão disponíves na webpage de replays do HoN.
+game_end_stats_awards						Prêmios Partida
+game_end_stats_close_button					Fechar Estatísticas
+game_end_stats_download_waiting_btn			Checando...
+game_end_stats_download_waiting_tootlip		Checando pelo arquivo de replay.
+game_end_stats_download_retry_tooltip		O download do replay falhou, o upload do arquivo pode não acontecido ainda, clique aqui para tentar de novo.
+game_end_stats_download_unav_btn			Replay Indisponível
+game_end_stats_download_unav_tooltip		Este replay não está disponível para download.
+game_end_stats_download_compat_tooltip		Este replay é de uma versão antiga de HoN. Arquivos de compatibilidade terão de ser baixados para visualizar este replay.
+game_end_stats_fetch_btn					Buscar ID da partida
+game_end_stats_fetch_tooltip				Entre com a ID de uma partida completada. IDs de partidas passadas estão na webpage de replays. Depois de buscar os detalhes de uma partida, você pode visualizá-los, e baixar o replay, se disponível.
 
 // game_spectator.interface
 game_spectator_stats_gold/min				Gold/Min
-game_spectator_stats_bldgdmg				Bldg Dmg
+game_spectator_stats_bldgdmg				Dano Const
 game_spectator_k/d/a						K/D/A
 
 // cc_ircchat.package
