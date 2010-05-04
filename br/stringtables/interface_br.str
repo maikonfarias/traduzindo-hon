@@ -1829,154 +1829,154 @@ game_menu_unpause_tooltip					Apertar este botão vai despausar a partida em 5 s
 
 // game_vote.package
 vote_concede								Conceder?
-vote_remake									Remake?
+vote_remake									Recomeçar?
 vote_kick									Retirar {target}^*?
 
 // alt_info_hero.interface
-alt_info_hero_level							Level {level}
+alt_info_hero_level							Nível {level}
 
 // cc_panel.interface
-cc_panel_unread_im							Você tem 1 Msg não lida.
-cc_panel_unread_ims							Você tem {count} Msgs não lidas.
-cc_panel_invited							Você foi convidado para o jogo ^y'{game}'^* por ^y{player}^*
+cc_panel_unread_im							Você tem 1 MI não lida.
+cc_panel_unread_ims							Você tem {count} MIs não lidas.
+cc_panel_invited							Você foi convidado para a partida ^y'{game}'^* por ^y{player}^*
 cc_panel_resize								Reajustar
-cc_panel_leaveclan							Confirmar mudança no Status do Clan
-cc_panel_leaveclantxt						Tem certeza que deseja deixar este clan? Se sair você vai precisar ser convidado novamente por um Oficial do clan.
-cc_panel_leave_button						Sim, deixar Clan
+cc_panel_leaveclan							Confirmar Mudança de Status do Clan
+cc_panel_leaveclantxt						Você tem certeza que quer sair deste clan? Se sair, você terá que ser convidado novamente por um Oficial do Clan.
+cc_panel_leave_button						Sim, Deixar Clan
 
 // tos.package
 tos_header									Termos de Serviço
 tos_close_window							Fechar Janela
 
 // game_upgrade.interface
-game_upgrade_header							Faça Upgrade para uma Conta Completa
+game_upgrade_header							Upgrade para Conta Prime
 game_upgrade_benefits_header				Benefícios do Upgrade
 
 // main_create_account.package
 main_create_account_header					Criar Conta
 main_create_account_details_header			Detalhes da Conta
-main_create_account_referral_header			Conta de quem Indicou
-main_create_account_tos_header				Termos para Criação de Conta
+main_create_account_referral_header			Conta de Referência
+main_create_account_tos_header				Termos da Criação de Conta
 main_create_account_nickname_check			Checando Apelido...
 main_create_account_nickname_available		Apelido Disponível
 main_create_account_processing_header		Processando Formulário...
 main_create_account_creating_account		Criando Conta...
-main_create_account_upgrade_header			Melhore para uma Conta Completa
+main_create_account_upgrade_header			Upgrade Para Conta Completa
 main_create_account_success_header			Conta Criada
-main_create_account_first_name				First Name
-main_create_account_first_name_tip			Enter your first name.
-main_create_account_last_name				Last Name
-main_create_account_last_name_tip			Enter your last name.
-main_create_account_email					Email Address
-main_create_account_email_tip				Enter your email address.
-main_create_account_confirm_email			Confirm Email
-main_create_account_confirm_email_tip		Re-enter your email address.
-main_create_account_password				Password
-main_create_account_password_tip			Specify a password.
-main_create_account_confirm_password		Confirm Password
-main_create_account_confirm_password_tip	Re-enter your password.
-main_create_account_referer					Referring Account
+main_create_account_first_name				Primeiro Nome
+main_create_account_first_name_tip			Digite seu primeiro nome.
+main_create_account_last_name				Último Nome
+main_create_account_last_name_tip			Digite seu último nome.
+main_create_account_email					Endereço de Email
+main_create_account_email_tip				Digite o seu endereço de email.
+main_create_account_confirm_email			Confirmar Email
+main_create_account_confirm_email_tip		Redigite o seu endereço de email.
+main_create_account_password				Senha
+main_create_account_password_tip			Especificar a senha.
+main_create_account_confirm_password		Confirmar Senha
+main_create_account_confirm_password_tip	Redigite sua senha.
+main_create_account_referer					Conta de Referência
 main_create_account_referer_tip				Ref acct tooltip
 main_create_account_result_email			Email: {email}
-main_create_account_result_password			Password: {password}
-main_create_account_welcome					Welcome {name}!
+main_create_account_result_password			Senha: {password}
+main_create_account_welcome					Bem-vindo {name}!
 
 // player_stats.package
-player_stats_lifetime_header				Lifetime Statistics
-player_stats_averages_header				Average Game Statistics
-player_stats_next_level						Total XP For Next Level
-player_stats_next_level_needed				XP Needed For Next Level
-player_stats_wins							Wins
-player_stats_losses							Losses
-player_stats_disconnects					Disconnects
+player_stats_lifetime_header				Estatísticas Vitalícias
+player_stats_averages_header				Estatísticas Médias
+player_stats_next_level						XP Total Para Próximo Nível
+player_stats_next_level_needed				XP Necessária Para Próximo Nível
+player_stats_wins							Vitórias
+player_stats_losses							Derrotas
+player_stats_disconnects					Desistências
 player_stats_win_percent					{percent}%
-player_stats_leave_percent					Leave Percentage
-player_stats_winning_percentage				Winning %%
-player_stats_matches						Matches Played
-player_stats_concede						Conceded
-player_stats_em_matches						EM Games %%
+player_stats_leave_percent					Porcentagem de Desist.
+player_stats_winning_percentage				%% Vitórias
+player_stats_matches						Partidas Jogadas
+player_stats_concede						Concedidas
+player_stats_em_matches						%% de Partidas EM
 player_stats_em_matches_percent				{percent}%
 player_stats_karma							Karma
-player_stats_last_match						^yLast Activity:^* {last}
-player_stats_account_age					^yAcct Created:^* {age}
-player_stats_header							Player Statistics
-player_stats_experience_earned				XP Earned
-player_stats_experience_per_minute			XP/Minute
-player_stats_deaths							Deaths
-player_stats_gold_earned					Gold Earned
-player_stats_gold_spent						Gold Spent
-player_stats_actions_per_minute				Actions/Minute
-player_stats_gold_lost						Gold Lost
-player_stats_gold_per_minute				Gold/Minute
-player_stats_time_played					Time Played
-player_stats_enemy_heroes					Enemy Heroes
-player_stats_enemy_buildings				Enemy Buildings
-player_stats_team_creeps					Team Creeps
-player_stats_neutral_creeps					Neutral Kills
-player_stats_denies_header					Creep Denies
-player_stats_damage							Damage
-player_stats_razes							Razes
-player_stats_kills							Kills
-player_stats_kd_ratio						K:D Ratio
-player_stats_assists						Assists
+player_stats_last_match						^yÚltima Atividade:^* {last}
+player_stats_account_age					^yCriada Em:^* {age}
+player_stats_header							Estatísticas do Jogador
+player_stats_experience_earned				XP Ganha
+player_stats_experience_per_minute			XP/Minuto
+player_stats_deaths							Mortes
+player_stats_gold_earned					Gold Ganho
+player_stats_gold_spent						Gold Gasto
+player_stats_actions_per_minute				Ações/Minuto
+player_stats_gold_lost						Gold Perdido
+player_stats_gold_per_minute				Gold/Minuto
+player_stats_time_played					Tempo de Jogo
+player_stats_enemy_heroes					Heroes Inimigos
+player_stats_enemy_buildings				Construções Inimigas
+player_stats_team_creeps					Creeps do Time
+player_stats_neutral_creeps					Creeps Neutros
+player_stats_denies_header					Deny em Creeps
+player_stats_damage							Dano
+player_stats_razes							Demolições
+player_stats_kills							Mortes
+player_stats_kd_ratio						Proporção K:D
+player_stats_assists						Assistências
 player_stats_gold							Gold
-player_stats_deny_count						Deny Count
-player_stats_deny_xp						XP Denied
+player_stats_deny_count						Contagem de Deny
+player_stats_deny_xp						Deny de XP
 player_stats_clan_name						Clan: {clan}
-player_stats_level							Player's Level
+player_stats_level							Nível do Jogador
 player_stats_rank							Rank: {rank}
 player_stats_psr							PSR
-player_stats_wards							Wards Placed
+player_stats_wards							Wards Colocadas
 player_stats_apm							APM
-player_avg_game_length						Game Length
+player_avg_game_length						Tempo de Partida
 player_avg_kda								K  /  D  /  A
-player_avg_creep_kills						Creep Kills
-player_avg_creep_denies						Creep Denies
-player_stats_mostplayed						Most Played Heroes
-player_stats_nohistory						This player has no recorded match history to display.
-player_stats_public_games					Show Statistics from Public Games
-player_stats_public_games_msg				Click here to view statistics for unranked (public) matches.
-player_stats_ranked_games					Show Statistics from Ranked Matches
-player_stats_ranked_games_msg				Click here to view statistics from ranked matches.
-player_stats_fetch							Fetch Stats
-player_stats_fetch_msg						Enter the name of a player to view their stats.
-player_stats_matchid						Match ID
-player_stats_from							Show Stats From:
-player_stats_player_name					Player Name:
-player_stats_last_20_matches				Last 20 Matches
+player_avg_creep_kills						Creep Mortos
+player_avg_creep_denies						Deny de Creep
+player_stats_mostplayed						Heroes Mais Usados
+player_stats_nohistory						Este jogador não tem partidas gravadas no histórico.
+player_stats_public_games					Mostrar Estatísticas de Partidas Públicas
+player_stats_public_games_msg				Clique aqui para ver as estatísticas de partidas públicas.
+player_stats_ranked_games					Mostrar Estatísticas de Partidas Oficiais
+player_stats_ranked_games_msg				Clique aqui para ver estatísticas de partidas oficiais.
+player_stats_fetch							Buscar Estatís.
+player_stats_fetch_msg						Digite o nome de um jogador para ver suas estatísticas.
+player_stats_matchid						ID da Partida
+player_stats_from							Mostrar Estats. De:
+player_stats_player_name					Nome do Jogador:
+player_stats_last_20_matches				Últimas 20 Partidas
 player_stats_smr_tmr						SMR / TMR
 
 
 // game_setup.package
-game_setup_spcectators_label				Spectators
-game_setup_spectators_tip					Sets number of spectator slots. Spectators are allowed to join a game and watch it without interacting with other players.
-game_setup_referees_label					Referees
-game_setup_referees_tip						Sets number of Referee slots. Referees can kick players, pause the game, and un-stick players.
+game_setup_spcectators_label				Espectadores
+game_setup_spectators_tip					Determina o número de espaços para Espectadores. Os Espectadores podem entrar na partida e observá-la sem interagir com os outros jogadores.
+game_setup_referees_label					Juízes
+game_setup_referees_tip						Determina o número de espaços para Juízes. Referees can kick players, pause the game, and un-stick players.
 game_setup_team_size_label					Tamanho do Time
-game_setup_team_size_tip					The number of players on each team.
+game_setup_team_size_tip					O número de jogadores em cada time.
 game_setup_tier_label						Tier
-game_setup_tier_tip							Restrict servers based on specified tier.\n\n^yNoobs Only^* - Only accounts with low overall account experience may play.\n^yNoobs Allowed^* - Any player of any experience level may play.\n^yPro^* - Only accounts that have achieved a high overall experience level may play.
+game_setup_tier_tip							Restringir servidores baseado no tier específico.\n\n^yApenas Noobs^* - Apenas contas com baixa experiência geral podem jogar.\n^yNoobs Permitidosd^* - Qualquer jogador de qualquer nível de experiência pode jogar.\n^yPro^* - Apenas contas que conseguiram um alto nível de experiência geral podem jogar.
 game_setup_map_label						Mapa
-game_setup_map_tip							Select the map for the game.
-game_setup_type_label						Mogo do Jogo
-game_setup_type_tip							Game Modes generally alter how hero selection works.\n\n^yNormal^* - Standard hero selection.\n^yRandom Draft^* - Limits hero selection to 20 heroes then alternates picking between players.\n^ySingle Draft^* - Each player is given a hero selection of one agility, one intelligence, and one strength hero.\n^yBanning Draft^* - Identical to Random Draft, except Blue and Pink take turns banning 4 total heroes first.\n^yBanning Pick^* - Blue and Pink take turns banning 6 total heroes each, and then players alternate picking from the remaining hero pool.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
-game_setup_select_server_label				Selecione o Servidor
-game_setup_select_server_tip				^!yAutomatic^* will choose a game server located in the region that was last chosen via the 'Browse...' selection (if any).\n\n^!yBrowse...^* will allow you to manually select a server from a specified region.\n\n^!yPractice^* will allow you to start a one player Practice Game locally on your machine.                                                                                                                                      
+game_setup_map_tip							Seleciona o mapa da partida.
+game_setup_type_label						Game Mode
+game_setup_type_tip							Os Game Modes geralmente alteram a forma de como os heroes são selecionados.\n\n^yNormal^* - Seleção de hero padrão.\n^yRandom Draft^* - Limita as opções para 20 heroes e então alterna a escolha entre os jogadores.\n^ySingle Draft^* - Cada jogador recebe um hero de agilidade, um de inteligência e um de força, dos quais deverá escolher um para jogar.\n^yBanning Draft^* - Semelhante ao Random Draft, excetuando que o Azul e o Rosa alternam-se para banir 4 heroes antes da seleção.\n^yBanning Pick^* - Azul e Rosa alternam-se para banir 6 heroes cada, somente então os jogadores alternam a seleção com as opções restantes.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
+game_setup_select_server_label				Selecionar Servidor
+game_setup_select_server_tip				^!yAutomático^* irá escolher o servidor de partidas na última opção escolhida na opção 'Escolher...' (se houver escolhido).\n\n^!yEscolher...^* permitirá selecionar manualmente o servidor de uma região específica.\n\n^!yPracticar^* permite o início de uma partida de Prática, para um jogador, localmente na sua máquina.                                                                                                                                      
 game_setup_name_label						Nome da Partida
 game_setup_private							Partida Privada
-game_setup_private_tip						By selecting this feature, your game will not show up in the Game List and will not be used by Quick Match.  It is best used to create a game for you friends to join.  This option may be changed from the Game Lobby.
+game_setup_private_tip						Selecionando esse recurso, a sua partida não irá aparecer na Lista de Partidas e não será usada pela Partida Rápida. É a melhor maneira de criar uma partida para seus amigos entrarem. Esta opção pode ser alterada na Game Lobby.
 game_setup_no_leavers						Sem Desistentes
-game_setup_no_leavers_tip					Players with a high leave percentage will not be allowed to join this game.
-game_setup_record_stats						Grava Estatísticas
-game_setup_record_stats_tip					Record stats for this match.
+game_setup_no_leavers_tip					Jogadores com alto nível de desistências não serão permitidos nesta partida.
+game_setup_record_stats						Gravar Estatís.
+game_setup_record_stats_tip					Gravar estatísticas desta partida.
 game_setup_local							Local
 game_setup_automatic						Automático
-game_setup_browse							Procurar...
-game_setup_one_v_one						1x1 - Um contra Um
-game_setup_two_v_two						2x2 - Dois contra Dois
-game_setup_three_v_three					3x3 - Três contra Três
-game_setup_four_v_four						4x4 - Quatro contra Quatro
-game_setup_five_v_five						5x5 - Cinco contra Cinco
+game_setup_browse							Escolher...
+game_setup_one_v_one						Um contra Um
+game_setup_two_v_two						Dois contra Dois
+game_setup_three_v_three					Três contra Três
+game_setup_four_v_four						Quatro contra Quatro
+game_setup_five_v_five						Cinco contra Cinco
 game_setup_normal							Normal
 game_setup_random_draft						Random Draft
 game_setup_single_draft						Single Draft
@@ -1985,158 +1985,158 @@ game_setup_banningpick						Banning Pick
 game_setup_captainsdraft					Captains Draft
 game_setup_captainsmode						Captains Mode
 game_setup_deathmatch						Deathmatch
-game_setup_advanced_options					Mostrar Opções Avançadas da Partida
-game_setup_custom_post						Enviar Estatísticas Secundárias
-game_setup_custom_post_tip					The game will send game stats to an additional server. (Advanced Users)
+game_setup_advanced_options					Mostrar Opções Avançadas de Partida
+game_setup_custom_post						Submissão de Estatís. Secundária
+game_setup_custom_post_tip					O jogo irá mandar a estatística da partida para um servidor adicional. (Usuários Avançados)
 game_setup_custom_post_URL					URL para Script
-game_setup_custom_post_save_btn				Set Post URL
-game_setup_custom_post_description			You can submit the stats of this game to a URL of your choice.  This URL should be a script written to accept a Post submission that contains all the statistics for this match.  To learn more detailed information about the stats array and sample code please visit ^yhttp://www.heroesofnewerth.com/submitstats.php^*
+game_setup_custom_post_save_btn				Determinar URL de Post
+game_setup_custom_post_description			Você poderá submitir as estatísticas desta partida para uma URL da sua escolha. Essa URL deverá ser um script escrito para aceitar uma submissão POST que contenha todas as estatísticas para essa partida. Para saber informações mais detalhadas sobre a array de stats e códigos de exemplo visite: ^yhttp://www.heroesofnewerth.com/submitstats.php^*
 game_setup_practice							Practicar
 
 
 // tooltips
-tooltip_passive_bonuses						Passive Bonuses
+tooltip_passive_bonuses						Bônus Passivos
 tooltip_aura								Aura
-tooltip_aura_effects						Aura Effects
-tooltip_activation							Activation
-tooltip_activation1							Activation  [^y{key1}^*]
-tooltip_activation2							Activation  [^y{key1}^*, ^y{key2}^*]
-tooltip_ally_abilities						Abilities
-tooltip_ally_attributes						Attributes
-tooltip_attack_info							Attack Information
-tooltip_attribute_info						Attribute Information
-tooltip_defense_info						Defense Information
-tooltip_experience_info						Experience Information
-tooltip_strength_info						Strength Point Bonuses
-tooltip_agility_info						Agility Point Bonuses
-tooltip_intelligence_info					Intelligence Point Bonuses
-tooltip_level								Level {level}
-tooltip_unleveled							Unleveled
-tooltip_move_speed							Movement Speed: 
+tooltip_aura_effects						Efeitos da Aura
+tooltip_activation							Ativação
+tooltip_activation1							Ativação  [^y{key1}^*]
+tooltip_activation2							Ativação [^y{key1}^*, ^y{key2}^*]
+tooltip_ally_abilities						Habilidades
+tooltip_ally_attributes						Atributos
+tooltip_attack_info							Informação de Ataque
+tooltip_attribute_info						Informação de Atributo
+tooltip_defense_info						Informação de Defesa
+tooltip_experience_info						Informação de Experiência
+tooltip_strength_info						Bônus de Pontos de Força
+tooltip_agility_info						Bônus de Pontos de Agilidade
+tooltip_intelligence_info					Bônus de Pontos de Inteligência
+tooltip_level								Nível {level}
+tooltip_unleveled							Sem Nível
+tooltip_move_speed							Velocidade de Movimento: 
 tooltip_mana								Mana: 
-tooltip_mana_regen							Mana Regeneration: 
-tooltip_value								Value: 
-tooltip_type								Type: 
-tooltip_range								Range: 
+tooltip_mana_regen							Regeneração de Mana: 
+tooltip_value								Valor: 
+tooltip_type								Tipo: 
+tooltip_range								Alcance: 
 tooltip_radius								Radius: 
-tooltip_channeling_time						Channeling Time: {time} seconds
-tooltip_mana_cost							Mana cost: 
-tooltip_mana_upkeep							Mana upkeep: {value} per second
-tooltip_triggered_mana_cost					Triggered mana cost: 
-tooltip_cooldown							Cooldown: {time} seconds
-tooltip_health								Health: 
-tooltip_health_regen						Health Regeneration: 
-tooltip_total_experience					Total Experience: 
-tooltip_next_level							Next Level: 
-tooltip_armor								Armor: 
-tooltip_armor_msg							Higher armor values reduce the amount of physical damage that a hero will take.
-tooltip_damage_reduction					Damage Reduction: ^y
-tooltip_magic_armor							Magic Armor:
-tooltip_magic_armor_msg						Higher magic armor values reduce the amount of damage that a hero takes from certain spells and abilities.
-tooltip_magic_damage_reduction				Magic Damage Reduction: ^y
-tooltip_combat_type							Combat Type: 
-tooltip_primary_attribute					Primary Attribute: 
-tooltip_strength_per_level					Strength per Level: 
-tooltip_agility_per_level					Agility per Level: 
-tooltip_intelligence_per_level				Intelligence per Level: 
-tooltip_strength							Strength:
-tooltip_strenght_msg						Something about strength.
-tooltip_agility								Agility: 
-tooltip_agility_msg							Something about agility.
-tooltip_intelligence						Intelligence: 
-tooltip_intelligence_msg					Something about intelligence.
-tooltip_damage								Damage: 
-tooltip_attack_speed						Attack Speed: 
-tooltip_attack_speed_msg					This value dictates how many times per second that this hero attacks.
-tooltip_cast_speed							Cast Speed: 
-tooltip_attack_type							Attack Type: 
-tooltip_attack_msg							This is the type of attack the hero uses.  Melee attackers fight up close, while ranged attackers fight from afar.
+tooltip_channeling_time						Tempo de Concentração: {time} segundos
+tooltip_mana_cost							Custo de Mana: 
+tooltip_mana_upkeep							Custo de Manutenção: {value} mana por segundo
+tooltip_triggered_mana_cost					Custo de Mana para Ativar: 
+tooltip_cooldown							Cooldown: {time} segundos
+tooltip_health								Vida: 
+tooltip_health_regen						Regeneração de Vida: 
+tooltip_total_experience					Experiência Total: 
+tooltip_next_level							Próximo Nível: 
+tooltip_armor								Armadura: 
+tooltip_armor_msg							Valores mais altos de armadura reduzem o total de dano físico que o hero irá receber.
+tooltip_damage_reduction					Redução de Dano: ^y
+tooltip_magic_armor							Armadura Mágica:
+tooltip_magic_armor_msg						Valores mais altos de armadura mágica reduzem o total de dano mágico recebido pelo hero de certas habilidades e magias.
+tooltip_magic_damage_reduction				Redução de Dano Mágico: ^y
+tooltip_combat_type							Tipos de Combate: 
+tooltip_primary_attribute					Atributo Primário: 
+tooltip_strength_per_level					Força por Nível: 
+tooltip_agility_per_level					Agilidade por Nível:
+tooltip_intelligence_per_level				Inteligência por Nível: 
+tooltip_strength							Força:
+tooltip_strenght_msg						Algo sobre força.
+tooltip_agility								Agilidade: 
+tooltip_agility_msg							Algo sobre agilidade.
+tooltip_intelligence						Inteligência: 
+tooltip_intelligence_msg					Algo sobre inteligência.
+tooltip_damage								Dano: 
+tooltip_attack_speed						Velocidade de Ataque: 
+tooltip_attack_speed_msg					Este valor dita quantas vezes por segundo o seu hero ataca.
+tooltip_cast_speed							Velocidade de Cast: 
+tooltip_attack_type							Tipo de Ataque: 
+tooltip_attack_msg							Este é o tipo de ataque que seu hero usa. Melee lutam corpo-à-corpo enquanto ranged atacam à distância.
 tooltip_base_attack_cooldown				Base Attack Cooldown: {time} seconds
-tooltip_attack_cooldown						Attack Cooldown: ^y{time} seconds
-tooltip_attacks_per_second					^y{value}^* attacks per second
+tooltip_attack_cooldown						Cooldown de Ataque: ^y{time} seconds
+tooltip_attacks_per_second					^y{value}^* ataques por segundo
 tooltip_gold								Gold: 
-tooltip_label_changecolors					Toggle unique player colors on/off
-tooltip_combattype							Combat Type:
-tooltip_movespeed							Move Speed
-tooltip_movespeed_msg						This is how quickly the hero moves in relation to other heroes.
+tooltip_label_changecolors					Ligar/Desligar cores únicas dos jogadores
+tooltip_combattype							Tipo de Combate:
+tooltip_movespeed							Velocidade de Mov.
+tooltip_movespeed_msg						Isto é o quão rápido o hero se move em relação aos outros.
 
 tooltip_viewstats							Ver Estatísticas
 tooltip_purchase							Comprar HoN
 tooltip_logout								Deslogar
 tooltip_options								Opções
-tooltip_offlinereplays						Replays
+tooltip_offlinereplays						Replays Locais
 tooltip_changelog							Últimas Alterações
 tooltip_lang								Idioma
 tooltip_players_online						Jogadores Online
 tooltip_friends								Amigos
 tooltip_clan								Clan
-tooltip_ims									Msg Recebida
-tooltip_notifications						Notificação Recebida
+tooltip_ims									MIs Recebidas
+tooltip_notifications						Notificações Recebidas
 tooltip_autoconnect_title					Auto-Conectar
-tooltip_autoconnect							Quando selecionado, você irá conectar neste canal toda vez que Logar.
+tooltip_autoconnect							Quando selecionado, você irá se conectar automaticamente à este canal toda vez que fizer log in.
 tooltip_recitems							Itens Recomendados
-tooltip_recitems_msg						Estes itens são recomendados para este Herói...
-tooltip_prim_attrib							Primary Attribute
-tooltip_prim_attrib_msg						This is the primary something or other whatever.
-tooltip_dps									Damage Per Second
-tooltip_dps_msg								This is the average damage per second dealt by this hero, before the target's armor and abilities are taken into account.
-tooltip_attack_dmg							Attack Damage
-tooltip_attack_dmg_msg						This is the average damage per attack dealt by this hero, before the target's armor and abilities are taken into account.
-tooltip_total_health						Total Health
-tooltip_total_health_msg					This value is how much health this hero has, and represents how much damage the hero can withstand before being killed.
-tooltip_total_mana							Total Mana
-tooltip_total_mana_msg						This value is how much mana this hero has.  Mana is consumed when the hero uses its abilities or casts spells.
-tooltip_attack_range						Attack Range
-tooltip_attack_range_msg					This value is maximum distance away from a target that the hero can be to successfully attack.  This value generally will have no bearing on the ranges of most active abilities and spells.
-tooltip_lvl_controls						Level and Inventory Controls
-tooltip_lvl_controls_msg					See how items and levels affect your character.
-tooltip_total_cost							Total Cost
-tooltip_total_cost_msg						This is the total cost of all items in your hero's inventory.
-tooltip_hero_announcement					Hero Announcement
-tooltip_hero_announcement_msg				Click here to listen to the announcer say this hero's name.
-tooltip_hero_lvl							Hero Level
-tooltip_hero_lvl_msg						This is the current level of the hero you're viewing.  You can increase and decrease the hero's level to see how its attributes change over the course of a match.
-tooltip_increase_lvl						Increase Level
-tooltip_increase_lvl_msg					Click here to increase the level of the hero you're viewing.
-tooltip_decrease_lvl						Decrease Level
-tooltip_decrease_lvl_msg					Click here to derease the level of the hero you're viewing.
-tooltip_reset_lvl							Reset Level
-tooltip_reset_lvl_msg						Click here to reset the hero's level back to 1.
-tooltip_open_shop							Open Shop
-tooltip_open_shop_msg						Click here to open the shop interface and add items to the selected hero's inventory.
-tooltip_reset_inv							Reset Inventory
-tooltip_reset_inv_msg						Click here to clear the selected hero's inventory.
-tooltip_detailed_hero_list					Detailed Hero List
-tooltip_detailed_hero_list_msg				This list displays detailed information about each hero, and heroes within the list can be selected to go to the main hero information page.
-tooltip_simple_hero_list					Simple Hero List
-tooltip_simple_hero_list_msg				This list is a simplified display of all heroes.  Click a hero within this list to view detailed information about the hero.
-tooltip_sort_name							Sort by Hero Name
-tooltip_sort_name_msg						Click here to sort the hero list by hero name.
-tooltip_sort_primary						Sort by Primary Attribute
-tooltip_sort_primary_msg					Click here to sort the hero list by Primary Attribute (Strength, Agility, or Intelligence).
-tooltip_sort_attack							Sort by Attack Type
-tooltip_sort_attack_msg						Click here to sort the hero list by Attack Type (melee or ranged).
-tooltip_sort_str							Sort by Strength
-tooltip_sort_str_msg						Click here to sort the hero list by Strength.
-tooltip_sort_agi							Sort by Agility
-tooltip_sort_agi_msg						Click here to sort the hero list by Agility.
-tooltip_sort_int							Sort by Intelligence
-tooltip_sort_int_msg						Click here to sort the hero list by Intelligence.
-tooltip_sort_armor							Sort by Armor
-tooltip_sort_armor_msg						Click here to sort the hero list by Armor.
-tooltip_sort_magi_armor						Sort by Magic Armor
-tooltip_sort_magi_armor_msg					Click here to sort the hero list by Magic Armor.
-tooltip_sort_movement						Sort by Movement Speed
-tooltip_sort_movement_msg					Click here to sort the hero list by Movement Speed.
-tooltip_sort_dps							Sort by Average Damage Per Second
-tooltip_sort_dps_msg						Click here to sort the hero list by Average Damage Per Second (DPS).
-tooltip_hero_abils							Hero Abilities
-tooltip_hero_abils_msg						Listed in this column for each hero are its four abilities.  Hover over each ability icon for a description of the ability.
-tooltip_faction								Hero Faction
-tooltip_faction_msg							This icon represents the faction that the hero is aligned with.  The green icon indicates that the hero has aligned with the Legion, while the red icon indicates that the hero belongs has aligned with the Hellbourne.
-tooltip_extras								Click to open account extras menu.
-tooltip_sort_dmg							Sort by Attack Damage
-tooltip_sort_dmg_msg						Click here to sort the hero list by Attack Damage.
+tooltip_recitems_msg						Estes itens são recomendados para esse hero...
+tooltip_prim_attrib							Atributo Primário
+tooltip_prim_attrib_msg						Este é o primário de algo ou outra coisa, tanto faz.
+tooltip_dps									Dano Por Segundo
+tooltip_dps_msg								Esta é a média de dano por segundo deste hero, antes da armadura e habilidades do alvo serem contabilizadas.
+tooltip_attack_dmg							Dano de Ataque
+tooltip_attack_dmg_msg						Este é o dano médio por ataque deste hero, antes da armadura e habilidades do alvo serem contabilizadas.
+tooltip_total_health						Vida Total
+tooltip_total_health_msg					Este valor mostra quanto de vida o seu hero tem e representa quando dano o seu hero aguenta antes de ser morto.
+tooltip_total_mana							Mana Total
+tooltip_total_mana_msg						Este valor mostra quanta mana esse hero tem. Mana é consumida quando o hero usa habilidades ou usa uma magia.
+tooltip_attack_range						Alcance do Ataque
+tooltip_attack_range_msg					Este valor é a distância máxima entre você e seu alvo que o seu hero poderá atacar com sucesso.  Este valor geralmente não tem relação com os alcances da maioria das habilidades e magias.
+tooltip_lvl_controls						Nível e Controle do Inventário
+tooltip_lvl_controls_msg					Veja como os itens e níves afetam seu personagem.
+tooltip_total_cost							Custo Total
+tooltip_total_cost_msg						Este é o custo total de todos os itens no inventário deste hero.
+tooltip_hero_announcement					Anúncio do Hero
+tooltip_hero_announcement_msg				Clique aqui para ouvir o anunciador falar o nome do hero.
+tooltip_hero_lvl							Nível do Hero
+tooltip_hero_lvl_msg						Este é o nível atual do hero que você está vendo. Agora você pode aumentar ou diminuir o nível do hero para ver como os atributos mudam ao longo da partida.
+tooltip_increase_lvl						Subir Nível
+tooltip_increase_lvl_msg					Clique aqui para aumentar o nível do hero que você está vendo.
+tooltip_decrease_lvl						Diminuir Nível
+tooltip_decrease_lvl_msg					Clique aqui para diminuir o nível do hero que você está vendo.
+tooltip_reset_lvl							Resetar Nível
+tooltip_reset_lvl_msg						Clique aqui para resetar o nível do hero de volta para o nível 1.
+tooltip_open_shop							Abrir Shop
+tooltip_open_shop_msg						Clique aqui para abrir a interface do shop e adicionar itens no inventário do hero selecionado.
+tooltip_reset_inv							Resetar Inventário
+tooltip_reset_inv_msg						Clique aqui para limpar o inventário do hero selecionado.
+tooltip_detailed_hero_list					Lista Detalhada de Hero
+tooltip_detailed_hero_list_msg				Esta lista mostra informação detalhada sobre cada hero e eles podem ser selecionados para ir à tela principal de informação sobre o hero.
+tooltip_simple_hero_list					Lista Simples de Heroes
+tooltip_simple_hero_list_msg				Esta lista é uma forma simplificada de mostrar todos os heroes. Clique em um hero desta lista para ver informações detalhadas sobre ele.
+tooltip_sort_name							Organizar por Nome do Hero
+tooltip_sort_name_msg						Clique aqui para organizar a lista de hero pelos nomes.
+tooltip_sort_primary						Organizar por Atributo Primário
+tooltip_sort_primary_msg					Clique aqui para organizar a lista de hero pelo Atributo Primário (Força, Agilidade ou Inteligência).
+tooltip_sort_attack							Organizar por Tipo de Ataque
+tooltip_sort_attack_msg						Clique aqui para organizar a lista de hero pelo Tipo de Ataque (melee ou ranged).
+tooltip_sort_str							Organizar por Força
+tooltip_sort_str_msg						Clique aqui para organizar a lista de hero pela Força.
+tooltip_sort_agi							Organizar por Agilidade
+tooltip_sort_agi_msg						Clique aqui para organizar a lista de hero pela Agilidade.
+tooltip_sort_int							Organizar por Inteligência
+tooltip_sort_int_msg						Clique aqui para organizar a lista de hero pela Inteligência.
+tooltip_sort_armor							Organizar por Armadura
+tooltip_sort_armor_msg						Clique aqui para organizar a lista de hero pela Armadura.
+tooltip_sort_magi_armor						Organizar por Armadura Mágica
+tooltip_sort_magi_armor_msg					Clique aqui para organizar a lista de hero pela Armadura Mágica.
+tooltip_sort_movement						Organizar por Velocidade de Movimento
+tooltip_sort_movement_msg					Clique aqui para organizar a lista de hero pela Velocidade de Movimento.
+tooltip_sort_dps							Organizar por Dano Médio Por Segundo
+tooltip_sort_dps_msg						Clique aqui para organizar a lista de hero pelo Dano Médio Por Segundo (DPS).
+tooltip_hero_abils							Habilidades dos Heroes
+tooltip_hero_abils_msg						Listadas nessa coluna para cada hero temos suas quatro habilidades. Passe o mouse sobre cada ícone de habilidade para ver sua descrição.
+tooltip_faction								Facção do Hero
+tooltip_faction_msg							Este ícone representa a facção com que o hero é alinhado. O ícone verde indica que o hero é alinhado com o Legion, enquanto o ícone vermelho indica que o hero é alinhado com o Hellbourne.
+tooltip_extras								Clique para abrir menus extras da conta.
+tooltip_sort_dmg							Organizar por Dano de Ataque
+tooltip_sort_dmg_msg						Clique aqui para organizar a lista de hero pelo Dano de Ataque.
 
 // ui_items.package
 ui_items_friend_clan_label					Clan
