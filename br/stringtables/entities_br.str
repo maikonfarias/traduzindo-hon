@@ -4397,35 +4397,35 @@ State_FrostfieldPlate_Aura_name									Chilled
 // Item_FrostfieldPlate
 Item_FrostfieldPlate_name										Frostfield Plate
 Item_FrostfieldPlate_description								When activated, damages and slows enemy units in a radius.\nApplies an aura to all nearby enemy units with the following effect:\n-25% Attack Speed
-Item_FrostfieldPlate_effect_header								Frostfield Effects
-Item_FrostfieldPlate_shop_flavor								In the bitterly cold northern reaches of Newerth, enterprising scholars have found a means to forge armor from ice itself. The famous Frostfield Plate armor not only keeps its wearer's mind bracingly alert, it also chills and slows any nearby foe. Perhaps most remarkably, at the flip of a switch the armor can release the explosive cold stored within.
-Item_FrostfieldPlate_IMPACT_effect								Damages enemies in radius for 200 and applies Frostfield to them for 4 seconds.
+Item_FrostfieldPlate_effect_header								Efeitos do Frostfield
+Item_FrostfieldPlate_shop_flavor								No frio cruel dos limites de Newerth, sábios espirituosos acharam uma maneira de forjar uma armadura originada do próprio gelo. A famosa armadura Frostfield Plate mantém não só a mente do seu usuário firmemente alerta mas também deixa seu inimigo gélido e lento. Talvez, o mais importante, ao acionar um interruptor a armadura libera o frio explosivo de seu interior.
+Item_FrostfieldPlate_IMPACT_effect								Causa 200 de dano nos inimigos em área e aplica Frostfield neles por 4 segundos.
 
 // State_FrostfieldPlate
 State_FrostfieldPlate_name										Frostfield Plate
 
 // Item_ManaBurn2
 Item_ManaBurn2_name												Geometer's Bane
-Item_ManaBurn2_description										When activated, creates two images of self.\n\nThis item can be disassembled.
-Item_ManaBurn2_effect_header									Status Effect
-Item_ManaBurn2_IMPACT_effect									Spawn 2 Illusions of self. The illusions take 3.5 times normal damage, deal 33% of your attack damage, and inherit properties from you. The Illusions have a 20 second life time.\n\nDispels all Buffs and Debuffs on use.
-Item_ManaBurn2_tooltip_flavor									Looking into it, I see only fire.
+Item_ManaBurn2_description										Quando ativado, cria duas imagens de si.\n\nEste item pode ser desmontado.
+Item_ManaBurn2_effect_header									Efeito de Status
+Item_ManaBurn2_IMPACT_effect									Cria 2 Ilusões de si. As ilusões recebem 3,5 vezes mais dano, têm 33% do seu dano de ataque e herda as suas propriedades. As Ilusões têm 20 segundos de vida.\n\nRemove todos os Buffs e Debuffs ao usar.
+Item_ManaBurn2_tooltip_flavor									Olhando dentro disto, vejo apenas fogo.
 
 // Item_Weapon1
 Item_Weapon1_name												Great Arcana
 Item_Weapon1_description										
-Item_Weapon1_effect_header										Status Effect
-Item_Weapon1_shop_flavor										Glistening with its own magical power, a Great Arcana staff is a favored weapon for many sorcerers, for it enhances their intellect and hastens their recovery of mystic strength.  Moreover, it strikes with great speed and lands a smarting blow.
+Item_Weapon1_effect_header										Efeito de Status
+Item_Weapon1_shop_flavor										Brilhando pelo seu próprio poder mágico, a staff Great Arcana staff é a arma preferida de muitos magos, pois isto eleva seu intelecto e acelera a recuperação de seus poderes mágicos.  Além disso, ela bate com grande velocidade e com batidas ardentes.
 
 // Gadget_Item5G
 
 // Item_HealthMana3
 Item_HealthMana3_name											Sacrificial Stone
-Item_HealthMana3_description									Upon death, respawn time and gold loss is reduced.\nEvery Hero kill, adds a charge
-Item_HealthMana3_effect_header									Status Effect
-Item_HealthMana3_shop_flavor									All it takes is the heart of an innocent--tormented to the point of despair before being ripped untimely from its host--to create the bleeding rock known as a Sacrificial Stone. These accursed but prized artifacts both bestow and restore Health and Magic, and boost the rate at which one learns from battle. Despite these many boons, only the most desperate warrior would claim such a thing.
-Item_HealthMana3_FRAME_effect									+2 Health Regeneration per charge\n+2 Mana Regeneration per charge\n\n^yOn Death:^*\n-Removes one charge\n-Heal allies for 450 Health and restore 400 of their Mana in a 1700 radius.\n-With no charges, you will respawn 10% faster and lose 20% less gold.\n-With 1 or more charges, you will respawn 20% faster and lose 40% less gold.\n-Continue to gain experience and vision at the location you died, until respawn.
-Item_HealthMana3_KILL_effect									Adds one charge per Hero kill.\nIf charges are at 0, adds an extra charge.
+Item_HealthMana3_description									Ao morrer, o tempo para renascer e o gold perdido é reduzido.\nCada vez que matar um Hero adiciona uma carga
+Item_HealthMana3_effect_header									Efeito de Status
+Item_HealthMana3_shop_flavor									Tudo o que precisa é do coração de um inocente--atormentado até o ponto do desespero antes de ser estirpado precocemente de seus progenitores--para criar uma rocha hemorrágica conhecida como Sacrificial Stone. Este amaldiçoado e, ao mesmo tempo, afortunado artefato concede e restora Vida e Magia e acelera a taxa de cada uma pelas batalhas. Além destes muitos benefícios, apenas o mais desesperado dos guerreiros poderiam reivindicar algo como isso.
+Item_HealthMana3_FRAME_effect									+2 Regeneração de Vida por carga\n+2 Regeneração de Mana por carga\n\n^yAo Morrer:^*\n-Remove uma carga\n-Cura aliados por 450 de Vida e recupera 400 de Mana deles em uma área de 1700.\n-Sem cargas, você irá renascer 10% mais rápido e perderá 20% menos gold.\n-Com 1 ou mais cargas, você irá renascer 20% mais rápido e perderá 40% menos gold.\n-Continua ganhando experiência e visão no local em que você morreu, até renascer.
+Item_HealthMana3_KILL_effect									Adiciona uma carga por Hero que você matou.\nSe as cargas estão em 0, adiciona uma carga extra.
 
 // Item_StrengthAgility
 Item_StrengthAgility_name										Hack and Slash
@@ -4435,51 +4435,51 @@ Item_StrengthAgility_effect_header								Status Effect
 Item_StrengthAgility_shop_flavor								Twin weapons--a barbaric blade and a stabbing dagger--Hack and Slash give strength and agility, attacking speed and movement speed, and the ability to cripple one's foes.  A dual-wielding warrior with these two weapons in his hands is a terrible sight to behold.
 Item_StrengthAgility_description2:speed_multiplier				This item's chance to proc does not stack with ^rHack^*. This item's ^yMovement ^ySpeed^* multiplier does not stack with itself or with ^rSlash^*. This item's ^yMovement ^ySpeed^* multiplier does not stack with itself or with ^rSlash^*.
 Item_StrengthAgility_effect_header:maimproc						Crippled Effects
-Item_StrengthAgility_ATTACK_IMPACT_effect:maimproc				15% chance to apply Crippled to attack target for 4 seconds.
+Item_StrengthAgility_ATTACK_IMPACT_effect:maimproc				15% de chance de aplicar Crippled to attack target for 4 seconds.
 
 // State_Item3A
 State_Item3A_name												Crippled
 
 // Item_Silence
 Item_Silence_name												Hellflower
-Item_Silence_description										When activated, applies Hellflower effect to enemy target for 5 seconds. 
-Item_Silence_effect_header										Hellflower Effects
-Item_Silence_shop_flavor										Harvested in lands untouched by Newerth's sun, Hellflowers stink of death and are covered in burning thorns. They are prized despite this because the aroma heightens the intellect and induces a sort of battle-frenzy of rapid, powerful attacks. Moreover, the thorns' prick hastens the recovery of magical powers, and when the flower blooms, it sears an enemy's very soul.
-Item_Silence_IMPACT_effect										Applies Hellflower to target for 5 seconds. 
+Item_Silence_description										Quando ativada, aplica o efeito Hellflower no inimigo por 5 segundos. 
+Item_Silence_effect_header										Efeito Hellflower
+Item_Silence_shop_flavor										Colhida em terras intocadas pelo sol de Newerth, as Hellflowers cheira a morte e é coberta de espinhos que queimam. Ainda assim, elas são afortunadas por causa do seu aroma, melhorando o intelecto e induzindo uma ligeira ferocidade em batalha e ataques poderosos. Além do mais, as agulhas dos espinhos aceleram a recuperação dos poderes mágicos; e quando a flor desabroxa, ela queima a alma de seu inimigo.
+Item_Silence_IMPACT_effect										Aplica Hellflower no alvo por 5 segundos. 
 
 // State_Item5K
 State_Item5K_name												Hellflower
-State_Item5K_FRAME_effect										On expiration, deals True damage equal to 20% of total damage taken while effect was active
+State_Item5K_FRAME_effect										Ao expirar, causa dano Verdadeiro igual à 20% do dano total recebido enquanto o efeito estava ativo
 
 // Item_Shield2
 Item_Shield2_name												Helm of the Black Legion
 Item_Shield2_description										
-Item_Shield2_effect_header										Status Effect
-Item_Shield2_shop_flavor										Whispered rumors speak of the Black Legion, a band of brutal and heartless warriors who destroyed any who betrayed King Maliken during his conquest of human lands. All that remains of this fabled legion are relics such as their horned, enchanted helmets, fiercely sought after by warriors who aspire to equal prowess. The helms boost Health and recovery and often deflect significant damage.
+Item_Shield2_effect_header										Efeito de Status
+Item_Shield2_shop_flavor										Rumores falam sobre a Black Legion, um bando de guerreiros brutos e cruéis que destroem qualquer um que tenha traído o Rei Maliken durante a sua conquista das terras humanas. Tudo o que resta dessa lendária legião são relíquias como seus capacetes encantados e com chifres, ferozmente procurado por guerreiros que aspiram proesas equivalentes. O capacete aumenta a Vida e a sua recuperação e algumas vezes deflete dano significativo.
 
 // Item_HealthMana2
 Item_HealthMana2_name											Icon of the Goddess
 Item_HealthMana2_description									
 Item_HealthMana2_effect_header									Status Effect
-Item_HealthMana2_shop_flavor									The most holy symbol of the Beast religion is the Icon of the Goddess Earth.  The reverence poured into these objects redounds to whomever possesses them, granting great Health and Magic, and helping to restore mystic energies and close wounds.
+Item_HealthMana2_shop_flavor									O símbolo mais sagrado da religião Beast é o Icon of the Goddess Earth.  A veneração posta nesses objetos recai sobre quem os possui, garantindo muita Vida e Magia, além de ajudar a recuperar energias místicas e curar feridas.
 
 // Item_Insanitarius
 Item_Insanitarius_name											Insanitarius
-Item_Insanitarius_description									When activated, greatly increases Strength and Damage while constantly inflicting damage to self.
-Item_Insanitarius_effect_header									Insanitarius Effects
-Item_Insanitarius_shop_flavor									In the deep jungles, a degenerate race is said to have worshipped the Hellbourne with exotic and unnatural rites. The only evidence of this cult are Insanitarius masks. Donning one bestows immediate battle rag--increased strength and attack speed, the ability to shrug off minor wounds, and rapid recovery from injuries. And by whispering a secret phrase, the wearer can invoke truly Insane Strength.
-Item_Insanitarius_IMPACT_effect									Instantly replenishes 475 Health when toggled on and applies Insanitarius to self until toggled off. 
-Item_Insanitarius_IMPACT_effect:insanitarius_active				Toggles off, removing Insanitarius and 475 Health from self. The Health removal is non-lethal.
+Item_Insanitarius_description									Quando ativado, aumenta bastante o Dano e a Força enquanto lhe causa dano constantemente.
+Item_Insanitarius_effect_header									Efeitos Insanitarius
+Item_Insanitarius_shop_flavor									Nas selvas profundas, dizem que uma raça degenerada reverenciavam os Hellbourne com ritos exóticos e desnaturados. A única evidência deste culto é a máscara Insanitarius. O Criador concede uma perda de controle imediata na batalha--aumenta a força e a velocidade de ataque, a habilidade de diminuir pequenas feridas e recuperação rápida de contusões. E ao susurrar uma frase secreta, o usuário pode invocar uma verdadeira Força Insana.
+Item_Insanitarius_IMPACT_effect									Recupera 475 de Vida instantaneamente quando ligado e aplica e efeito Insanitarius em você até ser desligado. 
+Item_Insanitarius_IMPACT_effect:insanitarius_active				Ao desativar, remove o efeito Insanitarius e 475 de Vida de você. A remoção de Vida não é letal.
 
 // State_Insanitarius
 State_Insanitarius_name											Insanitarius
-State_Insanitarius_FRAME_effect									35 True damage per second
+State_Insanitarius_FRAME_effect									35 dano Verdadeiro por segundo
 
 // Item_MysticPotpourri
 Item_MysticPotpourri_name										Refreshing Ornament
-Item_MysticPotpourri_description								Applies an aura to all nearby allies granting the following effects:\n+2 Health Regeneration
-Item_MysticPotpourri_effect_header								Status Effect
-Item_MysticPotpourri_shop_flavor								An old recipe known to Beast shamans for centuries, the Refreshing Ornament is a pouch full of herbs and minerals that bestow a variety of small powers. Such is the interaction of these ingredients that even bystanders find they heal more quickly when nearby.
+Item_MysticPotpourri_description								Aplica uma aura à todos os aliados garantindo o seguinte efeito:\n+2 Regeneração de Vida
+Item_MysticPotpourri_effect_header								Efeito de Status
+Item_MysticPotpourri_shop_flavor								Um antigo manual conhecido para os shamans Beast por séculos, o Refreshing Ornament é uma sacola cheia de ervas e minerais que concede uma variedade de pequenos poderes. Tamanha a interação desses ingredientes que até os curiosos percebem que eles curam mais rápido quando próximos.
 
 // State_MysticPotpourri
 State_MysticPotpourri_name										Refreshing Ornament
@@ -4487,7 +4487,7 @@ State_MysticPotpourri_name										Refreshing Ornament
 // Item_Protect
 Item_Protect_name												Null Stone
 Item_Protect_description										
-Item_Protect_effect_header										Status Effect
+Item_Protect_effect_header										Efeito de Status
 Item_Protect_shop_flavor										At the cost of countless lives, a technique for creating Refined Glowstones was perfected. These amazing items strengthen the holder in all respects, rapidly restore Health and Magical energy, and negate enemy Magic. Whatever the cost, they are worth it.
 Item_Protect_FRAME_effect										\nNegates a Magical targeted spell or attack when not in cooldown.
 
@@ -4764,24 +4764,24 @@ Item_Intelligence5_shop_flavor									Those who fail in the study of Newerth's 
 
 // Item_Lightning1
 Item_Lightning1_name											Thunderclaw
-Item_Lightning1_description										Chance on attack to cast Chain Lightning.
-Item_Lightning1_description2									This item's chance to trigger does not stack with ^rCharged Hammer^*.
-Item_Lightning1_effect_header									Status Effect
-Item_Lightning1_shop_flavor										Cut from the limb of a rare creature that lurks in the fetid swamps of the west, Thunderclaws have long been a favorite weapon of the Beast Horde. The jolting energy within gives new agility to whoever holds one and inflicts searing pain on any enemy it strikes. In rare circumstances, some linkage of the wielder's own lifeforce and the necrotic Thunderclaw results in a blast of energy that electrocutes nearby foes.
-Item_Lightning1_ATTACK_effect:chainlightningproc				20% chance to cast chain lightning, dealing 150 Magic damage to your attack target and two additional nearby enemies.
+Item_Lightning1_description										Chance de conjurar Chain Lightning ao atacar.
+Item_Lightning1_description2									A chance deste item ativar não se soma com a ^rCharged Hammer^*.
+Item_Lightning1_effect_header									Efeito de Status
+Item_Lightning1_shop_flavor										Cortado dos braços de uma criatura rara que espreita os pântanos fétidos do oeste, as Thunderclaws foram, por muito tempo, as armas favoritas da Beast Horde. A energia instável oferece nova agilidade para qualquer um que carregar uma e causa uma dor lacerante no inimigo ao acertá-lo. Em raras circunstânceas, alguma ligação com a própria força vital do usuário e a necrótica Thunderclaw resulta em uma explosão de energia que eletricuta ameaças próximas.
+Item_Lightning1_ATTACK_effect:chainlightningproc				20% de chance de conjurar chain lightning, causando 150 Dano Mágico em quem você ataca e dois inimigos próximos.
 
 // Item_Damage10
 Item_Damage10_name												Mock of Brilliance
-Item_Damage10_description										Applies an aura to all nearby enemies dealing 35 Magic damage per second.
-Item_Damage10_effect_header										Status Effect
-Item_Damage10_shop_flavor										Few remain of the eighteen mighty hammers forged by the fabled Beast shaman Torgash. Known as his Mocks because they were said to mock the efforts of humanity to resist the Beast Horde, these powerful weapons glow with inner power, burning nearby enemies.
-Item_Damage10_IMPACT_effect										On use, turns off the damage aura
+Item_Damage10_description										Aplica uma aura em todos os inimigos próximos causando 35 Dano Mágico por segundo.
+Item_Damage10_effect_header										Efeito de Status
+Item_Damage10_shop_flavor										Pouco sobrou dos dezoito míticos martelos forjados pelo lendário xamã Beast Torgash. Conhecido por seus Mocks because they were said to mock the efforts of humanity to resist the Beast Horde, these powerful weapons glow with inner power, burning nearby enemies.
+Item_Damage10_IMPACT_effect										Ao usar, desliga a aura de dano
 Item_Damage10_name:mockofbrilliance_off							Mock of Brilliance (Off)
-Item_Damage10_IMPACT_effect:mockofbrilliance_off				On use, turns on the damage aura
+Item_Damage10_IMPACT_effect:mockofbrilliance_off				Ao usar, liga a aura de dano
 
 // State_Item4D
 State_Item4D_name												Mock of Brilliance
-State_Item4D_FRAME_effect										40 de dano Mágico por segundo
+State_Item4D_FRAME_effect										40 Dano Mágico por segundo
 
 // Item_Morph
 Item_Morph_name													Totem of Kuldra
@@ -4796,30 +4796,30 @@ State_Item4K_FRAME_effect										Movement speed set at 100
 
 // Item_WhisperingHelm
 Item_WhisperingHelm_name										Whispering Helm
-Item_WhisperingHelm_description									When activated, Dominates the target creep, giving the user control of that unit.
-Item_WhisperingHelm_description2								This item contains an exclusive modifier of type ^gLife Steal^*. Exclusive modifiers do not stack. You will automatically use your most powerful exclusive modifier of this type.
-Item_WhisperingHelm_effect_header								Status Effect
-Item_WhisperingHelm_shop_flavor									Whispering Helms are gifts from the Hellbourne to their corrupted lieutenants. Although the helmets provide both armor and enhanced attacking power, as well as the ability to drain the life out of an enemy, it is the spirits within the helms-which both drive the wearer mad and can be called upon to dominate the minds of lesser creatures-that are most terrifying.
-Item_WhisperingHelm_IMPACT_effect								Dominates target, taking control of it and switching its team permanently.
+Item_WhisperingHelm_description									Quando ativado, Domina o creep alvo, dando ao usuário o controle desta unidade.
+Item_WhisperingHelm_description2								Este item tem um modificador exclusivo do tipo ^gLife Steal^*. Modificadores exclusivos não se somam. Você irá usar, automaticamente, o modificador mais poderoso deste tipo.
+Item_WhisperingHelm_effect_header								Efeito de Status
+Item_WhisperingHelm_shop_flavor									Os Whispering Helms são presentes dos Hellbourne para seus tenentes corruptos. Embora os capacetes promovam armadora, melhoram o poder de ataque e dão a habilidade de drenar a vida de seus inimigos, são os espíritos dentro do capacete que levam o usuário à loucura e que podem ser chamados para dominar as mentes de criaturas menores e mais horripilantes.
+Item_WhisperingHelm_IMPACT_effect								Domina o alvo, ganhando controle dele e convertendo-o para o seu time permanentemente.
 
 // Item_Evasion
 Item_Evasion_name												Wingbow
 Item_Evasion_description										
-Item_Evasion_description2										This item contains ^yEvasion^* properties. Evasion properties do not stack. Instead, you will automatically use the Evasion from the item or ability that grants you the highest chance to evade.
-Item_Evasion_effect_header										Status Effect
-Item_Evasion_shop_flavor										Wingbows are the finest bows the Beast Horde ever crafted.  Imbued with the blessings of each of the New Gods and pungent with oils and herbal decoctions, these weapons bestow amazing agility to one who wields them, such that his attacks will almost always go true.
+Item_Evasion_description2										Este item contém propriedades ^yEvasivas^*. Propriedades evasivas não se somam. Portanto, você irá automaticamente usar a Evasão do item ou da habilidade que garante a maior chance de evadir.
+Item_Evasion_effect_header										Efeito de Status
+Item_Evasion_shop_flavor										Wingbows são os mais finos arcos que a Beast Horde já criou.  Permeado com as preces de cada um dos New Gods e com óleos e hervas lacerantes, estas armas conferem uma agilidade impressionante à quem as usa, devido à isto, seus ataques serão quase indefensáveis.
 
 // Item_WingedFamiliar
-Item_WingedFamiliar_name										Winged Courier
-Item_WingedFamiliar_description									When activated, spawns a Winged Courier under your control.
-Item_WingedFamiliar_effect_header								Status Effect
-Item_WingedFamiliar_shop_flavor									Enchanted tragra monkeys have been trained for years by the Beast Horde to serve as couriers. These Winged Couriers can now be employed by anyone to carry items to or from an encampment, though certain magical items are beyond their power to hold.
-Item_WingedFamiliar_IMPACT_effect								Spawns a Winged Courier under your control that can carry items. \n\nWinged Couriers have 150 Health, 300 move speed, 350 sight range, Magic and Splash Immunity, and an unlimited life time.\n\nWinged Couriers also possess an ability to increase their movement speed and an ability to grant immunity from damage temporarily.\n\nIf you have a courier near a shop and purchase items, the items will be given to the courier. If the courier dies while holding items, it will drop those items.
+Item_WingedFamiliar_name										Courier Alado
+Item_WingedFamiliar_description									Quando ativado, cria um Courier Alado sob seu controle.
+Item_WingedFamiliar_effect_header								Efeito de Status
+Item_WingedFamiliar_shop_flavor									Macacos encantados de tragra foram treinados por anos pela Beast Horde para servi-lhes como couriers. Estes Couriers Alados agora podem ser usados por todos para carregar items para ou vindos do acampamento, porém certos itens mágicos estão acima do seu poder para carrregar.
+Item_WingedFamiliar_IMPACT_effect								Cria um Courier Alado sob seu controle que pode carregar itens. \n\nCouriers Alados têm 150 de Vida, 300 de Velocidade de Movimento, 350 de raio de visão, Imunidade à Mágica e Splash e um tempo de vida ilimitado.\n\nCouriers Alados também possuem a habilidade de aumentar sua velocidade de movimento e a habilidade de ficar imune à danos temporariamente.\n\nSe você tiver um courier próximo de um shop e comprar itens, estes irão para o courier. Se o courier morrer enquanto carregar itens, eles serão soltos no chão.
 
 // Item_FenrirFang
 Item_FenrirFang_name											Fenrir's Fang
 Item_FenrirFang_description										On attack, applies Fenrir's Bite to target.
-Item_FenrirFang_description2									This item contains an ^rAttack ^rModifier^*. Attack modifiers are exclusive and do not stack with other attack modifiers.
+Item_FenrirFang_description2									Este item contém um ^rModificador de ^rAtaque^*. Modificadores de Ataque são exclusivos e não somam-se com outros modificadores de ataques.
 Item_FenrirFang_effect_header									Fenrir's Bite Effect
 Item_FenrirFang_shop_flavor										
 Item_FenrirFang_description:attack								On attack, applies Fenrir's Bite to target, slowing them.
@@ -5129,53 +5129,52 @@ Neutral_Vagabond_name											Vagabond
 
 // Ability_Vagabond1
 Ability_Vagabond1_name											Mystic Orb's Burn
-Ability_Vagabond1_description									Using the mystic energy contained in the orb attached to his body, the Vagabond can burn a single target's mana from a distance.
-Ability_Vagabond1_IMPACT_effect									Burns up to 100 mana, dealing Magic damage equal to the mana burnt.
-
+Ability_Vagabond1_description									Usando a energia mística contida na orbe presa ao seu corpo, o Vagabond pode queimar a mana de um unico alvo à distância.
+Ability_Vagabond1_IMPACT_effect									Queima até 100 de mana, dando Dano Mágico igual à quantidade de mana queimada.
 // Neutral_VagabondAssassin
 Neutral_VagabondAssassin_name									Vagabond Assassin
 
 // Ability_VagabondAssassin1
 Ability_VagabondAssassin1_name									The Assassin's Touch
-Ability_VagabondAssassin1_description							Being an Assassin comes with many benefits. One of those benefits includes the ability to clense an enemy of all buffs or an ally of debuffs.
-Ability_VagabondAssassin1_effect_header							Assassin's Touch Effects
-Ability_VagabondAssassin1_IMPACT_effect							Removes debuffs from target allied unit, or removes buffs from target enemy unit. Applies Assassin's Touch to enemies for 5 seconds.
+Ability_VagabondAssassin1_description							Ser um Assassin tem muitos benefícios. Um destes benefícios inclui a habilidade de purificar um inimigo de todos os seus buffs ou um aliado de seus debuffs.
+Ability_VagabondAssassin1_effect_header							Efeitos do Assassin's Touch
+Ability_VagabondAssassin1_IMPACT_effect							Remove debuffs de uma unidade aliada alvo ou remove buffs de uma unidade inimiga alvoro. Aplica Assassin's Touch ao inimigo por 5 segundos.
 
 // State_VagabondAssassin_Ability1
 State_VagabondAssassin_Ability1_name							Assassin's Touch
-State_VagabondAssassin_Ability1_FRAME_effect					-80% movement speed initially, decreases over 5 seconds
+State_VagabondAssassin_Ability1_FRAME_effect					-80% de velocidade de movimento inicialmente, diminui gradualmente por 5 segundos
 
 // Neutral_VagabondLeader
 Neutral_VagabondLeader_name										Vagabond Leader
 
 // Ability_VagabondLeader1
 Ability_VagabondLeader1_name									Ground Pound!
-Ability_VagabondLeader1_description								Tough guys are always the leaders, that is why this Vagabond leads the pack. He packs a punch, too, letting him send a shockwave out infront of him to deal damage to anyone it hits.
-Ability_VagabondLeader1_IMPACT_effect							Deals 100 Magic damage up to 800 units away in a 200 radius cone.
+Ability_VagabondLeader1_description								Caras durões são sempre líderes, é por isso que esse Vagabond lidera sua matilha. Ele desfere socos também, permitindo-o enviar ondas de choque para frente que causa dano em qualquer um que pegar.
+Ability_VagabondLeader1_IMPACT_effect							Causa 100 Dano Mágico em até 800 unidades de distância em um cone de 200 radius.
 
 // Ability_VagabondLeader2
 Ability_VagabondLeader2_name									Presence of a Leader
-Ability_VagabondLeader2_description								Everyone fights better with a leader to actually lead them!
+Ability_VagabondLeader2_description								Todos lutam melhor com um líder que realmente os lidera!
 
 // State_VagabondLeader_Ability2
 State_VagabondLeader_Ability2_name								Presence of a Leader
 
 // Ability_Vulture1
 Ability_Vulture1_name											Tornado
-Ability_Vulture1_description									Summons a deadly Tornado that damages enemies in an area and slows their attack and movement speed. Damages enemies in a 150 radius for 45 Magic damage per second. Damages enemies in a 600 radius for 15 Magic damage per second.
-Ability_Vulture1_effect_header									Status Effect
+Ability_Vulture1_description									Conjura um Tornado mortífero que causa dano nos inimigos em área e diminui a velocidade de ataque e movimento deles. Causa 45 Dano Mágico por segundo em uma área de 150. Causa 15 Dano Mágico por segundo em uma área de 600.
+Ability_Vulture1_effect_header									Efeito de Status
 
 // Ability_VultureSummon1
 Ability_VultureSummon1_name										Fierce Winds
-Ability_VultureSummon1_description								Decreases attack and movement speed of nearby enemies. Deals damage to nearby enemy units.
-Ability_VultureSummon1_effect_header							Status Effect
+Ability_VultureSummon1_description								Diminui a velocidade de ataque e movimento dos inimigos próximos. Causa dano à unidades inimigas próximas.
+Ability_VultureSummon1_effect_header							Efeito de Status
 
 // Pet_Vulture_Ability1
 Pet_Vulture_Ability1_name										Cyclone
 
 // State_Vulture_Ability1
 State_Vulture_Ability1_name										Tornado
-State_Vulture_Ability1_description								Decreases attack and movement speed.
+State_Vulture_Ability1_description								Diminui a velocidade de ataque e movimento.
 
 // Neutral_Vulture
 Neutral_Vulture_name											Vulture Lord
@@ -5189,22 +5188,22 @@ Neutral_WerebeastEnchanter_name									Werebeast
 // Ability_Wolf1
 Ability_Wolf1_name												Critical Strike
 Ability_Wolf1_description										Gives a 20% chance to critically strike opponents on attack for two times normal damage.
-Ability_Wolf1_effect_header										Status Effect
+Ability_Wolf1_effect_header										Efeito de Status
 
 // Neutral_Wolf
 Neutral_Wolf_name												Wolf
 
 // Ability_WolfCommander1
-Ability_WolfCommander1_name										Damage Aura
-Ability_WolfCommander1_description								Increases damage of ranged attacks of nearby allies.
-Ability_WolfCommander1_effect_header							Status Effect
+Ability_WolfCommander1_name										Aura de Dano
+Ability_WolfCommander1_description								Aumenta o dano de ataque do tipo ranged dos aliados próximos.
+Ability_WolfCommander1_effect_header							Efeito de Status
 
 // State_WolfCommander_Ability1
 
 // Ability_WolfCommander2
 Ability_WolfCommander2_name										Critical Strike
-Ability_WolfCommander2_description								Gives a 20% chance to critically strike opponents on attack for two times normal damage.
-Ability_WolfCommander2_effect_header							Status Effect
+Ability_WolfCommander2_description								Dá uma chance de 20% de acertar um ataque crítico duas vezes mais forte que o dano normal.
+Ability_WolfCommander2_effect_header							Efeito de Status
 
 // Neutral_WolfCommander
 Neutral_WolfCommander_name										Wolf Commander
@@ -5213,10 +5212,10 @@ Neutral_WolfCommander_name										Wolf Commander
 Ability_Glyph_Hellbourne_name									Demonic Fortification
 Ability_Glyph_Hellbourne_description							Protege todos os edifícios aliados com uma forte armadura por alguns segundos.
 Ability_Glyph_Hellbourne_description2							
-Ability_Glyph_Hellbourne_effect_header							Fortified Effects
+Ability_Glyph_Hellbourne_effect_header							Efeitos de Fortified
 Ability_Glyph_Hellbourne_effect_header2							
 Ability_Glyph_Hellbourne_tooltip_flavor							
-Ability_Glyph_Hellbourne_IMPACT_effect							Aplica Fortified para todos os edifícios aliados por 4 segundos.
+Ability_Glyph_Hellbourne_IMPACT_effect							Aplica Fortified em todos os edifícios aliados por 4 segundos.
 
 // Ability_Glyph_Legion
 Ability_Glyph_Legion_name										Fortification of Sol
@@ -5225,19 +5224,19 @@ Ability_Glyph_Legion_description2
 Ability_Glyph_Legion_effect_header								Efeitos de Fortified
 Ability_Glyph_Legion_effect_header2								
 Ability_Glyph_Legion_tooltip_flavor								
-Ability_Glyph_Legion_IMPACT_effect								Aplica Fortified para todos os edifícios aliados por 4 segundos.
+Ability_Glyph_Legion_IMPACT_effect								Aplica Fortified em todos os edifícios aliados por 4 segundos.
 
 // State_Glyph_Hellbourne
-State_Glyph_Hellbourne_name										Fortified
+State_Glyph_Hellbourne_name										Fortificado
 State_Glyph_Hellbourne_description								
 State_Glyph_Hellbourne_description2								
 
 // State_Glyph_Legion
-State_Glyph_Legion_name											Fortified
+State_Glyph_Legion_name											Fortificado
 State_Glyph_Legion_description									
 State_Glyph_Legion_description2	
 // State_Stunned
-State_Stunned_name												Stunned
+State_Stunned_name												Stunado
 
 // State_Taunted
 State_Taunted_name												Taunted

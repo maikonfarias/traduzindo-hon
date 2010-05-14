@@ -23,7 +23,7 @@ streakend5							{killer} terminou com o ^848domination^* de {victim} por ^y{gol
 streakend6							{killer} terminou com o ^800CHAMPION OF NEWERTH^* de {victim} por ^y{gold}^* gold!!
 streakend7							{killer} terminou com o ^840BLOODBATH^* de {victim} por ^y{gold}^* gold!!
 
-multikill0							{killer} conseguiu um ^008Double Kill^*!
+multikill0							{killer} conseguiu um ^008Double Tap^*!
 multikill1							{killer} conseguiu um ^084Hat-trick^*!!!
 multikill2							{killer} conseguiu um ^084Quad Kill^*!!!
 multikill3							{killer} ^084ANIQUILOU^* seus oponentes!!!
@@ -281,6 +281,8 @@ lobby_unlock					O host destrancou o slot {slot_color}{slot}^*.
 lobby_assign_host				{slot_color}{player}^* foi colocado como o novo host.
 lobby_assign_spectator			O host colocou o {slot_color}{player}^* como espectador.
 lobby_assign_referee			O host colocou o {slot_color}{player}^* como juíz.
+lobby_assign_first_ban			O host colocou o {team_color}{team}^* como o primeiro para banir.
+
 
 game_info_practice				Praticar
 nosolo							Você deverá ter um oponente para começar um jogo. Comece em modo ^yPraticar^* se quiser jogar sozinho.

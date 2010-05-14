@@ -23,6 +23,7 @@ disconnect_leaver				Você não está permitido de entrar nesta partida por caus
 disconnect_overflow				Você foi desconectado do servidor devido à um excesso de pacotes de dados.
 disconnect_flooding				Você foi desconectado por mandar mensagens em excesso no servidor.
 disconnect_invalid_tier			Você não está liberado para jogar partidas neste nível.
+disconnect_invalid_psr			Seu PSR é muito alto ou muito baixo para esta partida.
 disconnect_not_on_roster		Você não está relacionado para esta partida combinada.
 
 rejected_invalid_request		Seu cliente enviou um pedido de conexão inválido.
@@ -345,6 +346,7 @@ chat_command_clan_leave_help		^279*^707 /clan leave.
 chat_command_clear					/clear
 chat_command_clear_short			/cl
 chat_command_join					/join
+chat_command_join_help				^279*^707 /join <canal> "senha".  (senha entre aspas)
 chat_command_join_short				/j
 chat_command_invite					/invite
 chat_command_invite_short			/i
@@ -491,7 +493,7 @@ chat_command_help_whisper			^279*^707 /whisper <apelido> <mensagem>^279   -Mensa
 chat_command_help_reply				^279*^707 /reply <mensagem>^279               -Responde à última mensagem.
 chat_command_help_buddy				^279*^707 /buddy <comando> <argumentos>^279   -Vários comandos relacionados à lista de amigos.
 chat_command_help_clan				^279*^707 /clan <comando> <argumentos>^279    -Vários comandos relacionados ao clan.
-chat_command_help_join				^279*^707 /join <canal>^279                   -Entra em um canal específico.
+chat_command_help_join				^279*^707 /join <canal> "password"^279        -Entra em um canal específico (Senha opcional entre aspas).
 chat_command_help_clear				^279*^707 /clear^279                          -Limpa o histórico do chat.
 chat_command_help_invite			^279*^707 /invite <usuário>^279               -Convida o usuário especificado para a partida atual.
 chat_command_help_whois				^279*^707 /whois <usuário>^279                -Receba informações do usuário especificado.
@@ -518,8 +520,8 @@ chat_command_help_ping				^279*^707 /ping^279 (em partidas apenas)      -Mostra 
 chat_command_help_matchup			^279*^707 /matchup^279 (em partidas apenas)   -Mostra o time/nome/cor/herói dos jogadores da partida atual.
 chat_command_help_gameinfo			^279*^707 /gameinfo^279 (em partidas apenas)  -Prints some information about the current game.
 chat_command_help_available			^279*^707 /available^279					  -Liga o estado de chat em 'disponível'.
-chat_command_help_afk				^279*^707 /afk <mensagem>^279			  -Liga o estado de chat em 'longe do teclado', responde automaticamente quem lhe enviou a mensagem com a mensagem especificada.
-chat_command_help_dnd				^279*^707 /dnd <mensagem>^279			  -Liga o stado de chat em 'não perturbe', para todas as mensagens que lhe enviam e responde a mensagem especificado à quem lhe enviou a mensagem.
+chat_command_help_afk				^279*^707 /afk <mensagem>^279			      -Liga o estado de chat em 'longe do teclado', responde automaticamente quem lhe enviou a mensagem com a mensagem especificada.
+chat_command_help_dnd				^279*^707 /dnd <mensagem>^279			      -Liga o stado de chat em 'não perturbe', para todas as mensagens que lhe enviam e responde a mensagem especificado à quem lhe enviou a mensagem.
 chat_command_help_misc				^279* Digite qualquer comando sem seu argumento para mais informações de como usá-lo.
 
 //End
