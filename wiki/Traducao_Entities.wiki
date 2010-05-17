@@ -1,5 +1,8 @@
 Grupo para *ATUALIZAÇÃO* da nossa versão para 1.0.0.1
 
+Muita atenção nesta parte, façam cada linha com cuidado atentando para o custo das habilidades e suas descrições. Lembramos que a comparação é feita inglês/português! Não deixem de acertar para fazer mais rápido!
+
+Precisam usar o [http://winmerge.org/ Winmerge] para comparar um arquivo com outro
 || *Linhas* || *Nome* ||
 || 1 até 500 || N/A ||
 || 501 até 1000 || N/A ||
