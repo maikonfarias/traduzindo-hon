@@ -2,10 +2,11 @@ Grupo para *ATUALIZAÇÃO* da nossa versão para 1.0.0.1
 
 Muita atenção nesta parte, façam cada linha com cuidado atentando para o custo das habilidades e suas descrições. Lembramos que a comparação é feita inglês/português! Não deixem de acertar para fazer mais rápido!
 
-Precisam usar o [http://winmerge.org/ Winmerge] para comparar um arquivo com outro
+Precisam usar o [http://winmerge.org/ Winmerge] para comparar um arquivo com outro e podem ir traduzindo ao mesmo tempo. Caso tenham qualquer tipo de duvida entrem em contato comigo para não termos problemas.
+
 || *Linhas* || *Nome* ||
-|| 1 até 500 || N/A ||
-|| 501 até 1000 || N/A ||
+|| 1 até 500 || KhainStakard ||
+|| 501 até 1000 || KhainStakard ||
 || 1001 até 1500 || N/A ||
 || 1501 até 2000 || N/A ||
 || 2001 até 2500 || N/A ||
