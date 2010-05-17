@@ -1,1 +1,18 @@
 *EM CONSTRUÇÃO!!!!*
+
+Grupo para *ATUALIZAÇÃO* da nossa versão para 1.0.0.1
+
+|| *Linhas* || *Nome* ||
+1 até 500 || N/A ||
+501 até 1000 || N/A ||
+1001 até 1500 || N/A ||
+1501 até 2000 || N/A ||
+2001 até 2500 || N/A ||
+2501 até 3000 || N/A ||
+3001 até 3500 || N/A ||
+3501 até 4000 || N/A ||
+4001 até 4500 || N/A ||
+4501 até 5000 || N/A ||
+5001 até 5244 || N/A ||
+
+Vamos atualizar o entities antes de continuar com a tradução!!!
