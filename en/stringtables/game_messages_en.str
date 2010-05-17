@@ -23,7 +23,7 @@ streakend5							{killer} has just ended {victim}'s ^848domination^* streak for 
 streakend6							{killer} has just ended {victim}'s ^800CHAMPION OF NEWERTH^* streak for ^y{gold}^* gold!!
 streakend7							{killer} has just ended {victim}'s ^840BLOODBATH^* streak for ^y{gold}^* gold!!
 
-multikill0							{killer} just got a ^008Double Kill^*!
+multikill0							{killer} just got a ^008Double Tap^*!
 multikill1							{killer} just got a ^084Hat-trick^*!!!
 multikill2							{killer} just got a ^084Quad Kill^*!!!
 multikill3							{killer} has ^084ANNIHILATED^* his opponents!!!
@@ -281,6 +281,7 @@ lobby_unlock					The host has unlocked the {slot_color}{slot}^* slot.
 lobby_assign_host				{slot_color}{player}^* has been assigned as the new host.
 lobby_assign_spectator			The host has assigned {slot_color}{player}^* as a spectator.
 lobby_assign_referee			The host has assigned {slot_color}{player}^* as a referee.
+lobby_assign_first_ban				The host has assigned {team_color}{team}^* team first ban.
 
 game_info_practice				Practice
 nosolo							You must have an opponent in order to start the game.  Start a ^yPractice^* game if you wish to play solo.

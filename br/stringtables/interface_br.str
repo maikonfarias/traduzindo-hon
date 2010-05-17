@@ -1701,7 +1701,7 @@ mainlobby_gamelist_more_desc				The host has enabled at least one of several adv
 mainlobby_gamelist_devheroes_title			Dev Heroes
 mainlobby_gamelist_devheroes_desc			Heroes currently unfinished and in development can be picked in this mode.
 mainlobby_gamelist_hardcore_title			Hardcore
-mainlobby_gamelist_hardcore_desc			There is no gold gain per second, creep and tower denies give 0 xp/gold to the opposing team.
+mainlobby_gamelist_hardcore_desc			Não há ganho de gold por segundo, deny de creeps e torres dão 0 de exp/gold para o time adversário.
 
 
 // replay_viewer.package
