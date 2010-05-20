@@ -1,0 +1,7 @@
+Vou colocar a lista das palavras e como elas ficam traduzidas, assim podemos uniformizar melhor essa tradução:
+
+|| Original || Como Fica ||
+|| Beast || Bestas ||
+|| Humans || Humanos ||
+|| The Legion || The Legion ||
+|| The Hellborne || The Hellborne ||
