@@ -52,9 +52,9 @@ general_ready								Pronto
 general_error								Erro
 general_retry								Repetir
 general_login								Login
-general_error_sea_deny						SEA Users must connect via the Garena client.
-general_error_sea_message1					The Heroes of Newerth beta for users in Singapore, Malaysia, Vietnam and the Philippines will be starting soon.  At the start of closed beta, gamers from these countries will be able to redeem a Beta Key immediately if they are Garena Gold Members, while other keys are given away in other community efforts. Please note that countries not stated here (e.g. Indonesia, Thailand) will be unable to play on Garena servers, and would require purchasing a paid account to enjoy the game in S2 Games' international servers.
-general_error_sea_message2					For more updates from the Garena Team regarding their Heroes of Newerth release, visit their blog at ^yhttp://blog.garena.com^* or the official Garena Heroes of Newerth website at ^yhttp://hon.garena.com^*.
+general_error_sea_deny						Usuários do Sudoeste da Ásia devem se conectar pelo cliente do Garena.
+general_error_sea_message1					O beta de Heroes of Newerth para usuários de Singapura, Malásia, Vietnã e Filipinas irá começar em breve.  No início do closed beta, jogadores destes países poderão requisitar sua Beta Key imediatamente se eles forem Gold Members do Garena, enquanto outras keys serão sorteadas em outros concursos da comunidade. Por favor, note que os países não listados aqui (Por exemplo, Indonésia, Tailândia) não poderão jogar pelos servidores do Garena, requerindo a compra de uma conta para jogar nos servidores internacionais da S2 Games.
+general_error_sea_message2					Para mais informações do Time Garena sobre o lançamento do Heroes Of Newerth, visite o blog em ^yhttp://blog.garena.com^* ou o website oficial Heroes Of Newerth do Garena em ^yhttp://hon.garena.com^*.
 
 general_mode_all_heroes						Todos Heroes
 general_mode_random							Hero Aleatório
@@ -63,7 +63,7 @@ general_mode_no_hero_repick					Sem Nova Retirada
 general_mode_no_hero_swap					Sem Troca de Hero
 general_mode_no_agi_heroes					Sem Hero de Agi
 general_mode_no_intel_heroes				Sem Hero de Int
-general_mode_no_str_heroes					Sem Hero de Str
+general_mode_no_str_heroes					Sem Hero de For
 general_mode_no_respawn_timer				Sem Tempo para Renascer
 general_mode_drop_items						Perder Items
 general_mode_no_runes						Sem Superpoderes
@@ -80,9 +80,9 @@ general_mode_autobalance					Equilibrar Times
 general_mode_no_leavers						Sem Desistentes
 general_mode_no_stats						Sem Estatísticas
 general_mode_official						Oficial
-general_mode_tournament_rules				Tournament Rules
-general_mode_hardcore						Hardcore Mode
-general_mode_dev_heroes						Dev Heroes
+general_mode_tournament_rules				Regras de Torneios
+general_mode_hardcore						Modo Hardcore
+general_mode_dev_heroes					    Heroes Teste
 
 // main.interface
 main_label_username							Usuário
@@ -1140,7 +1140,7 @@ game_attributes_label_magic_armor			Armad Mág
 game_header_scores_team_one					Time 1
 game_header_scores_team_two					Time 2
 game_label_ally_level						L
-game_label_buy_back							Pgr Ren.
+game_label_buy_back							Renascer
 game_label_hero_kd_hero						Hero:
 game_label_creep_kills_creep				Creep:
 
@@ -1149,9 +1149,9 @@ game_disconnect								Desconectar
 
 // game_chat.package
 gamechat_button_send_message				Enviar Mensagem
-gamechat_tip_hit_z_history					^y*Dica:^* Aperte "Z" para mostrar o histórico de chat
+gamechat_tip_hit_z_history					^y*Dica:^* Aperte "Z" para histórico de chat
 gamechat_indicate_team						[TIME]
-gamechat_indicate_all						[TODOS]
+gamechat_indicate_all						[MAPA]
 gamechat_header_chat						Chat
 game_chat_button_team						Time
 game_chat_button_all						Todos
@@ -2142,8 +2142,8 @@ tooltip_lang								Idioma
 tooltip_players_online						Jogadores Online
 tooltip_friends								Amigos
 tooltip_clan								Clan
-tooltip_ims									MIs Recebidas
-tooltip_notifications						Notificações Recebidas
+tooltip_ims									Mensagens Instantâneas
+tooltip_notifications						Notificações
 tooltip_autoconnect_title					Auto-Conectar
 tooltip_autoconnect							Quando selecionado, você irá se conectar automaticamente à este canal toda vez que fizer log in.
 tooltip_recitems							Itens Recomendados
@@ -2402,7 +2402,7 @@ main_lobby_amm_region_sea					Sudoeste da Ásia
 main_lobby_amm_region_australia				Austrália
 main_lobby_amm_region_indonesia				Indonésia
 main_lobby_amm_find_team					Achar Time
-main_lobby_amm_join_team					Unir-se à pool com time
+main_lobby_amm_join_team					Unir-se à pool de time
 main_lobby_amm_join_solo					Unir-se à pool solo
 main_lobby_amm_join_solo_progress			Unindo...
 main_lobby_amm_current_wait					Esperou: {time}
@@ -2454,10 +2454,10 @@ amm_chat_wait_msg							Jogadores estão conectando no momento.Por favor, seja p
 amm_chat_drops_msg							{X} jogadore(s) não entraram na partida da lista e serão substituidos por outros jogadores que estão na fila. Por favor tenha paciência, isso não deve demorar muito.
 
 //notifications.package
-notify_join_game							Entrar Nesse Jogo
+notify_join_game							Entrar Nessa Partida
 notify_view_tournaments						Ver Torneios
 notify_join_chan							Entrar no Canal
-notify_view_results							Ver Resultados do Jogo
+notify_view_results							Ver Resultados da Partida
 
 
 // New notification strings    situation = title, dependent = text line 1, info = text line 2
@@ -2498,7 +2498,7 @@ notify_buddy_online_situation				Amigo entrou
 notify_buddy_online_dependent				
 notify_buddy_online_info					conectou.
 // 9
-notify_buddy_left_game_situation			Amigo deixou o jogo
+notify_buddy_left_game_situation			Amigo deixou a partida
 notify_buddy_left_game_dependent			
 notify_buddy_left_game_info					saiu de '{gamename}'.
 // 10
@@ -2506,7 +2506,7 @@ notify_buddy_offline_situation				Amigo desconectou
 notify_buddy_offline_dependent						
 notify_buddy_offline_info					desconectou.
 // 11
-notify_buddy_join_game_situation			Amigo Juntou-se ao Jogo
+notify_buddy_join_game_situation			Amigo Juntou-se a Partida
 notify_buddy_join_game_dependent			
 notify_buddy_join_game_info					juntou-se ao jogo
 // 12
@@ -2514,7 +2514,7 @@ notify_clan_online_situation				Membro do Clan Conectou
 notify_clan_online_dependent				
 notify_clan_online_info						conectou.
 // 13
-notify_clan_left_game_situation				Membro do Clan saiu do jogo
+notify_clan_left_game_situation				Membro do Clan saiu da Partida
 notify_clan_left_game_dependent				
 notify_clan_left_game_info 					saiu de '{gamename}'.
 // 14
@@ -2522,7 +2522,7 @@ notify_clan_offline_situation				Membro do Clan Desconectou
 notify_clan_offline_dependent				
 notify_clan_offline_info					desconectou.
 // 15
-notify_clan_join_game_situation				Membro do Clan Juntou-se ao Jogo
+notify_clan_join_game_situation				Membro do Clan Juntou-se a Partida
 notify_clan_join_game_dependent				
 notify_clan_join_game_info					juntou-se ao jogo.
 // 16
@@ -2536,13 +2536,13 @@ notify_update_info							Reconecte para baixar o patch.
 notify_generic_title						Informação
 notify_generic_text				
 // 19
-notify_im_situation							Msg Recebida
+notify_im_situation							Mensagens
 notify_im_dependent							
 notify_im_info								mandou uma Msg.
 // 20
 notify_game_invite_situation				Convite de Jogo
 notify_game_invite_dependent				
-notify_game_invite_info						convidou você a entrar no jogo.
+notify_game_invite_info						convidou você para a partida.
 // 21
 notify_self_join_game_situation				Auto-entrada
 notify_self_join_game_dependent				Você
@@ -2550,11 +2550,11 @@ notify_self_join_game_info					entrou em '{gamename}'.
 // 22
 notify_buddy_requested_adder_situation		Pedido de Amigo
 notify_buddy_requested_adder_dependent		Você
-notify_buddy_requested_adder_info			pediu {name} como amigo.
+notify_buddy_requested_adder_info			requisitou {name} como amigo.
 // 23
 notify_buddy_requested_added_situation		Pedido de Amigo
 notify_buddy_requested_added_dependent		{name}
-notify_buddy_requested_added_info			pediu você como amigo.
+notify_buddy_requested_added_info			requisitou você como amigo.
 
 
 // compendium.package
@@ -2579,7 +2579,7 @@ compendium_current_lvl						Level Atual:
 compendium_totalcost						Custo Total:
 compendium_controls_soon					Controles do Hero em breve!
 compendium_primary_atrib					Atributo primário:
-compendium_attrib_types						Str/Agi/Int
+compendium_attrib_types						For/Agi/Int
 compendium_attack_type						Tipo de Ataque:
 compendium_melee_range						Melee/Range
 compendium_type_melee						Melee
@@ -2588,9 +2588,9 @@ compendium_type_ranged						Ranged
 compendium_hero_name						Nome do Hero
 compendium_attribute						Atributo
 compendium_atk								Ataque
-compendium_strength							Força
-compendium_agility							Agilidade
-compendium_intelligence						Inteligência
+compendium_strength							Strenght
+compendium_agility							Agility
+compendium_intelligence						Intelligence
 compendium_armor							Armor
 compendium_atk_dmg							Dano Ataque
 compendium_speed							Vel.Mov.
@@ -2600,7 +2600,7 @@ compendium_list_simple						Lista Simples
 compendium_list_detailed					Lista Detalhada
 
 // Used For stat/lvl stuff
-compendium_lvl								lvl
+compendium_lvl								nvl
 
 tooltip_primary_attribute_strength			O atributo primário deste hero é Força.
 tooltip_primary_attribute_agility			O atributo primário deste hero é Agilidade.
@@ -2650,7 +2650,7 @@ ladder_field_acc_actions					Ações
 ladder_field_acc_secs						Segundos jogados
 ladder_field_acc_consumables				Consumíveis
 ladder_field_acc_wards						Wards Colocadas
-ladder_field_acc_em_played					Porcentual de Games EM
+ladder_field_acc_em_played					Percentual de Games EM
 ladder_field_acc_expPerMin					Exp por Minuto
 // I seriously, SERIOUSLY do not like using colons in here.  This should've been fixed on the web end already.  Grr!
 ladder_field_acc_k:d:a						K/D/A
@@ -2706,7 +2706,7 @@ ladder_fieldshort_acc_denies					Denies
 ladder_fieldshort_acc_exp_denied				XP D
 ladder_fieldshort_acc_gold						$ Ganho
 ladder_fieldshort_acc_gold_spent				$ Gasto
-ladder_fieldshort_acc_exp						XP Total
+ladder_fieldshort_acc_exp						EXP Total
 // Not actions per minute? just a total count of all actions?
 ladder_fieldshort_acc_actions					Ações
 ladder_fieldshort_acc_secs						Segs
@@ -2717,16 +2717,16 @@ ladder_fieldshort_acc_expPerMin					XP/Min
 // I seriously, SERIOUSLY do not like using colons in here.  This should've been fixed on the web end already.  Grr!
 ladder_fieldshort_acc_k:d:a						K/D/A
 ladder_fieldshort_acc_k_d_a						K/D/A
-ladder_fieldshort_acc_wardsPerGame				Wards/G
-ladder_fieldshort_acc_consumablesPerGame		Cons/G
+ladder_fieldshort_acc_wardsPerGame				Wards/P
+ladder_fieldshort_acc_consumablesPerGame		Cons/P
 ladder_fieldshort_acc_avgGameLength				Dura.Méd
 ladder_fieldshort_acc_expPerGame				XP/Game
 ladder_fieldshort_acc_goldPerGame				Gold/Ga
 ladder_fieldshort_acc_goldPerMin				Gold/M
 ladder_fieldshort_acc_spentPerMin				Gasto/M
 ladder_fieldshort_acc_deniesPerMin				Deny/M
-ladder_fieldshort_acc_deniesPerGame				Deny/G
-ladder_fieldshort_acc_buildingsPerGame			Cons/G
+ladder_fieldshort_acc_deniesPerGame				Deny/P
+ladder_fieldshort_acc_buildingsPerGame			Cons/P
 ladder_fieldshort_Player						Jogador
 ladder_fieldshort_PlayerSkillRating				PSR
 ladder_fieldshort_Rank							Rank

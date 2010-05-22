@@ -20,13 +20,13 @@ EffectType_SuperiorPhysical										Físico Superior
 
 ImmunityType_MagicImmunity1										Imunidade a Magia
 ImmunityType_DominateImmunity									Imunidade a Dominate
-ImmunityType_AncientImmunity									Imunidade a Ancient
-ImmunityType_KongorImmunity										Imunidade a Kongor
+ImmunityType_AncientImmunity									Imunidade de Ancient
+ImmunityType_BossImmunity										
 ImmunityType_SiegeImmunity										Imunidade a Siege
 ImmunityType_DisableImmunity									Imunidade a Disable
-ImmunityType_TargetingImmunity									Imunidade a Targeting
+ImmunityType_TargetingImmunity									Imunidade de Ser Alvo
 ImmunityType_AstrolabeImmunity									Imunidade a Astrolabe
-ImmunityType_PuzzleboxPetImmunity								Imunidade a Puzzlebox Demon
+ImmunityType_TransfigureImmunity								
 ImmunityType_GadgetImmunity										Imunidade a Gadget
 
 StealthType_hero												Hero
@@ -37,8 +37,8 @@ RevealType_ward													Ward of Revelation
 RevealType_eye													Bound Eye
 RevealType_tower												Tower
 
-ArmorType_normal												Armor
-ArmorType_magic													Magic Armor
+ArmorType_normal												Armadura
+ArmorType_magic													Armadura Mágica
 
 TargetScheme_null												
 TargetScheme_all												Todos
@@ -51,8 +51,8 @@ TargetScheme_ally_heroes										Heroes Aliados
 TargetScheme_all_units											Todas as Unidades
 TargetScheme_ally_ranged_units									Unidades Ranged Aliadas
 TargetScheme_ally_melee_units									Unidades Melee Aliadas
+TargetScheme_ally_ranged_heroes									Heroes Ranged Aliados
 TargetScheme_ally_buildings										Construções Aliadas
-TargetScheme_enemy_objects										Objetos Inimigos
 TargetScheme_enemy_objects										Objetos Inimigos
 TargetScheme_teleport_targets									Teletransportar Alvos
 TargetScheme_my_units											Unidades Adquiridas
@@ -72,23 +72,23 @@ TargetScheme_enemy_units_and_trees								Unidades Inimigas e Árvores
 TargetScheme_all_other_units									Todas as outras unidades
 TargetScheme_enemy_buildings									Construções Inimigas
 TargetScheme_enemy_melee_heroes									Heroes Melee Inimigos
-TargetScheme_hook_targets										Todas as Unidades Non-Siege
+TargetScheme_hook_targets										Todas as Unidades Não-Siege
 TargetScheme_enemy_units_and_corpses							Unidades Inimigas e Corpos
-TargetScheme_nonneutral_enemy_units								Inimigos Non-Neutral
+TargetScheme_nonneutral_enemy_units								Inimigos Não-Neutral
 TargetScheme_player_controlled_ally_units						Unidades Aliadas Controladas por Jogador
-TargetScheme_all_nonhero_units									Todas as Unidades Non-Hero
+TargetScheme_all_nonhero_units									Todas as Unidades Não-Hero
 TargetScheme_other_heroes										Outros Heroes
 TargetScheme_my_other_units										Minions Adquiridos
-TargetScheme_enemy_nonhero_units								Unidades Inimigas Non-Hero
+TargetScheme_enemy_nonhero_units								Unidades Inimigas Não-Hero
 TargetScheme_organic_enemy_units								Unidades Orgânicas Inimigas
 TargetScheme_organic_ally_units									Unidades Orgânicas Aliadas
 TargetScheme_all_organic_units									Todas as Unidades Orgânicas
 TargetScheme_all_heroes											Todos os Heroes
-TargetScheme_enemy_main_base_structure							Estrutura de Base Principal Inimiga
-TargetScheme_all_other_nonboss_units							Todas as Unidades Non-Boss
-TargetScheme_enemy_nonboss_units								Inimigos Non-Boss 
-TargetScheme_nonneutral_organic_enemy_units						Inimigos Non-Neutral
-TargetScheme_enemy_nonboss_npc_units							Inimigos NPCs Non-Boss
+TargetScheme_enemy_main_base_structure							Estrutura da Base Principal Inimiga
+TargetScheme_all_other_nonboss_units							Todas as Unidades Não-Boss
+TargetScheme_enemy_nonboss_units								Inimigos Não-Boss 
+TargetScheme_nonneutral_organic_enemy_units						Inimigos Não-Neutral
+TargetScheme_enemy_nonboss_npc_units							PNJs Inimigos Não-Boss
 TargetScheme_enemy_units_and_structures							Unidades e Estruturas Inimigas
 TargetScheme_all_other_heroes									Todos os outros Heroes
 TargetScheme_ally_objects										Objetos Aliados
@@ -97,6 +97,10 @@ TargetScheme_nonboss_organic_enemy_units						Unidades Inimigas Orgânicas
 TargetScheme_engineer_units										Unidades Mecânicas
 TargetScheme_ally_mana_units									Unidades Aliadas com Mana
 TargetScheme_enemy_mana_units									Unidades Inimigas com Mana
+TargetScheme_enemy_units_and_deniable							Unidades Inimigas e Passíveis de Deny
+TargetScheme_ally_organic_npc_units								Unidades PNJs Orgânicas Aliadas
+TargetScheme_player_controlled_enemy_units						Unidades Controladas por Jogador Inimigo
+TargetScheme_all_nonhero_corpses								Todos os Corpos Não-Hero
 
 Popup_gold														+{value}
 Popup_experience												+{value}
@@ -121,6 +125,7 @@ Popup_35s														3.5s!
 Popup_45s														4.5s!
 Popup_javoflight												{value}s!
 Popup_max														MAX!
+Popup_dot_physical_damage										{value}!
 
 // Game Info
 Mode_Normal														Normal
@@ -156,6 +161,8 @@ Option_AllowVeto												Permitir Veto
 Option_ShuffleTeams												Sortear Times
 Option_AutoBalanceTeams											Auto Balanced
 Option_DevHeroes												Dev Heroes
+Option_TournamentRules												Tournament Rules
+Option_Hardcore													Hardcore
 
 // Building_HellbourneTower
 Building_HellbourneTower_name									Torre de Defesa
@@ -246,29 +253,29 @@ Ability_AttributeBoost_description								^yBônus por Level:^*\n+2 Força\n+2 A
 Ability_Taunt_name												Taunt
 Ability_Taunt_description								
 Ability_Taunt_IMPACT_effect										Taunting está desativado para esta conta.
-Ability_Taunt_IMPACT_effect:perks								Coloca Taunt em um Hero Inimigo. Você ficará visível para o time do alvo durante o efeito. Mate o alvo com Taunt dentro de 30 segundos para conseuir um smack down.
+Ability_Taunt_IMPACT_effect:perks								Coloca Taunt em um Hero Inimigo. Você ficará visível para o time do alvo durante o efeito. Mate o alvo com Taunt dentro de 30 segundos para conseguir um smack down.
 
 // Ability_Accursed1
 Ability_Accursed1_name											Cauterize
-Ability_Accursed1_description									Pelo custo de um pouco de sua propia vida, Cauterize queima o ar em volta do alvo, causa dano se forem unidades inimigas e cura unidades se forem aliadas.
+Ability_Accursed1_description									Pelo custo de um pouco de sua propia vida, Accursed queima o ar em volta do alvo, causa dano se forem unidades inimigas e cura unidades se forem aliadas.
 Ability_Accursed1_IMPACT_effect									Causa {100,150,200,250} de dano Mágico aos inimigos ou cura aliados com {100,150,200,250} de Vida.  Causa {50,75,100,125} de dano Mágico a você.
 Ability_Accursed1_tooltip_flavor								É uma coisa tipo amor e ódio.
 
 // Ability_Accursed2
 Ability_Accursed2_name											Fire Shield
-Ability_Accursed2_description									Fire Shield proteje uma unidade aliada em um escudo de chamas que previne dano e remove efeitos maliciosos. Se o escudo for danificado até certo ponto, ele expodirá, causando dano igual ao absorvido pelo escudo aos inimigos próximos.
+Ability_Accursed2_description									Fire Shield proteje uma unidade aliada em um escudo de chamas que previne dano e remove efeitos nocivos. Se o escudo for danificado até certo ponto, ele expodirá, causando Dano Mágico igual ao absorvido pelo escudo aos inimigos próximos.
 Ability_Accursed2_effect_header									Efeitos do Fire Shield
-Ability_Accursed2_IMPACT_effect									Remove a maioria dos debuffs, depois aplica o Fire Shield no alvo por 15 segundos.
+Ability_Accursed2_IMPACT_effect									Remove a maioria dos debuffs, depois aplica Fire Shield no alvo por 15 segundos.
 Ability_Accursed2_ACTIVATE_COST_effect							^cMana cost: 100% of Max Mana
 Ability_Accursed2_tooltip_flavor								Aqui, vista isto!
 
 // State_Accursed_Ability2
 State_Accursed_Ability2_name									Fire Shield
-State_Accursed_Ability2_FRAME_effect							{110,140,170,200} escudo de dano. Quando absorve sua capacidade máxima, causa {110,140,170,200} de dano mágico em 700 radius.
+State_Accursed_Ability2_FRAME_effect							{110,140,170,200} escudo de dano. Quando absorve sua capacidade máxima, causa {110,140,170,200} de Dano Mágico em 700 radius.
 
 // Ability_Accursed3
 Ability_Accursed3_name											Sear
-Ability_Accursed3_description									Faz com que os ataques queimem o alvo, reduzindo sua velocidade. Se algum aliado atacar a unidade afetada, ele receberá um buff com bônus em velocidade de ataque e de movimentação.
+Ability_Accursed3_description									Faz com que os ataques queimem o alvo, reduzindo sua velocidade de movimento. Se algum aliado atacar a unidade afetada ele receberá um buff com bônus em velocidade de ataque e de movimentação.
 Ability_Accursed3_description2									Essa habilidade contém um ^rAttack ^rModifier^*. Modificadores de ataque são exclusivos e não se agrupam com outros modificadores.
 Ability_Accursed3_effect_header									Efeitos do Sear
 Ability_Accursed3_effect_header2								Efeitos do Burning Strikes
@@ -288,23 +295,23 @@ State_Accursed_Ability3_Debuff_FRAME_effect						Quando atacado, aplica Burning 
 
 // Ability_Accursed4
 Ability_Accursed4_name											Flame Consumption
-Ability_Accursed4_description									Accursed invoca um poderoso tornado de fogo em volta de si mesmo que, quando recebe muito dano faz com que ele recupere life. Quando não está em cooldown essa habilidade é ativada automáticamente quando o Accursed fica com menos de 400 de vida.
+Ability_Accursed4_description									Accursed invoca um poderoso tornado de fogo em volta de si mesmo que, quando recebe dano faz com que ele recupere sua vida. Quando não está em cooldown essa habilidade é ativada automáticamente quando o Accursed fica com menos de 400 de vida.
 Ability_Accursed4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeito do Staff:^* Aumenta a duração de {3,4,5} segondos para {5,6,7} segondos.
 Ability_Accursed4_effect_header									Efeitos do Protective Flames
-Ability_Accursed4_IMPACT_effect									Remove debuffs e aplica Protective Flames em si mesmo por {3,4,5} segundos.\n\nAtiva automaticamente quando Accursed levar dano enquanto estiver com menos de 400 de vida.
-Ability_Accursed4_name:ult_boost								Burning Consumption ^g(Boosted)^*
+Ability_Accursed4_IMPACT_effect									Remove debuffs e aplica Protective Flames em si por {3,4,5} segundos.\n\nAtiva automaticamente quando Accursed levar dano enquanto estiver com menos de 400 de vida.
+Ability_Accursed4_name:ult_boost								Burning Consumption ^g(Melhorado)^*
 Ability_Accursed4_description2:ult_boost						Esta habilidade foi melhorada pelo Staff of the Master.
-Ability_Accursed4_IMPACT_effect:ult_boost						Remove debuffs e aplica Protective Flames em si mesmo por ^g{5,6,7}^* segundos.\n\nAtiva automaticamente quando Accursed levar dano enquanto estiver com menos de 400 de vida.
+Ability_Accursed4_IMPACT_effect:ult_boost						Remove debuffs e aplica Protective Flames em si por ^g{5,6,7}^* segundos.\n\nAtiva automaticamente quando Accursed levar dano enquanto estiver com menos de 400 de vida.
 Ability_Accursed4_tooltip_flavor								Me dê combustível, me dê fogo, me dê o que eu desejo!
 
 // State_Accursed_Ability4
 State_Accursed_Ability4_name									Protective Flames
-State_Accursed_Ability4_FRAME_effect							100% de dano tomado convertido para Vida
-State_Accursed_Ability4_DAMAGED_effect							Converte o dano levado em Vida
+State_Accursed_Ability4_FRAME_effect							100% do dano recebido é convertido em Vida
+State_Accursed_Ability4_DAMAGED_effect							Converte o dano recebido em Vida
 
 // Hero_Accursed
 Hero_Accursed_name												Accursed
-Hero_Accursed_description										Muitos já expecularam como tal grande e temido guerreiro agora vive na tormenta entre os Burning Armor que marcham junto ao exército dos Hellbourne. O Accursed, como é conhecido, grita em agonia enquanto tráz devastação aos seus inimigos, mas suas ações parecem ser movidas mais pelo desejo de se encontrar do que pela maldade.
+Hero_Accursed_description										Muitos já especularam como tal grande e temido guerreiro agora vive na tormenta entre os Burning Armor que marcham junto ao exército dos Hellbourne. O Accursed, como é conhecido, grita em agonia enquanto tráz devastação aos seus inimigos, mas suas ações parecem ser movidas mais pelo desejo de se encontrar o oblívio do que pela maldade.
 
 // Ability_Andromeda1
 Ability_Andromeda1_name											Comet
@@ -313,7 +320,7 @@ Ability_Andromeda1_description2
 Ability_Andromeda1_effect_header								Efeitos do Comet
 Ability_Andromeda1_effect_header2								
 Ability_Andromeda1_tooltip_flavor								
-Ability_Andromeda1_IMPACT_effect								Causa {100,175,250,325} de dano Mágico e stun de 1,75 segundos.
+Ability_Andromeda1_IMPACT_effect								Causa {100,175,250,325} de Dano Mágico e stun de 1,75 segundos.
 Ability_Andromeda1_tooltip_flavor								O céu está caindo.
 
 // State_Andromeda_Stunned_Visual
@@ -324,12 +331,12 @@ State_Andromeda_Stunned_Visual_EXPIRED_effect
 
 // Ability_Andromeda2
 Ability_Andromeda2_name											Aurora
-Ability_Andromeda2_description									Andromeda sacode o campo magnético de Newerth, causando uma erupção de Aurora, causa dano, e reduz a armadura de todos o inimigos a frente dela.
+Ability_Andromeda2_description									Andromeda vibra o campo magnético de Newerth, causando um estouro de Aurora, causando dano, e reduzindo a armadura de todos o inimigos a frente dela.
 Ability_Andromeda2_description2									
 Ability_Andromeda2_effect_header								Efeitos da Aurora
 Ability_Andromeda2_effect_header2								
 Ability_Andromeda2_tooltip_flavor								
-Ability_Andromeda2_IMPACT_effect								Causa {25,50,75,100} de dano Mágico nos alvos em uma linha reduzindo a armadura e o dano por 20 segundos.
+Ability_Andromeda2_IMPACT_effect								Causa {25,50,75,100} de Dano Mágico nos alvos em uma linha reduzindo sua armadura e dano por 20 segundos.
 Ability_Andromeda2_tooltip_flavor								Você quer sacodir com aquilo?
 
 // Gadget_Andromeda_Ability2_Reveal
@@ -354,7 +361,7 @@ Ability_Andromeda3_IMPACT_effect:andromedaauratoggle_heroes		Ao usar, a aura vai
 
 // State_Andromeda_Ability3
 State_Andromeda_Ability3_name									Dimensional Link
-State_Andromeda_Ability3_description							Você se sente diferente com Andromeda na volta.
+State_Andromeda_Ability3_description							Você se sente diferente com a Andromeda por perto.
 State_Andromeda_Ability3_description2							
 
 // Ability_Andromeda4
@@ -366,7 +373,7 @@ Ability_Andromeda4_effect_header2
 Ability_Andromeda4_tooltip_flavor								
 Ability_Andromeda4_IMPACT_effect								Andromeda troca de posição imediatamente com o alvo.
 Ability_Andromeda4_description2:ult_boost						Esta habilidade foi melhorada pelo Staff of the Master.
-Ability_Andromeda4_name:ult_boost								Nether Rip ^g(Boosted)^*
+Ability_Andromeda4_name:ult_boost								Nether Rip (Melhorado)
 Ability_Andromeda4_tooltip_flavor								Está com você agora!
 
 // Gadget_Andromeda_Ability4
@@ -375,14 +382,14 @@ Gadget_Andromeda_Ability4_description
 
 // Hero_Andromeda
 Hero_Andromeda_name												Andromeda
-Hero_Andromeda_description										A celestial nascida das estrelas conhecida como Andromeda é uma estranha para Newerth. Sem memória de seu lar ou povo, ela é movida apenas por um senso inato que Hellbourne são vilões e os habitantes mortais de Newerth são inocentes. Sua poderosa magia dimencional permite a ela trazer destruição para os demônios ou força para para seus novos aliados.
+Hero_Andromeda_description										A celestial nascida das estrelas conhecida como Andromeda é uma estranha para Newerth. Sem lembranças do seu lar ou povo, ela é movida apenas por um senso inato que os Hellbourne são vilões e os habitantes mortais de Newerth são inocentes. Sua poderosa magia dimensional permite a ela trazer destruição para os demônios ou força para para seus novos aliados.
 
 // Ability_Arachna1
 Ability_Arachna1_name											Webbed Shot
 Ability_Arachna1_description									Arachna lança um ataque com teias, reduzindo a velocidade do inimigo no impacto.
-Ability_Arachna1_description2									^rEssa é uma habilidade de ataque. Botão Direito para ^rativar auto-cast desta skill.^*
+Ability_Arachna1_description2									^rEssa é uma habilidade de ataque. Botão Direito para ^reativar auto-cast desta skill.^*^*
 Ability_Arachna1_effect_header									Efeitos de Webbed Shot
-Ability_Arachna1_IMPACT_effect									Faz com que no próximo ataque aplique Webbed Shot ao alvo por 3 seconds.
+Ability_Arachna1_IMPACT_effect									Faz com que o próximo ataque aplique Webbed Shot ao alvo por 3 seconds.
 
 Ability_Arachna1_tooltip_flavor									Eu tenho uma mosca na minha teia!
 
@@ -394,7 +401,7 @@ State_Arachna_Ability1_FRAME_effect
 Ability_Arachna2_name											Harden Carapace
 Ability_Arachna2_description									Arachna endurece sua carapaça por curta duração, aumentando sua resistência a ataques mágicos.
 Ability_Arachna2_effect_header									Efeitos de Hardened Carapace 
-Ability_Arachna2_IMPACT_effect									Remove debuffs de si e aplica Hardened Carapace por 6 segundos.
+Ability_Arachna2_IMPACT_effect									Remove debuffs em si e aplica Hardened Carapace por 6 segundos.
 
 Ability_Arachna2_tooltip_flavor									É difícil ser uma viúva.
 
@@ -403,7 +410,7 @@ State_Arachna_Ability2_name										Hardened Carapace
 
 // Ability_Arachna3
 Ability_Arachna3_name											Precision
-Ability_Arachna3_description									Quando Arachna dá um tiro preciso, inspira as unidades próximas aumentando seu dano base. Também aumenta o dano da Arachna.
+Ability_Arachna3_description									Os famosos tiros certeiros da Arachna inspira as unidades próximas aumentando seu dano base. Também aumenta o dano da Arachna.
 Ability_Arachna3_tooltip_flavor									Eu posso ver a sua fraqueza.
 Ability_Arachna3_IMPACT_effect									Ao usar, a aura vai afetar somente Heroes.
 Ability_Arachna3_name:arachnaauratoggle_heroes					Precision (Heroes)
@@ -414,9 +421,9 @@ State_Arachna_Ability3_name										Precision
 
 // Ability_Arachna4
 Ability_Arachna4_name											Spider Sting
-Ability_Arachna4_description									Lança uma Spiderling no inimigo alvo que pode revelar inimigos invisíveis(stealth). Quando encontra seu destino, a Spiderling ataca viciosamente o inimigo causando envenenamento e reduzindo a velocidade de ataque.
+Ability_Arachna4_description									Lança uma Spiderling no inimigo alvo que pode revelar inimigos invisíveis (stealth). Quando encontra seu destino, a Spiderling ataca viciosamente o inimigo causando envenenamento e reduzindo a velocidade de ataque.
 Ability_Arachna4_effect_header									Efeitos da Spider Sting
-Ability_Arachna4_IMPACT_effect									Lança uma Spiderling na unidade alvo. Quando acontece o impacto, aplica Spider Sting por 1.5 segundos. Cada ataque da Spiderling feito renova Spider Sting por 1.5 segundos e causa {62,138,225} de dano físico.\n\nA spiderling morrerá se for atacada 3 vezes.\n\nA Spiderling tem o tempo de ataque de 1 segundo.  A Spiderling irá acabar depois de 5 ataques, com um total maximo de 15 segundos de vida. Enquanto a Spiderling viver, o alvo será revelado\n\nA Spiderling tem 5 de armor, imunidade a Magias e Splash.
+Ability_Arachna4_IMPACT_effect									Lança uma Spiderling na unidade alvo. Quando acontece o impacto, aplica Spider Sting por 1,5 segundos. Cada ataque da Spiderling feito renova Spider Sting por 1.5 segundos e causa {75,150,225} de dano Físico.\n\nA Spiderling morrerá se for atacada três vezes.\n\nA Spiderling tem o tempo de ataque de 1,0 segundo.  A Spiderling irá acabar depois de atacar 5 vezes, com um total maximo de 15 segundos de vida. Enquanto a Spiderling viver, o alvo será revelado\n\nA Spiderling tem imunidade a Magias e Splash.
 
 Ability_Arachna4_tooltip_flavor									É um beijo mortal!
 
@@ -427,13 +434,13 @@ State_Arachna_Ability4_name										Spider Sting
 
 // Hero_Arachna
 Hero_Arachna_name												Arachna
-Hero_Arachna_description										É dito que para todo medo e toda fobia que aflinge humanos e bestas, existe um demônio esperando para nascer.  Arachna -- tenebrosa, oculta, tortuosa e cruel -- aparece do medo das aranhas. Protegida por exoesqueleto orgânico tao forte quanto ferro frio, ela observa, prende e assassina seus inimigos.
+Hero_Arachna_description										É dito que para todo medo e toda fobia que aflinge Homens e Beasts, existe um demônio esperando para nascer.  Arachna -- tenebrosa, oculta, tortuosa e cruel -- aparece do medo das aranhas. Protegida por exoesqueleto orgânico tao forte quanto ferro frio, ela observa, prende e assassina seus inimigos.
 
 // Ability_Armadon1
 Ability_Armadon1_name											Snot Storm
-Ability_Armadon1_description									Lança uma bola de gosma no inimigo alvo, reduzindo o armor e deixando-o mais lento. Cada Snot adicional reduz mais o armor e a velocidade.
+Ability_Armadon1_description									Lança uma bola de gosma no inimigo alvo, reduzindo o armor e deixando-o mais lento. Cada Snot adicional reduz mais a armadura e a velocidade.
 Ability_Armadon1_effect_header									Efeitos de Sticky Snot
-Ability_Armadon1_IMPACT_effect									Aplica Sticky Snot ao alvo por 5 segundos adicionando 1 charge.
+Ability_Armadon1_IMPACT_effect									Aplica Sticky Snot ao alvo por 5 segundos adicionando uma carga.
 Ability_Armadon1_tooltip_flavor									Eu disse que eu precisava de um lenço!
 
 // State_Armadon_Ability1
@@ -441,26 +448,26 @@ State_Armadon_Ability1_name										Sticky Snot
 
 // Ability_Armadon2
 Ability_Armadon2_name											Spine Burst
-Ability_Armadon2_description									Cria uma chuva de espinhos na área em volta do Armadon, dando dano aos inimigos próximos. Se uma unidade ja foi acertada por algum espinho recentemente receberá dano extra.
+Ability_Armadon2_description									Cria uma chuva de espinhos na área em volta do Armadon, causando dano aos inimigos próximos. Se uma unidade ja foi vítima de algum espinho recentemente receberá dano extra.
 Ability_Armadon2_effect_header									Spine Vulnerability
-Ability_Armadon2_IMPACT_effect									Causa {20,40,60,80} de dano físico e aplica Spine Vulnerability aos inimigos no radius por 13 segundos. Adiciona 1 charge.
+Ability_Armadon2_IMPACT_effect									Causa {20,40,60,80} de dano físico e aplica Spine Vulnerability aos inimigos no radius por 13 segundos. Adiciona uma carga.
 Ability_Armadon2_tooltip_flavor									AwwChoo!
 
 // State_Armadon_Ability2
 State_Armadon_Ability2_name										Spine Burst
-State_Armadon_Ability2_FRAME_effect								30 de dano físico por charge
+State_Armadon_Ability2_FRAME_effect								30 de dano Físico por carga
 
 // Ability_Armadon3
 Ability_Armadon3_name											Armordillo
-Ability_Armadon3_description									Armadon fortifica seus espinhos, reduzindo o dano causado por trás ou pelos lados.  Um Spine Burst extra é lançado baseado no dano absorvido pelos espinhos..
-Ability_Armadon3_DAMAGED_effect									Reduz dano tomado pelas costas em {10,20,30,40}% e em {5,10,15,20}% pelos lados.  Solta um Spine Burst extra quando atinge 300 de dano total absorvido.
+Ability_Armadon3_description									Armadon fortifica seus espinhos, reduzindo o dano causado por trás ou pelos lados.  Um Spine Burst extra é lançado baseado no dano recebido.
+Ability_Armadon3_DAMAGED_effect									Reduz dano recebido pelas costas em {10,20,30,40}% e pelos lados em {5,10,15,20}%.  Solta um Spine Burst extra quando atinge 200 de dano total recebido.
 Ability_Armadon3_tooltip_flavor									Impenetrável!
 
 // Ability_Armadon4
 Ability_Armadon4_name											Restless
-Ability_Armadon4_description									Armadon aumenta temporáriamente sua velocidade de ataque e movimentação para cada skill que usar.
+Ability_Armadon4_description									Armadon aumenta, temporariamente, sua velocidade de ataque e movimento para cada skill que usar.
 Ability_Armadon4_effect_header									Restless
-Ability_Armadon4_ABILITY_IMPACT_effect							Aplica Restless a si mesmo por 10 segundos. Adiciona 1 charge.
+Ability_Armadon4_ABILITY_IMPACT_effect							Aplica Restless a si por 10 segundos. Adiciona uma carga.
 Ability_Armadon4_tooltip_flavor									Me dê, me dê cafeina!
 
 // State_Armadon_Ability4
@@ -468,7 +475,7 @@ State_Armadon_Ability4_name										Relentless
 
 // Hero_Armadon
 Hero_Armadon_name												Armadon
-Hero_Armadon_description										Um defensor obstinado e fiel aos fracos, sendo homem ou animal, o longo vivido Armadon recusou em fazer parte da guerra entre a Legion e a Horde, e em vez manteve um ponto no meio da disputa. Com a chegada da Hellbourne, no entanto, a escolha de Armadon ficou clara, e ele ergueu seu poderoso cetro ao serviço do bem. O guerreiro espinhoso agora é um herói-chave na nova Legion.
+Hero_Armadon_description										Um defensor obstinado e fiel aos fracos, sendo Homem ou Besta, o velho Armadon recusou-se a fazer parte da guerra entre a Legion e a Horde, mnteve-se neutro nesta disputa. Com a chegada da Hellbourne, no entanto, a escolha de Armadon ficou clara, e ele ergueu seu poderoso cetro ao serviço do bem. O guerreiro espinhoso agora é um herói-chave na nova Legion.
 
 // Ability_BabaYaga1
 Ability_BabaYaga1_name											Haunt
@@ -477,7 +484,7 @@ Ability_BabaYaga1_description2
 Ability_BabaYaga1_effect_header									Efeitos do Haunted
 Ability_BabaYaga1_effect_header2								
 							
-Ability_BabaYaga1_IMPACT_effect									Causa {50,70,70,100} de dano Mágico inicial, então aplica Haunted no alvo por 15 segundos.
+Ability_BabaYaga1_IMPACT_effect									Causa {50,70,70,100} de dano Mágico inicial, e então aplica Haunted no alvo por 15 segundos.
 
 Ability_BabaYaga1_tooltip_flavor								O que tem na minha manga?
 
@@ -485,17 +492,17 @@ Ability_BabaYaga1_tooltip_flavor								O que tem na minha manga?
 State_BabaYaga_Ability1_name									Haunted
 State_BabaYaga_Ability1_description								
 State_BabaYaga_Ability1_description2							
-State_BabaYaga_Ability1_FRAME_effect							{10,20,40,50} de dano Mágico a cada 3 segundos.\n{20,30,40,50}% de diminuição de movimento inicialmente, que recupera em 10 segundos.
+State_BabaYaga_Ability1_FRAME_effect							{10,20,40,50} de dano Mágico a cada 3 segundos.\n{20,30,40,50}% de diminuição de velocidade de movimento inicialmente, que se recupera em 10 segundos.
 State_BabaYaga_Ability1_IMPACT_effect							
 
 // Ability_BabaYaga2
 Ability_BabaYaga2_name											Flash of Darkness
-Ability_BabaYaga2_description									A Wretched Hag desaparece em um lampejo de trevas, imediatamente reaparece no local alvo.
+Ability_BabaYaga2_description									A Wretched Hag desaparece em um lampejo de trevas apenas para, imediatamente, reaparece no local alvo.
 Ability_BabaYaga2_description2									
 Ability_BabaYaga2_effect_header									
 Ability_BabaYaga2_effect_header2								
 Ability_BabaYaga2_tooltip_flavor								
-Ability_BabaYaga2_IMPACT_effect									Se teletransporta para o local alvo.
+Ability_BabaYaga2_IMPACT_effect									Se teletransporta para a posição alvo.
 
 Ability_BabaYaga2_tooltip_flavor								Como um morcego fora do inferno!
 
@@ -511,11 +518,11 @@ Ability_BabaYaga3_tooltip_flavor								Você pode me ouvir?
 
 // Ability_BabaYaga4
 Ability_BabaYaga4_name											Bat Blast
-Ability_BabaYaga4_description									A Wretched Hag solta uma grande quantidade de morcegos mágicos em uma direção alvo. Inimigos pegos serão altamente danificados.
+Ability_BabaYaga4_description									A Wretched Hag solta uma grande quantidade de morcegos mágicos em uma direção alvo. Inimigos pegos serão fortemente atingidos.
 Ability_BabaYaga4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeito do Staff:^* Aumenta o dano de {290,430,600} para {340,530,725}.
 Ability_BabaYaga4_effect_header									Efeitos do Haunted
-Ability_BabaYaga4_IMPACT_effect									Causa {290,430,600} de dano Mágico e aplica Haunted nos alvos em uma linha, até 800 units de distância. O radius da linha de dano começa com 100 e termina em 300.
-Ability_BabaYaga4_name:ult_boost								Bat Swarm ^g(Boosted)^*
+Ability_BabaYaga4_IMPACT_effect									Causa {290,430,600} de dano Mágico e aplica Haunted nos alvos em uma linha, até 700 unidades de distância. O radius da linha de dano começa com 100 e termina em 300.
+Ability_BabaYaga4_name:ult_boost								Bat Swarm ^g(Melhorado)^*
 Ability_BabaYaga4_description2:ult_boost						Esta habilidade foi melhorada pelo Staff of the Master.
 Ability_BabaYaga4_IMPACT_effect:ult_boost						Causa ^g{340,530,725}^* de dano Mágico e aplica Haunted nos alvos em uma linha, até 800 units de distância. O radius da linha de dano começa com 100 e termina em 300.
 
@@ -526,22 +533,22 @@ State_BabaYaga_Ability4_name									Haunted
 State_BabaYaga_Ability4_description								
 State_BabaYaga_Ability4_description2							
 State_BabaYaga_Ability4_FRAME_effect							Você precisa ter aprendido Haunt para que o Haunted tenha efeito.
-State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_1		10 de dano Mágico a cada 3 segundos.\n20% de diminuição de movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
-State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_2		20 de dano Mágico a cada 3 segundos.\n30% de diminuição de movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
-State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_3		40 de dano Mágico a cada 3 segundos.\n40% de diminuição de movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
-State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_4		50 de dano Mágico a cada 3 segundos.\n50% de diminuição de movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
+State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_1		10 de dano Mágico a cada 3 segundos.\n20% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
+State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_2		20 de dano Mágico a cada 3 segundos.\n30% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
+State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_3		40 de dano Mágico a cada 3 segundos.\n40% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
+State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_4		50 de dano Mágico a cada 3 segundos.\n50% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
 State_BabaYaga_Ability4_IMPACT_effect							
 
 // Hero_BabaYaga
 Hero_BabaYaga_name												Wretched Hag
-Hero_BabaYaga_description										A Wretched Hag assombrou a escuridão de Newerth muito antes dos Hellbourne aparecerem. A bruxa diabólica festejou a carne de crianças e noivas virgens, ela mantém como companhia somente seu enxame de morcegos -- as únicas criaturas que conseguem aguentar seus gritos agudos.
+Hero_BabaYaga_description										A Wretched Hag assombrou a escuridão de Newerth muito antes dos Hellbourne aparecerem. A bruxa diabólica festejou sobre a carne de crianças e noivas virgens, ela mantém como companhia somente seu enxame de morcegos -- as únicas criaturas que conseguem aguentar seus gritos agudos.
 
 // Ability_Behemoth1
 Ability_Behemoth1_name											Fissure
-Ability_Behemoth1_description									Com um poderoso golpe de seu tronco, o Behemoth destrói o terreno causando dano e stun nas unidades inimigas na sua frente e deixa o caminho intransitável.
+Ability_Behemoth1_description									Com um poderoso golpe de seu tronco, o Behemoth destrói o terreno causando dano e stun nas unidades inimigas na sua frente e deixa uma barreira de terra intransponível.
 Ability_Behemoth1_effect_header									Efeitos do Fissure
-Ability_Behemoth1_IMPACT_effect									Causa {125,175,225,275} de dano Mágico a cada alvo na linha e stun de {1,1.25,1.5,1.75} segundo(s). Deixa o caminho destruido por 8 segundos.
-Ability_Behemoth1_tooltip_flavor								Aqui está a linha, e você atravessou ela!
+Ability_Behemoth1_IMPACT_effect									Causa {125,175,225,275} de dano Mágico a cada alvo na linha e stun de {1,1.25,1.5,1.75} segundo(s). Deixa uma barreira de terra intransopnível por 8 segundos.
+Ability_Behemoth1_tooltip_flavor								Aqui está a linha e você atravessou ela!
 
 // Gadget_Behemoth_Ability1
 Gadget_Behemoth_Ability1_name									Crevasse
@@ -550,7 +557,7 @@ Gadget_Behemoth_Ability1_name									Crevasse
 Ability_Behemoth2_name											Enrage
 Ability_Behemoth2_description									O Behemoth libera sua raiva, fazendo com que seu próximo ataque tenha o dano aumentado.
 Ability_Behemoth2_effect_header									Enraged Effects
-Ability_Behemoth2_IMPACT_effect									Aplica Enraged a si mesmo por 14 segundos ou até o próximo ataque.
+Ability_Behemoth2_IMPACT_effect									Aplica Enraged a si por 14 segundos ou até o próximo ataque.
 Ability_Behemoth2_tooltip_flavor								Você foi longe demais.
 
 // State_Behemoth_Ability2
@@ -565,58 +572,165 @@ Ability_Behemoth3_tooltip_flavor								Estrondo na selva!
 
 // Ability_Behemoth4
 Ability_Behemoth4_name											Shockwave
-Ability_Behemoth4_description									O Behemoth bate no chão com todo o seu poder, criando uma onda devastadora em volta de si. A onda ricocheteia nos inimigos próximos, aumentando efetivamente o dano causado baseado no número de unidades inimigas.
+Ability_Behemoth4_description									O Behemoth bate no chão com todo o seu poder, criando uma onda devastadora em volta de si. A onda ricocheteia nos inimigos próximos, aumentando efetivamente o dano causado baseado no número de unidades inimigas próximas.
 Ability_Behemoth4_effect_header									Status Effect
-Ability_Behemoth4_IMPACT_effect									Causa {165,230,285} de dano Mágico às unidades em um radius de 500 em volta de si. Causa {35,45,65} de dano Mágico adicional para cada unidade inimiga dentro do radius e {17.5,22.5,32.5} de dano Mágico adicional para cada corpo dentro do radius.
+Ability_Behemoth4_IMPACT_effect									Causa {200,275,350} de dano Mágico às unidades em um radius de 500 em volta de si. Causa {35,45,65} de dano Mágico adicional para cada unidade inimiga dentro do radius e {17.5,22.5,32.5} de dano Mágico adicional para cada corpo dentro do radius.
 Ability_Behemoth4_tooltip_flavor								Vou sacudir um pouco!
 
 // Hero_Behemoth
 Hero_Behemoth_name												Behemoth
 Hero_Behemoth_description										Com tremores de terra e destruindo paredes, Behemoths marcham pelo campo de batalha segurando troncos de árvores enraizadas com forças mortais.  A força de seus ataques faz os inimigos a ficarem de joelhos, onde com poderosos ataques podiam fazer um trabalho rápido com eles.  De todas as Bestas, nenhuma é tão poderosa quanto essas criaturas nobres, nem nenhuma tão cheia de vida para ficar entre os demônios e seus amigos.
+// Ability_Bephelgor1
+Ability_Bephelgor1_name											Demonic Pathogen
+Ability_Bephelgor1_description									Um dos muitos patógneos que infestam o Balphagore infecta o inimigo. Este patógeno priva sua vítima da habilidade de usar mágicas e as machuca enquanto a doença se propaga.  Depois se espalha para qualquer aliado próximo da vítima.
+Ability_Bephelgor1_description2									
+Ability_Bephelgor1_effect_header								Contagion
+Ability_Bephelgor1_effect_header2								
+Ability_Bephelgor1_tooltip_flavor								Detona com a gripe suína
+Ability_Bephelgor1_IMPACT_effect								Aplica Contagion no alvo por {1,1.5,2,2.5} segundos. Ao expirar, Contagion é aplicado ao inimigo em um radius de 300 em torno do alvo original pela mesma duração. Contagion também irá se transferir para os inimigos próximos caso o alvo original morra sob seu efeito.
+
+// State_Bephelgor_Ability1
+State_Bephelgor_Ability1_name									Contagion
+State_Bephelgor_Ability1_description							
+State_Bephelgor_Ability1_description2							
+State_Bephelgor_Ability1_effect_header							None
+State_Bephelgor_Ability1_effect_header2							None
+State_Bephelgor_Ability1_tooltip_flavor							None
+State_Bephelgor_Ability1_FRAME_effect							{100} dan Mágico por segundo
+State_Bephelgor_Ability1_IMPACT_effect							
+
+// State_Bephelgor_Ability1_Secondary
+State_Bephelgor_Ability1_Secondary_name							Demonic Disease (secundário)
+State_Bephelgor_Ability1_Secondary_description					
+State_Bephelgor_Ability1_Secondary_description2					
+State_Bephelgor_Ability1_Secondary_effect_header				None
+State_Bephelgor_Ability1_Secondary_effect_header2				None
+State_Bephelgor_Ability1_Secondary_tooltip_flavor				None
+State_Bephelgor_Ability1_Secondary_FRAME_effect					
+State_Bephelgor_Ability1_Secondary_INFLICT_effect				
+
+// Ability_Bephelgor2
+Ability_Bephelgor2_name											Corpse Conversion
+Ability_Bephelgor2_description									A carne em decomposição e ossos guardados nas vísceras do Balphagore fundem-se em pequenos minions demoniacos, os quais o Balphagore regurgita sob seu comando. Ele produz mais minions se ele consumir mais corpos.
+Ability_Bephelgor2_description2									
+Ability_Bephelgor2_effect_header								
+Ability_Bephelgor2_effect_header2								
+Ability_Bephelgor2_tooltip_flavor								Diga olá para meu(s) pequeno(s) amigo(s)Say hello to my little friend(s)
+Ability_Bephelgor2_IMPACT_effect								Cria um Minion para cada três cargas.\n\nMáximo de {6,9,12,15} cargas.\n\nMinions aplicam uma redução de velocidade de movimento que se soma de {1,2,3,4}% por 2 segundos quando estiverem atacando, máximo de 6 somas.
+Ability_Bephelgor2_DEATH_effect									
+Ability_Bephelgor2__effect										
+
+// Ability_Bephelgor2_Pet_Ability1
+Ability_Bephelgor2_Pet_Ability1_name							Crippling Strike
+Ability_Bephelgor2_Pet_Ability1_description						Os minnions de Balphagore lerdam seus inimigos ao acossa-los com golpes debilitantes.
+Ability_Bephelgor2_Pet_Ability1_description2					
+Ability_Bephelgor2_Pet_Ability1_effect_header					Crippled
+Ability_Bephelgor2_Pet_Ability1_effect_header2					
+Ability_Bephelgor2_Pet_Ability1_tooltip_flavor					
+Ability_Bephelgor2_Pet_Ability1_ATTACK_IMPACT_effect			Aplica Crippled no alvo por 2 segundos, adicionando uma carga. Máximo de 6 cargas.
+
+// State_Bephelgor_Ability2_Pet_Snare
+State_Bephelgor_Ability2_Pet_Snare_name							Crippled
+			
+
+// Pet_Bephelgor_Ability2
+Pet_Bephelgor_Ability2_name										Minion
+				
+						
+
+// State_Bephelgor_Ability2
+State_Bephelgor_Ability2_FRAME_effect							Consome corpos, adicionando uma carga e curando Balphagore em {10,15,20,25}.
+
+// Ability_Bephelgor3
+Ability_Bephelgor3_name											Regurgitate
+Ability_Bephelgor3_description									Balphagore vomita uma bile demoniaca em todos os inimigos na frente dele, causando dano e lerdando-os.  Alguns dos corpos de suas vítimas anteriores também são expelidos, os quais Balphagore pode escolher apreciá-los uma segunda vez.
+Ability_Bephelgor3_description2									
+Ability_Bephelgor3_effect_header								Bile
+Ability_Bephelgor3_tooltip_flavor								Você me dá enjoo
+Ability_Bephelgor3_IMPACT_effect								Causa {40,65,90,115} dano Mágico por segundo nos inimigos em um cone de 100 graus na sua frente, até 400 unidades a frente.\n\nInimigos pegos no cone têm Bile aplicada neles. Regurgita um total de 6 corpos durante o processo. Dura 3 segundos.
+
+// State_Bephelgor_Ability3_Snare
+State_Bephelgor_Ability3_Snare_name								Bile
+						
+
+// Ability_Bephelgor4
+Ability_Bephelgor4_name											Hell on Newerth
+Ability_Bephelgor4_description									Após ganhar bastante poder das magias usadas por seus inimigos, Balphagore liberta o poder infernal guardado dentro de suas vísceras em um anel explosivo de fogo infernal. 
+Ability_Bephelgor4_description2									
+Ability_Bephelgor4_effect_header								Hell Snare
+Ability_Bephelgor4_effect_header2								
+Ability_Bephelgor4_tooltip_flavor								ratam em eved êcov ogoj o rahnag arap
+Ability_Bephelgor4_FRAME_effect									
+Ability_Bephelgor4_IMPACT_effect								Causa {200,300,400} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {350, 450, 550}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {150,225,300} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.
+Ability_Bephelgor4_IMPACT_effect:bephelgor_ability4_level1		Causa {200,300,400} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {350, 450, 550}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {150,225,300} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.
+Ability_Bephelgor4_IMPACT_effect:bephelgor_ability4_level2		Causa {200,300,400} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {350, 450, 550}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {150,225,300} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.
+Ability_Bephelgor4_IMPACT_effect:bephelgor_ability4_level3		Causa {200,300,400} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {350, 450, 550}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {150,225,300} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.
+Ability_Bephelgor4__effect										
+
+// Pet_Bephelgor_Ability4
+Pet_Bephelgor_Ability4_name										
+Pet_Bephelgor_Ability4_description								
+Pet_Bephelgor_Ability4_DEATH_effect								
+
+// State_Bephelgor_Ability4
+State_Bephelgor_Ability4_name									
+State_Bephelgor_Ability4_description							
+State_Bephelgor_Ability4_description2							
+State_Bephelgor_Ability4_effect_header							None
+State_Bephelgor_Ability4_effect_header2							None
+State_Bephelgor_Ability4_tooltip_flavor							None
+State_Bephelgor_Ability4_FRAME_effect							Reduz a velocidade de movimento em 50% inicialmente, recuperando para a velocidade máxima ao longo de 6 segundos.
+
+// State_Bephelgor_Ability4_Aura
+State_Bephelgor_Ability4_Aura_name								Balphagore Aura
+State_Bephelgor_Ability4_Aura_FRAME_effect						Ao usar magia, adiciona uma carga ao Hell on Newerth baseado na mana gasta.
+
+// Hero_Bephelgor
+Hero_Bephelgor_name												Balphagore
+Hero_Bephelgor_description										O amor visceral de Balphagore por corpos o leva para qualquer lugar em que as atrocidades dos Hellbourne estão mais fortes.  Armado com uma coleção de poderes negros, este demônio não é para ser zombado quando está com fome -- e Balphagore está sempre com fome.
 
 // Ability_Chipper1
 Ability_Chipper1_name											Rocket Barrage
-Ability_Chipper1_description									O Chipper pode disparar um pequeno foguete em qualquer direção a partir da cúpula no topo do seu andador. O foguete ira causar dano e ministun, e pegar fogo. Se o Chipper estiver perto da explosão do foguete, a explosão vai causar a metade do dano para prevenir que danifique o seu andador.
-Ability_Chipper1_IMPACT_effect									Causa {105,130,155,180} de dano Mágico e stun de 0.1 segundos. Ganha um charge a cada 4 segundos. Máximo de {1,2,2,3} charges.\n\nSe o alvo estiver com Tar Toss, eles vão pegar fogo e queimar por {20,30,40,50} de dano Mágico por segundo até o slow acabar.\n\nSe o Chipper estiver dentro de 175 de radius da explosão do foguete, a explosão vai causar somente a metade do dano.
+Ability_Chipper1_description									O Chipper dispara um pequeno foguete em qualquer direção a partir da cúpula no topo do seu andador. O foguete ira causar dano e ministun, e botar fogo no Tar. Se o Chipper estiver perto da explosão do foguete, a explosão vai causar a metade do dano para prevenir que danifique o seu andador.
+Ability_Chipper1_IMPACT_effect									Causa {105,130,155,180} de dano Mágico e stun de 0.1 segundo. Ganha uma carga a cada 4 segundos. Máximo de {1,2,2,3} cargas.\n\nSe o alvo estiver coberto por Tar Toss, eles vão pegar fogo e queimar por {20,30,40,50} de dano Mágico por segundo até o slow acabar.
 
 Ability_Chipper1_tooltip_flavor									Não mire, apenas atire!
 
 // Ability_Chipper2
 Ability_Chipper2_name											Tar Toss
-Ability_Chipper2_description									O Chipper lança uma colher de seu oléo especial no alvo. Qualquer inimigo atingido no impacto terão movimento reduzido e aqueles que tomaram toda a força do golpe, mal conseguira se mover.
+Ability_Chipper2_description									O Chipper lança uma colher de seu oléo especial no local alvo. Qualquer inimigo atingido no impacto terão movimento reduzido e aqueles que tomaram toda a força do golpe mal conseguirão se mover.
 Ability_Chipper2_effect_header									Efeitos de Tar Covered
 Ability_Chipper2_IMPACT_effect									Aplica Tar Covered para qualquer um atingido por 5 segundos. Reduz movimento e velocidade de ataque baseado em quanto perto do centro eles estão no impacto. Quanto mais perto do meio, mais lento firacam.\n\n O máximo é {20,40,60,80}% de redução de movimento e {10,20,30,40}% de redução de velocidade de ataque.
 
-Ability_Chipper2_tooltip_flavor									Não corra! eu sou seu amigo!
+Ability_Chipper2_tooltip_flavor									Não corra! Eu sou seu amigo!
 
 // State_Chipper_Ability2
 State_Chipper_Ability2_Tooltip_name								Tar Covered
-State_Chipper_Ability2_Tooltip_FRAME_effect						10% de redução de movimento\n{0.1,0.3,.5,0.7}% de redução de movimento por charge\n{0.1,0.2,0.3,0.4}% de redução de velocidade de ataque por charge
+State_Chipper_Ability2_Tooltip_FRAME_effect						10% de redução de movimento\n{.1,.3,.5,.7}% de redução de movimento por carga\n{.1,.2,.3,.4}% de redução de velocidade de ataque por carga
 State_Chipper_Ability2_name										Tar Covered
 
 // Ability_Chipper3
 Ability_Chipper3_name											Focus Buffer
-Ability_Chipper3_description									O Chipper canaliza a energia de um campo de nêutrons temporariamente em uma barreira para de seus aliados, protegendo-o contra dano magico e refletindo o dano restante devolta para o atacante.
+Ability_Chipper3_description									O Chipper canaliza a energia de um campo de nêutrons temporariamente em uma barreira para um de seus aliados, protegendo-o contra dano magico.
 Ability_Chipper3_effect_header									Efeitos do Focus Buffer
-Ability_Chipper3_IMPACT_effect									Aplica Focus Buffer ao alvo por 20 segundos. Todo o dano recebido pelo Focus Buffer é refletido para todos os Heroes inimigos em uma área de 600 units, o dano é dividido pela quantidade de Heroes igualmente.
+Ability_Chipper3_IMPACT_effect									Aplica Focus Buffer no alvo por 20 segundos.
 
 Ability_Chipper3_tooltip_flavor									Esta é uma operação altamente complexa!
 
 // State_Chipper_Ability3_Buff
 State_Chipper_Ability3_Buff_name								Focus Buffer
-State_Chipper_Ability3_Buff_FRAME_effect						Reduz todo o dano recebido em {11,14,17,20}%\nReflete devolta dano em uma área de 600 units
+State_Chipper_Ability3_Buff_FRAME_effect						Absorve {150,300,450,600} dano Mágico.
 
 // Ability_Chipper4
 Ability_Chipper4_name											Sawblade Showdown
-Ability_Chipper4_description									O Chipper é capaz de se comunicar com os Chiprels abaixo da terra, chamando uma serra giratória para fora da terra onde ele direcionar. Qualquer um sem sorte o bastante de passar em cima do caminho das serras recebera um dano significativo.
-Ability_Chipper4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gRange increased to 1000.\n^gApplies 70% snare to anyone in the Saws.
+Ability_Chipper4_description									O Chipper é capaz de se comunicar com os Chiprels debaixo da terra, chamando uma serras giratórias para fora da terra onde ele os direcionar. Qualquer um sem sorte o bastante de passar em cima do caminho das serras recebera um dano significativo.
+Ability_Chipper4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gRange aumentada para 1000.\n^gAplica 70% de snare para qualquer um dentro das Serras.
 Ability_Chipper4_effect_header									Efeito da Sawblade
-Ability_Chipper4_IMPACT_effect									Invoca serras por 8 segundos. Aplica Sawblade a qualquer inimigo que andar dentro das serras. Serras destroem árvores, obviamente.
+Ability_Chipper4_IMPACT_effect									Invoca serras por 8 segundos. Aplica Sawblade a qualquer inimigo que andar dentro das serras giratórias. Serras destroem árvores, obviamente.
 Ability_Chipper4_name:ult_boost									Sawblade Destruction
-Ability_Chipper4_description2:ult_boost							This ability has been boosted by Staff of the Master.\n\n^gRange increased to 1000.\n^gApplies 70% snare to anyone in the Saws.
+Ability_Chipper4_description2:ult_boost							Esta habilidade foi melhorada pela Staff of the Master.\n\n^gRange aumentada para 1000.\n^gAplica 70% de snare para qualquer um dentro das Serras.
 
-Ability_Chipper4_tooltip_flavor									O truque é controlar o elemento X.
-
+Ability_Chipper4_tooltip_flavor									Controle e um pouco do elemento X resolvem.
 // State_Chipper_Ability4
 State_Chipper_Ability4_name										Sawblade
 State_Chipper_Ability4_FRAME_effect								{100,200,300} de dano Mágico inicial \n{75,125,175} de dano Mágico por segundo
@@ -629,7 +743,7 @@ Hero_Chipper_description										A indescritível raça chiprel passou incontá
 Ability_Chronos1_name											Time Leap
 Ability_Chronos1_description									Chronos se teleporta pelo espaço e pelo tempo para o lugar alvo. Todos os inimigos próximos receberão dano e ficarão lentos.
 Ability_Chronos1_effect_header									Time Sap
-Ability_Chronos1_IMPACT_effect									Teleporta a si mesmo para um lugar alvo, causa {25,75,125,175} de dano Mágico e aplica Time Sap nos inimigos por 3 segundos.
+Ability_Chronos1_IMPACT_effect									Teleporta a si mesmo para um lugar alvo, causa {25,75,125,175} de dano Mágico e aplica Time Sap nos inimigos em radius por 3 segundos.
 Ability_Chronos1_tooltip_flavor									É tudo sobre o capacitor de fluxo!
 
 // State_Chronos_Ability1_Enemy
@@ -654,7 +768,7 @@ Ability_Chronos3_description									Chronos pode roubar o tempo de qualquer Her
 Ability_Chronos3_description2									Esta habilidade contém propriedades de ^yBashing^*. Itens e habilidades com propriedades de  ^yBashing^* têm tempo de cooldown compartilhados.
 Ability_Chronos3_effect_header									Efeitos de Time Stolen
 Ability_Chronos3_effect_header2									Efeitos de Time Enhanced
-Ability_Chronos3_ATTACK_IMPACT_effect							Quando atacar um Hero inimigo, aplica Time Stolen nele e Time Enhanced em si por 10 segundos. Não propaga para ilusões.\n\nCada ataque concecutivo no mesmo alvo irá adicionar um charge. No 5º charge o alvo recebera Stun de {.25,.5,.75,1} segundos.\n\nO roubo de agilidade e o ganho de charge não irão aumentar se o alvo estiver sobre Curse of Ages.
+Ability_Chronos3_ATTACK_IMPACT_effect							Quando atacar um Hero inimigo, aplica Time Stolen nele e Time Enhanced em si por 10 segundos. Não propaga para ilusões.\n\nCada ataque concecutivo no mesmo alvo irá adicionar uma carga. Na 5º carga o alvo recebera Stun de {.25,.5,.75,1} segundo.\n\nO roubo de agilidade e o ganho de carga não irão aumentar se o alvo estiver stunnado pelo Curse of Ages.
 Ability_Chronos3_tooltip_flavor									Aproveite o espaço-tempo contínuo.
 
 // State_Chronos_Ability3
@@ -663,14 +777,14 @@ State_Chronos_Ability3_Self_name								Time Enhanced
 
 // Ability_Chronos4
 Ability_Chronos4_name											Chronofield
-Ability_Chronos4_description									Chronos cria um campo de energia que existe fora do tempo. Todas as unidades que ficarem aprisionadas no campo ficarão congeladas, incapazes de qualquer ação, enquanto aliados dentro do campo terão velocidades reduzidas quase parando.  Chronos é imune aos efeitos.
+Ability_Chronos4_description									Chronos cria um campo de energia que existe fora do tempo. Todas as unidades que ficarem aprisionadas no campo ficarão congeladas, incapazes de qualquer ação, enquanto aliados dentro do campo terão velocidades reduzidas, praticamente parados.  Chronos é imune ao efeito.
 Ability_Chronos4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeitos do Staff:^* Aumenta a duração de {3,4,5} segundos para {4,5,6} segundos, cooldown reduzido para 75 segundos em todos os níveis, e aliados recebem redução de velocidades de 80% em vez de serem congelados.
 Ability_Chronos4_effect_header									Efeitos do Chronofield
 Ability_Chronos4_effect_header2									Efeitos do Time Dilation
-Ability_Chronos4_IMPACT_effect									Aplica Chronofield para todas as unidades e a qualquer um fora o Chronos que entrar dentro do Chronofield. Dura {3,4,5} segundos.
+Ability_Chronos4_IMPACT_effect									Aplica Chronofield para todas as unidades e a qualquer um fora o Chronos que entrar dentro do radius. Dura {3,4,5} segundos.
 Ability_Chronos4_name:ult_boost									Chronofield Deluxe ^g(Melhorado)^*
 Ability_Chronos4_description2:ult_boost							Esta habilidade foi melhorada pelo Staff of the Master.\n\n^gAumenta a duração para {4,5,6} seconds.\n^g75 segundos de cooldown\n^gAliados tem redução de velocidades de 80%
-Ability_Chronos4_IMPACT_effect:ult_boost						Aplica Chronofield para todas as unidades inimigas e Time Dilation para todas as unidades aliadas, qualquer um fora o Chronos que entrar dentro do Chronofield. Dura ^g{4,5,6}^* segundos.
+Ability_Chronos4_IMPACT_effect:ult_boost						Aplica Chronofield para todas as unidades inimigas e Time Dilation para todas as unidades aliadas, com exceção do Chronos, que entrar no radius. Chronofield dura ^g{4,5,6}^* segundos.
 
 Ability_Chronos4_tooltip_flavor									Bem vindo ao Thunderdome!
 
@@ -682,43 +796,43 @@ State_Chronos_Ability4_Ally_name								Time Dilation
 
 // Hero_Chronos
 Hero_Chronos_name												Chronos
-Hero_Chronos_description										Os melhores inventores da Human Legion sempre sonharam em fazer um exército de máquinas para livrar os humanos do custo sangrento de uma guerra. Apenas um foi criado, para que ninguém nunca pudesse encontrar um meio de derrotá-lo. Quando os Hellbourne alimentaram seus componentem mecânicos com uma alma roubada, eles trouxeram Chronos a vida e ganharam o benefício de ter esse monstro artificial lutando ao seu lado.
+Hero_Chronos_description										Os melhores inventores da Legion Humana sempre sonharam em fazer um exército de máquinas para livrar os humanos do custo sangrento de uma guerra. Apenas um foi criado, para que ninguém nunca pudesse encontrar um meio de derrotá-lo. Quando os Hellbourne alimentaram seus componentem mecânicos com uma alma roubada, eles trouxeram Chronos a vida e ganharam o benefício de ter esse monstro artificial lutando ao seu lado.
 
 // Ability_CorruptedDisciple1
 Ability_CorruptedDisciple1_name									Electric Tide
-Ability_CorruptedDisciple1_description							O Corrupted Disciple desencadeia uma Electric Tide de sua esfera, causando dano a qualquer um ao redor dele como uma maré onde que expande e se contrai.
+Ability_CorruptedDisciple1_description							O Corrupted Disciple desencadeia uma Electric Tide de sua orbe, causando dano a qualquer um ao redor dele como uma Onda que expande e se contrai.
 Ability_CorruptedDisciple1_IMPACT_effect						Causa de {40,60,80,100} até {70,105,140,175} dano Mágico aos inimigos que forem atingidos pela onda. Os inimigos recebem dano na expansão e na contração da onda.
 Ability_CorruptedDisciple1_tooltip_flavor						Fora com o bom, dentro com o mal.
 
 // Ability_CorruptedDisciple
 Ability_CorruptedDisciple2_name									Corrupted Conduit
-Ability_CorruptedDisciple2_description							O Corrupted Disciple liga ele a um inimigo, drenando seu dano enquanto aumenta o seu. O Disciple ganha visão de qualquer inimigo que seja drenado.
-Ability_CorruptedDisciple2_effect_header						Corrupted Conduit (Enemy)
-Ability_CorruptedDisciple2_effect_header2						Corrupted Conduit (Self)
-Ability_CorruptedDisciple2_IMPACT_effect						Aplica Corrupted Conduit (Enemy) ao inimigo alvo e Corrupted Conduit (Self) a ele mesmo, ligando os dois juntos e soltando uma carga por segundo.\n\nA ligação é quebrada se o inimigo se mover mais que 700 units de distância do Disciple, se o Disciple perder o inimigo de vista, {50,100,150,200} do total de dano é drenado.\n\nA perda ou bonus de dano é duravel por 13 segundos depois que a ligação é quebrada.\n\nGarante 800 units de visão limpa ao alvo enquanto é drenado.
+Ability_CorruptedDisciple2_description							O Corrupted Disciple liga ele a um inimigo, drenando seu dano enquanto aumenta o seu próprio. O Disciple ganha visão de qualquer inimigo que seja drenado.
+Ability_CorruptedDisciple2_effect_header						Corrupted Conduit (Inimigo)
+Ability_CorruptedDisciple2_effect_header2						Corrupted Conduit (Si)
+Ability_CorruptedDisciple2_IMPACT_effect						Aplica Corrupted Conduit (Inimigo) ao inimigo alvo e Corrupted Conduit (Si) em você, ligando os dois juntos e soltando uma carga por segundo.\n\nA ligação é quebrada se o inimigo se mover mais que 700 unidades de distância do Disciple, se o Disciple perder o inimigo de vista, {50,100,150,200} do total de dano é drenado.\n\nA perda ou bonus de dano é retida por 13 segundos depois que a ligação é quebrada.\n\nGarante 800 unidades de visão limpa sobre o alvo enquanto é drenado.
 Ability_CorruptedDisciple2_tooltip_flavor						tudo que é seu é meu agora.	
 
 // State_CorruptedDisciple_Ability2
-State_CorruptedDisciple_Ability2_Enemy_name						Corrupted Conduit (Enemy)
-State_CorruptedDisciple_Ability2_Self_name						Corrupted Conduit (Self)
-State_CorruptedDisciple_Ability2_Enemy_Damage_name				Corrupted Conduit (Enemy)
-State_CorruptedDisciple_Ability2_Self_Damage_name				Corrupted Conduit (Self)
+State_CorruptedDisciple_Ability2_Enemy_name						Corrupted Conduit (Inimigo)
+State_CorruptedDisciple_Ability2_Self_name						Corrupted Conduit (Si)
+State_CorruptedDisciple_Ability2_Enemy_Damage_name				Corrupted Conduit (Inimigo)
+State_CorruptedDisciple_Ability2_Self_Damage_name				Corrupted Conduit (Si)
 
 // Ability_CorruptedDisciple
 Ability_CorruptedDisciple3_name									Static Discharge
-Ability_CorruptedDisciple3_description							Corrupted Disciple carrega com seu corpo sua esfera de eletricidade, aumentando sua velocidade de movimento e acertando inimigos que tentem lançar spells nele.
-Ability_CorruptedDisciple3_effect_header						Static Discharge Effects
-Ability_CorruptedDisciple3_IMPACT_effect						Aplica Static Discharge e causa {40,60,80,100} de dano mágico em quem direcionar spells contra o Disciple.
+Ability_CorruptedDisciple3_description							A orbe do Corrupted Disciple carrega seu corpo de eletricidade, aumentando sua velocidade de movimento e acertando inimigos que tentem lançar habilidades nele.
+Ability_CorruptedDisciple3_effect_header						Efeitos da Static Discharge
+Ability_CorruptedDisciple3_IMPACT_effect						Aplica Static Discharge e causa {40,60,80,100} de dano Mágico em quem usar habilidades diretas contra o Disciple.
 
 Ability_CorruptedDisciple3_tooltip_flavor						Não toque a bola de plasma!
 
 State_CorruptedDisciple_Ability3_name							Static Discharge
-State_CorruptedDisciple_Ability3_FRAME_effect					Baixa em 80% a velocidade de movimento, recuperando durante {0.3,0.6,0.9,1.2} segundos.
+State_CorruptedDisciple_Ability3_FRAME_effect					Baixa em 80% a velocidade de movimento, recuperando durante {0.3,0.6,0.9,1.2} segundo(s).
 
 // Ability_CorruptedDisciple
 Ability_CorruptedDisciple4_name									Overload
 Ability_CorruptedDisciple4_description							Corrupted Disciple sobrecarrega sua armadura com eletricidade, eletrocutando rapidamente o alvo com o Vida mais baixa ao redor dele, baixando sua armadura no processo.
-Ability_CorruptedDisciple4_IMPACT_effect						Atira um raio a cada {0.85,0.75,0.6} segundos causando {37.5,50,62.5} de dano físico ao alvo com o Vida mais baixa em um raio de 525 ao redor do Disciple.\n\nAplica Jolted por 3 segundos a unidade alvo. Adiciona uma carga de raio a cada vez que a mesma unidade for atingida.\n\nOverload dura {20,25,30} segundos.
+Ability_CorruptedDisciple4_IMPACT_effect						Atira um raio a cada {0.85,0.75,0.6} segundo, causando {37.5,50,62.5} de dano físico ao alvo com a Vida mais baixa em um raio de 525 ao redor do Disciple.\n\nAplica Jolted por 3 segundos na unidade alvo. Adiciona uma carga de raio a cada vez que a mesma unidade for atingida.\n\nOverload dura {20,25,30} segundos.
 Ability_CorruptedDisciple4_effect_header						Jolted Effects
 
 Ability_CorruptedDisciple4_tooltip_flavor						Tanto Poder!
@@ -730,99 +844,99 @@ State_CorruptedDisciple_Ability4_Enemy_name						Jolted
 
 // Hero_CorruptedDisciple
 Hero_CorruptedDisciple_name										Corrupted Disciple
-Hero_CorruptedDisciple_description								Tendo comercializado a chama sagrada do Sol Com a potente e amaldiçoada Hellbourne, o Corrupted Disciple é agora um pouco mais que uma bateria de magia negra.  Ele desencadeia esta cruel feitiçaria de varias formas, algumas para beneficio próprio, outras para a agonia dos outros ao seu redor.
+Hero_CorruptedDisciple_description								Tendo trocado a chama sagrada de Sol pela potente e amaldiçoada energia dos Hellbourne, o Corrupted Disciple é agora um pouco mais que uma bateria de magia negra.  Ele desencadeia esta cruel feitiçaria de varias formas, algumas para beneficio próprio, outras para a agonia dos outros ao seu redor.
 
 // Ability_Deadwood1
 Ability_Deadwood1_name											Rotten Grasp
-Ability_Deadwood1_description									Invocando a corrupção do subterrâneo profundo, Deadwood pode paralizar em pé qualquer alvo na área depois de um curto delay.
+Ability_Deadwood1_description									Invocando a corrupção do profundo subterrâneo, Deadwood pode paralizar qualquer um na área alvo depois de um curto atraso.
 Ability_Deadwood1_effect_header									Efeito de Rotten Grasp
-Ability_Deadwood1_IMPACT_effect									Depois de 2 segundos de delay, aplica Rotten Grasp em todos os inimigos no raio ou que entre neste. Efeito dura {1,1.7,2.3,3} segundos.\n\nO efeito durante o delay é descritivo.
+Ability_Deadwood1_IMPACT_effect									Depois de 2 segundos de espera, aplica Rotten Grasp em todos os inimigos no raio ou que entre neste. Efeito dura {1,1.7,2.3,3} segundos.\n\nO efeito durante o delay é secreto.
 Ability_Deadwood1_tooltip_flavor								Você não verá isso chegando...
 
 State_Deadwood_Ability1_name									Rotten Grasp
-State_Deadwood_Ability1_FRAME_effect							100 de dano mágico por segundo
+State_Deadwood_Ability1_FRAME_effect							100 de dano Mágico por segundo
 
 // Ability_Deadwood2
 Ability_Deadwood2_name											Uproot
-Ability_Deadwood2_description									Deadwood pode tranformar qualquer árvore em arma simplismente arrancando-a do chão. Enquanto segurar a árvore, ele pode joga-la no inimigo, causando um pequeno stun e retardando ele.
+Ability_Deadwood2_description									Deadwood pode tranformar qualquer árvore em arma simplismente arrancando-a do chão. Enquanto segura a árvore, ele pode joga-la no inimigo, causando um pequeno stun e retardando-o.
 Ability_Deadwood2_effect_header									Efeito de Uproot
 Ability_Deadwood2_IMPACT_effect									Pega a árvore alvo, adicionando +{15,30,45,60} ao dano por {5,6,7,8} ataques.
 Ability_Deadwood2_tooltip_flavor								Uma árvore funciona muito bem como arma
 Ability_Deadwood2_name:deadwood_ihasatree						Oakbolt
 Ability_Deadwood2_effect_header:deadwood_ihasatree				Efeito de Son of a Birch
-Ability_Deadwood2_IMPACT_effect:deadwood_ihasatree				Joga sua árvore no inimigo alvo, causando stun de 0.1 seconds, e {30,60,90,120} de dano físico, e aplicando Son of a Birch por {1.5,2,2.5,3} segundos.\n\nUnidades imune a magias não recebem o stun e a armadilha.\n\nSe jogar a árvore ela é destruida no impacto.
+Ability_Deadwood2_IMPACT_effect:deadwood_ihasatree				Joga sua árvore no inimigo alvo; causa stun de 0.1 seconds, e {30,60,90,120} de dano Físico e aplica Son of a Birch por {1.5,2,2.5,3} segundos.\n\nUnidades imune a magias não recebem o stun e o retardamento.\n\nSe jogado em uma ávore, destrói aquela árvore no impacto.
 Ability_Deadwood2_tooltip_flavor:deadwood_ihasatree				Inspirado por Stormbolt
 
 State_Deadwood_Ability2_name									Agora eu tenho uma árvore!
 State_Deadwood_Ability2_Slow_name								Son of a Birch
-State_Deadwood_Ability2_Slow_FRAME_effect						Baixa em 75% a velocidade de movimente, decrescendo após {1.5,2,2.5,3} segundos
+State_Deadwood_Ability2_Slow_FRAME_effect						Baixa em 75% a velocidade de movimento, decrescendo após {1.5,2,2.5,3} segundos
 
 // Ability_Deadwood3
 Ability_Deadwood3_name											Clearcutting
-Ability_Deadwood3_description									Deadwood, não conhecido por seu amor à natureza, pode ganhar a habilidade de destruir as árvores em seu caminho. fortificado pela destruição causada, Deadwood ganha velocidade de movimento, velocidade de ataque, e baixa a resistência enquanto destrio árvores.
+Ability_Deadwood3_description									Deadwood, não conhecido por seu amor à natureza, pode ganhar a habilidade de destruir as árvores em seu caminho. Fortificado pela destruição causada, Deadwood ganha velocidade de movimento, velocidade de ataque, e resistência à slow enquanto destrói árvores.
 Ability_Deadwood3_effect_header									Efeito de Clearcutting
-Ability_Deadwood3_IMPACT_effect									Aplica Clearcutting em si mesmo por {12,14,16,18} segundos. Qualquer árvore morta em seu caminho garante uma carga. Máximo de {1,2,3,4} cargas.
+Ability_Deadwood3_IMPACT_effect									Aplica Clearcutting em si por {12,14,16,18} segundos. Qualquer árvore morta em seu caminho garante uma carga. Máximo de {1,2,3,4} cargas.
 Ability_Deadwood3_tooltip_flavor								Fora do meu caminho, estou passando!
 
 State_Deadwood_Ability3_name									Clearcutting
-State_Deadwood_Ability3_FRAME_effect							Baixa a resistência em +25% por carga
+State_Deadwood_Ability3_FRAME_effect							+25% de Resistência à Slow por carga
 
 // Ability_Deadwood4
 Ability_Deadwood4_name											Willowmaker
-Ability_Deadwood4_description									Com uma agilidosa e poderosa força, Deadwood usa seu braço de madeira e soca o inimigo, causando um grande dano. O ataqe é tão poderoso que ecoa atrás do alvo, enfraquecendo os outros que forem pegos por ela.
+Ability_Deadwood4_description									Com uma força poderosa e eterna, Deadwood usa seu braço de madeira para socar o inimigo, causando dano massivo. O ataque é tão poderoso que ecoa atrás do alvo, enfraquecendo os outros que forem pegos por ela.
 Ability_Deadwood4_effect_header									Efeito de Willowmaker
-Ability_Deadwood4_IMPACT_effect									Causa {350,650,950} de dano físico e stun no alvo por 1.5 segundos.
-Ability_Deadwood4_tooltip_flavor								Deadwood... SOCA!
+Ability_Deadwood4_IMPACT_effect									Causa {350,650,950} de dano Físico e stun no alvo por 1.5 segundos.
+Ability_Deadwood4_tooltip_flavor								Deadwood... SOCAR!
 
 State_Deadwood_Ability4_Tooltip_name							Willowmaker
 State_Deadwood_Ability4_Tooltip_FRAME_effect					Baixa a força total em 20%
 
 // Hero_Deadwood
 Hero_Deadwood_name												Deadwood
-Hero_Deadwood_description										Nascido das terras cruelmente destruidas de Newerth, Deadwood é um corpo morto-vivo do primeiro Keeper of the Forest.   Murcha qualquer coisa viva ao seu redor, ele não tem a menor hesitação de destroir árvores para usa-las como arma.  Apesar de buscar a destruição de Newerth, ele ainda comanda a incrível força e poderes naturais de um Keeper of the Forest, combinando assim a crueldade da Hellbourne com os poderes que outrora pertencia só a Legion.
+Hero_Deadwood_description										Nascido das terras cruelmente destruidas de Newerth, Deadwood é a casca morta-viva do primeiro Keeper of the Forest.  Qualquer coisa viva ao seu redor murcha, ele não tem a menor hesitação em destruir árvores para usá-las como arma.  Apesar de buscar a destruição de Newerth, ele ainda comanda a incrível força e poderes naturais de um guardião da floresta, combinando assim a crueldade da Hellbourne com os poderes que outrora pertencia apenas à Horda Bestial.
 
 // Ability_Defiler1
 Ability_Defiler1_name											Wave of Death
-Ability_Defiler1_description									Exercitando sua habilidade com mortes, a Defiler envia uma onda de morte para todos os inimigos em linha.
-Ability_Defiler1_effect_header									Status Effect
+Ability_Defiler1_description									Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em linha.
+Ability_Defiler1_effect_header									Efeito de Status
 Ability_Defiler1_IMPACT_effect									Causa {100,175,250,300} de dano Mágico em cada alvo em uma linha.
-Ability_Defiler1_description:Defiler_Ability3_1					Exercitando sua habilidade, Defiler lança uma onda de morte que causa dano a inimígos em uma linha.
-Ability_Defiler1_description:Defiler_Ability3_2					Exercitando sua habilidade, Defiler lança uma onda de morte que causa dano a inimígos em uma linha.
-Ability_Defiler1_description:Defiler_Ability3_3					Exercitando sua habilidade, Defiler lança uma onda de morte que causa dano a inimígos em uma linha.
-Ability_Defiler1_description:Defiler_Ability3_4					Exercitando sua habilidade, Defiler lança uma onda de morte que causa dano a inimígos em uma linha.
+Ability_Defiler1_description:Defiler_Ability3_1					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em linha.
+Ability_Defiler1_description:Defiler_Ability3_2					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em linha.
+Ability_Defiler1_description:Defiler_Ability3_3					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em linha.
+Ability_Defiler1_description:Defiler_Ability3_4					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em linha.
 
-Ability_Defiler1_tooltip_flavor									Crossing the Styx!
+Ability_Defiler1_tooltip_flavor									Atravessando o Estige!
 
 // Ability_Defiler2
 Ability_Defiler2_name											Grave Silence
 Ability_Defiler2_description									A Defiler força imagens de guerreiros mortos na mente de seus inimigos, comandando um momento de silêncio que previne que o inimigo use spells ou habilidades.
-Ability_Defiler2_effect_header									Grave Silence Effects
+Ability_Defiler2_effect_header									Efeito do Grave Silence
 Ability_Defiler2_IMPACT_effect									Aplica Grave Silence aos alvos no radius por {3,4,5,6} segundos.
-Ability_Defiler2_tooltip_flavor									I Wrote the book on madness.
+Ability_Defiler2_tooltip_flavor									Eu escrevi o livro na loucura.
 
 // State_Defiler_Ability2
 State_Defiler_Ability2_name										Silenced
 
 // Ability_Defiler3
 Ability_Defiler3_name											Power in Death
-Ability_Defiler3_description									A Defiler invoca a morte, aumentando sua velocidade e poder de outras spells.
-Ability_Defiler3_description2									^yWave of Death:^*\nReduz cooldown em {1,2,3,4} segundo(s)\nReduz o custo de Mana em {5,10,15,20}\n\n^yGraveSilence:^*\nReduz o cooldown em {0,1,2,3} segundos\n\n^yUnholy Expulsion:^*\nAdiciona {1,2,3,4} espíritos para Unholy Expulsion Level 1\nAdds\nAdiciona {1,3,4,6} espíritos para Unholy Expulsion Level 2\nAdiciona {0,2,4,7} espíritos para Unholy Expulsion Level 3
-Ability_Defiler3_effect_header									Status Effect
+Ability_Defiler3_description									A Defiler se envolve de morte, aumentando sua velocidade e poder de outras spells.
+Ability_Defiler3_description2									Aumenta a velocidade de movimento em {2.5,5,7.5,10}%.\n\n^yWave of Death:^*\nDiminui o cooldown em {1,2,3,4} segundo(s)\nReduz custo de Mana por {5,10,15,20}\n\n^yGrave Silence:^*\nDiminui o cooldown por {0,1,2,3} segundos\n\n^yUnholy Expulsion:^*\nAdiciona {1,2,3,4} espíritos ao nível 1 de Unholy Expulsion\nAdiciona {1,3,4,6} espíritos ao nível 2 de Unholy Expulsion\nAdiciona {0,2,4,7} espíritos ao nível 3 de Unholy Expulsion
+Ability_Defiler3_effect_header									Efeito de Status
 
-Ability_Defiler3_tooltip_flavor									Just waiting to die.
+Ability_Defiler3_tooltip_flavor									Apenas esperando para morrer.
 
 // Ability_Defiler4
 Ability_Defiler4_name											Unholy Expulsion
-Ability_Defiler4_description									A Defiler solta vários espíritos invulneráveis de sua forma. Os espíritos não poderão ser diretamente controlados mas atacarão inimigos próximos inclusive a unidade que a Defiler estiver atacando. Quando Unholy Expulsion acabar, os espíritos curarão a Defiler.
-Ability_Defiler4_description2									Spawn de {5,10,16} espíritos.
-Ability_Defiler4_effect_header									Status Effect
-Ability_Defiler4_IMPACT_effect									Spawn de vários espíritos que atacam os inimigos mais próximos, ou atacam um alvo se você ataca-lo diretamente. Depois de completarem o serviço, os espíritos retornarão dando 25% do dano que tomaram convertido em health para você. Cura no máximo 1000 de Health.
-Ability_Defiler4_description2:Defiler_Ability3_1				Spawn de {6,11,16} espíritos.
-Ability_Defiler4_description2:Defiler_Ability3_2				Spawn de {7,13,18} espíritos.
-Ability_Defiler4_description2:Defiler_Ability3_3				Spawn de {8,14,20} espíritos.
-Ability_Defiler4_description2:Defiler_Ability3_4				Spawn de {9,16,23} espíritos.
+Ability_Defiler4_description									A Defiler solta vários espíritos invulneráveis de sua forma. Os espíritos não poderão ser diretamente controlados mas atacarão inimigos próximos inclusive a unidade que a Defiler estiver atacando diretamente. Quando Unholy Expulsion acabar, os espíritos curarão a Defiler.
+Ability_Defiler4_description2									Cria {5,10,16} espíritos.
+Ability_Defiler4_effect_header									Efeitos de Status
+Ability_Defiler4_IMPACT_effect									Cria alguns espíritos por 30 segundos que atacam inimigos próximos, ou os alvos sendo atacados diretamente por você. Ao terminar, os esprítos retornarão à você curando-o em 25% do dano que eles causaram, sendo o máximo de 1000 de Vida curados.
+Ability_Defiler4_description2:Defiler_Ability3_1				Cria {6,11,16} espíritos.
+Ability_Defiler4_description2:Defiler_Ability3_2				Cria {7,13,18} espíritos.
+Ability_Defiler4_description2:Defiler_Ability3_3				Cria {8,14,20} espíritos.
+Ability_Defiler4_description2:Defiler_Ability3_4				Cria {9,16,23} espíritos.
 
-Ability_Defiler4_tooltip_flavor									The haunting of HoN!
+Ability_Defiler4_tooltip_flavor									A caçada do HoN!
 
 // Pet_Defiler_Ability4
 Pet_Defiler_Ability4_name										Spirit
@@ -831,21 +945,21 @@ Pet_Defiler_Ability4_name										Spirit
 
 // Hero_Defiler
 Hero_Defiler_name												Defiler
-Hero_Defiler_description										Envolvido pelas sombras e pelos ecos de almas perdidas, a Defiler é amante do caos, da desordem e da agonia. Ela tira forças das mortes que ocorrem por perto, e pode expelir os vivos, deixando-os sofrer com as sombras de suas entranhas.  Com ataques mortais e e capacidades demoníacas que silenciam seus inimigos, ela verdadeiramente segue seu lema: "Execução dos Banidos."
+Hero_Defiler_description										Envolvido pelas sombras e pelos ecos de almas perdidas, a Defiler é amante do loucura, da desordem e da agonia. Ela tira forças das mortes que ocorrem por perto, e pode expelir os vivos, deixando-os sofrer com as sombras de suas entranhas.  Carregando ataques mortais e um terror demoniaco que cala seus inimigo, ela verdadeiramente segue seu epiteto: "Mistress of the Damned."
 
 // Ability_Devourer1
 Ability_Devourer1_name											Guttling Hook
-Ability_Devourer1_description									O Devourer lança seu Guttling Hook na unidade alvo ou localização. A primeira unidade que encostar no Hook será puxada em direção do Devourer.
-Ability_Devourer1_effect_header									Status Effect
+Ability_Devourer1_description									O Devourer lança seu Guttling Hook na unidade alvo ou localização. A primeira unidade que encostar na garra será puxada em direção do Devourer.
+Ability_Devourer1_effect_header									Efeito de Status
 Ability_Devourer1_IMPACT_effect									Causa {100,200,300,400} de dano físico ao alvo e interrompe o uso de habilidades. Puxa o alvo na direção do Devourer.
-Ability_Devourer1_tooltip_flavor								HoN chainsaw massacre!
+Ability_Devourer1_tooltip_flavor								Venha para cá!
 
 // Ability_Devourer2
 Ability_Devourer2_name											Decay
 Ability_Devourer2_description									O Devourer se oferece para sacrifício, drenando seu Health por um tempo e soltando gazes venenosos que danificam e deixam as unidades inimigas mais lentas.
-Ability_Devourer2_effect_header									Decay Effects
-Ability_Devourer2_IMPACT_effect									Aplica Decay nos alvos inimigos em radius e causa {25,50,75,100} de dano Mágico por segundo em si mesmo.
-Ability_Devourer2_tooltip_flavor								Whats that smell?
+Ability_Devourer2_effect_header									Efeitos do Decay
+Ability_Devourer2_IMPACT_effect									Aplica Decay nos inimigos em radius e causa {25,50,75,100} de dano Mágico por segundo em si. \n\nA Redução de Movimento persiste por 2 segundos após o inimigo sair da radius do Decay.
+Ability_Devourer2_tooltip_flavor							    Cheiro de quê?
 
 // State_Devourer_Ability2_Other
 State_Devourer_Ability2_Other_name								Decay
@@ -857,31 +971,31 @@ State_Devourer_Ability2_Self_FRAME_effect						{25,50,75,100} de dano Mágico po
 
 // Ability_Devourer3
 Ability_Devourer3_name											Cadaver Armor
-Ability_Devourer3_description									Essa armadura grotesca aumenta a Magic Armor do Devourer e adiciona permanentemente {0.9,1.2,1.5,1.8} de strength por casa hero morto e {0.03,0.06,0.09,0.12} de strength por cada creep morto.
-Ability_Devourer3_KILL_effect									Permanently adds {0.9,1.2,1.5,1.8} Strength to self per hero kill, or {0.03,0.05,0.06,0.09} Strength per creep kill.
-Ability_Devourer3_effect_header									Status Effect
-Ability_Devourer3_tooltip_flavor								Evil never dies!
+Ability_Devourer3_description									Essa armadura grotesca aumenta a Armadura Mágica do Devourer e adiciona, permanentemente, força por cada hero morto próximo de você ou que você mate.
+Ability_Devourer3_KILL_effect									Adiciona, permanentemente, {0.9,1.2,1.5,1.8} de Força por cada hero morto ou {0.03,0.05,0.06,0.09} de Força por cada creep morto.
+Ability_Devourer3_effect_header									Efeito de Status
+Ability_Devourer3_tooltip_flavor								O Mal nunca morre!
 
-State_Devourer_Ability3_FRAME_effect							On death, when not killed by the Devourer, adds {0.9,1.2,1.5,1.8} strength to the Devourer.
+State_Devourer_Ability3_FRAME_effect							Ao morrer, quando não for morto por Devourer, adiciona {0.9,1.2,1.5,1.8} de Força para o Devourer.
 
 // Ability_Devourer4
 Ability_Devourer4_name											Devour
-Ability_Devourer4_description									O Devourer pega o inimigo alvo e começa a devorá-lo, causando dano massivo a cada segundo.
-Ability_Devourer4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Heals self equal to the damage done. Deals additional 0.75 * Strength Magic damage per second.
-Ability_Devourer4_effect_header									Devour Effects
-Ability_Devourer4_IMPACT_effect									Aplica Devour ao alvo inimigo por 3 segundos ou até ser cancelado.
-Ability_Devourer4_name:ult_boost								Om Nom Nom ^g(Boosted)^*
-Ability_Devourer4_description2:ult_boost						This ability has been boosted by Staff of the Master.
-Ability_Devourer4_IMPACT_effect:ult_boost						Applies Devour to target enemy for 3 seconds or until channel is canceled.\n^gHeals self equal to ^gthe ^gdamage ^gdone.^*
-Ability_Devourer4_tooltip_flavor								Dahmer Reincarnate!
+Ability_Devourer4_description									O Devourer segura o inimigo alvo e começa a devorá-lo, causando dano massivo a cada segundo que ele o consome.
+Ability_Devourer4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeitos do Staff:^* Cura o Devourer equivalente ao dano causado. Causa um adicional de (0.75 * Força) de dano Mágico por segundo.
+Ability_Devourer4_effect_header									Efeitos do Devour
+Ability_Devourer4_IMPACT_effect									Aplica Devour no inimigo alvo por 3 segundos ou até ser cancelado.
+Ability_Devourer4_name:ult_boost								Om Nom Nom ^g(Melhorado)^*
+Ability_Devourer4_description2:ult_boost						Esta habilidade foi melhorada pelo Staff of the Master.
+Ability_Devourer4_IMPACT_effect:ult_boost						Aplica Devour no inimigo alvo por 3 segundos ou até ser cancelado.\n^gCura o Devourer equivalente ^gao ^gdano ^gdcausado.^*
+Ability_Devourer4_tooltip_flavor								Dahmer Reincarnado!
 
 // State_Devourer_Ability4
 State_Devourer_Ability4_FRAME_effect							{75,125,175} de dano Mágico por segundo
-State_Devourer_Ability4_FRAME_effect:ult_boost					{75,125,175} ^g+ (0.75 x Strength)^* Magic damage per second
+State_Devourer_Ability4_FRAME_effect:ult_boost					{75,125,175} ^g+ (0.75 x Força)^* dano Mágico por segundo
 
 // Hero_Devourer
 Hero_Devourer_name												Devourer
-Hero_Devourer_description										Consumindo e destruindo todos em seu caminho, o corpulento Devourer existe apenas para se alimentar.  Nenhuma dor pode concorrer com a agonía de sua fome, ele aproveita todos os ataques e espalha sua dor e sua angústia pelo campo de batalha.
+Hero_Devourer_description										Consumindo e destruindo todos em seu caminho, o corpulento e pútrido Devourer existe apenas para se alimentar.  Nenhuma dor pode concorrer com a agonía de sua fome, ele aproveita todos os ataques e espalha sua dor e sua angústia pelo campo de batalha como o próprio apocalipse.
 
 // Ability_DiseasedRider1
 Ability_DiseasedRider1_name										Contagion
@@ -3512,7 +3626,7 @@ Ability_Xalynx4_description										O Torturer força seu tormento em inimígos
 Ability_Xalynx4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases damage from {66,100,144} to {88,133,177}.
 Ability_Xalynx4_effect_header									Status Effect
 Ability_Xalynx4_IMPACT_effect									Causa dano em inimígos no radius de {66,100,144} de dano Mágico a cada 1 segundo.
-Ability_Xalynx4_name:ult_boost									Torment (Boosted)
+Ability_Xalynx4_name:ult_boost									Torment (Melhorado)
 Ability_Xalynx4_IMPACT_effect:ult_boost							A cada segundo, causa dano nos inimígos dentro do radius de {88,133,177} de dano Mágico.
 Ability_Xalynx4_IMPACT_effect:ult_boost							Damages enemies in radius for ^g{88,133,177}^* Magic damage every 1 second.
 Ability_Xalynx4_tooltip_flavor									My precious!

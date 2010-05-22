@@ -4,7 +4,7 @@ error_unknown					Unknown error.
 disconnect_title				Disconnected
 disconnect_not_host				You must have host privileges to start a game on this server.
 disconnect_server_full			The server is full.
-disconnect_game_in_progress		The game you are attempting join is already in progress.
+disconnect_game_in_progress		The game you are attempting to join is already in progress.
 disconnect_server_error			Server error.
 disconnect_snapshot_fragment	Too many snapshot fragments.
 disconnect_not_invited			You do not have an invitation to join this private game.
@@ -23,6 +23,7 @@ disconnect_leaver				You are not allowed to join this game because your leaver p
 disconnect_overflow				You have been disconnected from the server due to a packet overflow.
 disconnect_flooding				You have been disconnected for flooding the server.
 disconnect_invalid_tier			You are not allowed to play games in this tier.
+disconnect_invalid_psr			Your PSR is either too high or too low for this game.
 disconnect_not_on_roster		You are not on the roster for this arranged match.
 
 rejected_invalid_request		Your client sent an invalid connection request.
@@ -345,6 +346,7 @@ chat_command_clan_leave_help		^279*^707 /clan leave.
 chat_command_clear					/clear
 chat_command_clear_short			/cl
 chat_command_join					/join
+chat_command_join_help				^279*^707 /join <channel> "password".  (surround password with quotes)
 chat_command_join_short				/j
 chat_command_invite					/invite
 chat_command_invite_short			/i
@@ -491,7 +493,7 @@ chat_command_help_whisper			^279*^707 /whisper <nickname> <message>^279  -Whispe
 chat_command_help_reply				^279*^707 /reply <message>^279               -Replies to last whisper.
 chat_command_help_buddy				^279*^707 /buddy <command> <arguments>^279   -Various buddy-related commands.
 chat_command_help_clan				^279*^707 /clan <command> <arguments>^279    -Various clan-related commands.
-chat_command_help_join				^279*^707 /join <channel>^279                -Joins the specified channel.
+chat_command_help_join				^279*^707 /join <channel> "password"^279     -Joins the specified channel (Optionally specify a password in quotes).
 chat_command_help_clear				^279*^707 /clear^279                         -Clears the chat buffer.
 chat_command_help_invite			^279*^707 /invite <user>^279                 -Invites the specified user to the current game.
 chat_command_help_whois				^279*^707 /whois <user>^279                  -Gets information on the specified user.
