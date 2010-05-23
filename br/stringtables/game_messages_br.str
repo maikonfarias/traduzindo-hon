@@ -219,7 +219,7 @@ action_target_dual					Alvo Duplo
 action_target_vector				Mirar Vetor
 
 ability_levelup_max					^gNível Máximo^*
-ability_levelup_available			^yClique para subir de nível esta habilidade^*
+ability_levelup_available			^yClique para melhorar esta habilidade^*
 ability_levelup_unavailable			^rRequerimentos não atingidos^*
 
 aura_range_global					Global

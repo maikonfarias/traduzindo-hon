@@ -64,7 +64,7 @@ general_mode_no_hero_swap					Sem Troca de Hero
 general_mode_no_agi_heroes					Sem Hero de Agi
 general_mode_no_intel_heroes				Sem Hero de Int
 general_mode_no_str_heroes					Sem Hero de For
-general_mode_no_respawn_timer				Sem Tempo para Renascer
+general_mode_no_respawn_timer				Sem Esperar Renasc.
 general_mode_drop_items						Perder Items
 general_mode_no_runes						Sem Superpoderes
 general_mode_super_creeps					Super Creeps
@@ -689,9 +689,9 @@ web_form_subaccount_description				Sub-Accounts provide an additional identity f
 web_form_subaccount_description_short		Sub-Accounts provide an additional identity for your account with its own nickname, statistics, and buddies.
 web_form_resetstats_title					Resetar Estatísticas
 web_form_upgradefriend_title				Melhorar Conta de um Amigo
-web_form_resetstats_pubstats				Estatísticas Públicas
+web_form_resetstats_pubstats				Estatís. Públicas
 web_form_resetstats_pubstats_tip			Estatísticas ganhas por jogar em Partidas Públicos.
-web_form_resetstats_rankedstats				Estatísticas Rankeadas
+web_form_resetstats_rankedstats				Estatís. Rankeadas
 web_form_resetstats_rankedstats_tip			Estatísticas ganhas por jogar Partidas Rankeadas através do MatchMaking do Heroes of Newerth.
 web_form_resetstats_psr						Avaliação Pública de Habilidade - Public Skill Rating (PSR)
 web_form_resetstats_psr_tip					PSR é ganho ao jogar Partidas Públicas.
@@ -1163,7 +1163,7 @@ local_header_join_local_game				Entrar em um jogo local
 local_label_your_name						Seu Nome
 local_button_refresh_list					Renovar Lista
 local_button_connect_ip						Conectar no IP
-local_button_join_selected					Entrar no Jogo selecionado
+local_button_join_selected					Entrar na Partida Selecionada
 local_create_game_header					Criar um Jogo Local
 local_select_server_header					Selecione um Servidor
 local_select_server_button					Selecionar Servidor
@@ -1184,18 +1184,18 @@ main_local_browser_header					Navegador de Jogos - ^r{players}^* Jogadores em ^r
 popup_header								Mensagem
 
 // cc_community.package
-cc_com_header_your_friends_list				Sua Lista de Amigos
+cc_com_header_your_friends_list				Lista de Amigos
 cc_com_header_add_friends					Adicionar Novos Amigos
 cc_com_label_enter_nickname					Adicionar como Amigo:
-cc_com_button_add							Adicionar
+cc_com_button_add							Add
 
 cc_com_button_find_in_game					Achar no Jogo Atual
 cc_com_aside_header_in_current_game			No Jogo Atual
-cc_com_aside_current_button_add				Adicionar
+cc_com_aside_current_button_add				Add
 
 cc_com_button_recently_with					Recentemente Jogado Com
 cc_com_aside_header_recently_with			Recentemente Jogado Com
-cc_com_aside_recent_button_add				Adicionar
+cc_com_aside_recent_button_add				Add
 
 cc_com_header_clan_management				Gestão do Clan
 cc_com_create_button						Criar Novo Clan
@@ -1297,11 +1297,11 @@ cctournament_upcoming_bracket				Chave:
 cctournament_upcoming_pool					Pool:
 cctournament_upcoming_pooltip				O conjunto de times que você estará jogando contra, determinado pelo tipo de eliminação do torneio e seus número de derrotas.
 cctournament_upcoming_starttime				Hora de Começo da Partida:
-cctournament_upcoming_joingame				Entrar no Jogo Agora
+cctournament_upcoming_joingame				Entrar na Partida Agora
 cctournament_upcoming_adminonline			Usuário está Online, clique em seu nome para mandar uma MI
 
 // social_groups.package
-no_ims										Você não tem conversas MI. Entre com um nick abaixo para enviar uma mensagem para outro jogador.
+no_ims										Você não tem conversas. Entre com um nick abaixo para enviar uma MI para um jogador.
 im_user_not_found							Nome de Usuário não encontrado!
 im_user_offline								Usuário está offline!
 
@@ -1403,7 +1403,7 @@ main_stats_download_replay_remaining		Tempo Restante: ^w{time}
 main_stats_retrieving_stats					Recebendo Estatísticas...
 main_stats_error_message					Um erro foi encontrado ao receber as estatísticas do jogador. Por favor tente de novo.
 
-game_end_stats_recentgames					Ver Estatísticas Recentes de Jogo
+game_end_stats_recentgames					Estatísticas das Últimas Partidas
 game_end_stats_matchdetails					Detalhes Partida
 game_end_stats_download_btn					Baixar Replay
 game_end_stats_download_tootlip				Baixe o replay para esta partida.
@@ -1492,8 +1492,8 @@ game_hero_select_label_attack_speed			^yVeloc do Ataque:^*     {speed}
 mainlobby_button_main_menu					Menu Principal
 main_lobby_replay_view						Estatísticas da Partida
 main_lobby_replay_view_desc					Use o Visualizador de Estatísticas da Partida para rever a súmula das partidas anteriores. Com o Visualizador de Estatísticas você pode rapidamente encontrar suas partidas recentes, ver partidas pela ID e baixar arquivos de replay.
-main_lobby_ranked_play						Jogo Rankeado
-main_lobby_ranked_play_desc					Jogos Rankeados permitem criar Partidas com grupos e até mesmo colocar diferentes amigos em times opostos. Isso irá então selecionar jogadores que buscam por jogos similares, baseado em suas preferências e tentando criar uma partida Balanceada. Estas partidas sao então usadas para Rankear os jogadores em nosso Ranking/Ladder.
+main_lobby_ranked_play						Partida Rankeada
+main_lobby_ranked_play_desc					Partidas Rankeadas permitem criar Partidas com grupos e até mesmo colocar diferentes amigos em times opostos. Isso irá então selecionar jogadores que buscam por jogos similares, baseado em suas preferências e tentando criar uma partida Balanceada. Estas partidas sao então usadas para Rankear os jogadores em nosso Ranking/Ladder.
 mainlobby_button_quick_play_config			Configuração do Jogo Rápido
 main_lobby_button_quick_play_config_desc	Aqui você pode Negar / Permitir / Preferir Opções e Modos de todos os Jogos. Seu cliente irá então, ver através das suas escolhas, as partidas e juntar-se à uma.
 main_lobby_quick_play_desc					Use essa forma rápida e fácil para entrar em uma Partida, baseada no que você gosta e não gosta. Se você abrir a Configuração do Jogo Rápido, logo na esquerda você poderá definir todas as Opções e Modos para ajudar a encontrar uma Partida. Jogo Rápido ^rNÃO^* filtra outros Jogadores que procuram por um jogo.
@@ -1502,7 +1502,7 @@ main_lobby_qp_show_advanced_filters_label	Para mostrar os filtros avançados, cl
 main_lobby_qp_hide_advanced_filters_label	Para ocultar os filtros avançados, clique no botão Ocultar Avançados para ocultar as opções adicionais.
 mainlobby_button_save_qp_config				Salvar configuração do Jogo Rápido
 mainlobby_label_join_size					Apenas juntar-se à Partidas com times deste tamanho
-mainlobby_header_team_size					Tamanho do Time
+mainlobby_header_team_size					Tamanho Times
 mainlobby_header_game_type					Tipo de Jogo
 mainlobby_label_normal						Normal
 mainlobby_label_random_draft				Random Draft
@@ -1541,9 +1541,9 @@ mainlobby_button_create_game_desc			Want to host a game that is set up exactly a
 mainlobby_header_custom_join_a_game			Juntar-se à uma Partida
 mainlobby_header_custom_filter_results		Filtrar Resultados do Server
 main_lobby_filter_description				
-mainlobby_label_custom_game_name			Nome do Jogo
+mainlobby_label_custom_game_name			Nome Partida
 main_lobby_game_name_desc					Filter the game browser by typing in a full or partial search phrase.\n\nUse '|' to separate the search phrases, use '-' at the beginning of the phrase to exclude a term, and use '\\|' or '\\-' to escape the '|' or '-'. \n                                                                                  
-mainlobby_label_custom_game_type			Modo do Jogo
+mainlobby_label_custom_game_type			Modo Partida
 mainlobby_label_custom_game_type_desc		Game Modes generally alter how hero selection works.\n\n^yNormal^* - Standard hero selection.\n^yRandom Draft^* - Limits hero selection to 20 heroes then alternates picking between players.\n^ySingle Draft^* - Each player is given a hero selection of one agility, one intelligence, and one strength hero.\n^yBanning Draft^* - Identical to Random Draft, except Blue and Pink take turns banning 4 total heroes first.\n^yBanning Pick^* - Blue and Pink take turns banning 6 total heroes each, and then players alternate picking from the remaining hero pool.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
 // Removing this for now - JT               ^yDeathmatch^* - Normal hero selection, but after dying, players are forced to pick a new hero. Game ends when one team runs out of available heroes.\n
 mainlobby_label_custom_game_region			Region
@@ -1564,7 +1564,7 @@ mainlobby_label_custom_game_ZAF				África do Sul
 mainlobby_label_custom_game_SEA				Sudeste da Asia
 mainlobby_label_custom_game_GREG			Servidor Normal
 mainlobby_label_custom_game_GVIP			Servidor VIP
-mainlobby_label_custom_team_size			Tamanho do Time
+mainlobby_label_custom_team_size			Tam. dos Times
 mainlobby_label_custom_team_size_desc		Partidas Exclusivas para times com este tamanho.
 main_lobby_filter_team_size_none			Não limitar o tamanho do time
 main_lobby_filter_any						Qualquer
@@ -1576,7 +1576,7 @@ main_lobby_filter_team_size_four_v_four		4x4 - Quatro contra Quatro
 main_lobby_filter_team_size_five_v_five		5x5 - Cinco contra Cinco
 mainlobby_label_custom_map					Mapa
 mainlobby_label_custom_map_desc				Partidas Exclusivas para este Mapa.
-mainlobby_label_custom_server_type			Tipo do Servidor
+mainlobby_label_custom_server_type			Servidor
 mainlobby_label_custom_server_type_desc		Restringir os jogos com base no tipo de servidor. servidores oficiais são servidores hospedados na S2 que são garantidos para funcionar oficialmente, as configurações do jogo não modificado e mapas. Servidores não-oficiais são servidores hospedados pela comunidade que podem ou não podem ser modificados usando os mapas e configurações de jogo.
 main_lobby_server_official_stats			Oficial - Com Estat.
 main_lobby_server_official_nostats			Oficial - Sem Estat.
@@ -1590,13 +1590,13 @@ mainlobby_header_custom_name				Nome
 mainlobby_header_custom_map					Mapa
 mainlobby_header_custom_slots				Lugares
 mainlobby_header_custom_ping				Ping
-mainlobby_header_custom_size				Tamanho
+mainlobby_header_custom_size				Times
 mainlobby_header_custom_type				Tipo
 mainlobby_header_custom_minpsr				PSR >
 mainlobby_header_custom_maxpsr				PSR <
 mainlobby_header_custom_options				Opções
 mainlobby_button_custom_refresh				Atualizar Lista
-mainlobby_button_custom_join_selected		Entrar neste Jogo
+mainlobby_button_custom_join_selected		Entrar nesta Partida
 mainlobby_header_custom_karma				Partida proibida para Desistentes
 mainlobby_button_custom_instant_upgrade		Instantly Upgrade to a Prime Account Now
 mainlobby_button_custom_return				Retornar ao Buscador de Partidas...
@@ -2024,7 +2024,7 @@ game_setup_spcectators_label				Espectadores
 game_setup_spectators_tip					Determina o número de espaços para Espectadores. Os Espectadores podem entrar na partida e observá-la sem interagir com os outros jogadores.
 game_setup_referees_label					Juízes
 game_setup_referees_tip						Determina o número de espaços para Juízes. Referees can kick players, pause the game, and un-stick players.
-game_setup_team_size_label					Tamanho do Time
+game_setup_team_size_label					Num. Jogadores
 game_setup_team_size_tip					O número de jogadores em cada time.
 game_setup_tier_label						Tier
 game_setup_tier_tip							Restringir servidores baseado no tier específico.\n\n^yApenas Noobs^* - Apenas contas com baixa experiência geral podem jogar.\n^yNoobs Permitidosd^* - Qualquer jogador de qualquer nível de experiência pode jogar.\n^yPro^* - Apenas contas que conseguiram um alto nível de experiência geral podem jogar.
@@ -2219,7 +2219,7 @@ ui_items_friend_right_click_label			Click Direito para mais Opções
 ui_items_slider_low							Baixo
 ui_items_slider_high						Alto
 ui_items_cc_right_click_send_message		Enviar Msg
-ui_items_cc_right_click_joing_game			Entrar no Jogo
+ui_items_cc_right_click_joing_game			Entrar na Partida
 ui_items_cc_right_click_message_clan		Msg p/ todo o Clan
 ui_items_cc_right_click_view_stats			Ver Estatísticas
 ui_items_cc_right_click_add_buddy			Add Amigo
@@ -2233,7 +2233,7 @@ ui_items_cc_right_click_channel_silence		Mutar Usuário
 ui_items_cc_right_click_ignore				Ignorar
 ui_items_cc_right_click_ignoretxt			Tem certeza que deseja ignorar este jogador?
 ui_items_cc_right_click_unignore			Remover Ignorar
-ui_items_cc_right_click_addban				Adicionar na Lista de Banidos
+ui_items_cc_right_click_addban				Adicionar aos Banidos
 ui_items_cc_right_click_addbantxt			Tem certeza que deseja adicionar este jogador à sua Lista de Banidos?
 ui_items_cc_right_click_remban				Remover da Lista de Banidos
 ui_items_cc_right_click_channel_promote		Promover (Channel)
@@ -2261,7 +2261,7 @@ player_statistics_skill_factor				Fator de Hab. (SF): ^w{value}
 // private_chatpass.package
 private_chat_header							Senha Chat Privado
 private_chat								Você tem de digitar uma senha para entrar neste chat privado.
-private_chat_btn							Entrar no Channel
+private_chat_btn							Entrar no Canal
 
 // Clan invites
 clan_invite_body_label				Você foi convidade para juntar-se ao Clan {clan} por {inviter}.
@@ -2607,14 +2607,14 @@ tooltip_primary_attribute_agility			O atributo primário deste hero é Agilidade
 tooltip_primary_attribute_intelligence		O atributo primário deste hero é Inteligência.
 
 //ladder.package
-ladder_title								Ladder do Jogador
+ladder_title								Ranking de Jogadores
 ladder_field_acc_games_played				Partidas jogadas
 ladder_field_acc_wins						Vitórias
 ladder_field_acc_losses						Derrotas
 ladder_field_acc_concedes					Concedidas
 ladder_field_acc_concedevotes				Votos para Conceder
-ladder_field_acc_buybacks					Vezes que pagou pra renascer
-ladder_field_acc_discos						Leaves
+ladder_field_acc_buybacks					Compra para Renascer
+ladder_field_acc_discos						Desist.
 ladder_field_acc_kicked						Retirado
 // Assuming the below is PSR anyways
 ladder_field_acc_pub_skill					PSR
@@ -2637,7 +2637,7 @@ ladder_field_acc_neutralcreepdmg			Dano em Creeps Neutros
 ladder_field_acc_neutralcreepexp			Exp de Creeps Neutros
 ladder_field_acc_neutralcreepgold			Gold de Creeps Neutros
 ladder_field_acc_bdmg						Dano em Construções
-ladder_field_acc_bdmgexp					XP de dano em construções
+ladder_field_acc_bdmgexp					XP de Dano em Estrutura
 ladder_field_acc_razed						Construções Destruídas
 ladder_field_acc_bgold						Gold de Construções
 ladder_field_acc_denies						Denies
@@ -2655,7 +2655,7 @@ ladder_field_acc_expPerMin					Exp por Minuto
 // I seriously, SERIOUSLY do not like using colons in here.  This should've been fixed on the web end already.  Grr!
 ladder_field_acc_k:d:a						K/D/A
 ladder_field_acc_k_d_a						K/D/A
-ladder_field_acc_wardsPerGame				Wards por Game
+ladder_field_acc_wardsPerGame				Wards por Partida
 ladder_field_acc_consumablesPerGame			Comsumíveis Por Jogo
 ladder_field_acc_avgGameLength				Tempo Médio de Jogo
 ladder_field_acc_expPerGame					Exp Por Jogo
@@ -2666,10 +2666,10 @@ ladder_field_acc_deniesPerMin				Denies Por Minuto
 ladder_field_acc_deniesPerGame				Denies Por Jogo
 ladder_field_acc_buildingsPerGame			Construções Por Jogo
 ladder_field_Player							Nome do Jogador
-ladder_field_PlayerSkillRating				Classificação de Habilidade do Player (PSR)
+ladder_field_PlayerSkillRating				Classificação de Habilidade do Jogador (PSR)
 ladder_field_Rank							Rank
-ladder_error_nodata							Dados da Ladder não estão disponíveis neste momento.
-ladder_title								Ladder do Jogador
+ladder_error_nodata							Dados do Ranking não estão disponíveis neste momento.
+ladder_title								Ranking do Jogador
 ladder_fieldshort_acc_games_played				Partidas
 ladder_fieldshort_acc_wins						V
 ladder_fieldshort_acc_losses					D
@@ -2735,7 +2735,7 @@ ladder_reset_fields							Resetar Campos
 ladder_first_page							Primeira Página
 ladder_previous_page						Página Anterior
 ladder_next_page							Próxima Página
-ladder_fields								Campos Ladder
+ladder_fields								Colunas do Rank
 ladder_currentpage							Página Atual: {page} de {totalpages}
 ladder_loading_title						Carregando Ladder
 ladder_loading_body							Carregando dados da Ladder, espere por favor...
@@ -2747,7 +2747,7 @@ ladder_error_message						Um erro ocorreu ao carregar a Ladder.
 
 
 //social_groups.package
-social_groups_newIM							Nova Msg
+social_groups_newIM							Nova MI
 social_groups_newIM_msg						Entre com um nickname para começar uma conversa com um jogador.
 
 //news.package
