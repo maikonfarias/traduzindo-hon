@@ -8,3 +8,4 @@ Vou colocar a lista das palavras e como elas ficam traduzidas, assim podemos uni
 || Horde || Horda ||
 || Beast Horde || Horda Bestial ||
 || Stealthed || Camuflado ||
+|| Stack || Somar ||
