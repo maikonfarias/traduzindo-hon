@@ -677,13 +677,13 @@ Pet_Bephelgor_Ability4_DEATH_effect
 State_Bephelgor_Ability4_name									
 State_Bephelgor_Ability4_description							
 State_Bephelgor_Ability4_description2							
-State_Bephelgor_Ability4_effect_header							None
-State_Bephelgor_Ability4_effect_header2							None
-State_Bephelgor_Ability4_tooltip_flavor							None
+State_Bephelgor_Ability4_effect_header							Nenhum
+State_Bephelgor_Ability4_effect_header2							Nenhum
+State_Bephelgor_Ability4_tooltip_flavor							Nenhum
 State_Bephelgor_Ability4_FRAME_effect							Reduz a velocidade de movimento em 50% inicialmente, recuperando para a velocidade máxima ao longo de 6 segundos.
 
 // State_Bephelgor_Ability4_Aura
-State_Bephelgor_Ability4_Aura_name								Balphagore Aura
+State_Bephelgor_Ability4_Aura_name								Aura do Balphagore
 State_Bephelgor_Ability4_Aura_FRAME_effect						Ao usar magia, adiciona uma carga ao Hell on Newerth baseado na mana gasta.
 
 // Hero_Bephelgor
@@ -692,13 +692,13 @@ Hero_Bephelgor_description										O amor visceral de Balphagore por corpos o l
 
 // Ability_Bubbles1
 Ability_Bubbles1_name											Shell Surf
-Ability_Bubbles1_description									Bubbles uses his shell as the focus for a teleport spell. Bubble's shell slides toward his opponents, damaging anyone it strikes. Bubbles may choose to teleport to his shell at any point in its journey.
+Ability_Bubbles1_description									Bubbles usa sua casca como seu foco para usar sua habilidade de teleportar. A casca do Bubbles escorrega em direção aos oponentes, causando dano em qualquer um em que ela pegar. Bubbles pode decidir se vai se teleportar para a sua casca à qualquer momento em que ela faz sua jornada.
 Ability_Bubbles1_description2									
 Ability_Bubbles1_effect_header									
 Ability_Bubbles1_effect_header2									
-Ability_Bubbles1_tooltip_flavor									Wish I had a red one.
-Ability_Bubbles1_IMPACT_effect									Throws the shell in the target direction, damaging all enemies in the radius for {70,140,210,280} Magic damage.\n\nUsing this ability again while the shell is in mid-flight will teleport self to the shell's current location.
-Ability_Bubbles1_IMPACT_effect:Bubblesorb						Teleports self to thrown shell's current location
+Ability_Bubbles1_tooltip_flavor									Gostaria de ter uma vermelha.
+Ability_Bubbles1_IMPACT_effect									Joga a sua casca na direção alvo, causando dano em todos os inimigos no raio por {70,140,210,280} de dano Mágico.\n\nUsar esta habilidade novamente enquanto a casca estiver em pleno voo irá teleportar você para a posição atual da casca.
+Ability_Bubbles1_IMPACT_effect:Bubblesorb						Teleporta Bubbles para a posição atual da casca que ele jogou.
 
 // Gadget_Bubbles_Ability1
 Gadget_Bubbles_Ability1_name									
@@ -709,54 +709,54 @@ Gadget_Bubbles_Ability1_DEATH_effect
 State_Bubbles_Ability1_name										
 State_Bubbles_Ability1_description								
 State_Bubbles_Ability1_description2								
-State_Bubbles_Ability1_effect_header							None
-State_Bubbles_Ability1_effect_header2							None
-State_Bubbles_Ability1_tooltip_flavor							None
+State_Bubbles_Ability1_effect_header							Nenhum
+State_Bubbles_Ability1_effect_header2							Nenhum
+State_Bubbles_Ability1_tooltip_flavor							Nenhum
 
 // Ability_Bubbles2
 Ability_Bubbles2_name											Song of the Sea
-Ability_Bubbles2_description									Bubbles plays a resounding note on his conch, damaging and silencing any foes unlucky enough to be near.
+Ability_Bubbles2_description									Bubbles toca uma nota ressonante na sua concha, causando dano e silence em qualquer inimigo sem sorte de estar perto dele.
 Ability_Bubbles2_description2									
-Ability_Bubbles2_effect_header									Muted Effects
+Ability_Bubbles2_effect_header									Efeitos de Muted
 Ability_Bubbles2_effect_header2									
-Ability_Bubbles2_tooltip_flavor									Take note.
-Ability_Bubbles2_IMPACT_effect									Deals {60,120,180,240} Magic damage to all enemy units in the radius and applies Muted for {.1,1,2,3} seconds.
+Ability_Bubbles2_tooltip_flavor									Tome nota.
+Ability_Bubbles2_IMPACT_effect									Causa {60,120,180,240} de dano Mágico a todos os inimigos na área e aplica Muted por {.1,1,2,3} segundo(s).
 
 // State_Bubbles_Ability2
-State_Bubbles_Ability2_name										Muted
+State_Bubbles_Ability2_name										Mutado
 State_Bubbles_Ability2_description								
 State_Bubbles_Ability2_description2								
-State_Bubbles_Ability2_effect_header							None
-State_Bubbles_Ability2_effect_header2							None
-State_Bubbles_Ability2_tooltip_flavor							None
+State_Bubbles_Ability2_effect_header							Nenhum
+State_Bubbles_Ability2_effect_header2							Nenhum
+State_Bubbles_Ability2_tooltip_flavor							Nenhum
 
 // Ability_Bubbles3
 Ability_Bubbles3_name											Take Cover
-Ability_Bubbles3_description									Bubbles retreats into his enchanted shell, becoming impervious to all forms of attack, whether magical or mundane.
+Ability_Bubbles3_description									Bubbles se encolhe na sua carapaça encantada, tornando-o impenetrável, seja por dano mágico ou físico.
 Ability_Bubbles3_description2									
 Ability_Bubbles3_effect_header									
 Ability_Bubbles3_effect_header2									
-Ability_Bubbles3_tooltip_flavor									There are no turtles in foxholes.
-Ability_Bubbles3_IMPACT_effect									Grants invulnerability to all damage for duration of channel.\n\nCan be toggled to auto-cast by right clicking. When set to auto-cast, this skill will automatically be used when Bubbles takes non-DOT damage, preventing that damage from being dealt.\n\nThe automatic use will not trigger if Bubbles becomes stunned or silenced.
+Ability_Bubbles3_tooltip_flavor									Não há nenhuma tartaruga em buracos de raposa.
+Ability_Bubbles3_IMPACT_effect									Garante invulnerabilidade à todo tipo de dano pela duração da concentração.\n\nPoderá ser ligado o auto-cast com um clique direito. Ao ligar o auto-cast, esta habilidade será ativada automaticamente quando Bubbles receber dano não-DOT (Dano direto, sem ser degenerativo), previnando que aquele dano seja causado.\n\nO uso automático não será usado se Bubbles estiver stunado ou com silence.
 Ability_Bubbles3_CHANNEL_START_effect							
 
 // State_Bubbles_Ability3
 State_Bubbles_Ability3_name										
 State_Bubbles_Ability3_description								
 State_Bubbles_Ability3_description2								
-State_Bubbles_Ability3_effect_header							None
-State_Bubbles_Ability3_effect_header2							None
-State_Bubbles_Ability3_tooltip_flavor							None
+State_Bubbles_Ability3_effect_header							Nenhum
+State_Bubbles_Ability3_effect_header2							Nenhum
+State_Bubbles_Ability3_tooltip_flavor							Nenhum
 State_Bubbles_Ability3_FRAME_effect								
 
 // Ability_Bubbles4
 Ability_Bubbles4_name											Kelp Field
-Ability_Bubbles4_description									Arcane seaweed vines sprout from the ground, latching onto enemy heroes.  Trying to escape the vines is futile - running causes them to snap, stunning and damaging their captive.
+Ability_Bubbles4_description									Vinhas arcânicas de algas desenvolvem-se rapidamente do solo, agarrando-se nos heroes inimigos.  Tentar escapar das vinhas é inútil - correr faz elas estalarem, causando stun e causando dano nos aprisionados.
 Ability_Bubbles4_description2									
 Ability_Bubbles4_effect_header									
 Ability_Bubbles4_effect_header2									
-Ability_Bubbles4_tooltip_flavor									Watch your step!
-Ability_Bubbles4_IMPACT_effect									All enemy heroes in the radius take {100,150,200} Magic damage and are stunned for .5 seconds instantly.\n\nIf they move more than 600 units away from the center of the effect, they are stunned for {1.5,2.25,3} seconds and take an additional {100,150,200} Magic damage.
+Ability_Bubbles4_tooltip_flavor									Cuidado aonde pisa!
+Ability_Bubbles4_IMPACT_effect									Todos os heroes inimigos no raio recebem {100,150,200} de dano Mágico e são stunados por .5 segundo instantâneamente.\n\nSe eles se moverem para mais de 600 unidades distante do centro do efeito, eles serão stunados por {1.5,2.25,3} segundos e recebem um adicional de {100,150,200} de dano Mágico.
 
 // Gadget_Bubbles_Ability4
 Gadget_Bubbles_Ability4_name									
@@ -766,15 +766,15 @@ Gadget_Bubbles_Ability4_description
 State_Bubbles_Ability4_name										
 State_Bubbles_Ability4_description								
 State_Bubbles_Ability4_description2								
-State_Bubbles_Ability4_effect_header							None
-State_Bubbles_Ability4_effect_header2							None
-State_Bubbles_Ability4_tooltip_flavor							None
+State_Bubbles_Ability4_effect_header							Nenhum
+State_Bubbles_Ability4_effect_header2							Nenhum
+State_Bubbles_Ability4_tooltip_flavor							Nenhum
 State_Bubbles_Ability4_FRAME_effect								
 State_Bubbles_Ability4_INFLICT_effect							
 
 // Hero_Bubbles
 Hero_Bubbles_name												Bubbles
-Hero_Bubbles_description										A powerful wizard once owned a pet turtle.  Each day, the turtle watched and mimicked as the wizard practiced his spells.  One day, the turtle fell into a magical pool and was transformed into more than a mere turtle. Now, centuries after his master died, Bubbles lives on, fighting the forces of evil.
+Hero_Bubbles_description										Um poderoso mago já foi dono de uma tartatura de estimação.  Todo dia, a tartaruga observava e imitava o mago quando ele praticava suas magias.  Um dia, a tartaruga caiu em uma poça mágica e foi transformado em algo maior do que uma simples tartaruga. Agora, séculos após a morte de seu mestre, Bubbles continua sobrevivendo, lutando contra as forças do mal.
 
 // Ability_Chipper1
 Ability_Chipper1_name											Rocket Barrage
