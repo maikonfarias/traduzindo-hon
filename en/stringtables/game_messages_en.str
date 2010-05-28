@@ -116,8 +116,9 @@ chat_team_lobby						^y[TEAM] {color}{player}: ^*{message}
 server_message						^188[SERVER] ^yServer Message: {message}
 
 error_item_unavailable				{item} is unavailable at this location.
-error_low_gold_item					Cannot afford {item}.
-error_low_gold_recipe				Cannot afford {item}.
+error_low_gold_item					You cannot afford {item}.
+error_low_gold_recipe				You cannot afford {item}.
+error_low_gold_buy_all				You cannot afford all the components for {item}.
 
 str_bonus							{value} Strength
 str_bonus_per_level					{value_per_level} Strength per level

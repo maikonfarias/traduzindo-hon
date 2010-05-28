@@ -1,5 +1,39 @@
-﻿// MOTD (temp)
-MOTD								^yDê o melhor presentes de todos!^*\n\nAgora você pode presentear HoN nas festividades. Visite ^rhttp://www.heroesofnewerth.com/gift^* para comprar um cartão de presente online em que seu destinatário ganhará uma conta paga completa do HoN. O cartão tem um código de resgate que significa uma conta especial de pré-venda.\n\nVocê também pode visistar ^rhttp://www.heroesofnewerth.com/wishlist^* para enviar um email pré-montado para seus amigos ou família, notificando-os que o HoN está na sua lista de desejos das festividades.
+﻿// Buttons
+BACKSPACE		Apagar
+TAB				Tab
+ENTER			Enter
+ESC				Escape
+SPACE			Espaço
+CAPS_LOCK		Caps Lock
+SHIFT			Shift
+LSHIFT			Shift Esquerdo
+RSHIFT			Shift Direito
+CTRL			Ctrl
+LCTRL			Ctrl Esquerdo
+RCTRL			Ctrl Direito
+ALT				Alt
+LALT			Alt Esquerdo
+RALT			Alt Direito
+WIN				Botão Windows
+LWIN			Botão Windows Esquerdo
+RWIN			Botão Windows Direito
+UP				Cima
+LEFT			Esquerda
+DOWN			Baixo
+RIGHT			Direita
+NUM_LOCK		Num Lock
+DIVIDE			/ (num)
+MULTIPLY		* (num)
+ADD				+ (num)
+SUBTRACT		- (num)
+DECIMAL			. (num)
+NUM_ENTER		Enter (num)
+SEMI-COLON		;
+SLASH			/
+BACK_SLASH		\\
+QUOTE			"
+COMMA			,
+PERIOD			.
 
 // General
 general_cancel								Cancelar
@@ -52,6 +86,7 @@ general_ready								Pronto
 general_error								Erro
 general_retry								Repetir
 general_login								Login
+general_error_login							Login Falhou
 general_error_sea_deny						Usuários do Sudoeste da Ásia devem se conectar pelo cliente do Garena.
 general_error_sea_message1					O beta de Heroes of Newerth para usuários de Singapura, Malásia, Vietnã e Filipinas irá começar em breve.  No início do closed beta, jogadores destes países poderão requisitar sua Beta Key imediatamente se eles forem Gold Members do Garena, enquanto outras keys serão sorteadas em outros concursos da comunidade. Por favor, note que os países não listados aqui (Por exemplo, Indonésia, Tailândia) não poderão jogar pelos servidores do Garena, requerindo a compra de uma conta para jogar nos servidores internacionais da S2 Games.
 general_error_sea_message2					Para mais informações do Time Garena sobre o lançamento do Heroes Of Newerth, visite o blog em ^yhttp://blog.garena.com^* ou o website oficial Heroes Of Newerth do Garena em ^yhttp://hon.garena.com^*.
@@ -78,10 +113,10 @@ general_mode_allow_veto						Permitir Veto
 general_mode_shuffle						Embaralhar Times
 general_mode_autobalance					Equilibrar Times
 general_mode_no_leavers						Sem Desistentes
-general_mode_no_stats						Sem Estatísticas
+general_mode_no_stats						Sem Estats.
 general_mode_official						Oficial
 general_mode_tournament_rules				Regras de Torneios
-general_mode_hardcore						Modo Hardcore
+general_mode_hardcore						Hardcore
 general_mode_dev_heroes					    Heroes Teste
 
 // main.interface
@@ -119,7 +154,7 @@ main_label_old_version						De: ^w{version}
 main_label_new_version						Para: ^w{version}
 main_label_update_files						Arquivos Restantes: ^w{count} / {total}
 main_label_update_progress					Progresso: ^w{count}MB / {total}MB
-main_label_update_speed						Velocidade de Download: ^w{speed}KB/seg
+main_label_update_speed						Veloc. de Download: ^w{speed}KB/seg
 main_label_update_time						Tempo Restante: ^w{time}
 main_label_update_error						Erro de Update do HoN
 main_login_save_username					Salvar Usuário
@@ -166,8 +201,9 @@ main_reconnect_text							Você desconectou de uma partida em progresso e você 
 main_reconnect_playing_in					Você está jogando em uma partida em progresso:
 
 
-main_filter_prequery_title					Filter Pre-Query
+main_filter_prequery_title					Filtrar Pré-Query
 main_filter_prequery_tip					Selecionar esta opção irá filtrar a lista de partidas baseando-se na ^!yRegião^* que você selecionou no lado do servidor, ao invés do lado do cliente. Isto diminui o tempo necessário para recuperar a lista e o ping das partidas. Usando essa opção provavelmente irá ajudar quem tem conexão lenta.
+main_filter_hide_restricted_tip				Selecionar esta opção irá esconder todas as partidas que são restringidas a você devido ao fato de ter o estado de "Desertor" ou tendo PSR que não está entre o PSR Min/Max que o host especificou.
 main_leaver_title							Estatísticas de Desist.
 main_leaver_tip								Essa estatística indica se você poderá entrar ou não em Partidas Protegidas de Desistentes. O número de desistências permitidas é determinada por quantas partidas você jogou.
 main_leaver_tip_tier1						1 - 39 Partidas
@@ -290,7 +326,7 @@ options_checkbox_sound_muteMusic_tip		Se habilitado, a música irá cessar, mas 
 
 options_header_voice_chat_options			Opções do Chat de Voz
 options_label_test_mic_level				Testar Nível do Mic
-options_test_mic_level_tip					Tests microphone input level.
+options_test_mic_level_tip					Testa o nível de entrada do microfone.
 options_button_begin_test					Iniciar Teste
 options_button_stop_test					Parar Teste
 options_label_voice_chat_volume				Volume do Chat de Voz ^w
@@ -312,7 +348,7 @@ options_disable_voice_chat_tip				Desligar o chat de voz. Você não escutará o
 options_checkbox_push_to_talk				Apertar Para Falar
 options_push_to_talk_enable_tip				Quando Apertar Para Falar estiver ligado, seu microfone só irá funcionar enquanto você apertar o botão designado. Se você não usar o Apertar Para Falar, seu microfone  funcionará automaticamente quando você falar.
 
-options_header_voice_chat_talk_settings		Voice Chat Talk Settings
+options_header_voice_chat_talk_settings		Definições do Char de Voz
 options_label_push_to_talk_keybind			Apertar Para Falar
 options_push_to_talk_tip					Apertar esse botão irá ligar seu microfone se tiver com o Chat por Voz ativado.
 options_label_lane_talk_keybind				Apertar Para Falar na Lane
@@ -330,7 +366,7 @@ options_checkbox_screen_edge_scroll			Controle da Tela
 options_screen_edge_scroll_tip				Se habilitado, a câmera irá se mover quando o cursor for colocado nos cantos da tela.
 
 options_checkbox_camera_lock				Travar Camera
-options_screen_camera_lock_tip				Se habilitado, a câmera se moverá junto com seu Heróis.
+options_screen_camera_lock_tip				Se habilitado, a câmera se moverá junto com seu Heróis dentro da partida.
 
 
 options_checkbox_constrain_cursor			Confinar Cursor
@@ -358,8 +394,8 @@ options_label_shift_keybind					Shift Modificador
 options_label_shiftmod_keybind_tooltip		O Shift Modificador permite que o usuário encadeie comandos.
 options_label_ctrl_keybind					Ctrl Modificador
 options_label_ctrlmod_keybind_tooltip		O Ctrl Modificador pode ser usado em conjunto com diversos outros comandos na partida.
-options_label_mod3_keybind					Direct Pathing
-options_label_mod3_keybind_tooltip			Pressing this button while issuing an order will make a unit attempt the most direct path to their goal.
+options_label_mod3_keybind					Caminhada Direta
+options_label_mod3_keybind_tooltip			Pressionar este botão enquanto envia uma ordem irá fazer a unidade tentar o caminho mais direto para seu destino.
 options_label_on-screen_info_keybind		Info Na Tela
 options_label_on-screen_info_toggle_keybind	Ligar/Desligar Info Na Tela
 options_label_camera_drag_keybind			Mover Câmera
@@ -524,14 +560,14 @@ options_checkbox_show_timestamps_tip		Se habilitado, mostrará a hora de cada fa
 options_checkbox_reverse_minimap			Inverter Mini Mapa
 options_checkbox_reverse_minimap_tip		Se habilitado, o mini mapa na interface da partida irá ser movido do canto inferior esquerdo para o canto inferior direito.
 
-options_checkbox_camera_center_on_respawn		Center Camera on Respawn
-options_checkbox_camera_center_on_respawn_tip	If enabled, when your hero respawns the camera will automatically move to your heros location.
+options_checkbox_camera_center_on_respawn		Centraliza Câmera ao Renascer
+options_checkbox_camera_center_on_respawn_tip	Se habilitado, quando seu hero renascer a câmera irá mover-se até ele automaticamente.
 
-options_checkbox_disable_background_effects		Disable Background Effects
-options_checkbox_disable_background_effects_tip	If enabled, the background lobby effects and animations will not be loaded or played. \n\n(Requires a restart)         
+options_checkbox_disable_background_effects		Desabilitar Efeitos de Fundo
+options_checkbox_disable_background_effects_tip	se habilitado, os efeitos do fundo da lobby e animações não serão carregados ou reproduzidos. \n\n(Necessita reiniciar o jogo)         
 
-options_slider_notification_duration		Display Duration
-options_slider_notification_duration_tip	Sets the length in seconds that notifications will be displayed before fading away.
+options_slider_notification_duration		Duração de Mostragem
+options_slider_notification_duration_tip	Determina quanto tempo em segundos que as notificações serão mostradas antes de sumir.
 
 options_checkbox_disable_notifications		Desabilitar Todas as Notificações
 options_checkbox_disable_notifications_tip	Se habilitado, nenhum popup de notificação será mostrado mas elas ainda serão gravadas no seu histórico de notificações.
@@ -542,8 +578,8 @@ options_checkbox_disable_notifications_ingame_tip	Se habilitado, nenhum popup de
 options_checkbox_selection_highlight		Destacar Seleção
 options_checkbox_selection_highlight_tip	Se habilitado, unidades serão destacadas se o mouse passar por cima delas.
 
-options_enable_minimap_rightclick			Minimap Right Click
-options_enable_minimap_rightclick_tip		Unless enabled, right clicks on the minimap will be ignored.
+options_enable_minimap_rightclick			Clique Direito no Minimapa
+options_enable_minimap_rightclick_tip		Caso esteja desligado, cliques com o botão direito no minimapa serão ignorados.
 
 options_checkbox_show_exp					Mostrar Quantidade de Exp
 options_screen_show_exp_tip					Se habilitado, a sua experiência será mostrada.
@@ -588,13 +624,11 @@ options_notifications_friends_imreceived			Msg Recebida
 options_notifications_friends_pmreceived			MP Recebida
 options_notifications_friends_scored				Scored
 options_notifications_clans							Clans
-options_notifications_clans_promotion				Promover Membro
-options_notifications_clans_demotion				Rebaixar Membro
-options_notifications_clans_signon					Sign On
-options_notifications_clans_signoff					Sign Off
-options_notifications_clans_joingame				Join Game
-options_notifications_clans_leavegame				Leave Game
-options_notifications_clans_rank_change				Member Rank Change
+options_notifications_clans_signon					Logar-se
+options_notifications_clans_signoff					Deslogar-se
+options_notifications_clans_joingame				Entrar na Partida
+options_notifications_clans_leavegame				Sair da Partida
+options_notifications_clans_rank_change				Troca de Rank do membro
 options_notifications_clans_removal					Remover Membro
 options_notifications_clans_addition				Adicionar Membro
 options_notifications_clans_event					Evento do Clan
@@ -667,7 +701,7 @@ create_acc_havecode							Você recebeu um Código Promocional?
 create_acc_entercode_btn					Inserir o Código
 
 // Tooltips for various create/etc. account forms - shared stuff mostly
-web_form_create_account_continue			Once basic account information has been filled out, click "Continue" to move on to payment information.
+web_form_create_account_continue			Assim que as informações básicas da conta forem preenchidas, clique em "Continuar" para ir até as informações de pagamento.
 web_form_create_acct_title					Criar uma Nova Conta
 web_form_purchase_acct_title				Comprar Nova Conta
 web_form_friend_nickname					Apelido do Amigo
@@ -681,12 +715,12 @@ web_form_gift_your_name_tip					Se você desejar que o beneficiário dessa conta
 web_form_gift_friend_email					E-mail do amigo
 web_form_gift_friend_email_tip				Digite o endereço de e-mail de um amigo para quem você gostaria de comprar uma conta. Um e-mail será enviado para ele no momento da aquisição, detalhando como criar sua conta.
 web_form_acc_tos_generic					Para criar e usar uma conta de Heroes Newerth, você deve concordar com os Termos de Serviço.
-web_form_must_login							Deve estar Logadp
+web_form_must_login							Deve estar Logado
 web_form_must_login_text					Você precisa Logar para poder utilizar esse recurso.
-web_form_subaccount_title					Criar Sub Conta
-web_form_subaccount_name					Sub-Accounts
-web_form_subaccount_description				Sub-Accounts provide an additional identity for your account with its own nickname, statistics, and buddies. Your sub-account is tied to your main account and only one account in that group can be logged in at any given time.
-web_form_subaccount_description_short		Sub-Accounts provide an additional identity for your account with its own nickname, statistics, and buddies.
+web_form_subaccount_title					Criar Subconta
+web_form_subaccount_name					Subconta
+web_form_subaccount_description				Subcontas lhe dão uma identidade adicional para a sua conta tendo um apelido, estatísticas e amigos próprios. Sua subconta está vinculada com sua conta principal e apenas uma conta deste grupo pode estar conectado a todo momento.
+web_form_subaccount_description_short		Subcontas lhe dão uma identidade adicional para a sua conta tendo um apelido, estatísticas e amigos próprios.
 web_form_resetstats_title					Resetar Estatísticas
 web_form_upgradefriend_title				Melhorar Conta de um Amigo
 web_form_resetstats_pubstats				Estatís. Públicas
@@ -701,13 +735,13 @@ web_form_resetstats_smr						Partida de Ranking Invividual - Solo Match Rank (SM
 web_form_resetstats_smr_tip					Classificação obtida por jogos classificados por si mesmo.
 web_form_resetstats_tmr						Partida de Ranking em Equipe - Team Match Rank (TMR)
 web_form_resetstats_tmr_tip					Classificação obtida pela Equipe.
-web_form_resetstats_blurb					You can clear certain statistics or wipe all of an account's statistics for $20. Disconnects will also be reset with public statistics.
-web_form_resetstats_warning					Be Aware: There will be another statistics reset before the release of Heroes of Newerth.
+web_form_resetstats_blurb					Você podera limpar certas estatísticas ou deletar toda as estatísticas gravadas por US$20. Desistências também serão resetadas nas estatísticas públicas.
+web_form_resetstats_warning					Esteja Ciente: Teremos um novo resete de estatísticas antes de lançarmos Heroes of Newerth.
 web_form_resetstats_button					Resetar Estatísticas
-web_form_resetstats_about					About Resetting Stats
+web_form_resetstats_about					Sobre resete de estatís.
 web_form_resetstats_notice					Clique no botão "Resetar Estatísticas" para redefinir permanentemente as estatísticas escolhidas. Preste atenção!!! Este processo é permanente, e irreversível.
 web_form_create_subaccount_title			Criar Sub Conta
-web_form_purchase_account					Purchase Account
+web_form_purchase_account					Comprar Conta
 web_form_upgrade_account_title				Melhorar Conta
 web_form_create_subaccount_button			Criar Sub Conta
 web_form_create_account_error				Erro na Criação da Conta
@@ -732,42 +766,62 @@ web_form_resetstats_error6					Código Promocional Inválido
 web_form_resetstats_error7					Informações de pagamento inválidas - pagamento recusado.
 web_form_resetstats_error8					Esse recurso está atualmente em manutenção.
 web_form_resetstats_success					As estatísticas escolhidas foram resetadas com sucesso.
-web_form_resetstats_success_title			Stats Reset
+web_form_resetstats_success_title			Resetar Estatís.
 web_form_friendupgrade_auccess_title		Upgrade de Amigo com Sucesso
 web_form_friendupgrade_success				Você fez Upgrade na conta de seu amigo com sucesso!
 web_form_subaccount_success_title			Sub-Conta Criada
 web_form_subaccount_success					Você criaou uma Sub-Conta com sucesso!  Você vai precisar desconectar antes de conectar com a nova sub-conta.
 web_form_paypal_notice						Também aceitamos pagamentos por paypal em: www.heroesofnewerth.com
-web_form_website_payment_notice				Accounts can also be purchased at our website, www.heroesofnewerth.com.  In addition to credit card payment, PayPal is also accepted at our website.
-web_form_lan_account_feature_unavailable		Feature Currently Unavailable for LAN Account Users
-web_form_lan_account_feature_unavailable_text	This feature is currently only available through our website.
+web_form_website_payment_notice				Contas também podem ser compradas no nosso website, www.heroesofnewerth.com.  Em adição ao pagamento por cartão de crédito, PayPal também é aceito no nosso website.
+web_form_nickchange_title					Mudar Apelido
+web_form_nickchange_newnick					Novo Apelido
+web_form_nickchange_confirmnick				Confirmar Apelido
+web_form_nickchange_notice					Este formulário pode ser usado para mudar seu apelido para qualquer apelido disponível, incluindo aqueles usados por contas que ainda não compraram Heroes of Newerth mas existiram durante o beta.
+web_form_nickchange_error0					Apelido já existe - você deverá mudar seu cadastro.
+web_form_nickchange_error1					Não pôde se conectar.  Tente novamente em alguns momentos.
+web_form_nickchange_error2					Apelidos não podem começar com números [0-9] ou 'S2'.
+web_form_nickchange_error3					Caracter, tamanho ou formato do apelido inválido.
+web_form_nickchange_error4					Impossível ler as informações da conta.
+web_form_nickchange_error5					Impossível guardar dados da transação - Por favor, tente novamente.
+web_form_nickchange_error6					Erro desconhecido - por favor entre em contato com support@heroesofnewerth.com
+web_form_nickchange_error7					O cartão de crédito foi recusado.
+web_form_nickchange_error8					Apelido e confirmação de apelido não são iguais.
+web_form_nickchange_error9					Senha inválida.  Por favor, tente novamente.
+web_form_nickchange_success					Apelido trocado com sucesso para ^g{nickname}^*.  Você deve se desconectar para que a troca tenha efeito.
+web_form_nickchange_success_title			Apelido Modificado
+web_form_nickchange_tos						Ao clicar em "Mudar Apelido", você estará concordando com os Termos de Serviço
 
-web_form_login_upgrade_description			Heroes of Newerth has been released and the open beta has ended.  You will need to purchase Heroes of Newerth in order to continue to play.  Please fill in the required information in order to upgrade your Heroes of Newerth account to paid status.
+web_form_lan_account_feature_unavailable		Recursos Atualmente Indisponíveis para Usuários de Conta LAN
+web_form_lan_account_feature_unavailable_text	Este recurso está disponível apenas através do nosso website.
+
+web_form_login_upgrade_description			Heroes of Newerth foi lançado e o open beta acabou.  Você precisa comprar Heroes of Newerth para continuar a jogar.  Por favor, preencha as informações necessárias para fazer upgrade da sua conta de Heroes Of Newerth para o status de paga.
 
 // Purchase promo stuff for people who havent bought by release
-purchase_promo_your_hero_here				(Your Hero Here)
-purchase_promo_have_account					Already Purchased/Choose a different account?
-purchase_promo_view_tos						View ToS
-purchase_promo_dream_title					S2Games' Dream Program
-purchase_promo_dream_desc					Get your hero added to HoN! Visit ^yhttp://dream.heroesofnewerth.com^* for more information.
-purchase_promo_much_more					And MUCH more!
-purchase_promo_avail_now					AVAILABLE NOW!
-purchase_promo_purchase_now_desc			Purchase now to be a part of Heroes of Newerth and help us continue to make it the best multiplayer team-based game ever created!
-purchase_promo_content_title				Consistent New Content Patches
-purchase_promo_content_desc					Including new heroes, items, balance tweaks, and features.
-purchase_promo_matchmaking_title			Team Match Making
+purchase_promo_your_hero_here				(Seu Hero Aqui)
+purchase_promo_have_account					Entrar com uma conta diferente?
+purchase_promo_view_tos						Ver TdS
+purchase_promo_dream_title					Programa Dream da S2Games
+purchase_promo_dream_desc					Tenha o seu hero no HoN! Visite ^yhttp://dream.heroesofnewerth.com^* para mais informações.
+purchase_promo_much_more					E MUITO mais!
+purchase_promo_avail_now					DISPONÍVEL JÁ!
+purchase_promo_purchase_now_desc			Compre agora para fazer parte do Heroes of Newerth e nos ajude a continuar a fazer dele o melhor game multijogador baseado em times já criado!
+purchase_promo_content_title				Atualizações de Conteúdo Consistentes
+purchase_promo_content_desc					Incluindo novos heroes, itens, acertos de competitividade e outros recursos.
+purchase_promo_matchmaking_title			Match Making de Times
 purchase_promo_matchmaking_desc
-purchase_promo_competitive_title			Fullscale Support for Competitive Play
-purchase_promo_competitive_desc				Including a large competitive community, big cash prize tournaments, and additional in-game features to support HoN as an e-Sport.
-purchase_promo_achievements_title			Achievements
+purchase_promo_competitive_title			Suporte Completo para Partidas Competitivas
+purchase_promo_competitive_desc				Incluindo uma extensa comunidade competitiva, torneios com grandes prêmios em dinheiro e recursos adicionais ingame para dar suporte ao HoN como um e-Sport.
+purchase_promo_achievements_title			Conquistas
 purchase_promo_achievements_desc
-purchase_promo_modes_title					New Game Modes
+purchase_promo_modes_title					Novos Modos de Jogo
 purchase_promo_modes_desc
-purchase_promo_sdk_title					SDK (including Map Editor)
-purchase_promo_sdk_desc						Empowering players to create their own games and game modes.
+purchase_promo_sdk_title					SDK (incluindo Editor de Mapas)
+purchase_promo_sdk_desc						Dando poder aos jogadores para criarem seus próprios games e modos de partida.
+purchase_promo_nick_notice					Tentando upgrade na última conta que houveram tentativas (^g{account}^*).  Se você quiser usar uma conta diferente, clique no botão abaixo para fazer o log in usando uma conta diferente.
 
 
 // Tutorial Stuff
+
 prompt_tutorial_title						Ir para o Tutorial?
 prompt_tutorial_text						Bem vindo ao Heroes of Newerth.  Como um novo jogador, recomendamos que você primeiro jogue o tutorial antes de jogar uma partida online. Gostaria de visitar o tutorial agora?
 
@@ -1089,12 +1143,12 @@ credit_card_result_email					E-mail: ^w{email}
 // game.interface
 game_scores_label_name						NOME
 game_scores_label_hero						HERO
-game_scores_label_lvl						Lvl
+game_scores_label_lvl						Nvl
 game_scores_label_player_name				Jogador
 game_scores_label_k							K
 game_scores_label_d							D
 game_scores_label_a							A
-game_scores_label_tab_lvl					Lvl
+game_scores_label_tab_lvl					Nvl
 game_scores_label_tab_player_name			Jogador
 game_scores_label_tab_k						K
 game_scores_label_tab_d						D
@@ -1102,8 +1156,8 @@ game_scores_label_tab_a						A
 game_shop_label_recipe						Recipe
 game_shop_label_combine						Combinar
 
-game_scores_header_scores					Pontos
-game_button_scores							Pontos
+game_scores_header_scores					Tabela
+game_button_scores							Tabela
 game_halfscores_tooltip						Clique para mostrar apenas o avatar do jogador e a parte level do painel. Para expandir ou esconder totalmente os pontos, use o botão acima.
 game_button_menu							Menu
 game_button_open_close_shop					Abrir/Fechar Loja
@@ -1139,7 +1193,7 @@ game_attributes_label_atk_spd				Vel Atq
 game_attributes_label_magic_armor			Armad Mág
 game_header_scores_team_one					Time 1
 game_header_scores_team_two					Time 2
-game_label_ally_level						L
+game_label_ally_level						N
 game_label_buy_back							Renascer
 game_label_hero_kd_hero						Hero:
 game_label_creep_kills_creep				Creep:
@@ -1149,7 +1203,7 @@ game_disconnect								Desconectar
 
 // game_chat.package
 gamechat_button_send_message				Enviar Mensagem
-gamechat_tip_hit_z_history					^y*Dica:^* Aperte "Z" para histórico de chat
+gamechat_tip_hit_z_history					^y*Dica:^* Aperte "Z" para histórico
 gamechat_indicate_team						[TIME]
 gamechat_indicate_all						[MAPA]
 gamechat_header_chat						Chat
@@ -1316,7 +1370,7 @@ endstats_label_match_comments				Comentários
 endstats_button_submit_comment				Enviar Comentário
 endstats_header_legion_players				Jogadores da Legion
 endstats_header_player_name					Nome do Jogador
-endstats_label_lvl							Lvl
+endstats_label_lvl							Nvl
 endstats_label_hk							HK
 endstats_label_d							D
 endstats_label_ck							CK
@@ -1347,19 +1401,19 @@ endstats_header_team_creeps					Creeps Time
 endstats_label_creep_damage					Dano
 endstats_label_creep_kills					Kills
 endstats_label_creep_gold					Gold
-endstats_header_neutrals					Neutral Creeps
-endstats_label_neutral_damage				Damage
+endstats_header_neutrals					Creeps Neutros
+endstats_label_neutral_damage				Dano
 endstats_label_neutral_kills				Kills
 endstats_label_neutral_gold					Gold
 endstats_header_creep_denies				Deny Creeps
 endstats_label_creep_deny_count				Contador Denies
-endstats_label_creep_xp_denied				XP Denied
+endstats_label_creep_xp_denied				XP Deny
 endstats_header_hellbourne_players			Jogadores da Hellbourne
 endstats_header_legion_statistics			Estatísticas Legion
 endstats_header_hellbourne_statistics		Estatísticas Hellbourne
 endstats_label_attributes_player			Atributos do Jogador
 endstats_label_hero_played					Hero Jogado
-endstats_label_hero_level					Level
+endstats_label_hero_level					Nível
 endstats_label_hero_info_health				Vida
 endstats_label_hero_info_mana				Mana
 endstats_label_hero_info_damage				Dano
@@ -1368,8 +1422,8 @@ endstats_label_hero_info_atk_spd			Vel. Ataque
 endstats_label_hero_info_int				Inteligência
 enstasts_label_hero_info_agi				Agilidade
 endstats_label_hero_info_str				Força
-endstats_label_hero_info_armor				Armor
-endstats_label_hero_info_inventory			Inventory
+endstats_label_hero_info_armor				Armadura
+endstats_label_hero_info_inventory			Inventário
 endstats_label_kda							K / D / A
 endstats_label_apm							APM
 endstats_label_match_name					^yPartida:^*
@@ -1518,8 +1572,8 @@ mainlobby_label_tier_tip					Servidor restrito, baseado pela patente especificad
 mainlobby_header_game_tier1					^090Apenas Noobs
 mainlobby_header_game_tier2					^059Permitido Noobs
 mainlobby_header_game_tier3					^900Profissionais
-mainlobby_label_min_max_psr					Min/Max PSR
-mainlobby_label_min_max_psr_tip				Only allows players to join games if their specified PSR falls in within 2%% of the servers Min/Max PSR range. A player who is invited to a game will bypass all Min/Max PSR restrictions.
+mainlobby_label_min_max_psr					PSR Min/Max
+mainlobby_label_min_max_psr_tip				Permite apenas jogadores em que o PSR esteja entre 2%% para mais ou para menos do PSR Min/Max. O jogador que for convidado para esse jogo poderá passar pelas restrições de PSR Min/Max.
 mainlobby_header_game_official				Oficial - Estatísticas serão gravadas
 mainlobby_header_game_official2				Não oficial
 main_lobby_public							Público
@@ -1532,22 +1586,22 @@ mainlobby_label_more						Opções Avançadas
 mainlobby_button_show_advanced				Mostrar Avançados
 mainlobby_button_hide_advanced				Ocultar Avançados
 
-mainlobby_button_ranked_play				Ranked Play
+mainlobby_button_ranked_play				Partida Rankeada
 
 mainlobby_button_custom_game				Lista de Jogos
-mainlobby_button_custom_game_desc			If you don't want to use Quick Play and would like to manually look through the available games to join use this button. In the Game List you can filter the results for Team Size, Modes, Options, and Pings. If you want to quickly get in the action at the push of a button we suggest using Quick Play.
+mainlobby_button_custom_game_desc			Se você não quiser usar o Quick Play e gostaria de olhar os partidas disponíveis use este botão. Na Lista de Partidas você poderá filtrar os resultados pelo Tamanho do Time, Modos, Opções e Pings. Se você quiser entrar em ação rapidamente ao pressionar um botão, nós sugerimos o Quick Play.
 mainlobby_button_create_game				Criar Partida
-mainlobby_button_create_game_desc			Want to host a game that is set up exactly as you want it or make it easy for your friends to join? Use this feature! When creating a game you can set it to Private, wait for your friends to join, and then Announce it to fill the remaining spots.
+mainlobby_button_create_game_desc			Quer hostear uma partida que é exatamente como você quiser ou facilitar para os seus amigos entrarem? Use este recurso! Ao criar a partida você poderá colocar como Privado, esperar seus amigos entrarem e então anunciar para completar os espaços remanescentes.
 mainlobby_header_custom_join_a_game			Juntar-se à uma Partida
 mainlobby_header_custom_filter_results		Filtrar Resultados do Server
 main_lobby_filter_description				
 mainlobby_label_custom_game_name			Nome Partida
 main_lobby_game_name_desc					Filter the game browser by typing in a full or partial search phrase.\n\nUse '|' to separate the search phrases, use '-' at the beginning of the phrase to exclude a term, and use '\\|' or '\\-' to escape the '|' or '-'. \n                                                                                  
 mainlobby_label_custom_game_type			Modo Partida
-mainlobby_label_custom_game_type_desc		Game Modes generally alter how hero selection works.\n\n^yNormal^* - Standard hero selection.\n^yRandom Draft^* - Limits hero selection to 20 heroes then alternates picking between players.\n^ySingle Draft^* - Each player is given a hero selection of one agility, one intelligence, and one strength hero.\n^yBanning Draft^* - Identical to Random Draft, except Blue and Pink take turns banning 4 total heroes first.\n^yBanning Pick^* - Blue and Pink take turns banning 6 total heroes each, and then players alternate picking from the remaining hero pool.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
+mainlobby_label_custom_game_type_desc		Os Game Modes geralmente alteram a forma de como os heroes são selecionados.\n\n^yNormal^* - Seleção de hero padrão.\n^yRandom Draft^* - Limita as opções para 20 heroes e então alterna a escolha entre os jogadores.\n^ySingle Draft^* - Cada jogador recebe um hero de agilidade, um de inteligência e um de força, dos quais deverá escolher um para jogar.\n^yBanning Draft^* - Semelhante ao Random Draft, excetuando que o Azul e o Rosa alternam-se para banir 4 heroes antes da seleção.\n^yBanning Pick^* - Azul e Rosa alternam-se para banir 6 heroes cada, somente então os jogadores alternam a seleção com as opções restantes.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
 // Removing this for now - JT               ^yDeathmatch^* - Normal hero selection, but after dying, players are forced to pick a new hero. Game ends when one team runs out of available heroes.\n
-mainlobby_label_custom_game_region			Region
-mainlobby_label_custom_game_region_desc		Where the server is located geographically.
+mainlobby_label_custom_game_region			Região
+mainlobby_label_custom_game_region_desc		Aonde o servidor é localizado geograficamente.
 mainlobby_label_custom_game_US				USA - Todos
 mainlobby_label_custom_game_USC				USA - Central
 mainlobby_label_custom_game_USE				USA - Leste
@@ -1556,7 +1610,7 @@ mainlobby_label_custom_game_USW				USA - Oeste
 mainlobby_label_custom_game_EU				Europa - Todos
 mainlobby_label_custom_game_DE				Alemanha
 mainlobby_label_custom_game_UK				Reino Unido
-mainlobby_label_custom_game_NL				Netherlands
+mainlobby_label_custom_game_NL				Países Baixos
 mainlobby_label_custom_game_JPN				Japão
 mainlobby_label_custom_game_AU				Austrália
 mainlobby_label_custom_game_ID				Indonésia
@@ -1600,7 +1654,7 @@ mainlobby_button_custom_join_selected		Entrar nesta Partida
 mainlobby_header_custom_karma				Partida proibida para Desistentes
 mainlobby_button_custom_instant_upgrade		Instantly Upgrade to a Prime Account Now
 mainlobby_button_custom_return				Retornar ao Buscador de Partidas...
-mainlobby_header_custom_prime_req			Prime Account Required
+mainlobby_header_custom_prime_req			Conta Prime Requerida
 mainlobby_header_create_create_game			Criar uma Partida
 mainlobby_header_create_public_game			Criar uma Partida pública
 mainlobby_label_custom_searching			Procurando...
@@ -1609,95 +1663,97 @@ mainlobby_label_cc_clan						Clan
 mainlobby_cc_rtclick_friends_filter			Filtro
 mainlobby_cc_rtclick_clan_filter			Filtro
 mainlobby_label_custom_game_access			Acesso do jogo
-mainlobby_tip_custom_game_access			Public matches are available to all players. Private matches require a password to join.
+mainlobby_tip_custom_game_access			Partidas públicas estão disponíveis para todos os jogadores. Partidas privadas requerem uma senha para entrar.
 mainlobby_label_custom_retrieving_list		Solicitando Lista...
 mainlobby_label_filter_server_name			Filtrar nome do Servidor
-mainlobby_tip_filter_server_name			Enter a server name, or part of a server name to filter the results.
+mainlobby_tip_filter_server_name			Entre com um nome de servidor, or part of a server name to filter the results.
 mainlobby_create_game_remote				Partida sendo Iniciada...
 
-mainlobby_label_icon_key					View Icon Key
-mainlobby_filter_prequery					Filtrar Pre-Query
-mainlobby_icon_key_options_header			Game Setup and Options
+mainlobby_label_icon_key					Legenda Ícones
+mainlobby_filter_prequery					Filtrar Pré-Query
+mainlobby_filter_hide_restricted			Esconder Partidas Restritas
+mainlobby_icon_key_options_header			Opções e Setup do Jogo
 mainlobby_icon_key_maps_header				Mapas
-mainlobby_icon_key_checkboxes				Option Checkboxes
-mainlobby_icon_key_chat_header				Chat Icons
-mainlobby_icon_key_chat_staff				S2 Games Staff
-mainlobby_icon_key_chat_gm					Administrador
-mainlobby_icon_key_chat_op					Channel Operator
-mainlobby_icon_key_chat_ingame				Jogando
+mainlobby_icon_key_checkboxes				Opções Checkboxes
+mainlobby_icon_key_chat_header				Ícones Chat
+mainlobby_icon_key_chat_staff				Staff da S2 Games
+mainlobby_icon_key_chat_gm					Gerenciador do Game
+mainlobby_icon_key_chat_op					Operador do Canal
+mainlobby_icon_key_chat_premium				Conta Premium
+mainlobby_icon_key_chat_ingame				Jogador Em Partida
 mainlobby_icon_key_opt_nopref				Sem Preferência
 mainlobby_icon_key_opt_required				Requerido
-mainlobby_icon_key_opt_excluded				Excluído
+mainlobby_icon_key_opt_excluded				Ecluído
 
 
-mainlobby_new_channel_header				Join / Create Channel
-mainlobby_server_browser_header				Select a Server
-mainlobby_friends_header					Your Friends List
-mainlobby_server_header						Server
-mainlobby_quick_play_options_header			Quick Play Options
+mainlobby_new_channel_header				Juntar-se / Criar Canal
+mainlobby_server_browser_header				Selecione um Servidor
+mainlobby_friends_header					Sua Lista de Amigos
+mainlobby_server_header						Servidor
+mainlobby_quick_play_options_header			Opções Quick Play
 
 main_lobby_add_new_friend					Add Novo Amigo
 main_lobby_join_create						Juntar-se / Criar
-main_lobby_join_new_channel					Join New Channel 
-main_lobby_searching						Searching...
-main_lobby_no_games_found					No games found! Why not create one?
-main_lobby_response							{visible} of {count} response
-main_lobby_responses						{visible} of {count} responses
-main_lobby_no_servers_found					No servers found!
+main_lobby_join_new_channel					Entrar em Novo Canal 
+main_lobby_searching						Procurando...
+main_lobby_no_games_found					Nenhuma partida encontrada! Porquê não criar uma?
+main_lobby_response							{visible} de {count} resposta
+main_lobby_responses						{visible} ds {count} respostas
+main_lobby_no_servers_found					Nenhum sevidor encontrado!
 
-main_lobby_playersonline					Players Online:
+main_lobby_playersonline					Jogadores Online:
 
-mainlobby_gamelist_official_title			Official - Stats
-mainlobby_gamelist_official_desc			This is an official game, stats will be recorded.
-mainlobby_gamelist_official_2_title			Official - No Stats
-mainlobby_gamelist_official_2_desc			This is an official game, stats will not be recorded.
-mainlobby_gamelist_unofficial_title			Unofficial
-mainlobby_gamelist_unofficial_desc			This is an unofficial game, stats will not be recorded.
-mainlobby_gamelist_beginner_title			Noobs Only
-mainlobby_gamelist_beginner_desc			Only new players can join this game.
-mainlobby_gamelist_general_title			Noobs Allowed
-mainlobby_gamelist_general_desc				All players can play in this game.
-mainlobby_gamelist_veteran_title			Pro Game
-mainlobby_gamelist_veteran_desc				Only experienced players can join this game.
-mainlobby_gamelist_noleaver_title			No Leavers
-mainlobby_gamelist_noleaver_desc			Players with a high leave percentage can not join this game.
+mainlobby_gamelist_official_title			Oficial - Com Estatís.
+mainlobby_gamelist_official_desc			Esta é uma partida oficial, estatísticas serão gravadas.
+mainlobby_gamelist_official_2_title			Oficial - Sem Estatís.
+mainlobby_gamelist_official_2_desc			Esta é uma partida oficial, estatísticas não serão gravadas.
+mainlobby_gamelist_unofficial_title			Não-Oficial
+mainlobby_gamelist_unofficial_desc			Esta é uma partida não-oficial, estatísticas não serão gravadas.
+mainlobby_gamelist_beginner_title			Apenas Noobs
+mainlobby_gamelist_beginner_desc			Apenas novos jogadores podem entrar nessa partida.
+mainlobby_gamelist_general_title			Noobs Permitidos
+mainlobby_gamelist_general_desc				Todos os jogadores podem jogar nessa partida.
+mainlobby_gamelist_veteran_title			Partida Pro
+mainlobby_gamelist_veteran_desc				Apenas jogadores experientes podem jogar nessa partida.
+mainlobby_gamelist_noleaver_title			Sem Desistentes
+mainlobby_gamelist_noleaver_desc			Jogadores com alta porcentagem de desistências não podem entrar nessa partida.
 mainlobby_gamelist_watchtower_title			Watchtower
-mainlobby_gamelist_watchtower_desc			Play a game on Watchtower
+mainlobby_gamelist_watchtower_desc			Jogar partida no mapa Watchtower
 mainlobby_gamelist_caldavar_title			Forests of Caldavar
-mainlobby_gamelist_caldavar_desc			Play a game on Forests of Caldavar
+mainlobby_gamelist_caldavar_desc			Jogar partida no mapa Forests of Caldavar
 mainlobby_gamelist_darkwoodvale_title		Darkwood Vale
-mainlobby_gamelist_darkwoodvale_desc		Play a game on the two lane map, Darkwood Vale
-mainlobby_gamelist_test_title				Test Map
-mainlobby_gamelist_test_desc				It's a secret to everybody.
+mainlobby_gamelist_darkwoodvale_desc		Jogar partida no mapa com duas lanes, Darkwood Vale
+mainlobby_gamelist_test_title				Mapa Teste
+mainlobby_gamelist_test_desc				É um segredo para todos.
 mainlobby_gamelist_normal_title				Normal
-mainlobby_gamelist_normal_desc				Standard hero selection applies
+mainlobby_gamelist_normal_desc				Aplica-se a escolha comum de heroes
 mainlobby_gamelist_randomdraft_title		Random Draft
-mainlobby_gamelist_randomdraft_desc			Players take turns selecting heroes from a smaller random pool.
+mainlobby_gamelist_randomdraft_desc			Jogadores revezam em turnos para selecionar o seu hero em uma pool randômica e de menos opções.
 mainlobby_gamelist_singledraft_title		Single Draft
-mainlobby_gamelist_singledraft_desc			Players choose one of three random heroes to play.
+mainlobby_gamelist_singledraft_desc			O jogador escolhe um dos três heroes randômicos para jogar.
 mainlobby_gamelist_banningdraft_title		Banning Draft
-mainlobby_gamelist_banningdraft_desc		Players take turns selecting heroes from a smaller random pool after team captains remove several options from the pool.
+mainlobby_gamelist_banningdraft_desc		Jogadores revezam em turnos para selecionar heroes uma pool randômica após seus captiães terem removido algumas opções de escolha.
 mainlobby_gamelist_banningpick_title		Banning Pick
-mainlobby_gamelist_banningpick_desc			Team captains take turns banning three players per team, and then players alternate picking from the remaining hero pool.
+mainlobby_gamelist_banningpick_desc			Captiães dos times revezam em turnos banindo três jogadores por time e, depois, os jogadores alternam-se escolhendo da pool remanescente de hero.
 mainlobby_gamelist_captainsdraft_title		Captains Draft
-mainlobby_gamelist_captainsdraft_desc		Captains first take turns banning heroes from a random pool and then take turns selecting a lineup for their team mates.
+mainlobby_gamelist_captainsdraft_desc		Primeiro os captães revezam banindo heroes de uma pool randômica e então revezam escolhendo a formação do seu timepara seus colegas de time.
 mainlobby_gamelist_captainsmode_title		Captains Mode
-mainlobby_gamelist_captainsmode_desc		Captains first take turns banning heroes and then take turns selecting a lineup for their team mates.
+mainlobby_gamelist_captainsmode_desc		Os capitãoes revezam banindo alguns heroes e depois revezam escolhendo a formação do seu time para seus colegas de time.
 mainlobby_gamelist_deathmatch_title			Deathmatch
-mainlobby_gamelist_deathmatch_desc			After dying, players are forced to select a new hero.
+mainlobby_gamelist_deathmatch_desc			Após morrer, o jogador é forçado a escolher um novo hero.
 
-mainlobby_gamelist_forcerandom_title		Random Hero
-mainlobby_gamelist_forcerandom_desc			Players are forced to take a random hero.
-mainlobby_gamelist_allheroes_title			All Heroes
-mainlobby_gamelist_allheroes_desc			All heroes are available to both teams, regardless of faction.
-mainlobby_gamelist_easymode_title			Easy Mode
-mainlobby_gamelist_easymode_desc			Game rules are modified to give all players more experience and gold, as well as decrease the power of base defenses.
-mainlobby_gamelist_shuffleteams_title		Shuffle Teams
-mainlobby_gamelist_shuffleteams_desc		Players are randomly assigned to teams once the game starts.
-mainlobby_gamelist_autobalance_title		Auto Balanced
-mainlobby_gamelist_autobalance_desc			Once the game starts the teams will be auto balanced according to their PSR. After the hero select screen is loaded, players will be shown their teams for the first time. Locking slots is disabled when this game option is selected.
-mainlobby_gamelist_more_title				Advanced Options
-mainlobby_gamelist_more_desc				The host has enabled at least one of several advanced game options.
+mainlobby_gamelist_forcerandom_title		Forçar Random
+mainlobby_gamelist_forcerandom_desc			Jogadores são forçados a pegar heroes randômicos.
+mainlobby_gamelist_allheroes_title			Todos os Heroes
+mainlobby_gamelist_allheroes_desc			Todos os heroes estão disponíveis para ambos os times, independente da facção.
+mainlobby_gamelist_easymode_title			Modo Fácil
+mainlobby_gamelist_easymode_desc			As regras da partida são modificadas para dar à todos os jogadores mais experiência e gold, assim como diminui o poder de defesa da base.
+mainlobby_gamelist_shuffleteams_title		Sortear Times
+mainlobby_gamelist_shuffleteams_desc		Jogadores são sorteados entre os times quando a partida começar.
+mainlobby_gamelist_autobalance_title		Auto Equilibrar
+mainlobby_gamelist_autobalance_desc			Quando a partida começar os times serão automaticamente equilibrados de acordo com o PSR. Após a tela de seleção de hero ser carregada, os jogadores irão conhecer o seu time. Trancar vagas está desabilitado para essa opção de partida.
+mainlobby_gamelist_more_title				Opções Avançadas
+mainlobby_gamelist_more_desc				O hoste habilitou ao menos uma das muitas opções avançadas de partida.
 mainlobby_gamelist_devheroes_title			Dev Heroes
 mainlobby_gamelist_devheroes_desc			Heroes currently unfinished and in development can be picked in this mode.
 mainlobby_gamelist_hardcore_title			Hardcore
@@ -1824,7 +1880,7 @@ game_lobby_map								^yMapa:^* {name}
 game_lobby_match_id_none					^yID da partida:^444 <none>
 game_lobby_match_id							^yID da partida:^* {value}
 game_lobby_host								^yHost:^* {host}
-game_lobby_num_players						^yPlayers:^* {count}/{max}
+game_lobby_num_players						^yJogadores:^* {count}/{max}
 game_lobby_version							^yVersão:^* {version}
 game_lobby_mode								^yMode do Jogo:^* {mode}
 game_lobby_options							^yOpções do Jogo:^* {options}
@@ -1877,7 +1933,7 @@ game_menu_disconnect_hide_checkbox			Não Mostrar Esta Mensagem Denovo
 game_menu_disconnect_noleaver				Você pode sair sem penalidades.
 game_menu_leave_percentage_text				Seu Percentual de Desistência é a quantidade de vezes que você saiu antes do jogo terminar. Muitos jogadores vao criar jogos que requerem uma certa Percentagem de Leaves.  Desconectar várias vezes antes do fim (uma percentagem alta) pode limitar sua habilidade de entrar em tais jogos.
 game_menu_quit_header						Confirmar saída
-game_menu_quit_confirm						Tem certeza que quer sair para a Área de Trabalho?
+game_menu_quit_confirm						Tem certeza que quer fechar o HoN?
 game_menu_leave_rate_text					Taxa de Leaves:
 game_menu_empty_slot						-Slot vazio-
 game_menu_leave_rate_label					Desistência:
@@ -1903,6 +1959,7 @@ game_menu_unpause_tooltip					Apertar este botão vai despausar a partida em 5 s
 vote_concede								Conceder?
 vote_remake									Recomeçar?
 vote_kick									Retirar {target}^*?
+vote_pause									Pausar?
 
 // alt_info_hero.interface
 alt_info_hero_level							Nível {level}
@@ -1960,7 +2017,7 @@ player_stats_next_level						XP Total Para Próximo Nível
 player_stats_next_level_needed				XP Necessária Para Próximo Nível
 player_stats_wins							Vitórias
 player_stats_losses							Derrotas
-player_stats_disconnects					Desistências
+player_stats_disconnects					Desist.
 player_stats_win_percent					{percent}%
 player_stats_leave_percent					Porcentagem de Desist.
 player_stats_winning_percentage				%% Vitórias
@@ -2010,11 +2067,11 @@ player_stats_public_games					Mostrar Estatísticas de Partidas Públicas
 player_stats_public_games_msg				Clique aqui para ver as estatísticas de partidas públicas.
 player_stats_ranked_games					Mostrar Estatísticas de Partidas Oficiais
 player_stats_ranked_games_msg				Clique aqui para ver estatísticas de partidas oficiais.
-player_stats_fetch							Buscar Estatís.
+player_stats_fetch							Buscar Estatísticas
 player_stats_fetch_msg						Digite o nome de um jogador para ver suas estatísticas.
 player_stats_matchid						ID da Partida
 player_stats_from							Mostrar Estats. De:
-player_stats_player_name					Nome do Jogador:
+player_stats_player_name					Nome Jogador:
 player_stats_last_20_matches				Últimas 20 Partidas
 player_stats_smr_tmr						SMR / TMR
 
@@ -2033,7 +2090,7 @@ game_setup_map_tip							Seleciona o mapa da partida.
 game_setup_type_label						Game Mode
 game_setup_type_tip							Os Game Modes geralmente alteram a forma de como os heroes são selecionados.\n\n^yNormal^* - Seleção de hero padrão.\n^yRandom Draft^* - Limita as opções para 20 heroes e então alterna a escolha entre os jogadores.\n^ySingle Draft^* - Cada jogador recebe um hero de agilidade, um de inteligência e um de força, dos quais deverá escolher um para jogar.\n^yBanning Draft^* - Semelhante ao Random Draft, excetuando que o Azul e o Rosa alternam-se para banir 4 heroes antes da seleção.\n^yBanning Pick^* - Azul e Rosa alternam-se para banir 6 heroes cada, somente então os jogadores alternam a seleção com as opções restantes.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
 game_setup_select_server_label				Selecionar Servidor
-game_setup_select_server_tip				^!yAutomático^* irá escolher o servidor de partidas na última opção escolhida na opção 'Escolher...' (se houver escolhido).\n\n^!yEscolher...^* permitirá selecionar manualmente o servidor de uma região específica.\n\n^!yPracticar^* permite o início de uma partida de Prática, para um jogador, localmente na sua máquina.                                                                                                                                      
+game_setup_select_server_tip				^!yAutomático^* irá escolher o servidor de partidas na última opção escolhida na opção 'Escolher...' (se houver escolhido).\n\n^!yEscolher...^* permitirá selecionar manualmente o servidor de uma região específica.\n\n^!yPraticar^* permite o início de uma partida de Prática, para um jogador, localmente na sua máquina.                                                                                                                                      
 game_setup_name_label						Nome da Partida
 game_setup_private							Partida Privada
 game_setup_private_tip						Selecionando esse recurso, a sua partida não irá aparecer na Lista de Partidas e não será usada pela Partida Rápida. É a melhor maneira de criar uma partida para seus amigos entrarem. Esta opção pode ser alterada na Game Lobby.
@@ -2063,7 +2120,7 @@ game_setup_custom_post_tip					O jogo irá mandar a estatística da partida para
 game_setup_custom_post_URL					URL para Script
 game_setup_custom_post_save_btn				Determinar URL de Post
 game_setup_custom_post_description			Você poderá submitir as estatísticas desta partida para uma URL da sua escolha. Essa URL deverá ser um script escrito para aceitar uma submissão POST que contenha todas as estatísticas para essa partida. Para saber informações mais detalhadas sobre a array de stats e códigos de exemplo visite: ^yhttp://www.heroesofnewerth.com/submitstats.php^*
-game_setup_practice							Practicar
+game_setup_practice							Praticar
 
 
 // tooltips
@@ -2103,7 +2160,7 @@ tooltip_next_level							Próximo Nível:
 tooltip_armor								Armadura: 
 tooltip_armor_msg							Valores mais altos de armadura reduzem o total de dano físico que o hero irá receber.
 tooltip_damage_reduction					Redução de Dano: ^y
-tooltip_magic_armor							Armadura Mágica:
+tooltip_magic_armor							Armadura Mágica: 
 tooltip_magic_armor_msg						Valores mais altos de armadura mágica reduzem o total de dano mágico recebido pelo hero de certas habilidades e magias.
 tooltip_magic_damage_reduction				Redução de Dano Mágico: ^y
 tooltip_combat_type							Tipos de Combate: 
@@ -2118,17 +2175,17 @@ tooltip_agility_msg							Cada ponto em Agilidade aumenta a armadura do seu Hero
 tooltip_intelligence						Inteligência: 
 tooltip_intelligence_msg					Cada ponto em Inteligência aumenta a mana máxima do seu Hero e a taxa de regeneração da mesma.
 tooltip_damage								Dano: 
-tooltip_attack_speed						Velocidade de Ataque: 
+tooltip_attack_speed						Veloc. de Ataque: 
 tooltip_attack_speed_msg					Este valor dita quantas vezes por segundo o seu hero ataca.
-tooltip_cast_speed							Velocidade de Cast: 
+tooltip_cast_speed							Veloc. de Cast: 
 tooltip_attack_type							Tipo de Ataque: 
 tooltip_attack_msg							Este é o tipo de ataque que seu hero usa. Melee lutam corpo-à-corpo enquanto ranged atacam à distância.
-tooltip_base_attack_cooldown				Cooldown de Ataque Básico: {time} segundos
+tooltip_base_attack_cooldown				Cooldown Ataque Básico: {time} segundos
 tooltip_attack_cooldown						Cooldown de Ataque: ^y{time} segundos
 tooltip_attacks_per_second					^y{value}^* ataques por segundo
 tooltip_gold								Gold: 
 tooltip_label_changecolors					Ligar/Desligar cores únicas dos jogadores
-tooltip_combattype							Tipo de Combate:
+tooltip_combattype							Tipo de Combate: 
 tooltip_movespeed							Velocidade de Mov.
 tooltip_movespeed_msg						Isto é o quão rápido o hero se move em relação aos outros.
 
@@ -2219,6 +2276,8 @@ ui_items_friend_right_click_label			Click Direito para mais Opções
 ui_items_slider_low							Baixo
 ui_items_slider_high						Alto
 ui_items_cc_right_click_send_message		Enviar Msg
+ui_items_cc_right_click_follow				Seguir
+ui_items_cc_right_click_unfollow			Não-Seguir
 ui_items_cc_right_click_joing_game			Entrar na Partida
 ui_items_cc_right_click_message_clan		Msg p/ todo o Clan
 ui_items_cc_right_click_view_stats			Ver Estatísticas
@@ -2374,12 +2433,14 @@ loading_tip39					Seja legal! Um jogador vai ignorar conselhos se você gritar c
 loading_tip40					Escrever /gameinfo ou /gi no jogo vai mostrar uma lista com as opções do jogo atual.
 loading_tip41					Clicar nessa caixa de dicas mostra outra dica.
 loading_tip42					Selecionar uma ^!yRegião^* e ativar a caixa de marcação do "Filtrar Pré-Query" na interface de procura de games vai permitir buscar games mais rápido.
-loading_tip43					Quando uma notificação aparece em um game, você pode dar um ^gCLICK DIREITO^* em qualquer lugar dele para fechá-lo ou apertar o "X" na parte de cima.
+loading_tip43					Quando uma notificação aparece em um game, você pode dar um ^gCLIQUE DIREITO^* em qualquer lugar dele para fechá-lo ou apertar o "X" na parte de cima.
+loading_tip44					Você pode ligar ou desligar uma notificação específica, ou desabilitá-las quando estiver na partida ao clicar em "Opções" e então indo na aba "Interface".
+loading_tip45					Cada time pode pausar apenas 3 vezes por partida. Use-as com sabedoria!
 // increment this to (n - 1) when new tips are added to dynamically update the interface
-loading_tip_total				42
+loading_tip_total				44
 
 // Matchmaking
-amm_title									Matchmaking automático
+amm_title									Matchmaking Automático
 amm_jumptier__tip_title						Unir-se Imediatamente
 amm_jumptier_tip							Clicar neste botão te coloca automaticamente em uma partida avaliada a partir da RSR de diferença.
 amm_stats_header							Matchmaking Statistics
@@ -2436,12 +2497,19 @@ matchmaker_reject_no_region					Você tem de selecionar uma ou mais regiôes do 
 matchmaker_status_msg						O sistema de Matchmaking está procurando jogadores para o seu jogo. Quando dez jogadores forem encontrados, um servidor será escolhido e todos os jogadores começaram a conectar.
 matchmaker_status_leaver_msg				Quando todos os dez jogadores forem encontrados e você começar a carregar, você não poderá desconectar sem ganhar uma desistência em suas estatísticas!
 
+matchmaker_title							Selecione o seu Match Making Rating (SMR) Inicial
 matchmaker_beginner							Iniciante
-matchmaker_intermediate						Intermediário
-matchmaker_expert							Expert
-matchmaker_initial_rating_description		Por favor selecione o seu nível de habilidade. Isto irá determinar em quanto a sua Classificação de Solo Matchmaking (SMR) irá começar.
+matchmaker_beginner_desc					Esta opção lhe dará a oportunidade de jogar mais frequêntemente com outros iniciantes. Escolha essa opção se você é novo no HoN e não está familiarizado com o jeito de jogar.
+matchmaker_beginner_btn						Eu sou Iniciante
+matchmaker_intermediate						Intermediate
+matchmaker_intermediate_desc				Esta opção lhe dará a oportunidade de jogar mais frequêntemente com outros jogadores intermediários. Escolha esse se você já se familiarizou com o jeito de jogar HoN e tem uma quantidade moderada de experiência.
+matchmaker_intermediate_btn					Eu sou Intermediário
+matchmaker_expert							Hardcore
+matchmaker_expert_desc						Esta opção lhe dará a oportunidade de jogar mais frequêntemente com outros jogadores com níveis muito alto de habilidade. Selecionar isto sem você ter uma extensa experiência em HoN resultará em algumas partidas muito difíceis e partidas sem-graça.
+matchmaker_expert_btn						Eu sou Hardcore
+matchmaker_initial_rating_description		Por favor selecione o seu nível de habilidade para determinar o seu SMR inicial. Selecionar o nível apropriado irá resultar em partidas mais divertidas. Se você selecionar o nível inapropria, suas partidas não serão tão divertidas nem para você nem para os outros jogadores.
 matchmaker_leaver_description				^922Você é um desertor.
-matchmaker_not_leaver_description			Você está em boas condições.
+matchmaker_not_leaver_description			Você está em bom estado.
 matchmaker_provisional_description			Você tem {count} partidas provisórias restantes.
 
 // communicator.package
@@ -2571,11 +2639,11 @@ compendium_speed							Veloc.:
 compendium_usage_soon						Estatísticas de usagem em breve!
 compendium_health							Vida
 compendium_mana								Mana
-compendium_lvl_inventory					Level do Hero e Inventorio
+compendium_lvl_inventory					Nível do Hero e Inventário
 compendium_rec_items						Itens Recomendados
-compendium_inventory						Inventório
+compendium_inventory						Inventário
 compendium_items							Itens
-compendium_current_lvl						Level Atual:
+compendium_current_lvl						Nível Atual:
 compendium_totalcost						Custo Total:
 compendium_controls_soon					Controles do Hero em breve!
 compendium_primary_atrib					Atributo primário:
@@ -2591,7 +2659,7 @@ compendium_atk								Ataque
 compendium_strength							Strenght
 compendium_agility							Agility
 compendium_intelligence						Intelligence
-compendium_armor							Armor
+compendium_armor							Armadura
 compendium_atk_dmg							Dano Ataque
 compendium_speed							Vel.Mov.
 compendium_abilities						Habilidades
@@ -2669,10 +2737,11 @@ ladder_field_Player							Nome do Jogador
 ladder_field_PlayerSkillRating				Classificação de Habilidade do Jogador (PSR)
 ladder_field_Rank							Rank
 ladder_error_nodata							Dados do Ranking não estão disponíveis neste momento.
+
 ladder_title								Ranking do Jogador
 ladder_fieldshort_acc_games_played				Partidas
-ladder_fieldshort_acc_wins						V
-ladder_fieldshort_acc_losses					D
+ladder_fieldshort_acc_wins						Vito.
+ladder_fieldshort_acc_losses					Derro.
 ladder_fieldshort_acc_concedes					C
 ladder_fieldshort_acc_concedevotes				V.C.
 ladder_fieldshort_acc_buybacks					Buybacks
@@ -2681,12 +2750,12 @@ ladder_fieldshort_acc_kicked					Ret.
 // Assuming the below is PSR anyways
 ladder_fieldshort_acc_pub_skill					PSR
 ladder_fieldshort_acc_pub_count					Pubs
-ladder_fieldshort_acc_avg_score					Média
+ladder_fieldshort_acc_avg_score					Score Méd.
 ladder_fieldshort_acc_herokills					HK
 ladder_fieldshort_acc_herodmg					H Dmg
 ladder_fieldshort_acc_heroexp					H Exp
 ladder_fieldshort_acc_herokillsgold				HK Gold
-ladder_fieldshort_acc_heroassists				Assists
+ladder_fieldshort_acc_heroassists				Assist.
 ladder_fieldshort_acc_deaths					H Mort.
 ladder_fieldshort_acc_goldlost2death			$ Perd.
 ladder_fieldshort_acc_secs_dead					S Mort.
@@ -2720,7 +2789,7 @@ ladder_fieldshort_acc_k_d_a						K/D/A
 ladder_fieldshort_acc_wardsPerGame				Wards/P
 ladder_fieldshort_acc_consumablesPerGame		Cons/P
 ladder_fieldshort_acc_avgGameLength				Dura.Méd
-ladder_fieldshort_acc_expPerGame				XP/Game
+ladder_fieldshort_acc_expPerGame				XP/Partida
 ladder_fieldshort_acc_goldPerGame				Gold/Ga
 ladder_fieldshort_acc_goldPerMin				Gold/M
 ladder_fieldshort_acc_spentPerMin				Gasto/M
@@ -2794,6 +2863,7 @@ purch_resetstats							Resetar Estatísticas
 purch_giftacct								Comprar Conta de Presente
 purch_upgradefriend							Comprar para Amigo
 purch_upgradeaccount						Comprar Conta
+purch_nickchange							Mudar Apelido
 client_outofdate							Uma nova versão de HoN está disponível! Você deverá atualizar para jogar online.
 update_now									Atualizar Agora
 

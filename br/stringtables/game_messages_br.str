@@ -105,7 +105,7 @@ error_not_unit_item					Deverá escolher uma unidade para ser alvo deste item.
 error_not_unit						Deverá escolher uma unidade para ser o alvo.
 error_invalid_target				Não é um alvo válido.
 
-chat_all							^269[TODOS] {color}{player} ({hero}): ^*{message}
+chat_all							^269[MAPA] {color}{player} ({hero}): ^*{message}
 chat_roll							^190[ROLL]^* {color}{message}
 chat_emote							^839[EMOTE]^* {color}{message}
 chat_team							^y[TIME] {color}{player} ({hero}): ^*{message}
@@ -113,11 +113,12 @@ chat_all_lobby						^269[TODOS] {color}{player}: ^*{message}
 chat_roll_lobby						^190[ROLL]^* {color}{message}
 chat_emote_lobby					^839[EMOTE]^* {color}{message}
 chat_team_lobby						^y[TIME] {color}{player}: ^*{message}
-server_message						^188[SERVIDOR] ^yServer Message: {message}
+server_message						^188[SERVIDOR] ^yMsg do Servidor: {message}
 
 error_item_unavailable				{item} não está disponível neste local.
 error_low_gold_item					Falta gold para comprar {item}.
 error_low_gold_recipe				Falta gold para comprar {item}.
+error_low_gold_buy_all				Você não tem dinheiro comprar todos os componentes de {item}.
 
 str_bonus							{value} Força
 str_bonus_per_level					{value_per_level} Força por nível
