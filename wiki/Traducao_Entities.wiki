@@ -15,6 +15,6 @@ Precisam usar o [http://winmerge.org/ Winmerge] para comparar um arquivo com out
 || 3501 até 4000 || KhainStakard ||
 || 4001 até 4500 || N/A ||
 || 4501 até 5000 || N/A ||
-|| 5001 até 5244 || N/A ||
+|| 5001 até 5544 || N/A ||
 
 Vamos atualizar o entities antes de continuar com a tradução!!!
