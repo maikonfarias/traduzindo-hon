@@ -8,8 +8,8 @@ Precisam usar o [http://winmerge.org/ Winmerge] para comparar um arquivo com out
 || 1 até 500 || KhainStakard || *X* || *X* ||
 || 501 até 1000 || KhainStakard || *X* || *X* ||
 || 1001 até 1500 || Karnak ||
-|| 1501 até 2000 ||Iori||
-|| 2001 até 2500 || Iori ||
+|| 1501 até 2000 ||Iori|| *X* || *X* ||
+|| 2001 até 2500 || Iori || *X* || *X* ||
 || 2501 até 3000 || KhainStakard ||
 || 3001 até 3500 || Iori ||
 || 3501 até 4000 || KhainStakard ||
