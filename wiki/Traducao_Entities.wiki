@@ -10,11 +10,11 @@ Precisam usar o [http://winmerge.org/ Winmerge] para comparar um arquivo com out
 || 1001 até 1500 || Karnak ||
 || 1501 até 2000 ||Iori|| *X* || *X* ||
 || 2001 até 2500 || Iori || *X* || *X* ||
-|| 2501 até 3000 || KhainStakard ||
+|| 2501 até 3000 || Iori ||
 || 3001 até 3500 || Iori ||
 || 3501 até 4000 || KhainStakard ||
-|| 4001 até 4500 || N/A ||
-|| 4501 até 5000 || N/A ||
-|| 5001 até 5544 || N/A ||
+|| 4001 até 4500 || KhainStakard ||
+|| 4501 até 5000 || KhainStakard ||
+|| 5001 até 5544 || Iori ||
 
 Vamos atualizar o entities antes de continuar com a tradução!!!
