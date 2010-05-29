@@ -7,7 +7,7 @@ Precisam usar o [http://winmerge.org/ Winmerge] para comparar um arquivo com out
 || *Linhas* || *Nome* || *Revisão + Commit* || *1.0.2.1?* ||
 || 1 até 500 || KhainStakard || *X* || *X* ||
 || 501 até 1000 || KhainStakard || *X* || *X* ||
-|| 1001 até 1500 || Karnak ||
+|| 1001 até 1500 || Karnak || *X* || *X* ||
 || 1501 até 2000 ||Iori|| *X* || *X* ||
 || 2001 até 2500 || Iori || *X* || *X* ||
 || 2501 até 3000 || Iori ||
