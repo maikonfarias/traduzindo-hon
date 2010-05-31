@@ -302,7 +302,7 @@ Ability_Accursed4_IMPACT_effect									Remove debuffs e aplica Protective Flame
 Ability_Accursed4_name:ult_boost								Burning Consumption ^g(Melhorado)^*
 Ability_Accursed4_description2:ult_boost						Esta habilidade foi melhorada pelo Staff of the Master.
 Ability_Accursed4_IMPACT_effect:ult_boost						Remove debuffs e aplica Protective Flames em si por ^g{5,6,7}^* segundos.\n\nAtiva automaticamente quando Accursed levar dano enquanto estiver com menos de 400 de vida.
-Ability_Accursed4_tooltip_flavor								Me dê combustível, me dê fogo, me dê o que eu desejo!
+Ability_Accursed4_tooltip_flavor								Me dê combustível, me dê fogo, me dê o que desejo!
 
 // State_Accursed_Ability4
 State_Accursed_Ability4_name									Protective Flames
@@ -594,19 +594,19 @@ Ability_Bephelgor1_IMPACT_effect								Aplica Contagion no alvo por {1,2,3,4} s
 State_Bephelgor_Ability1_name									Contagion
 State_Bephelgor_Ability1_description							
 State_Bephelgor_Ability1_description2							
-State_Bephelgor_Ability1_effect_header							None
-State_Bephelgor_Ability1_effect_header2							None
-State_Bephelgor_Ability1_tooltip_flavor							None
-State_Bephelgor_Ability1_FRAME_effect							60 dan Mágico por segundo
+State_Bephelgor_Ability1_effect_header							Nenhum
+State_Bephelgor_Ability1_effect_header2							Nenhum
+State_Bephelgor_Ability1_tooltip_flavor							Nenhum
+State_Bephelgor_Ability1_FRAME_effect							60 dano Mágico por segundo
 State_Bephelgor_Ability1_IMPACT_effect							
 
 // State_Bephelgor_Ability1_Secondary
 State_Bephelgor_Ability1_Secondary_name							Demonic Disease (secundário)
 State_Bephelgor_Ability1_Secondary_description					
 State_Bephelgor_Ability1_Secondary_description2					
-State_Bephelgor_Ability1_Secondary_effect_header				None
-State_Bephelgor_Ability1_Secondary_effect_header2				None
-State_Bephelgor_Ability1_Secondary_tooltip_flavor				None
+State_Bephelgor_Ability1_Secondary_effect_header				Nenhum
+State_Bephelgor_Ability1_Secondary_effect_header2				Nenhum
+State_Bephelgor_Ability1_Secondary_tooltip_flavor				Nenhum
 State_Bephelgor_Ability1_Secondary_FRAME_effect					
 State_Bephelgor_Ability1_Secondary_INFLICT_effect				
 
@@ -1007,7 +1007,7 @@ State_Defiler_Ability2_name										Silenced
 
 // Ability_Defiler3
 Ability_Defiler3_name											Power in Death
-Ability_Defiler3_description									A Defiler se envolve de morte, aumentando sua velocidade e poder de outras spells.
+Ability_Defiler3_description									A Defiler se envolve de morte, aumentando sua velocidade e poder de outras magias.
 Ability_Defiler3_description2									Aumenta a velocidade de movimento em {2.5,5,7.5,10}%.\n\n^yWave of Death:^*\nDiminui o cooldown em {1,2,3,4} segundo(s)\nReduz custo de Mana por {5,10,15,20}\n\n^yGrave Silence:^*\nDiminui o cooldown por {0,1,2,3} segundos\n\n^yUnholy Expulsion:^*\nAdiciona {1,2,3,4} espíritos ao nível 1 de Unholy Expulsion\nAdiciona {1,3,4,6} espíritos ao nível 2 de Unholy Expulsion\nAdiciona {0,2,4,7} espíritos ao nível 3 de Unholy Expulsion
 Ability_Defiler3_effect_header									Efeito de Status
 
@@ -1139,28 +1139,28 @@ Hero_DiseasedRider_description									O cheiro pestilento do Plague Rider pode 
 // Ability_DwarfMagi1
 Ability_DwarfMagi1_name											Fireball
 Ability_DwarfMagi1_description									Lança uma bola de fogo no oponente, causando dano e dando stun no alvo.
-Ability_DwarfMagi1_effect_header								Status Effect
-Ability_DwarfMagi1_IMPACT_effect								Causa {75,125,175,275} dano Mágico e da stun no alvo por 1.5 segundos.
-Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_1			Causa {75,125,175,275} de dano Mágico e da stun no alvo por 1.5 segundos. Tem 20% de chance de acertar duas veses.
-Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_2			Causa {75,125,175,275} de dano Mágico e da stun no alvo por 1.5 segundos. Tem 20% de chance de acertar três veses.
-Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_3			Causa {75,125,175,275} de dano Mágico e da stun no alvo por 1.5 segundos. Tem 20% de chance de acertar quatro veses.
-Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_1_Boosted	Causa {75,125,175,275} de dano Mágico e da stun no alvo por 1.5 segundos. Tem 30% de chance de acertar três veses.
-Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_2_Boosted	Causa {75,125,175,275} de dano Mágico e da stun no alvo por 1.5 segundos. Tem 30% de chance de acertar quatro veses.
-Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_3_Boosted	Causa {75,125,175,275} de dano Mágico e da stun no alvo por 1.5 segundos. Tem 30% de chance de acertar cinco veses.
+Ability_DwarfMagi1_effect_header								Efeito de Status
+Ability_DwarfMagi1_IMPACT_effect								Causa {75,125,175,275} de dano Mágico e causa stun no alvo por 1.5 segundos.
+Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_1			Causa {75,125,175,275} de dano Mágico e causa stun no alvo por 1.5 segundos. Quando conjurado, tem uma chance de 25% de ser conjurado duas vezes.
+Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_2			Causa {75,125,175,275} de dano Mágico e causa stun no alvo por 1.5 segundos. Quando conjurado, tem uma chance de 40% de ser conjurado duas vezes e uma chance de 20% de ser conjurado três vezes.
+Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_3			Causa {75,125,175,275} de dano Mágico e causa stun no alvo por 1.5 segundos. Quando conjurado, tem uma chance de 50% de ser conjurado duas vezes, uma chance de 25% de ser conjurado três vezes e uma chance de 12.5% de ser conjurado quatro vezes.
+Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_1_Boosted	Causa {75,125,175,275} de dano Mágico e causa stun no alvo por 1.5 segundos. Tem uma chance de 30% de impactar três vezes.
+Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_2_Boosted	Causa {75,125,175,275} de dano Mágico e causa stun no alvo por 1.5 segundos. Tem uma chance de 30% de impactar quatro vezes.
+Ability_DwarfMagi1_IMPACT_effect:DwarfMagi_Ability4_3_Boosted	Causa {75,125,175,275} de dano Mágico e causa stun no alvo por 1.5 segundos. Tem uma chance de 30% de impactar cinco vezes.
 Ability_DwarfMagi1_tooltip_flavor								Cuidado com as brasas.
 
 // Ability_DwarfMagi2
 Ability_DwarfMagi2_name											Flaming Hammer
-Ability_DwarfMagi2_description									O Blacksmith joga uma martelo flamejante em um inimigo alvo e explode no impacto. A explosão faz com que o alvo queime, tomando dano por um tempo e reduzindo sua velocidade.
-Ability_DwarfMagi2_effect_header								Flaming Hammer Effects
-Ability_DwarfMagi2_IMPACT_effect								Aplica Flaming Hammer em um alvo por 7.5 segundos.
-Ability_DwarfMagi2_description:DwarfMagi_Ability4_1				O Blacksmith joga uma martelo flamejante em um inimigo alvo e explode no impacto, deixando a unidade alvo e as unidades próximas pegando fogo. Os inimigos afetados recebem dano por um tempo e tem redução em sua velocidade de movimentação.
-Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_1			Aplica Flaming Hammer em alvos no radius por 7.5 segundos.
-Ability_DwarfMagi2_description:DwarfMagi_Ability4_2				O Blacksmith joga uma martelo flamejante em um inimigo alvo e explode no impacto, deixando a unidade alvo e as unidades próximas pegando fogo. Os inimigos afetados recebem dano por um tempo e tem redução em sua velocidade de movimentação.
-Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_2			Aplica Flaming Hammer em alvos no radius por 7.5 segundos.
-Ability_DwarfMagi2_description:DwarfMagi_Ability4_3				O Blacksmith joga uma martelo flamejante em um inimigo alvo e explode no impacto, deixando a unidade alvo e as unidades próximas pegando fogo. Os inimigos afetados recebem dano por um tempo e tem redução em sua velocidade de movimentação.
-Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_3			Aplica Flaming Hammer em alvos no radius por 7.5 segundos.
-Ability_DwarfMagi2_tooltip_flavor								Vamos martelar!
+Ability_DwarfMagi2_description									O Blacksmith joga um martelo flamejante no inimigo alvo que explode no impacto. A explosão faz com que o alvo queime, recebendo dano ao longo do tempo, reduzindo sua velocidade de movimento e reduzindo sua armadura mágica.
+Ability_DwarfMagi2_effect_header								Efeitos de Flaming Hammer
+Ability_DwarfMagi2_IMPACT_effect								Aplica Flaming Hammer no alvo por 7.5 segundos.
+Ability_DwarfMagi2_description:DwarfMagi_Ability4_1				O Blacksmith joga um martelo flamejante no inimigo alvo que explode no impacto, ele deixa a unidade inimiga e os inimigos próximos pegando fogo. Inimigos afetados recebem dano ao longo do tempo, têm sua velocidade de movimento reduzida e sua armadura mágica também reduzida.
+Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_1			Aplica Flaming Hammer no alvo por 7.5 segundos.
+Ability_DwarfMagi2_description:DwarfMagi_Ability4_2				O Blacksmith joga um martelo flamejante no inimigo alvo que explode no impacto, ele deixa a unidade inimiga e os inimigos próximos pegando fogo. Inimigos afetados recebem dano ao longo do tempo, têm sua velocidade de movimento reduzida e sua armadura mágica também reduzida.
+Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_2			Aplica Flaming Hammer no alvo por 7.5 segundos.
+Ability_DwarfMagi2_description:DwarfMagi_Ability4_3				O Blacksmith joga um martelo flamejante no inimigo alvo que explode no impacto, ele deixa a unidade inimiga e os inimigos próximos pegando fogo. Inimigos afetados recebem dano ao longo do tempo, têm sua velocidade de movimento reduzida e sua armadura mágica também reduzida.
+Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_3			Aplica Flaming Hammer no alvo por 7.5 segundos.
+Ability_DwarfMagi2_tooltip_flavor								Vamos ficar tontos!
 
 // State_DwarfMagi_Ability2
 State_DwarfMagi_Ability2_name									Burning
@@ -1168,35 +1168,35 @@ State_DwarfMagi_Ability2_FRAME_effect							{10,20,30,40} de dano Mágico por se
 
 // Ability_DwarfMagi3
 Ability_DwarfMagi3_name											Frenzy
-Ability_DwarfMagi3_description									O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem feri-la e aumenta a velocidade de ataque e de movimentação.
-Ability_DwarfMagi3_effect_header								Frenzy Effects
+Ability_DwarfMagi3_description									O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem ferí-la e aumenta a velocidade de ataque, de movimentação e velocidade de conjuração.
+Ability_DwarfMagi3_effect_header								Efeitos de Frenzy
 Ability_DwarfMagi3_IMPACT_effect								Aplica Frenzy no alvo por 30 segundos.
-Ability_DwarfMagi3_description:DwarfMagi_Ability4_1				The Blacksmith uses his control over fire to motivate an ally the best way he knows how: with heat! Starts a non-harmful blaze on a friendly unit that increases attack speed, movement speed, and cast speed. Has a chance to hit additional nearby allied units.
-Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_1			Applies Frenzy to target for 30 seconds. When cast, has a 25% chance to cast twice.
-Ability_DwarfMagi3_description:DwarfMagi_Ability4_2				O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem feri-la e aumenta a velocidade de ataque e de movimentação. Tem a chance de acertar um outro aliado próximo.
-Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_2			Aplica Frenzy em um alvo por 30 segundos, 20% de chance de acertar um alvo adicional.
-Ability_DwarfMagi3_description:DwarfMagi_Ability4_3				O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem feri-la e aumenta a velocidade de ataque e de movimentação. Tem a chance de acertar um outro aliado próximo.
-Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_3			Aplica Frenzy em um alvo por 30 segundos, 20% de chance de acertar dois alvos adicionais.
-Ability_DwarfMagi3_description:DwarfMagi_Ability4_1_Boosted		O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem feri-la e aumenta a velocidade de ataque e de movimentação. Tem a chance de acertar um outro aliado próximo.
-Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_1_Boosted	Aplica Frenzy em um alvo por 30 segundos, 30% de chance de acertar dois alvos adicionais.
-Ability_DwarfMagi3_description:DwarfMagi_Ability4_2_Boosted		O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem feri-la e aumenta a velocidade de ataque e de movimentação. Tem a chance de acertar um outro aliado próximo.
-Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_2_Boosted	Aplica Frenzy em um alvo por 30 segundos, 30% de chance de acertar três alvos adicionais.
-Ability_DwarfMagi3_description:DwarfMagi_Ability4_3_Boosted		O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem feri-la e aumenta a velocidade de ataque e de movimentação. Tem a chance de acertar um outro aliado próximo.
-Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_3_Boosted	Aplica Frenzy em um alvo por 30 segundos, 30% de chance de acertar quatro alvos adicionais.
-Ability_DwarfMagi3_tooltip_flavor								Eu estou queimando, eu estou queimando por você!
+Ability_DwarfMagi3_description:DwarfMagi_Ability4_1				O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem ferí-la e aumenta a velocidade de ataque, de movimentação e velocidade de conjuração. Tem a chance de acertar unidades aliadas próximas adicionais.
+Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_1			Aplica Frenzy no alvo por 30 segundos. Quando conjurado, tem uma chance de 25% de conjurar duas vezes.
+Ability_DwarfMagi3_description:DwarfMagi_Ability4_2				O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem ferí-la e aumenta a velocidade de ataque, de movimentação e velocidade de conjuração. Tem a chance de acertar unidades aliadas próximas adicionais.
+Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_2			Aplica Frenzy no alvo por 30 segundos. Quando conjurado, has a 40% chance to cast twice and a 20% chance to cast three times.
+Ability_DwarfMagi3_description:DwarfMagi_Ability4_3				O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem ferí-la e aumenta a velocidade de ataque, de movimentação e velocidade de conjuração. Tem a chance de acertar unidades aliadas próximas adicionais.
+Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_3			Aplica Frenzy no alvo por 30 segundos. Quando conjurado, tem uma chance de 50% de conjurar duas vezes, 25% de chance de conjurar três vezes e 12.5% de chance de conjurar quatro vezes.
+Ability_DwarfMagi3_description:DwarfMagi_Ability4_1_Boosted		O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem ferí-la e aumenta a velocidade de ataque e de movimentação. Tem a chance de acertar uma unidade aliada próxima adicional.
+Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_1_Boosted	Aplica Frenzy no alvo por 30 segundos, 30% de chance de acertar 2 alvos adicionais.
+Ability_DwarfMagi3_description:DwarfMagi_Ability4_2_Boosted		O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem ferí-la e aumenta a velocidade de ataque e de movimentação. Tem a chance de acertar duas unidades aliadas próximas adicionais.
+Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_2_Boosted	Aplica Frenzy no alvo por 30 segundos, 30% de chance de acertar 3 alvos adicionais.
+Ability_DwarfMagi3_description:DwarfMagi_Ability4_3_Boosted		O Blacksmith usa o controle do fogo para motivar um aliado do melhor jeito que ele conhece: com calor! Começa a queimar uma unidade aliada sem ferí-la e aumenta a velocidade de ataque e de movimentação. Tem a chance de acertar três unidades aliadas próximas adicionais.
+Ability_DwarfMagi3_IMPACT_effect:DwarfMagi_Ability4_3_Boosted	Aplica Frenzy no alvo por 30 segundos, 30% de chance de acertar 4 alvos adicionais.
+Ability_DwarfMagi3_tooltip_flavor								Eu estou louco, louco por você!
 
 // State_DwarfMagi_Ability3
 State_DwarfMagi_Ability3_name									Frenzy
 
 // Ability_DwarfMagi4
 Ability_DwarfMagi4_name											Chaotic Flames
-Ability_DwarfMagi4_description									O Blacksmith tem muita experiência em brincar com fogo, aumentando o poder de suas outras spells. Quando estiver usando outra spell, ele tem a chance  de conseguir um resultado mais poderoso. 
-Ability_DwarfMagi4_description2									^yFireball:^*\n20% de chance de impacto {2,3,4} veses por uso\nReduz Cooldown em {3,6,9} segundos.\n\n^yIgnite:^*\n Aumenta o radius em {150,300,450} por level.\n\n^yFrenzy:^*\nReduz Cooldown em {5,10,15} segundos.\nDá 20% de chance de impacto em {0,1,2} alvos adicionais.\n\nEssa spell pode ser melhorada pelo "Staff of the Master".
-Ability_DwarfMagi4_effect_header								Status Effect
-Ability_DwarfMagi4_name:ult_boost								M-M-M-Multi Cast! (Boosted)
-Ability_DwarfMagi4_description:ult_boost						O Blacksmith tem muita experiência em brincar com fogo, aumentando o poder de suas outras spells. Quando estiver usando outra spell, ele tem a chance  de conseguir um resultado mais poderoso.
-Ability_DwarfMagi4_description2:ult_boost						^yFireball:^*\n30% de chance de impacto {3,4,5} veses por uso\nReduz Cooldown em {3,6,9} segundos.\n\n^yIgnite:^*\n Aumenta o radius em {150,300,450} por level.\n\n^yFrenzy:^*\nReduz cooldown em {5,10,15} segundos.\nDá 20% de chance de impacto em {1,2,3} alvos adicionais.
-Ability_DwarfMagi4_tooltip_flavor								And they said never play with fire.
+Ability_DwarfMagi4_description									O Blacksmith é experiente em brincar com fogo, aumentando o poder de suas outras magias. Quando ele usa suas magias, ele tem uma chance de conseguir resultados muito mais poderosos.
+Ability_DwarfMagi4_description2									^yFireball:^*\n- Quando conjurado, tem uma chance de {25,40,50}% de impactar ao menos duas vezes, {0,20,25}% de chance de impactar ao menos três vezes, {0,0,12.5}% de chance de impactar quatro vezes.\n- Diminui o cooldown em {3,6,9} segundos.\n\n^yFlaming Hammer:^*\n- Aumenta o raio em {150,300,450} por nível.\n\n^yFrenzy:^*\n- Quando conjurado, tem uma chance de {25,40,50}% de conjurar duas vezes, {0,20,25}% de chance de conjurar três vezes, {0,0,12.5}% de chance de conjurar quatro vezes.\n- Reduz o cooldown por {5,10,15} segundos.
+Ability_DwarfMagi4_effect_header								Efeito de Status
+Ability_DwarfMagi4_name:ult_boost								M-M-M-Multi Cast! (Melhorado)
+Ability_DwarfMagi4_description:ult_boost						O Blacksmith é experiente em brincar com fogo, aumentando o poder de suas outras magias. Quando ele usa suas magias, ele tem uma chance de conseguir resultados muito mais poderosos.
+Ability_DwarfMagi4_description2:ult_boost						^yFireball:^*\n- {25,40,50}% de chance de impactar ao menos duas vezes, {0,20,25}% de chance de impactar ao menos três vezes, {0,0,12.5}% de chance de impactar quatro vezes por conjuração.\n-Diminui o cooldown em {3,6,9} segundos.\n\n^yFlaming Hammer:^*\n Aumenta o raio em {150,300,450} por nível.\n\n^yFrenzy:^*\nReduz o cooldown em {5,10,15} segundos.\nDá uma chance de 20% de impactar {1,2,3} alvos adicionais.
+Ability_DwarfMagi4_tooltip_flavor								E eles diziam para nunca brincar com fogo.
 
 // Hero_DwarfMagi
 Hero_DwarfMagi_name												Blacksmith
@@ -1204,21 +1204,21 @@ Hero_DwarfMagi_description										As fundições esfumaçadas em Iron City sã
 
 // Ability_Ebulus1
 Ability_Ebulus1_name											Poison Spray
-Ability_Ebulus1_description										Slither usa um spray torrencial de toxinas para uma localização alvo, infectando qualquer inimifo que fique em contato com o spray. Os Inimigos infectados tomam um dano inicial seguido por danos durante certo tempo e perdem velocidade de movimentos.
+Ability_Ebulus1_description										Slither usa um spray torrencial de toxinas para uma localização alvo, infectando qualquer inimifo que fique em contato com a torrente. Os Inimigos infectados recebem um dano inicial seguido por danos durante certo tempo e perdem velocidade de movimento.
 Ability_Ebulus1_effect_header									Efeitos de Poison Spray
 Ability_Ebulus1_IMPACT_effect									Causa {50,70,70,100} de dano Mágico e aplica Poison Spray no alvo por 15 segundos.
 Ability_Ebulus1_tooltip_flavor									Aaachoo!
 
 // State_Ebulus_Ability1
 State_Ebulus_Ability1_name										Poison Spray
-State_Ebulus_Ability1_FRAME_effect								5 ticks de {10,20,40,50} dano mágico.
+State_Ebulus_Ability1_FRAME_effect								5 tiques de {10,20,40,50} de dano Mágico.\nReduz em 50% a velocidade de movimento inicialmente, recuperando para a velocidade máxima ao longo de 6 segundos.
 
 // Ability_Ebulus2
 Ability_Ebulus2_name											Toxicity
-Ability_Ebulus2_description										Slither adiciona dano de veneno aos seus ataques. O ataque deixa o alvo recebendo dano por certo tempo e o deixa com menos velocidade de movimento.
-Ability_Ebulus2_description2									Esta habilidade contém um ^rAttack ^rModifier^*. Modificadores de Ataque são exclusivos e não se agrupam com outros modificadores.
-Ability_Ebulus2_effect_header									Efeitos deToxicity
-Ability_Ebulus2_effect_header:attack							Status Effect
+Ability_Ebulus2_description										Slither adiciona dano de veneno aos seus ataques. Seus ataques reduzem a velocidade de movimento do alvo, causa dano por um tempo, e nega a regeneração de Vida.
+Ability_Ebulus2_description2									Esta habilidade contém um ^rModificador ^rde Ataque^*. Modificadores de Ataque são exclusivos e não se somam com outros modificadores.
+Ability_Ebulus2_effect_header									Efeitos de Toxicity
+Ability_Ebulus2_effect_header:attack							Efeito de Status
 Ability_Ebulus2_ATTACK_IMPACT_effect:attack						Aplica Toxicity no alvo por 7 segundos.
 Ability_Ebulus2_tooltip_flavor									Abaixo a doença!
 
@@ -1228,33 +1228,33 @@ State_Ebulus_Ability2_FRAME_effect								{5,10,15,20} de dano Mágico por segun
 
 // Ability_Ebulus3
 Ability_Ebulus3_name											Toxin Ward
-Ability_Ebulus3_description										Slither invoca uma ward no local alvo que irá atacar inimigos das proximidades dando pouco dano e deixando-os mais devagar. A ward é imune a Magias.
-Ability_Ebulus3_effect_header									Status Effect
-Ability_Ebulus3_IMPACT_effect									Spawn de uma Poison Ward no local desejado. Poison Wards têm {75,200,325,450} de Vida, 40 segundos de vida, e causam {9-11,17-21,26-32,34-42} de dano.
+Ability_Ebulus3_description										Slither invoca uma ward no local alvo que irá atacar inimigos nas proximidades, causando um pouco dano e deixando-os mais devagar. A ward é imune a Magias.
+Ability_Ebulus3_effect_header									Efeito de Status
+Ability_Ebulus3_IMPACT_effect									usa uma carga para invocar uma Poison Ward na posição alvo. Uma carga é recebida a cada 5 segundos com um máximo de {1,1,2,2} cargas.\n\nPoison Wards têm {60,110,160,210} de Vida, 40 segundos de vida, causam {9-11,17-21,26-32, 34-42} de dano, e aplica -25 de Redução de Velocidade de Movimento por 5 segundos.
 Ability_Ebulus3_tooltip_flavor									Me alimente Seymour.
 
 // Gadget_Ebulus_Ability3
 Gadget_Ebulus_Ability3_name										Toxin Ward
 
 // State_Ebulus_Ward_Attack
-State_Ebulus_Ward_Attack_name									Poisoned
+State_Ebulus_Ward_Attack_name									Envenenado
 
 // Ability_Ebulus4
 Ability_Ebulus4_name											Poison Burst
-Ability_Ebulus4_description										Slither expele veneno para todas as direções. Inimígos acertados pelo anel de veneno se tornam infectadoso recebendo dano por certo tempo. A infecção não é letal, e não drenará o vida do alvo até abaixo de 1.
-Ability_Ebulus4_description2									^930Está habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Aumenta o dano por segundo de {36,58,81} para {58,81,108}.
+Ability_Ebulus4_description										Slither expele veneno em todas as direções. Inimigos que forem acertados pelo anel de veneno serão infectados, recebendo dano ao longo do tempo. A infecção não é letal e, por isso, não irá drenar a Vida dos alvos para menos de 1 de Vida.
+Ability_Ebulus4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeitos do Staff:^* Aumenta o dano por segundo de {36,58,81} para {58,81,108}.
 Ability_Ebulus4_effect_header									Efeitos de Acidic Poison
-Ability_Ebulus4_effect_header:ult_boost							Acidic Poison Effects
-Ability_Ebulus4_IMPACT_effect									Aplica Acidic Poison aos alvos no radius por 12 segundos.
-Ability_Ebulus4_name:ult_boost									Super Poison Burst
-Ability_Ebulus4_description2:ult_boost							Está habilidade pode ser melhorada pelo Staff of the Master.
+Ability_Ebulus4_effect_header:ult_boost							Efeitos de Acidic Poison
+Ability_Ebulus4_IMPACT_effect									Aplica Acidic Poison nos alvos na área por 12 segundos.
+Ability_Ebulus4_name:ult_boost									Poison Eruption (^gMelhorado^*)
+Ability_Ebulus4_description2:ult_boost							Esta habilidade foi melhorada pelo Staff of the Master.
 
 Ability_Ebulus4_tooltip_flavor									Eu estou só um pouco doente!
 
 // State_Ebulus_Ability4
 State_Ebulus_Ability4_name										Acidic Poison
 State_Ebulus_Ability4_FRAME_effect								{36,58,81} de dano Mágico por segundo. Não Letal.
-State_Ebulus_Ability4_FRAME_effect:ult_boost					{58,81,108} de dano Mágico por segundo. Não Letal.
+State_Ebulus_Ability4_FRAME_effect:ult_boost					^g{58,81,108}^* de dano Mágico por segundo. Não Letal.
 
 // Hero_Ebulus
 Hero_Ebulus_name												Slither
@@ -1273,19 +1273,19 @@ Ability_Electrician1_tooltip_flavor								Desliguem os freios!
 
 // State_Electrician_Ability1_Areadamage
 State_Electrician_Ability1_Areadamage_name						Static Grip
-State_Electrician_Ability1_Areadamage_FRAME_effect				{30,40,50,60} de dano Mágico por segundo
+State_Electrician_Ability1_Areadamage_FRAME_effect				{25,50,75,100} de dano Mágico por segundo
 
 // State_Electrician_Ability1_Self
 State_Electrician_Ability1_Self_name							Static Grip
-State_Electrician_Ability1_Self_FRAME_effect					{30,40,50,60} de dano Mágico por segundo
+State_Electrician_Ability1_Self_FRAME_effect					{25,50,75,100} de dano Mágico por segundo
 
 // Ability_Electrician2
 Ability_Electrician2_ACTIVATE_COST_effect						^cRequer 20% da Mana para ativar^*
 Ability_Electrician2_name										Electric Shield
 Ability_Electrician2_description								O Electrician usa eletricidade para criar um escudo em volta de si mesmo. O escudo irá negar uma porção de dano sofrido pelo custo de Mana do Electrician.
 Ability_Electrician2_effect_header								Efeitos de Electric Shield
-Ability_Electrician2_IMPACT_effect								Enquanto estiver ativo, aplica um Electric Shield a si mesmo.
-Ability_Electrician2_tooltip_flavor								Não acerte um garfo em mim.
+Ability_Electrician2_IMPACT_effect								Enquanto ativado, aplica Electric Shield em si e causa {12,24,36,48} de dano Mágico por segundo em uma área de 300 em volta do Electrician.
+Ability_Electrician2_tooltip_flavor								Não coloque um garfo em mim.
 
 // State_Electrician_Ability2
 State_Electrician_Ability2_name									Electric Shield
@@ -1293,68 +1293,68 @@ State_Electrician_Ability2_description							Nega o dano recebido em troca de Ma
 State_Electrician_Ability2_FRAME_effect							50% do dano recebido é negado em troca de {2,1.66,1.25,0.75} de Mana por ponto de dano.
 
 State_Electrician_Ability2_Areadamage							Electric Aura
-State_Electrician_Ability2_Areadamage_FRAME_effect				{12,24,36,48} Magic damage per second
+State_Electrician_Ability2_Areadamage_FRAME_effect				{12,24,36,48} dano Mágico por segundo
 
 // Ability_Electrician3
 Ability_Electrician3_name										Energy Absorption
-Ability_Electrician3_description								O Electrician descarrega eletricidade a sua volta. Inimígos próximos a ele tomam dano e têm sua Mana drenada. Para cada inimígo com mana drenada, o Electrician absorve Mana, ganha um boost para sua Magic Armor e para sua Physical Armor.
+Ability_Electrician3_description								O Electrician descarrega sua energia em sua volta. Inimigos próximos recebem dano e tem sua Mana drenada. Para cada inimigo com a Mana drenada, o Electrician absorve um pouco de mana Mana and ganha um bônus de Velocidade de Movimento.
 Ability_Electrician3_effect_header								Efeitos de Energy Absorption
-Ability_Electrician3_IMPACT_effect								Causa dano em inimígos no radius de {75,100,125,150} dano Mágico, drenando {3,6,9,12}% de sua Mana maxima. Aplica Energy Absorption a si mesmo por 10 segundos.\n\nSe o primeiro alvo for um creep, aplica 3 charges iniciais. Se o primeiro alvo for um Hero, aplica 5 charges.\n\nAplica 1 charge extra por creep adicional e 3 charges extras por cada Hero.\n\nRecupera {15,20,25,30} de Mana por charge.
-Ability_Electrician3_tooltip_flavor								Eu fiz um blackout!
+Ability_Electrician3_IMPACT_effect								Inimigos na área recebem {85,165,225,300} de dano Mágico, drenando {3,6,9,12}% de sua Mana máxima. Aplica Energy Absorption em si por 7 segundos.\n\nSe o primeiro alvo for um Creep, aplica 3 cargas iniciais. Se o primeiro alvo for um Hero, aplica-se 5 cargas.\n\nAplica uma carga extra por cada Creep acertado e três cargas extras por Hero adicional acertado.\n\nRegenera {12,16,20,24} de Mana por carga.
+Ability_Electrician3_tooltip_flavor								Eu tive um blackout!
 
 // State_Electrician_Ability3
 State_Electrician_Ability3_name									Energy Absorption
 
 // Ability_Electrician4
 Ability_Electrician4_name										Cleansing Shock
-Ability_Electrician4_description								Electrician da choque na unidade alvo, removendo debuffs e aumentando a velocidade de movimentação se o alvo for aliado, ou remove buffs e reduz a velocidade de movimentação se o alvo for inimigo. 
-Ability_Electrician4_description2								^930Está habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Faz com que a habilidade Shock acerte 2 unidades alvos.
+Ability_Electrician4_description								Electrician dá um choque na unidade alvo, removendo debuffs e aumentando a velocidade de movimentação se o alvo for aliado, ou remove buffs e reduz a velocidade de movimentação se o alvo for inimigo. 
+Ability_Electrician4_description2								^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeitos do Staff:^* Faz com o efeito do choque acerte 2 unidades alvos próximas.
 Ability_Electrician4_effect_header								Efeitos de Cleansed
 Ability_Electrician4_effect_header2								Efeitos de Shocked
-Ability_Electrician4_IMPACT_effect								Remove debuffs do alvo aliado, ou remove buffs de um alvo inimigo. Aplica Cleansed em aliados ou Shocked em inimígos por 5 segundos.
-Ability_Electrician4_name:ult_boost								Cleansing Storm (^gBoosted^*)
+Ability_Electrician4_IMPACT_effect								Remove debuffs da unidade aliada alvo ou remove buffs da unidade inimiga alvo. Aplica Cleansed nos aliados ou Shocked nos inimigos por 5 segundos.\n\nCausa {600,800,1000} de dano à unidades conjuradas.
+Ability_Electrician4_name:ult_boost								Cleansing Storm (^gMelhorado^*)
 Ability_Electrician4_description2:ult_boost						Esta habilidade foi melhorada pelo Staff of the Master.\n\n^gPassa para mais 2 alvos adicionais.^*
-Ability_Electrician4_IMPACT_effect:ult_boost					Remove debuffs do alvo aliado, ou remove buffs de um alvo inimigo. Aplica Cleansed em aliados ou Shocked em inimígos por 5 segundos.\n\nPassa instantaneamente para mais 2 unidades alvo próxima. Se o alvo for um Hero, ela só irá passar para outro Hero. Se o alvo for um não-Hero, ela só irá passar para unidades validas próximas.\n\nCausa {600,800,1000} de dano em unidades Summoned.
+Ability_Electrician4_IMPACT_effect:ult_boost					Remove debuffs da unidade aliada alvo ou remove buffs da unidade inimiga alvo. Aplica Cleansed nos aliados ou Shocked nos inimigos por 5 segundos..\n\nPula, instantâneamente, para os 2 alvos válidos. Se o alvo for um hero, ele irá pular para outro hero apenas. Se o alvo não for um hero, ele irá pular para o alvo válido mais próximo.\n\nCausa {600,800,1000} de dano à unidades conjuradas.
 
 Ability_Electrician4_tooltip_flavor								Não me irrite parceiro
 
 // State_Electrician_Ability4_Allies
 State_Electrician_Ability4_Allies_name							Cleansed
-State_Electrician_Ability4_Allies_FRAME_effect					{+30,+40,+50}% de velocidade de movimentação inicialmente, reduz depois de 5 segundos
+State_Electrician_Ability4_Allies_FRAME_effect					{+30,+40,+50}% de velocidade de movimentação inicialmente, reduzindo ao longo de 5 segundos
 
 // State_Electrician_Ability4_Enemies
 State_Electrician_Ability4_Enemies_name							Shocked
-State_Electrician_Ability4_Enemies_FRAME_effect					{-40,-60,-80}% de velocidade de movimentação inicialmente, reduz depois de 5 segundos.
+State_Electrician_Ability4_Enemies_FRAME_effect					{-40,-60,-80}% de velocidade de movimentação inicialmente, reduzindo ao longo de 5 segundos
 
 // Hero_Electrician
 Hero_Electrician_name											Electrician
-Hero_Electrician_description									Os melhores espiões da Legion aprenderam a muitos meses com um arqueologista que por sede de sabedoria fez um pacto proibído com os Hellbourne.  As descobertas dele eram usadas para forjar Shocktroopers, homens fusionados com tecnologia Anciâ, pulsando uma violenta energia.  Esses híbridos horrorosos carregam um tanque de eletricidade liquida nas costas, e eles usam energia como espada e escudo.
+Hero_Electrician_description									Os melhores espiões da Legion aprenderam a muitos meses atrás com um arqueologista que por sua sede por sabedoria fez um pacto proibído com os Hellbourne.  As descobertas dele eram usadas para forjar Shocktroopers, homens fundidos com tecnologia Anciã, pulsando uma violenta energia.  Esses híbridos horrorosos carregam um tanque de eletricidade liquida nas costas, e eles usam energia como espada e escudo.
 
 // Ability_Engineer1
 Ability_Engineer1_name											The Keg
-Ability_Engineer1_description									Nunca vão para a batalha sem um barril de cerveja bem cheio, O Engineer também sabe que isto pode ser usado como um poderoso explosivo. Quando usado em batalha, ele causa stun e dano nos inimigos que estiverem na área de impacto. Ele bebe essa coisa.
-Ability_Engineer1_IMPACT_effect									Joga um barril na localização alvo, o impacto tem um delay de 1 segundo. Unidades inimigas ao alcance recebem {100,150,200,250} de dano magico, recebem stun de {1.25,1.5,1.75,2} segundos, e são empurrados 250 units do ponto de impacto.\n\nSe o Engineer estiver no raio da explosão, ele também será empurrado, mas não receberá o stun.
-Ability_Engineer1_tooltip_flavor								Ele tem cabelo em seu peito!
+Ability_Engineer1_description									Nunca indo para a batalha sem um barril de cerveja bem cheio, O Engineer também sabe que isto pode ser usado como um poderoso explosivo. Quando usado em batalha, ele causa stun e dano nos inimigos que estiverem na área de impacto. Ele bebe essa coisa.
+Ability_Engineer1_IMPACT_effect									Joga um barril na localização alvo, o impacto tem um delay de 1 segundo. Unidades inimigas no alcance recebem {100,150,200,250} de dano Mágico, recebem stun de {1.25,1.5,1.75,2} segundos, e são empurrados 250 unidades do ponto de impacto.\n\nSe o Engineer estiver no raio da explosão, ele também será empurrado, mas não receberá o stun.
+Ability_Engineer1_tooltip_flavor								Ele coloca cabelo no seu peito!
 
 // Ability_Engineer2
 Ability_Engineer2_name											Steam Turret
-Ability_Engineer2_description									A Steam Turret, feita peça por peça, é ligada ao Engineer. ele pode controlar ela de qualquer lugar e ela ganha qualquer item que o Engineer tinha quando foi criada, se ele ainda não estiver morrido.
-Ability_Engineer2_IMPACT_effect									Cria uma Steam Turret na posição alvo e causa dano {12,18,27,37} até {14,22,33,43} por tiro em uma rajada de 3 tiros. Somente o primeiro ataque da rajada pode ativar um evento de ataque.\n\nA turret tem {500,550,600,650} de alcance e {7,10,13,16} de mana. A turret gasta 1 mana por ataque. Ela precisa levar 4 ataque de Heroes ou Bosses para morrer, 8 ataques por creeps.\n\nTodas as modificações feitas no Engineer são aplicadas na turret exceto por ^rLife Steal^*. O dano dos itens sofrem uma redução de 80% e então é adicionado ao dano base da turret. A turret é imune a regeneração de health e mana e não pode ser colocada 100 próxima de uma árvore.
+Ability_Engineer2_description									A Steam Turret, feita peça por peça, é ligada ao Engineer. ele pode controlar ela de qualquer lugar e ela ganha qualquer item que o Engineer tinha quando foi criada, porém, ela morre junto com ele.
+Ability_Engineer2_IMPACT_effect									Cria uma Steam Turret na posição alvo e causa dano {12,18,27,37} até {14,22,33,43} por tiro em uma rajada de 3 tiros. Somente o primeiro ataque da rajada pode ativar um evento de ataque.\n\nA turret tem {500,550,600,650} de alcance e {7,10,13,16} de mana. A turret gasta 1 mana por ataque. Ela precisa levar 4 ataque de Heroes ou Bosses para morrer, 8 ataques por creeps.\n\nTodas as modificações feitas no Engineer são aplicadas na turret exceto por ^rLife Steal^*. O dano dos itens sofrem uma redução de 80% e então é adicionado ao dano base da turret. A turret é imune a regeneração de vida e mana e deve ser colocada em pelo menos 100 unidades de distância de árvores.
 Ability_Engineer2_tooltip_flavor								Minha turret é minha melhor amiga.
 
 // Pet_Engineer_Ability2
 Pet_Engineer_Ability2_name										Steam Turret
 Ability_Pet_Turret1_name										Shutdown
-Ability_Pet_Turret1_description									Desliga a Steam Turret para regenerar seu mana.
+Ability_Pet_Turret1_description									Desliga a Steam Turret para regenerar sua mana.
 Ability_Pet_Turret1_effect_header								Shutdown
 Ability_Pet_Turret1_IMPACT_effect								Aplica Shutdown na Steam Turret por 15 segundos.
 
 // Ability_Pet_Turret2
 Ability_Pet_Turret2_name										Target Selection (Heroes)
-Ability_Pet_Turret2_name:steamturret_targetheroes				Target Selection (All)
+Ability_Pet_Turret2_name:steamturret_targetheroes				Target Selection (Todos)
 Ability_Pet_Turret2_description									A Turret troca sua prioridade de alvo entre somente Heroes ou qualquer inimigo próximo.
 Ability_Pet_Turret2_IMPACT_effect								Troca o alvo para atacar qualquer os inimigos próximos
-Ability_Pet_Turret2_IMPACT_effect:steamturret_targetheroes		Troca o alvo para atacar somente Heroes
+Ability_Pet_Turret2_IMPACT_effect:steamturret_targetheroes		Troca o alvo para atacar somente heroes
 
 State_Engineer_Ability2_Turret_Mana_name						Shutdown
 State_Engineer_Ability2_Turret_Mana_FRAME_effect				Reduz a alcance de visão para 100\nGanha 5 de mana por segundo
@@ -1367,13 +1367,13 @@ Ability_Engineer3_tooltip_flavor								Eu sou bom nisso, Eu prometo.
 
 // Ability_Engineer4
 Ability_Engineer4_name											Energy Field
-Ability_Engineer4_description									Implantando o seu patentiado como Campo Energetico Modulador Duplo-Magnetico V3.0, o Engineer consegui garantir que qualquer inimigo que entre ou saia do campo de ativação são tenha seus buffs retiradose então recebem silêncio e perplexão por um curto período de tempo.
-Ability_Engineer4_IMPACT_effect									Coloca sua invenção onde Engineer está localizado durante {6,9,12} segundos, leva 5 ataques para morrer, e cria um Energy Field em um raio de 475 ao redor dele mesmo.\n\nQualquer inimigo que entre ou saia do Energy Field retirado todos os buffs, recebe 100 de dano, o Energy Field é aplicado durante 2 segundos. Enquanto estiver dentro dos limites do Energy Field, eles recebem {3,5,7}% de dano mágico por segundo em seu Health máximo.
+Ability_Engineer4_description									Implantando o seu patentiado como Campo Energetico Modulador Duplo-Magnetico V3.0, o Engineer garante que qualquer inimigo que entre ou saia do campo de ativação são tenha seus buffs retirados e então recebem silence e perplexed por um curto período de tempo.
+Ability_Engineer4_IMPACT_effect									Coloca sua invenção onde Engineer está localizado durante {6,9,12} segundos, leva 5 ataques para ser destruído, e cria um Energy Field em um raio de 475 ao redor dele.\n\nQualquer inimigo que entre ou saia do Energy Field retirado todos os buffs, recebe 100 de dano, o Energy Field é aplicado por 2 segundos. Enquanto estiver dentro dos limites do Energy Field, eles recebem {3,5,7}% de sua Vida máxima em dano Mágico por segundo.
 Ability_Engineer4_tooltip_flavor								Não pergunte o que acontecia na versão 2.0...
 Ability_Engineer4_effect_header									Efeito do Energy Field
 
 State_Engineer_Ability4_Zap_Immunity_name						Dentro do Campo!
-State_Engineer_Ability4_Zap_Immunity_description				Recebe dano por segundo
+State_Engineer_Ability4_Zap_Immunity_description				Recebendo dano por segundo
 State_Engineer_Ability4_Zap_name								Energy Field
 
 Gadget_Engineer_Ability4_Shield_name 							Energy Field v3.0
@@ -1383,87 +1383,86 @@ Hero_Engineer_name												Engineer
 Hero_Engineer_description										O Engineer é um homem movido por mais de mera excentricidade. Sempre humilde, um grande contrutor beberão da Legion, ele veio para ser mestre em todos os tipos de máquinas.  Empunhando uma espingarda feita por ele mesmo,carregando um pouco de cerveja e um verdadeiro arsenal em suas costas, ele é uma estranha mas impressionando peça no campo de batalha.
 
 // Ability_Fade1
-Ability_Fade1_name												Guillotine
-Ability_Fade1_description										Fayde gira sua foice em um amplo arco, causando um grande dano a inimigos enquanto sai das sombras destroi seu mana instantaneamente.
-Ability_Fade1_IMPACT_effect										Todos os inimigos em seu alcance recebem {100,150,200,250} de dano mágico e tem {6,12,18,24}% de seu máximo de mana destruido.
+Ability_Fade1_name												Cull
+Ability_Fade1_description										Fayde efetua um longo arco com sua foice, cusando dano pesado aos inimigos enquanto a escuridão despertada ou destrói a mana deles instantâneamente ou stuna.
+Ability_Fade1_IMPACT_effect										Todos os inimigos dentro do alcance recebem {100,150,200,250} de dano Mágico.\n\n^yScythe Stance^*:\n- Stuna por {1,1.5,2,2.5} segundo(s).\n\n^yShadow Stance^*:\n-Destrói {6,12,18,24}% da mana máxima do hero inimigo. Se múltiplos heroes forem pegos, a destruição de mana será dividida, reduzindo a queima por {1,2,3,4}% por hero.
 
 Ability_Fade1_tooltip_flavor									Eu preciso do meu espaço pessoal.
 
 // Ability_Fade2
 Ability_Fade2_name												Burning Shadows
-Ability_Fade2_description										Fayde invoca uma onde de sombras, causando stun em todos os inimigos atingidos e fazendo com que suas sombras se virem contra eles por um curto tempo.
-Ability_Fade2_IMPACT_effect										Cria Burning Shadows em 640 units no direção alvo. Todos os inimigos Heroes atingidos recebem stun de {1,1.5,2,2.5} segundos e uma Shadow Copy dele é criada. A Shadow Copy é incontrolável, invulnerável, tem a velocidade de movimentação máxima, e ataca somente o alvo. A cada ataque a Shadow Copy causa {20,30,45,55} de dano mágico. Shadow Copy irá atacar 4 vezes.
+Ability_Fade2_description										Fayde conjura uma onda de escuridão, fazendo com que a sombra dos heroes inimigos em que pegar fiquem contra eles por pouco tempo.
+Ability_Fade2_IMPACT_effect										Cria Burning Shadows por 800 unidades na direção do alvo. Qualquer hero inimigo que acertar terá uma Shadow Copy deles mesmos criada.\n\nA Shadow Copy é incontrolável, invulnerável, tem velocidade de movimento máxima e ataca apenas o alvo. A Shadow Copy irá atacar {1,2,3,4} vez(es) muito rapidamente, causando 70 de dano Mágico por golpe.\n\n^yScythe Stance^*:\n-Destrói {6,12,18,24}% da mana máxima do hero inimigo. Se múltiplos heroes forem pegos, a destruição de mana será dividida, reduzindo a queima por {1,2,3,4}% por hero.\n\n^yShadow Stance^*:\n-Todos os heroes inimigos que você acertou serão stunados por {1,1.5,2,2.5} segundo(s)
 
 Ability_Fade2_tooltip_flavor									A escuridão pode colocá-lo ao lado de você mesmo...
 
 // Ability_Fade3
-Ability_Fade3_name												Dark Shield
-Ability_Fade3_description										Rodeia Fayde em sombras, protegendo-a de ataques físicos.
-Ability_Fade3_effect_header										Dark Shield Effect
-Ability_Fade3_IMPACT_effect										Aplica Dark Shield em si por 3 segundos. Se disfaz instantaneamnete se usada.
-Ability_Fade3_name												Shadow Stance
-
-Ability_Fade3_tooltip_flavor									Para de tentar me acertar e me acerte!
+Ability_Fade3_name:fadeshadowmode								Shadow Stance
+Ability_Fade3_description										Fayde se torna uma mestra no uso de sua Foice ou ligando as Sombras à sua volta, protegendo-a de danos e melhorando suas outras habilidades. Fayde inicia com a Scythe Stance.
+Ability_Fade3_IMPACT_effect:fadeshadowmode						Liga a Scythe Stance.\n\nFayde ganha uma carga de Deflection a cada 10 segundos com um máximo de {2,3,4,5} cargas. Cada carga bloqueia até 50 de dano de unidades controladas por jogadores.\n\nEsta habilidade pode ser ligada sem quebrar a camulfagem do Reflection.\n\n^yScythe Stance^*:\n- Deflection bloqueia dano Físico\n- Cull stuna\n- Burning Shadows destrói mana\n- Efeito de Shadow Cripple do Reflection causa dano Físico\n\n^yShadow Stance^*:\n- Deflection bloqueia dano Mágico\n- Cull destrói mana\n- Burning Shadows stuna\n- Efeito de Shadow Cripple do Reflection causa dano Mágico
+Ability_Fade3_IMPACT_effect										Liga a Shadow Stance.\n\nFayde ganha uma carga de Deflection a cada 10 segundos com um máximo de {2,3,4,5} cargas. Cada carga bloqueia até 50 de dano de unidades controladas por jogadores.\n\nEsta habilidade pode ser ligada sem quebrar a camulfagem do Reflection.\n\n^yScythe Stance^*:\n- Deflection bloqueia dano Físico\n- Cull stuna\n- Burning Shadows destrói mana\n- Efeito de Shadow Cripple do Reflection causa dano Físico\n\n^yShadow Stance^*:\n- Deflection bloqueia dano Mágico\n- Cull destrói mana\n- Burning Shadows stuna\n- Efeito de Shadow Cripple do Reflection causa dano Mágico
+Ability_Fade3_name												Scythe Stance
+Ability_Fade3_tooltip_flavor									Escolha sabiamente.
 
 // State_Fade_Ability3
-State_Fade_Ability3_name										Dark Shield
+State_Fade_Ability3_name										Shadow Stance
 
 // Ability_Fade4
 Ability_Fade4_name												Reflection
-Ability_Fade4_description										Cria uma simples cópia de si mesma que causa dano total e ganha experiência para você enquanto Fayde fica invisível. Fayde pode dar um limitado número de ataques enquanto estiver invisível sem ser revelada. Estes ataques vão paralisar o inimigo.
-Ability_Fade4_effect_header										Efeito de Reflection
-Ability_Fade4_effect_header2									Efeito de Shadow Cripple
-Ability_Fade4_IMPACT_effect										Cria uma simples ilusão que causa 100% de dano base mas recebe 300% de dano. Qualquer experiência que a ilusão ganhar será transferido para Fayde.\n\nAplica Reflection a Fayde por 40 segundos {3,4,5} charges. Um charge é removido a cada vez que Fayde atacar e Shadow Cripple é aplicado ao alvo por 3 segundos. Invisíbilidade é removida quando os charges chegarem a 0.\n\nIlusão é morta quando Fayde usar o seu primeiro ataque enquanto invisível.
+Ability_Fade4_description										Cria uma cópia perfeita de você que causa dano igual ao seu enquanto Fayde fica camuflada. Quando Fayde ataca camuflada ela aleija o inimigo, causando dano pesado ao longo de alguns segundos.
+Ability_Fade4_effect_header										Efeitos de Reflection
+Ability_Fade4_effect_header2									Efeitos de Shadow Cripple
+Ability_Fade4_IMPACT_effect										Cria uma cópia perfeita de vocêque causa 100% de seu dano base mas recebe 300% a mais de dano e aplica Reflection na Fayde por {30,35,40} segundos.\n\nQuando Fayde lança um ataque, Shadow Cripple é aplicado no alvo por 3 segundos e sua ilusão é instantâneamente morta.\n\n^yScythe Stance^*: Dano físico\n\n^yShadow Stance^*: Dano mágico
 
 Ability_Fade4_tooltip_flavor									Minha sobra é minha melhor amiga...
 
 // State_Fade_Ability4_Stealth
-State_Fade_Ability4_Stealth_Name								Reflection
-State_Fade_Ability4_Stealth_FRAME_effect						Aplica Shadow Cripple após o ataque
+State_Fade_Ability4_Stealth_name								Reflection
+State_Fade_Ability4_Stealth_FRAME_effect						Aplica Shadow Cripple ao atacar
 
 // State_Fade_Ability4_Slow
 State_Fade_Ability4_Slow_name									Shadow Cripple
-State_Fade_Ability4_Slow_FRAME_effect							{75,125,175} Damage per second. Physical damage in Scythe Stance, Magic damage in Shadow Stance.
+State_Fade_Ability4_Slow_FRAME_effect							{75,125,175} Dano por segundo
 
 // Hero_Fade
 Hero_Fade_name													Fayde
-Hero_Fade_description											A shadow cast by the evil in the hearts of Man and Beast alike, Fayde lurks in the dark places of Newerth.  While her scythe-like claws are terrible enough, it is her ability to call forth new shadows of herself--or her foes--that is most awful of all.
+Hero_Fade_description											Uma sombra posta nos corações de Homens e e Bestas pelo mal, Fayde espreita pelos lugares negros de Newerth.  Mesmo tendo suas garras parecidas com Foices já são terríveis o bastante, ela ainda tem a habilidade de chamar novas sombras de si--ou de seus agressores--que é o pior de tudo.
 
 // Ability_Fairy1
 Ability_Fairy1_name												Volatile Pod
-Ability_Fairy1_description										Nymphora cria um Volatile Pod na localização alvo. O Pod queima depois de um tempo dando dano no inimigos e curando unidades aliadas na área selecionada.
-Ability_Fairy1_effect_header									Status Effect
-Ability_Fairy1_IMPACT_effect									Depois de 2.5 segundos , causa dano no inimigo e cura aliados que estiverem no radius em {90,180,270,360}.
-Ability_Fairy1_tooltip_flavor									Somos todos um casal de ervilhas em um casulo!
+Ability_Fairy1_description										Nymphora cria um Volatile Pod na localização alvo. A bolsa queima depois de um tempo, causando dano aos inimigos e curando unidades aliadas na área.
+Ability_Fairy1_effect_header									Efeito de Status
+Ability_Fairy1_IMPACT_effect									Depois de 2.5 segundos, causa dano Mágico aos inimigo e cura aliados que estiverem no alcance em {90,180,270,360}.
+Ability_Fairy1_tooltip_flavor									Somos todos um casal de ervilhas em um casúlo!
 
 // Ability_Fairy2
 Ability_Fairy2_name												Grace of the Nymph
-Ability_Fairy2_description										Nymphora abençoa um alvo aliado com sua graça, deixando com que a proxima spell dele seja sem custo de Mana.
-Ability_Fairy2_effect_header									Efeitos de Grace
-Ability_Fairy2_IMPACT_effect									Aplica Grace ao alvo por 20 segundos ou até o alvo ativar alguma habilidade.
+Ability_Fairy2_description										Nymphora abençoa o aliado alvo com sua graça, dando-os Mana ao longo de 4 segundos.
+Ability_Fairy2_IMPACT_effect									Recupera {75,150,225,300} da Mana do alvo durante 4 segundos. Cancelado ao receber dano de outros jogadores.
+Ability_Fairy2_tooltip_flavor									Tome um pouco de pó de pequenas fadas!
 
 // State_Fairy_Ability2
 State_Fairy_Ability2_name										Enchanted
-// State_Fairy_Ability2_FRAME_effect								Próxima spell custa 0 de Mana
+// State_Fairy_Ability2_FRAME_effect							
 
 // Ability_Fairy3
 Ability_Fairy3_name												Nymphora's Zeal
-Ability_Fairy3_description										Atira um wisp e da stun nos inimigos. Para cada acerto inimigo, Nymphorah recebe um buff em velocidades de ataque e movimentação.
-Ability_Fairy3_effect_header									Efeitos de Nymphora's Zeal 
-Ability_Fairy3_IMPACT_effect									Lança um projétil que causa impacto nos alvos uma linha de {400,600,800,1000} units, deixando eles com stun por {0.75,1.0,1.25,1.5} segundo(s), depois o projétil retorna. Unidades podem ser acertadas duas veses. Uma quando o projétil é lançado e outra vez quando retorna. Aplica Nymphora's Zeal a si mesma por 8 segundos com 1 charge extra por cada impacto. Máximo de 10 charges.
-Ability_Fairy3_tooltip_flavor									
+Ability_Fairy3_description										Atira um wisp para causar dano e stunar inimigos em uma linha. Para cada acerto em inimigo, Nymphora tem sua velocidade de movimento e de ataque melhoradas.
+Ability_Fairy3_effect_header									Efeitos de Nymphora's Zeal
+Ability_Fairy3_IMPACT_effect									Lança um projétil que impacta nos alvos em que tocar em uma linha de 12000 unidades, stunando-os por {0.75,1.0,1.25,1.5} segundo(s) e então o projétil  retorna para você. Unidades podem ser impactadas duas vezes, uma quando o projétil está sendo lançado e outra quando ele estiver retornando. Aplica Nymphora's Zeal em si por 8 segundos com 1 carga bônus por impacto. Máximo de 10 cargas.
+Ability_Fairy3_tooltip_flavor									Ele vai para as duas direções.
 
 // State_Fairy_Ability3
 State_Fairy_Ability3_name										Invigorated
 
 // Ability_Fairy4
 Ability_Fairy4_name												Teleport
-Ability_Fairy4_description										Nymphora canaliza o poder da floresta, conectando-se com todas as coisas vivas nela. Com esse poder ela pode se teleportar e quando em leveis mais altos, alguns aliados para o alvo de sua escolha.
-Ability_Fairy4_description2										Essa skill não pode ser usada com 2500 units da estrutura da base principal inimiga.
-Ability_Fairy4_effect_header									Status Effect
-Ability_Fairy4_IMPACT_effect									Depois do tempo de cast, teleporta ela e {0,1,2} aliados aleatórios perto dela para a localização escolhida.\n\nA Localização alvo é revelada a unidades inimigas durante a canalização.
-Ability_Fairy4_description2:ult_boost							Está habilidade não pode ser usada dentro de 2500 units de proximidade da estrutura base principal inimiga.\n\nEstá habilidade foi melhorada pelo Staff of the Master.
-Ability_Fairy4_tooltip_flavor									Toda vez que um creep morre uma fada ganha asas!
+Ability_Fairy4_description										Nymphora canaliza o poder da floresta, conectando-se com todas as coisas vivas nela. Com esse poder ela pode se teleportar e, quando em níveis mais altos, alguns aliados próximos para o alvo de sua escolha.
+Ability_Fairy4_description2										Essa habilidade não pode ser usada dentro de um raio de 2500 unidades de estruturas da base principal inimiga.\n\n^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeitos do Staff:^* Adiciona a magia Nymph's Call. Permite a Nymphora Teleportar um hero amigo para a posição dela após {4,3,2} segundos de concentração.
+Ability_Fairy4_effect_header									Efeitos de Status
+Ability_Fairy4_IMPACT_effect									Depois do tempo de concentração, teleporta ela e {0,1,2} aliados aleatórios perto dela para a localização escolhida.
+Ability_Fairy4_description2:ult_boost							Essa habilidade não pode ser usada dentro de um raio de 2500 unidades de estruturas da base principal inimiga.\n\nEsta habilidade foi melhorada pelo Staff of the Master.
+Ability_Fairy4_tooltip_flavor									Toda vez que um creep morre uma fada ganha suas asas!
 
 // Gadget_Fairy_Ability4
 Gadget_Fairy_Ability4_name										Teleport Target
@@ -1473,14 +1472,14 @@ State_Fairy_Ability4_name										Being Teleported!
 
 // Ability_Fairy4_TPIn
 Ability_Fairy4_TPIn_name										Nymph's Call
-Ability_Fairy4_TPIn_description									Nymphora canaliza seu poder através do Staff of the Master, ganhando a habilidade de invocar um aliado ao seu lado.
-Ability_Fairy4_TPIn_description2								Está habilidade divide a cooldown com Teleport.
-Ability_Fairy4_TPIn_effect_header								Nymph's Call Effects
-Ability_Fairy4_TPIn_IMPACT_effect								Teleporta qualquer Hero aliado para Nymphora após um channeling de {5.5,4.5,3.5} segundos
+Ability_Fairy4_TPIn_description									Nymphora canaliza seu poder através do Staff of the Master, ganhando a habilidade de invocar um aliado para o seu lado.
+Ability_Fairy4_TPIn_description2								Esta habilidade divide o cooldown com outros Teleport.
+Ability_Fairy4_TPIn_effect_header								Efeito do Nymph's Call
+Ability_Fairy4_TPIn_IMPACT_effect								Teleporta qualquer hero aliado para a Nymphora após uma concentração de {5.5,4.5,3.5} segundos
 
 // Hero_Fairy
 Hero_Fairy_name													Nymphora
-Hero_Fairy_description											Nymphora tem sido a protetora das belezas secretas de Newerth. Um mito dizia que o paragon das borboletas e dos pássaros teria algo a ver nessa matança brutal que envolveu o mundo, mas qualquer um vê as garras afiadas revelados pelo seu sorriso para saber que ela proteje grande perigos.
+Hero_Fairy_description											Nymphora tem sido a protetora das belezas secretas de Newerth, suas clareiras isoladas e fontes de cristalinas. Alguém pode pensar que a perfeição das borboletas e suas travessuras teria pouca ajuda na brutal carnificina que envolveu o mundo, mas poucos veem pequenas presas reveladas por seu sorriso para saber que ela carrega muitos segredos.
 
 // Ability_ForsakenArcher1
 Ability_ForsakenArcher1_name									Crippling Volley
@@ -1508,20 +1507,20 @@ Ability_ForsakenArcher2_ATTACK_effect:ForsakenArcher_Ability2_Active	Divide o at
 
 // Ability_ForsakenArcher3
 Ability_ForsakenArcher3_name									Call of the Damned
-Ability_ForsakenArcher3_description								Com a maldiçao poderosa concedido a ela pela Hellbourne, a Forsaken Archer é capaz é capaz de trazer os corpos sem alma de suas vítimas de volta dos mortos para lutar ao seu lado como esqueletos guerreiros.
+Ability_ForsakenArcher3_description								Com a maldiçao poderosa concedido a ela pela Hellbourne, a Forsaken Archer é capaz de trazer os corpos sem alma de suas vítimas de volta dos mortos para lutar ao seu lado como esqueletos guerreiros.
 Ability_ForsakenArcher3_description2							
-Ability_ForsakenArcher3_effect_header							Poisoned
+Ability_ForsakenArcher3_effect_header							Envenenado
 Ability_ForsakenArcher3_effect_header2							
 Ability_ForsakenArcher3_tooltip_flavor							3 segundos...
-Ability_ForsakenArcher3_KILL_effect								Cria uma incontrolável Skeletal Minion que irá acompanhar e auxiliar a Forsaken Archer. Não propaga para as ilusões.\n\nSkeletal Minions:\n^y-^* tem 20 Health máximo\n^y-^* Causa de {14,20,26,32} até {20,26,32,38} de dano físico por ataque\n^y-^* Aplica Poisoned ao alvo atacado por 4 segundos\n\nSkeletal Minions tem 30 segundos de vida e só podem viver {3,4,5,6} ao mesmo tempo.
-Ability_ForsakenArcher3_IMPACT_effect:Ability_ForsakenArcher3_active	Instantly spawns stored up skeletons based on current charges. Only {3,4,5,6} skeletons may be active at any one time.
-Ability_ForsakenArcher3_KILL_effect								Creates an uncontrollable Skeletal Minion that will follow and assist the Forsaken Archer. Does not propagate to illusions.\n\nSkeletal Minions:\n^y-^* Have 20 max health\n^y-^* Deal {14,20,26,32} to {20,26,32,38} Physical damage per attack\n^y-^* Apply Poisoned to targets on attack for 4 seconds\n\nSkeletal Minions last 30 seconds and only {3,4,5,6} can be alive at a time.
+Ability_ForsakenArcher3_IMPACT_effect							Altera o Call of the Damned para acumular os esqueletos para serem conjurados mais tarde (quando desligado), ao invés de criá-los instantâneamente.\n\nAlterando essa habilidade irá destruir os esqueletos ativos.
+Ability_ForsakenArcher3_IMPACT_effect:Ability_ForsakenArcher3_active	Conjura instantâneamente os esqueletos acumulados baseado no número de cargas atual. Apenas {3,4,5,6} esqueletos podem estar ativos ao mesmo tempo.
+Ability_ForsakenArcher3_KILL_effect								Cria um Skeletal Minion incontrolável que irá seguir e ajudar a Forsaken Archer. Não se propaga para ilusões.\n\nSkeletal Minions:\n^y-^* Têm 20 de Vida Máxima\n^y-^* Causa de {14,20,26,32} à {20,26,32,38} de dano Físico por ataque\n^y-^* Aplica Envenenamento nos alvos ao atacar, dura 4 segundos\n\nSkeletal Minions duram 30 segundos e apenas {3,4,5,6} podem estar vivo ao mesmo tempo.
 Ability_ForsakenArcher3_INDIRECT_KILL_effect					
 Ability_ForsakenArcher3_LEARN_effect							
 
 // State_ForsakenArcher_Ability3
 State_ForsakenArcher_Ability3_name								Poisoned
-State_ForsakenArcher_Ability3_FRAME_effect						{4,8,12,16} Dano mágico por segundo
+State_ForsakenArcher_Ability3_FRAME_effect						{4,8,12,16} dano Mágico por segundo
 
 // Pet_ForsakenArcher_Ability3
 Pet_ForsakenArcher_Ability3_name								Skeletal Minion
@@ -1537,8 +1536,8 @@ Ability_ForsakenArcher4_description								Alimentada pela raiva em seu coraçã
 Ability_ForsakenArcher4_description2							
 Ability_ForsakenArcher4_effect_header							
 Ability_ForsakenArcher4_effect_header2							
-Ability_ForsakenArcher4_tooltip_flavor							Se eu tiver de morrer, você vira comigo!!
-Ability_ForsakenArcher4_IMPACT_effect							Atira uma perfurante flecha a cada 0.5 segundos que viaja 1300 units com 1150 de velocidade. Qualquer inimigo recebe {75,150,225} de dano mágico por flecha. Qualquer inimigo atrás do primeiro tem o dano reduzido em 10% por alvo em sua frente.\n\nEnquanto channeling estiver ativo, qualquer skeletal minions irá atacar automaticamente inimigos dentro do raio de 600 ao redor deles.
+Ability_ForsakenArcher4_tooltip_flavor							Se eu tiver de morrer, você vira comigo!
+Ability_ForsakenArcher4_IMPACT_effect							Atira uma Piercing Arrow a cada .5 segundos que viaja 1300 units com 1150 de velocidade. Qualquer inimigo recebe {75,150,225} de dano Mágico por flecha. Qualquer inimigo atrás do primeiro tem o dano reduzido em 10% por alvo na sua frente.\n\nEnquanto estiver usando, qualquer skeletal minions irá atacar automaticamente inimigos dentro do raio de 600 ao redor de você.
 Ability_ForsakenArcher4_CHANNEL_START_effect					
 
 // State_ForsakenArcher_Ability4
@@ -1555,9 +1554,9 @@ Hero_ForsakenArcher_description									Depois de ser uma caçadora das floresta
 
 // Ability_Frosty1
 Ability_Frosty1_name											Tundra Blast
-Ability_Frosty1_description										Glacius ataca a unidade inimiga com uma explosão de gelo. O alvo primeiramente recebe dano do ataque inicial, depois recebe dano novamente quando a explosão danifica todos os inimígos que estão por perto. Todas as unidades atingidas pela explosão têm suas velocidades de movimentação e ataque reduzidas.
+Ability_Frosty1_description										Glacius ataca um grupo inimigo com uma explosão de gelo. Todos os inimigos pegos pela explosão recebem dano e tem sua velocidade de movimento e de ataque reduzidas.
 Ability_Frosty1_effect_header									Efeitos de Tundra Blast 
-Ability_Frosty1_IMPACT_effect									Causa {50,100,125,175} de dano Mágico ao alvo. Causa um dano mágico adicional de {75,100,125,125} e aplica Tundra Blast por 4 segundos nos inimígos em um radius de 200 em volta do alvo.
+Ability_Frosty1_IMPACT_effect									Causa {80,130,180,230} de dano Mágico e aplica Tundra Blast em todas as unidades em uma área de 400.
 Ability_Frosty1_tooltip_flavor									Glacier, dead ahead.
 
 // State_Frosty_Ability1
@@ -1565,10 +1564,10 @@ State_Frosty_Ability1_name										Frosted
 
 // Ability_Frosty2
 Ability_Frosty2_name											Ice Imprisonment
-Ability_Frosty2_description										Glacius prende uma unidade inimíga em um bloco de gelo. O alvo está solidamente congelado, deixando-o incapaz de atacar ou se mover. A unidade alvo toma dano durante o tempo que estiver congelada.
-Ability_Frosty2_effect_header									Efeitos de Ice Imprisonment
-Ability_Frosty2_effect_header2									Frosted Effects
-Ability_Frosty2_IMPACT_effect									Performa um mini-stun no alvo e depois aplica Ice Imprisonment por {1.5,2,2.5,3} segundo(s).
+Ability_Frosty2_description										Glacius prende uma unidade inimiga em um bloco de gelo. O alvo está solidamente congelado, deixando-o incapaz de atacar ou se mover. A unidade alvo toma dano durante o tempo que estiver congelada. Se um aliado estiver congelado, ele será protegido pelo gelo.
+Ability_Frosty2_effect_header									Efeitos de Frozen
+Ability_Frosty2_effect_header2									Efeitos de Frosted
+Ability_Frosty2_IMPACT_effect									Causa um mini-stun no alvo e depois aplica Ice Imprisonment por {1.5,2,2.5,3} segundo(s) em heroes inimigos ou 10 segundos para creeps.\n\nQuando usado em um aliado, aplica Frosted por {1.5,2,2.5,3} seconds.
 Ability_Frosty2_tooltip_flavor									You need to chill out!
 
 // State_Frosty_Ability2
@@ -1577,13 +1576,13 @@ State_Frosty_Ability2_FRAME_effect								70 de dano Mágico por segundo
 
 // State_Frosty_Ability2
 State_Frosty_Ability2_Ally_name									Frosted
-State_Frosty_Ability2_Ally_FRAME_effect							{20,40,60,80}% Damage Reduction
+State_Frosty_Ability2_Ally_FRAME_effect							{20,40,60,80}% Dano Reduzido
 
 // Ability_Frosty3
 Ability_Frosty3_name											Chilling Presence
 Ability_Frosty3_description										Glacius ajuda seus aliados a ficarem calmos ao encarar o perigo, deixando eles com a mente calma e limpa. Aumenta a regeneração de Mana de todos os heróis aliados não importa onde estejam no mapa.
-Ability_Frosty3_effect_header									Status Effect
-Ability_Frosty3_tooltip_flavor									How about a cool glass of lemonade?
+Ability_Frosty3_effect_header									Efeito de Status
+Ability_Frosty3_tooltip_flavor									Que tal um fresco copo de limonada?
 
 // State_Frosty_Ability3
 State_Frosty_Ability3_name										Chilling Presence
@@ -1608,12 +1607,12 @@ Hero_Frosty_description											Os guerreiros berserker da terra de Frostfield
 
 // Ability_Gauntlet1
 Ability_Gauntlet1_name											Infernal Instability
-Ability_Gauntlet1_description									A força demoníaca fortalece a maciça luva de Gauntlet. Se Gauntlet acertar alguem com sua luva nós próximos dois segudos, alguns dos poderes demoníacos dentro dela será detonado, causando dano em todas as unidades próximas.
+Ability_Gauntlet1_description									A força demoníaca fortalece a maciça luva de Gauntlet. Se Gauntlet acertar alguem com sua luva nos próximos dois segundos, alguns dos poderes demoníacos dentro dela será detonado, causando dano em todas as unidades próximas e dando poder ao Gauntlet.
 Ability_Gauntlet1_description2									
 Ability_Gauntlet1_effect_header									Infernal Instability
 Ability_Gauntlet1_effect_header2								
 Ability_Gauntlet1_tooltip_flavor								Pega-Pega.
-Ability_Gauntlet1_IMPACT_effect									Aplica Infernal Instability em si por 4 segundos. Detona ao primeiro alvo que entrar em contato com a luva. Isto inclui auto ataque, Grapple, ou Gauntlet Blast. Está habilidade pode ser ativada enquando a luva estiver no meio do voo.
+Ability_Gauntlet1_IMPACT_effect									Aplica Infernal Instability em si por 4 segundos.\n\nEnquanto Infernal Instability estiver ativo, o punho de Gauntlet irá detonar no primeiro alvo em que ele entrar em contato. Isto inclui ataques, Grapple ou Gauntlet Blast. Esta habilidade pode ser ativada enquanto a luva estiver em pleno voo.\n\nAo detonar, causa {33,66,99,132} de Dano Mágico por carga em na área em volta da luva. Ganha uma carga a cada 4 segundos, com um máximo de 3 cargas.
 
 // State_Gauntlet_Ability1
 State_Gauntlet_Ability1_name									Infernal Instability
@@ -1622,16 +1621,16 @@ State_Gauntlet_Ability1_description2
 State_Gauntlet_Ability1_effect_header							
 State_Gauntlet_Ability1_effect_header2							
 State_Gauntlet_Ability1_tooltip_flavor							
-State_Gauntlet_Ability1_ATTACK_IMPACT_effect					Causa {100,200,300,400} de dano Mágico em um raio de 250 unidades
+State_Gauntlet_Ability1_FRAME_effect							33% Resistência à Redução de Velocidade de Movimento por carga
 
 // Ability_Gauntlet2
 Ability_Gauntlet2_name											Grapple
-Ability_Gauntlet2_description									Gauntlet atira sua luva presa em uma corrente. Se a luva pegar um inimigo ambos serão puxados um para o outro.
+Ability_Gauntlet2_description									Gauntlet atira sua luva presa em uma corrente. Se a luva capturar um inimigo ambos serão puxados para a posição alvo.
 Ability_Gauntlet2_description2									
 Ability_Gauntlet2_effect_header									
 Ability_Gauntlet2_effect_header2								
 Ability_Gauntlet2_tooltip_flavor								Te peguei!
-Ability_Gauntlet2_IMPACT_effect									Atira a luva no ponto indicado e tem um alcance de 600 units na direção alvo. Quando um inimigo é agarrado, causa {60,100,140,180} dano Físico e ministun.\n\nSe um inimigo for agarrado antes do ponto alvo, somente o inimigo é puxado para Gauntlet. Se o inimigo for agarrado depois do ponto alvo (na "volta"), então ambos serão puxados para o local.
+Ability_Gauntlet2_IMPACT_effect									Atira a luva na direção do ponto indicado e tem um alcance de 725 unidades na direção alvo. Quando um inimigo ou aliado é agarrado, Gauntlet e a unidade impactada serão puxados para o local alvo.\n\nSe um inimigo for agarrado, eles recebem silence por {1.5,2,2.5,3} segundos.
 
 // Gadget_Gauntlet_Ability3
 Gadget_Gauntlet_Ability3_name									
@@ -1656,12 +1655,14 @@ State_Gauntlet_Ability2_Unbind_IMPACT_effect
 
 // Ability_Gauntlet3
 Ability_Gauntlet3_name											Cripple
-Ability_Gauntlet3_description									O incrível soco esmagador desferido por Gauntlet sobre seu oponente é mutilador. Cada golpe dado no oponente é ainda mais debilitante que o último, baixando toda sua movimentação. 
+Ability_Gauntlet3_description									Gauntlet desfere um incrível soco no seu oponente, aleijando-os. 
 Ability_Gauntlet3_description2									
 Ability_Gauntlet3_effect_header									Efeitos de Cripple
 Ability_Gauntlet3_effect_header2								
 Ability_Gauntlet3_tooltip_flavor								Não na cara!
-Ability_Gauntlet3_ATTACK_IMPACT_effect							Aplica Cripple por 10 segundos. Máximo de 10 cargas.
+Ability_Gauntlet3_IMPACT_effect									Ganha uma carga a cada 0.2 segundo que passam sem o Gauntlet atacar. Máximo de {10,20,30,40} cargas.
+Ability_Gauntlet3_ATTACK_IMPACT_effect							Aplica Cripple no alvo atacado por 5 segundos, aplicando todas as cargas da habilidade ao alvo, reiniciando as cargas de volta para 0.
+Ability_Gauntlet3_ATTACK_IMPACT_effect:attack					Aplica Cripple no alvo atacado por 5 segundos, aplicando todas as cargas da habilidade ao alvo, reiniciando as cargas de volta para 0.
 
 // State_Gauntlet_Ability3
 State_Gauntlet_Ability3_name									Cripple
@@ -1670,18 +1671,18 @@ State_Gauntlet_Ability3_description2
 State_Gauntlet_Ability3_effect_header							Nenhum
 State_Gauntlet_Ability3_effect_header2							Nenhum
 State_Gauntlet_Ability3_tooltip_flavor							Nenhum
-State_Gauntlet_Ability3_FRAME_effect							
+State_Gauntlet_Ability3_FRAME_effect							1% de Redução de Velocidade de Ataque por carga
 State_Gauntlet_Ability3_INFLICT_effect							
 State_Gauntlet_Ability3_REFRESH_effect							
 
 // Ability_Gauntlet4
 Ability_Gauntlet4_name											Gauntlet Blast
-Ability_Gauntlet4_description									Alimentado por uma força malévola, Gauntlet atira sua luva. Qualquer inimigos atingido pela luva são banhados por seu poder demoníaco, privando-as de seus encantamentos e reduzindo sua velocidade.
+Ability_Gauntlet4_description									Abastecido por poderes malevolentes, as luvas de Gauntlet voam muito rapidamente em direção da posição alvo. O hero inimigo mais próximo é tocado pela luva e envolto por poderes demoníacos.  Em seu voo de volta para Gauntlet, a poderosa luva empurra para os lados todos os tolos o bastante para tentar impedir sua passagem.
 Ability_Gauntlet4_description2									
 Ability_Gauntlet4_effect_header									
 Ability_Gauntlet4_effect_header2								
 Ability_Gauntlet4_tooltip_flavor								Ideal para lugares difíceis de alcançar!
-Ability_Gauntlet4_IMPACT_effect									Atira a luva em linha reta, causando {40,80,120} de dano Verdadeiro e retira qualquer buff dos alvos atingidos.\n\nGrapple pode ser usado enquando a luva está em pleno voo, mudando sua direção e agarrando alguem no caminho. 
+Ability_Gauntlet4_IMPACT_effect									Atira a luva em uma linha reta na direção da posição alvo.\n\nAo chegar no local, a luva acerta o hero inimigo mais próximo, causando {200,350,400} de dano Verdadeiro e retirando qualquer buff. O hero inimigo é lerdado por 100% inicialmente, descrescendo para 0% ao longo de 3 segundos.\n\nApós acertar o hero inimigo, a luva voa de volta para Gauntlet, empurrando para os lados qualquer unidade em que acertar e causando {100,150,200} de dano Verdadeiro à eles.
 
 // Gadget_Gauntlet_Ability4
 Gadget_Gauntlet_Ability4_name									
@@ -1691,26 +1692,26 @@ Gadget_Gauntlet_Ability4_description
 State_Gauntlet_Ability4_name									
 State_Gauntlet_Ability4_description								
 State_Gauntlet_Ability4_description2							
-State_Gauntlet_Ability4_effect_header							None
-State_Gauntlet_Ability4_effect_header2							None
-State_Gauntlet_Ability4_tooltip_flavor							None
+State_Gauntlet_Ability4_effect_header							Nenhum
+State_Gauntlet_Ability4_effect_header2							Nenhum
+State_Gauntlet_Ability4_tooltip_flavor							Nenhum
 State_Gauntlet_Ability4_FRAME_effect							
 
 // Hero_Gauntlet
 Hero_Gauntlet_name												Gauntlet
-Hero_Gauntlet_description										Nedd o ogro foi capturado pelos Hellbourne quando sua guerra com a Legion invadiu sua casa. A Hellbourne usou sua magia demoníaca para alterar Nedd, fundindo-o com uma poderosa arma e lobotomizando ele para garantir a sua completa obediência. Agora, pouco resta do ogro pacífico que foi uma vez. Ele é uma abominação, uma arma viva, uma domada força destrutiva: Ele é Gauntlet.
+Hero_Gauntlet_description										Nedd o ogro foi capturado pelos Hellbourne quando sua guerra com a Legion invadiu sua casa. Os Hellbourne usaram sua magia demoníaca para alterar Nedd, fundindo-o com uma poderosa arma e lobotomizando-o para garantir a sua completa obediência. Agora, pouco resta do ogro pacífico que foi uma vez. Ele é uma abominação, uma arma viva, uma domada força destrutiva: Ele é Gauntlet.
 
 // Ability_Hammerstorm1
 Ability_Hammerstorm1_name										Hammer Throw
 Ability_Hammerstorm1_description								Hammerstorm joga seu martelo místico em um inimígo alvo, dando dano e stun nele.
-Ability_Hammerstorm1_effect_header								Status Effect
+Ability_Hammerstorm1_effect_header								Efeito de Status
 Ability_Hammerstorm1_IMPACT_effect								Causa {100,150,200,250} de dano Mágico e deixa o alvo stun por 2 segundos.
 Ability_Hammerstorm1_tooltip_flavor								Aqui vou eu, Olimpíadas!
 
 // Ability_Hammerstorm2
 Ability_Hammerstorm2_name										Mighty Swing
 Ability_Hammerstorm2_description								Hammerstorm ataca com muita força, fazendo com que seus ataques deêm dano nos inimígos próximos em adição do seu alvo principal.
-Ability_Hammerstorm2_effect_header								Status Effect
+Ability_Hammerstorm2_effect_header								Efeito de Status
 Ability_Hammerstorm2_ATTACK_IMPACT_effect						Aplica {12.5,25.5,37.5,50}% de dano de splash em um radius de 350.
 Ability_Hammerstorm2_tooltip_flavor								Eu vou derrubar todos vocês.
 
@@ -1777,14 +1778,14 @@ Ability_Hantumon3_tooltip_flavor								Eu não sou confiável.
 Ability_Hantumon4_name											Invisibility
 Ability_Hantumon4_description									Night Hound aprende a se esconder melhor, deixando-o invisível a olho nú quando não está atacando.
 Ability_Hantumon4_description2									Stealth com {3,2.25,1.5} segundos de fade time.
-Ability_Hantumon4_effect_header									Status Effect
+Ability_Hantumon4_effect_header									Efeito de Status
 
 Ability_Hantumon4_tooltip_flavor								Que tal brincar de esconde-esconde?
 
 
 
 // State_Hantumon_Ability4
-State_Hantumon_Ability4_name									Invisibility
+State_Hantumon_Ability4_name									Invisiblidade
 
 // Hero_Hantumon
 Hero_Hantumon_name												Night Hound
@@ -1836,7 +1837,7 @@ Hero_Hellbringer_description									Durante a guerra contra as Beasts, muitos h
 // Ability_Malphas1
 Ability_Malphas1_name											Immolate
 Ability_Malphas1_description									Causa dano Mágico durante um tempo a todos os inimígos próximos
-Ability_Malphas1_effect_header									Status Effect
+Ability_Malphas1_effect_header									Efeito de Status
 
 // State_Malphas_Ability1
 State_Malphas_Ability1_name										Burning Presence
@@ -1891,7 +1892,7 @@ Ability_HellDemon4_name											Demonic Execution
 Ability_HellDemon4_description									Soul Reaper invoca sua Demonic Execution contra o alvo, causando stun e dano baseado em quão perto estão da morte.
 Ability_HellDemon4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeito do Staff:^* Aumenta o dano de x{.4,.6,.9} Vida perdida para x{.6,.9,1.2} Vida perdida.
 Ability_HellDemon4_IMPACT_effect								O valor de Vida perdida pelo alvo é multiplicado por {.4,.6,.9}. Causa dano Mágico igual a este valor. Causa Stun por 1.5 segundos.
-Ability_HellDemon4_name:ult_boost								Hellbourne Execution ^g(Boosted)^*
+Ability_HellDemon4_name:ult_boost								Hellbourne Execution ^g(Melhorado)^*
 Ability_HellDemon4_description2:ult_boost						Esta habilidade pode ser melhorada pelo Staff of the Master.
 Ability_HellDemon4_IMPACT_effect:ult_boost						O valor de Health perdido pelo alvo é multiplicado por ^g{.6,.9,1.2}^*. Causa dano mágico igual a este valor. Causa Stun por 1.5 segundos.
 Ability_HellDemon4_tooltip_flavor								A morte esta chegando para você.
@@ -1968,13 +1969,13 @@ State_Hunter_Ability1_FRAME_effect								{20,15,10,5} de dano Mágico por segun
 Ability_Hunter2_name											Feast
 Ability_Hunter2_description										O Blood Hunter se aproveita de todas as mortes que ele cria e se cura baseado no Health máximo da vítima.
 Ability_Hunter2_description2									Cura {10,20,30,40}% do Health Máximo de um Hero, ou {10,15,20,25}% de vítimas que não sejam Hero.
-Ability_Hunter2_effect_header									Status Effect
+Ability_Hunter2_effect_header									Efeito de Status
 Ability_Hunter2_tooltip_flavor									Você não esta usando a sua vida.
 
 // Ability_Hunter3
 Ability_Hunter3_name											Blood Sense
 Ability_Hunter3_description										Quando o inimígo próximo tem menos de 40% de health, o Blood Hunter pode sentir seu cheiro. Garante a visão da unidade inimíga e aumenta a velocidade de movimentação do Blood Hunter.
-Ability_Hunter3_effect_header									Status Effect
+Ability_Hunter3_effect_header									Efeito de Status
 
 Ability_Hunter3_tooltip_flavor									Vá achá-lo garoto, vá achá-lo.
 // Gadget_Hunter_Ability3
@@ -3499,9 +3500,9 @@ Ability_Valkyrie4_description2
 Ability_Valkyrie4_effect_header									Prism Effects
 Ability_Valkyrie4_effect_header2								
 Ability_Valkyrie4_tooltip_flavor								
-Ability_Valkyrie4_IMPACT_effect									Applies Prism to all allied heroes for {7,9,11} seconds.
+Ability_Valkyrie4_IMPACT_effect									Aplica Prism à todos os heroes aliados por {7,9,11} segundos.
 
-Ability_Valkyrie4_tooltip_flavor								Blinded by the light!
+Ability_Valkyrie4_tooltip_flavor								Cegado pela luz!
 
 
 
@@ -3511,25 +3512,25 @@ State_Valkyrie_Ability4_description
 State_Valkyrie_Ability4_description2							
 State_Valkyrie_Ability4_ACTIVATE_START_effect					
 State_Valkyrie_Ability4_ATTACK_START_effect						
-State_Valkyrie_Ability4_FRAME_effect							Does not expire from attacking or using abilities
+State_Valkyrie_Ability4_FRAME_effect							Não expira ao atacar ou usar habilidades
 State_Valkyrie_Ability4_INFLICT_effect							
 
 // Hero_Valkyrie
 Hero_Valkyrie_name												Valkyrie
-Hero_Valkyrie_description										The ancient sagas of the heathen north have long told to the tale of the battle-women known as Valkyries.  For centuries, their ranks have thinned as the old ways have died out and civilization stretched its smothering hand over the frozen wilds.  But some Valkyries still remain, cold and swift as the north wind, wielding their lances with expertise to rival the most veteran Legion warriors.
+Hero_Valkyrie_description										As antigas sagas do paganismo no norte contam a muito tempo histórias sobre mulheres guerreiras conhecidas como Valquírias.  Por séculos, sua classe se esmaeceu quando as velhas tradições definharam e a civilização esticou suas mãos sufocantes sobre os ermos congelados.  Porém, algumas Valquírias ainda sobrevivem, fras e vívidas como o vento nórdico, brandindo suas lanças com maestria que se rivaliza com a maioria dos guerreiros veteranos da Legion.
 
 // Ability_Vanya1
 Ability_Vanya1_name												Dark Blades
-Ability_Vanya1_description										A Dark Lady ativa uma energia maliciosa em suas Wrath Blades, fazendo com que os ataques dela silênciem seus inimígos, previnindo que eles usem spells e habilidades. A energia em suas lâminas também aumenta o dano básico delas temporariamente.
-Ability_Vanya1_effect_header									Efeitos de Dark Blades
+Ability_Vanya1_description										A Dark Lady ativa uma energia maliciosa em suas Wrath Blades, fazendo com que os ataques dela causam silence nos inimigos, previnindo que eles usem magias e habilidades. A energia em suas lâminas também aumenta o dano básico dela, temporariamente.
+Ability_Vanya1_effect_header									Efeito de Dark Blades
 Ability_Vanya1_IMPACT_effect									Aplica Dark Blades em si por {3,4,5,6} segundos.
 
-Ability_Vanya1_tooltip_flavor									These blades control your fate!
+Ability_Vanya1_tooltip_flavor									Estas lâminas controlam seu destino!
 
 // State_Vanya_Ability1
 State_Vanya_Ability1_name										Silencing Strikes
-State_Vanya_Ability1_FRAME_effect								Attacks silence target for 2.5 seconds
-State_Vanya_Ability1_ATTACK_IMPACT_effect						Silences target for 2.5 seconds
+State_Vanya_Ability1_FRAME_effect								Ataques causam silence nos alvos por 2.5 segundos
+State_Vanya_Ability1_ATTACK_IMPACT_effect						Causa Silence no alvo por 2.5 segundos
 
 // State_Vanya_Ability_1_Target
 State_Vanya_Ability_1_Target_name								Silenced
@@ -3538,21 +3539,21 @@ State_Vanya_Ability_1_Target_name								Silenced
 Ability_Vanya2_name												Taint Soul
 Ability_Vanya2_description										A Dark Lady força sua influência com a alma do inimígo, tonteando-a. O inimígo alvo é enfraquecido, recebendo dano e tendo sua velocidade de movimentação reduzida por algum tempo.
 Ability_Vanya2_effect_header									Efeitos de Tainted Soul
-Ability_Vanya2_IMPACT_effect									Deals {60,90,120,150} Magic damage and applies Tainted Soul to target for {2,3,4,5} seconds.
+Ability_Vanya2_IMPACT_effect									Causa {60,90,120,150} de dano Mágico e aplica Tainted Soul no alvo por {2,3,4,5} segundos.
 
-Ability_Vanya2_tooltip_flavor									I want to consume your soul.
+Ability_Vanya2_tooltip_flavor									Eu quero consumir sua alma.
 
 // State_Vanya_Ability2
 State_Vanya_Ability2_name										Tainted Soul
-State_Vanya_Ability2_FRAME_effect								Reduces movement speed by 60% initially, recovering to full speed over {2,3,4,5} seconds
+State_Vanya_Ability2_FRAME_effect								Reduz a velocidade de movimento em 60% inicialmente, recuperando-se completamente ao longo de {2,3,4,5} segundos
 
 // Ability_Vanya3
 Ability_Vanya3_name												Charging Strikes
-Ability_Vanya3_description										The Dark Lady launches herself toward a target location at incredible speed, attacking enemies as she passes by them.
-Ability_Vanya3_effect_header									Zeal Effects
-Ability_Vanya3_IMPACT_effect									Charges toward target location, dealing one attack to each enemy that passes within radius of self. Each consecutive attack during the charge will deal 15% less damage than the previous.\n\nWhen the charge completes, applies Zeal to self for 6 seconds.
+Ability_Vanya3_description										A Dark Lady se joga no local alvo à uma velocidade incrível, atacando os inimigos enquanto ela passa por eles.
+Ability_Vanya3_effect_header									Efeitos do Zeal
+Ability_Vanya3_IMPACT_effect									Corre na direção alvo, dando um ataque em cada inimigo em que ela passar dentro de seu raio. Cada ataque consecutivo durante essa corrida irá causar 15% menos de dano do que o anterior.\n\nQuando a corrida termina, aplica Zeal em si por 6 segundos.
 
-Ability_Vanya3_tooltip_flavor									May I cut in line?
+Ability_Vanya3_tooltip_flavor									Posso cortar em linha?
 
 // State_Vanya_Ability3
 State_Vanya_Ability3_name										Charging Strikes
@@ -3560,47 +3561,47 @@ State_Vanya_Ability3_name										Charging Strikes
 // Ability_Vanya4
 Ability_Vanya4_name												Cover of Darkness
 Ability_Vanya4_description										Usando o mais profundo de seu Dark Power, a Dark Lady envenena a mente de todos os Heroes inimígos no mapa por certo tempo. Durante isso os Heroes têm sua velocidade de movimentação reduzida, perde toda a visão dos aliados e têm um range de visão reduzido.
-Ability_Vanya4_effect_header									Darkness Effects
-Ability_Vanya4_IMPACT_effect									Applies Darkness to targets in radius for {4,6,8} seconds.
+Ability_Vanya4_effect_header									Efeito de Darkness
+Ability_Vanya4_IMPACT_effect									Aplica Darkness nos alvos na área por {4,6,8} segundos.
 
-Ability_Vanya4_tooltip_flavor									You're all alone, no one here beside you!
+Ability_Vanya4_tooltip_flavor									Você está sozinho, não há ninguém sem ser você!
 
 // State_Vanya_Ability4
 State_Vanya_Ability4_name										Cover of Darkness
-State_Vanya_Ability4_FRAME_effect								Shrinks vision radius to 400. Unlinks shared vision with allies.
+State_Vanya_Ability4_FRAME_effect								Diminui a área de visão para 400. Desliga a visão partilhada com os aliados.
 
 // Hero_Vanya
 Hero_Vanya_name													The Dark Lady
-Hero_Vanya_description											Wielding twin, scythe-like blades, the she-reaper known as the Dark Lady has moved through the Legion's ranks like a shadow of death.  For soldiers seeking to buck up their courage, she is a punch-line: "Careful you don't find the Dark Lady," they joke to their carousing friend.  But even these jokes are accompanied by a shudder.  Swift and cold and lethal as the frozen winds off the steps, black as the cloud-choked night, she is no laughing matter.
+Hero_Vanya_description											Usando lâminas duplas parecidas com foices, a ceifadora conhecida como Dark Lady subiu nas patentes da Legion como uma sombra da morte.  Para soldados procurando alavancar sua coragem, ela usa seu slogan: "Espero que não encontre a Dark Lady", eles se divertem com sua amiga farrenta.  Mas até essas piadinhas são acompanhadas de arrepios.  Ágil, fria e letal como os ventos gélidos das estepes, negra como uma noite cheia de nuvens, ela está numa missão sem sorrisos.
 
 // Ability_Vindicator1
 Ability_Vindicator1_name										Sage's Lore
-Ability_Vindicator1_description									The Vindicator unleashes forgotten lore from within The Book, causing any enemy heroes to lose health and mana until they cast a spell.
-Ability_Vindicator1_effect_header								Sage's Lore Effects
-Ability_Vindicator1_IMPACT_effect								Applies Sage's Lore to all enemy heroes in the radius for {5,6,7,8} seconds.
-Ability_Vindicator1_tooltip_flavor								School's for fools.
+Ability_Vindicator1_description									O Vindicator libera os conhecimentos esquecidos de dentro do Livro, fazendo com que qualquer hero inimigo perder vida e mana até eles usarem uma habilidade.
+Ability_Vindicator1_effect_header								Efeito de Sage's Lore
+Ability_Vindicator1_IMPACT_effect								Aplica Sage's Lore à todos os heroes inimigos na área por {5,6,7,8} segundos.
+Ability_Vindicator1_tooltip_flavor								Escola é para os tolos.
 
 // State_Vindicator_Ability1
 State_Vindicator_Ability1_name									Sage's Lore
-State_Vindicator_Ability1_FRAME_effect							{20,30,40,50} damage per second\nDrains {10,15,20,25} mana per second\nRemoved when a spell is cast
+State_Vindicator_Ability1_FRAME_effect							{20,30,40,50} dano por segundo\nDrena {10,15,20,25} mana por segundo\nRemovido quando uma habilidade é usada
 
 // Ability_Vindicator2
 Ability_Vindicator2_name										Master's Incantation
-Ability_Vindicator2_description									Using the Master's Incantation inscribed within The Book, Vindicator enhances his attacks.
-Ability_Vindicator2_description2 								^rThis is an attack ability. Right click to ^renable auto-casting of this skill.^*^*
-Ability_Vindicator2_IMPACT_effect								Deals {15,30,45,60}% of the Vindicator's Intelligence in bonus True damage when attacking.
-Ability_Vindicator2_tooltip_flavor								The great big book of everything.
+Ability_Vindicator2_description									Usando a Master's Incantation inscrita no O Livro, Vindicator melhora seu ataque.
+Ability_Vindicator2_description2 								^rIsto é uma habilidade de ataque. Clique direito para ^ativar auto-cast desta habilidade.^*^*
+Ability_Vindicator2_IMPACT_effect								Causa {15,30,45,60}% da Inteligência do Vindicator em bônus de dano Verdadeiro ao atacar.
+Ability_Vindicator2_tooltip_flavor								O grande livro sobre tudo.
 
 // Ability_Vindicator3
 Ability_Vindicator3_name										Glyph of Silence
-Ability_Vindicator3_description									Inscribed into the binding of The Book, the Glyph of Silence quiets the minds of those around it who cast a spell while stealing their power if they fall in battle.
-Ability_Vindicator3_IMPACT_effect								Any enemy hero who casts a spell while in range of the Aura is Silenced.\n\nAny enemy hero who dies while in range of the Aura will permanently lose 1 Intelligence while Vindicator permanently gains 1 Intelligence.
-Ability_Vindicator3_tooltip_flavor								Can you read me a bedtime story?
+Ability_Vindicator3_description									Inscrito na capa do Livro, o Glyph of Silence acalma as mentes daqueles em volta dele que conjuram magias enquantou roupa seus poderes se eles forem derrotados em batalha.
+Ability_Vindicator3_IMPACT_effect								Qualquer hero inimigo que conjurar uma magia enquanto estiver no alcance da Aura receberá Silence.\n\nQualquer hero inimigo que morrer no alcance da aura irá perder, permanentemente, 1 de Inteligência enquanto Vindicator ganhará, permanentemente, 1 de Inteligência.
+Ability_Vindicator3_tooltip_flavor								Você pode ler uma história de ninar?
 
 State_Vindicator_Ability3_Aura_name								Glyph of Silence Aura
-State_Vindicator_Ability3_Aura_FRAME_effect						Silenced for {.75,1.5,2.25,3} seconds when a spell is cast
-State_Vindicator_Ability3_Int_name								Glyph of Silence Aura
-State_Vindicator_Ability3_Int_FRAME_effect						Any enemy who casts is Silenced for {.75,1.5,2.25,3} seconds
+State_Vindicator_Ability3_Aura_FRAME_effect						Silence por {.75,1.5,2.25,3} segundo(s) quando uma magia é usada
+State_Vindicator_Ability3_Int_name								Aura Glyph of Silence
+State_Vindicator_Ability3_Int_FRAME_effect						Qualquer inimigo que usar uma habilidade receberá Silence por {.75,1.5,2.25,3} segundo(s)
 
 // Ability_Vindicator4
 Ability_Vindicator4_name										Final Chapter

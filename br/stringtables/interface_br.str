@@ -1436,7 +1436,7 @@ game_end_stats_awards_soon					Prêmios de Partida em Breve!
 game_end_stats_no_matches					Você não participou em nenhuma partida registrada ainda. Você pode buscar por uma partida entrando com sua ID abaixo.
 game_end_stats_kda							^g{kills}^*/^r{deaths}^*/^y{assists}^*
 game_end_stats_progress_bar					Aguarde...
-game_end_stats_download_in_progress			Por favor aguarde para o download terminar.
+game_end_stats_download_in_progress			Por favor aguarde o download terminar.
 game_end_stats_download_retry_btn			Falhou - Tente Denovo
 game_end_stats_watch_replay_btn				Assistir Replay
 game_end_stats_compat_btn					Compatizar
@@ -1445,7 +1445,7 @@ game_end_stats_refresh_btn					Checar por Arquivo
 
 main_stats_retrieving_match					Recebendo informação da partida...
 main_stats_retrieving_matches				Recebendo Partidas...
-main_stats_failed_retrieval					Falhou em receber informação das partidas.
+main_stats_failed_retrieval					Falha ao receber informações das partidas.
 main_stats_cancel							Cancelar
 main_stats_retry							Tentar de novo
 main_stats_does_not_exist					Partida ainda não enviada.
@@ -1457,7 +1457,7 @@ main_stats_download_replay_remaining		Tempo Restante: ^w{time}
 main_stats_retrieving_stats					Recebendo Estatísticas...
 main_stats_error_message					Um erro foi encontrado ao receber as estatísticas do jogador. Por favor tente de novo.
 
-game_end_stats_recentgames					Estatísticas das Últimas Partidas
+game_end_stats_recentgames					Histórico de Partidas
 game_end_stats_matchdetails					Detalhes Partida
 game_end_stats_download_btn					Baixar Replay
 game_end_stats_download_tootlip				Baixe o replay para esta partida.
@@ -1507,7 +1507,7 @@ game_hero_select_random_tip					Ao sortear um Herói você iniciará com ^y{gold
 hselect_header_hero_details					Detalhes do Herói
 hselect_label_hd_damage						Dano
 hselect_label_hd_armor						Armadura
-hselect_label_hd_move_speed					Velocidade de Movimento
+hselect_label_hd_move_speed					Veloc. de Movimento
 hselect_label_hd_attack_type				Tipo de Ataque
 hselect_label_hd_attack_range				Distância do Ataque
 hselect_label_hd_attack_rate				Precisão do Ataque
@@ -1623,11 +1623,11 @@ mainlobby_label_custom_team_size_desc		Partidas Exclusivas para times com este t
 main_lobby_filter_team_size_none			Não limitar o tamanho do time
 main_lobby_filter_any						Qualquer
 main_lobby_filter_advanced					Avançado
-main_lobby_filter_team_size_one_v_one		1x1 - Um contra Um
-main_lobby_filter_team_size_two_v_two		2x2 - Dois contra Dois
-main_lobby_filter_team_size_three_v_three	3x3 - Três contra Três
-main_lobby_filter_team_size_four_v_four		4x4 - Quatro contra Quatro
-main_lobby_filter_team_size_five_v_five		5x5 - Cinco contra Cinco
+main_lobby_filter_team_size_one_v_one		1v1 - Um v Um
+main_lobby_filter_team_size_two_v_two		2v2 - Dois v Dois
+main_lobby_filter_team_size_three_v_three	3v3 - Três v Três
+main_lobby_filter_team_size_four_v_four		4v4 - Quatro v Quatro
+main_lobby_filter_team_size_five_v_five		5v5 - Cinco v Cinco
 mainlobby_label_custom_map					Mapa
 mainlobby_label_custom_map_desc				Partidas Exclusivas para este Mapa.
 mainlobby_label_custom_server_type			Servidor
@@ -1650,9 +1650,9 @@ mainlobby_header_custom_minpsr				PSR >
 mainlobby_header_custom_maxpsr				PSR <
 mainlobby_header_custom_options				Opções
 mainlobby_button_custom_refresh				Atualizar Lista
-mainlobby_button_custom_join_selected		Entrar nesta Partida
+mainlobby_button_custom_join_selected		Entrar na Partida
 mainlobby_header_custom_karma				Partida proibida para Desistentes
-mainlobby_button_custom_instant_upgrade		Instantly Upgrade to a Prime Account Now
+mainlobby_button_custom_instant_upgrade		Faça Upgrade para Conta Prime Agora
 mainlobby_button_custom_return				Retornar ao Buscador de Partidas...
 mainlobby_header_custom_prime_req			Conta Prime Requerida
 mainlobby_header_create_create_game			Criar uma Partida
@@ -1666,12 +1666,12 @@ mainlobby_label_custom_game_access			Acesso do jogo
 mainlobby_tip_custom_game_access			Partidas públicas estão disponíveis para todos os jogadores. Partidas privadas requerem uma senha para entrar.
 mainlobby_label_custom_retrieving_list		Solicitando Lista...
 mainlobby_label_filter_server_name			Filtrar nome do Servidor
-mainlobby_tip_filter_server_name			Entre com um nome de servidor, or part of a server name to filter the results.
+mainlobby_tip_filter_server_name			Entre com um nome de servidor, ou parte do nome do servidor para filtrar os resultados.
 mainlobby_create_game_remote				Partida sendo Iniciada...
 
-mainlobby_label_icon_key					Legenda Ícones
+mainlobby_label_icon_key					Leg. Ícones
 mainlobby_filter_prequery					Filtrar Pré-Query
-mainlobby_filter_hide_restricted			Esconder Partidas Restritas
+mainlobby_filter_hide_restricted			Esconder Salas Restritas
 mainlobby_icon_key_options_header			Opções e Setup do Jogo
 mainlobby_icon_key_maps_header				Mapas
 mainlobby_icon_key_checkboxes				Opções Checkboxes
@@ -1683,7 +1683,7 @@ mainlobby_icon_key_chat_premium				Conta Premium
 mainlobby_icon_key_chat_ingame				Jogador Em Partida
 mainlobby_icon_key_opt_nopref				Sem Preferência
 mainlobby_icon_key_opt_required				Requerido
-mainlobby_icon_key_opt_excluded				Ecluído
+mainlobby_icon_key_opt_excluded				Excluir
 
 
 mainlobby_new_channel_header				Juntar-se / Criar Canal
@@ -1772,7 +1772,7 @@ replayv_button_close_window					Fechar Janela
 replayv_label_replay_detail_info			Para ver os detalhes do replay, selecione um arquivo de replay na lista à esquerda.
 replay_viewer_game_options					^yOpções de jogo:^* {options}
 replay_view_tip_online						Navegar no banco de dados online de replays.
-replayv_label_match_id						ID da partida: 
+replayv_label_match_id						ID Partida: 
 replayv_label_version						Versão: 
 replayv_label_date_played					Data do jogo: 
 replayv_label_match_length					Duração da partida: 
@@ -2424,10 +2424,10 @@ loading_tip30					Existe mais de um jeito de jogar com um Hero. Tente pegar iten
 loading_tip31					Couriers podem ser usados para encher um bottle na fonte da base.
 loading_tip32					Atacar Heroes inimigos quando estão focando ataque em seu Hero aliado (portanto te ignorando) pode inverter uma má situação. Use a distração de seus oponentes em sua vantagem.
 loading_tip33					Há muitos lugares para entrar nas árvores para se esconder ou pegar um atalho. Aprender aonde eles estão aumenta muito suas chances de sobrevivência.
-loading_tip34					Quando voce ler "Magia Superior" na descrição de uma skill, significa que a skill vai afetar o alvo, mesmo que eles estejam imunes.
+loading_tip34					Quando você ler "Magia Superior" na descrição de uma habilidade, significa que a habilidade irá afetar o alvo, mesmo que eles estejam imunes.
 loading_tip35					Olhe quais skills estão em cooldown do seu time selecionando os retratos deles no canto superior esquerdo.
 loading_tip36					Seu time apreciará mais você se você usar skills de dano alto antes em uma luta do que como finalizadores.
-loading_tip37					Você pode ver o gold, skills, vida, e mana, dos seus aliados no canto superior esquerdo da tela. Se você selecionar um, você pode ver seus itens.
+loading_tip37					Você pode ver o gold, skills, vida, e mana dos seus aliados no canto superior esquerdo da tela. Se você selecionar um deles, você poderá ver seus itens.
 loading_tip38					Não tenha medo de perder! Decisões boas vêm com experiência, e experiência vem de decisões ruins. Todos foram novos um dia.
 loading_tip39					Seja legal! Um jogador vai ignorar conselhos se você gritar com ele. Tente dizê-los em um tom respeitoso como uma sugestão antes do que uma ordem.
 loading_tip40					Escrever /gameinfo ou /gi no jogo vai mostrar uma lista com as opções do jogo atual.
@@ -2475,7 +2475,7 @@ main_lobby_amm_waiting_for_server			Partida Encontrada! Esperando o servidor ini
 main_lobby_amm_waiting_for_players			Esperando pelos outros jogadores...
 main_lobby_amm_stats_header					Estatísticas
 main_lobby_amm_solo_matches					Partidas: {count}
-main_lobby_amm_solo_rating					Classificação: {value}
+main_lobby_amm_solo_rating					SMR: {value}
 main_lobby_amm_team_matches					Partidas do Time: {count}
 main_lobby_amm_team_rating					Classificação do time: {value}
 
@@ -2494,7 +2494,7 @@ matchmaker_reject_disabled					Matchmaking está atualmente desativado.
 matchmaker_reject_leaver					Você desconectou de muitos games para usar o matchmaking.
 matchmaker_reject_no_region					Você tem de selecionar uma ou mais regiôes do mapa antes de se juntar. Regiôes que você quer jogar aparecerão em verde.
 
-matchmaker_status_msg						O sistema de Matchmaking está procurando jogadores para o seu jogo. Quando dez jogadores forem encontrados, um servidor será escolhido e todos os jogadores começaram a conectar.
+matchmaker_status_msg						O sistema de Matchmaking está procurando jogadores para a partida Quando dez jogadores forem encontrados, um servidor será escolhido e todos os jogadores começarão a conectar.
 matchmaker_status_leaver_msg				Quando todos os dez jogadores forem encontrados e você começar a carregar, você não poderá desconectar sem ganhar uma desistência em suas estatísticas!
 
 matchmaker_title							Selecione o seu Match Making Rating (SMR) Inicial
