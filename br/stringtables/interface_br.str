@@ -359,7 +359,7 @@ options_label_mic_on_sensitivity			Sensibilidade do Mic
 options_mic_on_sensitivity_tip				Determina a altura da voz que irá ligar o microfone automaticamente. A seta vermelha indica o nível limite do teste. É sugerido que a sensibilidade esteja um pouco abaixo do que o nível limite.
 
 options_header_input_options				Opções de Entrada
-options_label_scroll_speed					Velocidade da Câmera: ^w
+options_label_scroll_speed					Veloc. da Câmera: ^w
 options_camera_scroll_speed_tip_header		Velocidade de Deslocamento da Camera
 options_camera_scroll_speed_tip				Determina em unidades do game por segundo o quão rápido a câmera se move.
 options_checkbox_screen_edge_scroll			Controle da Tela
@@ -566,7 +566,7 @@ options_checkbox_camera_center_on_respawn_tip	Se habilitado, quando seu hero ren
 options_checkbox_disable_background_effects		Desabilitar Efeitos de Fundo
 options_checkbox_disable_background_effects_tip	se habilitado, os efeitos do fundo da lobby e animações não serão carregados ou reproduzidos. \n\n(Necessita reiniciar o jogo)         
 
-options_slider_notification_duration		Duração de Mostragem
+options_slider_notification_duration		Tempo de Avisos
 options_slider_notification_duration_tip	Determina quanto tempo em segundos que as notificações serão mostradas antes de sumir.
 
 options_checkbox_disable_notifications		Desabilitar Todas as Notificações
@@ -1632,8 +1632,8 @@ mainlobby_label_custom_map					Mapa
 mainlobby_label_custom_map_desc				Partidas Exclusivas para este Mapa.
 mainlobby_label_custom_server_type			Servidor
 mainlobby_label_custom_server_type_desc		Restringir os jogos com base no tipo de servidor. servidores oficiais são servidores hospedados na S2 que são garantidos para funcionar oficialmente, as configurações do jogo não modificado e mapas. Servidores não-oficiais são servidores hospedados pela comunidade que podem ou não podem ser modificados usando os mapas e configurações de jogo.
-main_lobby_server_official_stats			Oficial - Com Estat.
-main_lobby_server_official_nostats			Oficial - Sem Estat.
+main_lobby_server_official_stats			Oficial Com Estat.
+main_lobby_server_official_nostats			Oficial Sem Estat.
 main_lobby_server_unofficial				Não Oficial
 msin_lobby_game_access						Acesso do Jogo
 main_lobby_view_advanced_filters			Clique em ^yVer^* ^yAvançados^* para mostrar todas as opções adicionais.
@@ -1867,9 +1867,9 @@ game_lobby_no_referee						Sem Árbitros
 gamelobby_spectators_header					Espectadores
 gamelobby_spectate_button					Tornar-se um espectador
 gamelobby_disconnect_button					Desconectar
-gamelobby_disband_game_button				Desfazer partida
+gamelobby_disband_game_button				Desfazer Partida
 gamelobby_disband_button					Fechar
-gamelobby_start_game_button					Iniciar jogo
+gamelobby_start_game_button					Iniciar Jogo
 gamelobby_private_button					Jogo Privado
 gamelobby_private_tip_header				Jogo Privado
 gamelobby_private_tip_text					Selecionando esse recurso, seu jogo não vai aparecer na Lista de Jogos e não vai ser usado pelo Quick Match. Jogadores que não forem convidados não poderão entrar.

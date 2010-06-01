@@ -3605,102 +3605,102 @@ State_Vindicator_Ability3_Int_FRAME_effect						Qualquer inimigo que usar uma ha
 
 // Ability_Vindicator4
 Ability_Vindicator4_name										Final Chapter
-Ability_Vindicator4_description									Releasing the power held within the final chapter of The Book, Vindicator prevents any spellcasting across the battlefield.
-Ability_Vindicator4_IMPACT_effect								Applies Final Chapter to all enemy heroes for {3,4,5} seconds.
-Ability_Vindicator4_effect_header								Final Chapter Effects
-Ability_Vindicator4_tooltip_flavor								Quiet I'm almost done!
+Ability_Vindicator4_description									Liberando o poder contido no último capítulo do O Livro, Vindicator previne qualquer conjuração por todo o campo de batalha.
+Ability_Vindicator4_IMPACT_effect								Aplical Chapter à todos os heroes inimigos por {3,4,5} segundos.
+Ability_Vindicator4_effect_header								Efeito de Final Chapter
+Ability_Vindicator4_tooltip_flavor								Quieto, já estou terminando!
 
 // State_Vindicator_Ability4
 State_Vindicator_Ability4_name									Final Chapter
 
 // Hero_Vindicator
 Hero_Vindicator_name											Vindicator
-Hero_Vindicator_description										From one generation to the next, a reclusive order of hermits have guarded apocryphal writings said to come from the Prophet himself.  Vindicator, still early in his lonely quest, is the last of these lonely sentinels, but he has left his exile behind in order to join the battle against the Hellbourne.  Using the potent verses inscribed in the Great Book, he wields unique and powerful magic.
+Hero_Vindicator_description										De uma geração para outra, uma reclusa ordem de eremitas guardavam supostos escritos que diziam vir do próprio Profeta.  Vindicator, ainda iniciando sua jornada solitária, é o último destes sentinelas solitários. Porém, ele deixou seu exílio para juntar-se à batalha contra os Hellbourne.  Usando os ptentes versos inscritos no Grande Livro, ele carrega magias únicas e poderosas.
 
 // Ability_Voodoo1
 Ability_Voodoo1_name											Acid Cocktail
-Ability_Voodoo1_description										Voodoo Jester joga uma mistura de componentes químicos em um inimígo e deixa o alvo e as unidades próximas uma a uma.
-Ability_Voodoo1_effect_header									Status Effect
-Ability_Voodoo1_IMPACT_effect									Dá {75,100,125,150} de dano Mágico e deixa o alvo stun por 1.5 segundos se forem heroes e 5 segundos se forem creeps. Acerta {2,4,6,8} veses.  Acertos não causam dano á heroes e deixa eles stun por 1 segundo.
-Ability_Voodoo1_tooltip_flavor									What was in that bottle?
+Ability_Voodoo1_description										Voodoo Jester lança uma mistura de componentes químicos amaldiçoados em um inimigo, causando stun nele e em unidades próximas uma após a outra.
+Ability_Voodoo1_effect_header									Efeito de Status
+Ability_Voodoo1_IMPACT_effect									Causa {75,100,125,150} de dano Mágico e stun de 1.5 segundos se forem heroes e 5 segundos se forem creeps. Pula {2,4,6,8} vezes.  Os pulos não causam dano em heroes e causa stun de 1 segundo.
+Ability_Voodoo1_tooltip_flavor									O que tinha naquela garrafa?
 
 // Ability_Voodoo2
 Ability_Voodoo2_name											Mojo
-Ability_Voodoo2_description										Voodoo Jester afflicts an ally with good mojo or an enemy with bad mojo. The good mojo passes to Voodoo Jester's allies, healing those around the target over time. The bad mojo drags down Voodoo Jester's enemies, causing those around the target to take damage over time.
+Ability_Voodoo2_description										Voodoo Jester aflinge um aliado com o Good Mojo ou um inimigo com o Bad Mojo. O Good Mojo cura o alvo e aqueles à sua volta com o tempo. O Bad Mojo causa uma degeneração de vida nos inimigos com o tempo.
 Ability_Voodoo2_effect_header									Efeitos de Good Mojo 
 Ability_Voodoo2_effect_header2									Efeitos de Bad Mojo 
-Ability_Voodoo2_IMPACT_effect									Aplica Good Mojo a um aliado ou Bad Mojo se for um inimígo por 8 segundos.
-Ability_Voodoo2_tooltip_flavor									Oh no, I lost my mojo!
+Ability_Voodoo2_IMPACT_effect									Aplica Good Mojo em um aliado ou Bad Mojo se for um inimigo por 8 segundos.
+Ability_Voodoo2_tooltip_flavor									Oh não, eu perdi meu mojo!
 
 // State_Voodoo_Ability2_Buff
 State_Voodoo_Ability2_Buff_name									Good Mojo
-State_Voodoo_Ability2_Buff_FRAME_effect							Heals {10,20,30,40} Health per second to allied units in a 340 radius around the affected unit.
+State_Voodoo_Ability2_Buff_FRAME_effect							Cura {10,20,30,40} de Vida por segundo em unidades aliadas em um raio de 340 envolta da unidade afetada.
 State_Voodoo_Ability2_Buff_Aura_name							Good Mojo
-State_Voodoo_Ability2_Buff_Aura_FRAME_effect					Heals {10,20,30,40} Health per second.
+State_Voodoo_Ability2_Buff_Aura_FRAME_effect					Cura {10,20,30,40} de Vida por segundo.
 
 // State_Voodoo_Ability2_Debuff
 State_Voodoo_Ability2_Debuff_name								Bad Mojo
-State_Voodoo_Ability2_Debuff_FRAME_effect						Deals {10,20,30,40} Magic damage per second to enemy units in a 340 radius around the affected unit.
+State_Voodoo_Ability2_Debuff_FRAME_effect						Causa {10,20,30,40} de dano Mágico por segundo em unidades inimigas em um raio de 340 envolta da unidade afetada.
 State_Voodoo_Ability2_Debuff_Aura_name							Bad Mojo
-State_Voodoo_Ability2_Debuff_Aura_FRAME_effect					Deals {10,20,30,40} Magic damage per second.
+State_Voodoo_Ability2_Debuff_Aura_FRAME_effect					Causa {10,20,30,40} de dano Mágico por segundo.
 
 // Ability_Voodoo3
 Ability_Voodoo3_name											Cursed Ground
-Ability_Voodoo3_description										Voodoo Jester amaldiçoa a terra em que os inimígos andam, causando dano neles baseado na quantidade de health perdido durante alguns segundos.
-Ability_Voodoo3_effect_header									Cursed Effects
-Ability_Voodoo3_IMPACT_effect									Aplica Cursed aos alvos no radius por 12 segundos.
-Ability_Voodoo3_tooltip_flavor									Watch where you step.
+Ability_Voodoo3_description										Voodoo Jester amaldiçoa a terra em que os inimigos andam, causando dano baseado na quantidade de vida perdida por eles após alguns segundos.
+Ability_Voodoo3_effect_header									Efeitos de Cursed
+Ability_Voodoo3_IMPACT_effect									Aplica Cursed aos alvos na área por 12 segundos.
+Ability_Voodoo3_tooltip_flavor									Cuidado aonde pisa.
 
 // State_Voodoo_Ability3
 State_Voodoo_Ability3_name										Cursed
-State_Voodoo_Ability3_FRAME_effect								Causa {5,10,15,20} de dano Mágico por segundo.\nA cada 4 segundos, dá dano igual a {10,20,30,40}% do health total perdido desde que a spell foi usada.
+State_Voodoo_Ability3_FRAME_effect								Causa {5,10,15,20} de dano Mágico por segundo.\nA cada 4 segundos, causa dano igual a {10,20,30,40}% da Vida total perdida desde que Cursed foi aplicado.
 
 // Ability_Voodoo4
 Ability_Voodoo4_name											Spirit Ward
-Ability_Voodoo4_description										Voodoo Jester cria uma Spirit Ward mortal para atacar heroes inimígos. Essa habilidade pode ser melhorada pelo "Staff of the Master".
-Ability_Voodoo4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases Spirit Ward damage from {60,90,120} to {90,120,150}. Increases Spirit Ward attack bounces from {0,0,1} to {0,1,0} additional target(s) and splits it's attack to {1,1,3} targets.
-Ability_Voodoo4_effect_header									Status Effect
-Ability_Voodoo4_IMPACT_effect									Summons an invulnerable Spirit Ward to attack nearby enemy Heroes.\n\nThe Spirit Ward deals {60,90,120} Physical damage with an attack cooldown of 0.3 seconds. The Spirit Ward's attack bounces to {0,0,1} additional target(s).\n\nThe Spirit Ward is channeled and will be destroyed if the channel is cancelled.
-Ability_Voodoo4_name:ult_boost									Spirit Ward Supreme ^g(Boosted)^*
-Ability_Voodoo4_description2:ult_boost							This ability has been boosted by Staff of the Master.
-Ability_Voodoo4_IMPACT_effect:ult_boost							Summons an invulnerable Spirit Ward to attack nearby enemy Heroes.\n\nThe Spirit Ward deals ^g{90,120,150}^* Physical damage with an attack cooldown of 0.3 seconds. The Spirit Ward's attack bounces to ^g{0,1,0}^* additional target(s) and splits itself to attack a total of ^g{1,1,3}^* target(s).\n\nThe Spirit Ward is channeled and will be destroyed if the channel is cancelled.
-Ability_Voodoo4_tooltip_flavor									Bow down before me!
+Ability_Voodoo4_description										Voodoo Jester cria uma Spirit Ward mortal para atacar heroes inimigos.
+Ability_Voodoo4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeitos do Staff:^* Aumenta o dano do Spirit Ward de {60,90,120} para {90,120,150}. Aumenta o número de saltos do ataque de {0,0,1} para {0,1,0} alvo adicional e divide o seu ataque em {1,1,3} alvos.
+Ability_Voodoo4_effect_header									Efeito de Status
+Ability_Voodoo4_IMPACT_effect									Conjura uma Spirit Ward invunerável para atacar Heroes inimigos próximos.\n\nA Spirit Ward causa {60,90,120} de dano Físico com um cooldown de ataque de 0.3 segundo. O ataque da Spirit Ward pula para {0,0,1} alvo adicional.\n\nA Spirit Ward usa concentração e será destruída se esta for cancelada.
+Ability_Voodoo4_name:ult_boost									Spirit Ward Supreme ^g(Melhorado)^*
+Ability_Voodoo4_description2:ult_boost							Esta habilidade foi melhorada pelo Staff of the Master.
+Ability_Voodoo4_IMPACT_effect:ult_boost							Conjura uma Spirit Ward invulnerável para atacar Heroes inimigos próximos.\n\nAs Spirit Ward causam ^g{90,120,150}^* de dano Físico com um cooldown de ataque de 0.3 segundo. O ataque da Spirit Ward pula para ^g{0,1,0}^* alvo adicional e se separa para atacar um total de ^g{1,1,3}^* alvo(s).\n\nA Spirit Ward usa concentração e será destruída se esta for cancelada.
+Ability_Voodoo4_tooltip_flavor									Curve-se diante de mim!
 
 // Gadget_Voodoo_Ability4
 Gadget_Voodoo_Ability4_name										Spirit Ward
-Gadget_Voodoo_Ability4_name:ult_boost							Spirit Ward (Boosted)
+Gadget_Voodoo_Ability4_name:ult_boost							Spirit Ward (Melhorado)
 
 // Hero_Voodoo
 Hero_Voodoo_name												Voodoo Jester
-Hero_Voodoo_description											O Voodoo Jester caça os sonhos de incontáveis guerreiros com seu riso demente, olhos brilhantes, e magia mortal.  É dito que cada vez que uma criança chora, seu poder aumenta, por alguma crença esse rumor foi inventado por parentes para silenciar seus filhos desobedientes.
+Hero_Voodoo_description											O Voodoo Jester caça os sonhos de incontáveis guerreiros com seu riso louco, olhos brilhantes e magia mortal.  É dito que cada vez que uma criança chora, seu poder aumenta, por alguma crença esse rumor foi inventado por parentes para silenciar seus filhos desobedientes.
 
 // Ability_WitchSlayer1
 Ability_WitchSlayer1_name										Graveyard
-Ability_WitchSlayer1_description								Most at home on holy ground, the Witch Slayer creates a temporary Graveyard in front of himself. Enemy units caught in its creation suffer the consequences.
-Ability_WitchSlayer1_IMPACT_effect								Creates a Graveyard for 700 units in the target direction. Any enemies hit will fly in the air for 0.52 seconds and are stunned for {0.5,1,1.5,2} seconds when they land, taking {60,130,200,260} Magic damage.
-Ability_WitchSlayer1_tooltip_flavor								it's your funeral.
+Ability_WitchSlayer1_description								Most at home on holy ground, o Witch Slayer cria um Graveyard temporário na frente dele. Enemy units caught in its creation suffer the consequences.
+Ability_WitchSlayer1_IMPACT_effect								Cria um Graveyard de 700 unidades na direção alvo. Qualquer inimigo em que acertar será jogado no ar por 0.52 segundo e recebe stun de {0.5,1,1.5,2} segundo(s) quando aterrisarem, recebendo {60,130,200,260} de dano Mágico.
+Ability_WitchSlayer1_tooltip_flavor								É o seu funeral.
 
 // Ability_WitchSlayer2
 Ability_WitchSlayer2_name										Miniaturization
-Ability_WitchSlayer2_description								The Witch Slayer has mastered the use of the gem socketed into his glove, letting him shrink and render an enemy useless for a short time.
-Ability_WitchSlayer2_effect_header								Miniaturization Effects
-Ability_WitchSlayer2_IMPACT_effect								Applies Miniaturization to the target enemy for {1.25,2,2.75,3.5} seconds.
-Ability_WitchSlayer2_tooltip_flavor								Mines bigger!
+Ability_WitchSlayer2_description								O Witch Slayer se tornou mestre no uso da gema presa em sua luva, possibilitando-o encolher e deixar um inimigo imprestável por um curto período de tempo.
+Ability_WitchSlayer2_effect_header								Efeito de Miniaturization
+Ability_WitchSlayer2_IMPACT_effect								Aplica Miniaturization ao inimigo alvo por {1.25,2,2.75,3.5} segundos.
+Ability_WitchSlayer2_tooltip_flavor								O meu é maior!
 
 // State_WitchSlayer_Ability2
 State_WitchSlayer_Ability2_name									Miniaturization
-State_WitchSlayer_Ability2_FRAME_effect							Smaller!
+State_WitchSlayer_Ability2_FRAME_effect							Menor!
 
 // Ability_WitchSlayer3
 Ability_WitchSlayer3_name										Power Drain
 Ability_WitchSlayer3_description								Over the years the Witch Slayer has learned how to drain the power of his enemies for his own use.
-Ability_WitchSlayer3_effect_header								Power Drain Effects
+Ability_WitchSlayer3_effect_header								Efeito de Power Drain
 Ability_WitchSlayer3_IMPACT_effect								Applies Power Drain to target for duration of the channel. The Witch Slayer gains mana equal to the mana drained.
-Ability_WitchSlayer3_tooltip_flavor								I'm just going to borrow this!							
+Ability_WitchSlayer3_tooltip_flavor								Eu vou apenas pegar isto emprestado!							
 
 // State_WitchSlayer_Ability3
 State_WitchSlayer_Ability3_name									Power Drain
-State_WitchSlayer_Ability3_FRAME_effect							{20,40,60,100} mana drained per second.
+State_WitchSlayer_Ability3_FRAME_effect							{20,40,60,100} de mana drenada por segundo.
 
 // Ability_WitchSlayer4
 Ability_WitchSlayer4_name										Silver Bullet
