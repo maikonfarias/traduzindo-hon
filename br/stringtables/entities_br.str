@@ -3676,7 +3676,7 @@ Hero_Voodoo_description											O Voodoo Jester caça os sonhos de incontávei
 
 // Ability_WitchSlayer1
 Ability_WitchSlayer1_name										Graveyard
-Ability_WitchSlayer1_description								Most at home on holy ground, o Witch Slayer cria um Graveyard temporário na frente dele. Enemy units caught in its creation suffer the consequences.
+Ability_WitchSlayer1_description								Mais do que em casa em terra sagrada, o Witch Slayer cria um Graveyard temporário na frente dele. Unidades inimigas pegas na sua criação soferão as consequências.
 Ability_WitchSlayer1_IMPACT_effect								Cria um Graveyard de 700 unidades na direção alvo. Qualquer inimigo em que acertar será jogado no ar por 0.52 segundo e recebe stun de {0.5,1,1.5,2} segundo(s) quando aterrisarem, recebendo {60,130,200,260} de dano Mágico.
 Ability_WitchSlayer1_tooltip_flavor								É o seu funeral.
 
@@ -3693,9 +3693,9 @@ State_WitchSlayer_Ability2_FRAME_effect							Menor!
 
 // Ability_WitchSlayer3
 Ability_WitchSlayer3_name										Power Drain
-Ability_WitchSlayer3_description								Over the years the Witch Slayer has learned how to drain the power of his enemies for his own use.
+Ability_WitchSlayer3_description								Ao longo dos anos o Witch Slayer aprendeu como drenar o poder de seus inimigos para seu próprio uso.
 Ability_WitchSlayer3_effect_header								Efeito de Power Drain
-Ability_WitchSlayer3_IMPACT_effect								Applies Power Drain to target for duration of the channel. The Witch Slayer gains mana equal to the mana drained.
+Ability_WitchSlayer3_IMPACT_effect								Aplica Power Drain no alvo pela duração da concentração. O Witch Slayer recupera mana igual ao total de mana drenada.
 Ability_WitchSlayer3_tooltip_flavor								Eu vou apenas pegar isto emprestado!							
 
 // State_WitchSlayer_Ability3
@@ -3704,55 +3704,55 @@ State_WitchSlayer_Ability3_FRAME_effect							{20,40,60,100} de mana drenada por
 
 // Ability_WitchSlayer4
 Ability_WitchSlayer4_name										Silver Bullet
-Ability_WitchSlayer4_description								With no other option left, the Witch Slayer fires a Silver Bullet from his gun at the target enemy. The impact usually leaves them in many small pieces.
-Ability_WitchSlayer4_description2								^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases damage from {500,650,850} to {600,800,1025}.
-Ability_WitchSlayer4_IMPACT_effect								Deals {500,650,850} Magic damage to your target.
-Ability_WitchSlayer4_name:ult_boost								Heavenly Blast ^g(Boosted)^*
-Ability_WitchSlayer4_description:ult_boost						With no other option left, the Witch Slayer fires a ^gHeavenly Blast^* from his gun at the target enemy. The impact usually leaves them in many small, but blessed, pieces.
-Ability_WitchSlayer4_description2:ult_boost						This ability has been boosted by Staff of the Master.\n\n^g150/90/50 second cooldown^*
-Ability_WitchSlayer4_IMPACT_effect:ult_boost					Deals ^g{600,800,1025}^* Magic damage to your target.
-Ability_WitchSlayer4_tooltip_flavor								Nothing can save her now except for silver bullets!
+Ability_WitchSlayer4_description								Sem outra opção, o Witch Slayer atira uma Silver Bullet de sua arma no inimigo alvo. O impacto normalmente deixa-os em pequenos pedaços.
+Ability_WitchSlayer4_description2								^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeito do Staff:^* Aumenta o dano de {500,650,850} para {600,800,1025}.
+Ability_WitchSlayer4_IMPACT_effect								Causa {500,650,850} de dano Mágico ao seu alvo.
+Ability_WitchSlayer4_name:ult_boost								Heavenly Blast ^g(Melhorado)^*
+Ability_WitchSlayer4_description:ult_boost						Sem outra opção, o Witch Slayer atira um ^gHeavenly Blast^* de sua arma no inimigo alvo. O impacto normalmente deixa-os em pequenos pedaços, abençoados, desta vez.
+Ability_WitchSlayer4_description2:ult_boost						Esta habilidade foi melhorada pelo Staff of the Master.\n\n^g150/90/50 segundos de cooldown^*
+Ability_WitchSlayer4_IMPACT_effect:ult_boost					Causa ^g{600,800,1025}^* de dano Mágico ao seu alvo.
+Ability_WitchSlayer4_tooltip_flavor								Nada poderá salvá-la agora, a não ser balas de prata!
 
 // Hero_WitchSlayer
 Hero_WitchSlayer_name											Witch Slayer
-Hero_WitchSlayer_description									No city is more pious in its worship of Sol than Arasunia, and no man is more fervent among its zealous citizens than the Witch Slayer.  Although he is viewed with uncertainty by the Beast shamans and human sorcerers in the Legion, his combat prowess and holy powers make him a mighty ally.  Wielding a musket and a bladed icon of Sol, he not only can hold his own in battle, but also can sap his enemy's strength and turn any ground into sacred territory.
+Hero_WitchSlayer_description									Nenhuma cidade é mais pious em sua adoração ao Sol do que Arasunia e nenhum homem é mais fervoroso entre todos os cidadãos zealous do que o Witch Slayer.  Apesar de ser visto com desconfiança pelos Xamãs Bestiais e magos humanos na Legion, sua perícia em combate e poderes divinos fazem-no um poderoso aliado.  Brandindo um mosquete a espada ícone de Sol, ele não só se vira em suas próprias batalhas, mas também sap a força de seus inimigos e transforma qualquer terra em território sagrado.
 
 // Ability_WolfMan1
 Ability_WolfMan1_name											Summon Hellhounds
-Ability_WolfMan1_description									War Beast invoca Hellhounds do submundo para atacar seus inimígos.
-Ability_WolfMan1_effect_header									Status Effect
-Ability_WolfMan1_IMPACT_effect									Invoca 2 Hellhounds por 55 segundos.\n\nHellhounds têm {400,475,550,625} de Health, causam de {17,27,34,43} a {18,30,40,49} de dano físico por ataque, e seus ataques têm cooldown de 1.25 segundos. Os ataques têm {0,30,30,30}% de chance de dar 1.5x a mais de dano.\n\nHellhounds level 4 ganham invisibilidade quando não estão atacando.
+Ability_WolfMan1_description									War Beast invoca Hellhounds do submundo para atacar seus inimigos.
+Ability_WolfMan1_effect_header									Efeitos de Status
+Ability_WolfMan1_IMPACT_effect									Invoca 2 Hellhounds por 55 segundos.\n\nHellhounds têm {400,475,550,625} de Vida, causam de {17,27,34,43} a {18,30,40,49} de dano Físico por ataque, e seus ataques têm cooldown de 1.25 segundos. Os ataques têm {0,30,30,30}% de chance de causar 1.5x a mais de dano.\n\nHellhounds nível 4 ganham invisibilidade quando não estão atacando.
 
-Ability_WolfMan1_tooltip_flavor									Who let the dogs out?
+Ability_WolfMan1_tooltip_flavor									Quem soltou os cachorros?
 
 // Ability_WolfMan_Ability1_Pet_Ability1
 Ability_WolfMan_Ability1_Pet_Ability1_name						Critical Bite
-Ability_WolfMan_Ability1_Pet_Ability1_description				Chance de dar golpes críticos em cada ataque.
-Ability_WolfMan_Ability1_Pet_Ability1_effect_header				Status Effect
+Ability_WolfMan_Ability1_Pet_Ability1_description				Chance de causar golpes críticos em cada ataque
+Ability_WolfMan_Ability1_Pet_Ability1_effect_header				Efeitos de Status
 
 // Ability_WolfMan_Ability1_Pet_Ability2
 Ability_WolfMan_Ability1_Pet_Ability2_name						Invisibility
 Ability_WolfMan_Ability1_Pet_Ability2_description				Sempre invisíveis quando não estão atacando.
-Ability_WolfMan_Ability1_Pet_Ability2_effect_header				Status Effect
+Ability_WolfMan_Ability1_Pet_Ability2_effect_header				Efeitos de Status
 
 // Pet_WolfMan_Ability1
 Pet_WolfMan_Ability1_name										Hellhound
 
 // Ability_WolfMan2
 Ability_WolfMan2_name											Battle Cry
-Ability_WolfMan2_description									War Beast solta um temido grito de guerra, adicionando dano bônus a si mesmo e às unidades sobre seu comando.
+Ability_WolfMan2_description									War Beast solta um temido grito de guerra, adicionando dano bônus para si e às unidades sob seu comando.
 Ability_WolfMan2_effect_header									Efeitos de Battle Cry
 Ability_WolfMan2_effect_header2									Rallied Effects
-Ability_WolfMan2_IMPACT_effect									Aplica Battle Cry a si mesmo e em todos os heroes aliados por 16 segundos.\n\nAplica Rallied a todas as unidades controladas por jogador aliado por 16 segundos.
-Ability_WolfMan2_tooltip_flavor									Fear is motivation!
+Ability_WolfMan2_IMPACT_effect									Aplica Battle Cry em si e em todos os heroes aliados por 16 segundos.\n\nAplica Rallied a todas as unidades controladas por jogadores aliados por 16 segundos.
+Ability_WolfMan2_tooltip_flavor									Medo é motivação!
 
 // State_WolfMan_Ability2
 State_WolfMan_Ability2_name										Battle Cry
 
 // Ability_WolfMan3
 Ability_WolfMan3_name											Primal Rage
-Ability_WolfMan3_description									O War Beast constitúi sua Primal Rage, aumentando sua velocidade de ataque e dano dele e de outras unidade sob controle.
-Ability_WolfMan3_effect_header									Status Effect
+Ability_WolfMan3_description									O War Beast desenvolve sua Primal Rage, aumentando sua velocidade de ataque e dano dele e de outras unidade sob controle.
+Ability_WolfMan3_effect_header									Efeitos de Status
 Ability_WolfMan3_tooltip_flavor									Evil to the core!
 
 // State_WolfMan_Ability3
@@ -3760,15 +3760,15 @@ State_WolfMan_Ability3_name										Primal Rage
 
 // Ability_WolfMan4
 Ability_WolfMan4_name											Metamorphosis
-Ability_WolfMan4_description									War Beast se transforma em um Hellhound Lieutenant, ganhando uma fonte maior de health, um ataque crítico e um boost na velocidade.
+Ability_WolfMan4_description									War Beast se transforma em um Hellhound Lieutenant, ganhando uma quantidade maior de Vida, ataque crítico e um aumento na velocidade.
 Ability_WolfMan4_effect_header									Efeitos de Metamorphosis
-Ability_WolfMan4_IMPACT_effect									Aplica Metamorphosis a si mesmo por {14,15,16} segundos.
-Ability_WolfMan4_tooltip_flavor									I'm a real beast!
+Ability_WolfMan4_IMPACT_effect									Aplica Metamorphosis em si por {14,15,16} segundos.
+Ability_WolfMan4_tooltip_flavor									Eu sou uma besta de verdade!
 
 // State_WolfMan_Ability4
 State_WolfMan_Ability4_name										Shapeshift
-State_WolfMan_Ability4_description								30% de chance de golpe crítico e mais 100 de health a cada level up.
-State_WolfMan_Ability4_FRAME_effect								Reduz o tempo do ataque básico de 1.7 para 1.4 segundos.\nAumenta a velocidade de movimentação de si e de todas as outras unidades para 522.
+State_WolfMan_Ability4_description								30% de chance de golpe crítico e mais 100 de Vida a cada subida de nível da habilidade.
+State_WolfMan_Ability4_FRAME_effect								Reduz o tempo do ataque básico de 1.7 para 1.4 segundos.\nAumenta a velocidade de movimento de si e de todas as suas outras unidades para 522.
 
 // State_WolfMan_Ability4_Aura
 State_WolfMan_Ability4_Aura_name								Shapeshift
@@ -3779,117 +3779,117 @@ Hero_WolfMan_description										Uma vez guardião do submundo, War Beast entro
 
 // Ability_Xalynx1
 Ability_Xalynx1_name											Chain Reaction
-Ability_Xalynx1_description										O Torturer invoca correntes poderosas em uma localização alvo que balança perto dos inimígos, causando dano e deixando o oponente stun.
-Ability_Xalynx1_effect_header									Status Effect
-Ability_Xalynx1_IMPACT_effect									Dá {70,140,210,280} de dano Mágico e deixa cada alvo na radius stun por {1.25,1.5,1.75,2} segundos.
+Ability_Xalynx1_description										O Torturer invoca correntes poderosas em uma local alvo que chicoteia os inimigos, causando dano e stun.
+Ability_Xalynx1_effect_header									Efeitos de Status
+Ability_Xalynx1_IMPACT_effect									Causa {70,140,210,280} de dano Mágico e causa stun em cada no alcance por {1.25,1.5,1.75,2} segundos.
 Ability_Xalynx1_tooltip_flavor									The cenobites are coming!
 
 // Ability_Xalynx2
 // Ability_Xalynx2
 Ability_Xalynx2_name											Impalement
-Ability_Xalynx2_description										O Torturer invoca constantemente várias espadas em volta de si por algum tempo, acertando inimígos e estruturas aleatórios.
-Ability_Xalynx2_effect_header									Status Effect
-Ability_Xalynx2_IMPACT_effect									Dá {9.375,18.75,28.125,37.5} de dano Físicon a um alvo aleatório no radius a cada 0.25 segundos por 8 segundos, em um total de {300,600,900,1200} de dano Físico.\n\nOs efeitos desta skill continuam mesmo quando o Torturer é desabilitado ou morto.
-Ability_Xalynx2_tooltip_flavor									Is it raining blades?
+Ability_Xalynx2_description										O Torturer invoca constantemente várias lâminas em volta de si por algum tempo, impalando inimigos e estruturas perto dele.
+Ability_Xalynx2_effect_header									Efeitos de Status
+Ability_Xalynx2_IMPACT_effect									Causa {9.375,18.75,28.125,37.5} de dano Físico a um alvo aleatório no alcance a cada 0.25 segundo por 8 segundos, em um total de {300,600,900,1200} de dano Físico.\n\nOs efeitos desta habilidade continuam mesmo quando o Torturer está desabilitado ou morto.
+Ability_Xalynx2_tooltip_flavor									Está chovendo espadas!?
 
 // Ability_Xalynx3
 Ability_Xalynx3_name											Agonizing Bonds
-Ability_Xalynx3_description										The Torturer wraps an enemy with constricting chains, damaging it and nearby enemies and dragging them towards the target.
-Ability_Xalynx3_effect_header									Status Effect
-Ability_Xalynx3_IMPACT_effect									Damages target and the {3,5,6,7} closest enemy units in radius for {80,145,205,265} Magic damage.\n\nThe chains drag all units hit for 200ms at 740 speed towards the main target.
-Ability_Xalynx3_tooltip_flavor									They'll tear you to pieces.
+Ability_Xalynx3_description										The Torturer embrulha um inimigo com correntes sufocantes, causando-lhes dano à eles e aos inimigos próximos, puxando-os em direção ao alvo.
+Ability_Xalynx3_effect_header									Efeito de Status
+Ability_Xalynx3_IMPACT_effect									Causa dano no alvo e em {3,5,6,7} unidades inimigas próximas no alcance por {80,145,205,265} de dano Mágico.\n\nAs correntes puxam todas as unidades em que tocar por 200ms com velocidade de 740 em direção ao alvo principal.
+Ability_Xalynx3_tooltip_flavor									Elas vão partí-los em pedaços.
 
 // State_Xalynx_Ability3
 State_Xalynx_Ability3_name										Unholy Pull
 
 // Ability_Xalynx4
 Ability_Xalynx4_name											Torment
-Ability_Xalynx4_description										O Torturer força seu tormento em inimígos próximos a cada segundo, causando dano a eles.
-Ability_Xalynx4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Increases damage from {66,100,144} to {88,133,177}.
-Ability_Xalynx4_effect_header									Status Effect
-Ability_Xalynx4_IMPACT_effect									Causa dano em inimígos no radius de {66,100,144} de dano Mágico a cada 1 segundo.
-Ability_Xalynx4_name:ult_boost									Painful Torment ^g(Boosted)^*
-Ability_Xalynx4_description2:ult_boost							This ability has been boosted by Staff of the Master.
-Ability_Xalynx4_IMPACT_effect:ult_boost							Damages enemies in radius for ^g{88,133,177}^* Magic damage every 1 second.
-Ability_Xalynx4_tooltip_flavor									My precious!
+Ability_Xalynx4_description										O Torturer força seu Torment em inimigos próximos a cada segundo, causando dano.
+Ability_Xalynx4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeito do Staff:^* Aumenta o dano de {66,100,144} para {88,133,177}.
+Ability_Xalynx4_effect_header									Efeito de Status
+Ability_Xalynx4_IMPACT_effect									Causa dano em inimigos no alcance de {66,100,144} de dano Mágico a cada 1 segundo.
+Ability_Xalynx4_name:ult_boost									Painful Torment ^g(Melhorado)^*
+Ability_Xalynx4_description2:ult_boost							Esta habilidade foi melhorada pelo Staff of the Master.
+Ability_Xalynx4_IMPACT_effect:ult_boost							Causa dano aos inimigos no alcance por ^g{88,133,177}^* de dano Mágico a cada 1 segundo.
+Ability_Xalynx4_tooltip_flavor									Meu precioso!
 
 // Hero_Xalynx
 Hero_Xalynx_name												Torturer
-Hero_Xalynx_description											Muitos anos atrás, o Torturer era apenas um homem morrendo que fez um pacto para servir aos Hellbourne em troca de vida eterna. Entretanto para assegurar sua lealdade sem distração de contamplações físicas, os Hellbourne arrancaram o homem de seu corpo físico, deixando apenas pura energia de destruição, agonia e ódio.
+Hero_Xalynx_description											Muitos anos atrás, o Torturer era apenas um homem moribundo que fez um pacto para servir aos Hellbourne em troca de vida eterna. Entretanto para assegurar sua lealdade sem distrações de tentações físicas, os Hellbourne arrancaram o corpo físico desse homem, deixando apenas pura energia de destruição, agonia e ódio.
 
 // Ability_Bear1
 Ability_Bear1_name												Return
 Ability_Bear1_description										Teleporta Beardulon para a localização do Wildsoul.
-Ability_Bear1_effect_header										Status Effect
+Ability_Bear1_effect_header										Efeito de Status
 
 // Ability_Bear2
 Ability_Bear2_name												Entangling Claws
-Ability_Bear2_description										Quando estiver atacando, Beardulon tem a chance de enraizar o alvo no lugar, previnindo movimentações e ataques.
-Ability_Bear2_description2										Esta habilidade contém um ^rAttack ^rModifier^*. Modificadores de ataque são exclusivos e não se agrupam com outros modificadores de ataque. 
-Ability_Bear2_effect_header										Bear Root Effects
+Ability_Bear2_description										Enquanto ataca, Beardulon tem a chance de enraizar o alvo no lugar, previnindo movimento e ataques do seu alvo.
+Ability_Bear2_description2										Esta habilidade contém um ^rModificador ^rde Ataque^*. Modificadores de ataque são exclusivos e não se somam com outros modificadores de ataque. 
+Ability_Bear2_effect_header										Efeitos de Bear Root
 Ability_Bear2_ATTACK_IMPACT_effect								Garante 20% de chance de aplicar Bear Root ao alvo por 3 segundos.
-Ability_Bear2_description2:attack								Esta habilidade contém um ^rAttack ^rModifier^*. Modificadores de ataque são exclusivos e não se agrupam com outros modificadores de ataque.
+Ability_Bear2_description2:attack								Esta habilidade contém um ^rModificador ^rde Ataque^*. Modificadores de ataque são exclusivos e não se somam com outros modificadores de ataque.
 
 // Ability_Bear3
 Ability_Bear3_name												Demolish
-Ability_Bear3_description										As garras de Beardulon têm efeito demolidor em estruturas, dando dano extra.
-Ability_Bear3_effect_header										Status Effect
-Ability_Bear3_ATTACK_effect										Dá 60% de dano extra em construções.
+Ability_Bear3_description										As massivas garras de Beardulon têm efeito demolidor em estruturas, causando dano extra.
+Ability_Bear3_effect_header										Efeito de Status
+Ability_Bear3_ATTACK_effect										Causa 60% de dano extra em construções.
 
 // Ability_Bear4
 Ability_Bear4_name												Magic resist
-Ability_Bear4_description										Booboo se torna resistente a magias, adicionando Armadura Mágica extra.
-Ability_Bear4_effect_header										Status Effect
+Ability_Bear4_description										Beardulon se torna resistente à Magia, adicionando Armadura Mágica extra.
+Ability_Bear4_effect_header										Efeito de Status
 
 // Ability_Yogi1
 Ability_Yogi1_name												Summon Beardulon
 Ability_Yogi1_description										Wildsoul invoca seu urso, Beardulon
-Ability_Yogi1_effect_header										Status Effect
-Ability_Yogi1_IMPACT_effect										Invoca Beardulon no local alvo. Beardulon não pode ser invocado se já estiver ativo.\n\nBeardulon has the ability to carry items.\n\n-Increasing the level of the ability grants Beardulon more health and armor\n-^yLevel 1^*, Beardulon learns the Return ability\n-^yLevel 3^*, Beardulon learns the Entangling Claws ability.\n-^yLevel 4^*, Beardulon learns the Demolish and Magic Resist abilities.
+Ability_Yogi1_effect_header										Efeito de Status
+Ability_Yogi1_IMPACT_effect										Invoca Beardulon no local alvo. Beardulon não pode ser invocado se já estiver ativo.\n\nBeardulon pode carregar itens.\n\n-Aumentar o nível da habilidade garante mais Vida e Armadura ao Beardulon\n-^yNível 1^*, Beardulon aprende a habilidade Return\n-^yNível 3^*, Beardulon aprende a habilidade Entangling Claws.\n-^yNível 4^*, Beardulon aprende as habilidades Demolish e Magic Resist.
 
-Ability_Yogi1_tooltip_flavor									Go get me a bear!
+Ability_Yogi1_tooltip_flavor									Vá pegar um urso para mim!
 
 
 
 // Ability_Yogi2
 Ability_Yogi2_name												Wild
-Ability_Yogi2_description										Wildsoul drives both himself and Beardulon Wild, increasing attack speed and movement speed.
-Ability_Yogi2_effect_header										Wild Effects
-Ability_Yogi2_IMPACT_effect										Applies Wild to target for 10 seconds.
-Ability_Yogi2_IMPACT_effect:synergy1							Applies Wild to target for ^g20^* seconds.
-Ability_Yogi2_IMPACT_effect:synergy2							Applies Wild to target for ^g30^* seconds.
-Ability_Yogi2_IMPACT_effect:synergy3							Applies Wild to target for ^g40^* seconds.
-Ability_Yogi2_IMPACT_effect:synergy4							Applies Wild to target for ^g50^* seconds.
+Ability_Yogi2_description										Wildsoul usa Wild nele mesmo e no Beardulon, aumentando a velocidade de ataque e de movimento.
+Ability_Yogi2_effect_header										Efeitos de Wild
+Ability_Yogi2_IMPACT_effect										Aplica Wild ao alvo por 10 segundos.
+Ability_Yogi2_IMPACT_effect:synergy1							Aplica Wild ao alvo por ^g20^* segundos.
+Ability_Yogi2_IMPACT_effect:synergy2							Aplica Wild ao alvo por ^g30^* segundos.
+Ability_Yogi2_IMPACT_effect:synergy3							Aplica Wild ao alvo por ^g40^* segundos.
+Ability_Yogi2_IMPACT_effect:synergy4							Aplica Wild ao alvo por ^g50^* segundos.
 
-Ability_Yogi2_tooltip_flavor									Hey Beardulon lets get a picnic basket!
+Ability_Yogi2_tooltip_flavor									Ei Beardulon, vamos pegar uma cesta de piquenique!
 
 
 
 // Ability_Yogi3
 Ability_Yogi3_name												Natural Attunement
-Ability_Yogi3_description										Wildsoul se liga as necessidades da natureza, adicionando poder às suas outras habilidades.
-Ability_Yogi3_description2										^yBeardulon:^*\n+{10,20,30,40} Damage\n+{10,20,30,40} Movement Speed\n\n^yWild:^*\n+{10,20,30,40} second duration\n\n^yBear Form:^*\n+{100,200,300,400} Max Health
-Ability_Yogi3_effect_header										Status Effect
+Ability_Yogi3_description										Wildsoul se liga às necessidades da Natureza, adicionando poder às suas outras habilidades.
+Ability_Yogi3_description2										^yBeardulon:^*\n+{10,20,30,40} de Dano\n+{10,20,30,40} de Velocidade de Movimento\n\n^yWild:^*\n+{10,20,30,40} segundos de duração\n\n^yBear Form:^*\n+{100,200,300,400} de Vida Máxima
+Ability_Yogi3_effect_header										Efeito de Status
 
-Ability_Yogi3_tooltip_flavor									Forest Spirit give me strength.
+Ability_Yogi3_tooltip_flavor									Espíritos da Floresta me dêem forças.
 
 
 
 // Ability_Yogi4
 Ability_Yogi4_name												Bear Form
-Ability_Yogi4_description										Wildsoul toma a forma de um urso, fazendo com que ele mude para ataques melee, tenha um tempo de ataque mais rápido, e ganhe mais armor e Health.
+Ability_Yogi4_description										Wildsoul toma a forma de um urso, fazendo com que ele mude para ataques melee, tenha um tempo de ataque mais rápido, e ganhe mais armadura e vida.
 Ability_Yogi4_effect_header										Efeitos de Bear Form
-Ability_Yogi4_IMPACT_effect										Enquanto estiver ligado, aplica Bear Form a si mesmo.\n\nGarante Battle Cry no level 2 e Soul Link no level 3.
+Ability_Yogi4_IMPACT_effect										Enquanto estiver ligado, aplica Bear Form a si.\n\nGarante a habilidade Battle Cry.
 Ability_Yogi4_description:yogi4_toggle_active					Wildsoul volta a sua forma humana.
-Ability_Yogi4_IMPACT_effect:yogi4_toggle_active					Remove Bear Form de si mesmo.
+Ability_Yogi4_IMPACT_effect:yogi4_toggle_active					Remove Bear Form de si.
 
-Ability_Yogi4_tooltip_flavor									Don't make me angry, you wouldn't like me!
+Ability_Yogi4_tooltip_flavor									Não me irrite, você não irá gostar de mim!
 
 // Ability_Yogi5
 Ability_Yogi5_name												Battle Cry
 Ability_Yogi5_description										Wildsoul dá um temido grito de guerra, adicionando armadura e dano a si e às unidades próximas sob seu controle.
 Ability_Yogi5_effect_header										Efeitos de Battle Cry
-Ability_Yogi5_IMPACT_effect										Aplica Battle Cry aos alvos no radius.
+Ability_Yogi5_IMPACT_effect										Aplica Battle Cry aos alvos no alcance.
 
 // Pet_Yogi_Ability1
 Pet_Yogi_Ability1_name											Beardulon
@@ -3912,22 +3912,22 @@ Hero_Yogi_description											O temido Wildsoul; uma Besta que sonhava ser Hum
 
 // Ability_Zephyr1
 Ability_Zephyr1_name											Gust
-Ability_Zephyr1_description										Zephyr summons a gust of wind in the direction of his choosing, pushing, stunning, and dealing damage to enemies it hits.
-Ability_Zephyr1_effect_header									Status Effect
-Ability_Zephyr1_IMPACT_effect									All units caught in the wind cone are pushed in the direction of the wind and are stunned for 1 seconds, taking {75,125,175,250} Magic damage.
+Ability_Zephyr1_description										Zephyr conjura uma rajada de vento na direção de sua escolha, empurrando, causndo stun, e causando dano aos inimigos em que acertar.
+Ability_Zephyr1_effect_header									Efeito de Status
+Ability_Zephyr1_IMPACT_effect									Todas as unidades pegas no cone de vento são empurradas na direção do vento e são stunadas por 1 segundo, recebendo {75,125,175,250} de dano Mágico.
 
-Ability_Zephyr1_tooltip_flavor									Super effective against grass types!
+Ability_Zephyr1_tooltip_flavor									Super efetivo contra o tipo grama!
 
 
 
 // Ability_Zephyr2
 Ability_Zephyr2_name											Cyclones
-Ability_Zephyr2_description										Zephyr invoca um pequeno ciclone a cada morte que ele conduz. Os ciclones invocados  patrulham automaticamente em volta de Zephyr e causa dano aos inimigos em que encostam. Zephyr pode, ao comandar, consumir um ciclone para se curar. 
-Ability_Zephyr2_effect_header									Status Effect
-Ability_Zephyr2_IMPACT_effect									Chama todos os ciclones ativos para Zephyr, restaurando 50 de Health e 25 de Mana por ciclone.\n\nPode ter no máximo {5,6,7,8} ciclones ativos por vez.
-Ability_Zephyr2_KILL_effect										Cria um ciclone que dura {20,30,40,50} segundos e dá {15,20,25,30} de dano Mágico por segundo para inimígos que enconsta.
+Ability_Zephyr2_description										Zephyr invoca um pequeno ciclone a cada morte que ele conduz. Os ciclones invocados patrulham automaticamente em volta de Zephyr e causa dano aos inimigos em que encostam. Zephyr pode, ao comandar, consumir um ciclone para se curar. 
+Ability_Zephyr2_effect_header									Efeito de Status
+Ability_Zephyr2_IMPACT_effect									Consome um ciclone, recuperando 30 de vida.\n\nPode ter um máximo de {2,4,6,8} ciclones à qualquer momento.
+Ability_Zephyr2_KILL_effect										Conjura um ciclone que dura 50 segundos e causa {15,20,25,30} de dano Mágico por segundo aos inimigos em que tocar. Quando o ciclone expirar, ele cura o Zephyr em 15 de Vida.
 
-Ability_Zephyr2_tooltip_flavor									We're not in Kansas anymore.
+Ability_Zephyr2_tooltip_flavor									Não estamos mais em Kansas.
 
 
 
@@ -3936,37 +3936,36 @@ Pet_Zephyr_Ability2_name										Cyclone
 
 // Ability_Zephyr3
 Ability_Zephyr3_name											Wind Shield
-Ability_Zephyr3_description										Zephyr usa seu controle sob o vento para criar uma barreira protetora em volta de si, aumentando sua evasão e sua velocidade. A barreira também tem chance de redirecionar projéteis de volta aos atacantes.
-Ability_Zephyr3_description2									Esta habilidade contém propriedades de ^yEvasion^*. Propriedades de Evasion não se somam. Mesmo assim, você irá usar automaticamente a Evasion do item ou da habilidade que lhe garante a maior chance de evade.
+Ability_Zephyr3_description										Zephyr usa seu controle sob o vento para criar uma barreira protetora em volta de si, aumentando sua evasão e sua velocidade. A barreira também tem chance de redirecionar ataques baseados em projéteis de volta aos atacantes.
+Ability_Zephyr3_description2									Esta habilidade contém propriedades de ^yEvasão^*. Propriedades de Evasão não se somam. Na verdade, você irá usar automaticamente a Evasão do item ou da habilidade que lhe garante a maior chance de evadir.
 Ability_Zephyr3_effect_header									Efeitos de Wind Shield 
-Ability_Zephyr3_ATTACK_IMPACT_effect							Applies Wind Shield to self for 3 seconds when Zephyr lands an attack
+Ability_Zephyr3_ATTACK_IMPACT_effect							Apica Wind Shield em si por 3 segundos quando Zephyr acerta um ataque
 
-Ability_Zephyr3_tooltip_flavor									Quick as the wind!
+Ability_Zephyr3_tooltip_flavor									Rápido como o vento!
 
 
 
 // State_Zephyr_Ability3
 State_Zephyr_Ability3_name										Shielded by wind
-State_Zephyr_Ability3_FRAME_effect								{6,9,12,15}% chance to redirect projectile based attacks back at the attacker.
+State_Zephyr_Ability3_FRAME_effect								{6,9,12,15}% de chance de redirecionar ataques baseados em projéteis devolta para o atacante.
 
 // Ability_Zephyr4
 Ability_Zephyr4_name											Typhoon
-Ability_Zephyr4_description										Zephyr creates a mighty Typhoon, slowing movement speed and dealing damage to any units near it. The closer an enemy is to the center of the Typhoon, the higher the damage and speed reduction becomes.
-Ability_Zephyr4_effect_header									Harsh Winds Effects
-Ability_Zephyr4_IMPACT_effect									Grants Zephyr 1 Cyclone per second while Typhoon is active and applies Harsh Winds to enemies who remain in a 550 radius.\n\nCharges are based on the distance an enemy is from the center of the Typhoon. The closer they are, the more charges are applied.\n\nEnemies who are within 60 units of the center are snared to minimum movespeed and take maximum damage regardless of charges.\n\nThe Typhoon lasts {6,8,10} seconds.
-Ability_Zephyr4_IMPACT_effect:Zephyr_Ability2_1					Grants Zephyr 1 Cyclone per second while Typhoon is active and applies Harsh Winds to enemies who remain in a 550 radius.\n\nCharges are based on the distance an enemy is from the center of the Typhoon. The closer they are, the more charges are applied.\n\nEnemies who are within 60 units of the center are snared to minimum movespeed and take maximum damage regardless of charges.\n\nThe Typhoon lasts {6,8,10} seconds.
-Ability_Zephyr4_IMPACT_effect:Zephyr_Ability2_2					Grants Zephyr 1 Cyclone per second while Typhoon is active and applies Harsh Winds to enemies who remain in a 550 radius.\n\nCharges are based on the distance an enemy is from the center of the Typhoon. The closer they are, the more charges are applied.\n\nEnemies who are within 60 units of the center are snared to minimum movespeed and take maximum damage regardless of charges.\n\nThe Typhoon lasts {6,8,10} seconds.
-Ability_Zephyr4_IMPACT_effect:Zephyr_Ability2_3					Grants Zephyr 1 Cyclone per second while Typhoon is active and applies Harsh Winds to enemies who remain in a 550 radius.\n\nCharges are based on the distance an enemy is from the center of the Typhoon. The closer they are, the more charges are applied.\n\nEnemies who are within 60 units of the center are snared to minimum movespeed and take maximum damage regardless of charges.\n\nThe Typhoon lasts {6,8,10} seconds.
-Ability_Zephyr4_IMPACT_effect:Zephyr_Ability2_4					Grants Zephyr 1 Cyclone per second while Typhoon is active and applies Harsh Winds to enemies who remain in a 550 radius.\n\nCharges are based on the distance an enemy is from the center of the Typhoon. The closer they are, the more charges are applied.\n\nEnemies who are within 60 units of the center are snared to minimum movespeed and take maximum damage regardless of charges.\n\nThe Typhoon lasts {6,8,10} seconds.
-Ability_Zephyr4_tooltip_flavor									Did I break wind?
-
+Ability_Zephyr4_description										Zephyr cria um poderoso Typhoon, diminuindo a velocidade de movimento e causando dano à qualquer unidade próxima. Quão mais perto do centro do Typhoon o inimigo estiver, maior é o dano recebido e a redução da velocidade de movimento.
+Ability_Zephyr4_effect_header									Efeitos de Harsh Winds
+Ability_Zephyr4_IMPACT_effect									Garante ao Zephyr 1 Ciclone por segundo enquanto Typhoon está ativo e aplica Harsh Winds aos inimigos que permanecerem dentro de um raio de 550.\n\nCargas são baseadas na distância que um inimigo está do centro do Typhoon. O quão próximos estiverem, mais cargas serão aplicadas.\n\nInimigos que estão à 60 unidades do centro recebem snare, reduzindo a velocidade de movimento ao mínimo e recebe dano máximo independente do número de cargas.\n\nO Typhoon dura {6,8,10} segundos.
+Ability_Zephyr4_IMPACT_effect:Zephyr_Ability2_1					Garante ao Zephyr 1 Ciclone por segundo enquanto Typhoon está ativo e aplica Harsh Winds aos inimigos que permanecerem dentro de um raio de 550.\n\nCargas são baseadas na distância que um inimigo está do centro do Typhoon. O quão próximos estiverem, mais cargas serão aplicadas.\n\nInimigos que estão à 60 unidades do centro recebem snare, reduzindo a velocidade de movimento ao mínimo e recebe dano máximo independente do número de cargas.\n\nO Typhoon dura {6,8,10} segundos.
+Ability_Zephyr4_IMPACT_effect:Zephyr_Ability2_2					Garante ao Zephyr 1 Ciclone por segundo enquanto Typhoon está ativo e aplica Harsh Winds aos inimigos que permanecerem dentro de um raio de 550.\n\nCargas são baseadas na distância que um inimigo está do centro do Typhoon. O quão próximos estiverem, mais cargas serão aplicadas.\n\nInimigos que estão à 60 unidades do centro recebem snare, reduzindo a velocidade de movimento ao mínimo e recebe dano máximo independente do número de cargas.\n\nO Typhoon dura {6,8,10} segundos.
+Ability_Zephyr4_IMPACT_effect:Zephyr_Ability2_3					Garante ao Zephyr 1 Ciclone por segundo enquanto Typhoon está ativo e aplica Harsh Winds aos inimigos que permanecerem dentro de um raio de 550.\n\nCargas são baseadas na distância que um inimigo está do centro do Typhoon. O quão próximos estiverem, mais cargas serão aplicadas.\n\nInimigos que estão à 60 unidades do centro recebem snare, reduzindo a velocidade de movimento ao mínimo e recebe dano máximo independente do número de cargas.\n\nO Typhoon dura {6,8,10} segundos.
+Ability_Zephyr4_IMPACT_effect:Zephyr_Ability2_4					Garante ao Zephyr 1 Ciclone por segundo enquanto Typhoon está ativo e aplica Harsh Winds aos inimigos que permanecerem dentro de um raio de 550.\n\nCargas são baseadas na distância que um inimigo está do centro do Typhoon. O quão próximos estiverem, mais cargas serão aplicadas.\n\nInimigos que estão à 60 unidades do centro recebem snare, reduzindo a velocidade de movimento ao mínimo e recebe dano máximo independente do número de cargas.\n\nO Typhoon dura {6,8,10} segundos.
+Ability_Zephyr4_tooltip_flavor									Eu quebrei o vento?
 
 
 // Gadget_Zephyr_Ability4
 
 // State_Zephyr_Ability4_Debuff
 State_Zephyr_Ability4_Debuff_name								Harsh Winds
-State_Zephyr_Ability4_Debuff_FRAME_effect						Deals up to {60,80,100} Magic damage per second
+State_Zephyr_Ability4_Debuff_FRAME_effect						Causa até {60,80,100} de dano Mágico por segundo
 
 // Hero_Zephyr
 Hero_Zephyr_name												Zephyr
@@ -3975,62 +3974,62 @@ Hero_Zephyr_description											A riddler, a sage, and a lover of sweets, Zeph
 // Item_AcolytesStaff
 Item_AcolytesStaff_name											Acolyte's Staff
 Item_AcolytesStaff_description									
-Item_AcolytesStaff_effect_header								Status Effect
-Item_AcolytesStaff_shop_flavor									Conforme um estudante das forças secretas de Newerth ascende de patente, ele é recompensado com a Acolyte's Staff. Para aumentar os já incríveis poderes mentais do acólito, o cetro cristalino é feito para abrir o caminho para os segredos finais e eventual mestrado. Nesses tempos de conflito, no entanto, os cetros encontraram seu caminho em muitas mãos sangrentas e sem estudo.
+Item_AcolytesStaff_effect_header								Efeito de Status
+Item_AcolytesStaff_shop_flavor									Conforme um estudante das forças secretas de Newerth ascende de patente, ele é recompensado com um Acolyte's Staff. Para aumentar os já incríveis poderes mentais dos acólitos, o cetro cristalino é feito para abrir o caminho para os segredos finais e eventual mestrado. Nesses tempos de conflito, no entanto, os cetros encontraram seu caminho em muitas mãos sangrentas e sem estudo.
 
 // Item_ApprenticesRobe
 Item_ApprenticesRobe_name										Apprentice's Robe
 Item_ApprenticesRobe_description								
-Item_ApprenticesRobe_effect_header								Status EEffect
-Item_ApprenticesRobe_shop_flavor								Apprentice's Robes são ornamentadas com runas místicas que ajudam a lembrar quem as usam a certos rituais importantes e assim conceder a ele o ar de maior inteligência do que ele possui pessoalmente."\t
+Item_ApprenticesRobe_effect_header								Efeito de Status
+Item_ApprenticesRobe_shop_flavor								Apprentice's Robes são ornamentadas com runas místicas que ajudam a relembrar os usuários de certos rituais importantes e assim concede um ar de mais inteligente, mais do que realmente possui."\t
 
 // Item_AxeOfTheMalphai
 Item_AxeOfTheMalphai_name										Axe of the Malphai
 Item_AxeOfTheMalphai_description								
-Item_AxeOfTheMalphai_effect_header								Status Effect
-Item_AxeOfTheMalphai_shop_flavor								Armas abençoadas de um dos grosseiros clãs de demônios, Axes of the Malphai concedem uma fantástica força para quem usá-lo em batalha. São um pouco mais aterrorizantes quando uma falange ardente de inimigos agarra esses machados enquanto marcham para a batalha.
+Item_AxeOfTheMalphai_effect_header								Efeito de Status
+Item_AxeOfTheMalphai_shop_flavor								Armas abençoadas de um dos clãs bárbaros de demônios, os Axe of the Malphai concedem uma fantástica força para quem usá-lo em batalha. São poucas as coisas mais aterrorizantes que uma falange ardentes de inimigos utilizando esses machados enquanto marcham para a batalha.
 
 // Item_BastardSword
 Item_BastardSword_name											Bastard Sword
 Item_BastardSword_description									
-Item_BastardSword_effect_header									Status Effect
-Item_BastardSword_shop_flavor									Particularmente populares dentre os bárbaros selvagens, fortes o bastante para carregar uma em cada mão, Bastard Swords são comuns, mas mortais armas encontradas em Newerth.
+Item_BastardSword_effect_header									Efeito de Status
+Item_BastardSword_shop_flavor									Particularmente populares entre os bárbaros selvagens, fortes o bastante para carregar uma em cada mão, Bastard Swords são comuns mas armas mortais encontradas em Newerth.
 
 // Item_Beastheart
 Item_Beastheart_name											Beastheart
 Item_Beastheart_description										
-Item_Beastheart_effect_header									Status Effect
+Item_Beastheart_effect_header									Efeito de Status
 Item_Beastheart_shop_flavor										Arrancada de algum furioso guerreiro Bestial, Beasthearts são itens demoníacos que garantem maior vida para quem ensanguentar suas mãos com elas.
 
 // Item_BlessedArmband
 Item_BlessedArmband_name										Bolstering Armband
 Item_BlessedArmband_description									
-Item_BlessedArmband_effect_header								Status Effect
-Item_BlessedArmband_shop_flavor									Bestowed by King Maliken--before he was corrupted--to his most trusted captains, Bolstering Armbands bestow strength to any who wears them, and a confidence in the righteousness of one's cause.
+Item_BlessedArmband_effect_header								Efeito de Status
+Item_BlessedArmband_shop_flavor									Concedido pelo Rei Maliken--antes dele ser corrompido--aos seus capitães mais confiáveis, as Bolstering Armband concedem força à quem usá-las e uma confidência na honra na causa deles.
 
 // Item_Bottle
 Item_Bottle_name												Bottle (3/3)
-Item_Bottle_description											Quando ativado, restora 135 de Vida e 70 de Mana em 3 segundos. Precisa ser enchido na Well ou pegando Runas.
-Item_Bottle_effect_header										Status Effect
+Item_Bottle_description											Quando ativado, recupera 135 de Vida e 70 de Mana ao longo de 3 segundos. Precisa ser enchido na Well ou pegando Runas.
+Item_Bottle_effect_header										Efeito de Status
 Item_Bottle_shop_flavor											Uma simples garrafa vazia que pode ser enchida com água curandeira ou runas mágicas.
-Item_Bottle_IMPACT_effect										Restores 135 Health and 70 Mana on self over 3 seconds.
+Item_Bottle_IMPACT_effect										Recupera 135 de Vida e 70 de Mana ao longo de 3 seconds.
 Item_Bottle_name:bottle_2										Bottle (2/3)
 Item_Bottle_name:bottle_1										Bottle (1/3)
 Item_Bottle_name:bottle_empty									Empty Bottle (0/3)
-Item_Bottle_IMPACT_effect:bottle_empty							Selecione uma runa para renovar sua garrafa e capturá-la.
+Item_Bottle_IMPACT_effect:bottle_empty							Selecione uma runa para renovar sua garrafa e capturar a runa.
 Item_Bottle_name:bottle_damage									Bottle (Dano Dobrado)
-Item_Bottle_effect_header:bottle_damage							Efeitos de Dano Dobrado
-Item_Bottle_IMPACT_effect:bottle_damage							Dobra seu dano dado por 30 segundos.
-Item_Bottle_name:bottle_illusion								Bottle (Illusion)
-Item_Bottle_IMPACT_effect:bottle_illusion						Cria 2 ilusões que dão 35% de dano e levam 300% de dano. Duram 75 segundos.
+Item_Bottle_effect_header:bottle_damage							Efeito de Dano Dobrado
+Item_Bottle_IMPACT_effect:bottle_damage							Aplica Dano Dobrado em si por 30 segundos.
+Item_Bottle_name:bottle_illusion								Bottle (Ilusão)
+Item_Bottle_IMPACT_effect:bottle_illusion						Cria 2 ilusões que causam 35% de dano, recebem 300% de dano à mais e duram 75 segundos.
 Item_Bottle_name:bottle_movespeed								Bottle (Aceleração)
-Item_Bottle_effect_header:bottle_movespeed						Efeitos de Aceleração
+Item_Bottle_effect_header:bottle_movespeed						Efeito de Aceleração
 Item_Bottle_IMPACT_effect:bottle_movespeed						Aplica Haste em si por 30 segundos.
 Item_Bottle_name:bottle_regen									Bottle (Regeneração)
-Item_Bottle_effect_header:bottle_regen							Efeitos de Regeneração
+Item_Bottle_effect_header:bottle_regen							Efeito de Regeneração
 Item_Bottle_IMPACT_effect:bottle_regen							Aplica regeneração em si por 30 segundos.
 Item_Bottle_name:bottle_stealth									Bottle (Invisibilidade)
-Item_Bottle_effect_header:bottle_stealth						Efeitos da Invisibilidade
+Item_Bottle_effect_header:bottle_stealth						Efeito da Invisibilidade
 Item_Bottle_IMPACT_effect:bottle_stealth						Aplica invisibilidade em si por 60 segundos.
 
 // State_Bottle
@@ -4041,111 +4040,111 @@ State_AllowRefillBottle_name									slurp
 
 // Item_BoundEye
 Item_BoundEye_name												Bound Eye
-Item_BoundEye_description										Revela unidades invisíveis perto do seu possuidor.\nEste item será perdido na morte.
-Item_BoundEye_description2										O Bound Eye é dropado na morte e possui 800 de distância de revelação do tipo Olho. Este tipo de revelação pode revelar Heroes escondidos, Itens e Wards.
-Item_BoundEye_effect_header										Status Effect
+Item_BoundEye_description										Revela unidades camufladas perto do seu possuidor.\nEste item será perdido na morte.
+Item_BoundEye_description2										O Bound Eye é perdido quando você morrer e possui 800 de Distância de Revelação do tipo Olho. Este tipo de revelação pode revelar Heroes escondidos, Itens e Wards.
+Item_BoundEye_effect_header										Efeito de Status
 Item_BoundEye_shop_flavor										Através de um poderoso ritual religioso suspeito aprendido em parte pelos Xamãs Bestiais, é possível unir uma Ward of Revelation a um soldado, criando um Bound Eye que pode ser carregado até a batalha e usado para detectar inimigos camuflados.
 
 // Item_BrainOfMaliken
 Item_BrainOfMaliken_name										Pickled Brain
 Item_BrainOfMaliken_description									
-Item_BrainOfMaliken_effect_header								Status Effect
+Item_BrainOfMaliken_effect_header								Efeito de Status
 
 // Item_Broadsword
 Item_Broadsword_name											Broadsword
 Item_Broadsword_description										
-Item_Broadsword_effect_header									Status Effect
-Item_Broadsword_shop_flavor									    Particularmente populares dentre os bárbaros selvagens, fortes o bastante para carregar duas ao mesmo tempo, Broadswords são comuns, mas lâminas mortais encontradas em Newerth.
+Item_Broadsword_effect_header									Efeito de Status
+Item_Broadsword_shop_flavor										Particularmente populares dentre os bárbaros selvagens, fortes o bastante para carregar duas ao mesmo tempo, Broadswords são comuns, mas lâminas mortais encontradas em Newerth.
 
 // Item_Cheese
 Item_Cheese_name												Bananas
-Item_Cheese_description											These magic bananas instantly restore massive amounts of Health and Mana.
-Item_Cheese_effect_header										Status Effect
+Item_Cheese_description											Estas bananas mágicas recuperam, instantâneamente, quantidades massivas de Vida e Mana.
+Item_Cheese_effect_header										Efeitos de Status
 Item_Cheese_shop_flavor											Por décadas, foi uma piada na Legião dos Homens que uma boa banana pudesse fazer um guerreiro se sentir melhor. Agora, por estranhas convergências de energias místicas, esta banana foi encantada com o poder de recuperar quantidades massivas de Vida e Mana, e a velha visão se provou verdadeira.
-Item_Cheese_tooltip_flavor										These were Kongor's favorite bananas...
-Item_Cheese_IMPACT_effect										Heals for 2500 and grants 1000 mana on use.
+Item_Cheese_tooltip_flavor										Estas eram as bananas favoritas do Kongor...
+Item_Cheese_IMPACT_effect										Cura por 2500 de Vida e garante 1000 de mana ao usar.
 
 // Item_Confluence
 Item_Confluence_name											Blessed Orb
 Item_Confluence_description										
-Item_Confluence_effect_header									Status Effect
-Item_Confluence_shop_flavor									    Um vivo, fervente maço de energia criada pela interação de quatro pedras brilhantes harmônicas, uma Blessed Orb é um dos mais poderosos usos da tecnologia Anciã. Estes poderosos dispositivos aumentam significantemente todos os atributos, tornando poderoso qualquer herói que tem um.
+Item_Confluence_effect_header									Efeito de Status
+Item_Confluence_shop_flavor										Um vivo e fervente emaranhado de energia criada pela interação de quatro pedras brilhantes harmonizadas, uma Blessed Orb é um dos mais poderosos usos da tecnologia Anciã. Estes poderosos dispositivos aumentam, significantemente, todos os atributos, tornando poderoso qualquer herói que carrega um.
 
 // Item_CrushingClaws
 Item_CrushingClaws_name											Crushing Claws
 Item_CrushingClaws_description									
-Item_CrushingClaws_effect_header								Status Effect
-Item_CrushingClaws_shop_flavor									Crushing Claws são compostas por mecanismos de relógios, rodas dentadas e molas que dão um impulso na força de qualquer um que usá-la. Seu papel malicioso em numerosas piadas práticas se tornou incorreto, essas luvas continuam em uso nos mais variados postos.
+Item_CrushingClaws_effect_header								Efeito de Status
+Item_CrushingClaws_shop_flavor									Crushing Claws são compostas por mecanismos de relógios, rodas dentadas e molas que oferecem uma melhora na força de qualquer um que usá-las. Seu papel malicioso em numerosas piadas práticas se tornou incorreto, essas luvas continuam em uso nos mais variados postos.
 
 // Item_SnakeBracelet
 Item_SnakeBracelet_name											Snake Bracelet
-Item_SnakeBracelet_description2									This item contains ^yEvasion^* properties. Evasion properties do not stack. Instead, you will automatically use the Evasion from the item or ability that grants you the highest chance to evade.
+Item_SnakeBracelet_description2									Este item contém propriedades ^yEvasivas^*. Propriedades evasivas não se somam. Na verdade, você usará, automaticamente, a Evasão do item ou habilidade que garante a maior chance de evadir.
 
 // Item_DuckBoots
 Item_DuckBoots_name												Duck Boots
 Item_DuckBoots_description										
-Item_DuckBoots_effect_header									Status Effect
+Item_DuckBoots_effect_header									Efeito de Status
 Item_DuckBoots_shop_flavor										Um pouco de humor sobreviveu nesses tempos gélidos, mas as toscas Duck Boots ainda fornecem risadas de tempo em tempo. Primeiramente criadas por um Xamã Bestial indignado com o pedido de um arrogante guerreiro humano por &#34;sapatos que me farão ágil,&#34; estas botas quase fazem o que foi pedido--pelo preço de muita dignidade.
 
 // Item_DustOfRevelation
 Item_DustOfRevelation_name										Dust of Revelation
-Item_DustOfRevelation_description								Qunado ativada, aplica Revelado nos alvos em um grande radius, fazendo unidades camufladas aparecerem.
+Item_DustOfRevelation_description								Quando ativada, aplica Revelado nos alvos em uma grande área, fazendo unidades camufladas se tornarem visíveis.
 Item_DustOfRevelation_effect_header								Efeitos de Revelado
-Item_DustOfRevelation_shop_flavor								Uma mera pitada da Dust of Revelation e qualquer inimigo não visto vai cintilar com a brilho da poeira. Preparado com uma técnica passada oralmente de geração para geração, agora é um instrumento crítico para as guerras nas duas facções.
-Item_DustOfRevelation_IMPACT_effect								Aplica Revelado nos alvos em radius por 12 segundos.
+Item_DustOfRevelation_shop_flavor								Uma mera pitada da Dust of Revelation e qualquer inimigo não visto vai cintilar com a brilho da poeira. Preparado com uma técnica passada oralmente de geração em geração, agora é um instrumento crítico nas guerras das duas facções.
+Item_DustOfRevelation_IMPACT_effect								Aplica Revelado nos alvos na área por 12 segundos.
 
 // State_DustOfRevelation
-State_DustOfRevelation_name										Revealed
+State_DustOfRevelation_name										Revelado
 
 // Gadget_FlamingEye
 Gadget_FlamingEye_name											Ward of Sight
 
 // Item_FlamingEye
 Item_FlamingEye_name											Ward of Sight
-Item_FlamingEye_description										Quando ativa, coloca uma Ward of Sight na localização escolhida. \nNão revela unidades camufladas.
+Item_FlamingEye_description										Quando ativa, coloca uma Ward of Sight no local alvo. \nNão revela unidades camufladas.
 Item_FlamingEye_effect_header									Efeito de Status
-Item_FlamingEye_shop_flavor										Apenas uma mina em toda a Newerth produz a pedra que pode ser usada para criar Wards of Sight -- místicas colunas que servem como torres de vigia. A arte de entalhar estas torres é um segredo muito bem guardado de uma única família de artesãos, felizmente, uma grande o bastante para não estar em risco de uma invasão demoníaca.
-Item_FlamingEye_IMPACT_effect									Coloca uma Ward of Sight na localização desejada que dura 6 minutos ou até ser destruída. \n\nWard of Sights têm um grande campo de visão de 1600 e são camufladas, com o tipo Ward. A camuflagem das Wards só podem ser reveladas por Torres e Wards Of Revelation.
+Item_FlamingEye_shop_flavor										Apenas uma mina em toda a Newerth produz a pedra que pode ser usada para criar Wards of Sight -- colunas místicas que servem como torres de vigia. A arte de entalhar estas torres é um segredo muito bem guardado de uma única família de artesãos, felizmente, uma grande o bastante para não estar em risco de uma invasão demoníaca.
+Item_FlamingEye_IMPACT_effect									Coloca uma Ward of Sight no local alvo que dura 6 minutos ou até ser destruída. \n\nWard of Sights têm campo de visão de 1600 e são camufladas, com o tipo Ward. A camuflagem das Wards só podem ser reveladas por Torres e Wards Of Revelation.
 
 // Item_Fleetfeet
 Item_Fleetfeet_name												Fleetfeet
 Item_Fleetfeet_description										
-Item_Fleetfeet_effect_header									Status Effect
+Item_Fleetfeet_effect_header									Efeito de Status
 
 // Item_GlovesOfHaste
 Item_GlovesOfHaste_name											Gloves of the Swift
 Item_GlovesOfHaste_description									
-Item_GlovesOfHaste_effect_header								Status Effect
-Item_GlovesOfHaste_shop_flavor									O mais popular componente na vestimenta de Cavalheiros da Noite--a associação dos gatunos que atormentam Adkarna--são as Gloves of the Swift. Estas maravilhas dão mãos rápidas para quem as usar, úteis para guerreiros querendo ataques mais rápidos.
+Item_GlovesOfHaste_effect_header								Efeito de Status
+Item_GlovesOfHaste_shop_flavor									O mais popular componente na vestimenta dos Cavalheiros da Noite--a associação dos gatunos que atormentam Adkarna--são as Gloves of the Swift. Estas maravilhas dão mãos rápidas para quem as usa, úteis para guerreiros querendo ataques mais rápidos.
 
 // Item_Glowstone
 Item_Glowstone_name												Glowstone
 Item_Glowstone_description										
-Item_Glowstone_effect_header									Status Effect
-Item_Glowstone_shop_flavor										O produto de uma tentativa falha de controlar e estabilizar suas energias, uma Glowstone dá maior Health e poder mágico para qualquer um que segura uma.  &quot;Que todas as falhas sejam tão boas,&quot; como alquimistas diziam.
+Item_Glowstone_effect_header									Efeito de Status
+Item_Glowstone_shop_flavor										O produto de uma tentativa falha de controlar e estabilizar suas energias, uma Glowstone dá maior Vida e poder mágico para qualquer um que tenha uma.  &quot;Que todas as falhas sejam tão boas,&quot; como alquimistas dizem.
 
 // Ability_GroundFamiliar1
 Ability_GroundFamiliar1_name									Winged Courier
 Ability_GroundFamiliar1_description								Aprimora para Winged Courier. Necessita recipe do Winged Courier.
-Ability_GroundFamiliar1_effect_header							Status Effect
+Ability_GroundFamiliar1_effect_header							Efeito de Status
 Ability_GroundFamiliar1_IMPACT_effect							Consome um recipe do Winged Courier e transforma o Monkey Courier em um Winged Courier.
 
 // Ability_GroundFamiliar3
 Ability_GroundFamiliar3_name									Delivery
-Ability_GroundFamiliar3_description								Causes the Monkey Courier to run to your hero and drop all items you own into your inventory if you have room.
-Ability_GroundFamiliar3_IMPACT_effect							Transfers owned items to hero
+Ability_GroundFamiliar3_description								Faz com que o Monkey Courier corra até seu Hero e passa todos os itens que te pertencem para seu inventário se você tiver espaço.
+Ability_GroundFamiliar3_IMPACT_effect							Transfere os itens do Courier para o Hero
 
 // Ability_GroundFamiliar4
 Ability_GroundFamiliar4_name									Homeward Bound
-Ability_GroundFamiliar4_description								Causes the Monkey Courier to run back to the base.
-Ability_GroundFamiliar4_IMPACT_effect						 	Runs to the nearest friendly well
+Ability_GroundFamiliar4_description								Faz com que o Monkey Courier corra devolta para a base.
+Ability_GroundFamiliar4_IMPACT_effect						 	Corre para a fonte amiga mais próxima
 
 // Item_GroundFamiliar
 Item_GroundFamiliar_name										Monkey Courier
-Item_GroundFamiliar_description									Quando ativado, cria um Monkey Courier sobre o seu controle.
-Item_GroundFamiliar_effect_header								Status Effect
-Item_GroundFamiliar_shop_flavor									O macaco tragra é um dos mais rápidos e inteligentes primatas, e é o favorito Monkey Courier das bruxas da floresta, Beast Shamans e conjuradores viajantes.  Com suas ágeis mãos e fortes braços, eles são capazes de carregarem itens de e para as bases, e eles nunca esquecem seu caminho para casa.
-Item_GroundFamiliar_IMPACT_effect								Cria um Monkey Courier sobre seu controle que pode carregar itens. \n\nMonkey Couriers têm 45 Health, 300 de velocidade de movimento, 350 de campo de visão, imunidade mágica e sobre ataques de área, e um tempo de vida ilimitado. Se um Monkey Courier está carregando a receita do Winged Courier, ele pode se transformar em um Winged Courier usando sua primeira habilidade.\n\nSe você tem um courier perto da loa e compra itens, eles serão dados ao courier. Se ele morrer enquanto carrega itens, ele deixará eles caírem.
+Item_GroundFamiliar_description									Quando ativado, cria um Monkey Courier sob seu controle.
+Item_GroundFamiliar_effect_header								Efeito de Status
+Item_GroundFamiliar_shop_flavor									O macaco tragra é um dos mais rápidos e inteligentes dos primatas e é o favorito das bruxas da floresta, Xamãs Bestiais e conjuradores andarilhos.  Com suas mãos ágeis e braços fortes, eles são capazes de carregar itens de e para as bases e eles nunca esquecem seu caminho para casa.
+Item_GroundFamiliar_IMPACT_effect								Cria um Monkey Courier sob seu controle que pode carregar itens. \n\nMonkey Couriers têm 45 de Vida, 300 de velocidade de movimento, 350 de campo de visão, imunidade mágica e splash e um tempo de vida ilimitado. Se um Monkey Courier estiver carregando o recipe do Winged Courier, ele pode se transformar em um Winged Courier usando sua primeira habilidade.\n\nSe você tem um courier perto do shop e comprar itens, eles serão dados ao courier. Se ele morrer enquanto carrega itens, ele deixará eles caírem.
 
 // Pet_GroundFamiliar
 Pet_GroundFamiliar_name											Monkey Courier
@@ -4153,29 +4152,29 @@ Pet_GroundFamiliar_name											Monkey Courier
 // Item_GuardianRing
 Item_GuardianRing_name											Guardian Ring
 Item_GuardianRing_description									
-Item_GuardianRing_effect_header									Status Effect
-Item_GuardianRing_shop_flavor									Uma simples bênção sob um dificilmente-adornado anel de cobre é tudo que é necessário para criar o Guardian Ring, que oferece proteção aos ataques.  Uma velha piada dos soldados corre por aí, &#34;Dificilmente útil para qualquer coisa, mas dificilmente vivo é melhor que morto.&#34;
+Item_GuardianRing_effect_header									Efeito de Status
+Item_GuardianRing_shop_flavor									Uma simples bênção sobre um anel pouco adornado de cobre é tudo que é necessário para criar o Guardian Ring, que oferece pouca proteção contra ataques.  Uma velha piada dos soldados corre por aí, &#34;Dificilmente útil para alguma coisa, mas quase vivo é melhor que morto.&#34;
 
 // Item_Halberd
 Item_Halberd_name												Halberd
 Item_Halberd_description										
-Item_Halberd_effect_header										Status Effect
-Item_Halberd_shop_flavor										Halberds são poderosas alabardas, e enquanto todos os ataques de um é inteiramente perigoso, ocasionalmente eles darão ataques verdadeiramente temerosos no inimgo.
-Item_Halberd_ATTACK_IMPACT_effect								15% de chance de dar 40 dano Físico no alvo.
+Item_Halberd_effect_header										Efeito de Status
+Item_Halberd_shop_flavor										Halberds são poderosas alabardas e, enquanto todos os ataques são bem perigosos, ocasionalmente eles darão ataques verdadeiramente amedrontador no inimgo.
+Item_Halberd_ATTACK_IMPACT_effect								15% de chance de causar 40 de dano Físico no alvo.
 
 // Item_HarkonsBlade
 Item_HarkonsBlade_name											Harkon's Blade
-Item_HarkonsBlade_description									While active, changes attack damage type to Magic at the cost of mana per attack. Attacks also reduce Magic Armor of the target temporarily.
-Item_HarkonsBlade_description2									This item contains an ^rAttack ^rModifier^*. Attack modifiers are exclusive and do not stack with other attack modifiers.
-Item_HarkonsBlade_effect_header									Harkon's Blade Effects
-Item_HarkonsBlade_IMPACT_effect									Attacks deal Magic damage.  Applies Harkon's Blade to the attack target for 3 seconds.
+Item_HarkonsBlade_description									Enquanto ativo, muda o tipo de dano do ataque para Mágico ao custo de Mana por ataque. Ataques também reduzem a Armadura Mágica do alvo temporariamente.
+Item_HarkonsBlade_description2									Este item contem um ^rModificador ^rde Ataque^*. Modificadores de Ataque são exclusivos e não se somam com outros modificadores de ataque.
+Item_HarkonsBlade_effect_header									Efeitos de Harkon's Blade
+Item_HarkonsBlade_IMPACT_effect									Ataque causa dano Mágico.  Aplica Harkon's Blade no alvo de ataque por 3 segundos.
 
 // Item_HealthPotion
 Item_HealthPotion_name											Health Potion
-Item_HealthPotion_description									Quando ativada, garante +40 Health Regeneration to self for 10 seconds.
-Item_HealthPotion_effect_header									Health Potion Effects
-Item_HealthPotion_shop_flavor									Uma básica mistura de ervas curadoras que, com o tempo, ajudarão um guerreiro machucado a se recuperar.
-Item_HealthPotion_IMPACT_effect									Aplica Health Potion no alvo por 10 segundos, curando um total de 400 Health.
+Item_HealthPotion_description									Quando ativada, garante +40 de Regeneração de Vida em si por 10 segundos.
+Item_HealthPotion_effect_header									Efeitos de Health Potion
+Item_HealthPotion_shop_flavor									Uma mistura básica de ervas curandeiras que, com o tempo, ajudarão um guerreiro machucado a se recuperar.
+Item_HealthPotion_IMPACT_effect									Aplica Health Potion no alvo por 10 segundos, curando um total de 400 de Vida.
 
 // State_HealthPotion
 State_HealthPotion_name											Health Potion
@@ -4183,7 +4182,7 @@ State_HealthPotion_name											Health Potion
 // Item_HelmOfTheVictim
 Item_HelmOfTheVictim_name										Helm of the Victim
 Item_HelmOfTheVictim_description								
-Item_HelmOfTheVictim_effect_header								Status Effect
+Item_HelmOfTheVictim_effect_header								Efeito de Status
 Item_HelmOfTheVictim_shop_flavor								Lendas falam de um círculo do Inferno onde heróis eram mandados para as mais cruéis torturas.  Nestas vítimas eram instalados elmos que protegiam elas de ferimentos fatais e recuperavam seus corpos para que a tortura continuasse sem o libertação pela morte. Assim é a explicação para os Helms of the Victim, trazidos a Newerth pelos Hellbourne.
 
 // State_Boots_Source
