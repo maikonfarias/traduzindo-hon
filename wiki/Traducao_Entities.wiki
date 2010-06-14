@@ -3,11 +3,11 @@ Muita atenção nesta parte, façam cada linha com cuidado atentando para o cust
 Precisam usar o [http://winmerge.org/ Winmerge] para comparar um arquivo com outro e podem ir traduzindo ao mesmo tempo. Caso tenham qualquer tipo de duvida entrem em contato comigo para não termos problemas.
 
 || *Linhas* || *Nome* || *Revisão + Commit* || *1.0.2.1?* || *1.0.3?* ||
-|| 1 até 500 || KhainStakard || *X* || *X* || ||
-|| 501 até 1000 || KhainStakard || *X* || *X* || ||
-|| 1001 até 1500 || Karnak || *X* || *X* || ||
-|| 1501 até 2000 ||Iori|| *X* || *X* || ||
-|| 2001 até 2500 || Iori || *X* || *X* || ||
+|| 1 até 500 || KhainStakard || *X* || *X* || *X* ||
+|| 501 até 1000 || KhainStakard || *X* || *X* || *X* ||
+|| 1001 até 1500 || Karnak || *X* || *X* || *X* ||
+|| 1501 até 2000 ||Iori|| *X* || *X* || *X* ||
+|| 2001 até 2500 || Iori || *X* || *X* || *X* ||
 || 2501 até 3000 || Iori || ||
 || 3001 até 3500 || Iori || ||
 || 3501 até 4000 || KhainStakard || ||
