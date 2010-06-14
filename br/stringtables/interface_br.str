@@ -385,6 +385,15 @@ options_bind_button_default					Padrão
 options_bind_button_clear					Limpar Ligação
 options_bind_header							Escolher Nova Ligação
 
+options_healthbar_shadows_hero				Sombra da Barra de Vida dos Heroes
+options_healthbar_shadows_creep				Sombra da Barra de Vida dos Creeps
+options_healthbar_shadows_building			Sombra da Barra de Vida de Construções
+options_healthbar_shadows_misc				Sombra da Barra de Vida Miscelânia
+options_healthbar_shadows_hero_tip			Mostra uma barra de sombra atrás da barra de vida dos heroes para indicar o dano recebido por golpe.  A barra se move devagar para acertar a vida efetiva do hero.
+options_healthbar_shadows_creep_tip			Mostra uma barra de sombra atrás da barra de vida dos creeps para indicar o dano recebido por golpe.  A barra se move devagar para acertar a vida efetiva do creep.
+options_healthbar_shadows_building_tip		Mostra uma barra de sombra atrás da barra de vida das construções para indicar o dano recebido por golpe.  A barra se move devagar para acertar a vida efetiva da construção.
+options_healthbar_shadows_misc_tip			Mostra uma barra de sombra atrás da barra de vida dos objetos para indicar o dano recebido por golpe.  A barra se move devagar para acertar a vida efetiva do objeto.  Esta opção cobre as barras de vida que não são incluídas no hero, Creep e construções.
+
 options_label_game_controls					Controles do Game
 options_label_primary_keybind				Botão Primário
 options_label_primary_keybind_tooltip		O botão primário é utilizado para selecionar unidades, usar habilidades e interagir com a interface do jogo.
@@ -418,6 +427,7 @@ options_label_select_hero_keybind			Selecionar Heróis
 options_label_attack_keybind				Ordenar Ataque
 options_label_stop_keybind					Ordenar Parar
 options_label_hold_keybind					Ordenar Ficar
+options_label_cancel_and_hold_keybind				Ordenar Cancelar e Ficar
 options_label_move_keybind					Ordenar Mover
 options_label_patrol_keybind				Ordenar Patrulhar
 options_label_next_unit_keybind				Próxima Unidade
@@ -579,7 +589,13 @@ options_checkbox_selection_highlight		Destacar Seleção
 options_checkbox_selection_highlight_tip	Se habilitado, unidades serão destacadas se o mouse passar por cima delas.
 
 options_enable_minimap_rightclick			Clique Direito no Minimapa
-options_enable_minimap_rightclick_tip		Caso esteja desligado, cliques com o botão direito no minimapa serão ignorados.
+options_enable_minimap_rightclick_tip		Se habilitado, um jogador poderá direcionar seu personagem através do clique direito em um local no minimapa.
+
+options_double_activate_abilities			Habilitar Habilidades Automáticas Com Clique Duplo
+options_double_activate_abilities_tip		Se habilitado, clicar duas vezes em certos itens/habilidades irá usá-los no seu hero, automaticamente, sem precisar selecionar um alvo.  (Homecoming Stone irão teleportar seu hero para a base, as Health Potions irão ser usadas em você, etc.)
+
+options_enable_move_on_disconnect			Mover para a Base Ao Desconectar
+options_enable_move_on_disconnect_tip		Se ativado, o servidor irá mover, automaticamente, seu hero devolta para a base quando você sofrer um crash, congelamento de tela ou perda de sua conexão à internet.
 
 options_checkbox_show_exp					Mostrar Quantidade de Exp
 options_screen_show_exp_tip					Se habilitado, a sua experiência será mostrada.
@@ -614,7 +630,7 @@ options_graphics_change_notnow				Você não poderá mudar as configurações de
 options_notifications_title							Notificações
 options_notifications_friends						Amigos
 options_notifications_friends_request				Pedidos
-options_notifications_friends_add					Add
+options_notifications_friends_add					Adic.
 options_notifications_friends_removal				Remoção
 options_notifications_friends_signon				Inscrever
 options_notifications_friends_signoff				Desinscrever
@@ -790,6 +806,25 @@ web_form_nickchange_error9					Senha inválida.  Por favor, tente novamente.
 web_form_nickchange_success					Apelido trocado com sucesso para ^g{nickname}^*.  Você deve se desconectar para que a troca tenha efeito.
 web_form_nickchange_success_title			Apelido Modificado
 web_form_nickchange_tos						Ao clicar em "Mudar Apelido", você estará concordando com os Termos de Serviço
+web_form_reportabuse_title					Relatar Comportamento Abusivo
+web_form_reportabuse_accountname			Sua Conta
+web_form_reportabuse_accountname_tip		Este é o nome da conta que você está atualmente logado.  Isto será enviado como parte do relatório.
+web_form_reportabuse_abuser					Conta do Infrator
+web_form_reportabuse_abuser_tip				O nome do usuário que você está relatando.
+web_form_reportabuse_type					Tipo do Abuso
+web_form_reportabuse_type_tip				Por favor, selecione o tipo de abuso que o usuário participou.  Por favor, tenha certeza de escolher um abuso correto para nos ajudar à apressar o processo do seu relatório.
+web_form_reportabuse_matchid				ID Partida
+web_form_reportabuse_matchid_tip			O ID da Partida aonde o incidente ocorreu.  O dropdown incluí algumas das últimas partidas que você entrou ou participou.
+web_form_reportabuse_server					Servidor
+web_form_reportabuse_server_tip				O nome do servidor aonde o incidente ocorreu.
+web_form_reportabuse_body					Descrição do Incidente
+web_form_reportabuse_body_tip				Por favor, escreva uma pequena descrição do incidente que ocorreu.  Se possível, tente informar por volta de que período o usuário especificado foi abusivo e detalhe o que aconteceu.
+web_form_reportabuse_button					Enviar Relatório
+web_form_reportabuse_submit					Enviando relatório...
+web_form_reportabuse_error1					Erro de Conexão - por favor, tente novamente.
+web_form_reportabuse_error2					Nenhuma conta relatora especificada.
+web_form_reportabuse_error3					Nenhuma conta infratora especificada.
+web_form_reportabuse_error4					Nenhuma descrição de ofensa foi dada.
 
 web_form_lan_account_feature_unavailable		Recursos Atualmente Indisponíveis para Usuários de Conta LAN
 web_form_lan_account_feature_unavailable_text	Este recurso está disponível apenas através do nosso website.
@@ -835,6 +870,8 @@ garena_error_GA001000						Não pode conectar. Tente novamente.
 garena_error_GA001001						Autenticação do Garena não está disponivel no momento.
 garena_error_GA001005						Registro no Garena falhou. Tente Novamente.
 garena_error_GA001006						Nickname já está em uso. Escolha outro.
+garena_error_GA003001						Sua conta não está ativa para jogar HoN. Você precisa de uma chave beta válida para participar do closed beta.
+garena_error_GA003002						Sua conta está banida para jogar HoN.
 garena_create_account_title					Criar uma Conta do HoN
 garena_create_account_body					Antes de você poder conectar, você precisa primeiro criar uma conta do Heroes of Newerth que será ligada com a sua conta do Garena.
 
@@ -1703,9 +1740,9 @@ main_lobby_no_servers_found					Nenhum sevidor encontrado!
 
 main_lobby_playersonline					Jogadores Online:
 
-mainlobby_gamelist_official_title			Oficial - Com Estatís.
+mainlobby_gamelist_official_title			Oficial Com Estatís.
 mainlobby_gamelist_official_desc			Esta é uma partida oficial, estatísticas serão gravadas.
-mainlobby_gamelist_official_2_title			Oficial - Sem Estatís.
+mainlobby_gamelist_official_2_title			Oficial Sem Estatís.
 mainlobby_gamelist_official_2_desc			Esta é uma partida oficial, estatísticas não serão gravadas.
 mainlobby_gamelist_unofficial_title			Não-Oficial
 mainlobby_gamelist_unofficial_desc			Esta é uma partida não-oficial, estatísticas não serão gravadas.
@@ -1936,7 +1973,7 @@ game_menu_quit_header						Confirmar saída
 game_menu_quit_confirm						Tem certeza que quer fechar o HoN?
 game_menu_leave_rate_text					Taxa de Leaves:
 game_menu_empty_slot						-Slot vazio-
-game_menu_leave_rate_label					Desistência:
+game_menu_leave_rate_label					Desist.:
 game_menu_dont_show_again					Não Mostrar Esta Mensagem Denovo
 game_menu_kick_tooltip						Chamar um voto para retirar {player}
 game_menu_kick_disabled_other_vote_tooltip	Você não pode chamar um voto novo antes do atual terminar.
@@ -1954,6 +1991,8 @@ game_menu_pause_button						Pausar
 game_menu_pause_tooltip						Apertar este botão chama um voto para pausar a partida. Seu time tem de votar unanimamente à favor para o voto passar. O pause acontece 5 segundos depois do voto passar.
 game_menu_unpause_button					Retomar
 game_menu_unpause_tooltip					Apertar este botão vai despausar a partida em 5 segundos. O time que pausou a partida pode despausar a qualquer momento. O time oposto tem de esperar 1 minuto para despausar.
+game_menu_moved_title						Compartilhando, Refazendo, Concedendo e Pausando mudaram de lugar!
+game_menu_moved								Para compartilhar controle, use os botões no painel do seu time na parte superior esquerda da tela de partida. Para Refazer, Conceder ou Pausar, expanda o Placar localizado no canto superior direito da tela de partida.
 
 // game_vote.package
 vote_concede								Conceder?
@@ -2017,7 +2056,7 @@ player_stats_next_level						XP Total Para Próximo Nível
 player_stats_next_level_needed				XP Necessária Para Próximo Nível
 player_stats_wins							Vitórias
 player_stats_losses							Derrotas
-player_stats_disconnects					Desist.
+player_stats_disconnects					Desistências
 player_stats_win_percent					{percent}%
 player_stats_leave_percent					Porcentagem de Desist.
 player_stats_winning_percentage				%% Vitórias
@@ -2045,7 +2084,7 @@ player_stats_neutral_creeps					Creeps Neutros
 player_stats_denies_header					Deny em Creeps
 player_stats_damage							Dano
 player_stats_razes							Demolições
-player_stats_kills							Mortes
+player_stats_kills							Kills
 player_stats_kd_ratio						Proporção K:D
 player_stats_assists						Assistências
 player_stats_gold							Gold
@@ -2188,6 +2227,11 @@ tooltip_label_changecolors					Ligar/Desligar cores únicas dos jogadores
 tooltip_combattype							Tipo de Combate: 
 tooltip_movespeed							Velocidade de Mov.
 tooltip_movespeed_msg						Isto é o quão rápido o hero se move em relação aos outros.
+tooltip_teamshare							Liga/Desliga Compartilhar Courier Com Time
+tooltip_miniscore							Liga/Desliga Mini Placar
+tooltip_fullscore							Liga/Desliga Placar Completo e Controles da Partida
+tooltip_hide_score_controls					Esconder Controles da Partida
+tooltip_show_score_controls					Mostrar Controles da Partida
 
 tooltip_viewstats							Ver Estatísticas
 tooltip_purchase							Comprar HoN
@@ -2266,6 +2310,8 @@ tooltip_faction_msg							Este ícone representa a facção com que o hero é al
 tooltip_extras								Clique para abrir menus extras da conta.
 tooltip_sort_dmg							Organizar por Dano de Ataque
 tooltip_sort_dmg_msg						Clique aqui para organizar a lista de hero pelo Dano de Ataque.
+
+tooltip_report								Relatar Comportamento Abusivo
 
 // ui_items.package
 ui_items_friend_clan_label					Clan
@@ -2501,7 +2547,7 @@ matchmaker_title							Selecione o seu Match Making Rating (SMR) Inicial
 matchmaker_beginner							Iniciante
 matchmaker_beginner_desc					Esta opção lhe dará a oportunidade de jogar mais frequêntemente com outros iniciantes. Escolha essa opção se você é novo no HoN e não está familiarizado com o jeito de jogar.
 matchmaker_beginner_btn						Eu sou Iniciante
-matchmaker_intermediate						Intermediate
+matchmaker_intermediate						Intermediário
 matchmaker_intermediate_desc				Esta opção lhe dará a oportunidade de jogar mais frequêntemente com outros jogadores intermediários. Escolha esse se você já se familiarizou com o jeito de jogar HoN e tem uma quantidade moderada de experiência.
 matchmaker_intermediate_btn					Eu sou Intermediário
 matchmaker_expert							Hardcore

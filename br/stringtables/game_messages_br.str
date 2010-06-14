@@ -271,7 +271,7 @@ team_concede					{color}{team}^* concedeu a partida. Estatísticas do resto da p
 game_abandoned					Seus colegas de time o abandonaram. A partira irá continuar, porém, você poderá sair sem sofrer penalidades.
 afk_warning						Você está perto de ser desconectado por inatividade. Saia da base e lute!
 
-lobby_connect					{color}{player}^* se conectou.
+lobby_connect					{color}{player}^* está conectando.
 lobby_kick						{color}{player}^* foi retirado pelo host.
 lobby_disconnect				{color}{player}^* se desconectou.
 lobby_balance					O host equilibrou os times.
