@@ -6,6 +6,10 @@ Lista do que foi traduzido na v0.4
   # Abyssal Skull
   # Alchemist's Bones
   # Astrolabe
-
+  # Barrier Idol
+  #
+  #
+  #
+  #
 *Heroes:*<br>
   *
