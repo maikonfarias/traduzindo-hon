@@ -1,11 +1,11 @@
 Lista do que foi traduzido na v0.4
 
-Itens:<br>
+*Itens:*<br>
   # Slayer
   # Codex
   # Abyssal Skull
   # Alchemist's Bones
   # Astrolabe
 
-Heroes:<br>
+*Heroes:*<br>
   *
