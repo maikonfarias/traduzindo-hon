@@ -1,5 +1,5 @@
 Lista do que foi traduzido na v0.4
 
-Itens:
-*Slayer
-*Codex
+Itens:</br>
+* Slayer
+* Codex
