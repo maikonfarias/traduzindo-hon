@@ -15,7 +15,10 @@ Lista do que foi traduzido na v0.4
   # Elder Parasite
   # Frostfield Plate
   # Ghost Marchers
-  #
+  # Barbed Armor
+  # Icebrand
+  # Courier / Flying Courier
+  # Sacrificial Stone
   #
 *Heroes:*<br>
   *
