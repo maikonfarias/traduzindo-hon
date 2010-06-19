@@ -10,6 +10,12 @@ Lista do que foi traduzido na v0.4
   # Behemoth's Heart
   # Brutalizer
   # Charged Hammer
+  # Daemonic Breastplate
+  # Riftshards
+  # Elder Parasite
+  # Frostfield Plate
+  # Ghost Marchers
+  #
   #
 *Heroes:*<br>
   *
