@@ -19,6 +19,6 @@ Lista do que foi traduzido na v0.4
   # Icebrand
   # Courier / Flying Courier
   # Sacrificial Stone
-  #
+  # Frostburn
 *Heroes:*<br>
   *
