@@ -20,5 +20,10 @@ Lista do que foi traduzido na v0.4
   # Courier / Flying Courier
   # Sacrificial Stone
   # Frostburn
+  # Null Stone
+  # Nullfire Blade
+  # Doom Bringer
+  # Fortified Bracelet
+  # Plated Greaves
 *Heroes:*<br>
   *
