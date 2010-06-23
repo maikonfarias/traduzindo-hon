@@ -25,5 +25,11 @@ Lista do que foi traduzido na v0.4
   # Doom Bringer
   # Fortified Bracelet
   # Plated Greaves
+  # Puzzlebox
+  # Post Haste
+  # Restoration Stone
+  # Ring of Sorcery
+  #
+
 *Heroes:*<br>
   *
