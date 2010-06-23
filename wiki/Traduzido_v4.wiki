@@ -29,7 +29,10 @@ Lista do que foi traduzido na v0.4
   # Post Haste
   # Restoration Stone
   # Ring of Sorcery
-  #
+  # Ring of the Teacher
+  # Runed Axe
+  # Sacred Greaves
+  # Savage Mace
 
 *Heroes:*<br>
   *
