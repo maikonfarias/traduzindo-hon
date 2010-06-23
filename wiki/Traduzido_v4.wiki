@@ -33,6 +33,9 @@ Lista do que foi traduzido na v0.4
   # Runed Axe
   # Sacred Greaves
   # Savage Mace
-
+  # Shield of the Five
+  # Shaman's Headdress
+  # Shieldbreaker
+  # Assassin's Shroud
 *Heroes:*<br>
   *
