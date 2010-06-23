@@ -13,4 +13,4 @@ Precisam usar o [http://winmerge.org/ Winmerge] para comparar um arquivo com out
 || 3501 até 4000 || KhainStakard || ||
 || 4001 até 4500 || KhainStakard || ||
 || 4501 até 5000 || KhainStakard || ||
-|| 5001 até 5544 || Iori || ||
+|| 5001 até 5544 || KhainStakard || ||
