@@ -37,5 +37,9 @@ Lista do que foi traduzido na v0.4
   # Shaman's Headdress
   # Shieldbreaker
   # Assassin's Shroud
+  # Steamboots
+  # Soulscream Ring
+  # Firebrand
+  # Staff of the Master
 *Heroes:*<br>
   *
