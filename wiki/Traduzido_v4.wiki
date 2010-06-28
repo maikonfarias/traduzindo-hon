@@ -41,5 +41,10 @@ Lista do que foi traduzido na v0.4
   # Soulscream Ring
   # Firebrand
   # Staff of the Master
+  # Symbol of Rage
+  # Fenrir's Fang
+  # Mock of Brilliance
+  # Talisman of Exile
+  #
 *Heroes:*<br>
   *
