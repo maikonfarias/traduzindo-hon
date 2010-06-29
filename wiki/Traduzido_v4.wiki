@@ -45,6 +45,9 @@ Lista do que foi traduzido na v0.4
   # Fenrir's Fang
   # Mock of Brilliance
   # Talisman of Exile
+  # Stormspirit
+  #
+  #
   #
 *Heroes:*<br>
   *
