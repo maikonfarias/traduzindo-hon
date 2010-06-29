@@ -50,4 +50,4 @@ Lista do que foi traduzido na v0.4
   #
   #
 *Heroes:*<br>
-  *
+  # Pollywog Priest
