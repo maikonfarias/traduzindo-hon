@@ -61,3 +61,4 @@ Lista do que foi traduzido na v0.4
   # Soulstealer
   # Tempest
   # Succubus
+  # Keeper Of The Forest
