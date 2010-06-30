@@ -55,3 +55,10 @@ Lista do que foi traduzido na v0.4
   # Puppet Master
   # Pyromancer
   # Pebbles
+  # Sand Wraith
+  # The Madman
+  # Scout
+  # Demented Shaman
+  # Soulstealer
+  # Tempest
+  #
