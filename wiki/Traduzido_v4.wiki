@@ -46,9 +46,8 @@ Lista do que foi traduzido na v0.4
   # Mock of Brilliance
   # Talisman of Exile
   # Stormspirit
-  #
-  #
-  #
+  # Frostwolf's Skull
+
 *Heroes:*<br>
   # Pollywog Priest
   # Predator
