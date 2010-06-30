@@ -60,4 +60,4 @@ Lista do que foi traduzido na v0.4
   # Demented Shaman
   # Soulstealer
   # Tempest
-  #
+  # Succubus
