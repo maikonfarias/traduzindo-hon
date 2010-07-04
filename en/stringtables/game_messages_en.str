@@ -286,7 +286,8 @@ lobby_assign_first_ban				The host has assigned {team_color}{team}^* team first 
 
 game_info_practice				Practice
 nosolo							You must have an opponent in order to start the game.  Start a ^yPractice^* game if you wish to play solo.
-
+warn_nomods					{slot_color}{player}^* is using modded files and will only be allowed to spectate the game.
+nomods						Could not start game.  {slot_color}{player}^* is using modded files and must spectate or disable ALL mods (interface, texture, etc) before being allowed to play in this Tournament Rules game.
 game_unpause					{name} has unpaused the game, play will resume in 5 seconds.
 
 

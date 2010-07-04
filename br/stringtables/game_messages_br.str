@@ -105,7 +105,7 @@ error_not_unit_item					Deverá escolher uma unidade para ser alvo deste item.
 error_not_unit						Deverá escolher uma unidade para ser o alvo.
 error_invalid_target				Não é um alvo válido.
 
-chat_all							^269[MAPA] {color}{player} ({hero}): ^*{message}
+chat_all							^269[TODOS] {color}{player} ({hero}): ^*{message}
 chat_roll							^190[ROLL]^* {color}{message}
 chat_emote							^839[EMOTE]^* {color}{message}
 chat_team							^y[TIME] {color}{player} ({hero}): ^*{message}
@@ -287,7 +287,8 @@ lobby_assign_first_ban			O host colocou o {team_color}{team}^* como o primeiro p
 
 game_info_practice				Praticar
 nosolo							Você deverá ter um oponente para começar um jogo. Comece em modo ^yPraticar^* se quiser jogar sozinho.
-
+warn_nomods					{slot_color}{player}^* está usando arquivos modificados e só será permitido que ele assista a partida.
+nomods						Não foi possível iniciar a partida.  {slot_color}{player}^* está usando arquivos modificados e deverá assistir a partida ou desabilitar TODOS os mods (interface, textura, etc) antes de ser liberado para jogar nessa partida com Regras de Torneio.
 game_unpause					{name} retomou o jogo, irá continuar em 5 segundos.
 
 

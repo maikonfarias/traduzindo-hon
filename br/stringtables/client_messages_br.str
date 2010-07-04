@@ -25,6 +25,9 @@ disconnect_flooding				Você foi desconectado por mandar mensagens em excesso no
 disconnect_invalid_tier			Você não está liberado para jogar partidas neste nível.
 disconnect_invalid_psr			Seu PSR é muito alto ou muito baixo para esta partida.
 disconnect_not_on_roster		Você não está relacionado para esta partida combinada.
+disconnect_modified_core_files	O seu arquivo resources0.s2z foi modificado.  Este arquivo NÃO pode se alterado!  Re-instale o game Heroes of Newerth.
+disconnect_client_number_mismatch	Erro de conexão, tente novamente em alguns momentos, por favor.
+disconnect_trial_not_allowed	Você não está permitido à se conectar nesta partida com uma conta teste. Contas teste são restringidas à partidas "sem estatísticas" apenas.
 
 rejected_invalid_request		Seu cliente enviou um pedido de conexão inválido.
 rejected_empty_address			O servidor falhou em determinar seu endereço.
