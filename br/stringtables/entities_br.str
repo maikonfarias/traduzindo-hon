@@ -64,9 +64,10 @@ TargetScheme_enemy_heroes										Heroes Inimigos
 TargetScheme_ally_units											Unidades Aliadas
 TargetScheme_ally_heroes										Heroes Aliados
 TargetScheme_all_units											Todas as Unidades
+TargetScheme_all_visible_units									Todas Unidades Visíveis
 TargetScheme_ally_ranged_units									Unidades Ranged Aliadas
-TargetScheme_ally_melee_units									Unidades Melee Aliadas
 TargetScheme_ally_ranged_heroes									Heroes Ranged Aliados
+TargetScheme_ally_melee_units									Unidades Melee Aliadas
 TargetScheme_ally_buildings										Construções Aliadas
 TargetScheme_enemy_units_and_Towers								
 TargetScheme_enemy_objects										Objetos Inimigos
@@ -528,7 +529,7 @@ Ability_Armadon4_name											Restless
 Ability_Armadon4_description									Armadon aumenta, temporariamente, sua velocidade de ataque e movimento para cada skill que usar.
 Ability_Armadon4_effect_header									Restless
 Ability_Armadon4_ABILITY_IMPACT_effect							Aplica Restless a si por 10 segundos. Adiciona uma carga.
-Ability_Armadon4_tooltip_flavor									Me dê, me dê cafeina!
+Ability_Armadon4_tooltip_flavor									Me dê, me dê cafeína!
 
 // State_Armadon_Ability4
 State_Armadon_Ability4_name										Relentless
@@ -647,7 +648,7 @@ Ability_Bephelgor1_description									Um dos muitos patógneos que infestam o B
 Ability_Bephelgor1_description2									
 Ability_Bephelgor1_effect_header								Contagion
 Ability_Bephelgor1_effect_header2								
-Ability_Bephelgor1_tooltip_flavor								Detona com a gripe suína
+Ability_Bephelgor1_tooltip_flavor								Detona com a gripe suína.
 Ability_Bephelgor1_IMPACT_effect								Aplica Contagion no alvo por {1,2,3,4} segundos. Ao expirar, Contagion é aplicado ao inimigo em um radius de 300 em torno do alvo original pela mesma duração. Contagion também irá se transferir para os inimigos próximos caso o alvo original morra sob seu efeito.
 
 // State_Bephelgor_Ability1
@@ -692,12 +693,9 @@ Ability_Bephelgor2_Pet_Ability1_ATTACK_IMPACT_effect			Aplica Crippled no alvo p
 
 // State_Bephelgor_Ability2_Pet_Snare
 State_Bephelgor_Ability2_Pet_Snare_name							Crippled
-			
 
 // Pet_Bephelgor_Ability2
 Pet_Bephelgor_Ability2_name										Minion
-				
-						
 
 // State_Bephelgor_Ability2
 State_Bephelgor_Ability2_FRAME_effect							Consome corpos, adicionando uma carga e curando Balphagore em {10,15,20,25}.
@@ -707,12 +705,11 @@ Ability_Bephelgor3_name											Regurgitate
 Ability_Bephelgor3_description									Balphagore vomita uma bile demoniaca em todos os inimigos na frente dele, causando dano e lerdando-os.  Alguns dos corpos de suas vítimas anteriores também são expelidos, os quais Balphagore pode escolher apreciá-los uma segunda vez.
 Ability_Bephelgor3_description2									
 Ability_Bephelgor3_effect_header								Bile
-Ability_Bephelgor3_tooltip_flavor								Você me dá enjoo
+Ability_Bephelgor3_tooltip_flavor								Você me dá enjoo.
 Ability_Bephelgor3_IMPACT_effect								Causa {40,65,90,115} dano Mágico por segundo nos inimigos em um cone de 100 graus na sua frente, até 400 unidades a frente.\n\nInimigos pegos no cone têm Bile aplicada neles. Regurgita um total de 6 corpos durante o processo. Dura 3 segundos.
 
 // State_Bephelgor_Ability3_Snare
 State_Bephelgor_Ability3_Snare_name								Bile
-						
 
 // Ability_Bephelgor4
 Ability_Bephelgor4_name											Hell on Newerth
@@ -720,7 +717,7 @@ Ability_Bephelgor4_description									Após ganhar bastante poder das magias us
 Ability_Bephelgor4_description2									
 Ability_Bephelgor4_effect_header								Hell Snare
 Ability_Bephelgor4_effect_header2								
-Ability_Bephelgor4_tooltip_flavor								ratam em eved êcov ogoj o rahnag arap
+Ability_Bephelgor4_tooltip_flavor								.ratam em eved êcov ogoj o rahnag arap
 Ability_Bephelgor4_FRAME_effect									
 Ability_Bephelgor4_IMPACT_effect								Causa {200,300,400} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {350, 450, 550}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {150,225,300} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.
 Ability_Bephelgor4_IMPACT_effect:bephelgor_ability4_level1		Causa {200,300,400} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {350, 450, 550}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {150,225,300} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.
@@ -1009,7 +1006,7 @@ Ability_Deadwood2_name											Uproot
 Ability_Deadwood2_description									Deadwood pode tranformar qualquer árvore em arma simplismente arrancando-a do chão. Enquanto segura a árvore, ele pode joga-la no inimigo, causando um pequeno stun e retardando-o.
 Ability_Deadwood2_effect_header									Efeito de Uproot
 Ability_Deadwood2_IMPACT_effect									Pega a árvore alvo, adicionando +{15,30,45,60} ao dano por 5 ataques.
-Ability_Deadwood2_tooltip_flavor								Uma árvore funciona muito bem como arma
+Ability_Deadwood2_tooltip_flavor								Uma árvore funciona muito bem como arma.
 Ability_Deadwood2_name:deadwood_ihasatree						Oakbolt
 Ability_Deadwood2_effect_header:deadwood_ihasatree				Efeito de Son of a Birch
 Ability_Deadwood2_IMPACT_effect:deadwood_ihasatree				Joga sua árvore no inimigo alvo; causa stun de 0.1 seconds, e {30,60,90,120} de dano Físico e aplica Son of a Birch por {1.5,2,2.5,3} segundos.\n\nUnidades imune a magias não recebem o stun e o retardamento.\n\nSe jogado em uma ávore, destrói aquela árvore no impacto.
@@ -1138,6 +1135,7 @@ Ability_Devourer4_IMPACT_effect:ult_boost						Aplica Devour no inimigo alvo por
 Ability_Devourer4_tooltip_flavor								Dahmer Reincarnado!
 
 // State_Devourer_Ability4
+State_Devourer_Ability4_name									Devour
 State_Devourer_Ability4_FRAME_effect							{75,125,175} de dano Mágico por segundo
 State_Devourer_Ability4_FRAME_effect:ult_boost					{75,125,175} ^g+ (0.75 x Força)^* dano Mágico por segundo
 
@@ -1179,13 +1177,13 @@ Ability_DiseasedRider3_tooltip_flavor							Sua morte não será em vão.
 
 // Ability_DiseasedRider4
 Ability_DiseasedRider4_name										Plague Carrier
-Ability_DiseasedRider4_description								Plague Rider joga uma Plague Carrier no inimigo. Causa dano ao alvo e depois viaja até o alvo mais próximo.  Qualquer inimigo que for atingido ficará Infectado.
+Ability_DiseasedRider4_description								Plague Rider joga uma Plague Carrier no inimigo, causando um mini-stun no primeiro alvo. Causa dano ao alvo e depois viaja até o alvo mais próximo.  Qualquer inimigo que for atingido ficará Infectado.
 Ability_DiseasedRider4_description2								^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Aumenta o dano de {280,370,460} para {370,460,550}.
-Ability_DiseasedRider4_IMPACT_effect							Causa {280,370,460} de dano ao alvo, saltando para outro inimigo dentro de 600 units. Salta 7 vezes.
+Ability_DiseasedRider4_IMPACT_effect							Causa {280,370,460} de dano ao alvo e mini-stun no primeiro alvo, saltando então para outro inimigo dentro de 600 units. Salta 7 vezes.
 Ability_DiseasedRider4_effect_header							Efeito de Infected
 Ability_DiseasedRider4_name:ult_boost							Epidemic ^g(Boosted)^*
 Ability_DiseasedRider4_description2:ult_boost					Esta habilidade pode ser melhorada pelo Staff of the Master.
-Ability_DiseasedRider4_IMPACT_effect:ult_boost					Causa ^g{370,460,550}^* de dano ao alvo e então salta para outro inimigo dentro de 600 units. Salta 7 vezes.
+Ability_DiseasedRider4_IMPACT_effect:ult_boost					Causa ^g{370,460,550}^* de dano ao alvo e mini-stun no primeiro alvo, saltando então para outro inimigo dentro de 600 units. Salta 7 vezes.
 
 Ability_DiseasedRider4_tooltip_flavor							Seu rato sujo!
 
