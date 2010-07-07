@@ -62,3 +62,4 @@ Lista do que foi traduzido na v0.4
   # Tempest
   # Succubus
   # Keeper Of The Forest
+  # The Gladiator
