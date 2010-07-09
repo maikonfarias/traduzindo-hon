@@ -25,6 +25,9 @@ disconnect_flooding				You have been disconnected for flooding the server.
 disconnect_invalid_tier			You are not allowed to play games in this tier.
 disconnect_invalid_psr			Your PSR is either too high or too low for this game.
 disconnect_not_on_roster		You are not on the roster for this arranged match.
+disconnect_modified_core_files	Your resources0.s2z file has been modified.  This file must NOT be changed!  Re-install Heroes of Newerth.
+disconnect_client_number_mismatch	Connection error, please try again in a moment.
+disconnect_trial_not_allowed	You are not allowed to connect to this match with a trial account. Trial accounts are restricted to "no stats" matches only.
 
 rejected_invalid_request		Your client sent an invalid connection request.
 rejected_empty_address			The server failed to determine your address.
