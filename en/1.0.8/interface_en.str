@@ -2365,7 +2365,7 @@ tooltip_hero_abils							Hero Abilities
 tooltip_hero_abils_msg						Listed in this column for each hero are its four abilities.  Hover over each ability icon for a description of the ability.
 tooltip_faction								Hero Faction
 tooltip_faction_msg							This icon represents the faction that the hero is aligned with.  The green icon indicates that the hero has aligned with the Legion, while the red icon indicates that the hero belongs has aligned with the Hellbourne.
-tooltip_extras								Click to open account extras menu.
+tooltip_extras								Click here to open the account extras menu.
 tooltip_sort_dmg							Sort by Attack Damage
 tooltip_sort_dmg_msg						Click here to sort the hero list by Attack Damage.
 

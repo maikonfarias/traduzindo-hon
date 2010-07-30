@@ -1117,11 +1117,11 @@ State_Devourer_Ability2_Self_FRAME_effect						{25,50,75,100} Magic damage per s
 // Ability_Devourer3
 Ability_Devourer3_name											Cadaver Armor
 Ability_Devourer3_description									This grotesque armor increases the Devourer's Magic Armor and permanently adds strength for each nearby hero kill or each kill he makes.
-Ability_Devourer3_KILL_effect									Permanently adds 2 Strength to self per hero kill.
+Ability_Devourer3_KILL_effect									Permanently adds 1.5 Strength to self per hero kill.
 Ability_Devourer3_effect_header									Status Effect
 Ability_Devourer3_tooltip_flavor								Evil never dies!
 
-State_Devourer_Ability3_FRAME_effect							On death, when not killed by the Devourer, adds 2 strength to the Devourer.
+State_Devourer_Ability3_FRAME_effect							On death, when not killed by the Devourer, adds 1.5 strength to the Devourer.
 
 // Ability_Devourer4
 Ability_Devourer4_name											Devour
@@ -1235,7 +1235,7 @@ Ability_DoctorRepulsor4_tooltip_flavor							We've gone into Plaid!
 
 // Hero_DoctorRepulsor
 Hero_DoctorRepulsor_name										Doctor Repulsor
-Hero_DoctorRepulsor_description									The Doctor is in!
+Hero_DoctorRepulsor_description									The storied professor of archaelogy had never been content. The earth was full of artifacts; artifacts that held secrets to the prior lives of men. Science, psychology, sociology... the forgotten vices of man and the primal tenets of the Hellbourne, poured into the professor as he absorbed the forbidden knowledge and was consumed. Devoid of free will, he is now a slave to the power he once coveted.
 
 // Ability_DwarfMagi1
 Ability_DwarfMagi1_name											Fireball
@@ -1540,7 +1540,7 @@ State_Fairy_Ability2_name										Enchanted
 Ability_Fairy3_name												Nymphora's Zeal
 Ability_Fairy3_description										Shoots forth a wisp to damage and stun enemies in a line. Each enemy hit is stunned and damaged.
 Ability_Fairy3_effect_header									Nymphora's Zeal Effects
-Ability_Fairy3_IMPACT_effect									Launches a projectile that impacts targets it touches in a 1200 unit line, stunning for {1.0,1.3,1.6,2.0} second(s), and dealing {70,100,130,160} Magic damage to them, then the projectile returns back to self. Units can be impacted twice, once when the projectile is being launched and once when it is returning.
+Ability_Fairy3_IMPACT_effect									Launches a projectile that impacts targets it touches in a 1200 unit line, stunning for {1.0,1.3,1.6,2.0} second(s), and dealing {55,90,130,160} Magic damage to them, then the projectile returns back to self. Units can be impacted twice, once when the projectile is being launched and once when it is returning.
 Ability_Fairy3_tooltip_flavor									It goes both ways.
 
 // State_Fairy_Ability3
