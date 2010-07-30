@@ -281,7 +281,7 @@ options_checkbox_transparency_aa_label		Anti-Serrilhado de Transparências
 options_checkbox_transparency_aa_desc		O Anti-Serrilhado de Transparências é um método de polimento de bordas de texturas transparentes, em oposição às bordas dos modelos, para criar uma aparência mais flúida. Estes tipos de exturas são mais usados nas folhagens. Aumentar esta amostra fará certas texturas parecerem mais polidas mas poderá afetar a performance.
 options_dynamic_lights						Luzes Dinâmicas
 options_dynamic_lights_tip					As Luzes Dinâmicas são usadas para melhorar os efeitos e a qualidade do jogo mas poderá diminuir a performance em algumas placas de vídeo.
-options_button_reset_all					Resetar Tudo
+options_button_reset_all					Restaurar Tudo
 options_button_ok							Ok
 options_button_apply						Aplicar
 options_button_sound						Som
@@ -520,7 +520,7 @@ options_header_camera_controls				Controles da Câmera
 options_label_zoom_out_keybind				Distanciar Zoom
 options_label_zoom_in_keybind				Aproximar Zoom
 options_label_free_look_keybind				Visão Livre
-options_label_reset_camera_keybind			Resetar Câmera
+options_label_reset_camera_keybind			Restaurar Câmera
 options_label_camera_up_keybind				Subir Câmera
 options_label_camera_down_keybind			Descer Câmera
 
@@ -554,7 +554,7 @@ options_label_slot_20_keybind				Shop - Comprar Item 20
 options_label_close_shop_keybind			Shop - Fechar Painel
 options_label_recipe_history_back_keybind	Voltar Histórico de Manuais
 options_label_recipe_history_for_keybind	Avançar Histórico de Manuais
-options_btn_reset_all_controls				Resetar Controles
+options_btn_reset_all_controls				Restaurar Controles
 options_btn_clear_shopkeys					Limpar Atalhos do Shop
 
 
@@ -2502,8 +2502,8 @@ loading_tip4					Se você atacar a sua torre com pouca vida e destruí-la, o tim
 loading_tip5					Escrever /matchup ou /ma no jogo mostra uma lista de players, heroes, levels, e cor dos jogadores.
 loading_tip6					Você pode vender um item do seu stash segurando ^gSHIFT^* e ^gCONTROL^* quando der ^gCLICK DIREITO^* no item.
 loading_tip7					Você pode rapidamente transferir um item entre o seu stash e inventorio segurando ^gCONTROL^* e ^gCLICK DIREITO^* no item.
-loading_tip8					Não sabe aonde está seu Hero? Apertar a tecla ^gC^* vai centralizar a tela no seu Hero.
-loading_tip9					Magic Armor reduz o dano Mágico que você toma, o que inclui muitas magias e habilidades.
+loading_tip8					Não sabe aonde está seu Hero? Apertar a tecla ^gC^* vai centralizar a tela no seu hero.
+loading_tip9					A Armadura Mágica reduz o dano Mágico que você recebe, que inclui muitas magias e habilidades.
 loading_tip10					Tente sempre ter uma Homecoming Stone. Você nunca sabe quando vai precisa ajudar a defender o outro lado do mapa ou usá-la para escapar de emboscadas.
 loading_tip11					Ficar Parado (^gH^* por padrão) vai fazer seu Hero parar de se mover ou atacar, permitindo que você acerte melhor o tempo de ataque para last hits.
 loading_tip12					Você pode rapidamente dividir o controle de um courier com outros players clicando nas pequenas setas acima dos retratos deles no lado esquerdo da tela.
