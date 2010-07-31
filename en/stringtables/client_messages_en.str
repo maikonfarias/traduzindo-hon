@@ -10,6 +10,7 @@ disconnect_snapshot_fragment	Too many snapshot fragments.
 disconnect_not_invited			You do not have an invitation to join this private game.
 disconnect_no_cookie			You must be logged in to play on this server.
 disconnect_auth_failed			The server could not authorize your account. Please try logging in again.
+disconnect_duplicate_connect	The account you are connecting with is already in use.
 disconnect_unknown				You have been disconnected.
 disconnect_timeout				No response from server.
 disconnect_game_over			The game has ended.
@@ -151,7 +152,7 @@ chat_success_clan_remove			^279* Removed ^990{target}^279 from the clan.
 chat_success_clan_remove_self		^279* You have left the clan.
 chat_topic_change					^279* Topic changed to '^990{topic}^279'.
 chat_topic							^279* Topic is '^990{topic}^279'.
-chat_not_operator					^279* You do not have admin priviledges in this channel.
+chat_not_operator					^279* You do not have admin privileges in this channel.
 chat_user_kicked					^279* ^990{kickee}^279 was kicked from the channel by ^990{kicker}^279.
 chat_kicked							^279* You were kicked from the channel '^990{channel}^279' by ^990{kicker}^279.
 chat_user_banned					^279* ^990{banned}^279 was banned from the channel by ^990{banner}^279.
@@ -196,10 +197,10 @@ chat_admin_level_leader				Channel Leader
 chat_admin_level_administrator		Channel Administrator
 chat_admin_level_staff				Staff
 chat_promote_success				^279* ^990{name}^279 has been promoted to ^990{rank}^279 by ^990{promoter}^279.
-chat_promote_failure				^279* You do not have sufficient priviledges to promote that user further.
+chat_promote_failure				^279* You do not have sufficient privileges to promote that user further.
 chat_demote_success					^279* ^990{name}^279 has been demoted to ^990{rank}^279 by ^990{demoter}^279.
 chat_demote_failure_too_low			^279* That user is already at the lowest admin priviledge level for this channel.
-chat_demote_failure					^279* You do not have sufficient priviledges to demote that user further.
+chat_demote_failure					^279* You do not have sufficient privileges to demote that user further.
 chat_not_in_channel					^279* That user is not in this channel.
 chat_im_user_offline				^279* ^990{name}^279 is now offline.
 chat_im_user_online					^279* ^990{name}^279 is now online.
@@ -376,16 +377,16 @@ chat_command_joingame_buddy_failed	^279* Failed to join game - Either the user d
 chat_command_topic					/topic
 chat_command_topic_short			/t
 chat_command_topic_help				^279*^707 /topic
-chat_command_topic_set_help			^279*^707 /topic <topic> (Requires channel admin priviledges)
+chat_command_topic_set_help			^279*^707 /topic <topic> (Requires channel admin privileges)
 chat_command_kick					/kick
 chat_command_kick_short				/k
-chat_command_kick_help				^279*^707 /kick <user> (Requires channel admin priviledges)
+chat_command_kick_help				^279*^707 /kick <user> (Requires channel admin privileges)
 chat_command_ban					/ban
-chat_command_ban_help				^279*^707 /ban <user> (Requires channel admin priviledges)
+chat_command_ban_help				^279*^707 /ban <user> (Requires channel admin privileges)
 chat_command_unban					/unban
-chat_command_unban_help				^279*^707 /unban <user> (Requires channel admin priviledges)
+chat_command_unban_help				^279*^707 /unban <user> (Requires channel admin privileges)
 chat_command_silence				/silence
-chat_command_silence_help			^279*^707 /silence <user> <duration in min> (Requires channel admin priviledges)
+chat_command_silence_help			^279*^707 /silence <user> <duration in min> (Requires channel admin privileges)
 chat_command_message_all_long		/messageall
 chat_command_message_all			/msgall
 chat_command_banlist				/banlist
@@ -441,10 +442,10 @@ chat_command_notes_delete_success	^279* Note deleted successfully.
 chat_command_notes_delete_invalid	^279* Invalid note ID.
 chat_command_promote				/promote
 chat_command_promote_short			/p
-chat_command_promote_help			^279*^707 /promote <user> (Requires channel admin priviledges)
+chat_command_promote_help			^279*^707 /promote <user> (Requires channel admin privileges)
 chat_command_demote					/demote
 chat_command_demote_short			/d
-chat_command_demote_help			^279*^707 /demote <user> (Requires channel admin priviledges)
+chat_command_demote_help			^279*^707 /demote <user> (Requires channel admin privileges)
 chat_command_auth					/auth
 chat_command_auth_short				/a
 chat_command_auth_list				list
@@ -465,8 +466,8 @@ chat_command_auth_disable			disable
 chat_command_auth_disable_help		^279*^707 /auth disable.
 chat_command_password				/password
 chat_command_password_short			/pass
-chat_command_password_set_help		^279*^707 /password (Clears password, requires channel admin priviledges)
-chat_command_password_clear_help	^279*^707 /password <password> (Sets password, requires channel admin priviledges)
+chat_command_password_set_help		^279*^707 /password (Clears password, requires channel admin privileges)
+chat_command_password_clear_help	^279*^707 /password <password> (Sets password, requires channel admin privileges)
 chat_command_roll					/roll
 chat_command_roll_help				^279*^707 /roll <low> <high> (Rolls a number between low and high, (1 through 32,767)).
 chat_command_emote					/emote
@@ -479,6 +480,8 @@ chat_command_matchup_short			/ma
 chat_command_matchup_help			Matchup information is only available once the match has started.
 chat_command_gameinfo				/gameinfo
 chat_command_gameinfo_short			/gi
+chat_command_ping_all				/pingall
+chat_command_ping_all_short			/pa
 chat_command_available				/available
 chat_command_available_message		^279* Your chat status is now 'available'.
 chat_command_afk					/afk
@@ -503,19 +506,19 @@ chat_command_help_whois				^279*^707 /whois <user>^279                  -Gets in
 chat_command_help_stats				^279*^707 /stats <user> [pop]^279            -Gets stats for the specified user (Optionally include "pop" to drop stats down).
 chat_command_help_joingame			^279*^707 /joingame <type> <param>^279       -Join a game.
 chat_command_help_topic				^279*^707 /topic [topic]^279                 -Views or sets current channel topic
-chat_command_help_kick				^279*^707 /kick <user>^279                   -Kicks user from the channel (Requires channel admin priviledges).
-chat_command_help_ban				^279*^707 /ban <user>^279                    -Bans user from the channel (Requires channel admin priviledges).
-chat_command_help_unban				^279*^707 /unban <user>^279                  -Unbans user from the channel (Requires channel admin priviledges).
-chat_command_help_silence			^279*^707 /silence <user> <duration>^279     -Silences a user for <duration> minutes (Requires channel admin priviledges).
-chat_command_help_promote			^279*^707 /promote <user>^279                -Promote target user (Requires channel admin priviledges)
-chat_command_help_demote			^279*^707 /demote <user>^279                 -Demote target user (Requires channel admin priviledges)
+chat_command_help_kick				^279*^707 /kick <user>^279                   -Kicks user from the channel (Requires channel admin privileges).
+chat_command_help_ban				^279*^707 /ban <user>^279                    -Bans user from the channel (Requires channel admin privileges).
+chat_command_help_unban				^279*^707 /unban <user>^279                  -Unbans user from the channel (Requires channel admin privileges).
+chat_command_help_silence			^279*^707 /silence <user> <duration>^279     -Silences a user for <duration> minutes (Requires channel admin privileges).
+chat_command_help_promote			^279*^707 /promote <user>^279                -Promote target user (Requires channel admin privileges)
+chat_command_help_demote			^279*^707 /demote <user>^279                 -Demote target user (Requires channel admin privileges)
 chat_command_help_banlist			^279*^707 /banlist <command> <arguments>^279 -Banlist management commands.
 chat_command_help_ignore			^279*^707 /ignore <command> <arguments>^279  -Ignore list management commands.
 chat_command_help_ignorechat		^279*^707 /ignorechat^279					 -Toggles ignoring 'Team' or 'All' chat.
 chat_command_help_notes				^279*^707 /notes <command> <arguments>^279   -Note management commands.
-chat_command_help_auth				^279*^707 /auth <command> <arguments>^279    -Channel authorization user list management (Requires channel admin priviledges)
-chat_command_help_password			^279*^707 /password <password>^279           -Sets current channel password (Requires channel admin priviledges)
-chat_command_help_password_clear	^279*^707 /password^279						 -Clears current channel password (Requires channel admin priviledges)
+chat_command_help_auth				^279*^707 /auth <command> <arguments>^279    -Channel authorization user list management (Requires channel admin privileges)
+chat_command_help_password			^279*^707 /password <password>^279           -Sets current channel password (Requires channel admin privileges)
+chat_command_help_password_clear	^279*^707 /password^279						 -Clears current channel password (Requires channel admin privileges)
 chat_command_help_roll				^279*^707 /roll <low> <high>^279			 -Rolls a number between low and high, (1 through 32,767).
 chat_command_help_emote				^279*^707 /emote <message>^279				 -Emotes a message from your username.
 chat_command_help_time				^279*^707 /time^279                          -Prints your current system time.

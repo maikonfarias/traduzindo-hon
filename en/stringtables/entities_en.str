@@ -462,7 +462,7 @@ State_Arachna_Ability1_FRAME_effect
 Ability_Arachna2_name											Harden Carapace
 Ability_Arachna2_description									Arachna hardens her carapace for a short duration, increasing her resistance to magical attacks.
 Ability_Arachna2_effect_header									Hardened Carapace Effects
-Ability_Arachna2_IMPACT_effect									Dispels debuffs on self and applies Hardened Carapace for 6 seconds.
+Ability_Arachna2_IMPACT_effect									Dispels debuffs on self and applies Hardened Carapace for 3 seconds.
 
 Ability_Arachna2_tooltip_flavor									It's tough to be a widow.
 
@@ -1117,22 +1117,23 @@ State_Devourer_Ability2_Self_FRAME_effect						{25,50,75,100} Magic damage per s
 // Ability_Devourer3
 Ability_Devourer3_name											Cadaver Armor
 Ability_Devourer3_description									This grotesque armor increases the Devourer's Magic Armor and permanently adds strength for each nearby hero kill or each kill he makes.
-Ability_Devourer3_KILL_effect									Permanently adds {0.9,1.2,1.5,1.8} Strength to self per hero kill, or {0.03,0.05,0.06,0.09} Strength per creep kill.
+Ability_Devourer3_KILL_effect									Permanently adds 1.5 Strength to self per hero kill.
 Ability_Devourer3_effect_header									Status Effect
 Ability_Devourer3_tooltip_flavor								Evil never dies!
 
-State_Devourer_Ability3_FRAME_effect							On death, when not killed by the Devourer, adds {0.9,1.2,1.5,1.8} strength to the Devourer.
+State_Devourer_Ability3_FRAME_effect							On death, when not killed by the Devourer, adds 1.5 strength to the Devourer.
 
 // Ability_Devourer4
 Ability_Devourer4_name											Devour
-Ability_Devourer4_description									The Devourer grabs a target enemy and feasts on their flesh, dealing massive damage for every second he feeds.
+Ability_Devourer4_description									The Devourer grabs a target enemy and feasts on their flesh, dealing massive damage for every second he feeds while increasing his own power.
 Ability_Devourer4_description2									^930This ability can be boosted by ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gStaff Effect:^* Heals self equal to the damage done. Deals additional 0.75 * Strength Magic damage per second.
 Ability_Devourer4_effect_header									Devour Effects
-Ability_Devourer4_IMPACT_effect									Applies Devour to target enemy for 3 seconds or until channel is canceled.
+Ability_Devourer4_IMPACT_effect									Applies Devour to target enemy for 3 seconds or until channel is canceled.\n\nFor each second of channel, a charge that lasts 10 seconds is added to Devourer. Each charge increases damage by {15,25,35}, increases maximum health by {100,150,200}, and increases the radius of Decay by 50.
 Ability_Devourer4_name:ult_boost								Om Nom Nom ^g(Boosted)^*
 Ability_Devourer4_description2:ult_boost						This ability has been boosted by Staff of the Master.
 Ability_Devourer4_IMPACT_effect:ult_boost						Applies Devour to target enemy for 3 seconds or until channel is canceled.\n^gHeals self equal to ^gthe ^gdamage ^gdone.^*
 Ability_Devourer4_tooltip_flavor								Dahmer Reincarnate!
+
 
 // State_Devourer_Ability4
 State_Devourer_Ability4_name									Devour
@@ -1194,6 +1195,48 @@ State_DiseasedRider_Ability4_name								Infected
 Hero_DiseasedRider_name											Plague Rider
 Hero_DiseasedRider_description									The pestilential stench of the Plague Rider can be smelled for miles, a foul warning of the diseases following in its wake.  Mounted atop his undead steed, carried aloft on a stinking cloud of flies, the Plague Rider sows sickness among friends and enemies alike, all with the end of spreading disease across the lands of Newerth.
 
+// Ability_DoctorRepulsor1
+Ability_DoctorRepulsor1_name									Magnetic Contraption
+Ability_DoctorRepulsor1_description								The Doctor drops one of his patented Magnetic Contraptions on the ground. Any enemies who come near the Contraption disrupt the delicate magnetic field within, causing it to explode.
+Ability_DoctorRepulsor1_IMPACT_effect							After a 1 second delay, any enemies who come within 235 radius of the Contraption trigger it. Deals {140,180,220,260} Magic damage to all units in a 260 radius.\n\nThis ability can be used in mid-flight during "Ludicrous speed".
+
+Ability_DoctorRepulsor1_tooltip_flavor							
+
+// Ability_DoctorRepulsor2
+Ability_DoctorRepulsor2_name									Opposite Charges
+Ability_DoctorRepulsor2_description								Doctor Repulsor instantly magnetizes the target enemy while dropping a strong magnet of the opposite charge at his feet, stunning the enemy while slowly pulling them towards the magnet. Sadly, the magnet is so strong is snares the Doctor as well.
+Ability_DoctorRepulsor2_effect_header							Magnetized Effects
+Ability_DoctorRepulsor2_IMPACT_effect							Stuns the target for {1,1.5,2,2.5} and pulls them {100,150,200,250} distance towards the Magnet over the duration. Applies Magnetized to Doctor Repulsor for 3 seconds.
+
+Ability_DoctorRepulsor2_tooltip_flavor							
+
+// State_DoctorRepulsor_Ability2_Self
+State_DoctorRepulsor_Ability2_Self_name							Magnetized
+
+// Ability_DoctorRepulsor3
+Ability_DoctorRepulsor3_name									Electric Frenzy
+Ability_DoctorRepulsor3_description								Every time the Doctor uses an ability, his pod reacts by charging itself with excess energy. This energy is released on the next attack, causing the attack to deal bonus damage and splash, zapping the enemies it hits.
+Ability_DoctorRepulsor3_effect_header							Fully Charged Effects
+Ability_DoctorRepulsor3_ABILITY_IMPACT_effect					Applies Fully Charged to the Doctor. Lasts until he attacks again.
+
+Ability_DoctorRepulsor3_tooltip_flavor							
+
+// State_DoctorRepulsor_Ability3
+State_DoctorRepulsor_Ability3_name								Fully Charged
+State_DoctorRepulsor_Ability3_FRAME_effect						On attack impact, deals {30,45,60,75} Magic damage in a 300 radius. Snares all units hit for .6 seconds.
+
+// Ability_DoctorRepulsor4
+Ability_DoctorRepulsor4_name									Ludicrous Speed
+Ability_DoctorRepulsor4_ACTIVATE_COST_effect					^cMana cost: 15 + 7% of Max Mana^*
+Ability_DoctorRepulsor4_description								Doctor Repulsor throws his pod into overdrive, traveling at a Ludicrous Speed towards the target location at the cost of mana. Any units he passes through are damaged and all trees are destroyed.
+Ability_DoctorRepulsor4_IMPACT_effect							Travels at {1250,1875,2500} speed towards the target location. Costs 10 + 1% of Max Mana per 100 units traveled. If mana hits 0, the Doctor stops immediately.\n\nAny unit passed through takes {8,12,16} Magic damage per 100 units already traveled.\n\nThe Doctor is invulnerable during flight.
+
+Ability_DoctorRepulsor4_tooltip_flavor							We've gone into Plaid!
+
+// Hero_DoctorRepulsor
+Hero_DoctorRepulsor_name										Doctor Repulsor
+Hero_DoctorRepulsor_description									The storied professor of archaelogy had never been content. The earth was full of artifacts; artifacts that held secrets to the prior lives of men. Science, psychology, sociology... the forgotten vices of man and the primal tenets of the Hellbourne, poured into the professor as he absorbed the forbidden knowledge and was consumed. Devoid of free will, he is now a slave to the power he once coveted.
+
 // Ability_DwarfMagi1
 Ability_DwarfMagi1_name											Fireball
 Ability_DwarfMagi1_description									Hurls a scorching fireball at target opponent, both damaging and stunning them.
@@ -1222,7 +1265,7 @@ Ability_DwarfMagi2_tooltip_flavor								Lets get hammered!
 
 // State_DwarfMagi_Ability2
 State_DwarfMagi_Ability2_name									Burning
-State_DwarfMagi_Ability2_FRAME_effect							{10,20,30,40} Magic damage per second
+State_DwarfMagi_Ability2_FRAME_effect							{10,20,30,40} Magic damage per second\n{-1,-2,-3,-4} Magic Armor, decreasing to 0 over duration
 
 // Ability_DwarfMagi3
 Ability_DwarfMagi3_name											Frenzy
@@ -1398,7 +1441,7 @@ Ability_Engineer1_tooltip_flavor								It puts hair on yer chest!
 Ability_Engineer2_name											Steam Turret
 Ability_Engineer2_description									The Steam Turret is a marvel in rapidfire technology. Deploying at the place of his choosing in any direction he wants, it lays down waves of suppressing fire that slow enemies who stay in the cone.
 Ability_Engineer2_effect_header									Suppressed Effects
-Ability_Engineer2_IMPACT_effect									Creates a Steam Turret at the target position facing the vector direction. Fires 5 shots a second for 6 seconds in an 800 distance 400 radius cone.\n\nBullets hit all enemies they come into contact with, dealing {25/40/55/70} Physical damage, pushing them 25 units away from the Turret, and applying a stacking 7% movement slow.\n\nUpon reaching 5 stacks, the unit has "Suppressed" applied to them for 5 seconds are cannot be hit by the turret again.
+Ability_Engineer2_IMPACT_effect									Creates a Steam Turret at the target position facing the vector direction. Fires 5 shots a second for 6 seconds in an 800 distance 400 radius cone.\n\nBullets hit all enemies they come into contact with, dealing {25/40/55/70} Physical damage, pushing them 25 units away from the Turret, and applying a stacking 7% movement slow.\n\nMax slow is 5 stacks or 35% movement.\n\nAny one target can only take damage from 10 bullets max.
 Ability_Engineer2_tooltip_flavor								My turret is my best friend.
 
 // State_Engineer_Ability2_Suppression
@@ -1447,8 +1490,8 @@ Ability_Fade2_tooltip_flavor									The darkness can put you beside yourself...
 // Ability_Fade3
 Ability_Fade3_name:fadeshadowmode								Shadow Stance
 Ability_Fade3_description										Fayde becomes a master at using her Scythe or bending the Shadows around her, protecting her from damage and enhancing her other abilities. Fayde starts in Scythe Stance.
-Ability_Fade3_IMPACT_effect:fadeshadowmode						Toggles to Scythe Stance.\n\nFayde gains a Deflection charge every 10 seconds with a maximum of {1,2,3,4} charges. Each charge blocks up to 50 damage from player-controlled units.\n\nThis ability may be toggled without breaking Reflection's stealth.\n\n^yScythe Stance^*:\n- Deflection blocks Physical damage\n- Cull stuns\n- Burning Shadows destroys mana\n- Reflection's Shadow Cripple effect deals Physical damage\n\n^yShadow Stance^*:\n- Deflection blocks Magic damage\n- Cull destroys mana\n- Burning Shadows stuns\n- Reflection's Shadow Cripple effect deals Magic damage
-Ability_Fade3_IMPACT_effect										Toggles to Shadow Stance.\n\nFayde gains a Deflection charge every 10 seconds with a maximum of {1,2,3,4} charges. Each charge blocks up to 50 damage from player-controlled units.\n\nThis ability may be toggled without breaking Reflection's stealth.\n\n^yScythe Stance^*:\n- Deflection blocks Physical damage\n- Cull stuns\n- Burning Shadows destroys mana\n- Reflection's Shadow Cripple effect deals Physical damage\n\n^yShadow Stance^*:\n- Deflection blocks Magic damage\n- Cull destroys mana\n- Burning Shadows stuns\n- Reflection's Shadow Cripple effect deals Magic damage
+Ability_Fade3_IMPACT_effect:fadeshadowmode						Toggles to Scythe Stance.\n\nFayde gains a Deflection charge every 10 seconds with a maximum of {1,2,3,4} charges. Each charge blocks up to 40 damage from player-controlled units.\n\nThis ability may be toggled without breaking Reflection's stealth.\n\n^yScythe Stance^*:\n- Deflection blocks Physical damage\n- Cull stuns\n- Burning Shadows destroys mana\n- Reflection's Shadow Cripple effect deals Physical damage\n\n^yShadow Stance^*:\n- Deflection blocks Magic damage\n- Cull destroys mana\n- Burning Shadows stuns\n- Reflection's Shadow Cripple effect deals Magic damage
+Ability_Fade3_IMPACT_effect										Toggles to Shadow Stance.\n\nFayde gains a Deflection charge every 10 seconds with a maximum of {1,2,3,4} charges. Each charge blocks up to 40 damage from player-controlled units.\n\nThis ability may be toggled without breaking Reflection's stealth.\n\n^yScythe Stance^*:\n- Deflection blocks Physical damage\n- Cull stuns\n- Burning Shadows destroys mana\n- Reflection's Shadow Cripple effect deals Physical damage\n\n^yShadow Stance^*:\n- Deflection blocks Magic damage\n- Cull destroys mana\n- Burning Shadows stuns\n- Reflection's Shadow Cripple effect deals Magic damage
 Ability_Fade3_name												Scythe Stance
 Ability_Fade3_tooltip_flavor									Choose wisely.
 
@@ -1457,10 +1500,10 @@ State_Fade_Ability3_name										Shadow Stance
 
 // Ability_Fade4
 Ability_Fade4_name												Reflection
-Ability_Fade4_description										Creates a seamless copy of Fayde that does full damage while Fayde goes stealth. When Fayde attacks from stealth she cripples the enemy, dealing heavy damage over a few seconds.
+Ability_Fade4_description										Fayde becomes one with the shadows, going stealth for a short time. When Fayde attacks from stealth she cripples the enemy, dealing heavy damage over a few seconds.
 Ability_Fade4_effect_header										Reflection Effects
 Ability_Fade4_effect_header2									Shadow Cripple Effects
-Ability_Fade4_IMPACT_effect										Creates a seamless illusion that does 100% base damage but takes 300% damage and applies Reflection to Fayde for {20,35,50} seconds.\n\nWhen Fayde lands an attack, Shadow Cripple is applied to the target for 3 seconds and her illusion is instantly killed.\n\n^yScythe Stance^*: Physical damage\n\n^yShadow Stance^*: Magic damage
+Ability_Fade4_IMPACT_effect										Applies Reflection to Fayde for {20,35,50} seconds.\n\nWhen Fayde lands an attack, Shadow Cripple is applied to the target for 3 seconds.\n\n^yScythe Stance^*: Physical damage\n\n^yShadow Stance^*: Magic damage
 
 Ability_Fade4_tooltip_flavor									My Shadow is my best friend...
 
@@ -1468,9 +1511,9 @@ Ability_Fade4_tooltip_flavor									My Shadow is my best friend...
 State_Fade_Ability4_Stealth_name								Reflection
 State_Fade_Ability4_Stealth_FRAME_effect						Applies Shadow Cripple upon attack
 
-// State_Fade_Ability4_Slow
-State_Fade_Ability4_Slow_name									Shadow Cripple
-State_Fade_Ability4_Slow_FRAME_effect							{75,125,175} Damage per second
+// State_Fade_Ability4_MortalStrike
+State_Fade_Ability4_MortalStrike_name							Shadow Cripple
+State_Fade_Ability4_MortalStrike_FRAME_effect					{75,125,175} Damage per second
 
 // Hero_Fade
 Hero_Fade_name													Fayde
@@ -1497,7 +1540,7 @@ State_Fairy_Ability2_name										Enchanted
 Ability_Fairy3_name												Nymphora's Zeal
 Ability_Fairy3_description										Shoots forth a wisp to damage and stun enemies in a line. Each enemy hit is stunned and damaged.
 Ability_Fairy3_effect_header									Nymphora's Zeal Effects
-Ability_Fairy3_IMPACT_effect									Launches a projectile that impacts targets it touches in a 1200 unit line, stunning for {0.75,1.0,1.25,1.5} second(s), and dealing {25,50,75,100} Magic damage to them, then the projectile returns back to self. Units can be impacted twice, once when the projectile is being launched and once when it is returning.
+Ability_Fairy3_IMPACT_effect									Launches a projectile that impacts targets it touches in a 1200 unit line, stunning for {1.0,1.3,1.6,2.0} second(s), and dealing {55,90,130,160} Magic damage to them, then the projectile returns back to self. Units can be impacted twice, once when the projectile is being launched and once when it is returning.
 Ability_Fairy3_tooltip_flavor									It goes both ways.
 
 // State_Fairy_Ability3
@@ -1568,7 +1611,7 @@ Ability_ForsakenArcher3_LEARN_effect
 
 // State_ForsakenArcher_Ability3
 State_ForsakenArcher_Ability3_name								Poisoned
-State_ForsakenArcher_Ability3_FRAME_effect						{4,8,12,16} Magic damage per second
+State_ForsakenArcher_Ability3_FRAME_effect						{6,8,10,12} Magic damage per second
 
 // Pet_ForsakenArcher_Ability3
 Pet_ForsakenArcher_Ability3_name								Skeletal Minion
@@ -1654,19 +1697,15 @@ Hero_Frosty_description											The berserker warriors of the land of Frostfie
 
 // Ability_Gauntlet1
 Ability_Gauntlet1_name											Infernal Instability
-Ability_Gauntlet1_description									The demonic force powering Gauntlet's massive glove grows unstable. If Gauntlet's glove hits anything in the next couple of seconds, some of the demonic power inside it will detonate, damaging and knocking back all nearby enemies.
+Ability_Gauntlet1_description									The demonic force powering Gauntlet's massive glove grows unstable. If Gauntlet hits anything in the next couple of seconds, some of the demonic power inside it will detonate, damaging and knocking back all nearby enemies.
 Ability_Gauntlet1_description2									
 Ability_Gauntlet1_effect_header									Infernal Instability
-Ability_Gauntlet1_effect_header2								Infernal Burns Effects
 Ability_Gauntlet1_tooltip_flavor								Tag.
-Ability_Gauntlet1_IMPACT_effect									Applies Infernal Instability to self for 4 seconds.\n\nWhile Infernal Instability is active, Gauntlet's hand will detonate on the first target that it comes in contact with. This includes auto attacks, Grapple, or Gauntlet Blast. This ability can be activated while the glove is in mid flight.\n\nUpon detonation, deals {120,180,260,320} Magic damage in the radius, pushing back units near the hit target and applying Infernal Burns for 1.5 seconds.
+Ability_Gauntlet1_IMPACT_effect									On use, applies Infernal Instability to self for 4 seconds and gives max charges to Enfeeble.\n\nWhile Infernal Instability is active, Gauntlet's hand will detonate on the first target that he attacks.\n\nUpon detonation, deals {120,180,260,320} Magic damage in the radius, pushing back units near the hit target.
 
 // State_Gauntlet_Ability1
 State_Gauntlet_Ability1_name									Infernal Instability
 
-// State_Gauntlet_Ability1_Slow
-State_Gauntlet_Ability1_Slow_name								Infernal Burns
-State_Gauntlet_Ability1_Slow_FRAME_effect						Reduces movement speed by 90% initially, recovering to full speed over 1.5 seconds.
 
 // Ability_Gauntlet2
 Ability_Gauntlet2_name											Grapple
@@ -1684,9 +1723,9 @@ Ability_Gauntlet3_description2
 Ability_Gauntlet3_effect_header									Enfeeble Effects
 Ability_Gauntlet3_effect_header2								
 Ability_Gauntlet3_tooltip_flavor								Not the face!
-Ability_Gauntlet3_IMPACT_effect									Gains one charge for every {0.8,0.6,0.4,0.2} seconds that pass without Gauntlet attacking. Maximum of 30 charges.
-Ability_Gauntlet3_ATTACK_IMPACT_effect							Applies Enfeeble to attack target for 5 seconds, applying all of the ability's charges to the target, resetting charges back to 0.
-Ability_Gauntlet3_ATTACK_IMPACT_effect:attack					Applies Enfeeble to attack target for 5 seconds, applying all of the ability's charges to the target, resetting charges back to 0.
+Ability_Gauntlet3_IMPACT_effect									Gains one charge for every {0.8,0.6,0.4,0.2} seconds that pass without Gauntlet attacking. Maximum of {20,25,30,35} charges.
+Ability_Gauntlet3_ATTACK_IMPACT_effect							Applies Enfeeble to attack target for 3 seconds, applying all of the ability's charges to the target, resetting charges back to 0.\n\nMax possible slow is 50%.
+Ability_Gauntlet3_ATTACK_IMPACT_effect:attack					Applies Enfeeble to attack target for 3 seconds, applying all of the ability's charges to the target, resetting charges back to 0.\n\nMax possible slow is 50%.
 
 // State_Gauntlet_Ability3
 State_Gauntlet_Ability3_name									Enfeeble
@@ -1706,7 +1745,7 @@ Ability_Gauntlet4_description2
 Ability_Gauntlet4_effect_header									Consumed by Power
 Ability_Gauntlet4_effect_header2								
 Ability_Gauntlet4_tooltip_flavor								Great for hard to reach places!
-Ability_Gauntlet4_IMPACT_effect									Shoots the glove out at the target unit.\n\nAny enemies within 200 units of the glove as it flies have Consumed by Power applied to them for 4 seconds.\n\nWhen the glove strikes the target, they take {300,450,600} Magic damage and all buffs are purged. The target hero is stunned and revealed for 1.5 seconds.
+Ability_Gauntlet4_IMPACT_effect									Shoots the glove out at the target unit.\n\nAny enemies within {200,225,250} units of the glove as it flies have Consumed by Power applied to them for 4 seconds.\n\nWhen the glove strikes the target, they take {300,400,500} Magic damage and all buffs are purged. The target hero is stunned and revealed for 1.5 seconds.
 
 // State_Gauntlet_Ability4_Statis
 State_Gauntlet_Ability4_Statis_name								Consumed by Power
@@ -1967,9 +2006,9 @@ Ability_HellDemon1_tooltip_flavor								Your fate is sealed!
 Ability_HellDemon2_name											Withering Presence
 Ability_HellDemon2_description									No hero is without blemish. All who face the Soul Reaper face their every regret. Every harrowing moment spent in the Soul Reaper's presence damages those forced to endure it.
 Ability_HellDemon2_tooltip_flavor								Stay out of my personal space.
-Ability_HellDemon2_IMPACT_effect								On use, turns off the aura
+Ability_HellDemon2_IMPACT_effect								{700,800,900,1000} Radius\nOn use, turns off the aura.
 Ability_HellDemon2_name:helldemonhealthdegenaura_off			Withering Presence (Off)
-Ability_HellDemon2_IMPACT_effect:helldemonhealthdegenaura_off	On use, turns on the aura
+Ability_HellDemon2_IMPACT_effect:helldemonhealthdegenaura_off	{700,800,900,1000} Radius\nOn use, turns on the aura
 
 // State_Ability2
 State_HellDemon_Ability2_name									Withering Presence
@@ -2334,7 +2373,7 @@ State_Legionnaire_Ability1_Enemy_description					Forced to attack the Legionnair
 Ability_Legionnaire2_name										Terrifying Charge
 Ability_Legionnaire2_description								The Legionnaire charges very quickly at a target foe and swings wide with his mighty axe upon reaching them, dealing damage and Terrifying those unfortunate enough to be standing there. Terrified enemies attack very quickly, but do less damage per attack.
 Ability_Legionnaire2_effect_header								Terrify Effects
-Ability_Legionnaire2_IMPACT_effect								Charges with +{40/80/120/500} movespeed towards the target. Being stunned or issuing another command will cancel the charge early.\n\nUpon reaching the target, forces an attack that deals {150,200,250,300}% of your base damage and applies Terrify for {4,5,6,7} seconds to all enemies in a 110 degree 240 distance cone.
+Ability_Legionnaire2_IMPACT_effect								Charges with +{60,100,140,500} movespeed towards the target. Being stunned, issuing another command, or hitting the 5s duration will cancel the charge early.\n\nUpon reaching the target, forces an attack that deals {150,200,250,300}% of your base damage and applies Terrify for {4,5,6,7} seconds to all enemies in a 110 degree 240 distance cone.
 Ability_Legionnaire2_tooltip_flavor								I'll give you a head start... RUN!
 
 // State_Legionnaire_Ability2
@@ -3049,16 +3088,16 @@ State_Rampage_Ability1_Warp_tooltip_flavor						None
 
 // Ability_Rampage2
 Ability_Rampage2_name											Might of the Herd
-Ability_Rampage2_description									The rhino Rampage rides is a born leader, enhancing his movement speed and giving Rampage more damage the faster he is moving. Upon command, his Rhino can stomp the ground, dealing damage and slowing people around himself.
+Ability_Rampage2_description									The rhino Rampage rides is a born leader, enhancing his movement speed and giving Rampage more damage the faster he is moving. Upon command his Rhino can stomp the ground, slowing people around himself.
 Ability_Rampage2_description2									
 Ability_Rampage2_effect_header									Herded Effects
 Ability_Rampage2_effect_header2									
 Ability_Rampage2_tooltip_flavor									Harder, Faster, Stronger, Better!
-Ability_Rampage2_IMPACT_effect									Gains {3,6,9,12}% of movespeed in attack damage.\n\nOn use, stomps the ground every second for {1,2,3,4} seconds, applying Herded to all enemies in the radius for 5 seconds.
+Ability_Rampage2_IMPACT_effect									Gains {3,6,9,12}% of movespeed in attack damage.\n\nOn use, stomps the ground for 4 seconds, applying Herded to all enemies in the radius for the duration. Slow lingers for 1 second if they move away from Rampage.
 
 // State_Rampage_Ability2_Slow
 State_Rampage_Ability2_Slow_name								Herded
-State_Rampage_Ability2_Slow_FRAME_effect						-15 Movespeed per charge
+State_Rampage_Ability2_Slow_FRAME_effect						
 
 // Ability_Rampage3
 Ability_Rampage3_name											Horned Strike
@@ -3070,7 +3109,7 @@ Ability_Rampage3_tooltip_flavor									He doesn't fight all my battles!
 Ability_Rampage3_FRAME_effect									
 Ability_Rampage3_IMPACT_effect									While in cooldown, one second is subtracted for every 1000 units traveled by Rampage.
 Ability_Rampage3_ATTACK_START_effect							
-Ability_Rampage3_ATTACK_IMPACT_effect							Stuns and pushes back the target {140,180,220,260} units over {0.95,1.15,1.35,1.55} seconds, dealing 100 bonus Physical damage.
+Ability_Rampage3_ATTACK_IMPACT_effect							Stuns and pushes back the target {140,180,220,260} units over {0.95,1.15,1.35,1.55} seconds, dealing {40,50,80,100} bonus Physical damage.
 Ability_Rampage3_DEATH_effect									
 
 // State_Rampage_Ability3
@@ -3639,7 +3678,7 @@ Ability_Tundra2_description2
 Ability_Tundra2_effect_header									
 Ability_Tundra2_effect_header2									
 Ability_Tundra2_tooltip_flavor									
-Ability_Tundra2_IMPACT_effect									Summons Shiver and Coeurl for 60 seconds. Coeurl will only be summoned at level 2 or above.\n\n^yShiver^*:\n- {100,100,200,200} Health\n- {270,270,400,400} Movespeed.\n -Sight range increases with level\n- Gains the ability to go invisible for a short time at level 3\n\n^yCoeurl^*:\n - {0,400,400,500} Health\n - 350 Movespeed\n - On attack, slows Movespeed of target by {0,20,20,35}% and Attackspeed by {0,20,20,35}\n - Has the same level of Coldblooded as Tundra does
+Ability_Tundra2_IMPACT_effect									Summons Shiver and Coeurl for 60 seconds. Coeurl will only be summoned at level 2 or above.\n\n^yShiver^*:\n- {100,100,200,200} Health\n- {270,270,400,400} Movespeed.\n- Magic Immune\n- Sight range increases with level\n- Gains the ability to go invisible for a short time at level 3\n\n^yCoeurl^*:\n- {0,400,400,500} Health\n- 350 Movespeed\n- On attack, slows Movespeed of target by {0,20,20,35}% and Attackspeed by {0,20,20,35}\n- Has the same level of Coldblooded as Tundra does
 
 // Pet_Tundra_Ability2_Flying
 Pet_Tundra_Ability2_Flying_name									Shiver
@@ -3841,12 +3880,12 @@ Hero_Vanya_description											Wielding twin, scythe-like blades, the she-reap
 Ability_Vindicator1_name										Sage's Lore
 Ability_Vindicator1_description									The Vindicator unleashes forgotten lore from within The Book, causing any enemy heroes to lose health and mana until they cast a spell.
 Ability_Vindicator1_effect_header								Sage's Lore Effects
-Ability_Vindicator1_IMPACT_effect								Applies Sage's Lore to all enemy heroes in the radius for {5,6,7,8} seconds.
+Ability_Vindicator1_IMPACT_effect								Applies Sage's Lore to all enemy heroes in the radius for 7 seconds.
 Ability_Vindicator1_tooltip_flavor								School's for fools.
 
 // State_Vindicator_Ability1
 State_Vindicator_Ability1_name									Sage's Lore
-State_Vindicator_Ability1_FRAME_effect							{20,30,40,50} damage per second\nDrains {10,15,20,25} mana per second\nRemoved when a spell is cast
+State_Vindicator_Ability1_FRAME_effect							{14,26,40,57} damage per second\nDrains {7,13,20,28.5} mana per second\nRemoved when a spell is cast
 
 // Ability_Vindicator2
 Ability_Vindicator2_name										Master's Incantation
@@ -3858,13 +3897,13 @@ Ability_Vindicator2_tooltip_flavor								The great big book of everything.
 // Ability_Vindicator3
 Ability_Vindicator3_name										Glyph of Silence
 Ability_Vindicator3_description									Inscribed into the binding of The Book, the Glyph of Silence quiets the minds of those around it who cast a spell while stealing their power if they fall in battle.
-Ability_Vindicator3_IMPACT_effect								Any enemy hero who casts a spell while in range of the Aura is Silenced.\n\nAny enemy hero who dies while in range of the Aura will permanently lose 1 Intelligence while Vindicator permanently gains 1 Intelligence.
+Ability_Vindicator3_IMPACT_effect								Any enemy hero the Vindicator can see and who casts a spell while in range of the Aura is Silenced.\n\nAny enemy hero who dies while in range of the Aura will permanently lose 1 Intelligence while Vindicator permanently gains 2 Intelligence.
 Ability_Vindicator3_tooltip_flavor								Can you read me a bedtime story?
 
 State_Vindicator_Ability3_Aura_name								Glyph of Silence Aura
 State_Vindicator_Ability3_Aura_FRAME_effect						Silenced for {.75,1.5,2.25,3} seconds when a spell is cast
 State_Vindicator_Ability3_Int_name								Glyph of Silence Aura
-State_Vindicator_Ability3_Int_FRAME_effect						Any enemy who casts is Silenced for {.75,1.5,2.25,3} seconds
+State_Vindicator_Ability3_Int_FRAME_effect						Any enemy who casts is Silenced for {1,1.75,2.5,3.25} second(s)
 
 // Ability_Vindicator4
 Ability_Vindicator4_name										Final Chapter
@@ -4516,7 +4555,7 @@ Item_Manatube_shop_flavor										A specialized device for enhancing the magica
 // Item_Marchers
 Item_Marchers_name												Marchers
 Item_Marchers_description										
-Item_Marchers_description2										This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rEnhanced Marchers^*, ^rSteam ^rBoots^*, or ^rPost Haste^*.
+Item_Marchers_description2										This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rSteam^* ^rBoots^*, ^rGhost^* ^rMarchers^*, ^rPlated^* ^rGreaves^* or ^rPost^* ^rHaste^*.
 Item_Marchers_effect_header										Status Effect
 Item_Marchers_shop_flavor										The reclusive inventor who devised Marchers meant to alleviate the exhaustion of campaigning armies by allowing soldiers to move significantly faster. Instead, he discovered they were forced to march for just as many hours and for longer distances.
 
@@ -4884,7 +4923,7 @@ State_ElderParasite_name										Crazed
 // Item_EnhancedMarchers
 Item_EnhancedMarchers_name										Ghost Marchers
 Item_EnhancedMarchers_description								When activated, applies Phased to self for 6 seconds.
-Item_EnhancedMarchers_description2								This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rSteam ^rBoots^*, or ^rPost Haste^*.
+Item_EnhancedMarchers_description2								This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rSteam^* ^rBoots^*, ^rPlated^* ^rGreaves^* or ^rPost^* ^rHaste^*.
 Item_EnhancedMarchers_effect_header								Phased Effects
 Item_EnhancedMarchers_shop_flavor								Ghost Marchers not only provide a significant boost to one's speed but also contain clever springs that help the wearer both inflict and shrug off damage. Moreover, these springs can provide occasional quick bursts of speed to get one out of a sticky situation.
 Item_EnhancedMarchers_IMPACT_effect								Applies Phased to self for 6 seconds.
@@ -5080,7 +5119,7 @@ Item_Strength5_shop_flavor										The Builders of the Legion of Man spent year
 // Item_PlatedGreaves
 Item_PlatedGreaves_name											Plated Greaves
 Item_PlatedGreaves_description									When activated, grants bonus damage and deflection to nearby ally creeps.
-Item_PlatedGreaves_description2									This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rGhost ^rMarchers^*, ^rSteam ^rBoots^*, or ^rPost ^rHaste^*.
+Item_PlatedGreaves_description2									This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rSteam^* ^rBoots^*, ^rGhost^* ^rMarchers^* or ^rPost^* ^rHaste^*.
 Item_PlatedGreaves_effect_header								Plated Effects
 Item_PlatedGreaves_IMPACT_effect								Applies Plated to all allied non-player controlled creep units in a 450 radius around self for 15 seconds.
 Item_PlatedGreaves_effect_header:movespeed						Plated Effect
@@ -5091,7 +5130,7 @@ State_PlatedGreaves_name										Plated
 // Item_PostHaste
 Item_PostHaste_name												Post Haste
 Item_PostHaste_description										When activated, teleports self to a selected allied structure or unit. 
-Item_PostHaste_description2										Shares cooldown with Homecoming Stone.\n\nThis item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rGreaves^*, ^rEnhanced ^rGreaves^*, or ^rSteam Boots^*.
+Item_PostHaste_description2										Shares cooldown with Homecoming Stone.\n\nThis item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rSteam^* ^rBoots^*, ^rGhost^* ^rMarchers^* or ^rPlated^* ^rGreaves^*.
 Item_PostHaste_effect_header									Status Effect
 Item_PostHaste_IMPACT_effect									After channel time, teleports self to target allied unit or structure.
 
@@ -5142,9 +5181,9 @@ Pet_NecroRanged_name											Puzzlebox Wizard
 
 // Item_RestorationStone
 Item_RestorationStone_name										Restoration Stone
-Item_RestorationStone_description								Upon activation, resets the cooldown of all abilities.
+Item_RestorationStone_description								Upon activation, resets the cooldown of all abilities and items.
 Item_RestorationStone_effect_header								Status Effect
-Item_RestorationStone_IMPACT_effect								Resets the cooldown of all abilities.
+Item_RestorationStone_IMPACT_effect								Resets the cooldown of all abilities and items.
 
 // Item_Replenish
 Item_Replenish_name												Ring of Sorcery
@@ -5276,7 +5315,7 @@ Item_Intelligence7_shop_flavor									Those most immersed in the secret arts of
 // Item_Steamboots
 Item_Steamboots_name											Steamboots
 Item_Steamboots_description										When activated, cycles through attribute bonus.
-Item_Steamboots_description2									This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rEnhanced ^rGreaves^*, or ^rPost Haste^*.
+Item_Steamboots_description2									This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rGhost^* ^rMarchers^*, ^rPlated^* ^rGreaves^* or ^rPost^* ^rHaste^*.
 Item_Steamboots_effect_header									Status Effect
 Item_Steamboots_shop_flavor										In many ways the paragon of military footwear, Steamboots improve not only marching speed but also a warrior's rate of attack. Most amazingly of all, however, by turning a dial on the boots' heel, they can be set to bestow agility, strength, or even intelligence. Truly, a mechanical marvel!
 Item_Steamboots_FRAME_effect									+10 Agility|Intelligence when changed

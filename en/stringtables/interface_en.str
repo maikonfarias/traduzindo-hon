@@ -180,7 +180,7 @@ account_lost_username_processing			Processing Request, Please Wait...
 account_lost_username_success				An email containing your username has been sent to the email address attached to your account.
 account_lost_username_error1				I'm an error. Look at me. Justin will be making real errors some day!  No I won't!  I don't need your steenking errors!
 account_lost_password						Lost Password
-account_lost_password_msg					Enter either your username or email address to have your password sent to the email address attched to your account.
+account_lost_password_msg					Enter either your username or email address to have your password sent to the email address attached to your account.
 account_lost_pass_sep						-or-
 account_lost_password_success				An email containing your password has been sent to the email address attached to your account.
 
@@ -709,7 +709,7 @@ create_acc_friends							Enter a friend's nickname to upgrade their account. ^y(
 create_acc_promocode						Have a coupon or promo code?  Enter it here:
 create_acc_nocc_xfer						The promotional code entered grants a free Heroes of Newerth account, and credit card information will not be submitted with this transaction.
 create_acc_nocc_xfer_subaccount				The promotional code entered grants a free Heroes of Newerth sub-account, and credit card information will not be submitted with this transaction.
-create_acc_successfull_purch				Purchase successful - your Heroes of Newerth account has been upgraded.  A reciept has been sent to your e-mail address.
+create_acc_successfull_purch				Purchase successful - your Heroes of Newerth account has been upgraded.  A receipt has been sent to your e-mail address.
 create_acc_friends							Upgrade a Friends Account
 create_acc_promocode						Enter a Promo Code
 create_acc_purchase_btn						Purchase Account
@@ -742,6 +742,7 @@ web_form_subaccount_name					Sub-Accounts
 web_form_subaccount_description				Sub-Accounts provide an additional identity for your account with its own nickname, statistics, and buddies. Your sub-account is tied to your main account and only one account in that group can be logged in at any given time.
 web_form_subaccount_description_short		Sub-Accounts provide an additional identity for your account with its own nickname, statistics, and buddies.
 web_form_resetstats_title					Reset Stats
+web_form_resetstats_desciprtion_short		You can clear only certain statistics or wipe all of the statistics for your account.
 web_form_upgradefriend_title				Upgrade Friend
 web_form_resetstats_pubstats				Public Statistics
 web_form_resetstats_pubstats_tip			Statistics gained from playing public games.
@@ -759,7 +760,7 @@ web_form_resetstats_blurb					You can clear certain statistics or wipe all of an
 web_form_resetstats_warning					Be Aware: There will be another statistics reset before the release of Heroes of Newerth.
 web_form_resetstats_button					Reset Stats
 web_form_resetstats_about					About Resetting Stats
-web_form_resetstats_notice					Click the "Reset Stats" button to permanently reset the chosen stats.  Please note that this process is permanent, and not reversable.
+web_form_resetstats_notice					Click the "Reset Stats" button to permanently reset the chosen stats.  Please note that this process is permanent, and not reversible.
 web_form_create_subaccount_title			Create Sub-Account
 web_form_purchase_account					Purchase Account
 web_form_upgrade_account_title				Upgrade Account
@@ -794,6 +795,7 @@ web_form_subaccount_success					You've successfully created a sub-account!  You'
 web_form_paypal_notice						We also accept paypal payments at www.heroesofnewerth.com
 web_form_website_payment_notice				Accounts can also be purchased at our website, www.heroesofnewerth.com.  In addition to credit card payment, PayPal is also accepted at our website.
 web_form_nickchange_title					Change Nickname
+web_form_nickchange_description_short		Change the Nickname of this account while keeping all of your account statistics.
 web_form_nickchange_newnick					New Nickname
 web_form_nickchange_confirmnick				Confirm Nickname
 web_form_nickchange_notice					This form can be used to change your nickname to any available nickname, including those used by accounts which have not yet purchased Heroes of Newerth but had existed during the beta.
@@ -839,7 +841,7 @@ web_form_reportabuse_type2					Exploiting a Bug
 web_form_reportabuse_type3					Harassment/Threats
 web_form_reportabuse_type4					Hate Speech
 web_form_reportabuse_type5					Impersonating S2Games
-web_form_reportabuse_type6					Feeding/Boosting
+web_form_reportabuse_type6					Stat Manipulation
 web_form_reportabuse_type7					Illegal Content
 web_form_reportabuse_type8					Obscene Language
 web_form_reportabuse_type9					General Abuse
@@ -849,8 +851,8 @@ web_form_reportabuse_playerlist_status		Retrieving player list.  Please wait.
 web_form_reportabuse_select_matchid			Please Select a Match ID
 web_form_reportabuse_noplayers				No Players Found
 web_form_reportabuse_blurb					Problematic players may be reported to S2 for review. Please fill out the form carefully and be as accurate as possible in your description of the incident. Once your submission is received and reviewed, a GM will notify you if action is taken. Intentional misuse of the Report Abusive Behavior feature may result in your account being suspended.
-web_form_reportabuse_type0_desc				Spamming of advertising a service in a game or public channel.
-web_form_reportabuse_type1_desc				Racially offensive, sexually explicit, or profane nicknames may be reported and recommended for a nickname change.
+web_form_reportabuse_type0_desc				Spamming or advertising a service in a game.
+web_form_reportabuse_type1_desc				Racially offensive, sexually explicit, or profane nicknames may be reported and recommended for a name change.
 web_form_reportabuse_type2_desc				Deliberate and malicious exploitation of bugs to gain an advantage over the enemy team or grief allies. Some examples follow:
 web_form_reportabuse_type2_desc1			Instant-kill bugs
 web_form_reportabuse_type2_desc2			Server exploits
@@ -859,8 +861,8 @@ web_form_reportabuse_type2_desc4			Gold manipulation
 web_form_reportabuse_type3_desc				Unused
 web_form_reportabuse_type4_desc				Unused
 web_form_reportabuse_type5_desc				Impersonation of S2Games employees or volunteer personnel to intimidate or otherwise gain an advantage over other players.
-web_form_reportabuse_type6_desc				Manipulation of stats, rating, or game outcome via multi-accounting or plants.
-web_form_reportabuse_type7_desc				Sharing anything that violates US Law. Examples include:
+web_form_reportabuse_type6_desc				Manipulation of stats, rating, or game outcome via multi-accounting or plants. Poor playing, unintentional feeding, and other similar incidents are NOT reportable under this or any other rule.
+web_form_reportabuse_type7_desc				Discussion of topics that violate US Law.
 web_form_reportabuse_type7_desc1			Bomb making
 web_form_reportabuse_type7_desc2			Child pornography
 web_form_reportabuse_type7_desc3			Illegal drug information
@@ -914,17 +916,16 @@ prompt_tutorial_title						Play the Tutorial?
 prompt_tutorial_text						Welcome to Heroes of Newerth.  As a new player, we recommend that you first play through the tutorial before playing a match online.  Would you like to visit the tutorial now?
 
 // Garena Stuff
-
-garena_error_GA002000						Garena members must register a new account.
-garena_error_GA001004						Login is not available for your account.
-garena_error_GA001003						Account suspended.  For more information, visit the Customer Service page.
-garena_error_GA001002						Invalid Nickname or Password.
-garena_error_GA001000						Could not connect. Try again.
-garena_error_GA001001						Garena authentication is not available at this time.
-garena_error_GA001005						Garena registration failed. Try again.
-garena_error_GA001006						Nickname is already taken. Choose another.
-garena_error_GA003001						Your account is not activated for HoN. You need a valid beta key to participate in close beta.
-garena_error_GA003002						Your account is banned to play HoN.
+#GA001000									Could not connect. Try again.
+#GA001001									Garena authentication is not available at this time.
+#GA001002									Invalid Nickname or Password.
+#GA001003									Account suspended.  For more information, visit the Customer Service page.
+#GA001004									Login is not available for your account.
+#GA001005									Garena registration failed. Try again.
+#GA001006									Nickname is already taken. Choose another.
+#GA002000									Garena members must register a new account.
+#GA003001									Your account is not activated for HoN. You need a valid beta key to participate in close beta.
+#GA003002									Your account is banned to play HoN.
 garena_create_account_title					Create a HoN Account
 garena_create_account_body					Before you can log in, you must first create a Heroes of Newerth account which will then be linked to your Garena account.
 
@@ -1560,7 +1561,7 @@ game_end_stats_download_waiting_tootlip		Checking for replay file.
 game_end_stats_download_retry_tooltip		The replay download has failed, the file may not yet be uploaded, click here to try again.
 game_end_stats_download_unav_btn			Replay Unavailable
 game_end_stats_download_unav_tooltip		This replay is not available for download.
-game_end_stats_download_compat_tooltip		This replay is of an older version of Heroes of Newerth.  Compatability files will need to be downloaded in order to view this replay.
+game_end_stats_download_compat_tooltip		This replay is of an older version of Heroes of Newerth.  Compatibility files will need to be downloaded in order to view this replay.
 game_end_stats_fetch_btn					Fetch Match ID
 game_end_stats_fetch_tooltip				Enter the match ID of a completed game. Past match IDs may be searched on the replays website. After fetching match details, you may view the details of the match, and download a replay, if available.
 
@@ -1635,7 +1636,7 @@ game_hero_select_label_attack_speed			^yAtk Speed:^*     {speed}
 // main_lobby.interface
 mainlobby_button_main_menu					Main Menu
 main_lobby_replay_view						Match Stats
-main_lobby_replay_view_desc					Use the Match Stats viewer to review the match summary of past HoN games. With the Stats Viewer you can quickly find your recent games, lookup games by match ID, and download replay files.
+main_lobby_replay_view_desc					Use the Match Stats viewer to review the match summary of past HoN games. With the Stats Viewer you can quickly find your recent games, look up games by match ID, and download replay files.
 main_lobby_ranked_play						Ranked Play
 main_lobby_ranked_play_desc					Ranked Play allows you to create games with groups and even place different friends on opposing teams.  It will then take players looking for similar games based upon your preferences and attempt to create fair teams based upon statistics.  These matches are then used to rank players in our ladder.
 mainlobby_button_quick_play_config			Quick Play Configuration
@@ -1930,7 +1931,7 @@ game_replay_control_title					Replay Control
 game_replay_control_fog						Display Fog of War
 game_replay_control_fog_tip					When selected, the Fog of War will be displayed as seen by the selected player.
 game_replay_control_lockcam					Lock Camera
-game_replay_control_lockcam_tip				When selected, the camera will allways follow the selected player.
+game_replay_control_lockcam_tip				When selected, the camera will always follow the selected player.
 
 // game_loading.interface
 game_loading_button_cancel					Cancel Loading
@@ -2053,6 +2054,7 @@ game_menu_moved								To share control, use the buttons on your team panel on t
 vote_concede								Concede?
 vote_remake									Remake?
 vote_kick									Kick {target}^*?
+vote_kick_afk								Kick {target}^*?
 vote_pause									Pause?
 
 // alt_info_hero.interface
@@ -2168,6 +2170,7 @@ player_stats_from							Show Stats From:
 player_stats_player_name					Player Name:
 player_stats_last_20_matches				Last 20 Matches
 player_stats_smr_tmr						SMR / TMR
+player_stats_reset_leaver					Reset Leave %%
 
 
 // game_setup.package
@@ -2327,7 +2330,7 @@ tooltip_hero_lvl_msg						This is the current level of the hero you're viewing. 
 tooltip_increase_lvl						Increase Level
 tooltip_increase_lvl_msg					Click here to increase the level of the hero you're viewing.
 tooltip_decrease_lvl						Decrease Level
-tooltip_decrease_lvl_msg					Click here to derease the level of the hero you're viewing.
+tooltip_decrease_lvl_msg					Click here to decrease the level of the hero you're viewing.
 tooltip_reset_lvl							Reset Level
 tooltip_reset_lvl_msg						Click here to reset the hero's level back to 1.
 tooltip_open_shop							Open Shop
@@ -2362,7 +2365,7 @@ tooltip_hero_abils							Hero Abilities
 tooltip_hero_abils_msg						Listed in this column for each hero are its four abilities.  Hover over each ability icon for a description of the ability.
 tooltip_faction								Hero Faction
 tooltip_faction_msg							This icon represents the faction that the hero is aligned with.  The green icon indicates that the hero has aligned with the Legion, while the red icon indicates that the hero belongs has aligned with the Hellbourne.
-tooltip_extras								Click to open account extras menu.
+tooltip_extras								Click here to open the account extras menu.
 tooltip_sort_dmg							Sort by Attack Damage
 tooltip_sort_dmg_msg						Click here to sort the hero list by Attack Damage.
 
@@ -2543,7 +2546,7 @@ loading_tip_total				44
 // Matchmaking
 amm_title									Automatic Matchmaking
 amm_jumptier__tip_title						Join Immediately
-amm_jumptier_tip							Clicking this button will join a ranked match autmatically at this RSR difference tier.
+amm_jumptier_tip							Clicking this button will join a ranked match automatically at this RSR difference tier.
 amm_stats_header							Matchmaking Statistics
 
 

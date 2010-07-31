@@ -269,7 +269,8 @@ vote_failed						Votação falhou.
 
 team_concede					{color}{team}^* concedeu a partida. Estatísticas do resto da partida não será gravado e todos estão livres para sair sem penalidades.
 game_abandoned					Seus colegas de time o abandonaram. A partira irá continuar, porém, você poderá sair sem sofrer penalidades.
-afk_warning						Você está perto de ser desconectado por inatividade. Saia da base e lute!
+afk_warning						Você está perto de ser considerado inativo. Saia da base e lute!
+afk_message						Você está marcado como LDT e poderá ser retirado.
 
 lobby_connect					{color}{player}^* está conectando.
 lobby_kick						{color}{player}^* foi retirado pelo host.
@@ -284,12 +285,13 @@ lobby_assign_spectator			O host colocou o {slot_color}{player}^* como espectador
 lobby_assign_referee			O host colocou o {slot_color}{player}^* como juíz.
 lobby_assign_first_ban			O host colocou o {team_color}{team}^* como o primeiro para banir.
 
-
 game_info_practice				Praticar
 nosolo							Você deverá ter um oponente para começar um jogo. Comece em modo ^yPraticar^* se quiser jogar sozinho.
 warn_nomods					{slot_color}{player}^* está usando arquivos modificados e só será permitido que ele assista a partida.
 nomods						Não foi possível iniciar a partida.  {slot_color}{player}^* está usando arquivos modificados e deverá assistir a partida ou desabilitar TODOS os mods (interface, textura, etc) antes de ser liberado para jogar nessa partida com Regras de Torneio.
 game_unpause					{name} retomou o jogo, irá continuar em 5 segundos.
+player_ping					{slot_color}{player}^* ping: {ping}ms
+player_ping_no_players				Nenhum jogador para fazer ping.
 
 
 

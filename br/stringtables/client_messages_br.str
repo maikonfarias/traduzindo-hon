@@ -10,6 +10,7 @@ disconnect_snapshot_fragment	Muitos fragmentos de snapshot.
 disconnect_not_invited			Você não tem convite para entrar nesta partida privada.
 disconnect_no_cookie			Você deve estar logado para jogar nesse servidor.
 disconnect_auth_failed			O servidor não conseguiu autorizar sua conta. Tente fazer o login novamente, por favor.
+disconnect_duplicate_connect	A conta que você está se conectando já está em uso.
 disconnect_unknown				Você foi desconectado.
 disconnect_timeout				Sem resposta do servidor.
 disconnect_game_over			A partida foi terminada.
@@ -479,6 +480,8 @@ chat_command_matchup_short			/ma
 chat_command_matchup_help			Informação da partida só está disponível quando a partida for iniciada.
 chat_command_gameinfo				/gameinfo
 chat_command_gameinfo_short			/gi
+chat_command_ping_all				/pingall
+chat_command_ping_all_short			/pa
 chat_command_available				/available
 chat_command_available_message		^279* Seu estado no chat agora é 'disponível'.
 chat_command_afk					/afk
