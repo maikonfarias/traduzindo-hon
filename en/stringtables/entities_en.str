@@ -913,7 +913,7 @@ Ability_Chronos3_description									Chronos can steal time from any enemy hero 
 Ability_Chronos3_description2									This ability contains ^yBashing^* properties. Items and abilities with ^yBashing^* properties contain a shared cooldown time.
 Ability_Chronos3_effect_header									Time Stolen Effect
 Ability_Chronos3_effect_header2									Time Enhanced Effect
-Ability_Chronos3_ATTACK_IMPACT_effect							When attacking an enemy hero, applies Time Stolen to them and Time Enhanced to self for 8.5 seconds. Does not propagate to illusions.\n\nEach hit will add one charge. On the fifth charge, the target is stunned for {.25,.5,.75,1} seconds.\n\nThe agility steal and charge gain will not increase while the target is stunned by Curse of Ages.
+Ability_Chronos3_ATTACK_IMPACT_effect							When attacking an enemy hero, applies Time Stolen to them and Time Enhanced to self for 8.5 seconds. Does not propagate to illusions.\n\nEach hit will add one charge. On the fifth charge, the target is stunned for {.25,.5,.75,1} seconds and takes {15,30,45,60} Physical damage.\n\nThe agility steal and charge gain will not increase while the target is stunned by Curse of Ages.
 Ability_Chronos3_tooltip_flavor									Enjoy the space-time continuum.
 
 // State_Chronos_Ability3
@@ -1441,7 +1441,7 @@ Ability_Engineer1_tooltip_flavor								It puts hair on yer chest!
 Ability_Engineer2_name											Steam Turret
 Ability_Engineer2_description									The Steam Turret is a marvel in rapidfire technology. Deploying at the place of his choosing in any direction he wants, it lays down waves of suppressing fire that slow enemies who stay in the cone.
 Ability_Engineer2_effect_header									Suppressed Effects
-Ability_Engineer2_IMPACT_effect									Creates a Steam Turret at the target position facing the vector direction. Fires 5 shots a second for 6 seconds in an 800 distance 400 radius cone.\n\nBullets hit all enemies they come into contact with, dealing {25/40/55/70} Physical damage, pushing them 25 units away from the Turret, and applying a stacking 7% movement slow.\n\nMax slow is 5 stacks or 35% movement.\n\nAny one target can only take damage from 10 bullets max.
+Ability_Engineer2_IMPACT_effect									Creates a Steam Turret at the target position facing the vector direction. Fires 5 shots a second for 6 seconds in an 800 distance 400 radius cone.\n\nBullets hit all enemies they come into contact with, dealing {25/40/55/70} Physical damage, pushing them 25 units away from the Turret, and applying a stacking 7% movement slow.\n\nMax slow is 5 stacks or 35% movement.\n\nAny one target can only take damage from 8 bullets max and the turret dies in 3 hits.
 Ability_Engineer2_tooltip_flavor								My turret is my best friend.
 
 // State_Engineer_Ability2_Suppression
@@ -1540,7 +1540,7 @@ State_Fairy_Ability2_name										Enchanted
 Ability_Fairy3_name												Nymphora's Zeal
 Ability_Fairy3_description										Shoots forth a wisp to damage and stun enemies in a line. Each enemy hit is stunned and damaged.
 Ability_Fairy3_effect_header									Nymphora's Zeal Effects
-Ability_Fairy3_IMPACT_effect									Launches a projectile that impacts targets it touches in a 1200 unit line, stunning for {1.0,1.3,1.6,2.0} second(s), and dealing {55,90,130,160} Magic damage to them, then the projectile returns back to self. Units can be impacted twice, once when the projectile is being launched and once when it is returning.
+Ability_Fairy3_IMPACT_effect									Launches a projectile that impacts targets it touches in a 1200 unit line, stunning for {0.75,1,1.25,1.5} second(s), and dealing {50,85,120,155} Magic damage to them, then the projectile returns back to self. Units can be impacted twice, once when the projectile is being launched and once when it is returning.
 Ability_Fairy3_tooltip_flavor									It goes both ways.
 
 // State_Fairy_Ability3
@@ -1572,6 +1572,46 @@ Ability_Fairy4_TPIn_IMPACT_effect								Teleports any friendly hero to Nymphora
 Hero_Fairy_name													Nymphora
 Hero_Fairy_description											Nymphora has long been a protectress of Newerth's secret beauties, its secluded glades and crystal springs.  One might think that the paragon of butterflies and skylarks would have little role in the brutal carnage that has engulfed the world, but one need only see the tiny fangs revealed by her smile to know that she holds secret dangers of her own.
 
+// Ability_FlintBeastwood1
+Ability_FlintBeastwood1_name									Explosive Flare
+Ability_FlintBeastwood1_description								Mr Beastwood loads a flare into one of his weapons, firing the flaming mass towards his enemies. When it lands it obviously explodes; burning and slowing anyone in the area. He loves the smell of burning in the morning.
+Ability_FlintBeastwood1_effect_header							Flared Effects
+Ability_FlintBeastwood1_effect_header2							
+Ability_FlintBeastwood1_tooltip_flavor							I see [soon to be] dead people...
+Ability_FlintBeastwood1_IMPACT_effect							Fires a flare at the target location. Deals {75,150,225,300} Magic damage to units and {25,50,75,100} Magic damage to towers on impact, leaving a burning flare for 4 seconds.\n\nThe burning flare gives vision and applies Flared to all enemies in the radius.
+
+// State_FlintBeastwood_Ability1
+State_FlintBeastwood_Ability1_name								Flared
+State_FlintBeastwood_Ability1_description						
+State_FlintBeastwood_Ability1_description2						
+
+// Ability_FlintBeastwood2
+Ability_FlintBeastwood2_name									Hollowpoint Shells
+Ability_FlintBeastwood2_description								Mr Beastwood is a fan of chaos, mixing up his Hollowpoint Shells with his normal ones. This gives his attacks a chance to deal bonus damage and stun for a very short time. He laughs at you every time it happens.
+Ability_FlintBeastwood2_effect_header							
+Ability_FlintBeastwood2_ATTACK_IMPACT_effect					{25,30,35,40}% chance that a bullet will explode, dealing {20,30,40,50} bonus Physical damage and stunning for {.05,.1,.2,.2} seconds. 
+Ability_FlintBeastwood2_tooltip_flavor							What's better than bullets? Better bullets.
+
+// Ability_FlintBeastwood3
+Ability_FlintBeastwood3_name									Dead Eye
+Ability_FlintBeastwood3_description								Mr.Beastwood sees you. He sees you when you're hiding, he knows when you're afraid. He knows you may be far away, but that won't save your life today...
+Ability_FlintBeastwood3_effect_header							
+Ability_FlintBeastwood3_tooltip_flavor							Mr Beastwood's coming to town!
+Ability_FlintBeastwood3_FRAME_effect							Increases attack range by {60,120,180,240}.\n\nLevels 3 and 4 allow Flint to outrange towers.
+
+// Ability_FlintBeastwood4
+Ability_FlintBeastwood4_name									Money Shot
+Ability_FlintBeastwood4_description								Mr Beastwood isn't called the best shot in Western Newerth for no reason. He can take a second or two and line up one powerful shot on an enemy some distance away, dealing huge damage when it hits. And it always hits.
+Ability_FlintBeastwood4_description2							
+Ability_FlintBeastwood4_effect_header							
+Ability_FlintBeastwood4_effect_header2							
+Ability_FlintBeastwood4_tooltip_flavor							BOOM, HEADSHOT!
+Ability_FlintBeastwood4_IMPACT_effect							After a 1.7s cast time, fires a shot at the target. Deals {355,505,655} Magic damage and stuns for .2 seconds.
+
+// Hero_FlintBeastwood
+Hero_FlintBeastwood_name										Flint Beastwood
+Hero_FlintBeastwood_description									
+
 // Ability_ForsakenArcher1
 Ability_ForsakenArcher1_name									Crippling Volley
 Ability_ForsakenArcher1_description								The Forsaken Archer fires a Volley of barbed arrows high into the sky, dispersing them over an area and pinning any enemy caught in their path to the ground.
@@ -1579,7 +1619,7 @@ Ability_ForsakenArcher1_description2
 Ability_ForsakenArcher1_effect_header							Crippling Volley Effect
 Ability_ForsakenArcher1_effect_header2							
 Ability_ForsakenArcher1_tooltip_flavor							Going somewhere?
-Ability_ForsakenArcher1_IMPACT_effect							Applies Crippling Volley to all enemies in the radius for {1.75,2,2.25,2.5} seconds. Deals {85,150,215,280} Magic damage.
+Ability_ForsakenArcher1_IMPACT_effect							Applies Crippling Volley to all enemies in the radius for {1,1.5,2,2.5} seconds. Deals {85,150,215,280} Magic damage.
 
 // State_ForsakenArcher_Ability1
 State_ForsakenArcher_Ability1_name								Crippling Volley
@@ -1600,12 +1640,12 @@ Ability_ForsakenArcher2_ATTACK_effect:ForsakenArcher_Ability2_Active	Splits atta
 Ability_ForsakenArcher3_name									Call of the Damned
 Ability_ForsakenArcher3_description								With the cursed powers bestowed on her by the Hellbourne, the Forsaken Archer is able to bring the soulless bodies of her victims back from the dead to fight by her side as skeletal warriors.
 Ability_ForsakenArcher3_description2							
-Ability_ForsakenArcher3_effect_header							Poisoned
+Ability_ForsakenArcher3_effect_header							
 Ability_ForsakenArcher3_effect_header2							
 Ability_ForsakenArcher3_tooltip_flavor							Three seconds..
 Ability_ForsakenArcher3_IMPACT_effect							Switches Call of the Damned to store up skeletons to be summoned later (when un-toggled), rather than spawning them instantly.\n\nSwitching this ability will kill any active skeletons.
 Ability_ForsakenArcher3_IMPACT_effect:Ability_ForsakenArcher3_active	Instantly spawns stored up skeletons based on current charges. Only {3,4,5,6} skeletons may be active at any one time.
-Ability_ForsakenArcher3_KILL_effect								Creates an uncontrollable Skeletal Minion that will follow and assist the Forsaken Archer. Does not propagate to illusions.\n\nSkeletal Minions:\n^y-^* Have 20 max health\n^y-^* Deal {14,20,26,32} to {20,26,32,38} Physical damage per attack\n^y-^* Apply Poisoned to targets on attack for 4 seconds\n\nSkeletal Minions last 30 seconds and only {3,4,5,6} can be alive at a time.
+Ability_ForsakenArcher3_KILL_effect								Creates an uncontrollable Skeletal Minion that will follow and assist the Forsaken Archer. Does not propagate to illusions.\n\nSkeletal Minions:\n^y-^* Have 20 max health\n^y-^* Deal {14,20,26,32} to {20,26,32,38} Physical damage per attack\n\nSkeletal Minions last 30 seconds and only {3,4,5,6} can be alive at a time.
 Ability_ForsakenArcher3_INDIRECT_KILL_effect					
 Ability_ForsakenArcher3_LEARN_effect							
 
@@ -1823,7 +1863,7 @@ State_Gladiator_Ability4_description2
 State_Gladiator_Ability4_effect_header							None
 State_Gladiator_Ability4_effect_header2							None
 State_Gladiator_Ability4_tooltip_flavor							None
-State_Gladiator_Ability4_FRAME_effect							Damage taken is halved.\nPrevented damage is taken all at once at the end of the buff and is nonlethal.
+State_Gladiator_Ability4_FRAME_effect							Damage taken is halved.\nPrevented damage is taken over {5,6,7} seconds at the end of the buff and is nonlethal.
 
 // Hero_Gladiator
 Hero_Gladiator_name												The Gladiator
@@ -1898,9 +1938,9 @@ Ability_Hantumon2_tooltip_flavor								Psst! Right behind you.
 
 // Ability_Hantumon3
 Ability_Hantumon3_name											Backstab
-Ability_Hantumon3_description									Night Hound is a master at exploiting openings in combat. When he attacks a target from behind, he does extra damage equal to a percent of the victim's agility.
+Ability_Hantumon3_description									Night Hound is a master at exploiting openings in combat. When he attacks a target from behind, he does extra damage equal to a percent of the his agility.
 Ability_Hantumon3_effect_header									Status Effect
-Ability_Hantumon3_ATTACK_effect									When behind target, adds {25,50,75,100}% of the victim's agility as bonus attack damage.
+Ability_Hantumon3_ATTACK_effect									When behind target, adds {25,50,75,100}% of his agility as bonus attack damage.
 
 
 Ability_Hantumon3_tooltip_flavor								I can't be trusted.
@@ -3615,6 +3655,7 @@ State_Tempest_Ability4_Pull_name								Elemental Void\n{30,50,70} Magic damage 
 Hero_Tempest_name												Tempest
 Hero_Tempest_description										Spirits born of the elements, Tempests howl across the land raining fire and ice alike, indeed even calling great meteors from the heavens.  Summoned of old by the Beast Horde, these ethereal beings now are summoners themselves, bringing elementals and even shadows of themselves onto the battlefield.  Even their allies view these strange beings with awe bordering on fear.
 
+
 // Ability_Treant1
 Ability_Treant1_name											Camouflage
 Ability_Treant1_description										The Keeper uses his influence over the forest to hide his allies from enemy sight. Grants invisibility to target unit so long as they remain near trees.
@@ -3663,6 +3704,7 @@ State_Treant_Ability4_FRAME_effect								85 Magic damage per second.
 // Hero_Treant
 Hero_Treant_name												Keeper of the Forest
 Hero_Treant_description											An ancient protector of the forest, the Keeper fights to save the lush lands of Newerth he has tended to his whole long life. Possessing a spiritual link to the trees, the Keeper has the ability to see what they see, be hidden amongst them, and even use them as brutal weapons to aid him in battle.
+
 
 // Ability_Tundra1
 Ability_Tundra1_name											Piercing Shards
@@ -3723,11 +3765,17 @@ Ability_Tundra2_Pet_Ability2_tooltip_flavor
 Ability_Tundra2_Pet_Ability2_ATTACK_IMPACT_effect				Adds {3,5,8,10} charges per attack as long as Coeurl keeps attacking the same target. Upon target switch, charges are halved.\n\n50 Max Charges\n1 Attack Speed per charge\n\nBased on the level of Coldblooded when spawned.
 
 // Ability_Tundra3
-Ability_Tundra3_name											Coldblooded
-Ability_Tundra3_description										Tundra gets more and more focused on beating an enemy in battle the longer he fight them. Every attack he lands will increase his attack speed against that target, letting him beat them faster! When he switches targets, though, he has to build his speed back up.
-Ability_Tundra3_description2									
-Ability_Tundra3_tooltip_flavor									
-Ability_Tundra3_ATTACK_IMPACT_effect							Adds {5,10,15,20} charges per attack as long as Tundra keeps attacking the same target. Upon target switch, charges are halved.\n\n100 Max Charges\n1 Attack Speed per charge
+Ability_Tundra3_name											Cold Shoulder
+Ability_Tundra3_description										Last winter, Tundra had two distant relatives teach him how to charge his enemies correctly, coating them in ice on contact. The ice makes them easier to hit, increasing everyone's attack speed against that target.
+Ability_Tundra3_effect_header									Cold Shoulder Effects
+Ability_Tundra3_tooltip_flavor									The Brothers of cold send their regards...
+Ability_Tundra3_IMPACT_effect									On use, charges the target, dealing Tundra's Attack Damage on impact.\n\nApplies Cold Shoulder to them for 8 seconds.
+
+// State_Tundra_Ability3_Debuff
+State_Tundra_Ability3_Debuff_name								Cold Shoulder
+State_Tundra_Ability3_Debuff_FRAME_effect						Increases attackspeed against this target by {15,30,45,60}, 2 second linger
+
+State_Tundra_Ability3_Buff_name									Cold Shouldered!
 
 // Ability_Tundra4
 Ability_Tundra4_name											Avalanche
@@ -4555,7 +4603,7 @@ Item_Manatube_shop_flavor										A specialized device for enhancing the magica
 // Item_Marchers
 Item_Marchers_name												Marchers
 Item_Marchers_description										
-Item_Marchers_description2										This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rSteam^* ^rBoots^*, ^rGhost^* ^rMarchers^*, ^rPlated^* ^rGreaves^* or ^rPost^* ^rHaste^*.
+Item_Marchers_description2										This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rStriders^*, ^rSteam^* ^rBoots^*, ^rGhost^* ^rMarchers^*, ^rPlated^* ^rGreaves^* or ^rPost^* ^rHaste^*.
 Item_Marchers_effect_header										Status Effect
 Item_Marchers_shop_flavor										The reclusive inventor who devised Marchers meant to alleviate the exhaustion of campaigning armies by allowing soldiers to move significantly faster. Instead, he discovered they were forced to march for just as many hours and for longer distances.
 
@@ -4674,6 +4722,13 @@ Item_Steamstaff_name											Steamstaff
 Item_Steamstaff_description										
 Item_Steamstaff_effect_header									Status Effect
 Item_Steamstaff_shop_flavor										Hissing and spraying steam in all directions, Steamstaves are loud and ungainly things that nevertheless pack an impressive wallop and move with extra speed due to their interesting mechanics.
+
+// Item_Striders
+Item_Striders_name												Striders
+Item_Striders_description										Worn by the greatest runners in the history of Man, these Striders allow the wearer to inrease their speed significantly as long as they focus on running. Any other action will break the focus.
+Item_Striders_description2										This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rSteam^* ^rBoots^*, ^rPlated^* ^rGreaves^*, ^rGhost^* ^rMarchers^* or ^rPost^* ^rHaste^*.
+Item_Striders_shop_flavor										
+Item_Striders_FRAME_effect:movespeed							\nWhen out of combat for 6 seconds, increases movespeed by 100 over the next 2 seconds.\n\nBonus movespeed is removed when the owner takes damage, casts a spell, attacks, or uses an item.\n\nUsing Wards, Bottle, Mana, or Health Potions will not remove the bonus speed.
 
 // Item_SwordOfTheHigh
 Item_SwordOfTheHigh_name										Sword of the High
@@ -4856,7 +4911,7 @@ Item_BloodChalice_effect_header									Blood Chalice Effects
 Item_BloodChalice_effect_header2								
 Item_BloodChalice_tooltip_flavor								
 Item_BloodChalice_shop_flavor									No pain, no gain!
-Item_BloodChalice_IMPACT_effect									On use, removes 150 health and grants 150 mana.\n\nOne second after use, the bonus mana will begin being draining away over the next 10 seconds. Only the bonus mana initially gained can be drained and the drain is dispelled as soon as it is used up.
+Item_BloodChalice_IMPACT_effect									On use, removes 150 health and grants 150 mana.\n\nIf an enemy hero within 700 AOE is killed before 15 seconds after use, the user is healed back the initial 150 health cost.
 
 // State_Item_BloodChalice
 State_Item_BloodChalice_name									Blood Chalice
@@ -4923,7 +4978,7 @@ State_ElderParasite_name										Crazed
 // Item_EnhancedMarchers
 Item_EnhancedMarchers_name										Ghost Marchers
 Item_EnhancedMarchers_description								When activated, applies Phased to self for 6 seconds.
-Item_EnhancedMarchers_description2								This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rSteam^* ^rBoots^*, ^rPlated^* ^rGreaves^* or ^rPost^* ^rHaste^*.
+Item_EnhancedMarchers_description2								This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rStriders^*, ^rSteam^* ^rBoots^*, ^rPlated^* ^rGreaves^* or ^rPost^* ^rHaste^*.
 Item_EnhancedMarchers_effect_header								Phased Effects
 Item_EnhancedMarchers_shop_flavor								Ghost Marchers not only provide a significant boost to one's speed but also contain clever springs that help the wearer both inflict and shrug off damage. Moreover, these springs can provide occasional quick bursts of speed to get one out of a sticky situation.
 Item_EnhancedMarchers_IMPACT_effect								Applies Phased to self for 6 seconds.
@@ -5119,7 +5174,7 @@ Item_Strength5_shop_flavor										The Builders of the Legion of Man spent year
 // Item_PlatedGreaves
 Item_PlatedGreaves_name											Plated Greaves
 Item_PlatedGreaves_description									When activated, grants bonus damage and deflection to nearby ally creeps.
-Item_PlatedGreaves_description2									This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rSteam^* ^rBoots^*, ^rGhost^* ^rMarchers^* or ^rPost^* ^rHaste^*.
+Item_PlatedGreaves_description2									This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rStriders^*, ^rSteam^* ^rBoots^*, ^rGhost^* ^rMarchers^* or ^rPost^* ^rHaste^*.
 Item_PlatedGreaves_effect_header								Plated Effects
 Item_PlatedGreaves_IMPACT_effect								Applies Plated to all allied non-player controlled creep units in a 450 radius around self for 15 seconds.
 Item_PlatedGreaves_effect_header:movespeed						Plated Effect
@@ -5130,7 +5185,7 @@ State_PlatedGreaves_name										Plated
 // Item_PostHaste
 Item_PostHaste_name												Post Haste
 Item_PostHaste_description										When activated, teleports self to a selected allied structure or unit. 
-Item_PostHaste_description2										Shares cooldown with Homecoming Stone.\n\nThis item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rSteam^* ^rBoots^*, ^rGhost^* ^rMarchers^* or ^rPlated^* ^rGreaves^*.
+Item_PostHaste_description2										Shares cooldown with Homecoming Stone.\n\nThis item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rStriders^*, ^rSteam^* ^rBoots^*, ^rGhost^* ^rMarchers^* or ^rPlated^* ^rGreaves^*.
 Item_PostHaste_effect_header									Status Effect
 Item_PostHaste_IMPACT_effect									After channel time, teleports self to target allied unit or structure.
 
@@ -5315,7 +5370,7 @@ Item_Intelligence7_shop_flavor									Those most immersed in the secret arts of
 // Item_Steamboots
 Item_Steamboots_name											Steamboots
 Item_Steamboots_description										When activated, cycles through attribute bonus.
-Item_Steamboots_description2									This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rGhost^* ^rMarchers^*, ^rPlated^* ^rGreaves^* or ^rPost^* ^rHaste^*.
+Item_Steamboots_description2									This item contains a passive ^yMovement ^ySpeed^* bonus which does not stack with itself or with ^rMarchers^*, ^rStriders^*, ^rGhost^* ^rMarchers^*, ^rPlated^* ^rGreaves^* or ^rPost^* ^rHaste^*.
 Item_Steamboots_effect_header									Status Effect
 Item_Steamboots_shop_flavor										In many ways the paragon of military footwear, Steamboots improve not only marching speed but also a warrior's rate of attack. Most amazingly of all, however, by turning a dial on the boots' heel, they can be set to bestow agility, strength, or even intelligence. Truly, a mechanical marvel!
 Item_Steamboots_FRAME_effect									+10 Agility|Intelligence when changed

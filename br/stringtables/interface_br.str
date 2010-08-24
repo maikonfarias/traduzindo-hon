@@ -1,7 +1,4 @@
-﻿//
-MOTD										
-
-// Buttons
+﻿// Buttons
 BACKSPACE		Apagar
 TAB				Tab
 ENTER			Enter
@@ -745,6 +742,7 @@ web_form_subaccount_name					Subconta
 web_form_subaccount_description				Subcontas lhe dão uma identidade adicional para a sua conta tendo um apelido, estatísticas e amigos próprios. Sua subconta está vinculada com sua conta principal e apenas uma conta deste grupo pode estar conectado a todo momento.
 web_form_subaccount_description_short		Subcontas lhe dão uma identidade adicional para a sua conta tendo um apelido, estatísticas e amigos próprios.
 web_form_resetstats_title					Resetar Estatísticas
+web_form_resetstats_desciprtion_short		Você pode limpar apenas algumas estatísticas ou eliminar todas elas de sua conta.
 web_form_upgradefriend_title				Melhorar Conta de um Amigo
 web_form_resetstats_pubstats				Estatís. Públicas
 web_form_resetstats_pubstats_tip			Estatísticas ganhas por jogar em Partidas Públicos.
@@ -797,6 +795,7 @@ web_form_subaccount_success					Você criou uma Sub-Conta com sucesso!  Você va
 web_form_paypal_notice						Também aceitamos pagamentos por paypal em: www.heroesofnewerth.com
 web_form_website_payment_notice				Contas também podem ser compradas no nosso website, www.heroesofnewerth.com.  Em adição ao pagamento por cartão de crédito, PayPal também é aceito no nosso website.
 web_form_nickchange_title					Mudar Apelido
+web_form_nickchange_description_short		Mudar o Apelido desta conta enquanto mantém todas as estatísticas desta conta.
 web_form_nickchange_newnick					Novo Apelido
 web_form_nickchange_confirmnick				Confirmar Apelido
 web_form_nickchange_notice					Este formulário pode ser usado para mudar seu apelido para qualquer apelido disponível, incluindo aqueles usados por contas que ainda não compraram Heroes of Newerth mas existiram durante o beta.
@@ -842,7 +841,7 @@ web_form_reportabuse_type2					Se aproveitando de Bug
 web_form_reportabuse_type3					Assédio/Ameaças
 web_form_reportabuse_type4					Linguagem Raivosa
 web_form_reportabuse_type5					Se passando por um membro da S2Games
-web_form_reportabuse_type6					Morree de Propósito/Usando Boost de Conta
+web_form_reportabuse_type6					Manipulação de Estatís.
 web_form_reportabuse_type7					Conteúdo Ilegal
 web_form_reportabuse_type8					Linguagem Obscena
 web_form_reportabuse_type9					Abuso Geral
@@ -852,8 +851,8 @@ web_form_reportabuse_playerlist_status		Recuperando lista de jogadores.  Aguarde
 web_form_reportabuse_select_matchid			Por Favor Selecione um ID de Partida
 web_form_reportabuse_noplayers				Nenhum Jogador Encontrado
 web_form_reportabuse_blurb					Jogadores problemáticos podem ser denunciados à S2 para revisão. Por favor, preencha o formulário com cautela e seja o mais preciso possível na sua descrição do incidente. Assim que seu relatório for recebido e revisado, um GM irá notificá-lo se alguma ação foi tomada. Mau uso intencional do recurso Denunciar Comportamento Abusivo poderá resultar na suspensão de sua conta.
-web_form_reportabuse_type0_desc				Uso de propaganda de um serviço em uma partida ou canal público.
-web_form_reportabuse_type1_desc				Racialmente ofensivo, explicitamente sexual ou apelidos profanos deverão ser relatados e recomendados para uma mudança de apelido.
+web_form_reportabuse_type0_desc				Uso de propaganda de um serviço ou poluindo o chat na partida.
+web_form_reportabuse_type1_desc				Racialmente ofensivo, explicitamente sexual ou apelidos profanos deverão ser relatados e recomendados para uma mudança de nome.
 web_form_reportabuse_type2_desc				Aproveitamento deliberado ou malicioso de bugs para ganhar vantagem sobre o time inimigo ou prejudicar aliados. Alguns dos exemplos são:
 web_form_reportabuse_type2_desc1			Bugs de Morte instantânea
 web_form_reportabuse_type2_desc2			Aproveitar-se de erros do Servidor
@@ -862,8 +861,8 @@ web_form_reportabuse_type2_desc4			Manipulação de Gold
 web_form_reportabuse_type3_desc				Não Usado
 web_form_reportabuse_type4_desc				Não Usado
 web_form_reportabuse_type5_desc				Fingindo ser qualquer empregado ou voluntário da S2Games para intimidar ou ganhar vantagem sobre outros jogadores.
-web_form_reportabuse_type6_desc				Manipulação de Estatísticas, classificação ou resultados das partidas através de multi-contas ou jogadores plantados.
-web_form_reportabuse_type7_desc				Compartilhando qualquer coisa que viole a Lei dos EUA. Exemplos incluem:
+web_form_reportabuse_type6_desc				Manipulação de Estatísticas, classificação ou resultados das partidas através de multi-contas ou jogadores plantados. Jogadas ruins, mortes não intencionais e outros incidentes similares NÃO são passíveis desse tipo de denúncia ou de qualquer outra regra.
+web_form_reportabuse_type7_desc				Discutindo sobre assuntos que violem a Lei dos EUA.
 web_form_reportabuse_type7_desc1			Confecção de bombas
 web_form_reportabuse_type7_desc2			Pornografia infantil
 web_form_reportabuse_type7_desc3			Informação de drogas ilegais
@@ -882,7 +881,7 @@ web_form_reportabuse_overview				Resumo
 
 web_form_lan_account_feature_unavailable_unpaid		Este recurso não está disponível para Usuários Sem Conta Paga
 
-web_form_lan_account_feature_unavailable		Recursos Atualmente Indisponíveis para Usuários de Conta LAN
+web_form_lan_account_feature_unavailable	Recursos Atualmente Indisponíveis para Usuários de Conta LAN
 web_form_lan_account_feature_unavailable_text	Este recurso está disponível apenas através do nosso website.
 
 web_form_login_upgrade_description			Heroes of Newerth foi lançado e o open beta acabou.  Você precisa comprar Heroes of Newerth para continuar a jogar.  Por favor, preencha as informações necessárias para fazer upgrade da sua conta de Heroes Of Newerth para o status de paga.
@@ -917,33 +916,32 @@ prompt_tutorial_title						Ir para o Tutorial?
 prompt_tutorial_text						Bem vindo ao Heroes of Newerth.  Como um novo jogador, recomendamos que você primeiro jogue o tutorial antes de jogar uma partida online. Gostaria de visitar o tutorial agora?
 
 // Garena Stuff
-
-garena_error_GA002000						Membros do Garena têm que registrar uma nova conta.
-garena_error_GA001004						Login não está disponivel para sua conta.
-garena_error_GA001003						Conta suspensa. Para mais informações, visite a pagina de Atendimento ao Cliente.
-garena_error_GA001002						Nickname ou Password inválido.
-garena_error_GA001000						Não pode conectar. Tente novamente.
-garena_error_GA001001						Autenticação do Garena não está disponivel no momento.
-garena_error_GA001005						Registro no Garena falhou. Tente Novamente.
-garena_error_GA001006						Nickname já está em uso. Escolha outro.
-garena_error_GA003001						Sua conta não está ativa para jogar HoN. Você precisa de uma chave beta válida para participar do closed beta.
-garena_error_GA003002						Sua conta está banida para jogar HoN.
+#GA001000									Não foi possível se conectar. Tente novamente.
+#GA001001									Autenticação do Garena não está disponivel no momento.
+#GA001002									Nickname ou Password inválido.
+#GA001003									Conta suspensa. Para mais informações, visite a pagina de Atendimento ao Cliente.
+#GA001004									Login não está disponivel para sua conta.
+#GA001005									Registro no Garena falhou. Tente Novamente.
+#GA001006									Nickname já está em uso. Escolha outro.
+#GA002000									Membros do Garena têm que registrar uma nova conta.
+#GA003001									Sua conta não está ativa para jogar HoN. Você precisa de uma chave beta válida para participar do closed beta.
+#GA003002									Sua conta está banida para jogar HoN.
 garena_create_account_title					Criar uma Conta do HoN
 garena_create_account_body					Antes de você poder conectar, você precisa primeiro criar uma conta do Heroes of Newerth que será ligada com a sua conta do Garena.
 
 // states
 create_acc_state_alabama					Alabama
-create_acc_state_alaska						Alaska
+create_acc_state_alaska						Alasca
 create_acc_state_arizona					Arizona
 create_acc_state_arkansas					Arkansas
-create_acc_state_california					California
+create_acc_state_california					Califórnia
 create_acc_state_colorado					Colorado
 create_acc_state_connecticut				Connecticut
 create_acc_state_delaware					Delaware
 create_acc_state_dc							DC
-create_acc_state_florida					Florida
-create_acc_state_georgia					Georgia
-create_acc_state_hawaii						Hawaii
+create_acc_state_florida					Flórida
+create_acc_state_georgia					Geórgia
+create_acc_state_hawaii						Havaí
 create_acc_state_idaho						Idaho
 create_acc_state_illinois					Illinois
 create_acc_state_indiana					Indiana
@@ -2056,6 +2054,7 @@ game_menu_moved								Para compartilhar controle, use os botões no painel do s
 vote_concede								Conceder?
 vote_remake									Recomeçar?
 vote_kick									Retirar {target}^*?
+vote_kick_afk								Retirar {target}^*?
 vote_pause									Pausar?
 
 // alt_info_hero.interface
@@ -2156,7 +2155,7 @@ player_stats_wards							Wards Colocadas
 player_stats_apm							APM
 player_avg_game_length						Tempo de Partida
 player_avg_kda								K  /  D  /  A
-player_avg_creep_kills						Creep Mortos
+player_avg_creep_kills						Creeps Mortos
 player_avg_creep_denies						Deny de Creep
 player_stats_mostplayed						Heroes Mais Usados
 player_stats_nohistory						Este jogador não tem partidas gravadas no histórico.
@@ -2171,6 +2170,7 @@ player_stats_from							Mostrar Estats. De:
 player_stats_player_name					Nome Jogador:
 player_stats_last_20_matches				Últimas 20 Partidas
 player_stats_smr_tmr						SMR / TMR
+player_stats_reset_leaver					Reiniciar %% Desist.
 
 
 // game_setup.package
@@ -2365,7 +2365,7 @@ tooltip_hero_abils							Habilidades dos Heroes
 tooltip_hero_abils_msg						Listadas nessa coluna para cada hero temos suas quatro habilidades. Passe o mouse sobre cada ícone de habilidade para ver sua descrição.
 tooltip_faction								Facção do Hero
 tooltip_faction_msg							Este ícone representa a facção com que o hero é alinhado. O ícone verde indica que o hero é alinhado com o Legion, enquanto o ícone vermelho indica que o hero é alinhado com o Hellbourne.
-tooltip_extras								Clique para abrir menus extras da conta.
+tooltip_extras								Clique aqui para abrir o menu de extras da conta.
 tooltip_sort_dmg							Organizar por Dano de Ataque
 tooltip_sort_dmg_msg						Clique aqui para organizar a lista de hero pelo Dano de Ataque.
 

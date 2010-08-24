@@ -172,7 +172,7 @@ critical_bonus						{value1}%% de chance de {value2}x de Golpe Crítico
 incoming_damage_mult_bonus			{value}%% do Dano Recebido
 debuff_duration_mult_bonus			{value}%% da Duração do Debuff
 heal_mult_bonus						{value}%% Cura Recebida
-stunned_bonus						Stunned
+stunned_bonus						Stunado
 silenced_bonus						Silenciado
 perplexed_bonus						Perplexo
 disarmed_bonus						Desarmado
@@ -206,7 +206,7 @@ script_on_damaged					Ao Receber Dano
 script_on_kill						Ao Matar
 script_on_killed					Ao Morrer
 
-action_toggle						Toggle
+action_toggle						Chavear
 action_no_target					Sem Alvo
 action_target_position				Posição do Alvo
 action_target_unit					Mirar Unidade
@@ -215,8 +215,9 @@ action_target_self					Próprio
 action_facing						Apontado
 action_self_position				Posição Atual
 action_attack						Atacar
-action_attack_toggle				Attack Toggle
-action_target_dual					Alvo Duplo
+action_attack_toggle				Chavear Ataque
+action_target_dual					Mirar Dupla
+action_target_dual_position			Mirar Dupla
 action_target_vector				Mirar Vetor
 
 ability_levelup_max					^gNível Máximo^*

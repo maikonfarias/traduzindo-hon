@@ -217,6 +217,7 @@ action_self_position				Self Position
 action_attack						Attack
 action_attack_toggle				Attack Toggle
 action_target_dual					Target Dual
+action_target_dual_position			Target Dual
 action_target_vector				Target Vector
 
 ability_levelup_max					^gMaximum level^*

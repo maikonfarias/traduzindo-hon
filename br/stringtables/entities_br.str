@@ -913,7 +913,7 @@ Ability_Chronos3_description									Chronos pode roubar o tempo de qualquer Her
 Ability_Chronos3_description2									Esta habilidade contém propriedades de ^yBashing^*. Itens e habilidades com propriedades de  ^yBashing^* têm tempo de cooldown compartilhados.
 Ability_Chronos3_effect_header									Efeitos de Time Stolen
 Ability_Chronos3_effect_header2									Efeitos de Time Enhanced
-Ability_Chronos3_ATTACK_IMPACT_effect							Quando atacar um Hero inimigo, aplica Time Stolen nele e Time Enhanced em si por 10 segundos. Não propaga para ilusões.\n\nCada ataque concecutivo no mesmo alvo irá adicionar uma carga. Na 5º carga o alvo recebera Stun de {.25,.5,.75,1} segundo.\n\nO roubo de agilidade e o ganho de carga não irão aumentar se o alvo estiver stunnado pelo Curse of Ages.
+Ability_Chronos3_ATTACK_IMPACT_effect							Quando atacar um Hero inimigo, aplica Time Stolen nele e Time Enhanced em si por 10 segundos. Não propaga para ilusões.\n\nCada ataque concecutivo no mesmo alvo irá adicionar uma carga. Na 5º carga o alvo recebera Stun de {.25,.5,.75,1} segundo e recebem {15,30,45,60} de dano Físico.\n\nO roubo de agilidade e o ganho de carga não irão aumentar se o alvo estiver stunado pelo Curse of Ages.
 Ability_Chronos3_tooltip_flavor									Aproveite o espaço-tempo contínuo.
 
 // State_Chronos_Ability3
@@ -1441,7 +1441,7 @@ Ability_Engineer1_tooltip_flavor								Ele coloca cabelo no seu peito!
 Ability_Engineer2_name											Steam Turret
 Ability_Engineer2_description									A Steam Turret é uma maravilha da tecnologia de tiro rápido. Liberado no local de sua escolha e em qualquer direção que quiser, ela dispara rajadas de tiros que lerdam inimigos que ficarem no cone.
 Ability_Engineer2_effect_header									Efeitos de Suppressed
-Ability_Engineer2_IMPACT_effect									Cria uma Steam Turret na posição alvo virada para a direção do vetor. Atira 5 balas por segundo por 6 segundos em um cone de 800 de distância e 400 de raio.\n\nBalas atingem todos os inimigos em que elas tocam, causando {25/40/55/70} de dano Físico, empurrando-os para longe da torre em 25 unidades e aplicando uma redução de velocidade de movimento acumulativa de 7%.\n\nMáximo de redução é 5 cargas ou 35% do movimento.\n\nQualquer alvo só poderá receber dano de, no máximo, 10 balas.
+Ability_Engineer2_IMPACT_effect									Cria uma Steam Turret na posição alvo virada para a direção do vetor. Atira 5 balas por segundo por 6 segundos em um cone de 800 de distância e 400 de raio.\n\nBalas atingem todos os inimigos em que elas tocam, causando {25/40/55/70} de dano Físico, empurrando-os para longe da torre em 25 unidades e aplicando uma redução de velocidade de movimento acumulativa de 7%.\n\nMáximo de redução é 5 cargas ou 35% do movimento.\n\nQualquer alvo só poderá receber dano de, no máximo, 8 balas e a torre morre em 3 golpes.
 Ability_Engineer2_tooltip_flavor								Minha torre é minha melhor amiga.
 
 // State_Engineer_Ability2_Suppression
@@ -1540,7 +1540,7 @@ State_Fairy_Ability2_name										Enchanted
 Ability_Fairy3_name												Nymphora's Zeal
 Ability_Fairy3_description										Atira um wisp para causar dano e stunar inimigos em uma linha. Cada inimigo pêgo é stunado e recebe dano.
 Ability_Fairy3_effect_header									Efeitos de Nymphora's Zeal
-Ability_Fairy3_IMPACT_effect									Lança um projétil que impacta nos alvos em que tocar em uma linha de 1200 unidades, stunando-os por {1.0,1.3,1.6,2.0} segundo(s) e causando {55,90,130,160} de dano Mágico neles, então o projétil retorna para você. Unidades podem ser impactadas duas vezes, uma quando o projétil está sendo lançado e outra quando ele estiver retornando. Aplica Nymphora's Zeal em si por 8 segundos com 1 carga bônus por impacto. Máximo de 10 cargas.
+Ability_Fairy3_IMPACT_effect									Lança um projétil que impacta nos alvos em que tocar em uma linha de 1200 unidades, stunando-os por {0.75,1,1.25,1.5} segundo(s) e causando {50,85,120,155} de dano Mágico neles, então o projétil retorna para você. Unidades podem ser impactadas duas vezes, uma quando o projétil está sendo lançado e outra quando ele estiver retornando. Aplica Nymphora's Zeal em si por 8 segundos com 1 carga bônus por impacto. Máximo de 10 cargas.
 Ability_Fairy3_tooltip_flavor									Ele vai para as duas direções.
 
 // State_Fairy_Ability3
@@ -1570,7 +1570,47 @@ Ability_Fairy4_TPIn_IMPACT_effect								Teleporta qualquer hero aliado para a N
 
 // Hero_Fairy
 Hero_Fairy_name													Nymphora
-Hero_Fairy_description											Nymphora tem sido a protetora das belezas secretas de Newerth, suas clareiras isoladas e fontes de cristalinas. Alguém pode pensar que a perfeição das borboletas e suas travessuras teria pouca ajuda na brutal carnificina que envolveu o mundo, mas poucos veem pequenas presas reveladas por seu sorriso para saber que ela carrega muitos segredos.
+Hero_Fairy_description											Nymphora tem sido a protetora das belezas secretas de Newerth, suas clareiras isoladas e fontes de cristalinas. Alguém pode pensar que a perfeição das borboletas e suas travessuras teria pouca ajuda na carnificina brutal que envolveu o mundo, mas poucos veem pequenas presas reveladas por seu sorriso para saber que ela carrega muitos segredos.
+
+// Ability_FlintBeastwood1
+Ability_FlintBeastwood1_name									Explosive Flare
+Ability_FlintBeastwood1_description								Mr Beastwood carrega um sinalizador em uma de suas armas, atirando-o na direção de seus inimigos. Quando ele aterrisa, obviamente, explode; queimando e lerdando qualquer um na área. Ele adora o cheiro de coisa queimando de manhã.
+Ability_FlintBeastwood1_effect_header							Efeitos de Flared
+Ability_FlintBeastwood1_effect_header2							
+Ability_FlintBeastwood1_tooltip_flavor							Eu vejo pessoas [em breve] mortas...
+Ability_FlintBeastwood1_IMPACT_effect							Atira um sinalizador no local alvo. Causa {75,150,225,300} de dano Mágico à unidades e {25,50,75,100} de dano Mágico à torres ao impactar, deixando um sinalizador queimando por 4 segundos.\n\nO sinalizador queimando dá visão e aplica Flared à todos os inimigos no raio.
+
+// State_FlintBeastwood_Ability1
+State_FlintBeastwood_Ability1_name								Flared
+State_FlintBeastwood_Ability1_description						
+State_FlintBeastwood_Ability1_description2						
+
+// Ability_FlintBeastwood2
+Ability_FlintBeastwood2_name									Hollowpoint Shells
+Ability_FlintBeastwood2_description								Mr Beastwood é um fã do caos,misturando seus Cartuchos Hollowpoint com os seus normais. Isto confere ao seu ataque uma chance de causar dano bônus e stun por um tempo muito pequeno. Ele ri toda vez que isto acontece.
+Ability_FlintBeastwood2_effect_header							
+Ability_FlintBeastwood2_ATTACK_IMPACT_effect					{25,30,35,40}% de chance de uma bala explodir, causando {20,30,40,50} de bônus de dano Físico e stunando por {.05,.1,.2,.2} segundo. 
+Ability_FlintBeastwood2_tooltip_flavor							O que é melhor do que balas? Balas melhores.
+
+// Ability_FlintBeastwood3
+Ability_FlintBeastwood3_name									Dead Eye
+Ability_FlintBeastwood3_description								Mr.Beastwood te vê. Ele te vê quanto você se esconde, ele sabe quando você está com medo. Ele sabe que você pode estar longe, mas isto não irá salvar sua vida hoje...
+Ability_FlintBeastwood3_effect_header							
+Ability_FlintBeastwood3_tooltip_flavor							Mr Beastwood's coming to town!
+Ability_FlintBeastwood3_FRAME_effect							Aumenta o alcance do ataque em {60,120,180,240}.\n\nNíveis 3 e 4 permitem que Flint atire mais longe que as torres.
+
+// Ability_FlintBeastwood4
+Ability_FlintBeastwood4_name									Money Shot
+Ability_FlintBeastwood4_description								Mr Beastwood não é chamado de o melhor pistoleiro do Oeste de Newerth por nenhum motivo. Ele demora um ou dois segundos para preparar um poderoso tiro em um inimigo tanto quanto distante, causando um grande dano quando ele acerta. E ele sempre acerta.
+Ability_FlintBeastwood4_description2							
+Ability_FlintBeastwood4_effect_header							
+Ability_FlintBeastwood4_effect_header2							
+Ability_FlintBeastwood4_tooltip_flavor							BOOM, HEADSHOT!
+Ability_FlintBeastwood4_IMPACT_effect							Após 1.7s de conjuração, atira no alvo. Causando {355,505,655} de Dano Mágico e stun por .2 segundos.
+
+// Hero_FlintBeastwood
+Hero_FlintBeastwood_name										Flint Beastwood
+Hero_FlintBeastwood_description									
 
 // Ability_ForsakenArcher1
 Ability_ForsakenArcher1_name									Crippling Volley
@@ -1579,7 +1619,7 @@ Ability_ForsakenArcher1_description2
 Ability_ForsakenArcher1_effect_header							Efeito Crippling Volley
 Ability_ForsakenArcher1_effect_header2							
 Ability_ForsakenArcher1_tooltip_flavor							Vai a algum lugar?
-Ability_ForsakenArcher1_IMPACT_effect							Aplica Crippling Volley em todos os inimigos na áre por {1.75,2,2.25,2.5} segundos. Causando {85,150,215,280} de dano Mágico.
+Ability_ForsakenArcher1_IMPACT_effect							Aplica Crippling Volley em todos os inimigos na áre por {1,1.5,2,2.5} segundo(s). Causando {85,150,215,280} de dano Mágico.
 
 // State_ForsakenArcher_Ability1
 State_ForsakenArcher_Ability1_name								Crippling Volley
@@ -1600,12 +1640,12 @@ Ability_ForsakenArcher2_ATTACK_effect:ForsakenArcher_Ability2_Active	Divide o at
 Ability_ForsakenArcher3_name									Call of the Damned
 Ability_ForsakenArcher3_description								Com a maldiçao poderosa concedido a ela pela Hellbourne, a Forsaken Archer é capaz de trazer os corpos sem alma de suas vítimas de volta dos mortos para lutar ao seu lado como esqueletos guerreiros.
 Ability_ForsakenArcher3_description2							
-Ability_ForsakenArcher3_effect_header							Envenenado
+Ability_ForsakenArcher3_effect_header							
 Ability_ForsakenArcher3_effect_header2							
-Ability_ForsakenArcher3_tooltip_flavor							3 segundos...
+Ability_ForsakenArcher3_tooltip_flavor							Três segundos...
 Ability_ForsakenArcher3_IMPACT_effect							Altera o Call of the Damned para acumular os esqueletos para serem conjurados mais tarde (quando desligado), ao invés de criá-los instantâneamente.\n\nAlterando essa habilidade irá destruir os esqueletos ativos.
 Ability_ForsakenArcher3_IMPACT_effect:Ability_ForsakenArcher3_active	Conjura instantâneamente os esqueletos acumulados baseado no número de cargas atual. Apenas {3,4,5,6} esqueletos podem estar ativos ao mesmo tempo.
-Ability_ForsakenArcher3_KILL_effect								Cria um Skeletal Minion incontrolável que irá seguir e ajudar a Forsaken Archer. Não se propaga para ilusões.\n\nSkeletal Minions:\n^y-^* Têm 20 de Vida Máxima\n^y-^* Causa de {14,20,26,32} à {20,26,32,38} de dano Físico por ataque\n^y-^* Aplica Envenenamento nos alvos ao atacar, dura 4 segundos\n\nSkeletal Minions duram 30 segundos e apenas {3,4,5,6} podem estar vivo ao mesmo tempo.
+Ability_ForsakenArcher3_KILL_effect								Cria um Skeletal Minion incontrolável que irá seguir e ajudar a Forsaken Archer. Não se propaga para ilusões.\n\nSkeletal Minions:\n^y-^* Têm 20 de Vida Máxima\n^y-^* Causa de {14,20,26,32} à {20,26,32,38} de dano Físico por ataque\n\nSkeletal Minions duram 30 segundos e apenas {3,4,5,6} podem estar vivo ao mesmo tempo.
 Ability_ForsakenArcher3_INDIRECT_KILL_effect					
 Ability_ForsakenArcher3_LEARN_effect							
 
@@ -1823,7 +1863,7 @@ State_Gladiator_Ability4_description2
 State_Gladiator_Ability4_effect_header							Nenhum
 State_Gladiator_Ability4_effect_header2							Nenhum
 State_Gladiator_Ability4_tooltip_flavor							Nenhum
-State_Gladiator_Ability4_FRAME_effect							Dano recebido é reduzido à metade.\nDano previnido é recebido todo de uma vez ao fim do buff é não é letal.
+State_Gladiator_Ability4_FRAME_effect							Dano recebido é reduzido à metade.\nDano previnido é recebido ao longo de {5,6,7} segundos após o fim do buff é não é letal.
 
 // Hero_Gladiator
 Hero_Gladiator_name												The Gladiator
@@ -1898,9 +1938,9 @@ Ability_Hantumon2_tooltip_flavor								Psiu! Bem atrás de você.
 
 // Ability_Hantumon3
 Ability_Hantumon3_name											Backstab
-Ability_Hantumon3_description									Night Hound é mestre em encontrar oportunidades durante o combate. Quando ele ataca o alvo pelas costas, ele dá dano extra igual a {25,50,75,100}% de sua agilidade.
+Ability_Hantumon3_description									Night Hound é mestre em explorar oportunidades durante o combate. Quando ele ataca o alvo pelas costas, ele causa dano extra igual a uma porcentagem de sua agilidade.
 Ability_Hantumon3_effect_header									Efeito de Status
-Ability_Hantumon3_ATTACK_effect									Quando estiver nas costas do alvo, adiciona {25,50,75,100}% da agilidade da vítima como bônus de dano de ataque.
+Ability_Hantumon3_ATTACK_effect									Quando estiver nas costas do alvo, adiciona {25,50,75,100}% da sua agilidade como bônus de dano de ataque.
 
 
 Ability_Hantumon3_tooltip_flavor								Eu não sou confiável.
@@ -3615,6 +3655,7 @@ State_Tempest_Ability4_Pull_name								Elemental Void\n{30,50,70} de dano Mági
 Hero_Tempest_name												Tempest
 Hero_Tempest_description										Espíritos nascidos dos elementos, os Tempests caminham pelas terras fazendo chovendo gelo e fogo, ele chama grandes meteoros dos céus.  Invocados pelos antigos da Horda Bestial, esses seres eternos são invocadores, trazendo elementais e até mesmo suas próprias sombras para o campo de batalha. Mesmo seus aliados veem essas formas estranhas com cautela beirando o medo.
 
+
 // Ability_Treant1
 Ability_Treant1_name											Camouflage
 Ability_Treant1_description										O Keeper usa sua influência sobre a floresta para esconder seus aliados da visão inimiga. Garante invisibilidade ao alvo enquanto estiver perto de árvores.
@@ -3663,6 +3704,7 @@ State_Treant_Ability4_FRAME_effect								85 de dano Mágico por segundo.
 // Hero_Treant
 Hero_Treant_name												Keeper of the Forest
 Hero_Treant_description											Um ancião protetor da floresta, o Keeper luta para salvar as terras protegidas de Newerth que ele tomou conta toda sua vida. Possuindo uma ligação espiritual com as árvores, o Keeper tem a habilidade de ver o que elas veem, se esconder entre elas e até mesmo usá-las como armas brutais para ajudá-lo na batalha.
+
 
 // Ability_Tundra1
 Ability_Tundra1_name											Piercing Shards
@@ -3723,11 +3765,17 @@ Ability_Tundra2_Pet_Ability2_tooltip_flavor
 Ability_Tundra2_Pet_Ability2_ATTACK_IMPACT_effect				Adiciona {3,5,8,10} cargas por ataque enquanto Coeurl continuar atacando o mesmo alvo. Ao mudar de alvo, cargas caem à metade.\n\nMáximo de 50 Cargas\n1 de Velocidade de Ataque por carga\n\nBasea-se no nível de Coldblooded ao ser conjurado.
 
 // Ability_Tundra3
-Ability_Tundra3_name											Coldblooded
-Ability_Tundra3_description										Tundra fica mais e mais concentrado em derrotar um inimigo em batalha quanto mais tempo ele luta com eles. Cada ataque que ele desfere irá aumentar sua velocidade de ataque contra seu alvo, fazendo com que ele os derrote mais rápido! Porém, quando ele muda de alvo, ele tem de reconstruir sua velocidade.
-Ability_Tundra3_description2									
-Ability_Tundra3_tooltip_flavor									
-Ability_Tundra3_ATTACK_IMPACT_effect							Adiciona {5,10,15,20} cargas por ataque enquanto Tundra continuar atacando o mesmo alvo. Ao mudar de alvo, cargas caem à metade.\n\nMáximo de 100 Cargas\n1 de Velocidade de Ataque por carga
+Ability_Tundra3_name											Cold Shoulder
+Ability_Tundra3_description										No último inverno, Tundra tinha dois parentes distantes ensinando-o como engajar inimigos corretamente, cobrindo-os de gelo ao entrar em contato. O gelo facilita acertá-los, aumentando a velocidade de ataque de todos que atacarem esse alvo.
+Ability_Tundra3_effect_header									Efeitos de Cold Shoulder
+Ability_Tundra3_tooltip_flavor									Os Irmãos do gelo mandam seus cumprimentos...
+Ability_Tundra3_IMPACT_effect									Ao usar, corre para o alvo, causando o Dano de Ataque do Tundra ao impactar.\n\nAplica Cold Shoulder neles por 8 segundos.
+
+// State_Tundra_Ability3_Debuff
+State_Tundra_Ability3_Debuff_name								Cold Shoulder
+State_Tundra_Ability3_Debuff_FRAME_effect						Aumenta a velocidade de ataque contra o alvo em {15,30,45,60}, estende-se por 2 segundos
+
+State_Tundra_Ability3_Buff_name									Cold Shouldered!
 
 // Ability_Tundra4
 Ability_Tundra4_name											Avalanche
@@ -4555,7 +4603,7 @@ Item_Manatube_shop_flavor										Um utilitário especializado para encantar a 
 // Item_Marchers
 Item_Marchers_name												Marchers
 Item_Marchers_description										
-Item_Marchers_description2										Este item contém um bônus passivo de ^yVelocidade ^yde Movimento^* que não se acumula com ele mesmo ou com ^rSteam ^rBoots^*, ^rGhost^* ^rMarchers^*, ^rPlated^* ^rGreaves^* ou ^rPost^* ^rHaste^*.
+Item_Marchers_description2										Este item contém um bônus passivo de ^yVelocidade ^yde Movimento^* que não se acumula com ele mesmo ou com ^rStriders^*, ^rSteam ^rBoots^*, ^rGhost^* ^rMarchers^*, ^rPlated^* ^rGreaves^* ou ^rPost^* ^rHaste^*.
 Item_Marchers_effect_header										Efeito de Status
 Item_Marchers_shop_flavor										O inventor solitário que criou os Marchers feitos para aliviar a exaustão das campanhas militares ao deixar os soldados moverem-se significantemente mais rápidos. Ao invés disso, ele descobriu que eles foram forçados a marchar por muitas horas e por longas distâncias.
 
@@ -4615,7 +4663,7 @@ Item_Platemail_shop_flavor										Uma bela obra de arte e uma vantagem para qu
 Item_PortalKey_name												Portal Key
 Item_PortalKey_description										Quando ativada, teleporta o usuário para o local alvo.
 Item_PortalKey_effect_header									Efeito de Status
-Item_PortalKey_shop_flavor										Portal Keys tear asunder the already tenuous barriers between the dimensions of Newerth and enable one to instantly teleport a modest distance.  Because of the volatile energies released, however, a Portal Key can never be used by one who has recently been injured, lest he be torn asunder himself.
+Item_PortalKey_shop_flavor										O Portal Key rasga em pedaços as já tênues barreiras entre as dimensões de Newerth e possibilita que você se teleporte instantaneamente à uma distância moderada.  Por causa das energias voláteis liberadas, um Portal Key nunca pode ser usado por aquele que sofreu uma lesão recentemente, ou ele será feito em pedaços.
 Item_PortalKey_IMPACT_effect									Teleporta você para o local alvo Cooldown de 3 segundos é aplicado ao Portal Key se você receber dano de uma unidade controlada por jogador.
 
 // Item_PowerSupply
@@ -4674,6 +4722,13 @@ Item_Steamstaff_name											Steamstaff
 Item_Steamstaff_description										
 Item_Steamstaff_effect_header									Efeito de Status
 Item_Steamstaff_shop_flavor										Sibilando e borrifando vapor em todas as direções, os Steamstaff são barulhentos e desajeitados que, apesar disso, desfire uma impressionante pancada e move-se com uma velocidade extra devido à sua interessante mecânica.
+
+// Item_Striders
+Item_Striders_name												Striders
+Item_Striders_description										Usado pelos maiores corredores na história da humanidade, as Striders permitem que o seu usuário aumente sua velocidade significantemente enquanto eles focam na corrida. Qualquer outra ação irá quebrar a concentração.
+Item_Striders_description2										Este item contém um bônus passivo de ^yVelocidade ^yde Movimento^* que não se soma com ele mesmo ou com ^rMarchers^*, ^rSteam^* ^rBoots^*, ^rPlated^* ^rGreaves^*, ^rGhost^* ^rMarchers^* ou ^rPost^* ^rHaste^*.
+Item_Striders_shop_flavor										
+Item_Striders_FRAME_effect:movespeed							\nQuando estiver fora de combate por 6 segundos, aumenta a velocidade de movimento em 100 ao longo de 2 segundos.\n\nO bônus de velocidade de movimento é removido quando você receber dano, usar uma magia ou um item.\n\nUsar Wards, Bottle, Mana ou Health Potions não irá remover o bônus de velocidade.
 
 // Item_SwordOfTheHigh
 Item_SwordOfTheHigh_name										Sword of the High
@@ -4856,7 +4911,7 @@ Item_BloodChalice_effect_header									Efeitos de Blood Chalice
 Item_BloodChalice_effect_header2								
 Item_BloodChalice_tooltip_flavor								
 Item_BloodChalice_shop_flavor									Sem dor, sem ganho!
-Item_BloodChalice_IMPACT_effect									Ao usar, remove 150 de viida e garante 150 de mana.\n\nUm segundo após o uso, o bonus de mana começa a ser drenado ao longo dos próximos 10 segundos. Apenas o bônus inicial de mana pode ser drenado e esta drenagem é cancelada assim que ela for usada.
+Item_BloodChalice_IMPACT_effect									Ao usar, remove 150 de vida e garante 150 de mana.\n\nSe um inimigo dentro de 700 de raio for morto antes de 15 segundos após o uso, o usuário é curado pelo custo inicial de 150 de vida.
 
 // State_Item_BloodChalice
 State_Item_BloodChalice_name									Blood Chalice
@@ -4865,7 +4920,7 @@ State_Item_BloodChalice_description2
 State_Item_BloodChalice_effect_header							Nenhum
 State_Item_BloodChalice_effect_header2							Nenhum
 State_Item_BloodChalice_tooltip_flavor							Nenhum
-State_Item_BloodChalice_FRAME_effect							15 drenada por segundo
+State_Item_BloodChalice_FRAME_effect							15 de mana drenada por segundo
 
 // Item_Brutalizer
 Item_Brutalizer_name											Brutalizer
@@ -4923,7 +4978,7 @@ State_ElderParasite_name										Crazed
 // Item_EnhancedMarchers
 Item_EnhancedMarchers_name										Ghost Marchers
 Item_EnhancedMarchers_description								Quando ativado, aplica Phased em si por 6 segundos.
-Item_EnhancedMarchers_description2								Este item contém um bônus passivo de ^yVelocidade ^yde Movimento^* que não se acumula com ele mesmo ou com ^rMarchers^*, ^rSteam^* ^rBoots^*, ^rPlated^* ^rGreaves^* ou ^rPost^* ^rHaste^*.
+Item_EnhancedMarchers_description2								Este item contém um bônus passivo de ^yVelocidade ^yde Movimento^* que não se acumula com ele mesmo ou com ^rMarchers^*, ^rStriders^*, ^rSteam^* ^rBoots^*, ^rPlated^* ^rGreaves^* ou ^rPost^* ^rHaste^*.
 Item_EnhancedMarchers_effect_header								efeitos de Phased
 Item_EnhancedMarchers_shop_flavor								As Ghost Marchers não apenas conferem uma melhora significativa para a velocidade, mas também contém sábias molas que ajudam o seu usuário à infligir e diminuir o dano. Além disso, estas molas podem conferir, ocasionalmente, rápidas rajadas de velocidade para te tirar de situações complicadas.
 Item_EnhancedMarchers_IMPACT_effect								Aplica Phased em si por 6 segundos.
@@ -5119,7 +5174,7 @@ Item_Strength5_shop_flavor										Os Construtores da Legião dos Homens gastar
 // Item_PlatedGreaves
 Item_PlatedGreaves_name											Plated Greaves
 Item_PlatedGreaves_description									Quando ativado, garante bônus de dano e deflexão aos creeps aliados próximos.
-Item_PlatedGreaves_description2									Este item contém um bônus passivo de ^yVelocidade ^yde Movimento^* que não se soma com si ou com ^rMarchers^*, ^rSteam^* ^rBoots^*, ^rGhost ^rMarchers^* ou ^rPost ^rHaste^*.
+Item_PlatedGreaves_description2									Este item contém um bônus passivo de ^yVelocidade ^yde Movimento^* que não se soma com si ou com ^rMarchers^*, ^rStriders^*, ^rSteam^* ^rBoots^*, ^rGhost ^rMarchers^* ou ^rPost ^rHaste^*.
 Item_PlatedGreaves_effect_header								Efeitos de Plated
 Item_PlatedGreaves_IMPACT_effect								Aplica Plated à todos as unidades aliadas não controladas por jogador em um raio de 450 envolta de si por 15 segundos.
 Item_PlatedGreaves_effect_header:movespeed						Efeitos de Plated
@@ -5130,7 +5185,7 @@ State_PlatedGreaves_name										Plated
 // Item_PostHaste
 Item_PostHaste_name												Post Haste
 Item_PostHaste_description										Quando ativado, te teleporta para a estrutura ou unidade aliada alvo. 
-Item_PostHaste_description2										Divide o cooldown com a Homecoming Stone.\n\nEste item contém um bônus passivo de ^yVelocidade ^yde Movimento^* que não se soma com si mesma ou com ^rMarchers^*, ^rSteam^* ^rBoots^*, ^rGhost^* ^rMarchers^* ou ^rPlated^* ^rGreaves^*.
+Item_PostHaste_description2										Divide o cooldown com a Homecoming Stone.\n\nEste item contém um bônus passivo de ^yVelocidade ^yde Movimento^* que não se soma com si mesma ou com ^rMarchers^*, ^rStriders^*, ^rSteam^* ^rBoots^*, ^rGhost^* ^rMarchers^* ou ^rPlated^* ^rGreaves^*.
 Item_PostHaste_effect_header									Efeito de Status
 Item_PostHaste_IMPACT_effect									Após o tempo de concentração, te teleporta para a estrutura ou unidade aliada alvo.
 
@@ -5315,7 +5370,7 @@ Item_Intelligence7_shop_flavor									Aqueles mais imersos nas artes secretas d
 // Item_Steamboots
 Item_Steamboots_name											Steamboots
 Item_Steamboots_description										Quando ativado, alterna entre os tipos de bônus de atributo.
-Item_Steamboots_description2									Este item contém um bônus passivo de ^yVelocidade ^yde Movimento^* que não se soma com si mesmo ou com ^rMarchers^*, ^rGhost^* ^rMarchers^*, ^rPlated^* ^rGreaves^* ou ^rPost^* ^rHaste^*.
+Item_Steamboots_description2									Este item contém um bônus passivo de ^yVelocidade ^yde Movimento^* que não se soma com si mesmo ou com ^rMarchers^*, ^rStriders^*, ^rGhost^* ^rMarchers^*, ^rPlated^* ^rGreaves^* ou ^rPost^* ^rHaste^*.
 Item_Steamboots_effect_header									Efeito de Status
 Item_Steamboots_shop_flavor										De muitas maneiras o padrão de botas militares, as Steamboots melhoram não apenas a velocidade de marcha, mas também a taxa de ataque do guerreiro. O mais incrível de tudo, porém, girando um sintonizador no calcanhar da bota, elas podem ser alteradas para conferir agilidade, força ou até inteligência. Uma verdadeira maravilha mecânica!
 Item_Steamboots_FRAME_effect									+10 Agilidade|Inteligência quando alterada
