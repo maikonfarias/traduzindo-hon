@@ -28,7 +28,10 @@ disconnect_invalid_psr			Seu PSR é muito alto ou muito baixo para esta partida.
 disconnect_not_on_roster		Você não está relacionado para esta partida combinada.
 disconnect_modified_core_files	O seu arquivo resources0.s2z foi modificado.  Este arquivo NÃO pode se alterado!  Re-instale o game Heroes of Newerth.
 disconnect_client_number_mismatch	Erro de conexão, tente novamente em alguns momentos, por favor.
-disconnect_trial_not_allowed	Você não está permitido à se conectar nesta partida com uma conta teste. Contas teste são restringidas à partidas "sem estatísticas" apenas.
+disconnect_trial_not_allowed		Você não está permitido à se conectar nesta partida com uma conta teste. Contas teste são restringidas à partidas "sem estatísticas" apenas.
+disconnect_duplicate_login			O servidor não pode autorizar sua conta. Você deve estar conectado para jogar.
+disconnect_duplicate_game_connect	Você foi desconectado porque outro cliente começou a jogar uma partida diferente nesta conta.
+disconnect_unique_login_failed		Você foi desconectado porque o servidor não pode autorizar a sua conta. Por favor, tente novamente mais tarde.
 
 rejected_invalid_request		Seu cliente enviou um pedido de conexão inválido.
 rejected_empty_address			O servidor falhou em determinar seu endereço.
@@ -237,7 +240,7 @@ chat_clan_create_fail_duplicate			^279* Falha ao criar o clan - Membro fundador 
 chat_clan_create_fail_invite			^279* Falha ao criar o clan - ^990{name}^* tem um convite de clan à ser aceito.
 chat_clan_create_fail_not_found			^279* Falha ao criar o clan - ^990{name}^* não encontrado.
 chat_clan_create_fail_clan_name			^279* Falha ao criar o clan - O nome de seu clan foi rejeitado. Assegure-se que o nome tenha de 1 à 32 caracteres alfanuméricos e que não esteja em uso.
-chat_clan_create_fail_tag				^279* Falha ao criar o clan - Sua sigla de clan foi rejeitada. Assegure-se que a sigla tenha de 1 à 3 caracteres alfanuméricos e que não esteja em uso.
+chat_clan_create_fail_tag				^279* Falha ao criar o clan - Sua sigla de clan foi rejeitada. Assegure-se que a sigla tenha de 1 à 4 caracteres alfanuméricos e que não esteja em uso.
 chat_clan_create_fail_unknown			^279* Falha ao criar o clan.
 chat_clan_create_fail_time				^279* Falha ao criar o clan - O tempo dado aos fundadores para aceitar expirou.
 chat_clan_create_result_fail_clan		Você deve sair de seu clan atual antes de criar um.
