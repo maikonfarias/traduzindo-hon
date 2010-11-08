@@ -13,6 +13,7 @@ killstreak4							{killer_color}{killer}^* é ^440savage sick^*!!
 killstreak5							{killer_color}{killer}^* está ^848dominating^*!!
 killstreak6							{killer_color}{killer}^* é um ^800CHAMPION OF NEWERTH^*!!!
 killstreak7							{killer_color}{killer}^* está em um ^840BLOODBATH^*!! Alguém MATE-O!
+killstreak8							{killer_color}{killer}^* é ^860IMMORTAL^*!!
 
 streakend0							{killer} terminou com o ^082serial killer^* de {victim} por ^y{gold}^* gold!!
 streakend1							{killer} terminou com o ^204ultimate warrior^* de {victim} por ^y{gold}^* gold!!
@@ -22,6 +23,7 @@ streakend4							{killer} terminou com o ^440savage sick^* de {victim} por ^y{go
 streakend5							{killer} terminou com o ^848domination^* de {victim} por ^y{gold}^* gold!!
 streakend6							{killer} terminou com o ^800CHAMPION OF NEWERTH^* de {victim} por ^y{gold}^* gold!!
 streakend7							{killer} terminou com o ^840BLOODBATH^* de {victim} por ^y{gold}^* gold!!
+streakend8							{killer} terminou com o ^860IMMORTAL^* de {victim} por ^y{gold}^* gold!!
 
 multikill0							{killer} conseguiu um ^008Double Tap^*!
 multikill1							{killer} conseguiu um ^084Hat-trick^*!!!
