@@ -220,7 +220,7 @@ main_leaver_tip_tier4_threshold				5%% Desist.
 options_disabled							Desligado
 options_very_low							Muito Baixo
 options_low									Baixo
-options_normal								Normal
+options_normal								Todos os Heros
 options_medium								Médio
 options_high								Alto
 options_very_high							Muito Alto
@@ -610,11 +610,11 @@ options_screen_show_gold_tip				Se habilitado, seu gold será mostrado.
 options_checkbox_show_crit					Mostrar Críticos
 options_screen_show_crit_tip				Se habilitado, danos críticos serão mostrados.
 
-options_checkbox_show_magic					Mostrar Dano Mágico
-options_screen_show_magic_tip				Se habilitado, os números do dano mágico serão mostrados.
+options_checkbox_censor_chat				Filtro de Profanação
+options_screen_censor_chat_tip				Se habilitado, palavrões serão filtrados nas mensagens de chat.
 
 options_checkbox_show_deny      			Mostrar Efeitos de Deny
-options_screen_show_deny_tip				Se habilitado, mostrará o efeito de deny.
+options_screen_show_deny_tip				Se habilitado, mostrará efeitos de deny.
 
 options_checkbox_show_cooldowns 			Mostrar Cooldowns
 options_screen_show_cooldowns_tip			Se habilitado, irá mostrar o cooldown como um número sobre os ícones.
@@ -833,18 +833,21 @@ web_form_reportabuse_error3					Nenhuma conta infratora especificada.
 web_form_reportabuse_error4					Nenhuma descrição de ofensa foi dada.					
 web_form_reportabuse_error5					Informações insuficientes preenchidas para enviar relatório.					
 web_form_reportabuse_error6					Você enviou muitos relatórios.  Por favor dê um tempo para revisar antes de submitir mais relatórios.
-web_form_reportabuse_success_title			Relatório enviado com Sucesso
+
+web_form_reportabuse_error8					Este jogador já foi investigado para esta partida.
+web_form_reportabuse_error9					Você já denunciou este jogador para esta partida.
+web_form_reportabuse_success_title			Denúncia enviada com Sucesso
 web_form_reportabuse_success				O seu relatório foi enviado com sucesso.  Um GM irá investigar a causa em breve.
 web_form_reportabuse_type0					Propaganda
-web_form_reportabuse_type1					Apelido Inválido
+web_form_reportabuse_type1					Apelido Impróprio
 web_form_reportabuse_type2					Se aproveitando de Bug
 web_form_reportabuse_type3					Assédio/Ameaças
 web_form_reportabuse_type4					Linguagem Raivosa
 web_form_reportabuse_type5					Se passando por um membro da S2Games
-web_form_reportabuse_type6					Manipulação de Estatís.
+web_form_reportabuse_type6					Manipulação de Estatísticas.
 web_form_reportabuse_type7					Conteúdo Ilegal
 web_form_reportabuse_type8					Linguagem Obscena
-web_form_reportabuse_type9					Abuso Geral
+web_form_reportabuse_type9					Atrapalhar jogo (Griefing)
 web_form_reportabuse_type10					Abuso Verbal
 web_form_reportabuse_lastmatches_status		Recuperando últimas partidas.  Aguarde, por favor.
 web_form_reportabuse_playerlist_status		Recuperando lista de jogadores.  Aguarde, por favor.
@@ -867,7 +870,7 @@ web_form_reportabuse_type7_desc1			Confecção de bombas
 web_form_reportabuse_type7_desc2			Pornografia infantil
 web_form_reportabuse_type7_desc3			Informação de drogas ilegais
 web_form_reportabuse_type8_desc				Não Usado
-web_form_reportabuse_type9_desc				Abuso geral de heroes, itens ou habilidades. Exemplos incluem:
+web_form_reportabuse_type9_desc				Proposital irritação ou assédio de outros jogadores sejam verbalmente ou por meio do jogo contrariando os objetivos do jogo. Exemplos incluem:
 web_form_reportabuse_type9_desc1			Uso intencional de itens ou habilidades para prejudicar aliados (Ex.: teleporte da Nymphora)
 web_form_reportabuse_type9_desc2			Recusa ilógica de participar de uma partida
 web_form_reportabuse_type9_desc3			Desorganização intencional de uma partida (Ex.: dizer para o outro time a posição de seus aliados)
@@ -884,9 +887,33 @@ web_form_lan_account_feature_unavailable_unpaid		Este recurso não está dispon�
 web_form_lan_account_feature_unavailable	Recursos Atualmente Indisponíveis para Usuários de Conta LAN
 web_form_lan_account_feature_unavailable_text	Este recurso está disponível apenas através do nosso website.
 
-web_form_login_upgrade_description			Heroes of Newerth foi lançado e o open beta acabou.  Você precisa comprar Heroes of Newerth para continuar a jogar.  Por favor, preencha as informações necessárias para fazer upgrade da sua conta de Heroes Of Newerth para o status de paga.
+web_form_login_upgrade_description			Sua conta de teste (Trial Account) do Heroes of Newerth expirou. Para continuar jogando, preencha o formulário abaixo para comprar via cartão de crédito. Outras opções de pagamento estão disponíveis online. Ao comprar uma conta, você irá imediatamente usufruir de benefícios adicionais que a sua conta de teste não oferece, como Estatísticas e Acompanhamento de jogos, partidas sem desistêntes (Leavers), Ranking e disponibilidade dos melhores servidores.
 
-// Purchase promo stuff for people who havent bought by release
+// Purchase promo stuff for people who havent paid (former beta accounts, trial accounts)
+purchase_promo_bigfeature1					Atualizações com Novos Conteúdos contínuas.
+purchase_promo_bigfeature1desc				Incluindo novos heróis, itens, equilíbrio do jogo, e recursos.
+purchase_promo_bigfeature2					Proteção contra Desistêntes (Leavers)
+purchase_promo_bigfeature2desc				Jogar partidas restritas que não podem entrar jogadores com histórico de sair de partidas antes do fim.
+purchase_promo_bigfeature3					Acompanhamento de Estatísticas
+purchase_promo_bigfeature3desc				Acompanhe seu desempenho através de estatísticas de jogo e replays.
+purchase_promo_bigfeature4					Match Making
+purchase_promo_bigfeature4desc				Jogue com adversários do seu nível.
+purchase_promo_bigfeature5					Infinitas possivilidades
+purchase_promo_bigfeature5desc				Nenhuma partida é sempre a mesma com 69 heróis para escolher, 3 mapas, e vários modos de jogo.
+purchase_promo_bigfeature6					Jogos competitivos
+purchase_promo_bigfeature6desc				Incluindo torneios com prêmios em dinheiro e funcionalidades adicionais no jogo para apoiar HoN como um e-sport.
+purchase_promo_bigfeature7					Editor de Mapas (em breve)
+purchase_promo_bigfeature7desc				Possibilitar jogadores para que criem seus próprios jogos e modos de jogo.
+purchase_promo_bigfeature8					E mais
+purchase_promo_bigfeature8desc				Incluindo: Reconexão de jogos, Client-Server Netcode, e VoiP embutido.
+purchase_promo_buynow						Compre sua conta do HoN agora!
+purchase_promo_costblurb					O custo de uma conta do HoN é de apenas $ 30 USD! Esta é uma taxa de uma vez para a vida da conta, não há custos mensais ou ocultos.
+purchase_promo_basicfeatures1				Estatísticas e Acompanhamento de jogos - com a sua conta de teste, você não podia participar nas estatísticas oficiais registradas nos jogos.
+purchase_promo_basicfeatures2				No Leaver Games - play in restricted games that can not be joined by players with a history of leaving games early.
+purchase_promo_basicfeatures3				Ladder Rankings - players and clan ladders are automatically updated by the game. See where you rank against the competition.
+purchase_promo_basicfeatures4				Preferred Server Availability - purchased accounts have first rights to game servers.
+purchase_promo_basicfeatures5				Better Games - when you play official stats recorded games, all of the players have an increased interest in winning the game.
+purchase_promo_descprice					The cost for a HoN account is only $30 USD! This is a one time fee for the life of the account, there are NO monthly or hidden costs. 
 purchase_promo_your_hero_here				(Seu Hero Aqui)
 purchase_promo_have_account					Entrar com uma conta diferente?
 purchase_promo_view_tos						Ver TdS
