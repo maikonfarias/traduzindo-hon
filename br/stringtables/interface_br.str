@@ -907,13 +907,13 @@ purchase_promo_bigfeature7desc				Possibilitar jogadores para que criem seus pr�
 purchase_promo_bigfeature8					E mais
 purchase_promo_bigfeature8desc				Incluindo: Reconexão de jogos, Client-Server Netcode, e VoiP embutido.
 purchase_promo_buynow						Compre sua conta do HoN agora!
-purchase_promo_costblurb					O custo de uma conta do HoN é de apenas $ 30 USD! Esta é uma taxa de uma vez para a vida da conta, não há custos mensais ou ocultos.
+purchase_promo_costblurb					O preço de uma conta do HoN é de apenas $ 30 USD! Esta é uma taxa de uma vez para a vida da conta, não há custos mensais ou ocultos.
 purchase_promo_basicfeatures1				Estatísticas e Acompanhamento de jogos - com a sua conta de teste, você não podia participar nas estatísticas oficiais registradas nos jogos.
-purchase_promo_basicfeatures2				No Leaver Games - play in restricted games that can not be joined by players with a history of leaving games early.
-purchase_promo_basicfeatures3				Ladder Rankings - players and clan ladders are automatically updated by the game. See where you rank against the competition.
-purchase_promo_basicfeatures4				Preferred Server Availability - purchased accounts have first rights to game servers.
-purchase_promo_basicfeatures5				Better Games - when you play official stats recorded games, all of the players have an increased interest in winning the game.
-purchase_promo_descprice					The cost for a HoN account is only $30 USD! This is a one time fee for the life of the account, there are NO monthly or hidden costs. 
+purchase_promo_basicfeatures2				Jogos sem desistêntes - jogar em partidas restritas que não podem entrar jogadores com um histórico de sair de partidas antes do fim.
+purchase_promo_basicfeatures3				Ranking - Ranking de jogadores e clãs são atualizados automaticamente pelo jogo. Veja onde você está no ranking comparado aos outros.
+purchase_promo_basicfeatures4				Disponibilidade preferencial do Servidor - As contas compradas têm direitos preferenciais ao servidores do jogo.
+purchase_promo_basicfeatures5				Melhores partidas - quando você joga com estatísticas oficiais, todos os jogadores têm um interesse maior em ganhar o jogo.
+purchase_promo_descprice					O preço de uma conta do HoN é de apenas $ 30 USD! Esta é uma taxa de uma vez para a vida da conta, não há custos mensais ou ocultos.
 purchase_promo_your_hero_here				(Seu Hero Aqui)
 purchase_promo_have_account					Entrar com uma conta diferente?
 purchase_promo_view_tos						Ver TdS
@@ -928,19 +928,21 @@ purchase_promo_matchmaking_title			Match Making de Times
 purchase_promo_matchmaking_desc
 purchase_promo_competitive_title			Suporte Completo para Partidas Competitivas
 purchase_promo_competitive_desc				Incluindo uma extensa comunidade competitiva, torneios com grandes prêmios em dinheiro e recursos adicionais ingame para dar suporte ao HoN como um e-Sport.
-purchase_promo_achievements_title			Conquistas
+purchase_promo_achievements_title			Guarde suas estastísticas e histórico de partidas
 purchase_promo_achievements_desc
 purchase_promo_modes_title					Novos Modos de Jogo
 purchase_promo_modes_desc
-purchase_promo_sdk_title					SDK (incluindo Editor de Mapas)
+purchase_promo_sdk_title					SDK (incluindo Editor de Mapas) em breve
 purchase_promo_sdk_desc						Dando poder aos jogadores para criarem seus próprios games e modos de partida.
 purchase_promo_nick_notice					Tentando upgrade na última conta que houveram tentativas (^g{account}^*).  Se você quiser usar uma conta diferente, clique no botão abaixo para fazer o log in usando uma conta diferente.
+
 
 
 // Tutorial Stuff
 
 prompt_tutorial_title						Ir para o Tutorial?
 prompt_tutorial_text						Bem vindo ao Heroes of Newerth.  Como um novo jogador, recomendamos que você primeiro jogue o tutorial antes de jogar uma partida online. Gostaria de visitar o tutorial agora?
+tutorial_start_full							Começar Tutorial Completo
 
 // Garena Stuff
 #GA001000									Não foi possível se conectar. Tente novamente.
@@ -1716,8 +1718,8 @@ main_lobby_filter_description
 mainlobby_label_custom_game_name			Nome Partida
 main_lobby_game_name_desc					Filter the game browser by typing in a full or partial search phrase.\n\nUse '|' to separate the search phrases, use '-' at the beginning of the phrase to exclude a term, and use '\\|' or '\\-' to escape the '|' or '-'. \n                                                                                  
 mainlobby_label_custom_game_type			Modo Partida
-mainlobby_label_custom_game_type_desc		Os Game Modes geralmente alteram a forma de como os heroes são selecionados.\n\n^yNormal^* - Seleção de hero padrão.\n^yRandom Draft^* - Limita as opções para 20 heroes e então alterna a escolha entre os jogadores.\n^ySingle Draft^* - Cada jogador recebe um hero de agilidade, um de inteligência e um de força, dos quais deverá escolher um para jogar.\n^yBanning Draft^* - Semelhante ao Random Draft, excetuando que o Azul e o Rosa alternam-se para banir 4 heroes antes da seleção.\n^yBanning Pick^* - Azul e Rosa alternam-se para banir 6 heroes cada, somente então os jogadores alternam a seleção com as opções restantes.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
-// Removing this for now - JT               ^yDeathmatch^* - Normal hero selection, but after dying, players are forced to pick a new hero. Game ends when one team runs out of available heroes.\n
+mainlobby_label_custom_game_type_desc		Os Game Modes geralmente alteram a forma de como os heroes são selecionados.\n\n^yAll Heroes^* - Seleção de hero padrão.\n^yRandom Draft^* - Limita as opções para 20 heroes e então alterna a escolha entre os jogadores.\n^ySingle Draft^* - Cada jogador recebe um hero de agilidade, um de inteligência e um de força, dos quais deverá escolher um para jogar.\n^yBanning Draft^* - Semelhante ao Random Draft, excetuando que o Azul e o Rosa alternam-se para banir 4 heroes antes da seleção.\n^yBanning Pick^* - Azul e Rosa alternam-se para banir 6 heroes cada, somente então os jogadores alternam a seleção com as opções restantes.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
+// Removing this for now - JT               ^yDeathmatch^* - All Heroes hero selection, but after dying, players are forced to pick a new hero. Game ends when one team runs out of available heroes.\n
 mainlobby_label_custom_game_region			Região
 mainlobby_label_custom_game_region_desc		Aonde o servidor é localizado geograficamente.
 mainlobby_label_custom_game_US				EUA - Todos
@@ -1795,6 +1797,7 @@ mainlobby_icon_key_maps_header				Mapas
 mainlobby_icon_key_checkboxes				Opções Checkboxes
 mainlobby_icon_key_chat_header				Ícones Chat
 mainlobby_icon_key_chat_staff				Staff da S2 Games
+mainlobby_icon_key_chat_garenastaff			Staff do Garena
 mainlobby_icon_key_chat_gm					Gerenciador do Game
 mainlobby_icon_key_chat_op					Operador do Canal
 mainlobby_icon_key_chat_premium				Conta Premium
@@ -1843,7 +1846,7 @@ mainlobby_gamelist_darkwoodvale_title		Darkwood Vale
 mainlobby_gamelist_darkwoodvale_desc		Jogar partida no mapa com duas faixas, Darkwood Vale
 mainlobby_gamelist_test_title				Mapa Teste
 mainlobby_gamelist_test_desc				É um segredo para todos.
-mainlobby_gamelist_normal_title				Normal
+mainlobby_gamelist_normal_title				All Heroes
 mainlobby_gamelist_normal_desc				Aplica-se a escolha comum de heroes
 mainlobby_gamelist_randomdraft_title		Random Draft
 mainlobby_gamelist_randomdraft_desc			Jogadores revezam em turnos para selecionar o seu hero em uma pool randômica e de menos opções.
@@ -1862,7 +1865,7 @@ mainlobby_gamelist_deathmatch_desc			Após morrer, o jogador é forçado a escol
 
 mainlobby_gamelist_forcerandom_title		Forçar Random
 mainlobby_gamelist_forcerandom_desc			Jogadores são forçados a pegar heroes randômicos.
-mainlobby_gamelist_allheroes_title			Todos os Heroes
+mainlobby_gamelist_allheroes_title			All Heroes
 mainlobby_gamelist_allheroes_desc			Todos os heroes estão disponíveis para ambos os times, independente da facção.
 mainlobby_gamelist_easymode_title			Modo Fácil
 mainlobby_gamelist_easymode_desc			As regras da partida são modificadas para dar à todos os jogadores mais experiência e gold, assim como diminui o poder de defesa da base.
@@ -1899,6 +1902,7 @@ replayv_label_match_length					Duração da partida:
 replayv_label_map							Mapa: 
 replayv_label_game_mode						Modo do jogo: 
 replayv_button_view_match_winner			Ver ganhador
+replayv_button_view_match_stats				Ver Estatísticas
 replayv_tip_online_replays					Você pode baixar replays de partidas logando e selecionando "Play Online", e entao clicando o botão "Estatísticas da partida".
 replayv_tip_replay_list						Replays lhe permitem assistir partidas passadas, da perspectiva de qualquer jogador, ou de um espectador. 
 replay_compat_calculating					Calculando Download
@@ -1973,6 +1977,8 @@ globby_disabled_tip							Travamento de slots está desativado neste modo de jog
 globby_kick_spec_tip						Retirar deste jogo.
 globby_make_ref_tip							Fazer este jogador um juíz
 globby_spot_locked							Travado
+globby_quick_stats							Wins\nLosses\nEM\nK:D\nA:D\nK+A:D\nWards\nXPM\nGPM
+_first_game									's ^wFirst Game!
 
 gamelobby_add_friend_tip					Adicionar {name} à lista de amigos
 gamelobby_take_slot_button					Pegar esse slot de player
@@ -2030,6 +2036,9 @@ game_lobby_kick_tip							Retirar este player
 game_lobby_phase_banning					Fase de Banimento
 game_lobby_phase_picking					Fase de Escolha
 game_lobby_first_ban						Primeiro Ban
+
+game_lobby_quickstats_recent				Partidas recentes
+game_lobby_quickstats_favorite				Favoritos
 
 // game_menu.interface
 game_menu_header							Menu do Jogo
@@ -2198,6 +2207,25 @@ player_stats_player_name					Nome Jogador:
 player_stats_last_20_matches				Últimas 20 Partidas
 player_stats_smr_tmr						SMR / TMR
 player_stats_reset_leaver					Reiniciar %% Desist.
+player_stats_smackdowns						Smack Downs
+player_stats_bloodlust						Bloodlust
+player_stats_serialkiller					Serial Killer ^v(3)^*
+player_stats_ultimatewarrior				Ultimate Warrior ^v(4)^*
+player_stats_legndary						Legendary ^v5)^*
+player_stats_onslaught						Onslaught ^v(6)^*
+player_stats_savagesick						Savage Sick ^v(7)^*
+player_stats_dominating						Dominating ^v(8)^*
+player_stats_champion						Champion ^v(9)^*
+player_stats_bloodbath						Bloodbath ^v(10)^*
+player_stats_immortal						Immortal ^v(15)^*
+player_stats_doubletap						Double Tap
+player_stats_hattrick						Hat-Trick
+player_stats_quadkill						Quad Kill
+player_stats_annihilated					Annihilation
+player_stats_humiliated						Humilliation
+player_stats_nemesis						Nemisis
+player_stats_retribution					Retribution
+
 
 
 // game_setup.package
@@ -2212,7 +2240,7 @@ game_setup_tier_tip							Restringir servidores baseado no tier específico.\n\n
 game_setup_map_label						Mapa
 game_setup_map_tip							Seleciona o mapa da partida.
 game_setup_type_label						Game Mode
-game_setup_type_tip							Os Game Modes geralmente alteram a forma de como os heroes são selecionados.\n\n^yNormal^* - Seleção de hero padrão.\n^yRandom Draft^* - Limita as opções para 20 heroes e então alterna a escolha entre os jogadores.\n^ySingle Draft^* - Cada jogador recebe um hero de agilidade, um de inteligência e um de força, dos quais deverá escolher um para jogar.\n^yBanning Draft^* - Semelhante ao Random Draft, excetuando que o Azul e o Rosa alternam-se para banir 4 heroes antes da seleção.\n^yBanning Pick^* - Azul e Rosa alternam-se para banir 6 heroes cada, somente então os jogadores alternam a seleção com as opções restantes.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
+game_setup_type_tip							Os Game Modes geralmente alteram a forma de como os heroes são selecionados.\n\n^yAll Heroes^* - Seleção de hero padrão.\n^yRandom Draft^* - Limita as opções para 20 heroes e então alterna a escolha entre os jogadores.\n^ySingle Draft^* - Cada jogador recebe um hero de agilidade, um de inteligência e um de força, dos quais deverá escolher um para jogar.\n^yBanning Draft^* - Semelhante ao Random Draft, excetuando que o Azul e o Rosa alternam-se para banir 4 heroes antes da seleção.\n^yBanning Pick^* - Azul e Rosa alternam-se para banir 6 heroes cada, somente então os jogadores alternam a seleção com as opções restantes.                                                                                                                                   // keep this extra whitespace or it doesn't appear correctly in the tooltips - JT
 game_setup_select_server_label				Selecionar Servidor
 game_setup_select_server_tip				^!yAutomático^* irá escolher o servidor de partidas na última opção escolhida na opção 'Escolher...' (se houver escolhido).\n\n^!yEscolher...^* permitirá selecionar manualmente o servidor de uma região específica.\n\n^!yPraticar^* permite o início de uma partida de Prática, para um jogador, localmente na sua máquina.                                                                                                                                      
 game_setup_name_label						Nome da Partida
@@ -2230,7 +2258,7 @@ game_setup_two_v_two						Dois contra Dois
 game_setup_three_v_three					Três contra Três
 game_setup_four_v_four						Quatro contra Quatro
 game_setup_five_v_five						Cinco contra Cinco
-game_setup_normal							Normal
+game_setup_normal							All Heroes
 game_setup_random_draft						Random Draft
 game_setup_single_draft						Single Draft
 game_setup_banningdraft						Banning Draft
@@ -3003,5 +3031,8 @@ trial_gen_limited_title						Contas Teste Não Podem Fazer Isto!
 trial_gen_btn_nothanks						Não Obrigado, Continuar Teste
 trial_gen_btn_upgrade						Melhore Minha Conta Agora!
 trial_matchmaking_limited					Como uma conta teste, você não poderá jogar em partidas com estatísticas gravadas, incluindo partidas do matchmaking. Se você quiser jogar uma partida de matchmaking, você deve primeiro melhorar sua conta instantâneamente.
+
+//mod_options.package
+movf_ingame_only							Você precisa entrar em uma partida primeiro.\n\nCrie uma partida de treinamento para começar!
 
 // End - do not delete this line
