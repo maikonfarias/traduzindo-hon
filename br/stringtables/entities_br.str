@@ -188,9 +188,11 @@ Popup_45s														4.5s!
 Popup_javoflight												{value}s!
 Popup_max														MAX!
 Popup_dot_physical_damage										{value}!
+Popup_timer														{value}
+Popup_timer_hero												{value}
 
 // Game Info
-Mode_Normal														Normal
+Mode_Normal														All Heroes
 Mode_RandomDraft												Random Draft
 Mode_SingleDraft												Single Draft
 Mode_BanningDraft												Banning Draft
@@ -311,11 +313,15 @@ Building_Outpost_description									icon.tga
 Ability_AttributeBoost_name										Attribute Boost
 Ability_AttributeBoost_description								^yBônus por Nível:^*\n+2 Força\n+2 Agilidade\n+2 Inteligência
 
+// State_Teleport_GrimmCrossroads
+State_Teleport_GrimmCrossroads_name								Grimm's Crossroads
+State_Teleport_GrimmCrossroads_description						Você usou recentemente o teletransporte e não pode de novo por um curto período de tempo.
+
 // Ability_Taunt
 Ability_Taunt_name												Taunt
 Ability_Taunt_description								
 Ability_Taunt_IMPACT_effect										Taunting está desativado para esta conta.
-Ability_Taunt_IMPACT_effect:perks								Coloca Taunt em um Hero Inimigo. Você ficará visível para o time do alvo durante o efeito. Mate o alvo com Taunt dentro de 30 segundos para conseguir um smack down.
+Ability_Taunt_IMPACT_effect:perks								Coloca Taunt em um Hero Inimigo. Você ficará visível para o time do alvo durante o efeito. Mate o alvo com Taunt dentro de 30 segundos para conseguir um Smackdown.
 
 // Ability_Accursed1
 Ability_Accursed1_name											Cauterize
@@ -341,14 +347,14 @@ Ability_Accursed3_description2									Essa habilidade contém um ^rAttack ^rMod
 Ability_Accursed3_effect_header									Efeitos do Sear
 Ability_Accursed3_effect_header2								Efeitos do Burning Strikes
 Ability_Accursed3_ATTACK_IMPACT_effect							Aplica Sear no alvo por 2 segundos.
-Ability_Accursed3_tooltip_flavor								Eu estou derretendo!
+Ability_Accursed3_tooltip_flavor								ESTOU DERRETENDO!
 
 // State_Accursed_Ability3
 State_Accursed_Ability3_name									Sear
 State_Accursed_Ability3_description								Sear
 
 // State_Accursed_Ability3_Buff
-State_Accursed_Ability3_Buff_name								Sear
+State_Accursed_Ability3_Buff_name								Burning Strikes
 
 // State_Accursed_Ability3_Debuff
 State_Accursed_Ability3_Debuff_name								Sear
@@ -397,7 +403,7 @@ Ability_Andromeda2_description2
 Ability_Andromeda2_effect_header								Efeitos da Aurora
 Ability_Andromeda2_effect_header2								
 Ability_Andromeda2_tooltip_flavor								
-Ability_Andromeda2_IMPACT_effect								Causa {25,50,75,100} de Dano Mágico nos alvos em uma linha reduzindo sua armadura e dano por 20 segundos.
+Ability_Andromeda2_IMPACT_effect								Causa {40,65,90,115} de Dano Mágico nos alvos em uma linha reduzindo sua armadura e dano por 20 segundos.
 Ability_Andromeda2_tooltip_flavor								Você quer sacodir com aquilo?
 
 // Gadget_Andromeda_Ability2_Reveal
@@ -448,9 +454,9 @@ Hero_Andromeda_description										A celestial nascida das estrelas conhecida c
 // Ability_Arachna1
 Ability_Arachna1_name											Webbed Shot
 Ability_Arachna1_description									Arachna lança um ataque com teias, reduzindo a velocidade do inimigo no impacto.
-Ability_Arachna1_description2									^rEssa é uma habilidade de ataque. Botão Direito para ^reativar auto-cast desta skill.^*^*
+Ability_Arachna1_description2									^rEssa é uma habilidade de ataque (substitui Attack Modifiers). Botão Direito para ^reativar auto-cast desta skill.^*^*
 Ability_Arachna1_effect_header									Efeitos de Webbed Shot
-Ability_Arachna1_IMPACT_effect									Faz com que o próximo ataque aplique Webbed Shot ao alvo por 3 seconds.
+Ability_Arachna1_IMPACT_effect									Causa Webbed Shot ao alvo por 3 seconds.
 
 Ability_Arachna1_tooltip_flavor									Eu tenho uma mosca na minha teia!
 
@@ -488,7 +494,8 @@ Ability_Arachna4_IMPACT_effect									Lança uma Spiderling na unidade alvo. Qu
 
 Ability_Arachna4_tooltip_flavor									É um beijo mortal!
 
-// Pet_Arachna_Ability4
+// Gadget_Arachna_Ability4_Spiderling
+Gadget_Arachna_Ability4_Spiderling_name							Spiderling
 
 // State_Arachna_Ability4
 State_Arachna_Ability4_name										Spider Sting
@@ -532,7 +539,7 @@ Ability_Armadon4_ABILITY_IMPACT_effect							Aplica Restless a si por 10 segundo
 Ability_Armadon4_tooltip_flavor									Me dê, me dê cafeína!
 
 // State_Armadon_Ability4
-State_Armadon_Ability4_name										Relentless
+State_Armadon_Ability4_name										Restless
 
 // Hero_Armadon
 Hero_Armadon_name												Armadon
@@ -553,7 +560,7 @@ Ability_BabaYaga1_tooltip_flavor								O que tem na minha manga?
 State_BabaYaga_Ability1_name									Haunted
 State_BabaYaga_Ability1_description								
 State_BabaYaga_Ability1_description2							
-State_BabaYaga_Ability1_FRAME_effect							{10,20,40,50} de dano Mágico a cada 3 segundos.\n{20,30,40,50}% de diminuição de velocidade de movimento inicialmente, que se recupera em 10 segundos.
+State_BabaYaga_Ability1_FRAME_effect							{10,20,40,50} de dano Mágico a cada 3 segundos\n{20,30,40,50}% de diminuição de velocidade de movimento inicialmente, que se recupera em 10 segundos.
 State_BabaYaga_Ability1_IMPACT_effect							
 
 // Ability_BabaYaga2
@@ -594,10 +601,10 @@ State_BabaYaga_Ability4_name									Haunted
 State_BabaYaga_Ability4_description								
 State_BabaYaga_Ability4_description2							
 State_BabaYaga_Ability4_FRAME_effect							Você precisa ter aprendido Haunt para que o Haunted tenha efeito.
-State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_1		10 de dano Mágico a cada 3 segundos.\n20% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
-State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_2		20 de dano Mágico a cada 3 segundos.\n30% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
-State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_3		40 de dano Mágico a cada 3 segundos.\n40% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
-State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_4		50 de dano Mágico a cada 3 segundos.\n50% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
+State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_1		10 de dano Mágico a cada 3 segundos\n20% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
+State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_2		20 de dano Mágico a cada 3 segundos\n30% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
+State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_3		40 de dano Mágico a cada 3 segundos\n40% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
+State_BabaYaga_Ability4_FRAME_effect:BabaYaga_Ability1_4		50 de dano Mágico a cada 3 segundos\n50% de diminuição da velocidade movimento inicialmente, que recupera em 10 segundos.\n\nAumentando o level do Haunt irá aumentar o efeito do Haunted.
 State_BabaYaga_Ability4_IMPACT_effect							
 
 // Hero_BabaYaga
@@ -622,7 +629,7 @@ Ability_Behemoth2_IMPACT_effect									Aplica Enraged a si por 14 segundos ou a
 Ability_Behemoth2_tooltip_flavor								Você foi longe demais.
 
 // State_Behemoth_Ability2
-State_Behemoth_Ability2_name									Enchanted
+State_Behemoth_Ability2_name									Enraged
 
 // Ability_Behemoth3
 Ability_Behemoth3_name											Heavyweight
@@ -668,7 +675,7 @@ State_Bephelgor_Ability1_Secondary_description2
 State_Bephelgor_Ability1_Secondary_effect_header				Nenhum
 State_Bephelgor_Ability1_Secondary_effect_header2				Nenhum
 State_Bephelgor_Ability1_Secondary_tooltip_flavor				Nenhum
-State_Bephelgor_Ability1_Secondary_FRAME_effect					
+State_Bephelgor_Ability1_Secondary_FRAME_effect					60 de dano mágico por segundo
 State_Bephelgor_Ability1_Secondary_INFLICT_effect				
 
 // Ability_Bephelgor2
@@ -719,10 +726,10 @@ Ability_Bephelgor4_effect_header								Hell Snare
 Ability_Bephelgor4_effect_header2								
 Ability_Bephelgor4_tooltip_flavor								.ratam em eved êcov ogoj o rahnag arap
 Ability_Bephelgor4_FRAME_effect									
-Ability_Bephelgor4_IMPACT_effect								Causa {200,300,400} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {350, 450, 550}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {150,225,300} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.
-Ability_Bephelgor4_IMPACT_effect:bephelgor_ability4_level1		Causa {200,300,400} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {350, 450, 550}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {150,225,300} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.
-Ability_Bephelgor4_IMPACT_effect:bephelgor_ability4_level2		Causa {200,300,400} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {350, 450, 550}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {150,225,300} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.
-Ability_Bephelgor4_IMPACT_effect:bephelgor_ability4_level3		Causa {200,300,400} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {350, 450, 550}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {150,225,300} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.
+Ability_Bephelgor4_IMPACT_effect								Causa {175,250,325} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {300,375,450}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {125,200,275} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.\n\nNão ganha charges enquanto estiver em cooldown, em vez disso, o cooldown é diminuido por 1 segundo por cada skill usada no radius.
+Ability_Bephelgor4_IMPACT_effect:bephelgor_ability4_level1		Causa {175,250,325} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {300,375,450}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {125,200,275} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.\n\nNão ganha charges enquanto estiver em cooldown, em vez disso, o cooldown é diminuido por 1 segundo por cada skill usada no radius.
+Ability_Bephelgor4_IMPACT_effect:bephelgor_ability4_level2		Causa {175,250,325} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {300,375,450}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {125,200,275} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.\n\nNão ganha charges enquanto estiver em cooldown, em vez disso, o cooldown é diminuido por 1 segundo por cada skill usada no radius.
+Ability_Bephelgor4_IMPACT_effect:bephelgor_ability4_level3		Causa {175,250,325} dano Mágico nos inimigos dentro de 600 radius. Ganha efeitos adicionais com mais cargas:\n\n^y40+ cargas:^* Aumenta dano para {300,375,450}. Aplica Hell Snare em cada inimigo que acertar. Cooldown aumenta para 60 segundos.\n\n^y80+ cargas:^* Conjura Volatile Minions em cada inimigo em que acertar. Volatile minions podem ser mortos por ambos os times.  Quando mortos, eles explodem causando {125,200,275} dano Mágico aos inimigos em 200 de radius. Cooldown aumenta para 120 segundos.\n\nCargas são adquiridas baseadas na mana gasta pelos inimigos próximos. Após 10 segundos sem um inimigo usar uma magia, uma caraga é perdida por segundo.\n\nNão ganha charges enquanto estiver em cooldown, em vez disso, o cooldown é diminuido por 1 segundo por cada skill usada no radius.
 Ability_Bephelgor4__effect										
 
 // Pet_Bephelgor_Ability4
@@ -731,10 +738,10 @@ Pet_Bephelgor_Ability4_description
 Pet_Bephelgor_Ability4_DEATH_effect								
 
 // State_Bephelgor_Ability4
-State_Bephelgor_Ability4_name									
+State_Bephelgor_Ability4_name									Hell Snare
 State_Bephelgor_Ability4_description							
 State_Bephelgor_Ability4_description2							
-State_Bephelgor_Ability4_effect_header							Nenhum
+State_Bephelgor_Ability4_effect_header							
 State_Bephelgor_Ability4_effect_header2							Nenhum
 State_Bephelgor_Ability4_tooltip_flavor							Nenhum
 State_Bephelgor_Ability4_FRAME_effect							Reduz a velocidade de movimento em 50% inicialmente, recuperando para a velocidade máxima ao longo de 6 segundos.
@@ -747,15 +754,116 @@ State_Bephelgor_Ability4_Aura_FRAME_effect						Ao usar magia, adiciona uma carg
 Hero_Bephelgor_name												Balphagore
 Hero_Bephelgor_description										O amor visceral de Balphagore por corpos o leva para qualquer lugar em que as atrocidades dos Hellbourne estão mais fortes.  Armado com uma coleção de poderes negros, este demônio não é para ser zombado quando está com fome -- e Balphagore está sempre com fome.
 
+// Ability_Bombardier1
+Ability_Bombardier1_name										Sticky Bomb
+Ability_Bombardier1_description									O Bombardier usa sua mistura pegajosa para lhe permitir jogar bombas que grudam na primeira superfície que tocar - com resultados explosivos controlados.
+Ability_Bombardier1_description2								A Sticky Bomb prevê 500 dias e visão noturna.
+Ability_Bombardier1_effect_header								
+Ability_Bombardier1_effect_header2								
+Ability_Bombardier1_tooltip_flavor								
+Ability_Bombardier1_IMPACT_effect								Joga uma Sticky Bomb que tem um radius de 100 para grudar em uma unidade alvo (se estiver dentro do radius de 100 no momento do impacto) ou na posição de destino.\n\nA Stick Bomb pode ser detonada manualmente causando {75,150,225,300} de dano em um radius de 250. Caso contrario a Stick Bomb começa uma contagem de 8 segundos, aumentando seu dano original por 10% e adicionando 0.5 segundos de stun a cada 2 segundos.
+Ability_Bombardier1_IMPACT_effect:bombardier_bombout_1			Instantaneamente detona a Stick Bomb por {75,150,225,300} de dano mágico em um radius de 250.  Cada charge aumenta o dano causado em 10% e adiciona 0.5 segundo de stun. A bomba pode ser destruída por dois ataques.
+
+// Gadget_Bombardier_Ability1
+Gadget_Bombardier_Ability1_name									
+Gadget_Bombardier_Ability1_description							
+Gadget_Bombardier_Ability1_SPAWN_effect							
+
+// Gadget_Bombardier_Ability1_Reveal
+Gadget_Bombardier_Ability1_Reveal_name							
+Gadget_Bombardier_Ability1_Reveal_description					
+
+// State_Bombardier_Ability1
+State_Bombardier_Ability1_name									Sticky Bomb
+State_Bombardier_Ability1_description							Someone set up you the bomb!
+State_Bombardier_Ability1_description2							
+State_Bombardier_Ability1_effect_header							
+State_Bombardier_Ability1_effect_header2						
+State_Bombardier_Ability1_tooltip_flavor						
+State_Bombardier_Ability1_IMPACT_effect							
+State_Bombardier_Ability1_EXPIRED_effect						
+State_Bombardier_Ability1_INFLICT_effect						
+
+// State_Bombardier_Ability1_Modifier
+State_Bombardier_Ability1_Modifier_name							Charging up Sticky Bomb
+State_Bombardier_Ability1_Modifier_description					Quando ativa, a Sticky Bomb ganha um charge a cada 2 segundos.
+State_Bombardier_Ability1_Modifier_description2					Cada carga aumenta o dano original Sticky Bomb em 10%
+State_Bombardier_Ability1_Modifier_effect_header				
+State_Bombardier_Ability1_Modifier_effect_header2				
+State_Bombardier_Ability1_Modifier_tooltip_flavor				
+State_Bombardier_Ability1_Modifier_INFLICT_effect				
+
+// Ability_Bombardier2
+Ability_Bombardier2_name										Bombardment
+Ability_Bombardier2_description									Usando seu canhão amado, O Bombardier bombardeia uma área-alvo com bolas de canhão explosivas, causando dano ao longo do tempo e slow a unidades inimigas.
+Ability_Bombardier2_description2								
+Ability_Bombardier2_effect_header								
+Ability_Bombardier2_effect_header2								
+Ability_Bombardier2_tooltip_flavor								
+Ability_Bombardier2_IMPACT_effect								Bombardeia um raio de 250 com cinco ondas de bolas de canhão causando {20,30,40,50} de dano por golpe durante 2 segundos e causando slow em qualquer dentro do radius em {40,50,60,70}% que diminui para 0% por 1 segundo.
+
+// State_Bombardier_Ability2
+State_Bombardier_Ability2_name									Bombardment
+State_Bombardier_Ability2_description							
+State_Bombardier_Ability2_description2							
+State_Bombardier_Ability2_effect_header							
+State_Bombardier_Ability2_effect_header2						
+State_Bombardier_Ability2_tooltip_flavor						
+
+// Ability_Bombardier3
+Ability_Bombardier3_name										Boom Dust
+Ability_Bombardier3_description									O Bombardier lança suas bombas em excesso no alvo inimigo ou unidade aliada. Quando o alvo recebe dano, as bombas causam uma explosão AOE, danificando as unidades inimigas.
+Ability_Bombardier3_description2								
+Ability_Bombardier3_effect_header								
+Ability_Bombardier3_effect_header2								
+Ability_Bombardier3_tooltip_flavor								
+Ability_Bombardier3_IMPACT_effect								Envolve o alvo aliado ou inimigo de bombas que explodem sempre que a unidade é atingida por um ataque, causando {40,60,80,100} de dano para inimigos em um radius de 250.\n\nUm charge é adquirido a cada {10,8,6,4} segundos.\n\nAtivação em dobro da skill irá aplicar Boom Dust para o Bombardier.
+
+// State_Bombardier_Ability3
+State_Bombardier_Ability3_name									Boom Dust
+State_Bombardier_Ability3_description							A próxima vez que você é atacado, uma explosão causando {40,60,80,100} de dano mágico para os inimigos do Bombardier irá ocorrer em um radius de 250.
+State_Bombardier_Ability3_description2							
+State_Bombardier_Ability3_effect_header							
+State_Bombardier_Ability3_effect_header2						
+State_Bombardier_Ability3_tooltip_flavor						
+State_Bombardier_Ability3_ATTACKED_PRE_DAMAGE_effect			
+State_Bombardier_Ability3_INFLICT_effect						
+
+// State_Bombardier_Ability3_Enemy
+State_Bombardier_Ability3_Enemy_name							Boom Dust
+State_Bombardier_Ability3_Enemy_description						A próxima vez que você é atacado, uma explosão causando {40,60,80,100} de dano mágico para os inimigos do Bombardier irá ocorrer em um radius de 250.
+
+// Ability_Bombardier4
+Ability_Bombardier4_name										Air Strike!
+Ability_Bombardier4_description									Bombardier chama seu assistente Twitch para sobrevoar e soltar uma série de bombas em uma linha. Ele é um pouco preguiçoso, por isso leva 2 segundos para o Twitch para chegar.
+Ability_Bombardier4_description2								^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeito do Staff:^* Bombas deixam Napalm que causa {60,90,120} de dano mágico por segundo durante 5 segundos
+Ability_Bombardier4_effect_header								
+Ability_Bombardier4_effect_header2								
+Ability_Bombardier4_tooltip_flavor								
+Ability_Bombardier4_IMPACT_effect								Solicita um ataque aéreo na localidade de vetor destino que depois de 2 segundos cai 6 de bombas ao longo do vetor, cada uma causando {200,275,350} de dano mágico em um radius de {200}.\n\nTwitch da 1000 de visão de dia e noturna quando ele esta no mapa.
+Ability_Bombardier4_name:ult_boost								Firebombing ^g(Boosted)^*
+Ability_Bombardier4_description2:ult_boost 						^930Esta habilidade foi melhorada pelo Staff of the Master^*
+Ability_Bombardier4_IMPACT_effect:ult_boost						Solicita um ataque aéreo na localidade de vetor destino que depois de 2 segundos cai 6 de bombas ao longo do vetor, cada uma causando {200,275,350} de dano mágico em um radius de {200}.\n\n^gBombas deixam Napalm queimando por 4 segundos.^*
+Ability_Bombardier4_effect_header:ult_boost						Efeitos do Napalm
+
+// State_Bombardier_Ability4_Napalm
+State_Bombardier_Ability4_Napalm_name							Napalm
+State_Bombardier_Ability4_Napalm_FRAME_effect					{60,90,120} de dano mágico por segundo
+
+
+// Hero_Bombardier
+Hero_Bombardier_name											Bombardier
+Hero_Bombardier_description										Irmão do famoso cientista do mal que se tornou o Dr. Repulsor, o Bombardier usa a sua mente selvagem para ajudar The Legion. Apenas alguns anos atrás, os dois irmãos fizeram surpreendentes maravilhas técnicas juntos. Mas o Hellbourne levantou-se e corrompeu Repulsor, deixando a Bombardier com um forte senso de vingança. O Bombardier, juntamente com o fiel assistente Twitch, usa suas invenções variadas e brinquedos perigosos para combater Hellbourne devolta para o inferno para que finalmente libere o domínio do mal sobre o seu irmão.
+
 // Ability_Bubbles1
 Ability_Bubbles1_name											Shell Surf
-Ability_Bubbles1_description									Bubbles usa sua casca como seu foco para usar sua habilidade de teleportar. A casca do Bubbles escorrega em direção aos oponentes, causando dano em qualquer um em que ela pegar. Bubbles pode decidir se vai se teleportar para a sua casca à qualquer momento em que ela faz sua jornada.
+Ability_Bubbles1_description									Bubbles usa seu casco como seu foco para usar sua habilidade de teleportar. O casco do Bubbles escorrega em direção aos oponentes, causando dano em qualquer um em que ela pegar. Bubbles pode decidir se vai se teleportar para a seu casco à qualquer momento em que ela faz sua jornada.
 Ability_Bubbles1_description2									
 Ability_Bubbles1_effect_header									
 Ability_Bubbles1_effect_header2									
 Ability_Bubbles1_tooltip_flavor									Gostaria de ter uma vermelha.
-Ability_Bubbles1_IMPACT_effect									Joga a sua casca na direção alvo, causando dano em todos os inimigos no raio por {70,140,210,280} de dano Mágico.\n\nUsar esta habilidade novamente enquanto a casca estiver em pleno voo irá teleportar você para a posição atual da casca.
-Ability_Bubbles1_IMPACT_effect:Bubblesorb						Teleporta Bubbles para a posição atual da casca que ele jogou.
+Ability_Bubbles1_IMPACT_effect									Joga a seu casco na direção alvo, causando dano em todos os inimigos no radius em {70,140,210,280} de dano Mágico.\n\nUsar esta habilidade novamente enquanto a casca estiver em pleno voo irá teleportar você para a posição atual do casco.
+Ability_Bubbles1_IMPACT_effect:Bubblesorb						Teleporta Bubbles para a posição atual do casco que ele jogou.
 
 // Gadget_Bubbles_Ability1
 Gadget_Bubbles_Ability1_name									
@@ -789,7 +897,7 @@ State_Bubbles_Ability2_tooltip_flavor							Nenhum
 
 // Ability_Bubbles3
 Ability_Bubbles3_name											Take Cover
-Ability_Bubbles3_description									Bubbles se encolhe na sua carapaça encantada, tornando-o impenetrável, seja por dano mágico ou físico.
+Ability_Bubbles3_description									Bubbles se encolhe no seu casco encantado, tornando-o impenetrável, seja por dano mágico ou físico.
 Ability_Bubbles3_description2									
 Ability_Bubbles3_effect_header									
 Ability_Bubbles3_effect_header2									
@@ -798,7 +906,7 @@ Ability_Bubbles3_IMPACT_effect									Garante invulnerabilidade à todo tipo de
 Ability_Bubbles3_CHANNEL_START_effect							
 
 // State_Bubbles_Ability3
-State_Bubbles_Ability3_name										
+State_Bubbles_Ability3_name										Take Cover
 State_Bubbles_Ability3_description								
 State_Bubbles_Ability3_description2								
 State_Bubbles_Ability3_effect_header							Nenhum
