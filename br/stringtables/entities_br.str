@@ -943,10 +943,14 @@ Hero_Bubbles_description										Um poderoso mago já foi dono de uma tartatura
 
 // Ability_Chipper1
 Ability_Chipper1_name											Rocket Barrage
-Ability_Chipper1_description									O Chipper dispara um pequeno foguete em qualquer direção a partir da cúpula no topo do seu andador. O foguete ira causar dano e ministun, e botar fogo no Tar. Se o Chipper estiver perto da explosão do foguete, a explosão vai causar a metade do dano para prevenir que danifique o seu andador.
+Ability_Chipper1_description									O Chipper dispara um pequeno foguete em qualquer direção a partir da cúpula no topo do seu andador. O foguete ira causar dano e ministun, e causar fogo no Tar.
 Ability_Chipper1_IMPACT_effect									Causa {85,115,145,180} de dano Mágico no impacto e stun de .1 segundo. Ganha uma carga a cada 4 segundos. Máximo de {1,2,2,3} cargas.\n\nSe o alvo estiver coberto por Tar Toss, eles vão pegar fogo e queimar por {20,30,40,50} de dano Mágico por segundo até o slow acabar.
 
 Ability_Chipper1_tooltip_flavor									Não mire, apenas atire!
+
+// State_Chipper_Ability1
+State_Chipper_Ability1_name										Burning Tar!
+State_Chipper_Ability1_FRAME_effect								{20,30,40,50} de dano mágico por segundo
 
 // Ability_Chipper2
 Ability_Chipper2_name											Tar Toss
@@ -960,6 +964,7 @@ Ability_Chipper2_tooltip_flavor									Não corra! Eu sou seu amigo!
 State_Chipper_Ability2_Tooltip_name								Tar Covered
 State_Chipper_Ability2_Tooltip_FRAME_effect						10% de redução de movimento\n{.1,.3,.5,.7}% de redução de movimento por carga\n{.1,.2,.3,.4}% de redução de velocidade de ataque por carga
 State_Chipper_Ability2_name										Tar Covered
+State_Chipper_Ability2_name_FRAME_effect						
 
 // Ability_Chipper3
 Ability_Chipper3_name											Focus Buffer
@@ -979,14 +984,18 @@ Ability_Chipper4_description									O Chipper é capaz de se comunicar com os C
 Ability_Chipper4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gRange aumentada para 1000.\n^gAplica 70% de snare para qualquer um ^gdentro das Serras.
 Ability_Chipper4_effect_header									Efeito da Sawblade
 Ability_Chipper4_IMPACT_effect									Invoca serras por 8 segundos. Aplica Sawblade a qualquer inimigo que andar dentro das serras giratórias. Serras destroem árvores, obviamente.
-Ability_Chipper4_name:ult_boost									Sawblade Destruction
+Ability_Chipper4_name:ult_boost									Sawblade Destruction ^g(Boosted)^*
 Ability_Chipper4_description2:ult_boost							Esta habilidade foi melhorada pela Staff of the Master.\n\n^gRange aumentada para 1000.\n^gAplica 70% de snare para qualquer um dentro das Serras.
 
 Ability_Chipper4_tooltip_flavor									Controle e um pouco do elemento X resolvem.
 
 // State_Chipper_Ability4
 State_Chipper_Ability4_name										Sawblade
-State_Chipper_Ability4_FRAME_effect								{100,200,300} de dano Mágico inicial \n{75,125,175} de dano Mágico por segundo
+State_Chipper_Ability4_FRAME_effect								{200,300,400} de dano Mágico inicial \n{75,125,175} de dano Mágico por segundo
+
+// State_Chipper_Ability4_Slow
+State_Chipper_Ability4_Slow_name								Sawblade Crippled
+State_Chipper_Ability4_Slow_description							90% de slow inicialmente, que reduz a 0% com o tempo em 4 segundos.
 
 // Hero_Chipper
 Hero_Chipper_name												The Chipper
@@ -994,22 +1003,20 @@ Hero_Chipper_description										A indescritível raça chiprel passou incontá
 
 // Ability_Chronos1
 Ability_Chronos1_name											Time Leap
-Ability_Chronos1_description									Chronos se teleporta pelo espaço e pelo tempo para o lugar alvo. Todos os inimigos próximos receberão dano e ficarão lentos.
+Ability_Chronos1_description									Chronos se teleporta pelo espaço e pelo tempo para o lugar alvo. Todos os inimigos próximos receberão dano e slow.
 Ability_Chronos1_effect_header									Time Sap
 Ability_Chronos1_IMPACT_effect									Teleporta a si mesmo para um lugar alvo, causa {25,75,125,175} de dano Mágico e aplica Time Sap nos inimigos em radius por 3 segundos.
 Ability_Chronos1_tooltip_flavor									É tudo sobre o capacitor de fluxo!
 
 // State_Chronos_Ability1_Enemy
-State_Chronos_Ability1_Enemy_name								Slowed
-State_Chronos_Ability1_Enemy_description						Redução de movimento pelo Time Leap
+State_Chronos_Ability1_Enemy_name								Time Sap
 
 // State_Chronos_Ability1_Self
-State_Chronos_Ability1_Self_name								Time Walk
+State_Chronos_Ability1_Self_name								Time Leap
 
 // Ability_Chronos2
 Ability_Chronos2_name											Rewind
 Ability_Chronos2_description									Chronos volta no tempo quando recebe dano, dando a ele a chance de desfazer o dano recebido rapidamente.
-Ability_Chronos2_description2									O tempo de cooldown dessa skill só previne os efeitos visuais de replay. Essa skill pode curar o dano mesmo durante o tempo de cooldown.
 Ability_Chronos2_effect_header									Status Effect
 Ability_Chronos2_DAMAGED_effect									{10,15,20,25}% de chance de curar o dano recebido. Regenera 25% do maximo da vida por segundo até recuperar a vida perdida.
 
@@ -1017,16 +1024,10 @@ Ability_Chronos2_tooltip_flavor									Não pode me tocar!
 
 // Ability_Chronos3
 Ability_Chronos3_name											Curse of Ages
-Ability_Chronos3_description									Chronos pode roubar o tempo de qualquer Hero ele acertar, roubando agilidade e eventualmente trancando eles no tempo por um breve momento.
+Ability_Chronos3_description									Chronos pode roubar o tempo de qualquer Hero ele acertar, eventualmente trancando eles no tempo por um breve momento.
 Ability_Chronos3_description2									Esta habilidade contém propriedades de ^yBashing^*. Itens e habilidades com propriedades de  ^yBashing^* têm tempo de cooldown compartilhados.
-Ability_Chronos3_effect_header									Efeitos de Time Stolen
-Ability_Chronos3_effect_header2									Efeitos de Time Enhanced
-Ability_Chronos3_ATTACK_IMPACT_effect							Quando atacar um Hero inimigo, aplica Time Stolen nele e Time Enhanced em si por 10 segundos. Não propaga para ilusões.\n\nCada ataque concecutivo no mesmo alvo irá adicionar uma carga. Na 5º carga o alvo recebera Stun de {.25,.5,.75,1} segundo e recebem {15,30,45,60} de dano Físico.\n\nO roubo de agilidade e o ganho de carga não irão aumentar se o alvo estiver stunado pelo Curse of Ages.
+Ability_Chronos3_ATTACK_IMPACT_effect							Não propaga para ilusões.\n\nCada ataque concecutivo no mesmo alvo irá adicionar uma carga. Na 5º carga o alvo recebera Stun de 1 segundo e recebem {15,30,45,60} de dano Físico.\n\nO roubo de agilidade e o ganho de carga não irão aumentar se o alvo estiver stunado pelo Curse of Ages.
 Ability_Chronos3_tooltip_flavor									Aproveite o espaço-tempo contínuo.
-
-// State_Chronos_Ability3
-State_Chronos_Ability3_name										Time Stolen
-State_Chronos_Ability3_Self_name								Time Enhanced
 
 // Ability_Chronos4
 Ability_Chronos4_name											Chronofield
@@ -1063,13 +1064,13 @@ Ability_CorruptedDisciple2_description							O Corrupted Disciple liga ele a um 
 Ability_CorruptedDisciple2_effect_header						Corrupted Conduit (Inimigo)
 Ability_CorruptedDisciple2_effect_header2						Corrupted Conduit (Si)
 Ability_CorruptedDisciple2_IMPACT_effect						Aplica Corrupted Conduit (Inimigo) ao inimigo alvo e Corrupted Conduit (Si) em você, ligando os dois juntos e soltando uma carga por segundo.\n\nA ligação é quebrada se o inimigo se mover mais que 700 unidades de distância do Disciple, se o Disciple perder o inimigo de vista, {50,100,150,200} do total de dano é drenado.\n\nA perda ou bonus de dano é retida por 13 segundos depois que a ligação é quebrada.\n\nGarante 800 unidades de visão limpa sobre o alvo enquanto é drenado.
-Ability_CorruptedDisciple2_tooltip_flavor						tudo que é seu é meu agora.	
+Ability_CorruptedDisciple2_tooltip_flavor						O que foi seu é meu agora.	
 
 // State_CorruptedDisciple_Ability2
 State_CorruptedDisciple_Ability2_Enemy_name						Corrupted Conduit (Inimigo)
-State_CorruptedDisciple_Ability2_Self_name						Corrupted Conduit (Si)
+State_CorruptedDisciple_Ability2_Self_name						Corrupted Conduit (Si Próprio)
 State_CorruptedDisciple_Ability2_Enemy_Damage_name				Corrupted Conduit (Inimigo)
-State_CorruptedDisciple_Ability2_Self_Damage_name				Corrupted Conduit (Si)
+State_CorruptedDisciple_Ability2_Self_Damage_name				Corrupted Conduit (Si Próprio)
 
 // Ability_CorruptedDisciple
 Ability_CorruptedDisciple3_name									Static Discharge
