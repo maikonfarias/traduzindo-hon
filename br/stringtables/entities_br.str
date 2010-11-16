@@ -1107,6 +1107,7 @@ Ability_Deadwood1_effect_header									Efeito de Rotten Grasp
 Ability_Deadwood1_IMPACT_effect									Depois de 2 segundos de espera, aplica Rotten Grasp em todos os inimigos no raio ou que entre neste. Efeito dura {1,1.7,2.3,3} segundos.\n\nO efeito durante o delay é secreto.
 Ability_Deadwood1_tooltip_flavor								Você não verá isso chegando...
 
+// State_Deadwood_Ability1
 State_Deadwood_Ability1_name									Rotten Grasp
 State_Deadwood_Ability1_FRAME_effect							100 de dano Mágico por segundo
 
@@ -1119,9 +1120,13 @@ Ability_Deadwood2_tooltip_flavor								Uma árvore funciona muito bem como arma
 Ability_Deadwood2_name:deadwood_ihasatree						Oakbolt
 Ability_Deadwood2_effect_header:deadwood_ihasatree				Efeito de Son of a Birch
 Ability_Deadwood2_IMPACT_effect:deadwood_ihasatree				Joga sua árvore no inimigo alvo; causa stun de 0.1 seconds, e {30,60,90,120} de dano Físico e aplica Son of a Birch por {1.5,2,2.5,3} segundos.\n\nUnidades imune a magias não recebem o stun e o retardamento.\n\nSe jogado em uma ávore, destrói aquela árvore no impacto.
-Ability_Deadwood2_tooltip_flavor:deadwood_ihasatree				Inspirado por Stormbolt
+Ability_Deadwood2_tooltip_flavor:deadwood_ihasatree				Inspirado por Stormbolt.
 
+
+// State_Deadwood_Ability2
 State_Deadwood_Ability2_name									Agora eu tenho uma árvore!
+
+//State_Deadwood_Ability2_Slow
 State_Deadwood_Ability2_Slow_name								Son of a Birch
 State_Deadwood_Ability2_Slow_FRAME_effect						Baixa em 75% a velocidade de movimento, decrescendo após {1.5,2,2.5,3} segundos
 
@@ -1132,18 +1137,23 @@ Ability_Deadwood3_effect_header									Efeito de Clearcutting
 Ability_Deadwood3_IMPACT_effect									Aplica Clearcutting em si por {12,14,16,18} segundos. Qualquer árvore morta em seu caminho garante uma carga. Máximo de {1,2,3,4} cargas.
 Ability_Deadwood3_tooltip_flavor								Fora do meu caminho, estou passando!
 
+
+// State_Deadwood_Ability3
 State_Deadwood_Ability3_name									Clearcutting
-State_Deadwood_Ability3_FRAME_effect							+25% de Resistência à Slow por carga
 
 // Ability_Deadwood4
 Ability_Deadwood4_name											Willowmaker
 Ability_Deadwood4_description									Com uma força poderosa e eterna, Deadwood usa seu braço de madeira para socar o inimigo, causando dano massivo. O ataque é tão poderoso que ecoa atrás do alvo, enfraquecendo os outros que forem pegos por ela.
 Ability_Deadwood4_effect_header									Efeito de Willowmaker
-Ability_Deadwood4_IMPACT_effect									Causa {350,650,950} de dano Físico e stun no alvo por 1.5 segundos.
+Ability_Deadwood4_IMPACT_effect									Causa {350,650,950} de dano Físico e stun no alvo por 1.5 segundos. Aplica Willowmaker no alvo por 3s
 Ability_Deadwood4_tooltip_flavor								Deadwood... SOCAR!
 
+// State_Deadwood_Ability4
+State_Deadwood_Ability4_name									Willowmaker
+
+// State_Deadwood_Ability4_Tooltip
 State_Deadwood_Ability4_Tooltip_name							Willowmaker
-State_Deadwood_Ability4_Tooltip_FRAME_effect					Baixa a força total em 20%
+State_Deadwood_Ability4_Tooltip_FRAME_effect					Baixa a força total em 20%\n35% Slow
 
 // Hero_Deadwood
 Hero_Deadwood_name												Deadwood
@@ -1151,13 +1161,13 @@ Hero_Deadwood_description										Nascido das terras cruelmente destruidas de N
 
 // Ability_Defiler1
 Ability_Defiler1_name											Wave of Death
-Ability_Defiler1_description									Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em linha.
+Ability_Defiler1_description									Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em cone.
 Ability_Defiler1_effect_header									Efeito de Status
-Ability_Defiler1_IMPACT_effect									Causa {100,175,250,300} de dano Mágico em cada alvo em uma linha.
-Ability_Defiler1_description:Defiler_Ability3_1					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em linha.
-Ability_Defiler1_description:Defiler_Ability3_2					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em linha.
-Ability_Defiler1_description:Defiler_Ability3_3					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em linha.
-Ability_Defiler1_description:Defiler_Ability3_4					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em linha.
+Ability_Defiler1_IMPACT_effect									Causa {100,175,250,300} de dano Mágico em cada alvo em um cone.
+Ability_Defiler1_description:Defiler_Ability3_1					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em cone.
+Ability_Defiler1_description:Defiler_Ability3_2					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em cone.
+Ability_Defiler1_description:Defiler_Ability3_3					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em cone.
+Ability_Defiler1_description:Defiler_Ability3_4					Exercitando seu domínio sobre a morte, a Defiler envia uma Wave of Death que causa dano nos inimigos em cone.
 
 Ability_Defiler1_tooltip_flavor									Atravessando o Estige!
 
@@ -1169,7 +1179,7 @@ Ability_Defiler2_IMPACT_effect									Aplica Grave Silence aos alvos no radius 
 Ability_Defiler2_tooltip_flavor									Eu escrevi o livro na loucura.
 
 // State_Defiler_Ability2
-State_Defiler_Ability2_name										Silenced
+State_Defiler_Ability2_name										Grave Silence
 
 // Ability_Defiler3
 Ability_Defiler3_name											Power in Death
@@ -1184,7 +1194,7 @@ Ability_Defiler4_name											Unholy Expulsion
 Ability_Defiler4_description									A Defiler solta vários espíritos invulneráveis de sua forma. Os espíritos não poderão ser diretamente controlados mas atacarão inimigos próximos inclusive a unidade que a Defiler estiver atacando diretamente. Quando Unholy Expulsion acabar, os espíritos curarão a Defiler.
 Ability_Defiler4_description2									Cria {5,10,16} espíritos.
 Ability_Defiler4_effect_header									Efeitos de Status
-Ability_Defiler4_IMPACT_effect									Cria alguns espíritos por 30 segundos que atacam inimigos próximos, ou os alvos sendo atacados diretamente por você. Ao terminar, os esprítos retornarão à você curando-o em 25% do dano que eles causaram, sendo o máximo de 1000 de Vida curados.
+Ability_Defiler4_IMPACT_effect									Cria alguns espíritos por 30 segundos que atacam inimigos próximos, ou os alvos sendo atacados diretamente por você. Ao terminar, os esprítos retornarão à você curando-o em 25% do dano que eles causaram.
 Ability_Defiler4_description2:Defiler_Ability3_1				Cria {6,11,16} espíritos.
 Ability_Defiler4_description2:Defiler_Ability3_2				Cria {7,13,18} espíritos.
 Ability_Defiler4_description2:Defiler_Ability3_3				Cria {8,14,20} espíritos.
@@ -1208,12 +1218,15 @@ Ability_Devourer1_effect_header									Efeito de Status
 Ability_Devourer1_IMPACT_effect									Causa {100,200,300,400} de dano físico ao alvo e interrompe o uso de habilidades. Puxa o alvo na direção do Devourer.
 Ability_Devourer1_tooltip_flavor								Venha para cá!
 
+// State_Devourer_Ability1
+State_Devourer_Ability1_name									Hooked
+
 // Ability_Devourer2
 Ability_Devourer2_name											Decay
 Ability_Devourer2_description									O Devourer se oferece para sacrifício, drenando seu Health por um tempo e soltando gazes venenosos que danificam e deixam as unidades inimigas mais lentas.
 Ability_Devourer2_effect_header									Efeitos do Decay
 Ability_Devourer2_IMPACT_effect									Aplica Decay nos inimigos em radius e causa {25,50,75,100} de dano Mágico por segundo em si. \n\nA Redução de Movimento persiste por 2 segundos após o inimigo sair da radius do Decay.
-Ability_Devourer2_tooltip_flavor							    Cheiro de quê?
+Ability_Devourer2_tooltip_flavor								Que cheiro é esse?
 
 // State_Devourer_Ability2_Other
 State_Devourer_Ability2_Other_name								Decay
@@ -1226,7 +1239,7 @@ State_Devourer_Ability2_Self_FRAME_effect						{25,50,75,100} de dano Mágico po
 // Ability_Devourer3
 Ability_Devourer3_name											Cadaver Armor
 Ability_Devourer3_description									Essa armadura grotesca aumenta a Armadura Mágica do Devourer e adiciona, permanentemente, força por cada hero morto próximo de você ou que você mate.
-Ability_Devourer3_KILL_effect									Adiciona, permanentemente, 1.5 de Força por cada hero que você matar.
+Ability_Devourer3_KILL_effect									Adiciona, permanentemente, 1 de Força por cada hero que você matar.
 Ability_Devourer3_effect_header									Efeito de Status
 Ability_Devourer3_tooltip_flavor								O Mal nunca morre!
 
@@ -1237,7 +1250,7 @@ Ability_Devourer4_name											Devour
 Ability_Devourer4_description									O Devourer segura o inimigo alvo e começa a devorá-lo, causando dano massivo a cada segundo que ele o consome, aumentando o seu próprio poder.
 Ability_Devourer4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeitos do Staff:^* Cura o Devourer equivalente ao dano causado. Causa um adicional de (0.75 * Força) de dano Mágico por segundo.
 Ability_Devourer4_effect_header									Efeitos do Devour
-Ability_Devourer4_IMPACT_effect									Aplica Devour no inimigo alvo por 3 segundos ou até ser cancelado.
+Ability_Devourer4_IMPACT_effect									Aplica Devour no inimigo alvo por 3 segundos ou até ser cancelado. Para cada segundo de channel, um charge que dura 7 segundos é adicionado ao Devourer.
 Ability_Devourer4_name:ult_boost								Om Nom Nom ^g(Melhorado)^*
 Ability_Devourer4_description2:ult_boost						Esta habilidade foi melhorada pelo Staff of the Master.
 Ability_Devourer4_IMPACT_effect:ult_boost						Aplica Devour no inimigo alvo por 3 segundos ou até ser cancelado.\n^gCura o Devourer equivalente ^gao ^gdano ^gdcausado.^*
