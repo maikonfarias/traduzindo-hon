@@ -1294,7 +1294,7 @@ State_DiseasedRider_Ability2_Debuff_name						Infected
 // Ability_DiseasedRider3
 Ability_DiseasedRider3_name										Extinguish
 Ability_DiseasedRider3_description								O Plague Rider retira a vida de uma unidade aliada, restaurando seu próprio mana. ele aproveita o lanche e se alimenta da destruição causada.
-Ability_DiseasedRider3_IMPACT_effect							Mata a unidade alvo e converte {15,30,45,60}% de sua vida atual em mana para Plague Rider.\n\nO alvo não fornece experiência ao Hero inimigo.
+Ability_DiseasedRider3_IMPACT_effect							Mata a unidade alvo e converte {15,30,45,60}% de sua vida atual em mana para Plague Rider.\n\nFunciona como um deny.
 
 Ability_DiseasedRider3_tooltip_flavor							Sua morte não será em vão.
 
@@ -1320,9 +1320,9 @@ Hero_DiseasedRider_description									O cheiro pestilento do Plague Rider pode 
 // Ability_DoctorRepulsor1
 Ability_DoctorRepulsor1_name									Magnetic Contraption
 Ability_DoctorRepulsor1_description								O Doctor deixa um de seus Magnetic Contraptions patenteados no chão. Qualquer inimigo que se aproximar do Contraption libera o campo magnético delicado dentro dele, fazendo com que ele exploda.
-Ability_DoctorRepulsor1_IMPACT_effect							Após 1 segundo de espera, qualquer inimigo que entrar em um raio de 235 do Contraption irá ativá-lo. Causa {140,180,220,260} de dano Mágico à todas unidades em uma área de 260.\n\nEsta habilidade pode ser usada no meio do voo, durante a "Velocidade Burlesca".
+Ability_DoctorRepulsor1_IMPACT_effect							Após 1 segundo de espera, qualquer inimigo que entrar em um raio de 235 do Contraption irá ativá-lo. Causa {140,180,220,260} de dano Mágico à todas unidades em uma área de 260.\n\nEsta habilidade pode ser usada no meio do voo, durante "Ludicrous speed".\nDá 800 de clearvision ao dia e a noite.
 
-Ability_DoctorRepulsor1_tooltip_flavor							
+Ability_DoctorRepulsor1_tooltip_flavor							Esses ímãs, como eles funcionam?
 
 // Ability_DoctorRepulsor2
 Ability_DoctorRepulsor2_name									Opposite Charges
@@ -1330,10 +1330,13 @@ Ability_DoctorRepulsor2_description								Doctor Repulsor magnetiza o inimigo a
 Ability_DoctorRepulsor2_effect_header							Efeitos de Magnetized
 Ability_DoctorRepulsor2_IMPACT_effect							Stuna o alvo por {1,1.5,2,2.5} segundo(s) e os puxando-os {100,150,200,250} unidades na direção do Magneto ao longo da duração. Aplica Magnetized no Doctor Repulsor por 3 segundos.
 
-Ability_DoctorRepulsor2_tooltip_flavor							
+Ability_DoctorRepulsor2_tooltip_flavor							Duas vezes errado faz isso ficar certo.
 
 // State_DoctorRepulsor_Ability2_Self
-State_DoctorRepulsor_Ability2_Self_name							Magnetized
+State_DoctorRepulsor_Ability2_Self_name							Self-Magnetized
+
+// State_DoctorRepulsor_Ability2
+State_DoctorRepulsor_Ability2_name								Magnetized
 
 // Ability_DoctorRepulsor3
 Ability_DoctorRepulsor3_name									Electric Frenzy
@@ -1341,11 +1344,11 @@ Ability_DoctorRepulsor3_description								Toda vez que o Doctor usa uma habilid
 Ability_DoctorRepulsor3_effect_header							Efeitos de Fully Charged
 Ability_DoctorRepulsor3_ABILITY_IMPACT_effect					Aplica Fully Charged no Doctor. Dura até ele atacar novamente.
 
-Ability_DoctorRepulsor3_tooltip_flavor							
+Ability_DoctorRepulsor3_tooltip_flavor							Electrician não tem nada contra mim.
 
 // State_DoctorRepulsor_Ability3
 State_DoctorRepulsor_Ability3_name								Fully Charged
-State_DoctorRepulsor_Ability3_FRAME_effect						Ao impactar, causa {30,45,60,75} de dano Mágico em um raio de 300. Prende todas as unidades em que pegar por .6 segundos.
+State_DoctorRepulsor_Ability3_FRAME_effect						Ao impactar, causa {30,45,60,75} de dano Mágico em um raio de 300. -50 Atack Speed por 0.6 segundos\n80% Movement Slow por 0.6 segundos.
 
 // Ability_DoctorRepulsor4
 Ability_DoctorRepulsor4_name									Ludicrous Speed
@@ -1354,6 +1357,9 @@ Ability_DoctorRepulsor4_description								Doctor Repulsor coloca o seu veículo
 Ability_DoctorRepulsor4_IMPACT_effect							Viaja à {1250,1875,2500} de velocidade em direção do local alvo. Custa 10 + 1% da Mana Máxima por cada 100 unidades viajadas. Se a mana chegar a 0, o Doctor para imediatamente.\n\nQualquer unidade que ele passar recebe {8,12,16} de dano Mágico por cada 100 unidades viajadas.\n\nThe Doctor fica invulnerável durante o voo.
 
 Ability_DoctorRepulsor4_tooltip_flavor							We've gone into Plaid!
+
+// State_DoctorRepulsor_Ability4
+State_DoctorRepulsor_Ability4_name								Ludicrous Speed
 
 // Hero_DoctorRepulsor
 Hero_DoctorRepulsor_name										Doctor Repulsor
