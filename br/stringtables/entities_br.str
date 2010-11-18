@@ -1389,7 +1389,7 @@ Ability_DwarfMagi2_description:DwarfMagi_Ability4_2				O Blacksmith joga um mart
 Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_2			Aplica Flaming Hammer no alvo por 7.5 segundos.
 Ability_DwarfMagi2_description:DwarfMagi_Ability4_3				O Blacksmith joga um martelo flamejante no inimigo alvo que explode no impacto, ele deixa a unidade inimiga e os inimigos próximos pegando fogo. Inimigos afetados recebem dano ao longo do tempo, têm sua velocidade de movimento reduzida e sua armadura mágica também reduzida.
 Ability_DwarfMagi2_IMPACT_effect:DwarfMagi_Ability4_3			Aplica Flaming Hammer no alvo por 7.5 segundos.
-Ability_DwarfMagi2_tooltip_flavor								Vamos ficar tontos!
+Ability_DwarfMagi2_tooltip_flavor								Vamos ficar bêbados!
 
 // State_DwarfMagi_Ability2
 State_DwarfMagi_Ability2_name									Burning
