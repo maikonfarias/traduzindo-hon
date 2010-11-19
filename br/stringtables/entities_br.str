@@ -1459,7 +1459,7 @@ State_Ebulus_Ability2_FRAME_effect								{5,10,15,20} de dano Mágico por segun
 Ability_Ebulus3_name											Toxin Ward
 Ability_Ebulus3_description										Slither invoca uma ward no local alvo que irá atacar inimigos nas proximidades, causando um pouco dano e deixando-os mais devagar. A ward é imune a Magias.
 Ability_Ebulus3_effect_header									Efeito de Status
-Ability_Ebulus3_IMPACT_effect									usa uma carga para invocar uma Poison Ward na posição alvo. Uma carga é recebida a cada 5 segundos com um máximo de {1,1,2,2} cargas.\n\nPoison Wards têm {60,110,160,210} de Vida, 40 segundos de vida, causam {9-11,17-21,26-32, 34-42} de dano, e aplica -25 de Redução de Velocidade de Movimento por 5 segundos.
+Ability_Ebulus3_IMPACT_effect									usa uma carga para invocar uma Toxin Ward na posição alvo. Uma carga é recebida a cada 5 segundos com um máximo de {1,1,2,2} cargas.\n\nToxin Wards têm {60,110,160,210} de Vida, 40 segundos de vida, causam {9-11,17-21,26-32, 34-42} de dano, e aplica -25 de Redução de Velocidade de Movimento por 5 segundos.
 Ability_Ebulus3_tooltip_flavor									Me alimente Seymour.
 
 // Gadget_Ebulus_Ability3
@@ -1471,10 +1471,10 @@ State_Ebulus_Ward_Attack_name									Envenenado
 // Ability_Ebulus4
 Ability_Ebulus4_name											Poison Burst
 Ability_Ebulus4_description										Slither expele veneno em todas as direções. Inimigos que forem acertados pelo anel de veneno serão infectados, recebendo dano ao longo do tempo. A infecção não é letal e, por isso, não irá drenar a Vida dos alvos para menos de 1 de Vida.
-Ability_Ebulus4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeitos do Staff:^* Aumenta o dano por segundo de {36,58,81} para {58,81,108}.
+Ability_Ebulus4_description2									^930Esta habilidade pode ser melhorada pelo ^930Staff ^930of ^930the ^930Master.^*^*^*^*^*\n\n^gEfeitos do Staff:^* Aumenta o dano por segundo de {36,58,81} para {58,81,108}. Reduz o cooldown no level 3 para 60 segundos.
 Ability_Ebulus4_effect_header									Efeitos de Acidic Poison
 Ability_Ebulus4_effect_header:ult_boost							Efeitos de Acidic Poison
-Ability_Ebulus4_IMPACT_effect									Aplica Acidic Poison nos alvos na área por 12 segundos.
+Ability_Ebulus4_IMPACT_effect									Aplica Acidic Poison nos alvos no radius de 950 por 12 segundos.
 Ability_Ebulus4_name:ult_boost									Poison Eruption (^gMelhorado^*)
 Ability_Ebulus4_description2:ult_boost							Esta habilidade foi melhorada pelo Staff of the Master.
 
