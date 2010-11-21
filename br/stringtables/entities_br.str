@@ -1498,7 +1498,7 @@ Ability_Electrician1_tooltip_flavor								Desliguem os freios!
 
 // Gadget_Electrician_Ability1
 
-// State_Electrician_Ability1
+// State_Electrician_Ability1									Static Grip
 
 // State_Electrician_Ability1_Areadamage
 State_Electrician_Ability1_Areadamage_name						Static Grip
@@ -1513,7 +1513,7 @@ Ability_Electrician2_ACTIVATE_COST_effect						^cUtiliza até 20% da Mana^*
 Ability_Electrician2_name										Electric Shield
 Ability_Electrician2_description								O Electrician usa eletricidade para criar um escudo em volta de si mesmo. O escudo irá negar uma porção de dano recebido.
 Ability_Electrician2_effect_header								Efeitos de Electric Shield
-Ability_Electrician2_IMPACT_effect								Aplica um escudo em si por 12 segundos. O Pode da Mana do escudo é igual à {0.5,0.60,0.8,1.33}x da mana usada ao utilizá-la.\n\n Causa {15,30,45,60} de Dano Mágico por segundo em uma área de 300 em volta do Electrician enquanto ativo.
+Ability_Electrician2_IMPACT_effect								Aplica um escudo em si por 12 segundos. O Pode da Mana do escudo é igual à {0.5,0.60,0.8,1.33}x da mana usada ao utilizá-la.\n\n Aplica uma Electric Aura em 300 radius em volta do Electrician quando ativa que causa {15,30,45,60} de Dano Mágico por segundo.
 Ability_Electrician2_tooltip_flavor								Não coloque um garfo em mim.
 
 // State_Electrician_Ability2
@@ -1526,7 +1526,7 @@ State_Electrician_Ability2_Areadamage_FRAME_effect				{15,30,45,60} dano Mágico
 
 // Ability_Electrician3
 Ability_Electrician3_name										Energy Absorption
-Ability_Electrician3_description								O Electrician descarrega sua energia em sua volta. Inimigos próximos recebem dano e tem sua Mana drenada. Para cada inimigo com a Mana drenada, o Electrician absorve um pouco de mana Mana and ganha um bônus de Velocidade de Movimento.
+Ability_Electrician3_description								O Electrician descarrega sua energia em sua volta. Inimigos próximos recebem dano e tem sua Mana drenada. Para cada inimigo com a Mana drenada, o Electrician absorve um pouco de mana Mana and ganha um bônus de 50 de Movement Speed.
 Ability_Electrician3_effect_header								Efeitos de Energy Absorption
 Ability_Electrician3_IMPACT_effect								Inimigos na área recebem {85,165,225,300} de dano Mágico, drenando {3,6,9,12}% de sua Mana máxima. Aplica Energy Absorption em si por 7 segundos.\n\nSe o primeiro alvo for um Creep, aplica 3 cargas iniciais. Se o primeiro alvo for um Hero, aplica-se 5 cargas.\n\nAplica uma carga extra por cada Creep acertado e três cargas extras por Hero adicional acertado.\n\nRegenera {12,16,20,24} de Mana por carga.
 Ability_Electrician3_tooltip_flavor								Eu tive um blackout!
@@ -1543,7 +1543,7 @@ Ability_Electrician4_effect_header2								Efeitos de Shocked
 Ability_Electrician4_IMPACT_effect								Remove debuffs da unidade aliada alvo ou remove buffs da unidade inimiga alvo. Aplica Cleansed nos aliados ou Shocked nos inimigos por 5 segundos.\n\nCausa {600,800,1000} de dano à unidades conjuradas.
 Ability_Electrician4_name:ult_boost								Cleansing Storm (^gMelhorado^*)
 Ability_Electrician4_description2:ult_boost						Esta habilidade foi melhorada pelo Staff of the Master.\n\n^gPassa para mais 2 alvos adicionais.^*
-Ability_Electrician4_IMPACT_effect:ult_boost					Remove debuffs da unidade aliada alvo ou remove buffs da unidade inimiga alvo. Aplica Cleansed nos aliados ou Shocked nos inimigos por 5 segundos..\n\nPula, instantâneamente, para os 2 alvos válidos. Se o alvo for um hero, ele irá pular para outro hero apenas. Se o alvo não for um hero, ele irá pular para o alvo válido mais próximo.\n\nCausa {600,800,1000} de dano à unidades conjuradas.
+Ability_Electrician4_IMPACT_effect:ult_boost					Remove debuffs da unidade aliada alvo ou remove buffs da unidade inimiga alvo. Aplica Cleansed nos aliados ou Shocked nos inimigos por 5 segundos..\n\nAo usar, instantâneamente remove debuffs em si e aplica Clensed para si por 5 segundos.\n\nCausa {600,800,1000} de dano à unidades conjuradas (summon).
 
 Ability_Electrician4_tooltip_flavor								Não me irrite parceiro
 
