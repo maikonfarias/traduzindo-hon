@@ -1521,7 +1521,7 @@ State_Electrician_Ability2_name									Electric Shield
 State_Electrician_Ability2_description							Nega o dano recebido em troca de Mana.
 State_Electrician_Ability2_FRAME_effect							50% do dano recebido é absorvido. Total absorvido é de {0.5,0.60,0.8,1.33}x da Mana consumida para usá-lo.
 
-State_Electrician_Ability2_Areadamage							Electric Aura
+State_Electrician_Ability2_Areadamage_name							Electric Aura
 State_Electrician_Ability2_Areadamage_FRAME_effect				{15,30,45,60} dano Mágico por segundo
 
 // Ability_Electrician3
@@ -1563,17 +1563,18 @@ Hero_Electrician_description									Os melhores espiões da Legion aprenderam a
 Ability_Engineer1_name											The Keg
 Ability_Engineer1_description									Nunca indo para a batalha sem um barril de cerveja bem cheio, O Engineer também sabe que isto pode ser usado como um poderoso explosivo. Quando usado em batalha, ele causa stun e dano nos inimigos que estiverem na área de impacto. Ele bebe essa coisa.
 Ability_Engineer1_IMPACT_effect									Joga um barril na localização alvo, o impacto tem um delay de 1 segundo. Unidades inimigas no alcance recebem {100,150,200,250} de dano Mágico, recebem stun de {1.25,1.5,1.75,2} segundos, e são empurrados 250 unidades do ponto de impacto.\n\nSe o Engineer estiver no raio da explosão, ele também será empurrado, mas não receberá o stun.
-Ability_Engineer1_tooltip_flavor								Ele coloca cabelo no seu peito!
+Ability_Engineer1_tooltip_flavor								É uma bebida muito forte!
 
 // Ability_Engineer2
 Ability_Engineer2_name											Steam Turret
 Ability_Engineer2_description									A Steam Turret é uma maravilha da tecnologia de tiro rápido. Liberado no local de sua escolha e em qualquer direção que quiser, ela dispara rajadas de tiros que lerdam inimigos que ficarem no cone.
 Ability_Engineer2_effect_header									Efeitos de Suppressed
-Ability_Engineer2_IMPACT_effect									Cria uma Steam Turret na posição alvo virada para a direção do vetor. Atira 5 balas por segundo por 6 segundos em um cone de 800 de distância e 400 de raio.\n\nBalas atingem todos os inimigos em que elas tocam, causando {25/40/55/70} de dano Físico, empurrando-os para longe da torre em 25 unidades e aplicando uma redução de velocidade de movimento acumulativa de 7%.\n\nMáximo de redução é 5 cargas ou 35% do movimento.\n\nQualquer alvo só poderá receber dano de, no máximo, 8 balas e a torre morre em 3 golpes.
-Ability_Engineer2_tooltip_flavor								Minha torre é minha melhor amiga.
+Ability_Engineer2_IMPACT_effect									Cria uma Steam Turret na posição alvo virada para a direção do vetor. Atira 5 balas por segundo por 6 segundos em um cone de 800 de distância e 400 de raio.\n\nBalas atingem todos os inimigos em que elas tocam, causando {25,40,55,70} de dano Físico, empurrando-os para longe do turret em {10,15,20,25} units e aplicando um Surpressed charge\nUma unidade pode ser atingina no máximo por 5 balas.
+Ability_Engineer2_tooltip_flavor								Minha turret é minha melhor amiga.
 
 // State_Engineer_Ability2_Suppression
 State_Engineer_Ability2_Suppression_name						Suppressed
+State_Engineer_Ability2_Suppression_FRAME_effect				Max of 5 charges
 
 // Pet_Engineer_Ability2
 Pet_Engineer_Ability2_name										Steam Turret
@@ -1582,7 +1583,13 @@ Pet_Engineer_Ability2_name										Steam Turret
 Ability_Engineer3_name											Tinker
 Ability_Engineer3_description									O Engineer pode manipular facilmente o funcionamente interno de qualquer unidade mecânica ou Torre, Trabalha neles para aumenta ou diminuir o seu funcionamente por um curto periodo de tempo.
 Ability_Engineer3_IMPACT_effect									Diminui a cooldown passivamente e o custo de mana da The Keg em {7,14,21,28}%.\n\nAo usar, melhora unidades mecânicas por 15 segundos nas seguintes maneiras dependendo se o alvo for um aliado ou inimigo e a cooldown da base de ataque da Turret para {15,20,25,30}%.\n\nAo usar, impulsiona unidades mecânicas por 15 segundos dependendo se o alvo é aliado ou inimigo:\n\n^yTorres:^*\nÂ±{10,20,30,40} Velocidade de Ataque\nÂ±{3,5,7,9} Armadura\n\n^ySiege:^*\nÂ±{10,20,30,40} Velocidade de Ataque\nÂ±{20,40,60,80}% dano\n-66% dano recebido (se aliado)\nSe usado no siege inimigo, destrói este após o término do debuff, causando {50,75,100,125} de dano Mágico em um raio de 600 em volta do alvo.
-Ability_Engineer3_tooltip_flavor								Eu sou bom nisso, Eu prometo.
+Ability_Engineer3_tooltip_flavor								Eu sou bom nisso, eu prometo.
+
+// State_Engineer_Ability3
+State_Engineer_Ability3_Allies_name								Tinkered
+State_Engineer_Ability3_Ally_Tower_name							Tinkered
+State_Engineer_Ability3_Enemies_name							Tinkered
+State_Engineer_Ability3_Enemy_Tower_name						Tinkered
 
 // Ability_Engineer4
 Ability_Engineer4_name											Energy Field
