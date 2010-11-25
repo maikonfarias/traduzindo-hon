@@ -1664,7 +1664,7 @@ Ability_Fairy1_tooltip_flavor									Somos todos um casal de ervilhas em um cas
 // Ability_Fairy2
 Ability_Fairy2_name												Grace of the Nymph
 Ability_Fairy2_description										Nymphora abençoa o aliado alvo com sua graça, dando-os Mana ao longo de 4 segundos.
-Ability_Fairy2_IMPACT_effect									Recupera {75,150,225,300} da Mana do alvo durante 4 segundos. Cancelado ao receber dano de outros jogadores.
+Ability_Fairy2_IMPACT_effect									Aumenta a Velocidade de Movimento do alvo em 25/50/75/100 e recupera {75,150,225,300} da Mana do alvo durante 4 segundos. Cancelado ao receber dano de outros jogadores.
 Ability_Fairy2_tooltip_flavor									Tome um pouco de pó de pequenas fadas!
 
 // State_Fairy_Ability2
@@ -1675,7 +1675,7 @@ State_Fairy_Ability2_name										Enchanted
 Ability_Fairy3_name												Nymphora's Zeal
 Ability_Fairy3_description										Atira um wisp para causar dano e stunar inimigos em uma linha. Cada inimigo pêgo é stunado e recebe dano.
 Ability_Fairy3_effect_header									Efeitos de Nymphora's Zeal
-Ability_Fairy3_IMPACT_effect									Lança um projétil que impacta nos alvos em que tocar em uma linha de 1200 unidades, stunando-os por {0.75,1,1.25,1.5} segundo(s) e causando {50,85,120,155} de dano Mágico neles, então o projétil retorna para você. Unidades podem ser impactadas duas vezes, uma quando o projétil está sendo lançado e outra quando ele estiver retornando. Aplica Nymphora's Zeal em si por 8 segundos com 1 carga bônus por impacto. Máximo de 10 cargas.
+Ability_Fairy3_IMPACT_effect									Lança um projétil que impacta nos alvos em que tocar em uma linha de 900 unidades, stunando-os por {0.75,1,1.25,1.5} segundo(s) e causando {50,85,120,155} de dano Mágico neles, então o projétil retorna para você. Unidades podem ser impactadas duas vezes, uma quando o projétil está sendo lançado e outra quando ele estiver retornando. Aplica Nymphora's Zeal em si por 8 segundos com 1 carga bônus por impacto. Máximo de 10 cargas.
 Ability_Fairy3_tooltip_flavor									Ele vai para as duas direções.
 
 // State_Fairy_Ability3
@@ -1699,9 +1699,9 @@ State_Fairy_Ability4_name										Being Teleported!
 // Ability_Fairy4_TPIn
 Ability_Fairy4_TPIn_name										Nymph's Call
 Ability_Fairy4_TPIn_description									Nymphora canaliza seu poder através do Staff of the Master, ganhando a habilidade de invocar um aliado para o seu lado.
-Ability_Fairy4_TPIn_description2								Esta habilidade divide o cooldown com outros Teleport.
 Ability_Fairy4_TPIn_effect_header								Efeito do Nymph's Call
 Ability_Fairy4_TPIn_IMPACT_effect								Teleporta qualquer hero aliado para a Nymphora após uma concentração de {5.5,4.5,3.5} segundos
+Ability_Fairy4_TPIn_tooltip_flavor								Hero aliado, VOLTE!
 
 // Hero_Fairy
 Hero_Fairy_name													Nymphora
